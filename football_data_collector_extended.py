@@ -6,17 +6,6 @@ from datetime import datetime, date, timedelta
 import logging
 from typing import Dict, List, Optional
 
-# Configuration du logging pour debug
-logging.basicConfig(
-    level=logging.INFO,
-    format='%(asctime)s - %(levelname)s - %(message)s',
-    handlers=[
-        url = f"{self.base_url}/{endpoint}"
-        
-        try:
-            logger.info(f"Requête API: {endpoint} avec params: {params}")
-            response = requests.get(url, headers=self.headers, params=params)
-            
             # Vérification du statut HTTP
             if response.status_code == 200:
                 data = response.json()
