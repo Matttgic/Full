@@ -6,6 +6,102 @@ from datetime import datetime, date, timedelta
 import logging
 from typing import Dict, List, Optional
 
+# Configuration du logging pour debug
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(levelname)s - %(message)s',
+    handlers=[
+        logging.FileHandler('football_data.log'),
+        logging.StreamHandler()
+    ]
+)
+logger = logging.getLogger(__name__)
+
+class ExtendedFootballDataCollector:
+    """
+    Collecteur de données football pour les nouvelles ligues
+    Collecte seulement les ligues qui n'ont pas encore de fichier CSV
+    """
+    
+    def __init__(self, rapidapi_key: str):
+        """
+        Initialise le collecteur avec la clé RapidAPI
+        
+        Args:
+            rapidapi_key (str): Clé d'API RapidAPI
+        """
+        self.api_key = rapidapi_key
+        self.base_url = "https://api-football-v1.p.rapidapi.com/v3"
+        self.headers = {
+            'x-rapidapi-host': 'api-football-v1.p.rapidapi.com',
+            'x-rapidapi-key': self.api_key
+        }
+        
+        # Configuration des nouvelles ligues à ajouter
+        self.new_leagues = {
+            'NED1': {'id': 88, 'name': 'Eredivisie', 'country': 'Netherlands'},
+            'POR1': {'id': 94, 'name': 'Primeira Liga', 'country': 'Portugal'},
+            'BEL1': {'id': 144, 'name': 'Jupiler Pro League', 'country': 'Belgium'},
+            'ENG2': {'id': 40, 'name': 'Championship', 'country': 'England'},
+            'FRA2': {'id': 62, 'name': 'Ligue 2', 'country': 'France'},
+            'ITA2': {'id': 136, 'name': 'Serie B', 'country': 'Italy'},
+            'GER2': {'id': 79, 'name': '2. Bundesliga', 'country': 'Germany'},
+            'SPA2': {'id': 141, 'name': 'Segunda División', 'country': 'Spain'},
+            'TUR1': {'id': 203, 'name': 'Süper Lig', 'country': 'Turkey'},
+            'SAU1': {'id': 307, 'name': 'Saudi Pro League', 'country': 'Saudi Arabia'}
+        }
+        
+        # Période de collecte : 365 derniers jours
+        self.end_date = datetime.now().date()
+        self.start_date = self.end_date - timedelta(days=365)
+        
+        # Saisons à récupérer (2024 et 2025)
+        self.seasons_to_collect = [2024, 2025]
+        
+        # Création du dossier data s'il n'existe pas
+        self.data_folder = "data"
+        if not os.path.exists(self.data_folder):
+            os.makedirs(self.data_folder)
+            logger.info(f"Dossier '{self.data_folder}' créé")
+    
+    def check_existing_files(self) -> Dict[str, bool]:
+        """
+        Vérifie quels fichiers CSV existent déjà
+        
+        Returns:
+            Dict[str, bool]: Mapping ligue -> fichier existe
+        """
+        existing_files = {}
+        
+        for league_code in self.new_leagues.keys():
+            csv_path = os.path.join(self.data_folder, f"{league_code}.csv")
+            exists = os.path.exists(csv_path)
+            existing_files[league_code] = exists
+            
+            if exists:
+                logger.info(f"✅ {league_code}.csv existe déjà - IGNORÉ")
+            else:
+                logger.info(f"🆕 {league_code}.csv à créer")
+        
+        return existing_files
+    
+    def make_api_request(self, endpoint: str, params: Dict) -> Optional[Dict]:
+        """
+        Effectue une requête à l'API avec gestion d'erreurs
+        
+        Args:
+            endpoint (str): Endpoint de l'API
+            params (Dict): Paramètres de la requête
+            
+        Returns:
+            Optional[Dict]: Réponse JSON ou None en cas d'erreur
+        """
+        url = f"{self.base_url}/{endpoint}"
+        
+        try:
+            logger.info(f"Requête API: {endpoint} avec params: {params}")
+            response = requests.get(url, headers=self.headers, params=params)
+            
             # Vérification du statut HTTP
             if response.status_code == 200:
                 data = response.json()
@@ -414,88 +510,6 @@ def main():
     collector.run_extended_collection()
 
 if __name__ == "__main__":
-    main()logging.FileHandler('football_data.log'),
-        logging.StreamHandler()
-    ]
-)
-logger = logging.getLogger(__name__)
-
-class ExtendedFootballDataCollector:
-    """
-    Collecteur de données football pour les nouvelles ligues
-    Collecte seulement les ligues qui n'ont pas encore de fichier CSV
-    """
-    
-    def __init__(self, rapidapi_key: str):
-        """
-        Initialise le collecteur avec la clé RapidAPI
-        
-        Args:
-            rapidapi_key (str): Clé d'API RapidAPI
-        """
-        self.api_key = rapidapi_key
-        self.base_url = "https://api-football-v1.p.rapidapi.com/v3"
-        self.headers = {
-            'x-rapidapi-host': 'api-football-v1.p.rapidapi.com',
-            'x-rapidapi-key': self.api_key
-        }
-        
-        # Configuration des nouvelles ligues à ajouter
-        self.new_leagues = {
-            'NED1': {'id': 88, 'name': 'Eredivisie', 'country': 'Netherlands'},
-            'POR1': {'id': 94, 'name': 'Primeira Liga', 'country': 'Portugal'},
-            'BEL1': {'id': 144, 'name': 'Jupiler Pro League', 'country': 'Belgium'},
-            'ENG2': {'id': 40, 'name': 'Championship', 'country': 'England'},
-            'FRA2': {'id': 62, 'name': 'Ligue 2', 'country': 'France'},
-            'ITA2': {'id': 136, 'name': 'Serie B', 'country': 'Italy'},
-            'GER2': {'id': 79, 'name': '2. Bundesliga', 'country': 'Germany'},
-            'SPA2': {'id': 141, 'name': 'Segunda División', 'country': 'Spain'},
-            'TUR1': {'id': 203, 'name': 'Süper Lig', 'country': 'Turkey'},
-            'SAU1': {'id': 307, 'name': 'Saudi Pro League', 'country': 'Saudi Arabia'}
-        }
-        
-        # Période de collecte : 365 derniers jours
-        self.end_date = datetime.now().date()
-        self.start_date = self.end_date - timedelta(days=365)
-        
-        # Saisons à récupérer (2024 et 2025)
-        self.seasons_to_collect = [2024, 2025]
-        
-        # Création du dossier data s'il n'existe pas
-        self.data_folder = "data"
-        if not os.path.exists(self.data_folder):
-            os.makedirs(self.data_folder)
-            logger.info(f"Dossier '{self.data_folder}' créé")
-    
-    def check_existing_files(self) -> Dict[str, bool]:
-        """
-        Vérifie quels fichiers CSV existent déjà
-        
-        Returns:
-            Dict[str, bool]: Mapping ligue -> fichier existe
-        """
-        existing_files = {}
-        
-        for league_code in self.new_leagues.keys():
-            csv_path = os.path.join(self.data_folder, f"{league_code}.csv")
-            exists = os.path.exists(csv_path)
-            existing_files[league_code] = exists
-            
-            if exists:
-                logger.info(f"✅ {league_code}.csv existe déjà - IGNORÉ")
-            else:
-                logger.info(f"🆕 {league_code}.csv à créer")
-        
-        return existing_files
-    
-    def make_api_request(self, endpoint: str, params: Dict) -> Optional[Dict]:
-        """
-        Effectue une requête à l'API avec gestion d'erreurs
-        
-        Args:
-            endpoint (str): Endpoint de l'API
-            params (Dict): Paramètres de la requête
-            
-        Returns:
+    main() ns:
             Optional[Dict]: Réponse JSON ou None en cas d'erreur
         """
