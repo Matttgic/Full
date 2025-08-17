@@ -455,12 +455,16 @@ def main():
     """
     Fonction principale - Point d'entrée du script
     """
-    # ⚠️ REMPLACE 'YOUR_RAPIDAPI_KEY' par ta vraie clé RapidAPI
-    RAPIDAPI_KEY = "YOUR_RAPIDAPI_KEY"
+    # Récupération de la clé API depuis les variables d'environnement (GitHub Secrets)
+    import os
+    RAPIDAPI_KEY = os.environ.get('RAPIDAPI_KEY')
     
-    if RAPIDAPI_KEY == "YOUR_RAPIDAPI_KEY":
-        logger.error("⚠️ Veuillez configurer votre clé RapidAPI dans la variable RAPIDAPI_KEY")
+    if not RAPIDAPI_KEY:
+        logger.error("⚠️ Clé RAPIDAPI_KEY non trouvée dans les variables d'environnement")
+        logger.error("💡 Assurez-vous que le secret RAPIDAPI_KEY est configuré dans GitHub")
         return
+    
+    logger.info("✅ Clé API récupérée depuis les variables d'environnement")
     
     # Création du collecteur
     collector = FootballDataCollector(RAPIDAPI_KEY)
