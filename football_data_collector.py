@@ -2,7 +2,7 @@ import requests
 import pandas as pd
 import os
 import time
-from datetime import datetime, date
+from datetime import datetime, date, timedelta
 import logging
 from typing import Dict, List, Optional
 
@@ -46,8 +46,9 @@ class FootballDataCollector:
             'SPA1': {'id': 140, 'name': 'La Liga', 'country': 'Spain'}
         }
         
-        # Saison actuelle (à ajuster selon la période)
-        self.current_season = 2024
+        # Période de collecte : 365 derniers jours
+        self.end_date = datetime.now().date()
+        self.start_date = self.end_date - timedelta(days=365)
         
         # Création du dossier data s'il n'existe pas
         self.data_folder = "data"
@@ -88,22 +89,27 @@ class FootballDataCollector:
             logger.error(f"Erreur de parsing JSON: {e}")
             return None
     
-    def get_league_fixtures(self, league_id: int, season: int) -> List[Dict]:
+    def get_league_fixtures_by_date_range(self, league_id: int) -> List[Dict]:
         """
-        Récupère tous les matchs d'une ligue pour une saison
+        Récupère tous les matchs d'une ligue pour les 365 derniers jours
         
         Args:
             league_id (int): ID de la ligue
-            season (int): Année de la saison
             
         Returns:
             List[Dict]: Liste des matchs
         """
-        logger.info(f"Récupération des matchs pour la ligue {league_id}, saison {season}")
+        logger.info(f"Récupération des matchs pour la ligue {league_id}")
+        logger.info(f"Période: {self.start_date} à {self.end_date} (365 derniers jours)")
+        
+        # Conversion des dates au format requis par l'API (YYYY-MM-DD)
+        from_date = self.start_date.strftime('%Y-%m-%d')
+        to_date = self.end_date.strftime('%Y-%m-%d')
         
         params = {
             'league': league_id,
-            'season': season
+            'from': from_date,
+            'to': to_date
         }
         
         data = self.make_api_request('fixtures', params)
@@ -111,6 +117,7 @@ class FootballDataCollector:
         if data and 'response' in data:
             fixtures = data['response']
             logger.info(f"{len(fixtures)} matchs récupérés pour la ligue {league_id}")
+            logger.info(f"Période couverte: du {from_date} au {to_date}")
             return fixtures
         else:
             logger.warning(f"Aucun match récupéré pour la ligue {league_id}")
@@ -192,9 +199,10 @@ class FootballDataCollector:
         league_id = league_info['id']
         
         logger.info(f"Début de collecte pour {league_info['name']} ({league_code})")
+        logger.info(f"Recherche des matchs des 365 derniers jours")
         
-        # Récupération des matchs
-        fixtures = self.get_league_fixtures(league_id, self.current_season)
+        # Récupération des matchs par plage de dates
+        fixtures = self.get_league_fixtures_by_date_range(league_id)
         
         if not fixtures:
             logger.warning(f"Aucun match trouvé pour {league_code}")
@@ -330,7 +338,11 @@ class FootballDataCollector:
             
             # Affichage d'un aperçu
             logger.info(f"Aperçu des colonnes: {list(df.columns)}")
-            logger.info(f"Période des données: {df['date'].min()} à {df['date'].max()}")
+            if 'date' in df.columns and len(df) > 0:
+                logger.info(f"Période des données: {df['date'].min()} à {df['date'].max()}")
+                logger.info(f"Nombre de matchs: {len(df)}")
+            else:
+                logger.info("Aucune donnée de date disponible")
             
         except Exception as e:
             logger.error(f"Erreur lors de la sauvegarde de {filepath}: {e}")
@@ -339,7 +351,8 @@ class FootballDataCollector:
         """
         Lance la collecte complète pour toutes les ligues du Big 5
         """
-        logger.info("=== DÉBUT DE LA COLLECTE BIG 5 ===")
+        logger.info("=== DÉBUT DE LA COLLECTE BIG 5 (365 DERNIERS JOURS) ===")
+        logger.info(f"Période de collecte: {self.start_date} à {self.end_date}")
         start_time = datetime.now()
         
         for league_code in self.big5_leagues.keys():
@@ -384,4 +397,4 @@ def main():
     collector.run_full_collection()
 
 if __name__ == "__main__":
-    main()
+    main() 
