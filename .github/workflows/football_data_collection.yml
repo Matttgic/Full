@@ -39,17 +39,7 @@ jobs:
       env:
         RAPIDAPI_KEY: ${{ secrets.RAPIDAPI_KEY }}
       run: |
-        # Modification du script pour utiliser la variable d'environnement
-        python -c "
-        import os
-        import sys
-        
-        # Import du script principal
-        exec(open('football_data_collector.py').read().replace(
-            'RAPIDAPI_KEY = \"YOUR_RAPIDAPI_KEY\"',
-            'RAPIDAPI_KEY = os.environ.get(\"RAPIDAPI_KEY\")'
-        ))
-        "
+        python football_data_collector.py
     
     # Étape 6: Commit et push des nouveaux fichiers CSV
     - name: Commit and push changes
