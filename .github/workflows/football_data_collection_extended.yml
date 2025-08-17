@@ -1,5 +1,5 @@
 # .github/workflows/football_data_collection_extended.yml
-name: Football Extended Data Collection (Big 5 + 10 Ligues incl. Saudi Pro League)
+name: Football Extended Data Collection (10 nouvelles ligues)
 
 # Déclenchement manuel uniquement pour cette collecte complète
 on:
@@ -52,7 +52,7 @@ jobs:
         if git diff --staged --quiet; then
           echo "Aucun changement à committer"
         else
-          git commit -m "🚀 Collecte complète - Big 5 + 10 ligues (incl. Saudi Pro League) - $(date '+%Y-%m-%d')"
+          git commit -m "🚀 Collecte nouvelles ligues - 10 ligues européennes + Saudi Pro League - $(date '+%Y-%m-%d')"
           git push
         fi
     
