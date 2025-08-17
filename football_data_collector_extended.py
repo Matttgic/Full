@@ -17,10 +17,10 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-class ExtendedFootballDataCollector:
+class FootballDataCollector:
     """
     Collecteur de données football pour les nouvelles ligues
-    Collecte seulement les ligues qui n'ont pas encore de fichier CSV
+    Récupère les statistiques des matchs et les sauvegarde en CSV
     """
     
     def __init__(self, rapidapi_key: str):
@@ -37,7 +37,7 @@ class ExtendedFootballDataCollector:
             'x-rapidapi-key': self.api_key
         }
         
-        # Configuration des nouvelles ligues à ajouter
+        # Configuration des nouvelles ligues à collecter
         self.new_leagues = {
             'NED1': {'id': 88, 'name': 'Eredivisie', 'country': 'Netherlands'},
             'POR1': {'id': 94, 'name': 'Primeira Liga', 'country': 'Portugal'},
@@ -63,27 +63,6 @@ class ExtendedFootballDataCollector:
         if not os.path.exists(self.data_folder):
             os.makedirs(self.data_folder)
             logger.info(f"Dossier '{self.data_folder}' créé")
-    
-    def check_existing_files(self) -> Dict[str, bool]:
-        """
-        Vérifie quels fichiers CSV existent déjà
-        
-        Returns:
-            Dict[str, bool]: Mapping ligue -> fichier existe
-        """
-        existing_files = {}
-        
-        for league_code in self.new_leagues.keys():
-            csv_path = os.path.join(self.data_folder, f"{league_code}.csv")
-            exists = os.path.exists(csv_path)
-            existing_files[league_code] = exists
-            
-            if exists:
-                logger.info(f"✅ {league_code}.csv existe déjà - IGNORÉ")
-            else:
-                logger.info(f"🆕 {league_code}.csv à créer")
-        
-        return existing_files
     
     def make_api_request(self, endpoint: str, params: Dict) -> Optional[Dict]:
         """
@@ -433,28 +412,18 @@ class ExtendedFootballDataCollector:
         except Exception as e:
             logger.error(f"❌ Erreur lors de la sauvegarde de {filepath}: {e}")
     
-    def run_extended_collection(self) -> None:
+    def run_full_collection(self) -> None:
         """
-        Lance la collecte pour les nouvelles ligues seulement
+        Lance la collecte complète pour toutes les nouvelles ligues
         """
-        logger.info("🚀 === DÉBUT DE LA COLLECTE ÉTENDUE (NOUVELLES LIGUES) ===")
+        logger.info("🚀 === DÉBUT DE LA COLLECTE NOUVELLES LIGUES (365 DERNIERS JOURS) ===")
         logger.info(f"📅 Période de collecte: {self.start_date} à {self.end_date}")
         logger.info(f"🏆 Saisons analysées: {self.seasons_to_collect}")
         start_time = datetime.now()
         
-        # Vérification des fichiers existants
-        existing_files = self.check_existing_files()
-        leagues_to_process = [code for code, exists in existing_files.items() if not exists]
-        
-        if not leagues_to_process:
-            logger.info("✅ Toutes les ligues ont déjà leurs fichiers CSV. Rien à faire.")
-            return
-        
-        logger.info(f"🎯 Ligues à traiter: {leagues_to_process}")
-        
         successful_collections = 0
         
-        for league_code in leagues_to_process:
+        for league_code in self.new_leagues.keys():
             try:
                 logger.info(f"\n🏟️ --- Collecte de {league_code} ---")
                 
@@ -477,22 +446,21 @@ class ExtendedFootballDataCollector:
         end_time = datetime.now()
         duration = end_time - start_time
         
-        logger.info(f"\n🎉 === COLLECTE ÉTENDUE TERMINÉE ===")
+        logger.info(f"\n🎉 === COLLECTE TERMINÉE ===")
         logger.info(f"⏱️ Durée totale: {duration}")
-        logger.info(f"✅ Nouvelles ligues traitées: {successful_collections}/{len(leagues_to_process)}")
+        logger.info(f"✅ Ligues traitées avec succès: {successful_collections}/{len(self.new_leagues)}")
         logger.info(f"📁 Fichiers générés dans le dossier '{self.data_folder}'")
         
         # Résumé des fichiers créés
         if os.path.exists(self.data_folder):
             csv_files = [f for f in os.listdir(self.data_folder) if f.endswith('.csv')]
-            logger.info(f"📊 Total fichiers CSV: {len(csv_files)}")
-            logger.info(f"📋 Fichiers: {sorted(csv_files)}")
+            logger.info(f"📊 Fichiers CSV créés: {csv_files}")
 
 def main():
     """
     Fonction principale - Point d'entrée du script
     """
-    # Récupération de la clé API depuis les variables d'environnement
+    # Récupération de la clé API depuis les variables d'environnement (GitHub Secrets)
     import os
     RAPIDAPI_KEY = os.environ.get('RAPIDAPI_KEY')
     
@@ -504,12 +472,10 @@ def main():
     logger.info("✅ Clé API récupérée depuis les variables d'environnement")
     
     # Création du collecteur
-    collector = ExtendedFootballDataCollector(RAPIDAPI_KEY)
+    collector = FootballDataCollector(RAPIDAPI_KEY)
     
-    # Lancement de la collecte étendue
-    collector.run_extended_collection()
+    # Lancement de la collecte
+    collector.run_full_collection()
 
 if __name__ == "__main__":
-    main() ns:
-            Optional[Dict]: Réponse JSON ou None en cas d'erreur
-        """
+    main() 
