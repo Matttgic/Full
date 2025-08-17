@@ -50,6 +50,9 @@ class FootballDataCollector:
         self.end_date = datetime.now().date()
         self.start_date = self.end_date - timedelta(days=365)
         
+        # Saisons à récupérer (2024 et 2025)
+        self.seasons_to_collect = [2024, 2025]
+        
         # Création du dossier data s'il n'existe pas
         self.data_folder = "data"
         if not os.path.exists(self.data_folder):
@@ -76,7 +79,13 @@ class FootballDataCollector:
             # Vérification du statut HTTP
             if response.status_code == 200:
                 data = response.json()
-                logger.info(f"Succès - {data.get('results', 0)} résultats récupérés")
+                results_count = data.get('results', 0)
+                logger.info(f"Succès - {results_count} résultats récupérés")
+                
+                # Debug de la réponse si erreurs
+                if 'errors' in data and data['errors']:
+                    logger.warning(f"Erreurs API: {data['errors']}")
+                
                 return data
             else:
                 logger.error(f"Erreur HTTP {response.status_code}: {response.text}")
@@ -89,39 +98,76 @@ class FootballDataCollector:
             logger.error(f"Erreur de parsing JSON: {e}")
             return None
     
-    def get_league_fixtures_by_date_range(self, league_id: int) -> List[Dict]:
+    def get_league_fixtures_multiple_seasons(self, league_id: int) -> List[Dict]:
         """
-        Récupère tous les matchs d'une ligue pour les 365 derniers jours
+        Récupère tous les matchs d'une ligue pour les saisons 2024 et 2025
+        Puis filtre pour garder seulement les 365 derniers jours
         
         Args:
             league_id (int): ID de la ligue
             
         Returns:
-            List[Dict]: Liste des matchs
+            List[Dict]: Liste des matchs filtrés
         """
         logger.info(f"Récupération des matchs pour la ligue {league_id}")
-        logger.info(f"Période: {self.start_date} à {self.end_date} (365 derniers jours)")
+        logger.info(f"Période cible: {self.start_date} à {self.end_date} (365 derniers jours)")
         
-        # Conversion des dates au format requis par l'API (YYYY-MM-DD)
-        from_date = self.start_date.strftime('%Y-%m-%d')
-        to_date = self.end_date.strftime('%Y-%m-%d')
+        all_fixtures = []
         
-        params = {
-            'league': league_id,
-            'from': from_date,
-            'to': to_date
-        }
+        # Récupération pour chaque saison
+        for season in self.seasons_to_collect:
+            logger.info(f"📅 Récupération saison {season} pour la ligue {league_id}")
+            
+            params = {
+                'league': league_id,
+                'season': season
+            }
+            
+            data = self.make_api_request('fixtures', params)
+            
+            if data and 'response' in data:
+                season_fixtures = data['response']
+                logger.info(f"✅ Saison {season}: {len(season_fixtures)} matchs récupérés")
+                all_fixtures.extend(season_fixtures)
+            else:
+                logger.warning(f"❌ Saison {season}: Aucun match récupéré")
+            
+            # Pause entre les saisons pour respecter les limites d'API
+            time.sleep(1)
         
-        data = self.make_api_request('fixtures', params)
+        logger.info(f"📊 Total avant filtrage: {len(all_fixtures)} matchs")
         
-        if data and 'response' in data:
-            fixtures = data['response']
-            logger.info(f"{len(fixtures)} matchs récupérés pour la ligue {league_id}")
-            logger.info(f"Période couverte: du {from_date} au {to_date}")
-            return fixtures
-        else:
-            logger.warning(f"Aucun match récupéré pour la ligue {league_id}")
-            return []
+        # Filtrage par date pour garder les 365 derniers jours
+        filtered_fixtures = []
+        dates_found = []
+        
+        for fixture in all_fixtures:
+            fixture_date_str = fixture.get('fixture', {}).get('date', '')
+            
+            if fixture_date_str:
+                try:
+                    # Parse de la date ISO format (ex: "2024-08-17T15:00:00+00:00")
+                    fixture_date = datetime.fromisoformat(fixture_date_str.replace('Z', '+00:00')).date()
+                    dates_found.append(fixture_date)
+                    
+                    # Vérification si le match est dans notre période de 365 jours
+                    if self.start_date <= fixture_date <= self.end_date:
+                        filtered_fixtures.append(fixture)
+                        
+                except (ValueError, AttributeError) as e:
+                    logger.debug(f"Erreur parsing date '{fixture_date_str}': {e}")
+                    # Si on ne peut pas parser la date, on garde le match par sécurité
+                    filtered_fixtures.append(fixture)
+        
+        # Statistiques sur les dates
+        if dates_found:
+            min_date = min(dates_found)
+            max_date = max(dates_found)
+            logger.info(f"📅 Période des données récupérées: {min_date} à {max_date}")
+        
+        logger.info(f"✅ Total après filtrage (365 derniers jours): {len(filtered_fixtures)} matchs")
+        
+        return filtered_fixtures
     
     def get_fixture_statistics(self, fixture_id: int) -> Optional[Dict]:
         """
@@ -184,57 +230,6 @@ class FootballDataCollector:
         }
         
         return match_data
-    
-    def collect_league_data(self, league_code: str) -> pd.DataFrame:
-        """
-        Collecte toutes les données d'une ligue
-        
-        Args:
-            league_code (str): Code de la ligue (ex: 'ENG1')
-            
-        Returns:
-            pd.DataFrame: DataFrame avec toutes les données de la ligue
-        """
-        league_info = self.big5_leagues[league_code]
-        league_id = league_info['id']
-        
-        logger.info(f"Début de collecte pour {league_info['name']} ({league_code})")
-        logger.info(f"Recherche des matchs des 365 derniers jours")
-        
-        # Récupération des matchs par plage de dates
-        fixtures = self.get_league_fixtures_by_date_range(league_id)
-        
-        if not fixtures:
-            logger.warning(f"Aucun match trouvé pour {league_code}")
-            return pd.DataFrame()
-        
-        processed_matches = []
-        
-        for i, fixture in enumerate(fixtures):
-            logger.info(f"Traitement du match {i+1}/{len(fixtures)} - ID: {fixture.get('fixture', {}).get('id')}")
-            
-            # Traitement des données de base
-            match_data = self.process_fixture_data(fixture)
-            
-            # Ajout des statistiques détaillées si le match est terminé
-            if match_data['status_short'] == 'FT':  # Match terminé
-                fixture_id = match_data['fixture_id']
-                stats = self.get_fixture_statistics(fixture_id)
-                
-                if stats:
-                    # Ajout des statistiques au match_data
-                    match_data.update(self.process_statistics(stats))
-                
-                # Pause pour éviter de surcharger l'API
-                time.sleep(0.5)
-            
-            processed_matches.append(match_data)
-        
-        # Création du DataFrame
-        df = pd.DataFrame(processed_matches)
-        logger.info(f"Collecte terminée pour {league_code}: {len(df)} matchs traités")
-        
-        return df
     
     def process_statistics(self, stats: List[Dict]) -> Dict:
         """
@@ -312,6 +307,71 @@ class FootballDataCollector:
         
         return stat_dict
     
+    def collect_league_data(self, league_code: str) -> pd.DataFrame:
+        """
+        Collecte toutes les données d'une ligue pour les 365 derniers jours
+        
+        Args:
+            league_code (str): Code de la ligue (ex: 'ENG1')
+            
+        Returns:
+            pd.DataFrame: DataFrame avec toutes les données de la ligue
+        """
+        league_info = self.big5_leagues[league_code]
+        league_id = league_info['id']
+        
+        logger.info(f"🏆 Début de collecte pour {league_info['name']} ({league_code})")
+        
+        # Récupération des matchs des 365 derniers jours
+        fixtures = self.get_league_fixtures_multiple_seasons(league_id)
+        
+        if not fixtures:
+            logger.warning(f"❌ Aucun match trouvé pour {league_code}")
+            return pd.DataFrame()
+        
+        processed_matches = []
+        finished_matches = 0
+        
+        for i, fixture in enumerate(fixtures):
+            fixture_id = fixture.get('fixture', {}).get('id')
+            status = fixture.get('fixture', {}).get('status', {}).get('short', '')
+            
+            logger.info(f"⚽ Traitement match {i+1}/{len(fixtures)} - ID: {fixture_id} - Status: {status}")
+            
+            # Traitement des données de base
+            match_data = self.process_fixture_data(fixture)
+            
+            # Ajout des statistiques détaillées si le match est terminé
+            if status == 'FT':  # Match terminé
+                finished_matches += 1
+                logger.info(f"📊 Récupération des stats pour le match terminé {fixture_id}")
+                
+                stats = self.get_fixture_statistics(fixture_id)
+                
+                if stats:
+                    # Ajout des statistiques au match_data
+                    match_data.update(self.process_statistics(stats))
+                    logger.debug(f"✅ Stats ajoutées pour le match {fixture_id}")
+                else:
+                    logger.warning(f"⚠️ Pas de stats disponibles pour le match {fixture_id}")
+                
+                # Pause pour éviter de surcharger l'API
+                time.sleep(0.5)
+            else:
+                logger.debug(f"⏳ Match {fixture_id} non terminé (status: {status})")
+            
+            processed_matches.append(match_data)
+        
+        # Création du DataFrame
+        df = pd.DataFrame(processed_matches)
+        
+        logger.info(f"✅ Collecte terminée pour {league_code}:")
+        logger.info(f"   📊 Total matchs: {len(df)}")
+        logger.info(f"   🏁 Matchs terminés: {finished_matches}")
+        logger.info(f"   ⏳ Matchs en cours/programmés: {len(df) - finished_matches}")
+        
+        return df
+    
     def save_to_csv(self, df: pd.DataFrame, league_code: str) -> None:
         """
         Sauvegarde le DataFrame en CSV
@@ -321,7 +381,7 @@ class FootballDataCollector:
             league_code (str): Code de la ligue
         """
         if df.empty:
-            logger.warning(f"DataFrame vide pour {league_code}, pas de sauvegarde")
+            logger.warning(f"❌ DataFrame vide pour {league_code}, pas de sauvegarde")
             return
         
         filename = f"{league_code}.csv"
@@ -334,50 +394,62 @@ class FootballDataCollector:
             
             # Sauvegarde
             df.to_csv(filepath, index=False, encoding='utf-8')
-            logger.info(f"Données sauvegardées: {filepath} ({len(df)} lignes)")
+            logger.info(f"💾 Données sauvegardées: {filepath} ({len(df)} lignes)")
             
             # Affichage d'un aperçu
-            logger.info(f"Aperçu des colonnes: {list(df.columns)}")
+            logger.info(f"📋 Aperçu des colonnes: {len(df.columns)} colonnes")
             if 'date' in df.columns and len(df) > 0:
-                logger.info(f"Période des données: {df['date'].min()} à {df['date'].max()}")
-                logger.info(f"Nombre de matchs: {len(df)}")
+                logger.info(f"📅 Période des données: {df['date'].min()} à {df['date'].max()}")
+                logger.info(f"🔢 Nombre de matchs: {len(df)}")
             else:
-                logger.info("Aucune donnée de date disponible")
+                logger.info("ℹ️ Aucune donnée de date disponible")
             
         except Exception as e:
-            logger.error(f"Erreur lors de la sauvegarde de {filepath}: {e}")
+            logger.error(f"❌ Erreur lors de la sauvegarde de {filepath}: {e}")
     
     def run_full_collection(self) -> None:
         """
         Lance la collecte complète pour toutes les ligues du Big 5
         """
-        logger.info("=== DÉBUT DE LA COLLECTE BIG 5 (365 DERNIERS JOURS) ===")
-        logger.info(f"Période de collecte: {self.start_date} à {self.end_date}")
+        logger.info("🚀 === DÉBUT DE LA COLLECTE BIG 5 (365 DERNIERS JOURS) ===")
+        logger.info(f"📅 Période de collecte: {self.start_date} à {self.end_date}")
+        logger.info(f"🏆 Saisons analysées: {self.seasons_to_collect}")
         start_time = datetime.now()
+        
+        successful_collections = 0
         
         for league_code in self.big5_leagues.keys():
             try:
-                logger.info(f"\n--- Collecte de {league_code} ---")
+                logger.info(f"\n🏟️ --- Collecte de {league_code} ---")
                 
                 # Collecte des données
                 df = self.collect_league_data(league_code)
                 
                 # Sauvegarde
-                self.save_to_csv(df, league_code)
+                if not df.empty:
+                    self.save_to_csv(df, league_code)
+                    successful_collections += 1
                 
                 # Pause entre les ligues pour respecter les limites d'API
-                logger.info("Pause de 5 secondes avant la prochaine ligue...")
+                logger.info("⏱️ Pause de 5 secondes avant la prochaine ligue...")
                 time.sleep(5)
                 
             except Exception as e:
-                logger.error(f"Erreur lors de la collecte de {league_code}: {e}")
+                logger.error(f"❌ Erreur lors de la collecte de {league_code}: {e}")
                 continue
         
         end_time = datetime.now()
         duration = end_time - start_time
-        logger.info(f"\n=== COLLECTE TERMINÉE ===")
-        logger.info(f"Durée totale: {duration}")
-        logger.info(f"Fichiers générés dans le dossier '{self.data_folder}'")
+        
+        logger.info(f"\n🎉 === COLLECTE TERMINÉE ===")
+        logger.info(f"⏱️ Durée totale: {duration}")
+        logger.info(f"✅ Ligues traitées avec succès: {successful_collections}/{len(self.big5_leagues)}")
+        logger.info(f"📁 Fichiers générés dans le dossier '{self.data_folder}'")
+        
+        # Résumé des fichiers créés
+        if os.path.exists(self.data_folder):
+            csv_files = [f for f in os.listdir(self.data_folder) if f.endswith('.csv')]
+            logger.info(f"📊 Fichiers CSV créés: {csv_files}")
 
 def main():
     """
