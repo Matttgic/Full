@@ -1,0 +1,105 @@
+# .github/workflows/football_data_update.yml
+name: Football Data Update (Fenêtre glissante 365 jours)
+
+# Déclenchement tous les mardis à 7h00 UTC
+on:
+  schedule:
+    - cron: '0 7 * * 2'  # Tous les mardis à 7h00 UTC
+  workflow_dispatch:  # Permet de lancer manuellement le workflow
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    
+    steps:
+    # Étape 1: Checkout du code
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        fetch-depth: 0  # Récupère tout l'historique pour avoir les fichiers existants
+    
+    # Étape 2: Configuration de Python
+    - name: Set up Python 3.11
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+    
+    # Étape 3: Installation des dépendances
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install requests pandas
+    
+    # Étape 4: Création du dossier data s'il n'existe pas
+    - name: Ensure data directory exists
+      run: mkdir -p data
+    
+    # Étape 5: Vérification des fichiers existants
+    - name: Check existing data files
+      run: |
+        echo "=== FICHIERS EXISTANTS ==="
+        ls -la data/ || echo "Aucun fichier dans data/"
+        echo ""
+        echo "=== TAILLE DES FICHIERS ==="
+        du -h data/*.csv 2>/dev/null || echo "Aucun fichier CSV trouvé"
+    
+    # Étape 6: Exécution du script de mise à jour incrémentale
+    - name: Run incremental football data update
+      env:
+        RAPIDAPI_KEY: ${{ secrets.RAPIDAPI_KEY }}
+      run: |
+        python football_data_updater.py
+    
+    # Étape 7: Vérification des changements après mise à jour
+    - name: Check changes after update
+      run: |
+        echo "=== FICHIERS APRÈS MISE À JOUR ==="
+        ls -la data/
+        echo ""
+        echo "=== CHANGEMENTS DÉTECTÉS ==="
+        git status --porcelain
+    
+    # Étape 8: Commit et push des modifications
+    - name: Commit and push changes
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add data/*.csv
+        git add football_data_update.log
+        
+        # Vérifier s'il y a des changements à committer
+        if git diff --staged --quiet; then
+          echo "✅ Aucun changement détecté - données déjà à jour"
+        else
+          echo "🔄 Changements détectés - commit en cours..."
+          git commit -m "🔄 Mise à jour incrémentale des données football - $(date '+%Y-%m-%d')"
+          git push
+          echo "✅ Données mises à jour et poussées"
+        fi
+    
+    # Étape 9: Upload des logs en cas d'erreur
+    - name: Upload logs on failure
+      if: failure()
+      uses: actions/upload-artifact@v4
+      with:
+        name: football-update-logs
+        path: football_data_update.log
+    
+    # Étape 10: Résumé final
+    - name: Display update summary
+      run: |
+        echo "=== RÉSUMÉ DE LA MISE À JOUR ==="
+        echo "Date: $(date)"
+        echo "Type: Mise à jour incrémentale (365 jours glissants)"
+        echo ""
+        echo "Fichiers finaux:"
+        ls -la data/
+        echo ""
+        echo "Taille des fichiers finaux:"
+        du -h data/*.csv 2>/dev/null || echo "Aucun fichier CSV trouvé"
+        echo ""
+        echo "Dernières lignes du log:"
+        tail -15 football_data_update.log 2>/dev/null || echo "Aucun log trouvé"
+        echo ""
+        echo "Période de données maintenue: $(date -d '365 days ago' '+%Y-%m-%d') à $(date '+%Y-%m-%d')"
