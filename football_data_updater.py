@@ -106,9 +106,10 @@ class FootballDataUpdater:
                 df = pd.read_csv(filepath)
                 logger.info(f"📂 Données existantes chargées pour {league_code}: {len(df)} matchs")
                 
-                # Conversion de la colonne date si elle existe
+                # Conversion et normalisation de la colonne date
                 if 'date' in df.columns:
-                    df['date'] = pd.to_datetime(df['date']).dt.date
+                    # Convertir en datetime puis extraire seulement la date (sans timezone)
+                    df['date'] = pd.to_datetime(df['date'], utc=True).dt.date
                 
                 return df
             except Exception as e:
@@ -125,36 +126,42 @@ class FootballDataUpdater:
         if df.empty or 'date' not in df.columns:
             return df
         
-        # Conversion des dates si nécessaire
-        if df['date'].dtype == 'object':
-            df['date'] = pd.to_datetime(df['date']).dt.date
-        
-        # Filtrage
-        before_count = len(df)
-        df_filtered = df[df['date'] >= self.cutoff_date].copy()
-        after_count = len(df_filtered)
-        
-        removed_count = before_count - after_count
-        if removed_count > 0:
-            logger.info(f"🗑️ Suppression de {removed_count} matchs trop anciens (> 365 jours)")
-        
-        return df_filtered
+        # Conversion et normalisation des dates
+        try:
+            # Convertir toutes les dates en format uniforme (date seulement)
+            df_copy = df.copy()
+            df_copy['date'] = pd.to_datetime(df_copy['date'], utc=True).dt.date
+            
+            # Filtrage
+            before_count = len(df_copy)
+            df_filtered = df_copy[df_copy['date'] >= self.cutoff_date].copy()
+            after_count = len(df_filtered)
+            
+            removed_count = before_count - after_count
+            if removed_count > 0:
+                logger.info(f"🗑️ Suppression de {removed_count} matchs trop anciens (> 365 jours)")
+            
+            return df_filtered
+            
+        except Exception as e:
+            logger.warning(f"⚠️ Erreur lors du filtrage par date: {e}")
+            # En cas d'erreur, retourner le DataFrame original
+            return df
     
     def get_recent_fixtures(self, league_id: int, league_code: str) -> List[Dict]:
         """
-        Récupère les matchs récents d'une ligue (14 derniers jours + 7 prochains jours)
+        Récupère les matchs récents d'une ligue avec logique adaptative
         """
         logger.info(f"🔄 Récupération des matchs récents pour {league_code}")
         
-        # Date de fin : dans 7 jours (pour capturer les matchs programmés)
-        end_date = self.today + timedelta(days=7)
-        
-        logger.info(f"📅 Période de mise à jour: {self.update_start_date} à {end_date}")
-        
+        # Stratégie adaptative selon la période
         all_fixtures = []
         
-        # Récupération pour les saisons 2024 et 2025
-        for season in [2024, 2025]:
+        # Essai 1: Période récente (14 jours passés + 30 jours futurs pour nouvelle saison)
+        end_date = self.today + timedelta(days=30)
+        logger.info(f"📅 Tentative période récente: {self.update_start_date} à {end_date}")
+        
+        for season in [2024, 2025, 2026]:  # Ajout saison 2026 au cas où
             params = {
                 'league': league_id,
                 'season': season,
@@ -169,7 +176,63 @@ class FootballDataUpdater:
                 logger.info(f"✅ Saison {season}: {len(season_fixtures)} matchs récents récupérés")
                 all_fixtures.extend(season_fixtures)
             
-            time.sleep(0.5)  # Pause pour respecter les limites d'API
+            time.sleep(0.5)
+        
+        # Si pas de matchs récents, essayer une période plus large
+        if not all_fixtures:
+            logger.info("🔍 Aucun match récent, tentative période étendue (30 derniers jours)")
+            extended_start = self.today - timedelta(days=30)
+            
+            for season in [2024, 2025, 2026]:
+                params = {
+                    'league': league_id,
+                    'season': season,
+                    'from': extended_start.strftime('%Y-%m-%d'),
+                    'to': end_date.strftime('%Y-%m-%d')
+                }
+                
+                data = self.make_api_request('fixtures', params)
+                
+                if data and 'response' in data:
+                    season_fixtures = data['response']
+                    logger.info(f"✅ Période étendue saison {season}: {len(season_fixtures)} matchs")
+                    all_fixtures.extend(season_fixtures)
+                
+                time.sleep(0.5)
+        
+        # Si toujours rien, récupérer les derniers matchs terminés pour mise à jour des stats
+        if not all_fixtures:
+            logger.info("🔍 Récupération des derniers matchs terminés pour mise à jour des stats")
+            last_90_days = self.today - timedelta(days=90)
+            
+            for season in [2024, 2025]:
+                params = {
+                    'league': league_id,
+                    'season': season,
+                    'status': 'FT',  # Seulement les matchs terminés
+                    'last': 50  # Les 50 derniers matchs
+                }
+                
+                data = self.make_api_request('fixtures', params)
+                
+                if data and 'response' in data:
+                    season_fixtures = data['response']
+                    # Filtrer pour garder seulement les récents
+                    filtered_fixtures = []
+                    for fixture in season_fixtures:
+                        fixture_date_str = fixture.get('fixture', {}).get('date', '')
+                        if fixture_date_str:
+                            try:
+                                fixture_date = datetime.fromisoformat(fixture_date_str.replace('Z', '+00:00')).date()
+                                if fixture_date >= last_90_days:
+                                    filtered_fixtures.append(fixture)
+                            except:
+                                continue
+                    
+                    logger.info(f"✅ Matchs récents terminés saison {season}: {len(filtered_fixtures)}")
+                    all_fixtures.extend(filtered_fixtures)
+                
+                time.sleep(0.5)
         
         logger.info(f"📊 Total matchs récents récupérés: {len(all_fixtures)}")
         return all_fixtures
@@ -191,9 +254,19 @@ class FootballDataUpdater:
         goals_info = fixture.get('goals', {})
         score_info = fixture.get('score', {})
         
+        # Normalisation de la date pour éviter les problèmes de timezone
+        fixture_date = fixture_info.get('date')
+        if fixture_date:
+            try:
+                # Parser la date ISO et la convertir en date simple (sans timezone)
+                parsed_date = datetime.fromisoformat(fixture_date.replace('Z', '+00:00'))
+                fixture_date = parsed_date.strftime('%Y-%m-%d %H:%M:%S')  # Format uniforme
+            except:
+                pass  # Garder la date originale si parsing échoue
+        
         match_data = {
             'fixture_id': fixture_info.get('id'),
-            'date': fixture_info.get('date'),
+            'date': fixture_date,
             'timestamp': fixture_info.get('timestamp'),
             'referee': fixture_info.get('referee'),
             'venue_name': fixture_info.get('venue', {}).get('name'),
@@ -296,17 +369,22 @@ class FootballDataUpdater:
         existing_df = self.load_existing_data(league_code)
         
         # 2. Supprimer les matchs trop anciens (> 365 jours)
+        initial_count = len(existing_df) if not existing_df.empty else 0
         if not existing_df.empty:
             existing_df = self.filter_by_date_range(existing_df)
+            
+        filtered_count = len(existing_df) if not existing_df.empty else 0
+        logger.info(f"📊 Filtrage par date: {initial_count} → {filtered_count} matchs")
         
         # 3. Récupérer les matchs récents
         recent_fixtures = self.get_recent_fixtures(league_id, league_code)
         
         if not recent_fixtures:
-            logger.warning(f"❌ Aucun match récent trouvé pour {league_code}")
+            logger.info(f"ℹ️ Aucun match récent pour {league_code}, maintien des données existantes")
             # Sauvegarder quand même les données filtrées
             if not existing_df.empty:
                 self.save_to_csv(existing_df, league_code)
+                return True  # Succès car données maintenues
             return False
         
         # 4. Traiter les nouveaux matchs
@@ -360,6 +438,15 @@ class FootballDataUpdater:
             new_df = pd.DataFrame(new_matches)
             
             if not existing_df.empty:
+                # Normaliser les dates avant la combinaison
+                try:
+                    if 'date' in existing_df.columns:
+                        existing_df['date'] = pd.to_datetime(existing_df['date'], utc=True).dt.strftime('%Y-%m-%d %H:%M:%S')
+                    if 'date' in new_df.columns:
+                        new_df['date'] = pd.to_datetime(new_df['date'], utc=True).dt.strftime('%Y-%m-%d %H:%M:%S')
+                except:
+                    pass  # Continuer même si normalisation échoue
+                
                 # Combiner et supprimer les doublons
                 combined_df = pd.concat([existing_df, new_df], ignore_index=True)
                 combined_df = combined_df.drop_duplicates(subset=['fixture_id'], keep='last')
@@ -371,8 +458,11 @@ class FootballDataUpdater:
         # 6. Filtrage final par date et tri
         combined_df = self.filter_by_date_range(combined_df)
         
-        if 'date' in combined_df.columns:
-            combined_df = combined_df.sort_values('date')
+        if 'date' in combined_df.columns and not combined_df.empty:
+            try:
+                combined_df = combined_df.sort_values('date')
+            except:
+                pass  # Continuer même si tri échoue
         
         # 7. Sauvegarde
         self.save_to_csv(combined_df, league_code)
@@ -454,4 +544,4 @@ def main():
     updater.run_incremental_update()
 
 if __name__ == "__main__":
-    main()
+    main() 
