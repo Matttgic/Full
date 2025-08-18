@@ -1,0 +1,183 @@
+2025-08-18 16:02:28,381 - INFO - ✅ Clé API récupérée depuis les variables d'environnement
+2025-08-18 16:02:28,381 - INFO - 🚀 === DÉBUT DE LA MISE À JOUR INCRÉMENTALE ===
+2025-08-18 16:02:28,381 - INFO - 📅 Date limite (365 jours): 2024-08-18
+2025-08-18 16:02:28,381 - INFO - 🔄 Période de mise à jour: 2025-08-04 à 2025-08-18
+2025-08-18 16:02:28,381 - INFO - 
+🏟️ --- Mise à jour de ENG1 ---
+2025-08-18 16:02:28,381 - INFO - 🏆 Mise à jour incrémentale pour Premier League (ENG1)
+2025-08-18 16:02:28,386 - INFO - 📂 Données existantes chargées pour ENG1: 383 matchs
+2025-08-18 16:02:28,390 - INFO - 🔄 Récupération des matchs récents pour ENG1
+2025-08-18 16:02:28,390 - INFO - 📅 Période de mise à jour: 2025-08-04 à 2025-08-25
+2025-08-18 16:02:28,958 - INFO - ✅ Saison 2024: 0 matchs récents récupérés
+2025-08-18 16:02:30,450 - INFO - ✅ Saison 2025: 20 matchs récents récupérés
+2025-08-18 16:02:30,950 - INFO - 📊 Total matchs récents récupérés: 20
+2025-08-18 16:02:30,957 - ERROR - ❌ Erreur lors de la mise à jour de ENG1: Cannot mix tz-aware with tz-naive values
+2025-08-18 16:02:30,958 - INFO - 
+🏟️ --- Mise à jour de FRA1 ---
+2025-08-18 16:02:30,958 - INFO - 🏆 Mise à jour incrémentale pour Ligue 1 (FRA1)
+2025-08-18 16:02:30,961 - INFO - 📂 Données existantes chargées pour FRA1: 313 matchs
+2025-08-18 16:02:30,964 - INFO - 🔄 Récupération des matchs récents pour FRA1
+2025-08-18 16:02:30,964 - INFO - 📅 Période de mise à jour: 2025-08-04 à 2025-08-25
+2025-08-18 16:02:31,481 - INFO - ✅ Saison 2024: 0 matchs récents récupérés
+2025-08-18 16:02:32,472 - INFO - ✅ Saison 2025: 18 matchs récents récupérés
+2025-08-18 16:02:32,972 - INFO - 📊 Total matchs récents récupérés: 18
+2025-08-18 16:02:32,975 - INFO - 📊 Mise à jour des stats pour le match existant 1387702
+2025-08-18 16:02:33,857 - INFO - 📊 Mise à jour des stats pour le match existant 1387704
+2025-08-18 16:02:34,947 - ERROR - ❌ Erreur lors de la mise à jour de FRA1: Cannot mix tz-aware with tz-naive values
+2025-08-18 16:02:34,947 - INFO - 
+🏟️ --- Mise à jour de ITA1 ---
+2025-08-18 16:02:34,947 - INFO - 🏆 Mise à jour incrémentale pour Serie A (ITA1)
+2025-08-18 16:02:34,951 - INFO - 📂 Données existantes chargées pour ITA1: 376 matchs
+2025-08-18 16:02:34,954 - INFO - 🔄 Récupération des matchs récents pour ITA1
+2025-08-18 16:02:34,954 - INFO - 📅 Période de mise à jour: 2025-08-04 à 2025-08-25
+2025-08-18 16:02:35,269 - INFO - ✅ Saison 2024: 0 matchs récents récupérés
+2025-08-18 16:02:36,287 - INFO - ✅ Saison 2025: 10 matchs récents récupérés
+2025-08-18 16:02:36,787 - INFO - 📊 Total matchs récents récupérés: 10
+2025-08-18 16:02:36,790 - ERROR - ❌ Erreur lors de la mise à jour de ITA1: Cannot mix tz-aware with tz-naive values
+2025-08-18 16:02:36,790 - INFO - 
+🏟️ --- Mise à jour de GER1 ---
+2025-08-18 16:02:36,791 - INFO - 🏆 Mise à jour incrémentale pour Bundesliga (GER1)
+2025-08-18 16:02:36,794 - INFO - 📂 Données existantes chargées pour GER1: 308 matchs
+2025-08-18 16:02:36,797 - INFO - 🔄 Récupération des matchs récents pour GER1
+2025-08-18 16:02:36,797 - INFO - 📅 Période de mise à jour: 2025-08-04 à 2025-08-25
+2025-08-18 16:02:37,356 - INFO - ✅ Saison 2024: 0 matchs récents récupérés
+2025-08-18 16:02:38,983 - INFO - ✅ Saison 2025: 9 matchs récents récupérés
+2025-08-18 16:02:39,483 - INFO - 📊 Total matchs récents récupérés: 9
+2025-08-18 16:02:39,487 - ERROR - ❌ Erreur lors de la mise à jour de GER1: Cannot mix tz-aware with tz-naive values
+2025-08-18 16:02:39,487 - INFO - 
+🏟️ --- Mise à jour de SPA1 ---
+2025-08-18 16:02:39,487 - INFO - 🏆 Mise à jour incrémentale pour La Liga (SPA1)
+2025-08-18 16:02:39,492 - INFO - 📂 Données existantes chargées pour SPA1: 383 matchs
+2025-08-18 16:02:39,494 - INFO - 🔄 Récupération des matchs récents pour SPA1
+2025-08-18 16:02:39,494 - INFO - 📅 Période de mise à jour: 2025-08-04 à 2025-08-25
+2025-08-18 16:02:40,028 - INFO - ✅ Saison 2024: 0 matchs récents récupérés
+2025-08-18 16:02:41,053 - INFO - ✅ Saison 2025: 20 matchs récents récupérés
+2025-08-18 16:02:41,553 - INFO - 📊 Total matchs récents récupérés: 20
+2025-08-18 16:02:41,559 - ERROR - ❌ Erreur lors de la mise à jour de SPA1: Cannot mix tz-aware with tz-naive values
+2025-08-18 16:02:41,559 - INFO - 
+🏟️ --- Mise à jour de NED1 ---
+2025-08-18 16:02:41,559 - INFO - 🏆 Mise à jour incrémentale pour Eredivisie (NED1)
+2025-08-18 16:02:41,563 - INFO - 📂 Données existantes chargées pour NED1: 329 matchs
+2025-08-18 16:02:41,566 - INFO - 🗑️ Suppression de 4 matchs trop anciens (> 365 jours)
+2025-08-18 16:02:41,566 - INFO - 🔄 Récupération des matchs récents pour NED1
+2025-08-18 16:02:41,566 - INFO - 📅 Période de mise à jour: 2025-08-04 à 2025-08-25
+2025-08-18 16:02:42,216 - INFO - ✅ Saison 2024: 0 matchs récents récupérés
+2025-08-18 16:02:42,932 - INFO - ✅ Saison 2025: 25 matchs récents récupérés
+2025-08-18 16:02:43,432 - INFO - 📊 Total matchs récents récupérés: 25
+2025-08-18 16:02:43,437 - INFO - 📊 Mise à jour des stats pour le match existant 1380884
+2025-08-18 16:02:44,346 - ERROR - ❌ Erreur lors de la mise à jour de NED1: Cannot mix tz-aware with tz-naive values
+2025-08-18 16:02:44,347 - INFO - 
+🏟️ --- Mise à jour de POR1 ---
+2025-08-18 16:02:44,347 - INFO - 🏆 Mise à jour incrémentale pour Primeira Liga (POR1)
+2025-08-18 16:02:44,350 - INFO - 📂 Données existantes chargées pour POR1: 313 matchs
+2025-08-18 16:02:44,353 - INFO - 🗑️ Suppression de 3 matchs trop anciens (> 365 jours)
+2025-08-18 16:02:44,353 - INFO - 🔄 Récupération des matchs récents pour POR1
+2025-08-18 16:02:44,353 - INFO - 📅 Période de mise à jour: 2025-08-04 à 2025-08-25
+2025-08-18 16:02:44,888 - INFO - ✅ Saison 2024: 0 matchs récents récupérés
+2025-08-18 16:02:45,864 - INFO - ✅ Saison 2025: 25 matchs récents récupérés
+2025-08-18 16:02:46,365 - INFO - 📊 Total matchs récents récupérés: 25
+2025-08-18 16:02:46,369 - INFO - 📊 Mise à jour des stats pour le match existant 1396251
+2025-08-18 16:02:47,336 - INFO - 📊 Mise à jour des stats pour le match existant 1396247
+2025-08-18 16:02:48,085 - INFO - 📊 Mise à jour des stats pour le match existant 1396252
+2025-08-18 16:02:48,768 - ERROR - ❌ Erreur lors de la mise à jour de POR1: Cannot mix tz-aware with tz-naive values
+2025-08-18 16:02:48,768 - INFO - 
+🏟️ --- Mise à jour de BEL1 ---
+2025-08-18 16:02:48,769 - INFO - 🏆 Mise à jour incrémentale pour Jupiler Pro League (BEL1)
+2025-08-18 16:02:48,772 - INFO - 📂 Données existantes chargées pour BEL1: 322 matchs
+2025-08-18 16:02:48,775 - INFO - 🗑️ Suppression de 3 matchs trop anciens (> 365 jours)
+2025-08-18 16:02:48,775 - INFO - 🔄 Récupération des matchs récents pour BEL1
+2025-08-18 16:02:48,775 - INFO - 📅 Période de mise à jour: 2025-08-04 à 2025-08-25
+2025-08-18 16:02:49,004 - INFO - ✅ Saison 2024: 0 matchs récents récupérés
+2025-08-18 16:02:50,031 - INFO - ✅ Saison 2025: 24 matchs récents récupérés
+2025-08-18 16:02:50,531 - INFO - 📊 Total matchs récents récupérés: 24
+2025-08-18 16:02:50,536 - INFO - 📊 Mise à jour des stats pour le match existant 1382456
+2025-08-18 16:02:51,419 - INFO - 📊 Mise à jour des stats pour le match existant 1382457
+2025-08-18 16:02:52,331 - ERROR - ❌ Erreur lors de la mise à jour de BEL1: Cannot mix tz-aware with tz-naive values
+2025-08-18 16:02:52,331 - INFO - 
+🏟️ --- Mise à jour de ENG2 ---
+2025-08-18 16:02:52,331 - INFO - 🏆 Mise à jour incrémentale pour Championship (ENG2)
+2025-08-18 16:02:52,335 - INFO - 📂 Données existantes chargées pour ENG2: 568 matchs
+2025-08-18 16:02:52,338 - INFO - 🗑️ Suppression de 10 matchs trop anciens (> 365 jours)
+2025-08-18 16:02:52,339 - INFO - 🔄 Récupération des matchs récents pour ENG2
+2025-08-18 16:02:52,339 - INFO - 📅 Période de mise à jour: 2025-08-04 à 2025-08-25
+2025-08-18 16:02:52,635 - INFO - ✅ Saison 2024: 0 matchs récents récupérés
+2025-08-18 16:02:53,560 - INFO - ✅ Saison 2025: 36 matchs récents récupérés
+2025-08-18 16:02:54,060 - INFO - 📊 Total matchs récents récupérés: 36
+2025-08-18 16:02:54,070 - ERROR - ❌ Erreur lors de la mise à jour de ENG2: Cannot mix tz-aware with tz-naive values
+2025-08-18 16:02:54,070 - INFO - 
+🏟️ --- Mise à jour de FRA2 ---
+2025-08-18 16:02:54,070 - INFO - 🏆 Mise à jour incrémentale pour Ligue 2 (FRA2)
+2025-08-18 16:02:54,073 - INFO - 📂 Données existantes chargées pour FRA2: 321 matchs
+2025-08-18 16:02:54,076 - INFO - 🗑️ Suppression de 1 matchs trop anciens (> 365 jours)
+2025-08-18 16:02:54,076 - INFO - 🔄 Récupération des matchs récents pour FRA2
+2025-08-18 16:02:54,076 - INFO - 📅 Période de mise à jour: 2025-08-04 à 2025-08-25
+2025-08-18 16:02:54,566 - INFO - ✅ Saison 2024: 0 matchs récents récupérés
+2025-08-18 16:02:55,508 - INFO - ✅ Saison 2025: 26 matchs récents récupérés
+2025-08-18 16:02:56,008 - INFO - 📊 Total matchs récents récupérés: 26
+2025-08-18 16:02:56,016 - ERROR - ❌ Erreur lors de la mise à jour de FRA2: Cannot mix tz-aware with tz-naive values
+2025-08-18 16:02:56,016 - INFO - 
+🏟️ --- Mise à jour de ITA2 ---
+2025-08-18 16:02:56,016 - INFO - 🏆 Mise à jour incrémentale pour Serie B (ITA2)
+2025-08-18 16:02:56,020 - INFO - 📂 Données existantes chargées pour ITA2: 389 matchs
+2025-08-18 16:02:56,022 - INFO - 🗑️ Suppression de 4 matchs trop anciens (> 365 jours)
+2025-08-18 16:02:56,022 - INFO - 🔄 Récupération des matchs récents pour ITA2
+2025-08-18 16:02:56,022 - INFO - 📅 Période de mise à jour: 2025-08-04 à 2025-08-25
+2025-08-18 16:02:56,438 - INFO - ✅ Saison 2024: 0 matchs récents récupérés
+2025-08-18 16:02:57,137 - INFO - ✅ Saison 2025: 10 matchs récents récupérés
+2025-08-18 16:02:57,637 - INFO - 📊 Total matchs récents récupérés: 10
+2025-08-18 16:02:57,641 - ERROR - ❌ Erreur lors de la mise à jour de ITA2: Cannot mix tz-aware with tz-naive values
+2025-08-18 16:02:57,641 - INFO - 
+🏟️ --- Mise à jour de GER2 ---
+2025-08-18 16:02:57,641 - INFO - 🏆 Mise à jour incrémentale pour 2. Bundesliga (GER2)
+2025-08-18 16:02:57,644 - INFO - 📂 Données existantes chargées pour GER2: 308 matchs
+2025-08-18 16:02:57,647 - INFO - 🔄 Récupération des matchs récents pour GER2
+2025-08-18 16:02:57,647 - INFO - 📅 Période de mise à jour: 2025-08-04 à 2025-08-25
+2025-08-18 16:02:58,138 - INFO - ✅ Saison 2024: 0 matchs récents récupérés
+2025-08-18 16:02:59,111 - INFO - ✅ Saison 2025: 18 matchs récents récupérés
+2025-08-18 16:02:59,612 - INFO - 📊 Total matchs récents récupérés: 18
+2025-08-18 16:02:59,617 - ERROR - ❌ Erreur lors de la mise à jour de GER2: Cannot mix tz-aware with tz-naive values
+2025-08-18 16:02:59,617 - INFO - 
+🏟️ --- Mise à jour de SPA2 ---
+2025-08-18 16:02:59,617 - INFO - 🏆 Mise à jour incrémentale pour Segunda División (SPA2)
+2025-08-18 16:02:59,621 - INFO - 📂 Données existantes chargées pour SPA2: 474 matchs
+2025-08-18 16:02:59,624 - INFO - 🗑️ Suppression de 3 matchs trop anciens (> 365 jours)
+2025-08-18 16:02:59,624 - INFO - 🔄 Récupération des matchs récents pour SPA2
+2025-08-18 16:02:59,624 - INFO - 📅 Période de mise à jour: 2025-08-04 à 2025-08-25
+2025-08-18 16:03:00,116 - INFO - ✅ Saison 2024: 0 matchs récents récupérés
+2025-08-18 16:03:01,073 - INFO - ✅ Saison 2025: 22 matchs récents récupérés
+2025-08-18 16:03:01,573 - INFO - 📊 Total matchs récents récupérés: 22
+2025-08-18 16:03:01,576 - INFO - 📊 Mise à jour des stats pour le match existant 1391255
+2025-08-18 16:03:02,516 - INFO - 📊 Mise à jour des stats pour le match existant 1396943
+2025-08-18 16:03:03,407 - INFO - 📊 Mise à jour des stats pour le match existant 1391258
+2025-08-18 16:03:04,392 - ERROR - ❌ Erreur lors de la mise à jour de SPA2: Cannot mix tz-aware with tz-naive values
+2025-08-18 16:03:04,392 - INFO - 
+🏟️ --- Mise à jour de TUR1 ---
+2025-08-18 16:03:04,392 - INFO - 🏆 Mise à jour incrémentale pour Süper Lig (TUR1)
+2025-08-18 16:03:04,396 - INFO - 📂 Données existantes chargées pour TUR1: 349 matchs
+2025-08-18 16:03:04,399 - INFO - 🗑️ Suppression de 3 matchs trop anciens (> 365 jours)
+2025-08-18 16:03:04,399 - INFO - 🔄 Récupération des matchs récents pour TUR1
+2025-08-18 16:03:04,399 - INFO - 📅 Période de mise à jour: 2025-08-04 à 2025-08-25
+2025-08-18 16:03:04,849 - INFO - ✅ Saison 2024: 0 matchs récents récupérés
+2025-08-18 16:03:05,809 - INFO - ✅ Saison 2025: 27 matchs récents récupérés
+2025-08-18 16:03:06,309 - INFO - 📊 Total matchs récents récupérés: 27
+2025-08-18 16:03:06,313 - INFO - 📊 Mise à jour des stats pour le match existant 1394444
+2025-08-18 16:03:07,727 - INFO - 📊 Mise à jour des stats pour le match existant 1394443
+2025-08-18 16:03:08,621 - ERROR - ❌ Erreur lors de la mise à jour de TUR1: Cannot mix tz-aware with tz-naive values
+2025-08-18 16:03:08,621 - INFO - 
+🏟️ --- Mise à jour de SAU1 ---
+2025-08-18 16:03:08,621 - INFO - 🏆 Mise à jour incrémentale pour Saudi Pro League (SAU1)
+2025-08-18 16:03:08,625 - INFO - 📂 Données existantes chargées pour SAU1: 306 matchs
+2025-08-18 16:03:08,627 - INFO - 🔄 Récupération des matchs récents pour SAU1
+2025-08-18 16:03:08,627 - INFO - 📅 Période de mise à jour: 2025-08-04 à 2025-08-25
+2025-08-18 16:03:09,047 - INFO - ✅ Saison 2024: 0 matchs récents récupérés
+2025-08-18 16:03:10,004 - INFO - ✅ Saison 2025: 0 matchs récents récupérés
+2025-08-18 16:03:10,504 - INFO - 📊 Total matchs récents récupérés: 0
+2025-08-18 16:03:10,504 - WARNING - ❌ Aucun match récent trouvé pour SAU1
+2025-08-18 16:03:10,511 - INFO - 💾 Données sauvegardées: data/SAU1.csv (306 lignes)
+2025-08-18 16:03:10,512 - INFO - 📅 Période: 2024-08-22 à 2025-05-26
+2025-08-18 16:03:10,512 - INFO - ⏱️ Pause de 3 secondes...
+2025-08-18 16:03:13,512 - INFO - 
+🎉 === MISE À JOUR TERMINÉE ===
+2025-08-18 16:03:13,512 - INFO - ⏱️ Durée totale: 0:00:45.131251
+2025-08-18 16:03:13,512 - INFO - ✅ Ligues mises à jour avec succès: 0/15
+2025-08-18 16:03:13,512 - INFO - 📁 Fenêtre de données maintenue: 365 derniers jours
