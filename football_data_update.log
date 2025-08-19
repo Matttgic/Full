@@ -481,3 +481,302 @@
 2025-08-18 16:11:03,297 - INFO - ⏱️ Durée totale: 0:01:36.628427
 2025-08-18 16:11:03,297 - INFO - ✅ Ligues mises à jour avec succès: 15/15
 2025-08-18 16:11:03,297 - INFO - 📁 Fenêtre de données maintenue: 365 derniers jours
+2025-08-19 07:20:19,523 - INFO - ✅ Clé API récupérée depuis les variables d'environnement
+2025-08-19 07:20:19,523 - INFO - 🚀 === DÉBUT DE LA MISE À JOUR INCRÉMENTALE ===
+2025-08-19 07:20:19,523 - INFO - 📅 Date limite (365 jours): 2024-08-19
+2025-08-19 07:20:19,523 - INFO - 🔄 Période de mise à jour: 2025-08-05 à 2025-08-19
+2025-08-19 07:20:19,523 - INFO - 
+🏟️ --- Mise à jour de ENG1 ---
+2025-08-19 07:20:19,523 - INFO - 🏆 Mise à jour incrémentale pour Premier League (ENG1)
+2025-08-19 07:20:19,528 - INFO - 📂 Données existantes chargées pour ENG1: 413 matchs
+2025-08-19 07:20:19,532 - INFO - 🗑️ Suppression de 2 matchs trop anciens (> 365 jours)
+2025-08-19 07:20:19,532 - INFO - 📊 Filtrage par date: 413 → 411 matchs
+2025-08-19 07:20:19,532 - INFO - 🔄 Récupération des matchs récents pour ENG1
+2025-08-19 07:20:19,532 - INFO - 📅 Tentative période récente: 2025-08-05 à 2025-09-18
+2025-08-19 07:20:20,094 - INFO - ✅ Saison 2024: 0 matchs récents récupérés
+2025-08-19 07:20:21,019 - INFO - ✅ Saison 2025: 40 matchs récents récupérés
+2025-08-19 07:20:22,063 - INFO - ✅ Saison 2026: 0 matchs récents récupérés
+2025-08-19 07:20:22,564 - INFO - 📊 Total matchs récents récupérés: 40
+2025-08-19 07:20:22,567 - INFO - 📊 Mise à jour des stats pour le match existant 1378978
+2025-08-19 07:20:23,544 - INFO - 💾 Données sauvegardées: data/ENG1.csv (411 lignes)
+2025-08-19 07:20:23,544 - INFO - 📅 Période: 2024-08-19 à 2025-09-14
+2025-08-19 07:20:23,544 - INFO - ✅ Mise à jour terminée pour ENG1:
+2025-08-19 07:20:23,544 - INFO -    📊 Total final: 411 matchs
+2025-08-19 07:20:23,544 - INFO -    🆕 Nouveaux matchs traités: 1
+2025-08-19 07:20:23,545 - INFO -    📈 Stats ajoutées: 1
+2025-08-19 07:20:23,545 - INFO - ⏱️ Pause de 3 secondes...
+2025-08-19 07:20:26,545 - INFO - 
+🏟️ --- Mise à jour de FRA1 ---
+2025-08-19 07:20:26,545 - INFO - 🏆 Mise à jour incrémentale pour Ligue 1 (FRA1)
+2025-08-19 07:20:26,549 - INFO - 📂 Données existantes chargées pour FRA1: 340 matchs
+2025-08-19 07:20:26,552 - INFO - 🗑️ Suppression de 5 matchs trop anciens (> 365 jours)
+2025-08-19 07:20:26,552 - INFO - 📊 Filtrage par date: 340 → 335 matchs
+2025-08-19 07:20:26,552 - INFO - 🔄 Récupération des matchs récents pour FRA1
+2025-08-19 07:20:26,552 - INFO - 📅 Tentative période récente: 2025-08-05 à 2025-09-18
+2025-08-19 07:20:27,094 - INFO - ✅ Saison 2024: 0 matchs récents récupérés
+2025-08-19 07:20:27,994 - INFO - ✅ Saison 2025: 36 matchs récents récupérés
+2025-08-19 07:20:29,101 - INFO - ✅ Saison 2026: 0 matchs récents récupérés
+2025-08-19 07:20:29,601 - INFO - 📊 Total matchs récents récupérés: 36
+2025-08-19 07:20:29,604 - INFO - 📊 Mise à jour des stats pour le match existant 1387702
+2025-08-19 07:20:30,508 - INFO - 📊 Mise à jour des stats pour le match existant 1387704
+2025-08-19 07:20:31,425 - INFO - 💾 Données sauvegardées: data/FRA1.csv (335 lignes)
+2025-08-19 07:20:31,425 - INFO - 📅 Période: 2024-08-23 à 2025-09-14
+2025-08-19 07:20:31,425 - INFO - ✅ Mise à jour terminée pour FRA1:
+2025-08-19 07:20:31,425 - INFO -    📊 Total final: 335 matchs
+2025-08-19 07:20:31,425 - INFO -    🆕 Nouveaux matchs traités: 2
+2025-08-19 07:20:31,426 - INFO -    📈 Stats ajoutées: 2
+2025-08-19 07:20:31,426 - INFO - ⏱️ Pause de 3 secondes...
+2025-08-19 07:20:34,426 - INFO - 
+🏟️ --- Mise à jour de ITA1 ---
+2025-08-19 07:20:34,426 - INFO - 🏆 Mise à jour incrémentale pour Serie A (ITA1)
+2025-08-19 07:20:34,430 - INFO - 📂 Données existantes chargées pour ITA1: 406 matchs
+2025-08-19 07:20:34,433 - INFO - 🗑️ Suppression de 4 matchs trop anciens (> 365 jours)
+2025-08-19 07:20:34,433 - INFO - 📊 Filtrage par date: 406 → 402 matchs
+2025-08-19 07:20:34,433 - INFO - 🔄 Récupération des matchs récents pour ITA1
+2025-08-19 07:20:34,433 - INFO - 📅 Tentative période récente: 2025-08-05 à 2025-09-18
+2025-08-19 07:20:34,862 - INFO - ✅ Saison 2024: 0 matchs récents récupérés
+2025-08-19 07:20:35,866 - INFO - ✅ Saison 2025: 30 matchs récents récupérés
+2025-08-19 07:20:36,858 - INFO - ✅ Saison 2026: 0 matchs récents récupérés
+2025-08-19 07:20:37,358 - INFO - 📊 Total matchs récents récupérés: 30
+2025-08-19 07:20:37,377 - INFO - 💾 Données sauvegardées: data/ITA1.csv (402 lignes)
+2025-08-19 07:20:37,377 - INFO - 📅 Période: 2024-08-19 à 2025-09-15
+2025-08-19 07:20:37,377 - INFO - ✅ Mise à jour terminée pour ITA1:
+2025-08-19 07:20:37,377 - INFO -    📊 Total final: 402 matchs
+2025-08-19 07:20:37,377 - INFO -    🆕 Nouveaux matchs traités: 0
+2025-08-19 07:20:37,377 - INFO -    📈 Stats ajoutées: 0
+2025-08-19 07:20:37,377 - INFO - ⏱️ Pause de 3 secondes...
+2025-08-19 07:20:40,378 - INFO - 
+🏟️ --- Mise à jour de GER1 ---
+2025-08-19 07:20:40,378 - INFO - 🏆 Mise à jour incrémentale pour Bundesliga (GER1)
+2025-08-19 07:20:40,381 - INFO - 📂 Données existantes chargées pour GER1: 335 matchs
+2025-08-19 07:20:40,384 - INFO - 📊 Filtrage par date: 335 → 335 matchs
+2025-08-19 07:20:40,384 - INFO - 🔄 Récupération des matchs récents pour GER1
+2025-08-19 07:20:40,384 - INFO - 📅 Tentative période récente: 2025-08-05 à 2025-09-18
+2025-08-19 07:20:40,861 - INFO - ✅ Saison 2024: 0 matchs récents récupérés
+2025-08-19 07:20:41,848 - INFO - ✅ Saison 2025: 27 matchs récents récupérés
+2025-08-19 07:20:42,778 - INFO - ✅ Saison 2026: 0 matchs récents récupérés
+2025-08-19 07:20:43,278 - INFO - 📊 Total matchs récents récupérés: 27
+2025-08-19 07:20:43,295 - INFO - 💾 Données sauvegardées: data/GER1.csv (335 lignes)
+2025-08-19 07:20:43,296 - INFO - 📅 Période: 2024-08-23 à 2025-09-14
+2025-08-19 07:20:43,296 - INFO - ✅ Mise à jour terminée pour GER1:
+2025-08-19 07:20:43,296 - INFO -    📊 Total final: 335 matchs
+2025-08-19 07:20:43,296 - INFO -    🆕 Nouveaux matchs traités: 0
+2025-08-19 07:20:43,296 - INFO -    📈 Stats ajoutées: 0
+2025-08-19 07:20:43,296 - INFO - ⏱️ Pause de 3 secondes...
+2025-08-19 07:20:46,296 - INFO - 
+🏟️ --- Mise à jour de SPA1 ---
+2025-08-19 07:20:46,296 - INFO - 🏆 Mise à jour incrémentale pour La Liga (SPA1)
+2025-08-19 07:20:46,300 - INFO - 📂 Données existantes chargées pour SPA1: 415 matchs
+2025-08-19 07:20:46,303 - INFO - 🗑️ Suppression de 2 matchs trop anciens (> 365 jours)
+2025-08-19 07:20:46,303 - INFO - 📊 Filtrage par date: 415 → 413 matchs
+2025-08-19 07:20:46,303 - INFO - 🔄 Récupération des matchs récents pour SPA1
+2025-08-19 07:20:46,303 - INFO - 📅 Tentative période récente: 2025-08-05 à 2025-09-18
+2025-08-19 07:20:46,715 - INFO - ✅ Saison 2024: 0 matchs récents récupérés
+2025-08-19 07:20:47,779 - INFO - ✅ Saison 2025: 41 matchs récents récupérés
+2025-08-19 07:20:48,689 - INFO - ✅ Saison 2026: 0 matchs récents récupérés
+2025-08-19 07:20:49,189 - INFO - 📊 Total matchs récents récupérés: 41
+2025-08-19 07:20:49,192 - INFO - 📊 Mise à jour des stats pour le match existant 1390822
+2025-08-19 07:20:50,110 - INFO - 💾 Données sauvegardées: data/SPA1.csv (413 lignes)
+2025-08-19 07:20:50,110 - INFO - 📅 Période: 2024-08-19 à 2025-09-15
+2025-08-19 07:20:50,111 - INFO - ✅ Mise à jour terminée pour SPA1:
+2025-08-19 07:20:50,111 - INFO -    📊 Total final: 413 matchs
+2025-08-19 07:20:50,111 - INFO -    🆕 Nouveaux matchs traités: 1
+2025-08-19 07:20:50,111 - INFO -    📈 Stats ajoutées: 1
+2025-08-19 07:20:50,111 - INFO - ⏱️ Pause de 3 secondes...
+2025-08-19 07:20:53,111 - INFO - 
+🏟️ --- Mise à jour de NED1 ---
+2025-08-19 07:20:53,111 - INFO - 🏆 Mise à jour incrémentale pour Eredivisie (NED1)
+2025-08-19 07:20:53,115 - INFO - 📂 Données existantes chargées pour NED1: 351 matchs
+2025-08-19 07:20:53,118 - INFO - 🗑️ Suppression de 4 matchs trop anciens (> 365 jours)
+2025-08-19 07:20:53,118 - INFO - 📊 Filtrage par date: 351 → 347 matchs
+2025-08-19 07:20:53,118 - INFO - 🔄 Récupération des matchs récents pour NED1
+2025-08-19 07:20:53,118 - INFO - 📅 Tentative période récente: 2025-08-05 à 2025-09-18
+2025-08-19 07:20:53,525 - INFO - ✅ Saison 2024: 0 matchs récents récupérés
+2025-08-19 07:20:54,447 - INFO - ✅ Saison 2025: 44 matchs récents récupérés
+2025-08-19 07:20:55,392 - INFO - ✅ Saison 2026: 0 matchs récents récupérés
+2025-08-19 07:20:55,893 - INFO - 📊 Total matchs récents récupérés: 44
+2025-08-19 07:20:55,914 - INFO - 💾 Données sauvegardées: data/NED1.csv (347 lignes)
+2025-08-19 07:20:55,914 - INFO - 📅 Période: 2024-08-24 à 2025-09-17
+2025-08-19 07:20:55,914 - INFO - ✅ Mise à jour terminée pour NED1:
+2025-08-19 07:20:55,914 - INFO -    📊 Total final: 347 matchs
+2025-08-19 07:20:55,914 - INFO -    🆕 Nouveaux matchs traités: 0
+2025-08-19 07:20:55,914 - INFO -    📈 Stats ajoutées: 0
+2025-08-19 07:20:55,914 - INFO - ⏱️ Pause de 3 secondes...
+2025-08-19 07:20:58,915 - INFO - 
+🏟️ --- Mise à jour de POR1 ---
+2025-08-19 07:20:58,915 - INFO - 🏆 Mise à jour incrémentale pour Primeira Liga (POR1)
+2025-08-19 07:20:58,918 - INFO - 📂 Données existantes chargées pour POR1: 338 matchs
+2025-08-19 07:20:58,921 - INFO - 🗑️ Suppression de 3 matchs trop anciens (> 365 jours)
+2025-08-19 07:20:58,921 - INFO - 📊 Filtrage par date: 338 → 335 matchs
+2025-08-19 07:20:58,921 - INFO - 🔄 Récupération des matchs récents pour POR1
+2025-08-19 07:20:58,921 - INFO - 📅 Tentative période récente: 2025-08-05 à 2025-09-18
+2025-08-19 07:20:59,347 - INFO - ✅ Saison 2024: 0 matchs récents récupérés
+2025-08-19 07:21:00,320 - INFO - ✅ Saison 2025: 44 matchs récents récupérés
+2025-08-19 07:21:01,229 - INFO - ✅ Saison 2026: 0 matchs récents récupérés
+2025-08-19 07:21:01,730 - INFO - 📊 Total matchs récents récupérés: 44
+2025-08-19 07:21:01,735 - INFO - 📊 Mise à jour des stats pour le match existant 1396249
+2025-08-19 07:21:02,660 - INFO - 💾 Données sauvegardées: data/POR1.csv (335 lignes)
+2025-08-19 07:21:02,660 - INFO - 📅 Période: 2024-08-19 à 2025-09-14
+2025-08-19 07:21:02,660 - INFO - ✅ Mise à jour terminée pour POR1:
+2025-08-19 07:21:02,660 - INFO -    📊 Total final: 335 matchs
+2025-08-19 07:21:02,661 - INFO -    🆕 Nouveaux matchs traités: 1
+2025-08-19 07:21:02,661 - INFO -    📈 Stats ajoutées: 1
+2025-08-19 07:21:02,661 - INFO - ⏱️ Pause de 3 secondes...
+2025-08-19 07:21:05,661 - INFO - 
+🏟️ --- Mise à jour de BEL1 ---
+2025-08-19 07:21:05,661 - INFO - 🏆 Mise à jour incrémentale pour Jupiler Pro League (BEL1)
+2025-08-19 07:21:05,665 - INFO - 📂 Données existantes chargées pour BEL1: 343 matchs
+2025-08-19 07:21:05,667 - INFO - 🗑️ Suppression de 4 matchs trop anciens (> 365 jours)
+2025-08-19 07:21:05,668 - INFO - 📊 Filtrage par date: 343 → 339 matchs
+2025-08-19 07:21:05,668 - INFO - 🔄 Récupération des matchs récents pour BEL1
+2025-08-19 07:21:05,668 - INFO - 📅 Tentative période récente: 2025-08-05 à 2025-09-18
+2025-08-19 07:21:06,093 - INFO - ✅ Saison 2024: 0 matchs récents récupérés
+2025-08-19 07:21:07,017 - INFO - ✅ Saison 2025: 40 matchs récents récupérés
+2025-08-19 07:21:07,938 - INFO - ✅ Saison 2026: 0 matchs récents récupérés
+2025-08-19 07:21:08,438 - INFO - 📊 Total matchs récents récupérés: 40
+2025-08-19 07:21:08,458 - INFO - 💾 Données sauvegardées: data/BEL1.csv (339 lignes)
+2025-08-19 07:21:08,458 - INFO - 📅 Période: 2024-08-24 à 2025-09-14
+2025-08-19 07:21:08,458 - INFO - ✅ Mise à jour terminée pour BEL1:
+2025-08-19 07:21:08,458 - INFO -    📊 Total final: 339 matchs
+2025-08-19 07:21:08,459 - INFO -    🆕 Nouveaux matchs traités: 0
+2025-08-19 07:21:08,459 - INFO -    📈 Stats ajoutées: 0
+2025-08-19 07:21:08,459 - INFO - ⏱️ Pause de 3 secondes...
+2025-08-19 07:21:11,459 - INFO - 
+🏟️ --- Mise à jour de ENG2 ---
+2025-08-19 07:21:11,459 - INFO - 🏆 Mise à jour incrémentale pour Championship (ENG2)
+2025-08-19 07:21:11,463 - INFO - 📂 Données existantes chargées pour ENG2: 594 matchs
+2025-08-19 07:21:11,466 - INFO - 🗑️ Suppression de 1 matchs trop anciens (> 365 jours)
+2025-08-19 07:21:11,467 - INFO - 📊 Filtrage par date: 594 → 593 matchs
+2025-08-19 07:21:11,467 - INFO - 🔄 Récupération des matchs récents pour ENG2
+2025-08-19 07:21:11,467 - INFO - 📅 Tentative période récente: 2025-08-05 à 2025-09-18
+2025-08-19 07:21:11,887 - INFO - ✅ Saison 2024: 0 matchs récents récupérés
+2025-08-19 07:21:12,808 - INFO - ✅ Saison 2025: 60 matchs récents récupérés
+2025-08-19 07:21:13,724 - INFO - ✅ Saison 2026: 0 matchs récents récupérés
+2025-08-19 07:21:14,225 - INFO - 📊 Total matchs récents récupérés: 60
+2025-08-19 07:21:14,255 - INFO - 💾 Données sauvegardées: data/ENG2.csv (593 lignes)
+2025-08-19 07:21:14,256 - INFO - 📅 Période: 2024-08-23 à 2025-09-14
+2025-08-19 07:21:14,256 - INFO - ✅ Mise à jour terminée pour ENG2:
+2025-08-19 07:21:14,256 - INFO -    📊 Total final: 593 matchs
+2025-08-19 07:21:14,256 - INFO -    🆕 Nouveaux matchs traités: 0
+2025-08-19 07:21:14,256 - INFO -    📈 Stats ajoutées: 0
+2025-08-19 07:21:14,256 - INFO - ⏱️ Pause de 3 secondes...
+2025-08-19 07:21:17,256 - INFO - 
+🏟️ --- Mise à jour de FRA2 ---
+2025-08-19 07:21:17,257 - INFO - 🏆 Mise à jour incrémentale pour Ligue 2 (FRA2)
+2025-08-19 07:21:17,260 - INFO - 📂 Données existantes chargées pour FRA2: 348 matchs
+2025-08-19 07:21:17,262 - INFO - 📊 Filtrage par date: 348 → 348 matchs
+2025-08-19 07:21:17,263 - INFO - 🔄 Récupération des matchs récents pour FRA2
+2025-08-19 07:21:17,263 - INFO - 📅 Tentative période récente: 2025-08-05 à 2025-09-18
+2025-08-19 07:21:17,703 - INFO - ✅ Saison 2024: 0 matchs récents récupérés
+2025-08-19 07:21:18,620 - INFO - ✅ Saison 2025: 45 matchs récents récupérés
+2025-08-19 07:21:19,524 - INFO - ✅ Saison 2026: 0 matchs récents récupérés
+2025-08-19 07:21:20,025 - INFO - 📊 Total matchs récents récupérés: 45
+2025-08-19 07:21:20,029 - INFO - 📊 Mise à jour des stats pour le match existant 1389135
+2025-08-19 07:21:20,957 - INFO - 💾 Données sauvegardées: data/FRA2.csv (348 lignes)
+2025-08-19 07:21:20,957 - INFO - 📅 Période: 2024-08-19 à 2025-09-16
+2025-08-19 07:21:20,957 - INFO - ✅ Mise à jour terminée pour FRA2:
+2025-08-19 07:21:20,957 - INFO -    📊 Total final: 348 matchs
+2025-08-19 07:21:20,957 - INFO -    🆕 Nouveaux matchs traités: 1
+2025-08-19 07:21:20,958 - INFO -    📈 Stats ajoutées: 1
+2025-08-19 07:21:20,958 - INFO - ⏱️ Pause de 3 secondes...
+2025-08-19 07:21:23,958 - INFO - 
+🏟️ --- Mise à jour de ITA2 ---
+2025-08-19 07:21:23,958 - INFO - 🏆 Mise à jour incrémentale pour Serie B (ITA2)
+2025-08-19 07:21:23,961 - INFO - 📂 Données existantes chargées pour ITA2: 415 matchs
+2025-08-19 07:21:23,964 - INFO - 🗑️ Suppression de 5 matchs trop anciens (> 365 jours)
+2025-08-19 07:21:23,964 - INFO - 📊 Filtrage par date: 415 → 410 matchs
+2025-08-19 07:21:23,964 - INFO - 🔄 Récupération des matchs récents pour ITA2
+2025-08-19 07:21:23,964 - INFO - 📅 Tentative période récente: 2025-08-05 à 2025-09-18
+2025-08-19 07:21:24,373 - INFO - ✅ Saison 2024: 0 matchs récents récupérés
+2025-08-19 07:21:25,364 - INFO - ✅ Saison 2025: 30 matchs récents récupérés
+2025-08-19 07:21:26,317 - INFO - ✅ Saison 2026: 0 matchs récents récupérés
+2025-08-19 07:21:26,818 - INFO - 📊 Total matchs récents récupérés: 30
+2025-08-19 07:21:26,836 - INFO - 💾 Données sauvegardées: data/ITA2.csv (410 lignes)
+2025-08-19 07:21:26,837 - INFO - 📅 Période: 2024-08-23 à 2025-09-14
+2025-08-19 07:21:26,837 - INFO - ✅ Mise à jour terminée pour ITA2:
+2025-08-19 07:21:26,837 - INFO -    📊 Total final: 410 matchs
+2025-08-19 07:21:26,837 - INFO -    🆕 Nouveaux matchs traités: 0
+2025-08-19 07:21:26,837 - INFO -    📈 Stats ajoutées: 0
+2025-08-19 07:21:26,837 - INFO - ⏱️ Pause de 3 secondes...
+2025-08-19 07:21:29,837 - INFO - 
+🏟️ --- Mise à jour de GER2 ---
+2025-08-19 07:21:29,837 - INFO - 🏆 Mise à jour incrémentale pour 2. Bundesliga (GER2)
+2025-08-19 07:21:29,841 - INFO - 📂 Données existantes chargées pour GER2: 335 matchs
+2025-08-19 07:21:29,843 - INFO - 📊 Filtrage par date: 335 → 335 matchs
+2025-08-19 07:21:29,844 - INFO - 🔄 Récupération des matchs récents pour GER2
+2025-08-19 07:21:29,844 - INFO - 📅 Tentative période récente: 2025-08-05 à 2025-09-18
+2025-08-19 07:21:30,260 - INFO - ✅ Saison 2024: 0 matchs récents récupérés
+2025-08-19 07:21:31,193 - INFO - ✅ Saison 2025: 36 matchs récents récupérés
+2025-08-19 07:21:32,108 - INFO - ✅ Saison 2026: 0 matchs récents récupérés
+2025-08-19 07:21:32,608 - INFO - 📊 Total matchs récents récupérés: 36
+2025-08-19 07:21:32,627 - INFO - 💾 Données sauvegardées: data/GER2.csv (335 lignes)
+2025-08-19 07:21:32,628 - INFO - 📅 Période: 2024-08-23 à 2025-09-14
+2025-08-19 07:21:32,628 - INFO - ✅ Mise à jour terminée pour GER2:
+2025-08-19 07:21:32,628 - INFO -    📊 Total final: 335 matchs
+2025-08-19 07:21:32,628 - INFO -    🆕 Nouveaux matchs traités: 0
+2025-08-19 07:21:32,628 - INFO -    📈 Stats ajoutées: 0
+2025-08-19 07:21:32,628 - INFO - ⏱️ Pause de 3 secondes...
+2025-08-19 07:21:35,628 - INFO - 
+🏟️ --- Mise à jour de SPA2 ---
+2025-08-19 07:21:35,628 - INFO - 🏆 Mise à jour incrémentale pour Segunda División (SPA2)
+2025-08-19 07:21:35,632 - INFO - 📂 Données existantes chargées pour SPA2: 517 matchs
+2025-08-19 07:21:35,635 - INFO - 🗑️ Suppression de 4 matchs trop anciens (> 365 jours)
+2025-08-19 07:21:35,635 - INFO - 📊 Filtrage par date: 517 → 513 matchs
+2025-08-19 07:21:35,635 - INFO - 🔄 Récupération des matchs récents pour SPA2
+2025-08-19 07:21:35,636 - INFO - 📅 Tentative période récente: 2025-08-05 à 2025-09-18
+2025-08-19 07:21:36,073 - INFO - ✅ Saison 2024: 0 matchs récents récupérés
+2025-08-19 07:21:37,024 - INFO - ✅ Saison 2025: 55 matchs récents récupérés
+2025-08-19 07:21:37,945 - INFO - ✅ Saison 2026: 0 matchs récents récupérés
+2025-08-19 07:21:38,446 - INFO - 📊 Total matchs récents récupérés: 55
+2025-08-19 07:21:38,449 - INFO - 📊 Mise à jour des stats pour le match existant 1396942
+2025-08-19 07:21:39,325 - INFO - 📊 Mise à jour des stats pour le match existant 1396941
+2025-08-19 07:21:40,254 - INFO - 💾 Données sauvegardées: data/SPA2.csv (513 lignes)
+2025-08-19 07:21:40,254 - INFO - 📅 Période: 2024-08-19 à 2025-09-14
+2025-08-19 07:21:40,254 - INFO - ✅ Mise à jour terminée pour SPA2:
+2025-08-19 07:21:40,254 - INFO -    📊 Total final: 513 matchs
+2025-08-19 07:21:40,254 - INFO -    🆕 Nouveaux matchs traités: 2
+2025-08-19 07:21:40,254 - INFO -    📈 Stats ajoutées: 2
+2025-08-19 07:21:40,255 - INFO - ⏱️ Pause de 3 secondes...
+2025-08-19 07:21:43,255 - INFO - 
+🏟️ --- Mise à jour de TUR1 ---
+2025-08-19 07:21:43,255 - INFO - 🏆 Mise à jour incrémentale pour Süper Lig (TUR1)
+2025-08-19 07:21:43,258 - INFO - 📂 Données existantes chargées pour TUR1: 374 matchs
+2025-08-19 07:21:43,261 - INFO - 🗑️ Suppression de 3 matchs trop anciens (> 365 jours)
+2025-08-19 07:21:43,262 - INFO - 📊 Filtrage par date: 374 → 371 matchs
+2025-08-19 07:21:43,262 - INFO - 🔄 Récupération des matchs récents pour TUR1
+2025-08-19 07:21:43,262 - INFO - 📅 Tentative période récente: 2025-08-05 à 2025-09-18
+2025-08-19 07:21:43,667 - INFO - ✅ Saison 2024: 0 matchs récents récupérés
+2025-08-19 07:21:44,593 - INFO - ✅ Saison 2025: 45 matchs récents récupérés
+2025-08-19 07:21:45,501 - INFO - ✅ Saison 2026: 0 matchs récents récupérés
+2025-08-19 07:21:46,002 - INFO - 📊 Total matchs récents récupérés: 45
+2025-08-19 07:21:46,006 - INFO - 📊 Mise à jour des stats pour le match existant 1394448
+2025-08-19 07:21:46,917 - INFO - 💾 Données sauvegardées: data/TUR1.csv (371 lignes)
+2025-08-19 07:21:46,917 - INFO - 📅 Période: 2024-08-19 à 2025-09-14
+2025-08-19 07:21:46,917 - INFO - ✅ Mise à jour terminée pour TUR1:
+2025-08-19 07:21:46,917 - INFO -    📊 Total final: 371 matchs
+2025-08-19 07:21:46,918 - INFO -    🆕 Nouveaux matchs traités: 1
+2025-08-19 07:21:46,918 - INFO -    📈 Stats ajoutées: 1
+2025-08-19 07:21:46,918 - INFO - ⏱️ Pause de 3 secondes...
+2025-08-19 07:21:49,918 - INFO - 
+🏟️ --- Mise à jour de SAU1 ---
+2025-08-19 07:21:49,918 - INFO - 🏆 Mise à jour incrémentale pour Saudi Pro League (SAU1)
+2025-08-19 07:21:49,923 - INFO - 📂 Données existantes chargées pour SAU1: 324 matchs
+2025-08-19 07:21:49,926 - INFO - 📊 Filtrage par date: 324 → 324 matchs
+2025-08-19 07:21:49,926 - INFO - 🔄 Récupération des matchs récents pour SAU1
+2025-08-19 07:21:49,926 - INFO - 📅 Tentative période récente: 2025-08-05 à 2025-09-18
+2025-08-19 07:21:50,395 - INFO - ✅ Saison 2024: 0 matchs récents récupérés
+2025-08-19 07:21:51,321 - INFO - ✅ Saison 2025: 21 matchs récents récupérés
+2025-08-19 07:21:52,233 - INFO - ✅ Saison 2026: 0 matchs récents récupérés
+2025-08-19 07:21:52,733 - INFO - 📊 Total matchs récents récupérés: 21
+2025-08-19 07:21:52,753 - INFO - 💾 Données sauvegardées: data/SAU1.csv (327 lignes)
+2025-08-19 07:21:52,754 - INFO - 📅 Période: 2024-08-22 à 2025-09-18
+2025-08-19 07:21:52,754 - INFO - ✅ Mise à jour terminée pour SAU1:
+2025-08-19 07:21:52,754 - INFO -    📊 Total final: 327 matchs
+2025-08-19 07:21:52,754 - INFO -    🆕 Nouveaux matchs traités: 3
+2025-08-19 07:21:52,754 - INFO -    📈 Stats ajoutées: 0
+2025-08-19 07:21:52,754 - INFO - ⏱️ Pause de 3 secondes...
+2025-08-19 07:21:55,754 - INFO - 
+🎉 === MISE À JOUR TERMINÉE ===
+2025-08-19 07:21:55,755 - INFO - ⏱️ Durée totale: 0:01:36.231309
+2025-08-19 07:21:55,755 - INFO - ✅ Ligues mises à jour avec succès: 15/15
+2025-08-19 07:21:55,755 - INFO - 📁 Fenêtre de données maintenue: 365 derniers jours
