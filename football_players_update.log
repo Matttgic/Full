@@ -1,0 +1,121 @@
+2025-08-20 12:56:04,817 - INFO - ✅ Clé API récupérée depuis les variables d'environnement
+2025-08-20 12:56:04,817 - INFO - 📅 Date limite (365 jours): 2024-08-20
+2025-08-20 12:56:04,817 - INFO - 🔄 Mise à jour depuis: 2025-08-13
+2025-08-20 12:56:04,817 - INFO - 🚀 === DÉBUT DE LA MISE À JOUR INCRÉMENTALE JOUEURS ===
+2025-08-20 12:56:04,817 - INFO - 📅 Période de mise à jour: 2025-08-13 à 2025-08-20
+2025-08-20 12:56:04,817 - INFO - 🏆 Ligues à traiter: ['ENG1', 'FRA1', 'ITA1', 'GER1', 'SPA1', 'NED1', 'POR1', 'BEL1', 'ENG2', 'FRA2', 'ITA2', 'GER2', 'SPA2', 'TUR1', 'SAU1']
+2025-08-20 12:56:04,817 - INFO - 
+🏟️ --- Mise à jour joueurs ENG1 ---
+2025-08-20 12:56:04,817 - INFO - 🏆 Mise à jour joueurs pour ENG1 (Premier League)
+2025-08-20 12:56:04,871 - INFO - 📂 Données existantes: 411 matchs, 15228 stats joueurs
+2025-08-20 12:56:04,872 - INFO - ⚽ 10 nouveaux matchs récents à traiter
+2025-08-20 12:56:04,873 - INFO - ✅ Stats joueurs déjà à jour pour ENG1
+2025-08-20 12:56:04,874 - INFO - ⏱️ Pause de 5 secondes...
+2025-08-20 12:56:09,874 - INFO - 
+🏟️ --- Mise à jour joueurs FRA1 ---
+2025-08-20 12:56:09,874 - INFO - 🏆 Mise à jour joueurs pour FRA1 (Ligue 1)
+2025-08-20 12:56:09,915 - INFO - 📂 Données existantes: 335 matchs, 12255 stats joueurs
+2025-08-20 12:56:09,916 - INFO - ⚽ 9 nouveaux matchs récents à traiter
+2025-08-20 12:56:09,916 - INFO - ✅ Stats joueurs déjà à jour pour FRA1
+2025-08-20 12:56:09,917 - INFO - ⏱️ Pause de 5 secondes...
+2025-08-20 12:56:14,918 - INFO - 
+🏟️ --- Mise à jour joueurs ITA1 ---
+2025-08-20 12:56:14,918 - INFO - 🏆 Mise à jour joueurs pour ITA1 (Serie A)
+2025-08-20 12:56:14,972 - INFO - 📂 Données existantes: 402 matchs, 17333 stats joueurs
+2025-08-20 12:56:14,973 - INFO - ✅ Aucun nouveau match récent pour ITA1
+2025-08-20 12:56:14,974 - INFO - ⏱️ Pause de 5 secondes...
+2025-08-20 12:56:19,974 - INFO - 
+🏟️ --- Mise à jour joueurs GER1 ---
+2025-08-20 12:56:19,974 - INFO - 🏆 Mise à jour joueurs pour GER1 (Bundesliga)
+2025-08-20 12:56:20,015 - INFO - 📂 Données existantes: 335 matchs, 12288 stats joueurs
+2025-08-20 12:56:20,016 - INFO - ✅ Aucun nouveau match récent pour GER1
+2025-08-20 12:56:20,017 - INFO - ⏱️ Pause de 5 secondes...
+2025-08-20 12:56:25,017 - INFO - 
+🏟️ --- Mise à jour joueurs SPA1 ---
+2025-08-20 12:56:25,017 - INFO - 🏆 Mise à jour joueurs pour SPA1 (La Liga)
+2025-08-20 12:56:25,068 - INFO - 📂 Données existantes: 413 matchs, 16972 stats joueurs
+2025-08-20 12:56:25,069 - INFO - ⚽ 9 nouveaux matchs récents à traiter
+2025-08-20 12:56:25,069 - INFO - ✅ Stats joueurs déjà à jour pour SPA1
+2025-08-20 12:56:25,071 - INFO - ⏱️ Pause de 5 secondes...
+2025-08-20 12:56:30,071 - INFO - 
+🏟️ --- Mise à jour joueurs NED1 ---
+2025-08-20 12:56:30,071 - INFO - 🏆 Mise à jour joueurs pour NED1 (Eredivisie)
+2025-08-20 12:56:30,113 - INFO - 📂 Données existantes: 347 matchs, 13969 stats joueurs
+2025-08-20 12:56:30,114 - INFO - ⚽ 9 nouveaux matchs récents à traiter
+2025-08-20 12:56:30,115 - INFO - ✅ Stats joueurs déjà à jour pour NED1
+2025-08-20 12:56:30,116 - INFO - ⏱️ Pause de 5 secondes...
+2025-08-20 12:56:35,116 - INFO - 
+🏟️ --- Mise à jour joueurs POR1 ---
+2025-08-20 12:56:35,116 - INFO - 🏆 Mise à jour joueurs pour POR1 (Primeira Liga)
+2025-08-20 12:56:35,156 - INFO - 📂 Données existantes: 335 matchs, 12180 stats joueurs
+2025-08-20 12:56:35,157 - INFO - ⚽ 9 nouveaux matchs récents à traiter
+2025-08-20 12:56:35,157 - INFO - ✅ Stats joueurs déjà à jour pour POR1
+2025-08-20 12:56:35,158 - INFO - ⏱️ Pause de 5 secondes...
+2025-08-20 12:56:40,158 - INFO - 
+🏟️ --- Mise à jour joueurs BEL1 ---
+2025-08-20 12:56:40,158 - INFO - 🏆 Mise à jour joueurs pour BEL1 (Jupiler Pro League)
+2025-08-20 12:56:40,194 - INFO - 📂 Données existantes: 339 matchs, 12534 stats joueurs
+2025-08-20 12:56:40,195 - INFO - ⚽ 8 nouveaux matchs récents à traiter
+2025-08-20 12:56:40,195 - INFO - ✅ Stats joueurs déjà à jour pour BEL1
+2025-08-20 12:56:40,196 - INFO - ⏱️ Pause de 5 secondes...
+2025-08-20 12:56:45,196 - INFO - 
+🏟️ --- Mise à jour joueurs ENG2 ---
+2025-08-20 12:56:45,196 - INFO - 🏆 Mise à jour joueurs pour ENG2 (Championship)
+2025-08-20 12:56:45,253 - INFO - 📂 Données existantes: 593 matchs, 22227 stats joueurs
+2025-08-20 12:56:45,254 - INFO - ⚽ 12 nouveaux matchs récents à traiter
+2025-08-20 12:56:45,254 - INFO - ✅ Stats joueurs déjà à jour pour ENG2
+2025-08-20 12:56:45,255 - INFO - ⏱️ Pause de 5 secondes...
+2025-08-20 12:56:50,255 - INFO - 
+🏟️ --- Mise à jour joueurs FRA2 ---
+2025-08-20 12:56:50,255 - INFO - 🏆 Mise à jour joueurs pour FRA2 (Ligue 2)
+2025-08-20 12:56:50,286 - INFO - 📂 Données existantes: 348 matchs, 11458 stats joueurs
+2025-08-20 12:56:50,287 - INFO - ⚽ 9 nouveaux matchs récents à traiter
+2025-08-20 12:56:50,288 - INFO - ✅ Stats joueurs déjà à jour pour FRA2
+2025-08-20 12:56:50,288 - INFO - ⏱️ Pause de 5 secondes...
+2025-08-20 12:56:55,289 - INFO - 
+🏟️ --- Mise à jour joueurs ITA2 ---
+2025-08-20 12:56:55,289 - INFO - 🏆 Mise à jour joueurs pour ITA2 (Serie B)
+2025-08-20 12:56:55,331 - INFO - 📂 Données existantes: 410 matchs, 17173 stats joueurs
+2025-08-20 12:56:55,332 - INFO - ✅ Aucun nouveau match récent pour ITA2
+2025-08-20 12:56:55,332 - INFO - ⏱️ Pause de 5 secondes...
+2025-08-20 12:57:00,332 - INFO - 
+🏟️ --- Mise à jour joueurs GER2 ---
+2025-08-20 12:57:00,333 - INFO - 🏆 Mise à jour joueurs pour GER2 (2. Bundesliga)
+2025-08-20 12:57:00,367 - INFO - 📂 Données existantes: 335 matchs, 12201 stats joueurs
+2025-08-20 12:57:00,368 - INFO - ✅ Aucun nouveau match récent pour GER2
+2025-08-20 12:57:00,369 - INFO - ⏱️ Pause de 5 secondes...
+2025-08-20 12:57:05,369 - INFO - 
+🏟️ --- Mise à jour joueurs SPA2 ---
+2025-08-20 12:57:05,369 - INFO - 🏆 Mise à jour joueurs pour SPA2 (Segunda División)
+2025-08-20 12:57:05,420 - INFO - 📂 Données existantes: 513 matchs, 20596 stats joueurs
+2025-08-20 12:57:05,420 - INFO - ⚽ 11 nouveaux matchs récents à traiter
+2025-08-20 12:57:05,421 - INFO - ✅ Stats joueurs déjà à jour pour SPA2
+2025-08-20 12:57:05,421 - INFO - ⏱️ Pause de 5 secondes...
+2025-08-20 12:57:10,422 - INFO - 
+🏟️ --- Mise à jour joueurs TUR1 ---
+2025-08-20 12:57:10,422 - INFO - 🏆 Mise à jour joueurs pour TUR1 (Süper Lig)
+2025-08-20 12:57:10,461 - INFO - 📂 Données existantes: 371 matchs, 14218 stats joueurs
+2025-08-20 12:57:10,462 - INFO - ⚽ 9 nouveaux matchs récents à traiter
+2025-08-20 12:57:10,463 - INFO - ✅ Stats joueurs déjà à jour pour TUR1
+2025-08-20 12:57:10,463 - INFO - ⏱️ Pause de 5 secondes...
+2025-08-20 12:57:15,463 - INFO - 
+🏟️ --- Mise à jour joueurs SAU1 ---
+2025-08-20 12:57:15,464 - INFO - 🏆 Mise à jour joueurs pour SAU1 (Saudi Pro League)
+2025-08-20 12:57:15,496 - INFO - 📂 Données existantes: 327 matchs, 12164 stats joueurs
+2025-08-20 12:57:15,497 - INFO - ✅ Aucun nouveau match récent pour SAU1
+2025-08-20 12:57:15,497 - INFO - ⏱️ Pause de 5 secondes...
+2025-08-20 12:57:20,497 - INFO - 
+🎉 === MISE À JOUR JOUEURS TERMINÉE ===
+2025-08-20 12:57:20,498 - INFO - ⏱️ Durée totale: 0:01:15.680323
+2025-08-20 12:57:20,498 - INFO - ✅ Ligues traitées: 0/15
+2025-08-20 12:57:20,498 - INFO - 🆕 Nouveaux matchs traités: 0
+2025-08-20 12:57:20,498 - INFO - 🏃 Nouvelles stats joueurs: 0
+2025-08-20 12:57:20,498 - INFO - 📁 Fichiers mis à jour: 0
+2025-08-20 12:57:20,498 - INFO - 🌐 Requêtes API: 0
+2025-08-20 12:57:20,498 - INFO - ❌ Requêtes échouées: 0
+2025-08-20 12:57:20,498 - INFO - 📁 Fenêtre de données maintenue: 365 derniers jours
+2025-08-20 12:57:20,498 - INFO - 
+📊 === RÉSUMÉ DES DONNÉES ===
+2025-08-20 12:57:20,907 - INFO - 📊 Stats joueurs: 15 fichiers, 222796 enregistrements, 28.71 MB
+2025-08-20 12:57:20,925 - INFO - 📊 Compositions: 15 fichiers, 5360 enregistrements, 0.41 MB
+2025-08-20 12:57:20,944 - INFO - 📊 Effectifs: 15 fichiers, 12754 enregistrements, 0.50 MB
