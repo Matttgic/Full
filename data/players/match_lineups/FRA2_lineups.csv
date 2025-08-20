@@ -1,0 +1,319 @@
+fixture_id,league_code,match_date,home_team,away_team,team_1_id,team_1_name,team_1_players_count,team_2_id,team_2_name,team_2_players_count
+1212445,FRA2,2024-08-19,Metz,Bastia,112,Metz,18,1305,Bastia,18
+1212438,FRA2,2024-08-19,Martigues,Lorient,3200,Martigues,18,97,Lorient,18
+1212447,FRA2,2024-08-23,Estac Troyes,Clermont Foot,110,Estac Troyes,18,99,Clermont Foot,18
+1212453,FRA2,2024-08-23,Paris FC,Dunkerque,114,Paris FC,18,1304,Dunkerque,18
+1212455,FRA2,2024-08-23,Laval,Guingamp,433,Laval,18,90,Guingamp,18
+1212450,FRA2,2024-08-23,PAU,Caen,1297,PAU,18,88,Caen,18
+1212449,FRA2,2024-08-23,Rodez,Metz,1301,Rodez,18,112,Metz,18
+1212451,FRA2,2024-08-23,Bastia,Amiens,1305,Bastia,18,87,Amiens,18
+1212452,FRA2,2024-08-23,Annecy,Martigues,3012,Annecy,18,3200,Martigues,18
+1212448,FRA2,2024-08-24,Lorient,Grenoble,97,Lorient,18,101,Grenoble,18
+1212454,FRA2,2024-08-26,RED Star FC 93,Ajaccio,104,RED Star FC 93,18,98,Ajaccio,18
+1212457,FRA2,2024-08-30,Martigues,Bastia,3200,Martigues,19,1305,Bastia,18
+1212456,FRA2,2024-08-30,Grenoble,PAU,101,Grenoble,18,1297,PAU,18
+1212463,FRA2,2024-08-30,Clermont Foot,Paris FC,99,Clermont Foot,18,114,Paris FC,18
+1212461,FRA2,2024-08-30,Ajaccio,Estac Troyes,98,Ajaccio,18,110,Estac Troyes,18
+1212460,FRA2,2024-08-30,Guingamp,RED Star FC 93,90,Guingamp,18,104,RED Star FC 93,18
+1212458,FRA2,2024-08-30,Caen,Annecy,88,Caen,18,3012,Annecy,18
+1212459,FRA2,2024-08-30,Dunkerque,Rodez,1304,Dunkerque,18,1301,Rodez,18
+1212462,FRA2,2024-08-31,Amiens,Lorient,87,Amiens,18,97,Lorient,18
+1212464,FRA2,2024-08-31,Metz,Laval,112,Metz,18,433,Laval,18
+1212468,FRA2,2024-09-13,Rodez,Guingamp,1301,Rodez,18,90,Guingamp,18
+1212467,FRA2,2024-09-13,Bastia,Estac Troyes,1305,Bastia,18,110,Estac Troyes,18
+1212469,FRA2,2024-09-13,PAU,Martigues,1297,PAU,18,3200,Martigues,18
+1212472,FRA2,2024-09-13,Lorient,RED Star FC 93,97,Lorient,18,104,RED Star FC 93,18
+1212471,FRA2,2024-09-13,Clermont Foot,Dunkerque,99,Clermont Foot,18,1304,Dunkerque,18
+1212473,FRA2,2024-09-13,Laval,Ajaccio,433,Laval,18,98,Ajaccio,18
+1212470,FRA2,2024-09-13,Annecy,Amiens,3012,Annecy,18,87,Amiens,18
+1212466,FRA2,2024-09-14,Paris FC,Metz,114,Paris FC,18,112,Metz,18
+1212465,FRA2,2024-09-16,Grenoble,Caen,101,Grenoble,18,88,Caen,18
+1212482,FRA2,2024-09-20,Caen,Ajaccio,88,Caen,18,98,Ajaccio,18
+1212475,FRA2,2024-09-20,Bastia,Paris FC,1305,Bastia,18,114,Paris FC,18
+1212481,FRA2,2024-09-20,Amiens,Clermont Foot,87,Amiens,18,99,Clermont Foot,18
+1212476,FRA2,2024-09-20,Guingamp,Annecy,90,Guingamp,18,3012,Annecy,18
+1212478,FRA2,2024-09-20,RED Star FC 93,Laval,104,RED Star FC 93,18,433,Laval,18
+1212477,FRA2,2024-09-20,Dunkerque,PAU,1304,Dunkerque,18,1297,PAU,18
+1212474,FRA2,2024-09-20,Martigues,Grenoble,3200,Martigues,18,101,Grenoble,18
+1212480,FRA2,2024-09-20,Estac Troyes,Rodez,110,Estac Troyes,18,1301,Rodez,18
+1212479,FRA2,2024-09-21,Metz,Lorient,112,Metz,18,97,Lorient,18
+1212490,FRA2,2024-09-24,Clermont Foot,RED Star FC 93,99,Clermont Foot,18,104,RED Star FC 93,18
+1212483,FRA2,2024-09-24,Caen,Amiens,88,Caen,18,87,Amiens,18
+1212488,FRA2,2024-09-24,Ajaccio,Grenoble,98,Ajaccio,18,101,Grenoble,18
+1212485,FRA2,2024-09-24,Metz,Martigues,112,Metz,18,3200,Martigues,18
+1212486,FRA2,2024-09-24,Paris FC,Guingamp,114,Paris FC,18,90,Guingamp,18
+1212487,FRA2,2024-09-24,PAU,Lorient,1297,PAU,18,97,Lorient,18
+1212489,FRA2,2024-09-24,Dunkerque,Bastia,1304,Dunkerque,18,1305,Bastia,18
+1212484,FRA2,2024-09-24,Annecy,Estac Troyes,3012,Annecy,18,110,Estac Troyes,18
+1212491,FRA2,2024-09-24,Rodez,Laval,1301,Rodez,18,433,Laval,18
+1212495,FRA2,2024-09-27,Martigues,Dunkerque,3200,Martigues,19,1304,Dunkerque,18
+1212494,FRA2,2024-09-27,Bastia,Annecy,1305,Bastia,18,3012,Annecy,18
+1212497,FRA2,2024-09-27,Laval,PAU,433,Laval,18,1297,PAU,18
+1212493,FRA2,2024-09-27,Amiens,Rodez,87,Amiens,18,1301,Rodez,18
+1212498,FRA2,2024-09-27,Lorient,Ajaccio,97,Lorient,18,98,Ajaccio,18
+1212492,FRA2,2024-09-27,Grenoble,Clermont Foot,101,Grenoble,18,99,Clermont Foot,18
+1212496,FRA2,2024-09-28,RED Star FC 93,Paris FC,104,RED Star FC 93,18,114,Paris FC,18
+1212499,FRA2,2024-09-28,Estac Troyes,Metz,110,Estac Troyes,18,112,Metz,18
+1212500,FRA2,2024-09-30,Guingamp,Caen,90,Guingamp,18,88,Caen,18
+1212508,FRA2,2024-10-04,Annecy,RED Star FC 93,3012,Annecy,18,104,RED Star FC 93,18
+1212504,FRA2,2024-10-04,Dunkerque,Estac Troyes,1304,Dunkerque,18,110,Estac Troyes,18
+1212509,FRA2,2024-10-04,Paris FC,Laval,114,Paris FC,18,433,Laval,18
+1212505,FRA2,2024-10-04,Rodez,Grenoble,1301,Rodez,18,101,Grenoble,18
+1212502,FRA2,2024-10-05,Caen,Lorient,88,Caen,18,97,Lorient,18
+1212507,FRA2,2024-10-05,Ajaccio,Martigues,98,Ajaccio,18,3200,Martigues,18
+1212501,FRA2,2024-10-05,Clermont Foot,Guingamp,99,Clermont Foot,18,90,Guingamp,18
+1212503,FRA2,2024-10-05,Metz,Amiens,112,Metz,18,87,Amiens,18
+1212511,FRA2,2024-10-18,Guingamp,PAU,90,Guingamp,18,1297,PAU,18
+1212517,FRA2,2024-10-18,Grenoble,Metz,101,Grenoble,18,112,Metz,18
+1212515,FRA2,2024-10-18,Laval,Dunkerque,433,Laval,18,1304,Dunkerque,18
+1212518,FRA2,2024-10-18,Bastia,Clermont Foot,1305,Bastia,18,99,Clermont Foot,18
+1212510,FRA2,2024-10-18,Martigues,Rodez,3200,Martigues,18,1301,Rodez,18
+1212514,FRA2,2024-10-18,RED Star FC 93,Caen,104,RED Star FC 93,18,88,Caen,18
+1212512,FRA2,2024-10-19,Amiens,Ajaccio,87,Amiens,18,98,Ajaccio,18
+1212513,FRA2,2024-10-19,Lorient,Annecy,97,Lorient,18,3012,Annecy,18
+1212516,FRA2,2024-10-21,Estac Troyes,Paris FC,110,Estac Troyes,18,114,Paris FC,18
+1212506,FRA2,2024-10-22,PAU,Bastia,1297,PAU,18,1305,Bastia,18
+1212526,FRA2,2024-10-25,Dunkerque,RED Star FC 93,1304,Dunkerque,18,104,RED Star FC 93,18
+1212527,FRA2,2024-10-25,Annecy,Laval,3012,Annecy,18,433,Laval,18
+1212521,FRA2,2024-10-25,Rodez,Lorient,1301,Rodez,18,97,Lorient,18
+1212524,FRA2,2024-10-25,PAU,Amiens,1297,PAU,19,87,Amiens,18
+1212522,FRA2,2024-10-25,Clermont Foot,Martigues,99,Clermont Foot,18,3200,Martigues,18
+1212519,FRA2,2024-10-25,Metz,Guingamp,112,Metz,18,90,Guingamp,18
+1212520,FRA2,2024-10-26,Caen,Estac Troyes,88,Caen,18,110,Estac Troyes,18
+1212523,FRA2,2024-10-26,Paris FC,Grenoble,114,Paris FC,18,101,Grenoble,18
+1212533,FRA2,2024-10-29,Lorient,Dunkerque,97,Lorient,18,1304,Dunkerque,18
+1212529,FRA2,2024-10-29,Amiens,Paris FC,87,Amiens,18,114,Paris FC,18
+1212531,FRA2,2024-10-29,Guingamp,Ajaccio,90,Guingamp,18,98,Ajaccio,18
+1212536,FRA2,2024-10-29,Estac Troyes,PAU,110,Estac Troyes,18,1297,PAU,18
+1212532,FRA2,2024-10-29,Grenoble,Annecy,101,Grenoble,18,3012,Annecy,18
+1212534,FRA2,2024-10-29,RED Star FC 93,Metz,104,RED Star FC 93,18,112,Metz,18
+1212530,FRA2,2024-10-29,Bastia,Rodez,1305,Bastia,18,1301,Rodez,18
+1212528,FRA2,2024-10-29,Martigues,Caen,3200,Martigues,18,88,Caen,18
+1212535,FRA2,2024-10-29,Laval,Clermont Foot,433,Laval,18,99,Clermont Foot,18
+1212543,FRA2,2024-11-01,Annecy,PAU,3012,Annecy,18,1297,PAU,18
+1212544,FRA2,2024-11-01,Dunkerque,Amiens,1304,Dunkerque,18,87,Amiens,18
+1212545,FRA2,2024-11-01,Martigues,RED Star FC 93,3200,Martigues,18,104,RED Star FC 93,18
+1212538,FRA2,2024-11-01,Estac Troyes,Laval,110,Estac Troyes,18,433,Laval,18
+1212539,FRA2,2024-11-01,Clermont Foot,Lorient,99,Clermont Foot,18,97,Lorient,18
+1212541,FRA2,2024-11-01,Paris FC,Rodez,114,Paris FC,18,1301,Rodez,18
+1212540,FRA2,2024-11-02,Caen,Bastia,88,Caen,18,1305,Bastia,18
+1212542,FRA2,2024-11-02,Guingamp,Grenoble,90,Guingamp,18,101,Grenoble,18
+1212537,FRA2,2024-11-04,Ajaccio,Metz,98,Ajaccio,18,112,Metz,18
+1212547,FRA2,2024-11-08,Amiens,Martigues,87,Amiens,18,3200,Martigues,18
+1212549,FRA2,2024-11-08,Grenoble,Dunkerque,101,Grenoble,18,1304,Dunkerque,18
+1212548,FRA2,2024-11-08,Rodez,Annecy,1301,Rodez,18,3012,Annecy,18
+1212552,FRA2,2024-11-08,RED Star FC 93,Estac Troyes,104,RED Star FC 93,18,110,Estac Troyes,18
+1212550,FRA2,2024-11-08,Laval,Bastia,433,Laval,18,1305,Bastia,18
+1212551,FRA2,2024-11-08,Ajaccio,Clermont Foot,98,Ajaccio,18,99,Clermont Foot,18
+1212553,FRA2,2024-11-09,Metz,Caen,112,Metz,18,88,Caen,18
+1212554,FRA2,2024-11-09,Lorient,Guingamp,97,Lorient,18,90,Guingamp,18
+1212546,FRA2,2024-11-09,PAU,Paris FC,1297,PAU,18,114,Paris FC,18
+1212563,FRA2,2024-11-22,Martigues,Laval,3200,Martigues,18,433,Laval,18
+1212558,FRA2,2024-11-22,Caen,Rodez,88,Caen,18,1301,Rodez,18
+1212559,FRA2,2024-11-22,Guingamp,Amiens,90,Guingamp,18,87,Amiens,18
+1212557,FRA2,2024-11-22,Clermont Foot,Metz,99,Clermont Foot,18,112,Metz,18
+1212556,FRA2,2024-11-22,Estac Troyes,Grenoble,110,Estac Troyes,18,101,Grenoble,18
+1212562,FRA2,2024-11-22,PAU,RED Star FC 93,1297,PAU,18,104,RED Star FC 93,18
+1212560,FRA2,2024-11-23,Paris FC,Annecy,114,Paris FC,18,3012,Annecy,19
+1212555,FRA2,2024-11-23,Bastia,Lorient,1305,Bastia,18,97,Lorient,18
+1212561,FRA2,2024-11-25,Dunkerque,Ajaccio,1304,Dunkerque,18,98,Ajaccio,17
+1212525,FRA2,2024-12-03,Ajaccio,Bastia,98,Ajaccio,18,1305,Bastia,18
+1212571,FRA2,2024-12-06,Lorient,Estac Troyes,97,Lorient,18,110,Estac Troyes,18
+1212570,FRA2,2024-12-06,RED Star FC 93,Bastia,104,RED Star FC 93,18,1305,Bastia,18
+1212572,FRA2,2024-12-06,Laval,Caen,433,Laval,18,88,Caen,18
+1212565,FRA2,2024-12-06,Rodez,PAU,1301,Rodez,18,1297,PAU,18
+1212568,FRA2,2024-12-06,Annecy,Clermont Foot,3012,Annecy,18,99,Clermont Foot,18
+1212564,FRA2,2024-12-06,Martigues,Guingamp,3200,Martigues,18,90,Guingamp,18
+1212566,FRA2,2024-12-07,Grenoble,Amiens,101,Grenoble,18,87,Amiens,18
+1212567,FRA2,2024-12-07,Ajaccio,Paris FC,98,Ajaccio,18,114,Paris FC,18
+1212569,FRA2,2024-12-09,Metz,Dunkerque,112,Metz,18,1304,Dunkerque,18
+1212573,FRA2,2024-12-13,Estac Troyes,Martigues,110,Estac Troyes,18,3200,Martigues,18
+1212581,FRA2,2024-12-13,Amiens,Laval,87,Amiens,18,433,Laval,18
+1212577,FRA2,2024-12-13,PAU,Ajaccio,1297,PAU,18,98,Ajaccio,18
+1212576,FRA2,2024-12-13,Bastia,Guingamp,1305,Bastia,18,90,Guingamp,18
+1212575,FRA2,2024-12-13,Clermont Foot,Rodez,99,Clermont Foot,18,1301,Rodez,18
+1212574,FRA2,2024-12-14,Lorient,Paris FC,97,Lorient,18,114,Paris FC,18
+1212580,FRA2,2024-12-14,RED Star FC 93,Grenoble,104,RED Star FC 93,18,101,Grenoble,18
+1212578,FRA2,2024-12-14,Annecy,Metz,3012,Annecy,18,112,Metz,18
+1212579,FRA2,2024-12-16,Dunkerque,Caen,1304,Dunkerque,18,88,Caen,18
+1212589,FRA2,2025-01-03,Caen,Clermont Foot,88,Caen,18,99,Clermont Foot,18
+1212588,FRA2,2025-01-03,Amiens,Estac Troyes,87,Amiens,18,110,Estac Troyes,18
+1212585,FRA2,2025-01-03,Ajaccio,Annecy,98,Ajaccio,18,3012,Annecy,17
+1212584,FRA2,2025-01-03,Grenoble,Bastia,101,Grenoble,18,1305,Bastia,18
+1212587,FRA2,2025-01-03,Rodez,RED Star FC 93,1301,Rodez,19,104,RED Star FC 93,18
+1212582,FRA2,2025-01-03,Paris FC,Martigues,114,Paris FC,18,3200,Martigues,17
+1212586,FRA2,2025-01-04,Guingamp,Dunkerque,90,Guingamp,18,1304,Dunkerque,18
+1212583,FRA2,2025-01-04,Metz,PAU,112,Metz,18,1297,PAU,18
+1212590,FRA2,2025-01-04,Laval,Lorient,433,Laval,18,97,Lorient,18
+1212599,FRA2,2025-01-10,Laval,RED Star FC 93,433,Laval,18,104,RED Star FC 93,18
+1212594,FRA2,2025-01-10,Martigues,Clermont Foot,3200,Martigues,18,99,Clermont Foot,18
+1212598,FRA2,2025-01-10,PAU,Dunkerque,1297,PAU,18,1304,Dunkerque,18
+1212597,FRA2,2025-01-10,Annecy,Guingamp,3012,Annecy,18,90,Guingamp,18
+1212592,FRA2,2025-01-10,Rodez,Estac Troyes,1301,Rodez,18,110,Estac Troyes,18
+1212595,FRA2,2025-01-11,Paris FC,Amiens,114,Paris FC,18,87,Amiens,18
+1212591,FRA2,2025-01-11,Caen,Grenoble,88,Caen,18,101,Grenoble,19
+1212593,FRA2,2025-01-11,Lorient,Metz,97,Lorient,18,112,Metz,18
+1212596,FRA2,2025-01-11,Bastia,Ajaccio,1305,Bastia,18,98,Ajaccio,18
+1212601,FRA2,2025-01-17,Grenoble,Martigues,101,Grenoble,18,3200,Martigues,18
+1212608,FRA2,2025-01-17,Ajaccio,Caen,98,Ajaccio,18,88,Caen,18
+1212604,FRA2,2025-01-17,RED Star FC 93,PAU,104,RED Star FC 93,18,1297,PAU,18
+1212602,FRA2,2025-01-17,Amiens,Bastia,87,Amiens,18,1305,Bastia,18
+1212600,FRA2,2025-01-17,Guingamp,Rodez,90,Guingamp,18,1301,Rodez,18
+1212605,FRA2,2025-01-18,Clermont Foot,Laval,99,Clermont Foot,18,433,Laval,18
+1212606,FRA2,2025-01-18,Metz,Paris FC,112,Metz,18,114,Paris FC,18
+1212603,FRA2,2025-01-18,Dunkerque,Lorient,1304,Dunkerque,18,97,Lorient,18
+1212607,FRA2,2025-01-20,Estac Troyes,Annecy,110,Estac Troyes,18,3012,Annecy,18
+1212615,FRA2,2025-01-24,Rodez,Ajaccio,1301,Rodez,18,98,Ajaccio,18
+1212614,FRA2,2025-01-24,Bastia,PAU,1305,Bastia,18,1297,PAU,18
+1212609,FRA2,2025-01-24,Caen,Guingamp,88,Caen,18,90,Guingamp,18
+1212610,FRA2,2025-01-24,Metz,Grenoble,112,Metz,18,101,Grenoble,18
+1212611,FRA2,2025-01-24,Laval,Estac Troyes,433,Laval,18,110,Estac Troyes,18
+1212613,FRA2,2025-01-24,Martigues,Amiens,3200,Martigues,18,87,Amiens,18
+1212617,FRA2,2025-01-25,Paris FC,RED Star FC 93,114,Paris FC,18,104,RED Star FC 93,18
+1212612,FRA2,2025-01-25,Lorient,Clermont Foot,97,Lorient,18,99,Clermont Foot,18
+1212616,FRA2,2025-01-27,Annecy,Dunkerque,3012,Annecy,18,1304,Dunkerque,18
+1212623,FRA2,2025-01-31,PAU,Laval,1297,PAU,18,433,Laval,18
+1212625,FRA2,2025-01-31,Bastia,Metz,1305,Bastia,18,112,Metz,18
+1212621,FRA2,2025-01-31,Dunkerque,Martigues,1304,Dunkerque,18,3200,Martigues,18
+1212620,FRA2,2025-01-31,Amiens,Annecy,87,Amiens,18,3012,Annecy,18
+1212619,FRA2,2025-01-31,Grenoble,Rodez,101,Grenoble,18,1301,Rodez,18
+1212626,FRA2,2025-01-31,Clermont Foot,Ajaccio,99,Clermont Foot,18,98,Ajaccio,18
+1212622,FRA2,2025-02-01,RED Star FC 93,Lorient,104,RED Star FC 93,18,97,Lorient,18
+1212624,FRA2,2025-02-01,Estac Troyes,Caen,110,Estac Troyes,18,88,Caen,18
+1212618,FRA2,2025-02-01,Guingamp,Paris FC,90,Guingamp,18,114,Paris FC,18
+1212631,FRA2,2025-02-07,Rodez,Bastia,1301,Rodez,18,1305,Bastia,18
+1212630,FRA2,2025-02-07,Paris FC,PAU,114,Paris FC,18,1297,PAU,18
+1212635,FRA2,2025-02-07,Laval,Annecy,433,Laval,18,3012,Annecy,18
+1212634,FRA2,2025-02-07,Grenoble,RED Star FC 93,101,Grenoble,18,104,RED Star FC 93,18
+1212627,FRA2,2025-02-07,Martigues,Estac Troyes,3200,Martigues,18,110,Estac Troyes,18
+1212628,FRA2,2025-02-08,Lorient,Amiens,97,Lorient,18,87,Amiens,18
+1212632,FRA2,2025-02-08,Ajaccio,Guingamp,98,Ajaccio,18,90,Guingamp,18
+1212629,FRA2,2025-02-08,Metz,Clermont Foot,112,Metz,18,99,Clermont Foot,18
+1212633,FRA2,2025-02-10,Caen,Dunkerque,88,Caen,18,1304,Dunkerque,18
+1212644,FRA2,2025-02-14,Clermont Foot,Bastia,99,Clermont Foot,18,1305,Bastia,18
+1212640,FRA2,2025-02-14,RED Star FC 93,Martigues,104,RED Star FC 93,18,3200,Martigues,18
+1212636,FRA2,2025-02-14,PAU,Rodez,1297,PAU,18,1301,Rodez,18
+1212637,FRA2,2025-02-14,Amiens,Grenoble,87,Amiens,18,101,Grenoble,18
+1212641,FRA2,2025-02-14,Ajaccio,Laval,98,Ajaccio,18,433,Laval,18
+1212642,FRA2,2025-02-14,Estac Troyes,Lorient,110,Estac Troyes,18,97,Lorient,18
+1212639,FRA2,2025-02-15,Dunkerque,Paris FC,1304,Dunkerque,18,114,Paris FC,18
+1212643,FRA2,2025-02-15,Guingamp,Metz,90,Guingamp,18,112,Metz,18
+1212638,FRA2,2025-02-17,Annecy,Caen,3012,Annecy,18,88,Caen,18
+1212649,FRA2,2025-02-21,Grenoble,Guingamp,101,Grenoble,18,90,Guingamp,18
+1212647,FRA2,2025-02-21,Paris FC,Estac Troyes,114,Paris FC,18,110,Estac Troyes,18
+1212650,FRA2,2025-02-21,Rodez,Amiens,1301,Rodez,18,87,Amiens,18
+1212652,FRA2,2025-02-21,Dunkerque,Clermont Foot,1304,Dunkerque,18,99,Clermont Foot,18
+1212653,FRA2,2025-02-21,Bastia,RED Star FC 93,1305,Bastia,18,104,RED Star FC 93,17
+1212651,FRA2,2025-02-21,Martigues,Annecy,3200,Martigues,18,3012,Annecy,18
+1212648,FRA2,2025-02-22,Caen,PAU,88,Caen,18,1297,PAU,18
+1212645,FRA2,2025-02-22,Lorient,Laval,97,Lorient,18,433,Laval,19
+1212646,FRA2,2025-02-22,Metz,Ajaccio,112,Metz,18,98,Ajaccio,18
+1212662,FRA2,2025-02-28,Clermont Foot,Caen,99,Clermont Foot,18,88,Caen,18
+1212655,FRA2,2025-02-28,PAU,Grenoble,1297,PAU,18,101,Grenoble,18
+1212659,FRA2,2025-02-28,Laval,Martigues,433,Laval,18,3200,Martigues,18
+1212660,FRA2,2025-02-28,Estac Troyes,Bastia,110,Estac Troyes,18,1305,Bastia,18
+1212656,FRA2,2025-02-28,Annecy,Paris FC,3012,Annecy,18,114,Paris FC,18
+1212658,FRA2,2025-03-01,RED Star FC 93,Guingamp,104,RED Star FC 93,18,90,Guingamp,18
+1212654,FRA2,2025-03-01,Lorient,Rodez,97,Lorient,18,1301,Rodez,18
+1212661,FRA2,2025-03-01,Amiens,Metz,87,Amiens,18,112,Metz,18
+1212657,FRA2,2025-03-03,Ajaccio,Dunkerque,98,Ajaccio,18,1304,Dunkerque,18
+1212665,FRA2,2025-03-07,PAU,Estac Troyes,1297,PAU,18,110,Estac Troyes,18
+1212671,FRA2,2025-03-07,RED Star FC 93,Amiens,104,RED Star FC 93,18,87,Amiens,19
+1212667,FRA2,2025-03-07,Bastia,Martigues,1305,Bastia,18,3200,Martigues,18
+1212668,FRA2,2025-03-07,Grenoble,Ajaccio,101,Grenoble,18,98,Ajaccio,18
+1212663,FRA2,2025-03-07,Guingamp,Clermont Foot,90,Guingamp,18,99,Clermont Foot,18
+1212664,FRA2,2025-03-07,Caen,Laval,88,Caen,18,433,Laval,18
+1212666,FRA2,2025-03-08,Paris FC,Lorient,114,Paris FC,18,97,Lorient,18
+1212669,FRA2,2025-03-08,Metz,Annecy,112,Metz,18,3012,Annecy,18
+1212670,FRA2,2025-03-10,Rodez,Dunkerque,1301,Rodez,18,1304,Dunkerque,18
+1212672,FRA2,2025-03-14,Martigues,PAU,3200,Martigues,18,1297,PAU,18
+1212674,FRA2,2025-03-14,Annecy,Rodez,3012,Annecy,18,1301,Rodez,18
+1212678,FRA2,2025-03-14,Estac Troyes,Guingamp,110,Estac Troyes,18,90,Guingamp,18
+1212676,FRA2,2025-03-14,Ajaccio,RED Star FC 93,98,Ajaccio,18,104,RED Star FC 93,18
+1212679,FRA2,2025-03-14,Amiens,Caen,87,Amiens,18,88,Caen,18
+1212673,FRA2,2025-03-14,Clermont Foot,Grenoble,99,Clermont Foot,18,101,Grenoble,18
+1212677,FRA2,2025-03-15,Laval,Paris FC,433,Laval,19,114,Paris FC,19
+1212675,FRA2,2025-03-15,Dunkerque,Metz,1304,Dunkerque,18,112,Metz,18
+1212680,FRA2,2025-03-15,Lorient,Bastia,97,Lorient,18,1305,Bastia,18
+1212686,FRA2,2025-03-28,PAU,Annecy,1297,PAU,18,3012,Annecy,18
+1212687,FRA2,2025-03-28,Bastia,Dunkerque,1305,Bastia,18,1304,Dunkerque,18
+1212685,FRA2,2025-03-28,Martigues,Ajaccio,3200,Martigues,18,98,Ajaccio,18
+1212684,FRA2,2025-03-28,Metz,Estac Troyes,112,Metz,18,110,Estac Troyes,18
+1212683,FRA2,2025-03-28,Clermont Foot,Amiens,99,Clermont Foot,18,87,Amiens,18
+1212688,FRA2,2025-03-28,RED Star FC 93,Rodez,104,RED Star FC 93,18,1301,Rodez,18
+1212681,FRA2,2025-03-29,Grenoble,Lorient,101,Grenoble,18,97,Lorient,18
+1212689,FRA2,2025-03-29,Guingamp,Laval,90,Guingamp,18,433,Laval,18
+1212682,FRA2,2025-03-31,Paris FC,Caen,114,Paris FC,18,88,Caen,18
+1212692,FRA2,2025-04-04,Ajaccio,Amiens,98,Ajaccio,18,87,Amiens,18
+1212693,FRA2,2025-04-04,Annecy,Bastia,3012,Annecy,18,1305,Bastia,18
+1212697,FRA2,2025-04-04,Paris FC,Clermont Foot,114,Paris FC,18,99,Clermont Foot,18
+1212690,FRA2,2025-04-04,Rodez,Martigues,1301,Rodez,18,3200,Martigues,18
+1212695,FRA2,2025-04-04,Laval,Grenoble,433,Laval,18,101,Grenoble,18
+1212696,FRA2,2025-04-05,Caen,Metz,88,Caen,18,112,Metz,18
+1212691,FRA2,2025-04-05,Lorient,PAU,97,Lorient,18,1297,PAU,18
+1212698,FRA2,2025-04-05,Estac Troyes,RED Star FC 93,110,Estac Troyes,18,104,RED Star FC 93,18
+1212694,FRA2,2025-04-07,Dunkerque,Guingamp,1304,Dunkerque,18,90,Guingamp,18
+1212706,FRA2,2025-04-11,RED Star FC 93,Annecy,104,RED Star FC 93,18,3012,Annecy,18
+1212705,FRA2,2025-04-11,Amiens,Dunkerque,87,Amiens,18,1304,Dunkerque,18
+1212701,FRA2,2025-04-11,Rodez,Caen,1301,Rodez,18,88,Caen,18
+1212703,FRA2,2025-04-11,PAU,Clermont Foot,1297,PAU,18,99,Clermont Foot,18
+1212702,FRA2,2025-04-11,Martigues,Metz,3200,Martigues,18,112,Metz,18
+1212700,FRA2,2025-04-11,Estac Troyes,Ajaccio,110,Estac Troyes,18,98,Ajaccio,18
+1212699,FRA2,2025-04-12,Guingamp,Lorient,90,Guingamp,18,97,Lorient,18
+1212704,FRA2,2025-04-12,Grenoble,Paris FC,101,Grenoble,18,114,Paris FC,18
+1212707,FRA2,2025-04-14,Bastia,Laval,1305,Bastia,18,433,Laval,18
+1212715,FRA2,2025-04-18,Laval,Rodez,433,Laval,18,1301,Rodez,18
+1212716,FRA2,2025-04-18,Clermont Foot,Estac Troyes,99,Clermont Foot,18,110,Estac Troyes,18
+1212713,FRA2,2025-04-18,Dunkerque,Grenoble,1304,Dunkerque,18,101,Grenoble,18
+1212708,FRA2,2025-04-18,Caen,Martigues,88,Caen,18,3200,Martigues,18
+1212709,FRA2,2025-04-18,Amiens,Guingamp,87,Amiens,19,90,Guingamp,18
+1212711,FRA2,2025-04-18,Ajaccio,PAU,98,Ajaccio,18,1297,PAU,18
+1212710,FRA2,2025-04-19,Paris FC,Bastia,114,Paris FC,18,1305,Bastia,18
+1212714,FRA2,2025-04-19,Metz,RED Star FC 93,112,Metz,18,104,RED Star FC 93,18
+1212712,FRA2,2025-04-21,Annecy,Lorient,3012,Annecy,18,97,Lorient,18
+1212718,FRA2,2025-04-25,Estac Troyes,Dunkerque,110,Estac Troyes,18,1304,Dunkerque,18
+1212720,FRA2,2025-04-25,Guingamp,Martigues,90,Guingamp,18,3200,Martigues,18
+1212724,FRA2,2025-04-25,RED Star FC 93,Clermont Foot,104,RED Star FC 93,18,99,Clermont Foot,18
+1212722,FRA2,2025-04-25,Bastia,Grenoble,1305,Bastia,18,101,Grenoble,18
+1212723,FRA2,2025-04-25,Annecy,Ajaccio,3012,Annecy,19,98,Ajaccio,18
+1212725,FRA2,2025-04-25,Laval,Amiens,433,Laval,18,87,Amiens,18
+1212719,FRA2,2025-04-26,Rodez,Paris FC,1301,Rodez,18,114,Paris FC,18
+1212721,FRA2,2025-04-26,PAU,Metz,1297,PAU,18,112,Metz,18
+1212717,FRA2,2025-04-26,Lorient,Caen,97,Lorient,18,88,Caen,18
+1212731,FRA2,2025-05-02,Caen,RED Star FC 93,88,Caen,18,104,RED Star FC 93,18
+1212730,FRA2,2025-05-02,Clermont Foot,Annecy,99,Clermont Foot,18,3012,Annecy,18
+1212728,FRA2,2025-05-02,Amiens,PAU,87,Amiens,18,1297,PAU,18
+1212729,FRA2,2025-05-02,Guingamp,Bastia,90,Guingamp,18,1305,Bastia,18
+1212733,FRA2,2025-05-02,Grenoble,Estac Troyes,101,Grenoble,18,110,Estac Troyes,18
+1212732,FRA2,2025-05-02,Dunkerque,Laval,1304,Dunkerque,18,433,Laval,18
+1212727,FRA2,2025-05-02,Martigues,Paris FC,3200,Martigues,18,114,Paris FC,18
+1212726,FRA2,2025-05-02,Metz,Rodez,112,Metz,18,1301,Rodez,18
+1212734,FRA2,2025-05-02,Ajaccio,Lorient,98,Ajaccio,18,97,Lorient,18
+1212737,FRA2,2025-05-10,Laval,Metz,433,Laval,18,112,Metz,18
+1212736,FRA2,2025-05-10,Bastia,Caen,1305,Bastia,18,88,Caen,18
+1212738,FRA2,2025-05-10,Rodez,Clermont Foot,1301,Rodez,18,99,Clermont Foot,18
+1212740,FRA2,2025-05-10,PAU,Guingamp,1297,PAU,18,90,Guingamp,18
+1212739,FRA2,2025-05-10,Lorient,Martigues,97,Lorient,18,3200,Martigues,18
+1212743,FRA2,2025-05-10,RED Star FC 93,Dunkerque,104,RED Star FC 93,18,1304,Dunkerque,18
+1212742,FRA2,2025-05-10,Annecy,Grenoble,3012,Annecy,18,101,Grenoble,18
+1212741,FRA2,2025-05-10,Paris FC,Ajaccio,114,Paris FC,18,98,Ajaccio,18
+1212735,FRA2,2025-05-10,Estac Troyes,Amiens,110,Estac Troyes,18,87,Amiens,18
+1375856,FRA2,2025-05-20,Boulogne,Clermont Foot,1299,Boulogne,18,99,Clermont Foot,18
+1375857,FRA2,2025-05-25,Clermont Foot,Boulogne,99,Clermont Foot,18,1299,Boulogne,18
+1389126,FRA2,2025-08-09,Montpellier,RED Star FC 93,82,Montpellier,18,104,RED Star FC 93,19
+1389131,FRA2,2025-08-09,Guingamp,Le Mans,90,Guingamp,18,1298,Le Mans,18
+1389127,FRA2,2025-08-09,Laval,Saint Etienne,433,Laval,18,1063,Saint Etienne,18
+1389124,FRA2,2025-08-09,PAU,Annecy,1297,PAU,18,3012,Annecy,18
+1389125,FRA2,2025-08-09,Estac Troyes,Grenoble,110,Estac Troyes,18,101,Grenoble,18
+1389128,FRA2,2025-08-09,Dunkerque,Clermont Foot,1304,Dunkerque,18,99,Clermont Foot,18
+1389130,FRA2,2025-08-09,Rodez,Nancy,1301,Rodez,18,102,Nancy,18
+1389129,FRA2,2025-08-11,Amiens,Reims,87,Amiens,18,93,Reims,18
+1389134,FRA2,2025-08-15,RED Star FC 93,Amiens,104,RED Star FC 93,19,87,Amiens,18
+1389133,FRA2,2025-08-15,Nancy,Boulogne,102,Nancy,18,1299,Boulogne,18
+1389132,FRA2,2025-08-15,Bastia,PAU,1305,Bastia,18,1297,PAU,18
+1389137,FRA2,2025-08-15,Clermont Foot,Estac Troyes,99,Clermont Foot,18,110,Estac Troyes,18
+1389136,FRA2,2025-08-15,Grenoble,Laval,101,Grenoble,18,433,Laval,18
+1396827,FRA2,2025-08-16,Saint Etienne,Rodez,1063,Saint Etienne,18,1301,Rodez,18
+1396826,FRA2,2025-08-16,Annecy,Dunkerque,3012,Annecy,18,1304,Dunkerque,18
+1389138,FRA2,2025-08-16,Reims,Guingamp,93,Reims,18,90,Guingamp,18
+1389135,FRA2,2025-08-18,Le Mans,Montpellier,1298,Le Mans,18,82,Montpellier,18

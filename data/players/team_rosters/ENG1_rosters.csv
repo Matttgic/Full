@@ -1,0 +1,836 @@
+league_code,team_id,team_name,player_id,player_name
+ENG1,46,Leicester,22233,Boubakary Soumaré
+ENG1,46,Leicester,330986,Michael Golding
+ENG1,46,Leicester,19004,Bobby Decordova-Reid
+ENG1,46,Leicester,18771,Ricardo Pereira
+ENG1,46,Leicester,304316,Henry Cartwright
+ENG1,46,Leicester,17736,Daniel Iversen
+ENG1,46,Leicester,215874,Thomas Cannon
+ENG1,46,Leicester,152970,Jakub Stolarczyk
+ENG1,46,Leicester,305732,Thomas Wilson-Brown
+ENG1,46,Leicester,18786,Wilfred Ndidi
+ENG1,46,Leicester,434183,Jake Evans
+ENG1,46,Leicester,311334,Facundo Buonanotte
+ENG1,46,Leicester,18943,Jannik Vestergaard
+ENG1,46,Leicester,879,Stephy Mavididi
+ENG1,46,Leicester,8694,Wout Faes
+ENG1,46,Leicester,289624,Sammy Braybrooke
+ENG1,46,Leicester,3428,Jordan Ayew
+ENG1,46,Leicester,152969,Luke Thomas
+ENG1,46,Leicester,460853,Jeremy Monga
+ENG1,46,Leicester,19760,James Justin
+ENG1,46,Leicester,1098,Patson Daka
+ENG1,46,Leicester,128338,Woyo Coulibaly
+ENG1,46,Leicester,18146,Danny Ward
+ENG1,46,Leicester,278118,Benjamin Nelson
+ENG1,46,Leicester,158710,Victor Kristiansen
+ENG1,46,Leicester,340573,Bilal El Khannouss
+ENG1,46,Leicester,18779,Hamza Choudhury
+ENG1,46,Leicester,283290,Kasey McAteer
+ENG1,46,Leicester,180,Oliver Skipp
+ENG1,46,Leicester,182,Harry Winks
+ENG1,46,Leicester,18741,Conor Coady
+ENG1,46,Leicester,18788,Jamie Vardy
+ENG1,46,Leicester,1135,Odsonne Édouard
+ENG1,46,Leicester,30427,Caleb Okoli
+ENG1,46,Leicester,417310,Olabade Aluko
+ENG1,46,Leicester,303467,Abdul Fatawu Issahaku
+ENG1,46,Leicester,305733,Will Alves
+ENG1,46,Leicester,15870,Mads Hermansen
+ENG1,47,Tottenham,311817,Alfie Dorrington
+ENG1,47,Tottenham,739,Sergio Reguilón
+ENG1,47,Tottenham,15911,Mohammed Kudus
+ENG1,47,Tottenham,328089,Archie Gray
+ENG1,47,Tottenham,47519,Pedro Porro
+ENG1,47,Tottenham,347316,Lucas Bergvall
+ENG1,47,Tottenham,237129,Pape Matar Sarr
+ENG1,47,Tottenham,164,Ben Davies
+ENG1,47,Tottenham,186,Heung-min Son
+ENG1,47,Tottenham,393195,Will Lankshear
+ENG1,47,Tottenham,30776,Cristian Romero
+ENG1,47,Tottenham,162552,Dane Scarlett
+ENG1,47,Tottenham,392607,Maeson King
+ENG1,47,Tottenham,270510,Mathys Tel
+ENG1,47,Tottenham,152849,Micky van de Ven
+ENG1,47,Tottenham,25287,Kevin Danso
+ENG1,47,Tottenham,162498,Radu Drăguşin
+ENG1,47,Tottenham,380690,Mikey Moore
+ENG1,47,Tottenham,18784,James Maddison
+ENG1,47,Tottenham,336564,Wilson Odobert
+ENG1,47,Tottenham,41104,João Palhinha
+ENG1,47,Tottenham,30435,Dejan Kulusevski
+ENG1,47,Tottenham,156428,Brandon Austin
+ENG1,47,Tottenham,18968,Yves Bissouma
+ENG1,47,Tottenham,129711,Brennan Johnson
+ENG1,47,Tottenham,284417,Dante Cassanova
+ENG1,47,Tottenham,423708,Yang Min-hyeok
+ENG1,47,Tottenham,387521,Luka Vušković
+ENG1,47,Tottenham,31354,Guglielmo Vicario
+ENG1,47,Tottenham,380689,Callum Olusesi
+ENG1,47,Tottenham,19235,Djed Spence
+ENG1,47,Tottenham,2413,Richarlison
+ENG1,47,Tottenham,18932,Fraser Forster
+ENG1,47,Tottenham,161,Alfie Whiteman
+ENG1,47,Tottenham,459203,Malachi Hardy
+ENG1,47,Tottenham,273757,Alfie Devine
+ENG1,47,Tottenham,863,Rodrigo Bentancur
+ENG1,47,Tottenham,361734,Oyindamola Ajayi
+ENG1,47,Tottenham,1166,Timo Werner
+ENG1,47,Tottenham,18883,Dominic Solanke
+ENG1,47,Tottenham,465310,Luca Williams-Barnett
+ENG1,47,Tottenham,265826,Antonín Kinský
+ENG1,47,Tottenham,204039,Destiny Udogie
+ENG1,51,Brighton,40911,Jakub Moder
+ENG1,51,Brighton,90590,Georginio Rutter
+ENG1,51,Brighton,343209,Ruairi McConville
+ENG1,51,Brighton,19265,Adam Webster
+ENG1,51,Brighton,383685,Yankuba Minteh
+ENG1,51,Brighton,1469,Danny Welbeck
+ENG1,51,Brighton,305730,Jack Hinshelwood
+ENG1,51,Brighton,379618,Jacob Slater
+ENG1,51,Brighton,130423,Billy Gilmour
+ENG1,51,Brighton,129643,Evan Ferguson
+ENG1,51,Brighton,18960,Jason Steele
+ENG1,51,Brighton,342063,Diego Coppola
+ENG1,51,Brighton,412086,Freddie Simmonds
+ENG1,51,Brighton,278370,Diego Gómez
+ENG1,51,Brighton,265820,Yasin Ayari
+ENG1,51,Brighton,38695,Jan Paul van Hecke
+ENG1,51,Brighton,106835,Kaoru Mitoma
+ENG1,51,Brighton,273758,Imari Samuels
+ENG1,51,Brighton,328225,Brajan Gruda
+ENG1,51,Brighton,92993,Mats Wieffer
+ENG1,51,Brighton,22160,Olivier Boscagli
+ENG1,51,Brighton,161663,Eiran Joe Cashin
+ENG1,51,Brighton,18963,Lewis Dunk
+ENG1,51,Brighton,162007,Maxim De Cuyper
+ENG1,51,Brighton,392610,Harry Howell
+ENG1,51,Brighton,328076,Charlie Tasker
+ENG1,51,Brighton,278088,Carl Rushworth
+ENG1,51,Brighton,10329,João Pedro
+ENG1,51,Brighton,46731,Pervis Estupiñán
+ENG1,51,Brighton,7600,Igor Júlio
+ENG1,51,Brighton,19030,Matt O'Riley
+ENG1,51,Brighton,138815,Tariq Lamptey
+ENG1,51,Brighton,70747,Julio Enciso
+ENG1,51,Brighton,18973,Solly March
+ENG1,51,Brighton,359842,Joe Knight
+ENG1,51,Brighton,201368,Killian Cahill
+ENG1,51,Brighton,129058,Bart Verbruggen
+ENG1,51,Brighton,537,Joël Veltman
+ENG1,51,Brighton,301771,Simon Adingra
+ENG1,51,Brighton,1361,Ferdi Kadıoğlu
+ENG1,51,Brighton,356041,Carlos Baleba
+ENG1,51,Brighton,296,James Milner
+ENG1,33,Manchester United,2935,Harry Maguire
+ENG1,33,Manchester United,284400,Toby Collyer
+ENG1,33,Manchester United,342970,Leny Yoro
+ENG1,33,Manchester United,284324,Alejandro Garnacho
+ENG1,33,Manchester United,747,Casemiro
+ENG1,33,Manchester United,2931,Tom Heaton
+ENG1,33,Manchester United,903,Scott McTominay
+ENG1,33,Manchester United,19220,Mason Mount
+ENG1,33,Manchester United,50132,Altay Bayındır
+ENG1,33,Manchester United,891,Luke Shaw
+ENG1,33,Manchester United,383770,Jack Fletcher
+ENG1,33,Manchester United,378981,Elyh Harrison
+ENG1,33,Manchester United,1485,Bruno Fernandes
+ENG1,33,Manchester United,382452,Patrick Dorgu
+ENG1,33,Manchester United,284382,Dermot Mee
+ENG1,33,Manchester United,440159,Godwill Kukonki
+ENG1,33,Manchester United,284539,Hubert Graczyk
+ENG1,33,Manchester United,20589,Bryan Mbeumo
+ENG1,33,Manchester United,889,Victor Lindelöf
+ENG1,33,Manchester United,157997,Amad Diallo
+ENG1,33,Manchester United,532,Matthijs de Ligt
+ENG1,33,Manchester United,328101,Tyler Fredricson
+ENG1,33,Manchester United,402329,Ayden Heaven
+ENG1,33,Manchester United,174,Christian Eriksen
+ENG1,33,Manchester United,886,Diogo Dalot
+ENG1,33,Manchester United,403064,Harry Amass
+ENG1,33,Manchester United,545,Noussair Mazraoui
+ENG1,33,Manchester United,418210,Sekou Kone
+ENG1,33,Manchester United,37145,Tyrell Malacia
+ENG1,33,Manchester United,344229,Jack Moorhouse
+ENG1,33,Manchester United,362270,Ethan Wheatley
+ENG1,33,Manchester United,389031,Jayce Fitzgerald
+ENG1,33,Manchester United,284322,Kobbie Mainoo
+ENG1,33,Manchester United,51494,Manuel Ugarte
+ENG1,33,Manchester United,344229,Jack Lee Moorhouse
+ENG1,33,Manchester United,288006,Rasmus Højlund
+ENG1,33,Manchester United,70100,Joshua Zirkzee
+ENG1,33,Manchester United,2467,Lisandro Martínez
+ENG1,33,Manchester United,389309,Chido Obi-Martin
+ENG1,33,Manchester United,9971,Antony
+ENG1,33,Manchester United,909,Marcus Rashford
+ENG1,33,Manchester United,1165,Matheus Cunha
+ENG1,33,Manchester United,526,André Onana
+ENG1,33,Manchester United,115589,Benjamin Šeško
+ENG1,33,Manchester United,18772,Jonny Evans
+ENG1,36,Fulham,1438,Bernd Leno
+ENG1,36,Fulham,657,Kenny Tete
+ENG1,36,Fulham,1934,Sander Berge
+ENG1,36,Fulham,727,Reiss Nelson
+ENG1,36,Fulham,2729,Joachim Andersen
+ENG1,36,Fulham,384981,Samuel Amissah
+ENG1,36,Fulham,104,Carlos Vinícius
+ENG1,36,Fulham,2294,Willian
+ENG1,36,Fulham,1161,Emile Smith Rowe
+ENG1,36,Fulham,19549,Antonee Robinson
+ENG1,36,Fulham,2887,Raúl Jiménez
+ENG1,36,Fulham,899,Andreas Pereira
+ENG1,36,Fulham,19221,Harry Wilson
+ENG1,36,Fulham,21566,Benjamin Lecomte
+ENG1,36,Fulham,389315,Joshua King
+ENG1,36,Fulham,19025,Tom Cairney
+ENG1,36,Fulham,19312,Steven Benda
+ENG1,36,Fulham,1455,Alex Iwobi
+ENG1,36,Fulham,152967,Calvin Bassey
+ENG1,36,Fulham,18753,Adama Traoré
+ENG1,36,Fulham,359386,Martial Godo
+ENG1,36,Fulham,19032,Ryan Sessegnon
+ENG1,36,Fulham,18814,Issa Diop
+ENG1,36,Fulham,2823,Saša Lukić
+ENG1,36,Fulham,2920,Timothy Castagne
+ENG1,36,Fulham,191971,Jay Stansfield
+ENG1,36,Fulham,131,Jorge Cuenca
+ENG1,36,Fulham,19480,Harrison Reed
+ENG1,36,Fulham,195106,Rodrigo Muniz
+ENG1,41,Southampton,295,Adam Lallana
+ENG1,41,Southampton,19733,Flynn Downes
+ENG1,41,Southampton,45078,Ross Stewart
+ENG1,41,Southampton,19573,Joe Lumley
+ENG1,41,Southampton,25061,Armel Bella-Kotchap
+ENG1,41,Southampton,263177,Albert Grønbæk
+ENG1,41,Southampton,19719,James Bree
+ENG1,41,Southampton,18873,Ryan Fraser
+ENG1,41,Southampton,180919,Welington
+ENG1,41,Southampton,304317,Tyler Dibling
+ENG1,41,Southampton,18940,Jack Stephens
+ENG1,41,Southampton,199837,Kamaldeen Sulemana
+ENG1,41,Southampton,19484,Adam Armstrong
+ENG1,41,Southampton,159420,Ronnie Edwards
+ENG1,41,Southampton,130421,Will Smallbone
+ENG1,41,Southampton,144729,Taylor Harwood-Bellis
+ENG1,41,Southampton,334035,Samuel Amo-Ameyaw
+ENG1,41,Southampton,19248,Nathan Wood
+ENG1,41,Southampton,171,Kyle Walker-Peters
+ENG1,41,Southampton,18935,Alex McCarthy
+ENG1,41,Southampton,137302,Cameron Archer
+ENG1,41,Southampton,32887,Yukinari Sugawara
+ENG1,41,Southampton,270508,Lesley Ugochukwu
+ENG1,41,Southampton,15812,Paul Onuachu
+ENG1,41,Southampton,19485,Ben Brereton Díaz
+ENG1,41,Southampton,380691,Jay Robinson
+ENG1,41,Southampton,322305,Joe O'Brien Whitmarsh 
+ENG1,41,Southampton,412152,Jayden Moore
+ENG1,41,Southampton,19587,Ryan Manning
+ENG1,41,Southampton,18918,Charlie Taylor
+ENG1,41,Southampton,278085,Samuel Edozie
+ENG1,41,Southampton,336585,Mateus Fernandes
+ENG1,41,Southampton,2999,Jan Bednarek
+ENG1,41,Southampton,20355,Aaron Ramsdale
+ENG1,41,Southampton,19825,Joe Aribo
+ENG1,41,Southampton,665,Maxwel Cornet
+ENG1,41,Southampton,395809,Joachim Kayi Sanda
+ENG1,65,Nottingham Forest,6056,Nicolás Domínguez
+ENG1,65,Nottingham Forest,2817,Nikola Milenković
+ENG1,65,Nottingham Forest,147835,Andrew Omobamidele
+ENG1,65,Nottingham Forest,2298,Callum Hudson-Odoi
+ENG1,65,Nottingham Forest,18931,Chris Wood
+ENG1,65,Nottingham Forest,2938,James Ward-Prowse
+ENG1,65,Nottingham Forest,67943,Morato
+ENG1,65,Nottingham Forest,10373,Carlos Miguel
+ENG1,65,Nottingham Forest,380492,Eric da Silva Moreira
+ENG1,65,Nottingham Forest,362711,Jair
+ENG1,65,Nottingham Forest,2771,Ola Aina
+ENG1,65,Nottingham Forest,329357,Zach Abbott
+ENG1,65,Nottingham Forest,275170,Danilo
+ENG1,65,Nottingham Forest,18836,Wayne Hennessey
+ENG1,65,Nottingham Forest,18746,Morgan Gibbs-White
+ENG1,65,Nottingham Forest,47547,Álex Moreno
+ENG1,65,Nottingham Forest,138908,Elliot Anderson
+ENG1,65,Nottingham Forest,141901,Jota Silva
+ENG1,65,Nottingham Forest,138780,Neco Williams
+ENG1,65,Nottingham Forest,18739,Willy Boly
+ENG1,65,Nottingham Forest,9366,Igor Jesus
+ENG1,65,Nottingham Forest,196298,Ramón Sosa
+ENG1,65,Nottingham Forest,18933,Angus Gunn
+ENG1,65,Nottingham Forest,22149,Ibrahim Sangaré
+ENG1,65,Nottingham Forest,8598,Taiwo Awoniyi
+ENG1,65,Nottingham Forest,17365,Harry Toffolo
+ENG1,65,Nottingham Forest,153430,Anthony Elanga
+ENG1,65,Nottingham Forest,363695,Murillo
+ENG1,65,Nottingham Forest,48648,Dan Ndoye
+ENG1,65,Nottingham Forest,2919,Matz Sels
+ENG1,65,Nottingham Forest,19305,Ryan Yates
+ENG1,45,Everton,18805,Abdoulaye Doucouré
+ENG1,45,Everton,328115,Martin Sherif
+ENG1,45,Everton,18860,Mark Travers
+ENG1,45,Everton,361679,Callum Bates
+ENG1,45,Everton,19187,Jack Grealish
+ENG1,45,Everton,19128,Jack Harrison
+ENG1,45,Everton,343684,Thierno Barry
+ENG1,45,Everton,2165,Vitaliy Mykolenko
+ENG1,45,Everton,18929,Dwight McNeil
+ENG1,45,Everton,18755,João Virgínia
+ENG1,45,Everton,2932,Jordan Pickford
+ENG1,45,Everton,138417,Nathan Patterson
+ENG1,45,Everton,167657,Tyler Onyango
+ENG1,45,Everton,19364,Neal Maupay
+ENG1,45,Everton,895,James Garner
+ENG1,45,Everton,2936,James Tarkowski
+ENG1,45,Everton,297640,Roman Quintyne
+ENG1,45,Everton,18766,Dominic Calvert-Lewin
+ENG1,45,Everton,138844,Harry Tyrer
+ENG1,45,Everton,148099,Kiernan Dewsbury-Hall
+ENG1,45,Everton,18592,Iliman Ndiaye
+ENG1,45,Everton,2990,Idrissa Gueye
+ENG1,45,Everton,270139,Jake O'Brien
+ENG1,45,Everton,15884,Jesper Lindstrøm
+ENG1,45,Everton,138822,Armando Broja
+ENG1,45,Everton,405360,Harrison Armstrong
+ENG1,45,Everton,19150,Mason Holgate
+ENG1,45,Everton,18758,Séamus Coleman
+ENG1,45,Everton,894,Ashley Young
+ENG1,45,Everton,2934,Michael Keane
+ENG1,45,Everton,24882,Orel Mangala
+ENG1,45,Everton,195993,Carlos Alcaraz
+ENG1,45,Everton,361676,Coby Ebere
+ENG1,45,Everton,297641,Jenson Metcalfe
+ENG1,45,Everton,284500,Tim Iroegbunam
+ENG1,45,Everton,17661,Jarrad Branthwaite
+ENG1,45,Everton,284327,Reece Welch
+ENG1,45,Everton,296664,Isaac Heath
+ENG1,45,Everton,18858,Asmir Begović
+ENG1,45,Everton,330412,Youssef Chermiti
+ENG1,45,Everton,125743,Beto
+ENG1,45,Everton,389306,Roman Dixon
+ENG1,50,Manchester City,36902,Tijjani Reijnders
+ENG1,50,Manchester City,629,Kevin De Bruyne
+ENG1,50,Manchester City,158697,James McAtee
+ENG1,50,Manchester City,266657,Savinho
+ENG1,50,Manchester City,2291,Mateo Kovačić
+ENG1,50,Manchester City,129033,Joško Gvardiol
+ENG1,50,Manchester City,360114,Abdukodir Khusanov
+ENG1,50,Manchester City,626,John Stones
+ENG1,50,Manchester City,81573,Omar Marmoush
+ENG1,50,Manchester City,25004,Stefan Ortega
+ENG1,50,Manchester City,19187,Jack Grealish
+ENG1,50,Manchester City,156477,Rayan Cherki
+ENG1,50,Manchester City,44,Rodri
+ENG1,50,Manchester City,21138,Rayan Aït-Nouri
+ENG1,50,Manchester City,382355,Jacob Wright
+ENG1,50,Manchester City,278128,Josh Wilson-Esbrand
+ENG1,50,Manchester City,567,Rúben Dias
+ENG1,50,Manchester City,414385,Claudio Echeverri
+ENG1,50,Manchester City,627,Kyle Walker
+ENG1,50,Manchester City,278133,Oscar Bobb
+ENG1,50,Manchester City,636,Bernardo Silva
+ENG1,50,Manchester City,140947,Issa Kaboré
+ENG1,50,Manchester City,161933,Nico González
+ENG1,50,Manchester City,617,Ederson
+ENG1,50,Manchester City,631,Phil Foden
+ENG1,50,Manchester City,437557,Spike Brits
+ENG1,50,Manchester City,307123,Nico O’Reilly
+ENG1,50,Manchester City,293168,Max Alleyne
+ENG1,50,Manchester City,307123,Nico O'Reilly
+ENG1,50,Manchester City,19197,Scott Carson
+ENG1,50,Manchester City,404656,Jahmai Simpson-Pusey
+ENG1,50,Manchester City,1100,Erling Haaland
+ENG1,50,Manchester City,414359,Vitor Reis
+ENG1,50,Manchester City,284409,Divin Mubama
+ENG1,50,Manchester City,162489,James Trafford
+ENG1,50,Manchester City,284230,Rico Lewis
+ENG1,50,Manchester City,1422,Jérémy Doku
+ENG1,50,Manchester City,633,İlkay Gündoğan
+ENG1,50,Manchester City,5,Manuel Akanji
+ENG1,50,Manchester City,18861,Nathan Aké
+ENG1,50,Manchester City,41621,Matheus Nunes
+ENG1,57,Ipswich,299813,Ali Al-Hamadi
+ENG1,57,Ipswich,19541,Christian Walton
+ENG1,57,Ipswich,20031,Marcus Harness
+ENG1,57,Ipswich,126791,Nathan Broadhead
+ENG1,57,Ipswich,17739,George Edmundson
+ENG1,57,Ipswich,17579,Sammie Szmodics
+ENG1,57,Ipswich,20007,Conor Chaplin
+ENG1,57,Ipswich,8794,George Hirst
+ENG1,57,Ipswich,19152,Conor Townsend
+ENG1,57,Ipswich,19073,Ben Godfrey
+ENG1,57,Ipswich,138931,Jaden Philogene-Bidace
+ENG1,57,Ipswich,82097,Alex Palmer
+ENG1,57,Ipswich,17597,Dara O'Shea
+ENG1,57,Ipswich,284428,Omari Hutchinson
+ENG1,57,Ipswich,127579,Jacob Greaves
+ENG1,57,Ipswich,18397,Jack Taylor
+ENG1,57,Ipswich,2752,Massimo Luongo
+ENG1,57,Ipswich,161948,Liam Delap
+ENG1,57,Ipswich,15797,Jens Cajuste
+ENG1,57,Ipswich,138836,Harry Clarke
+ENG1,57,Ipswich,19558,Sam Morsy
+ENG1,57,Ipswich,616,Arijanet Murić
+ENG1,57,Ipswich,455009,Tom Taylor
+ENG1,57,Ipswich,19119,Leif Davis
+ENG1,57,Ipswich,17714,Luke Woolfenden
+ENG1,57,Ipswich,158702,Cieran Slicker
+ENG1,57,Ipswich,20089,Wes Burns
+ENG1,57,Ipswich,20457,Cameron Burgess
+ENG1,57,Ipswich,18823,Ben Johnson
+ENG1,57,Ipswich,70747,Julio Enciso
+ENG1,57,Ipswich,19136,Jack Clarke
+ENG1,57,Ipswich,19130,Kalvin Phillips
+ENG1,57,Ipswich,19365,Chiedozie Ogbene
+ENG1,57,Ipswich,19182,Axel Tuanzebe
+ENG1,57,Ipswich,327749,Somto Boniface
+ENG1,52,Crystal Palace,286458,Justin Devenny
+ENG1,52,Crystal Palace,2490,Jefferson Lerma
+ENG1,52,Crystal Palace,367634,Asher Agbinone
+ENG1,52,Crystal Palace,13736,Daniel Muñoz
+ENG1,52,Crystal Palace,19143,Sam Johnstone
+ENG1,52,Crystal Palace,18843,Jeffrey Schlupp
+ENG1,52,Crystal Palace,22157,Walter Benítez
+ENG1,52,Crystal Palace,67971,Marc Guéhi
+ENG1,52,Crystal Palace,380679,Caleb Kporha
+ENG1,52,Crystal Palace,20995,Maxence Lacroix
+ENG1,52,Crystal Palace,18862,Nathaniel Clyne
+ENG1,52,Crystal Palace,182201,Tyrick Mitchell
+ENG1,52,Crystal Palace,19720,Trevoh Chalobah
+ENG1,52,Crystal Palace,363974,Zach Marsh
+ENG1,52,Crystal Palace,3339,Cheick Doucouré
+ENG1,52,Crystal Palace,126949,Chris Richards
+ENG1,52,Crystal Palace,1440,Rob Holding
+ENG1,52,Crystal Palace,18847,Joel Ward
+ENG1,52,Crystal Palace,19684,Remi Matthews
+ENG1,52,Crystal Palace,26303,Borna Sosa
+ENG1,52,Crystal Palace,19586,Eberechi Eze
+ENG1,52,Crystal Palace,152418,Naouirou Ahamada
+ENG1,52,Crystal Palace,311157,Matheus França
+ENG1,52,Crystal Palace,340136,Franco Umeh
+ENG1,52,Crystal Palace,2218,Ismaïla Sarr
+ENG1,52,Crystal Palace,2933,Ben Chilwell
+ENG1,52,Crystal Palace,50999,Matt Turner
+ENG1,52,Crystal Palace,402640,Romain Esse
+ENG1,52,Crystal Palace,18806,Will Hughes
+ENG1,52,Crystal Palace,278898,Chadi Riad
+ENG1,52,Crystal Palace,19088,Dean Henderson
+ENG1,52,Crystal Palace,1135,Odsonne Édouard
+ENG1,52,Crystal Palace,25927,Jean-Philippe Mateta
+ENG1,52,Crystal Palace,380703,Rio Cardines
+ENG1,52,Crystal Palace,301295,Kaden Rodney
+ENG1,52,Crystal Palace,288102,Adam Wharton
+ENG1,52,Crystal Palace,1468,Edward Nketiah
+ENG1,52,Crystal Palace,2601,Daichi Kamada
+ENG1,52,Crystal Palace,284449,Jesurun Rak-Sakyi
+ENG1,48,West Ham,2476,Guido Rodríguez
+ENG1,48,West Ham,2938,James Ward-Prowse
+ENG1,48,West Ham,2284,Emerson Palmieri
+ENG1,48,West Ham,15911,Mohammed Kudus
+ENG1,48,West Ham,1445,Konstantinos Mavropanos
+ENG1,48,West Ham,288118,Lewis Orford
+ENG1,48,West Ham,284446,Freddie Potts
+ENG1,48,West Ham,68466,Andy Irving
+ENG1,48,West Ham,129643,Evan Ferguson
+ENG1,48,West Ham,404574,Luis Guilherme
+ENG1,48,West Ham,409303,El Hadji Malick Diouf
+ENG1,48,West Ham,18846,Aaron Wan-Bissaka
+ENG1,48,West Ham,1243,Tomáš Souček
+ENG1,48,West Ham,21694,Nayef Aguerd
+ENG1,48,West Ham,18819,Michail Antonio
+ENG1,48,West Ham,2869,Edson Álvarez
+ENG1,48,West Ham,253,Alphonse Aréola
+ENG1,48,West Ham,37724,Crysencio Summerville
+ENG1,48,West Ham,327730,Oliver Scarles
+ENG1,48,West Ham,2939,Callum Wilson
+ENG1,48,West Ham,171,Kyle Walker-Peters
+ENG1,48,West Ham,138,Jean-Clair Todibo
+ENG1,48,West Ham,405530,Ezra Mayers
+ENG1,48,West Ham,930,Carlos Soler
+ENG1,48,West Ham,19428,Jarrod Bowen
+ENG1,48,West Ham,1231,Vladimír Coufal
+ENG1,48,West Ham,1736,Wesley Foderingham
+ENG1,48,West Ham,18744,Max Kilman
+ENG1,48,West Ham,25391,Niclas Füllkrug
+ENG1,48,West Ham,1646,Lucas Paquetá
+ENG1,48,West Ham,2997,Łukasz Fabiański
+ENG1,48,West Ham,18955,Danny Ings
+ENG1,48,West Ham,288116,Kaelan Casey
+ENG1,48,West Ham,18813,Aaron Cresswell
+ENG1,48,West Ham,15870,Mads Hermansen
+ENG1,66,Aston Villa,19366,Ollie Watkins
+ENG1,66,Aston Villa,19192,Jacob Ramsey
+ENG1,66,Aston Villa,249,Donyell Malen
+ENG1,66,Aston Villa,21998,Axel Disasi
+ENG1,66,Aston Villa,2724,Lucas Digne
+ENG1,66,Aston Villa,360268,Jamaldeen Jimoh
+ENG1,66,Aston Villa,342320,Kosta Nedeljković
+ENG1,66,Aston Villa,2287,Ross Barkley
+ENG1,66,Aston Villa,19298,Matty Cash
+ENG1,66,Aston Villa,21090,Diego Carlos
+ENG1,66,Aston Villa,983,Leon Bailey
+ENG1,66,Aston Villa,19191,John McGinn
+ENG1,66,Aston Villa,388013,Andrés García
+ENG1,66,Aston Villa,380715,Ben Broggio
+ENG1,66,Aston Villa,746,Marco Asensio
+ENG1,66,Aston Villa,2926,Youri Tielemans
+ENG1,66,Aston Villa,138931,Jaden Philogene-Bidace
+ENG1,66,Aston Villa,148270,Oliwier Zych
+ENG1,66,Aston Villa,137303,Evann Guessand
+ENG1,66,Aston Villa,284523,Sil Swinkels
+ENG1,66,Aston Villa,162173,Samuel Iling Junior
+ENG1,66,Aston Villa,46815,Pau Torres
+ENG1,66,Aston Villa,36878,Marco Bizot
+ENG1,66,Aston Villa,312260,Kadan Young
+ENG1,66,Aston Villa,19071,Emiliano Buendía
+ENG1,66,Aston Villa,13489,Jhon Durán
+ENG1,66,Aston Villa,19179,Tyrone Mings
+ENG1,66,Aston Villa,766,Robin Olsen
+ENG1,66,Aston Villa,162714,Amadou Onana
+ENG1,66,Aston Villa,138816,Ian Maatsen
+ENG1,66,Aston Villa,19170,Morgan Rogers
+ENG1,66,Aston Villa,19354,Ezri Konsa
+ENG1,66,Aston Villa,1904,Boubacar Kamara
+ENG1,66,Aston Villa,284390,James Wright
+ENG1,66,Aston Villa,284457,Lamare Bogarde
+ENG1,66,Aston Villa,909,Marcus Rashford
+ENG1,66,Aston Villa,19599,Emiliano Martínez
+ENG1,66,Aston Villa,7029,Joe Gauci
+ENG1,42,Arsenal,1460,Bukayo Saka
+ENG1,42,Arsenal,643,Gabriel Jesus
+ENG1,42,Arsenal,727,Reiss Nelson
+ENG1,42,Arsenal,313236,Ethan Nwaneri
+ENG1,42,Arsenal,47311,Mikel Merino
+ENG1,42,Arsenal,313245,Myles Lewis-Skelly
+ENG1,42,Arsenal,22224,Gabriel Magalhães
+ENG1,42,Arsenal,2937,Declan Rice
+ENG1,42,Arsenal,333682,Cristhian Mosquera
+ENG1,42,Arsenal,153407,Nathan Butler-Oyedeji
+ENG1,42,Arsenal,47315,Martín Zubimendi
+ENG1,42,Arsenal,157052,Riccardo Calafiori
+ENG1,42,Arsenal,136723,Noni Madueke
+ENG1,42,Arsenal,407033,Ismeal Kabia
+ENG1,42,Arsenal,313229,Jimi Gower
+ENG1,42,Arsenal,1946,Leandro Trossard
+ENG1,42,Arsenal,38746,Jurriën Timber
+ENG1,42,Arsenal,18979,Viktor Gyökeres
+ENG1,42,Arsenal,22090,William Saliba
+ENG1,42,Arsenal,645,Raheem Sterling
+ENG1,42,Arsenal,37127,Martin Ødegaard
+ENG1,42,Arsenal,978,Kai Havertz
+ENG1,42,Arsenal,278074,Salah Oulad M'Hand
+ENG1,42,Arsenal,342243,Tommy Setford
+ENG1,42,Arsenal,284463,Jack Henry-Francis
+ENG1,42,Arsenal,402329,Ayden Heaven
+ENG1,42,Arsenal,641,Oleksandr Zinchenko
+ENG1,42,Arsenal,127769,Gabriel Martinelli
+ENG1,42,Arsenal,19959,Ben White
+ENG1,42,Arsenal,61431,Jakub Kiwior
+ENG1,42,Arsenal,380696,Josh Nichols
+ENG1,42,Arsenal,49,Thomas Partey
+ENG1,42,Arsenal,19959,Benjamin White
+ENG1,42,Arsenal,1117,Kieran Tierney
+ENG1,42,Arsenal,19465,David Raya
+ENG1,42,Arsenal,2273,Kepa Arrizabalaga
+ENG1,42,Arsenal,912,Neto
+ENG1,42,Arsenal,380697,Maldini Kacurri
+ENG1,42,Arsenal,416697,Jack Porter
+ENG1,42,Arsenal,2289,Jorginho
+ENG1,42,Arsenal,2597,Takehiro Tomiyasu
+ENG1,42,Arsenal,348818,Brayden Clarke
+ENG1,42,Arsenal,1468,Edward Nketiah
+ENG1,42,Arsenal,20355,Aaron Ramsdale
+ENG1,40,Liverpool,162687,Vítězslav Jaroš
+ENG1,40,Liverpool,283,Trent Alexander-Arnold
+ENG1,40,Liverpool,19035,Harvey Elliott
+ENG1,40,Liverpool,180316,Harvey Davies
+ENG1,40,Liverpool,1145,Ibrahima Konaté
+ENG1,40,Liverpool,289,Andrew Robertson
+ENG1,40,Liverpool,162590,Tyler Morton
+ENG1,40,Liverpool,287109,James McConnell
+ENG1,40,Liverpool,8500,Wataru Endo
+ENG1,40,Liverpool,203224,Florian Wirtz
+ENG1,40,Liverpool,280,Alisson
+ENG1,40,Liverpool,293,Curtis Jones
+ENG1,40,Liverpool,2678,Diogo Jota
+ENG1,40,Liverpool,180317,Conor Bradley
+ENG1,40,Liverpool,281,Caoimhin Kelleher
+ENG1,40,Liverpool,397997,Trey Nyoni
+ENG1,40,Liverpool,24760,Giorgi Mamardashvili
+ENG1,40,Liverpool,1096,Dominik Szoboszlai
+ENG1,40,Liverpool,284,Joe Gomez
+ENG1,40,Liverpool,206254,Miloš Kerkez
+ENG1,40,Liverpool,51617,Darwin Núñez
+ENG1,40,Liverpool,152654,Jeremie Frimpong
+ENG1,40,Liverpool,452685,Rio Ngumoha
+ENG1,40,Liverpool,2489,Luis Díaz
+ENG1,40,Liverpool,314661,Jayden Danns
+ENG1,40,Liverpool,6716,Alexis Mac Allister
+ENG1,40,Liverpool,1600,Konstantinos Tsimikas
+ENG1,40,Liverpool,30410,Federico Chiesa
+ENG1,40,Liverpool,290,Virgil van Dijk
+ENG1,40,Liverpool,247,Cody Gakpo
+ENG1,40,Liverpool,158698,Jarell Quansah
+ENG1,40,Liverpool,542,Ryan Gravenberch
+ENG1,40,Liverpool,407032,Amara Nallo
+ENG1,40,Liverpool,306,Mohamed Salah
+ENG1,40,Liverpool,174565,Hugo Ekitiké
+ENG1,55,Brentford,19495,Nathan Collins
+ENG1,55,Brentford,19346,Rico Henry
+ENG1,55,Brentford,18917,Ben Mee
+ENG1,55,Brentford,408221,Benjamin Fredrick
+ENG1,55,Brentford,430734,Yunus Konak
+ENG1,55,Brentford,20649,Yoane Wissa
+ENG1,55,Brentford,263538,Yehor Yarmoliuk
+ENG1,55,Brentford,19789,Ethan Pinnock
+ENG1,55,Brentford,44871,Aaron Hickey
+ENG1,55,Brentford,1119,Kristoffer Ajer
+ENG1,55,Brentford,20589,Bryan Mbeumo
+ENG1,55,Brentford,356237,Kim Ji-Soo
+ENG1,55,Brentford,388510,Tony Yogane
+ENG1,55,Brentford,430827,Benjamin Arthur
+ENG1,55,Brentford,15745,Mads Roerslev
+ENG1,55,Brentford,427736,Gustavo Nunes
+ENG1,55,Brentford,15908,Mikkel Damsgaard
+ENG1,55,Brentford,281,Caoimhin Kelleher
+ENG1,55,Brentford,263538,Yehor Yarmolyuk
+ENG1,55,Brentford,382925,Ryan Trevitt
+ENG1,55,Brentford,26232,Mark Flekken
+ENG1,55,Brentford,319517,Antoni Milambo
+ENG1,55,Brentford,180308,Myles Peart-Harris
+ENG1,55,Brentford,15799,Frank Onyeka
+ENG1,55,Brentford,196156,Igor Thiago
+ENG1,55,Brentford,106725,Keane Lewis-Potter
+ENG1,55,Brentford,36922,Sepp van den Berg
+ENG1,55,Brentford,30407,Christian Nørgaard
+ENG1,55,Brentford,61742,Hákon Rafn Valdimarsson
+ENG1,55,Brentford,153066,Fabio Carvalho
+ENG1,55,Brentford,178077,Kevin Schade
+ENG1,55,Brentford,162075,Edmond-Paris Maghoma
+ENG1,55,Brentford,292,Jordan Henderson
+ENG1,55,Brentford,25073,Vitaly Janelt
+ENG1,55,Brentford,350625,Jayden Meghoma
+ENG1,55,Brentford,389579,Julian Eyestone
+ENG1,55,Brentford,400938,Iwan Morgan
+ENG1,55,Brentford,47438,Mathias Jensen
+ENG1,55,Brentford,342022,Michael Kayode
+ENG1,39,Wolves,456206,Mateus Mané
+ENG1,39,Wolves,1590,José Sá
+ENG1,39,Wolves,21138,Rayan Aït Nouri
+ENG1,39,Wolves,7722,Saša Kalajdžić
+ENG1,39,Wolves,388777,Bastien Meupiyou
+ENG1,39,Wolves,19147,Craig Dawson
+ENG1,39,Wolves,19143,Sam Johnstone
+ENG1,39,Wolves,408893,Wesley Okoduwa
+ENG1,39,Wolves,303322,Nasser Djiga
+ENG1,39,Wolves,144732,Tommy Doyle
+ENG1,39,Wolves,157912,Boubacar Traoré
+ENG1,39,Wolves,13708,Jhon Arias
+ENG1,39,Wolves,171035,Tawanda Chirewa
+ENG1,39,Wolves,135068,Emmanuel Agbadou
+ENG1,39,Wolves,82855,Tom King
+ENG1,39,Wolves,265784,André
+ENG1,39,Wolves,195717,Yerson Mosquera
+ENG1,39,Wolves,19341,Daniel Bentley
+ENG1,39,Wolves,195103,João Gomes
+ENG1,39,Wolves,283272,Alfie Pond
+ENG1,39,Wolves,285,Ki-Jana Hoever
+ENG1,39,Wolves,282770,Rodrigo Gomes
+ENG1,39,Wolves,24888,Hee-Chan Hwang
+ENG1,39,Wolves,135334,Santiago Bueno
+ENG1,39,Wolves,2056,Pablo Sarabia
+ENG1,39,Wolves,41606,Toti Gomes
+ENG1,39,Wolves,449245,Pedro Lima
+ENG1,39,Wolves,149564,Luke Cundle
+ENG1,39,Wolves,1605,Daniel Podence
+ENG1,39,Wolves,265782,David Möller Wolfe
+ENG1,39,Wolves,282126,Carlos Borges
+ENG1,39,Wolves,18742,Matt Doherty
+ENG1,39,Wolves,280687,Hugo Bueno
+ENG1,39,Wolves,130,Nélson Semedo
+ENG1,39,Wolves,20665,Jean-Ricner Bellegarde
+ENG1,39,Wolves,2032,Jørgen Strand Larsen
+ENG1,39,Wolves,389302,Tom Edozie
+ENG1,39,Wolves,282126,Carlos Forbs
+ENG1,39,Wolves,391822,Fer López
+ENG1,39,Wolves,18947,Mario Lemina
+ENG1,39,Wolves,1165,Matheus Cunha
+ENG1,39,Wolves,925,Gonçalo Guedes
+ENG1,39,Wolves,3080,Marshall Munetsi
+ENG1,49,Chelsea,19012,Marcus Bettinelli
+ENG1,49,Chelsea,21998,Axel Disasi
+ENG1,49,Chelsea,95,Benoît Badiashile
+ENG1,49,Chelsea,269,Christopher Nkunku
+ENG1,49,Chelsea,583,João Félix
+ENG1,49,Chelsea,47380,Marc Cucurella
+ENG1,49,Chelsea,5996,Enzo Fernández
+ENG1,49,Chelsea,152953,Levi Colwill
+ENG1,49,Chelsea,161907,Malo Gusto
+ENG1,49,Chelsea,136723,Noni Madueke
+ENG1,49,Chelsea,334037,Tyrique George
+ENG1,49,Chelsea,305834,Andrey Santos
+ENG1,49,Chelsea,425733,Estêvão Willian
+ENG1,49,Chelsea,18,Jadon Sancho
+ENG1,49,Chelsea,18959,Robert Sánchez
+ENG1,49,Chelsea,19720,Trevoh Chalobah
+ENG1,49,Chelsea,286894,Jamie Gittens
+ENG1,49,Chelsea,116117,Moisés Caicedo
+ENG1,49,Chelsea,63577,Mykhaylo Mudryk
+ENG1,49,Chelsea,148099,Kiernan Dewsbury-Hall
+ENG1,49,Chelsea,22094,Wesley Fofana
+ENG1,49,Chelsea,341642,Jorrel Hato
+ENG1,49,Chelsea,282125,Roméo Lavia
+ENG1,49,Chelsea,161948,Liam Delap
+ENG1,49,Chelsea,422780,Aaron Anselmino
+ENG1,49,Chelsea,392270,Marc Guiu
+ENG1,49,Chelsea,366735,Josh Acheampong
+ENG1,49,Chelsea,308678,Dário Essugo
+ENG1,49,Chelsea,398000,Genesis Antwi
+ENG1,49,Chelsea,327733,Sam Rak-Sakyi
+ENG1,49,Chelsea,328093,Ishé Samuels-Smith
+ENG1,49,Chelsea,19545,Reece James
+ENG1,49,Chelsea,359117,Shumaira Mheuka
+ENG1,49,Chelsea,1864,Pedro Neto
+ENG1,49,Chelsea,286616,Filip Jørgensen
+ENG1,49,Chelsea,10329,João Pedro
+ENG1,49,Chelsea,336671,Renato Veiga
+ENG1,49,Chelsea,152982,Cole Palmer
+ENG1,49,Chelsea,283058,Nicolas Jackson
+ENG1,49,Chelsea,19145,Tosin Adarabioyo
+ENG1,49,Chelsea,270507,Cesare Casadei
+ENG1,49,Chelsea,395762,Mathis Amougou
+ENG1,35,Bournemouth,304853,Alex Scott
+ENG1,35,Bournemouth,51051,Julián Araujo
+ENG1,35,Bournemouth,18860,Mark Travers
+ENG1,35,Bournemouth,47499,Enes Ünal
+ENG1,35,Bournemouth,382160,Daniel Adu-Adjei
+ENG1,35,Bournemouth,19281,Antoine Semenyo
+ENG1,35,Bournemouth,382170,Maxwell Kinsey-Wellings
+ENG1,35,Bournemouth,162267,Adrien Truffert
+ENG1,35,Bournemouth,363333,Julio Soler
+ENG1,35,Bournemouth,368030,Eli Junior Kroupi
+ENG1,35,Bournemouth,18869,Adam Smith
+ENG1,35,Bournemouth,51051,Julian Araujo
+ENG1,35,Bournemouth,1125,Ryan Christie
+ENG1,35,Bournemouth,37161,Luis Sinisterra
+ENG1,35,Bournemouth,19245,Marcus Tavernier
+ENG1,35,Bournemouth,2734,Philip Billing
+ENG1,35,Bournemouth,359942,Matai Akinmboni
+ENG1,35,Bournemouth,161671,Illia Zabarnyi
+ENG1,35,Bournemouth,792,Justin Kluivert
+ENG1,35,Bournemouth,296458,Daniel Jebbison
+ENG1,35,Bournemouth,284797,Dango Ouattara
+ENG1,35,Bournemouth,18870,David Brooks
+ENG1,35,Bournemouth,402432,Ben Winterburn
+ENG1,35,Bournemouth,18872,Lewis Cook
+ENG1,35,Bournemouth,22136,Bafodé Diakité
+ENG1,35,Bournemouth,298060,Zain Silcott-Duberry
+ENG1,35,Bournemouth,1150,Tyler Adams
+ENG1,35,Bournemouth,19070,Max Aarons
+ENG1,35,Bournemouth,6610,Marcos Senesi
+ENG1,35,Bournemouth,334725,Dominic Sadi
+ENG1,35,Bournemouth,118307,Đorđe Petrović
+ENG1,35,Bournemouth,402434,Remy Rees-Dottin
+ENG1,35,Bournemouth,206254,Miloš Kerkez
+ENG1,35,Bournemouth,151756,Will Dennis
+ENG1,35,Bournemouth,196855,Jaidon Anthony
+ENG1,35,Bournemouth,2273,Kepa Arrizabalaga
+ENG1,35,Bournemouth,912,Neto
+ENG1,35,Bournemouth,361497,Dean Huijsen
+ENG1,35,Bournemouth,152856,Evanilson
+ENG1,35,Bournemouth,394710,Callan McKenna
+ENG1,35,Bournemouth,449224,Archie Harris
+ENG1,35,Bournemouth,31057,Hamed Junior Traorè
+ENG1,35,Bournemouth,20093,James Hill
+ENG1,34,Newcastle,2806,Fabian Schär
+ENG1,34,Newcastle,163189,Malick Thiaw
+ENG1,34,Newcastle,158694,Valentino Livramento
+ENG1,34,Newcastle,1463,Joe Willock
+ENG1,34,Newcastle,31146,Sandro Tonali
+ENG1,34,Newcastle,169,Kieran Trippier
+ENG1,34,Newcastle,315237,William Osula
+ENG1,34,Newcastle,2864,Alexander Isak
+ENG1,34,Newcastle,19263,Lloyd Kelly
+ENG1,34,Newcastle,18941,Matt Targett
+ENG1,34,Newcastle,328105,Lewis Miley
+ENG1,34,Newcastle,38734,Sven Botman
+ENG1,34,Newcastle,557,Odysseas Vlachodimos
+ENG1,34,Newcastle,18911,Nick Pope
+ENG1,34,Newcastle,138787,Anthony Gordon
+ENG1,34,Newcastle,18778,Harvey Barnes
+ENG1,34,Newcastle,18737,John Ruddy
+ENG1,34,Newcastle,318056,Alex Murphy
+ENG1,34,Newcastle,526535,Park Seung-soo
+ENG1,34,Newcastle,2507,Miguel Almirón
+ENG1,34,Newcastle,394165,Sean Neave
+ENG1,34,Newcastle,723,Joelinton
+ENG1,34,Newcastle,2939,Callum Wilson
+ENG1,34,Newcastle,337934,Leo Shahar
+ENG1,34,Newcastle,18886,Martin Dúbravka
+ENG1,34,Newcastle,18961,Dan Burn
+ENG1,34,Newcastle,18894,Jamaal Lascelles
+ENG1,34,Newcastle,153430,Anthony Elanga
+ENG1,34,Newcastle,284492,Lewis Hall
+ENG1,34,Newcastle,10135,Bruno Guimarães
+ENG1,34,Newcastle,2855,Emil Krafth
+ENG1,34,Newcastle,18901,Sean Longstaff
+ENG1,34,Newcastle,19163,Jacob Murphy
+ENG1,34,Newcastle,20355,Aaron Ramsdale
+ENG1,44,Burnley,36927,Zian Flemming
+ENG1,44,Burnley,179400,Maxime Estève
+ENG1,44,Burnley,1746,Joe Worrall
+ENG1,44,Burnley,98936,Lyle Foster
+ENG1,44,Burnley,627,Kyle Walker
+ENG1,44,Burnley,278079,Aaron Ramsey
+ENG1,44,Burnley,330238,Lucas Pires
+ENG1,44,Burnley,128895,Oliver Sonne
+ENG1,44,Burnley,161621,Loum Tchaouna
+ENG1,44,Burnley,37882,Marcus Edwards
+ENG1,44,Burnley,20303,Josh Laurent
+ENG1,44,Burnley,328273,Max Weiss
+ENG1,44,Burnley,22,Jacob Bruun Larsen
+ENG1,44,Burnley,196855,Jaidon Anthony
+ENG1,44,Burnley,270508,Lesley Ugochukwu
+ENG1,44,Burnley,18886,Martin Dúbravka
+ENG1,44,Burnley,19827,Josh Cullen
+ENG1,44,Burnley,47903,Hjalmar Ekdal
+ENG1,44,Burnley,375915,Quilindschy Hartman
+ENG1,44,Burnley,180560,Hannibal Mejbri
+ENG1,746,Sunderland,327631,Habib Diarra
+ENG1,746,Sunderland,339201,Chris Rigg
+ENG1,746,Sunderland,290545,Jenson Seelt
+ENG1,746,Sunderland,349799,Eliezer Mayenda
+ENG1,746,Sunderland,19910,Dan Neil
+ENG1,746,Sunderland,84087,Wilson Isidor
+ENG1,746,Sunderland,1464,Granit Xhaka
+ENG1,746,Sunderland,194536,Robin Roefs
+ENG1,746,Sunderland,55904,Daniel Ballard
+ENG1,746,Sunderland,20638,Enzo Le Fée
+ENG1,746,Sunderland,330640,Harrison Jones
+ENG1,746,Sunderland,6168,Omar Alderete
+ENG1,746,Sunderland,365331,Noah Sadiki
+ENG1,746,Sunderland,119121,Trai Hume
+ENG1,746,Sunderland,392270,Marc Guiu
+ENG1,746,Sunderland,22225,Reinildo Mandava
+ENG1,746,Sunderland,336659,Chemsdine Talbi
+ENG1,746,Sunderland,19881,Anthony Patterson
+ENG1,746,Sunderland,47521,Patrick Roberts
+ENG1,746,Sunderland,301771,Simon Adingra
+ENG1,63,Leeds,19461,Lukas Nmecha
+ENG1,63,Leeds,19287,Sam Byram
+ENG1,63,Leeds,1408,Sebastiaan Bornauw
+ENG1,63,Leeds,138776,Largie Ramazani
+ENG1,63,Leeds,32966,Ao Tanaka
+ENG1,63,Leeds,19128,Jack Harrison
+ENG1,63,Leeds,64003,Pascal Struijk
+ENG1,63,Leeds,250,Joël Piroe
+ENG1,63,Leeds,162128,Wilfried Gnonto
+ENG1,63,Leeds,19201,Jayden Bogle
+ENG1,63,Leeds,129142,Ilia Gruev
+ENG1,63,Leeds,47969,Gabriel Gudmundsson
+ENG1,63,Leeds,177665,Anton Stach
+ENG1,63,Leeds,19321,Joe Rodon
+ENG1,63,Leeds,18885,Karl Darlow
+ENG1,63,Leeds,18901,Sean Longstaff
+ENG1,63,Leeds,80296,Lucas Perri
+ENG1,63,Leeds,50739,Brenden Aaronson
+ENG1,63,Leeds,19329,Daniel James
+ENG1,63,Leeds,2279,Ethan Ampadu

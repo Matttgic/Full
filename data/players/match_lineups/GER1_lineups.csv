@@ -1,0 +1,309 @@
+fixture_id,league_code,match_date,home_team,away_team,team_1_id,team_1_name,team_1_players_count,team_2_id,team_2_name,team_2_players_count
+1223975,GER1,2024-08-23,Borussia Mönchengladbach,Bayer Leverkusen,163,Borussia Mönchengladbach,20,168,Bayer Leverkusen,20
+1223979,GER1,2024-08-24,SC Freiburg,VfB Stuttgart,160,SC Freiburg,20,172,VfB Stuttgart,20
+1223982,GER1,2024-08-24,FSV Mainz 05,Union Berlin,164,FSV Mainz 05,20,182,Union Berlin,20
+1223978,GER1,2024-08-24,1899 Hoffenheim,Holstein Kiel,167,1899 Hoffenheim,20,191,Holstein Kiel,20
+1223980,GER1,2024-08-24,FC Augsburg,Werder Bremen,170,FC Augsburg,20,162,Werder Bremen,20
+1223976,GER1,2024-08-24,RB Leipzig,VfL Bochum,173,RB Leipzig,20,176,VfL Bochum,20
+1223977,GER1,2024-08-24,Borussia Dortmund,Eintracht Frankfurt,165,Borussia Dortmund,20,169,Eintracht Frankfurt,20
+1223981,GER1,2024-08-25,VfL Wolfsburg,Bayern München,161,VfL Wolfsburg,20,157,Bayern München,20
+1223983,GER1,2024-08-25,FC St. Pauli,1. FC Heidenheim,186,FC St. Pauli,20,180,1. FC Heidenheim,20
+1223990,GER1,2024-08-30,Union Berlin,FC St. Pauli,182,Union Berlin,20,186,FC St. Pauli,20
+1223989,GER1,2024-08-31,Werder Bremen,Borussia Dortmund,162,Werder Bremen,20,165,Borussia Dortmund,20
+1223991,GER1,2024-08-31,VfL Bochum,Borussia Mönchengladbach,176,VfL Bochum,20,163,Borussia Mönchengladbach,20
+1223992,GER1,2024-08-31,Holstein Kiel,VfL Wolfsburg,191,Holstein Kiel,20,161,VfL Wolfsburg,20
+1223984,GER1,2024-08-31,Bayer Leverkusen,RB Leipzig,168,Bayer Leverkusen,19,173,RB Leipzig,20
+1223985,GER1,2024-08-31,VfB Stuttgart,FSV Mainz 05,172,VfB Stuttgart,20,164,FSV Mainz 05,20
+1223987,GER1,2024-08-31,Eintracht Frankfurt,1899 Hoffenheim,169,Eintracht Frankfurt,20,167,1899 Hoffenheim,20
+1223988,GER1,2024-09-01,1. FC Heidenheim,FC Augsburg,180,1. FC Heidenheim,20,170,FC Augsburg,20
+1223986,GER1,2024-09-01,Bayern München,SC Freiburg,157,Bayern München,20,160,SC Freiburg,20
+1223994,GER1,2024-09-13,Borussia Dortmund,1. FC Heidenheim,165,Borussia Dortmund,20,180,1. FC Heidenheim,20
+1223995,GER1,2024-09-14,1899 Hoffenheim,Bayer Leverkusen,167,1899 Hoffenheim,20,168,Bayer Leverkusen,20
+1223996,GER1,2024-09-14,SC Freiburg,VfL Bochum,160,SC Freiburg,20,176,VfL Bochum,20
+1223993,GER1,2024-09-14,RB Leipzig,Union Berlin,173,RB Leipzig,20,182,Union Berlin,20
+1224000,GER1,2024-09-14,Borussia Mönchengladbach,VfB Stuttgart,163,Borussia Mönchengladbach,20,172,VfB Stuttgart,20
+1224001,GER1,2024-09-14,Holstein Kiel,Bayern München,191,Holstein Kiel,20,157,Bayern München,20
+1223998,GER1,2024-09-14,VfL Wolfsburg,Eintracht Frankfurt,161,VfL Wolfsburg,20,169,Eintracht Frankfurt,20
+1223997,GER1,2024-09-15,FC Augsburg,FC St. Pauli,170,FC Augsburg,20,186,FC St. Pauli,20
+1223999,GER1,2024-09-15,FSV Mainz 05,Werder Bremen,164,FSV Mainz 05,20,162,Werder Bremen,20
+1224007,GER1,2024-09-20,FC Augsburg,FSV Mainz 05,170,FC Augsburg,20,164,FSV Mainz 05,20
+1224008,GER1,2024-09-21,Union Berlin,1899 Hoffenheim,182,Union Berlin,20,167,1899 Hoffenheim,20
+1224005,GER1,2024-09-21,1. FC Heidenheim,SC Freiburg,180,1. FC Heidenheim,20,160,SC Freiburg,20
+1224006,GER1,2024-09-21,Werder Bremen,Bayern München,162,Werder Bremen,20,157,Bayern München,20
+1224009,GER1,2024-09-21,VfL Bochum,Holstein Kiel,176,VfL Bochum,20,191,Holstein Kiel,20
+1224004,GER1,2024-09-21,Eintracht Frankfurt,Borussia Mönchengladbach,169,Eintracht Frankfurt,20,163,Borussia Mönchengladbach,20
+1224002,GER1,2024-09-22,Bayer Leverkusen,VfL Wolfsburg,168,Bayer Leverkusen,20,161,VfL Wolfsburg,20
+1224003,GER1,2024-09-22,VfB Stuttgart,Borussia Dortmund,172,VfB Stuttgart,20,165,Borussia Dortmund,20
+1224010,GER1,2024-09-22,FC St. Pauli,RB Leipzig,186,FC St. Pauli,20,173,RB Leipzig,20
+1224013,GER1,2024-09-27,Borussia Dortmund,VfL Bochum,165,Borussia Dortmund,19,176,VfL Bochum,20
+1224015,GER1,2024-09-28,SC Freiburg,FC St. Pauli,160,SC Freiburg,20,186,FC St. Pauli,20
+1224017,GER1,2024-09-28,FSV Mainz 05,1. FC Heidenheim,164,FSV Mainz 05,20,180,1. FC Heidenheim,20
+1224012,GER1,2024-09-28,RB Leipzig,FC Augsburg,173,RB Leipzig,20,170,FC Augsburg,20
+1224016,GER1,2024-09-28,VfL Wolfsburg,VfB Stuttgart,161,VfL Wolfsburg,20,172,VfB Stuttgart,20
+1224011,GER1,2024-09-28,Bayern München,Bayer Leverkusen,157,Bayern München,20,168,Bayer Leverkusen,20
+1224018,GER1,2024-09-28,Borussia Mönchengladbach,Union Berlin,163,Borussia Mönchengladbach,20,182,Union Berlin,20
+1224019,GER1,2024-09-29,Holstein Kiel,Eintracht Frankfurt,191,Holstein Kiel,20,169,Eintracht Frankfurt,20
+1224014,GER1,2024-09-29,1899 Hoffenheim,Werder Bremen,167,1899 Hoffenheim,20,162,Werder Bremen,20
+1224025,GER1,2024-10-04,FC Augsburg,Borussia Mönchengladbach,170,FC Augsburg,20,163,Borussia Mönchengladbach,20
+1224024,GER1,2024-10-05,Werder Bremen,SC Freiburg,162,Werder Bremen,19,160,SC Freiburg,20
+1224028,GER1,2024-10-05,FC St. Pauli,FSV Mainz 05,186,FC St. Pauli,20,164,FSV Mainz 05,20
+1224020,GER1,2024-10-05,Bayer Leverkusen,Holstein Kiel,168,Bayer Leverkusen,20,191,Holstein Kiel,20
+1224027,GER1,2024-10-05,VfL Bochum,VfL Wolfsburg,176,VfL Bochum,20,161,VfL Wolfsburg,20
+1224026,GER1,2024-10-05,Union Berlin,Borussia Dortmund,182,Union Berlin,20,165,Borussia Dortmund,20
+1224023,GER1,2024-10-06,1. FC Heidenheim,RB Leipzig,180,1. FC Heidenheim,20,173,RB Leipzig,20
+1224022,GER1,2024-10-06,Eintracht Frankfurt,Bayern München,169,Eintracht Frankfurt,20,157,Bayern München,20
+1224021,GER1,2024-10-06,VfB Stuttgart,1899 Hoffenheim,172,VfB Stuttgart,20,167,1899 Hoffenheim,20
+1224031,GER1,2024-10-18,Borussia Dortmund,FC St. Pauli,165,Borussia Dortmund,20,186,FC St. Pauli,20
+1224036,GER1,2024-10-19,Borussia Mönchengladbach,1. FC Heidenheim,163,Borussia Mönchengladbach,20,180,1. FC Heidenheim,20
+1224030,GER1,2024-10-19,Bayern München,VfB Stuttgart,157,Bayern München,20,172,VfB Stuttgart,20
+1224032,GER1,2024-10-19,1899 Hoffenheim,VfL Bochum,167,1899 Hoffenheim,20,176,VfL Bochum,20
+1224029,GER1,2024-10-19,Bayer Leverkusen,Eintracht Frankfurt,168,Bayer Leverkusen,20,169,Eintracht Frankfurt,20
+1224035,GER1,2024-10-19,FSV Mainz 05,RB Leipzig,164,FSV Mainz 05,20,173,RB Leipzig,20
+1224033,GER1,2024-10-19,SC Freiburg,FC Augsburg,160,SC Freiburg,20,170,FC Augsburg,20
+1224037,GER1,2024-10-20,Holstein Kiel,Union Berlin,191,Holstein Kiel,20,182,Union Berlin,20
+1224034,GER1,2024-10-20,VfL Wolfsburg,Werder Bremen,161,VfL Wolfsburg,20,162,Werder Bremen,20
+1224043,GER1,2024-10-25,FSV Mainz 05,Borussia Mönchengladbach,164,FSV Mainz 05,20,163,Borussia Mönchengladbach,20
+1224046,GER1,2024-10-26,FC St. Pauli,VfL Wolfsburg,186,FC St. Pauli,20,161,VfL Wolfsburg,19
+1224039,GER1,2024-10-26,RB Leipzig,SC Freiburg,173,RB Leipzig,20,160,SC Freiburg,20
+1224042,GER1,2024-10-26,FC Augsburg,Borussia Dortmund,170,FC Augsburg,20,165,Borussia Dortmund,20
+1224038,GER1,2024-10-26,VfB Stuttgart,Holstein Kiel,172,VfB Stuttgart,20,191,Holstein Kiel,20
+1224041,GER1,2024-10-26,Werder Bremen,Bayer Leverkusen,162,Werder Bremen,20,168,Bayer Leverkusen,20
+1224045,GER1,2024-10-27,VfL Bochum,Bayern München,176,VfL Bochum,20,157,Bayern München,20
+1224044,GER1,2024-10-27,Union Berlin,Eintracht Frankfurt,182,Union Berlin,20,169,Eintracht Frankfurt,20
+1224040,GER1,2024-10-27,1. FC Heidenheim,1899 Hoffenheim,180,1. FC Heidenheim,20,167,1899 Hoffenheim,20
+1224047,GER1,2024-11-01,Bayer Leverkusen,VfB Stuttgart,168,Bayer Leverkusen,20,172,VfB Stuttgart,20
+1224050,GER1,2024-11-02,Eintracht Frankfurt,VfL Bochum,169,Eintracht Frankfurt,20,176,VfL Bochum,20
+1224051,GER1,2024-11-02,1899 Hoffenheim,FC St. Pauli,167,1899 Hoffenheim,20,186,FC St. Pauli,20
+1224055,GER1,2024-11-02,Holstein Kiel,1. FC Heidenheim,191,Holstein Kiel,20,180,1. FC Heidenheim,20
+1224049,GER1,2024-11-02,Borussia Dortmund,RB Leipzig,165,Borussia Dortmund,20,173,RB Leipzig,20
+1224048,GER1,2024-11-02,Bayern München,Union Berlin,157,Bayern München,20,182,Union Berlin,20
+1224053,GER1,2024-11-02,VfL Wolfsburg,FC Augsburg,161,VfL Wolfsburg,20,170,FC Augsburg,20
+1224052,GER1,2024-11-03,SC Freiburg,FSV Mainz 05,160,SC Freiburg,20,164,FSV Mainz 05,20
+1224054,GER1,2024-11-03,Borussia Mönchengladbach,Werder Bremen,163,Borussia Mönchengladbach,20,162,Werder Bremen,20
+1224062,GER1,2024-11-08,Union Berlin,SC Freiburg,182,Union Berlin,20,160,SC Freiburg,20
+1224059,GER1,2024-11-09,Werder Bremen,Holstein Kiel,162,Werder Bremen,20,191,Holstein Kiel,20
+1224063,GER1,2024-11-09,VfL Bochum,Bayer Leverkusen,176,VfL Bochum,20,168,Bayer Leverkusen,20
+1224057,GER1,2024-11-09,RB Leipzig,Borussia Mönchengladbach,173,RB Leipzig,20,163,Borussia Mönchengladbach,20
+1224061,GER1,2024-11-09,FSV Mainz 05,Borussia Dortmund,164,FSV Mainz 05,20,165,Borussia Dortmund,20
+1224064,GER1,2024-11-09,FC St. Pauli,Bayern München,186,FC St. Pauli,20,157,Bayern München,20
+1224060,GER1,2024-11-10,FC Augsburg,1899 Hoffenheim,170,FC Augsburg,20,167,1899 Hoffenheim,20
+1224056,GER1,2024-11-10,VfB Stuttgart,Eintracht Frankfurt,172,VfB Stuttgart,20,169,Eintracht Frankfurt,20
+1224058,GER1,2024-11-10,1. FC Heidenheim,VfL Wolfsburg,180,1. FC Heidenheim,20,161,VfL Wolfsburg,20
+1224067,GER1,2024-11-22,Bayern München,FC Augsburg,157,Bayern München,20,170,FC Augsburg,20
+1224066,GER1,2024-11-23,VfB Stuttgart,VfL Bochum,172,VfB Stuttgart,20,176,VfL Bochum,20
+1224065,GER1,2024-11-23,Bayer Leverkusen,1. FC Heidenheim,168,Bayer Leverkusen,19,180,1. FC Heidenheim,20
+1224068,GER1,2024-11-23,Borussia Dortmund,SC Freiburg,165,Borussia Dortmund,20,160,SC Freiburg,20
+1224071,GER1,2024-11-23,VfL Wolfsburg,Union Berlin,161,VfL Wolfsburg,20,182,Union Berlin,20
+1224070,GER1,2024-11-23,1899 Hoffenheim,RB Leipzig,167,1899 Hoffenheim,20,173,RB Leipzig,19
+1224069,GER1,2024-11-23,Eintracht Frankfurt,Werder Bremen,169,Eintracht Frankfurt,20,162,Werder Bremen,19
+1224073,GER1,2024-11-24,Holstein Kiel,FSV Mainz 05,191,Holstein Kiel,20,164,FSV Mainz 05,20
+1224072,GER1,2024-11-24,Borussia Mönchengladbach,FC St. Pauli,163,Borussia Mönchengladbach,20,186,FC St. Pauli,20
+1224082,GER1,2024-11-29,FC St. Pauli,Holstein Kiel,186,FC St. Pauli,20,191,Holstein Kiel,20
+1224078,GER1,2024-11-30,SC Freiburg,Borussia Mönchengladbach,160,SC Freiburg,20,163,Borussia Mönchengladbach,20
+1224075,GER1,2024-11-30,Borussia Dortmund,Bayern München,165,Borussia Dortmund,20,157,Bayern München,20
+1224081,GER1,2024-11-30,Union Berlin,Bayer Leverkusen,182,Union Berlin,20,168,Bayer Leverkusen,19
+1224074,GER1,2024-11-30,RB Leipzig,VfL Wolfsburg,173,RB Leipzig,20,161,VfL Wolfsburg,20
+1224079,GER1,2024-11-30,FC Augsburg,VfL Bochum,170,FC Augsburg,20,176,VfL Bochum,20
+1224077,GER1,2024-11-30,Werder Bremen,VfB Stuttgart,162,Werder Bremen,20,172,VfB Stuttgart,20
+1224080,GER1,2024-12-01,FSV Mainz 05,1899 Hoffenheim,164,FSV Mainz 05,20,167,1899 Hoffenheim,20
+1224076,GER1,2024-12-01,1. FC Heidenheim,Eintracht Frankfurt,180,1. FC Heidenheim,20,169,Eintracht Frankfurt,20
+1224084,GER1,2024-12-06,VfB Stuttgart,Union Berlin,172,VfB Stuttgart,20,182,Union Berlin,20
+1224086,GER1,2024-12-07,Eintracht Frankfurt,FC Augsburg,169,Eintracht Frankfurt,20,170,FC Augsburg,19
+1224089,GER1,2024-12-07,Borussia Mönchengladbach,Borussia Dortmund,163,Borussia Mönchengladbach,20,165,Borussia Dortmund,20
+1224091,GER1,2024-12-07,Holstein Kiel,RB Leipzig,191,Holstein Kiel,20,173,RB Leipzig,20
+1224083,GER1,2024-12-07,Bayer Leverkusen,FC St. Pauli,168,Bayer Leverkusen,20,186,FC St. Pauli,20
+1224085,GER1,2024-12-07,Bayern München,1. FC Heidenheim,157,Bayern München,20,180,1. FC Heidenheim,20
+1224090,GER1,2024-12-07,VfL Bochum,Werder Bremen,176,VfL Bochum,20,162,Werder Bremen,20
+1224088,GER1,2024-12-08,VfL Wolfsburg,FSV Mainz 05,161,VfL Wolfsburg,20,164,FSV Mainz 05,20
+1224087,GER1,2024-12-08,1899 Hoffenheim,SC Freiburg,167,1899 Hoffenheim,20,160,SC Freiburg,20
+1224095,GER1,2024-12-13,SC Freiburg,VfL Wolfsburg,160,SC Freiburg,20,161,VfL Wolfsburg,20
+1224099,GER1,2024-12-14,Union Berlin,VfL Bochum,182,Union Berlin,20,176,VfL Bochum,20
+1224100,GER1,2024-12-14,FC St. Pauli,Werder Bremen,186,FC St. Pauli,20,162,Werder Bremen,20
+1224098,GER1,2024-12-14,Borussia Mönchengladbach,Holstein Kiel,163,Borussia Mönchengladbach,20,191,Holstein Kiel,20
+1224097,GER1,2024-12-14,FSV Mainz 05,Bayern München,164,FSV Mainz 05,20,157,Bayern München,20
+1224096,GER1,2024-12-14,FC Augsburg,Bayer Leverkusen,170,FC Augsburg,20,168,Bayer Leverkusen,20
+1224094,GER1,2024-12-15,1. FC Heidenheim,VfB Stuttgart,180,1. FC Heidenheim,20,172,VfB Stuttgart,20
+1224093,GER1,2024-12-15,Borussia Dortmund,1899 Hoffenheim,165,Borussia Dortmund,20,167,1899 Hoffenheim,20
+1224092,GER1,2024-12-15,RB Leipzig,Eintracht Frankfurt,173,RB Leipzig,20,169,Eintracht Frankfurt,20
+1224103,GER1,2024-12-20,Bayern München,RB Leipzig,157,Bayern München,20,173,RB Leipzig,20
+1224106,GER1,2024-12-21,Werder Bremen,Union Berlin,162,Werder Bremen,20,182,Union Berlin,20
+1224105,GER1,2024-12-21,1899 Hoffenheim,Borussia Mönchengladbach,167,1899 Hoffenheim,20,163,Borussia Mönchengladbach,20
+1224104,GER1,2024-12-21,Eintracht Frankfurt,FSV Mainz 05,169,Eintracht Frankfurt,20,164,FSV Mainz 05,20
+1224102,GER1,2024-12-21,VfB Stuttgart,FC St. Pauli,172,VfB Stuttgart,20,186,FC St. Pauli,20
+1224109,GER1,2024-12-21,Holstein Kiel,FC Augsburg,191,Holstein Kiel,20,170,FC Augsburg,20
+1224101,GER1,2024-12-21,Bayer Leverkusen,SC Freiburg,168,Bayer Leverkusen,20,160,SC Freiburg,20
+1224108,GER1,2024-12-22,VfL Bochum,1. FC Heidenheim,176,VfL Bochum,20,180,1. FC Heidenheim,20
+1224107,GER1,2024-12-22,VfL Wolfsburg,Borussia Dortmund,161,VfL Wolfsburg,20,165,Borussia Dortmund,19
+1224111,GER1,2025-01-10,Borussia Dortmund,Bayer Leverkusen,165,Borussia Dortmund,20,168,Bayer Leverkusen,20
+1224114,GER1,2025-01-11,SC Freiburg,Holstein Kiel,160,SC Freiburg,20,191,Holstein Kiel,20
+1224116,GER1,2025-01-11,FSV Mainz 05,VfL Bochum,164,FSV Mainz 05,20,176,VfL Bochum,20
+1224112,GER1,2025-01-11,1899 Hoffenheim,VfL Wolfsburg,167,1899 Hoffenheim,20,161,VfL Wolfsburg,20
+1224113,GER1,2025-01-11,1. FC Heidenheim,Union Berlin,180,1. FC Heidenheim,20,182,Union Berlin,20
+1224118,GER1,2025-01-11,FC St. Pauli,Eintracht Frankfurt,186,FC St. Pauli,20,169,Eintracht Frankfurt,20
+1224117,GER1,2025-01-11,Borussia Mönchengladbach,Bayern München,163,Borussia Mönchengladbach,20,157,Bayern München,20
+1224110,GER1,2025-01-12,RB Leipzig,Werder Bremen,173,RB Leipzig,20,162,Werder Bremen,20
+1224115,GER1,2025-01-12,FC Augsburg,VfB Stuttgart,170,FC Augsburg,20,172,VfB Stuttgart,20
+1224124,GER1,2025-01-14,VfL Wolfsburg,Borussia Mönchengladbach,161,VfL Wolfsburg,20,163,Borussia Mönchengladbach,20
+1224127,GER1,2025-01-14,Holstein Kiel,Borussia Dortmund,191,Holstein Kiel,20,165,Borussia Dortmund,20
+1224122,GER1,2025-01-14,Eintracht Frankfurt,SC Freiburg,169,Eintracht Frankfurt,20,160,SC Freiburg,20
+1224119,GER1,2025-01-14,Bayer Leverkusen,FSV Mainz 05,168,Bayer Leverkusen,20,164,FSV Mainz 05,20
+1224126,GER1,2025-01-15,VfL Bochum,FC St. Pauli,176,VfL Bochum,20,186,FC St. Pauli,20
+1224123,GER1,2025-01-15,Werder Bremen,1. FC Heidenheim,162,Werder Bremen,20,180,1. FC Heidenheim,20
+1224120,GER1,2025-01-15,VfB Stuttgart,RB Leipzig,172,VfB Stuttgart,20,173,RB Leipzig,20
+1224121,GER1,2025-01-15,Bayern München,1899 Hoffenheim,157,Bayern München,20,167,1899 Hoffenheim,20
+1224125,GER1,2025-01-15,Union Berlin,FC Augsburg,182,Union Berlin,20,170,FC Augsburg,20
+1224131,GER1,2025-01-17,Eintracht Frankfurt,Borussia Dortmund,169,Eintracht Frankfurt,20,165,Borussia Dortmund,20
+1224130,GER1,2025-01-18,Bayern München,VfL Wolfsburg,157,Bayern München,20,161,VfL Wolfsburg,20
+1224129,GER1,2025-01-18,VfB Stuttgart,SC Freiburg,172,VfB Stuttgart,20,160,SC Freiburg,20
+1224135,GER1,2025-01-18,VfL Bochum,RB Leipzig,176,VfL Bochum,20,173,RB Leipzig,20
+1224132,GER1,2025-01-18,1. FC Heidenheim,FC St. Pauli,180,1. FC Heidenheim,20,186,FC St. Pauli,20
+1224136,GER1,2025-01-18,Holstein Kiel,1899 Hoffenheim,191,Holstein Kiel,20,167,1899 Hoffenheim,20
+1224128,GER1,2025-01-18,Bayer Leverkusen,Borussia Mönchengladbach,168,Bayer Leverkusen,20,163,Borussia Mönchengladbach,20
+1224134,GER1,2025-01-19,Union Berlin,FSV Mainz 05,182,Union Berlin,20,164,FSV Mainz 05,20
+1224133,GER1,2025-01-19,Werder Bremen,FC Augsburg,162,Werder Bremen,20,170,FC Augsburg,20
+1224142,GER1,2025-01-24,VfL Wolfsburg,Holstein Kiel,161,VfL Wolfsburg,20,191,Holstein Kiel,20
+1224140,GER1,2025-01-25,SC Freiburg,Bayern München,160,SC Freiburg,20,157,Bayern München,20
+1224141,GER1,2025-01-25,FC Augsburg,1. FC Heidenheim,170,FC Augsburg,20,180,1. FC Heidenheim,20
+1224137,GER1,2025-01-25,RB Leipzig,Bayer Leverkusen,173,RB Leipzig,20,168,Bayer Leverkusen,20
+1224143,GER1,2025-01-25,FSV Mainz 05,VfB Stuttgart,164,FSV Mainz 05,20,172,VfB Stuttgart,20
+1224144,GER1,2025-01-25,Borussia Mönchengladbach,VfL Bochum,163,Borussia Mönchengladbach,20,176,VfL Bochum,20
+1224138,GER1,2025-01-25,Borussia Dortmund,Werder Bremen,165,Borussia Dortmund,20,162,Werder Bremen,19
+1224139,GER1,2025-01-26,1899 Hoffenheim,Eintracht Frankfurt,167,1899 Hoffenheim,20,169,Eintracht Frankfurt,20
+1224145,GER1,2025-01-26,FC St. Pauli,Union Berlin,186,FC St. Pauli,20,182,Union Berlin,20
+1224151,GER1,2025-01-31,Werder Bremen,FSV Mainz 05,162,Werder Bremen,19,164,FSV Mainz 05,20
+1224154,GER1,2025-02-01,FC St. Pauli,FC Augsburg,186,FC St. Pauli,20,170,FC Augsburg,20
+1224150,GER1,2025-02-01,1. FC Heidenheim,Borussia Dortmund,180,1. FC Heidenheim,20,165,Borussia Dortmund,20
+1224148,GER1,2025-02-01,Bayern München,Holstein Kiel,157,Bayern München,20,191,Holstein Kiel,20
+1224147,GER1,2025-02-01,VfB Stuttgart,Borussia Mönchengladbach,172,VfB Stuttgart,20,163,Borussia Mönchengladbach,20
+1224153,GER1,2025-02-01,VfL Bochum,SC Freiburg,176,VfL Bochum,20,160,SC Freiburg,20
+1224152,GER1,2025-02-01,Union Berlin,RB Leipzig,182,Union Berlin,20,173,RB Leipzig,20
+1224149,GER1,2025-02-02,Eintracht Frankfurt,VfL Wolfsburg,169,Eintracht Frankfurt,20,161,VfL Wolfsburg,20
+1224146,GER1,2025-02-02,Bayer Leverkusen,1899 Hoffenheim,168,Bayer Leverkusen,20,167,1899 Hoffenheim,20
+1224155,GER1,2025-02-07,Bayern München,Werder Bremen,157,Bayern München,20,162,Werder Bremen,19
+1224158,GER1,2025-02-08,1899 Hoffenheim,Union Berlin,167,1899 Hoffenheim,20,182,Union Berlin,20
+1224157,GER1,2025-02-08,Borussia Dortmund,VfB Stuttgart,165,Borussia Dortmund,20,172,VfB Stuttgart,20
+1224161,GER1,2025-02-08,FSV Mainz 05,FC Augsburg,164,FSV Mainz 05,20,170,FC Augsburg,19
+1224159,GER1,2025-02-08,SC Freiburg,1. FC Heidenheim,160,SC Freiburg,20,180,1. FC Heidenheim,20
+1224160,GER1,2025-02-08,VfL Wolfsburg,Bayer Leverkusen,161,VfL Wolfsburg,20,168,Bayer Leverkusen,20
+1224162,GER1,2025-02-08,Borussia Mönchengladbach,Eintracht Frankfurt,163,Borussia Mönchengladbach,20,169,Eintracht Frankfurt,20
+1224163,GER1,2025-02-09,Holstein Kiel,VfL Bochum,191,Holstein Kiel,20,176,VfL Bochum,20
+1224156,GER1,2025-02-09,RB Leipzig,FC St. Pauli,173,RB Leipzig,20,186,FC St. Pauli,20
+1224169,GER1,2025-02-14,FC Augsburg,RB Leipzig,170,FC Augsburg,20,173,RB Leipzig,19
+1224172,GER1,2025-02-15,FC St. Pauli,SC Freiburg,186,FC St. Pauli,20,160,SC Freiburg,20
+1224170,GER1,2025-02-15,Union Berlin,Borussia Mönchengladbach,182,Union Berlin,20,163,Borussia Mönchengladbach,20
+1224171,GER1,2025-02-15,VfL Bochum,Borussia Dortmund,176,VfL Bochum,20,165,Borussia Dortmund,20
+1224165,GER1,2025-02-15,VfB Stuttgart,VfL Wolfsburg,172,VfB Stuttgart,20,161,VfL Wolfsburg,20
+1224164,GER1,2025-02-15,Bayer Leverkusen,Bayern München,168,Bayer Leverkusen,20,157,Bayern München,20
+1224168,GER1,2025-02-16,Werder Bremen,1899 Hoffenheim,162,Werder Bremen,20,167,1899 Hoffenheim,20
+1224166,GER1,2025-02-16,Eintracht Frankfurt,Holstein Kiel,169,Eintracht Frankfurt,20,191,Holstein Kiel,20
+1224167,GER1,2025-02-16,1. FC Heidenheim,FSV Mainz 05,180,1. FC Heidenheim,20,164,FSV Mainz 05,20
+1224177,GER1,2025-02-21,SC Freiburg,Werder Bremen,160,SC Freiburg,20,162,Werder Bremen,20
+1224178,GER1,2025-02-22,VfL Wolfsburg,VfL Bochum,161,VfL Wolfsburg,20,176,VfL Bochum,20
+1224181,GER1,2025-02-22,Holstein Kiel,Bayer Leverkusen,191,Holstein Kiel,19,168,Bayer Leverkusen,20
+1224180,GER1,2025-02-22,Borussia Mönchengladbach,FC Augsburg,163,Borussia Mönchengladbach,20,170,FC Augsburg,20
+1224175,GER1,2025-02-22,Borussia Dortmund,Union Berlin,165,Borussia Dortmund,20,182,Union Berlin,20
+1224179,GER1,2025-02-22,FSV Mainz 05,FC St. Pauli,164,FSV Mainz 05,20,186,FC St. Pauli,20
+1224174,GER1,2025-02-23,RB Leipzig,1. FC Heidenheim,173,RB Leipzig,20,180,1. FC Heidenheim,20
+1224173,GER1,2025-02-23,Bayern München,Eintracht Frankfurt,157,Bayern München,20,169,Eintracht Frankfurt,20
+1224176,GER1,2025-02-23,1899 Hoffenheim,VfB Stuttgart,167,1899 Hoffenheim,20,172,VfB Stuttgart,20
+1224182,GER1,2025-02-28,VfB Stuttgart,Bayern München,172,VfB Stuttgart,20,157,Bayern München,20
+1224190,GER1,2025-03-01,FC St. Pauli,Borussia Dortmund,186,FC St. Pauli,20,165,Borussia Dortmund,20
+1224185,GER1,2025-03-01,1. FC Heidenheim,Borussia Mönchengladbach,180,1. FC Heidenheim,20,163,Borussia Mönchengladbach,20
+1224189,GER1,2025-03-01,VfL Bochum,1899 Hoffenheim,176,VfL Bochum,20,167,1899 Hoffenheim,19
+1224184,GER1,2025-03-01,Eintracht Frankfurt,Bayer Leverkusen,169,Eintracht Frankfurt,20,168,Bayer Leverkusen,20
+1224183,GER1,2025-03-01,RB Leipzig,FSV Mainz 05,173,RB Leipzig,20,164,FSV Mainz 05,20
+1224186,GER1,2025-03-01,Werder Bremen,VfL Wolfsburg,162,Werder Bremen,20,161,VfL Wolfsburg,20
+1224188,GER1,2025-03-02,Union Berlin,Holstein Kiel,182,Union Berlin,20,191,Holstein Kiel,20
+1224187,GER1,2025-03-02,FC Augsburg,SC Freiburg,170,FC Augsburg,20,160,SC Freiburg,20
+1224198,GER1,2025-03-07,Borussia Mönchengladbach,FSV Mainz 05,163,Borussia Mönchengladbach,20,164,FSV Mainz 05,20
+1224191,GER1,2025-03-08,Bayer Leverkusen,Werder Bremen,168,Bayer Leverkusen,20,162,Werder Bremen,20
+1224196,GER1,2025-03-08,SC Freiburg,RB Leipzig,160,SC Freiburg,20,173,RB Leipzig,19
+1224199,GER1,2025-03-08,Holstein Kiel,VfB Stuttgart,191,Holstein Kiel,20,172,VfB Stuttgart,20
+1224193,GER1,2025-03-08,Borussia Dortmund,FC Augsburg,165,Borussia Dortmund,19,170,FC Augsburg,20
+1224197,GER1,2025-03-08,VfL Wolfsburg,FC St. Pauli,161,VfL Wolfsburg,20,186,FC St. Pauli,20
+1224192,GER1,2025-03-08,Bayern München,VfL Bochum,157,Bayern München,20,176,VfL Bochum,20
+1224194,GER1,2025-03-09,Eintracht Frankfurt,Union Berlin,169,Eintracht Frankfurt,20,182,Union Berlin,20
+1224195,GER1,2025-03-09,1899 Hoffenheim,1. FC Heidenheim,167,1899 Hoffenheim,20,180,1. FC Heidenheim,20
+1224208,GER1,2025-03-14,FC St. Pauli,1899 Hoffenheim,186,FC St. Pauli,20,167,1899 Hoffenheim,20
+1224206,GER1,2025-03-15,Union Berlin,Bayern München,182,Union Berlin,20,157,Bayern München,20
+1224201,GER1,2025-03-15,RB Leipzig,Borussia Dortmund,173,RB Leipzig,20,165,Borussia Dortmund,20
+1224205,GER1,2025-03-15,FSV Mainz 05,SC Freiburg,164,FSV Mainz 05,20,160,SC Freiburg,20
+1224204,GER1,2025-03-15,FC Augsburg,VfL Wolfsburg,170,FC Augsburg,20,161,VfL Wolfsburg,20
+1224203,GER1,2025-03-15,Werder Bremen,Borussia Mönchengladbach,162,Werder Bremen,20,163,Borussia Mönchengladbach,20
+1224202,GER1,2025-03-16,1. FC Heidenheim,Holstein Kiel,180,1. FC Heidenheim,20,191,Holstein Kiel,20
+1224200,GER1,2025-03-16,VfB Stuttgart,Bayer Leverkusen,172,VfB Stuttgart,20,168,Bayer Leverkusen,20
+1224207,GER1,2025-03-16,VfL Bochum,Eintracht Frankfurt,176,VfL Bochum,20,169,Eintracht Frankfurt,20
+1224209,GER1,2025-03-28,Bayer Leverkusen,VfL Bochum,168,Bayer Leverkusen,20,176,VfL Bochum,20
+1224213,GER1,2025-03-29,1899 Hoffenheim,FC Augsburg,167,1899 Hoffenheim,20,170,FC Augsburg,20
+1224216,GER1,2025-03-29,Borussia Mönchengladbach,RB Leipzig,163,Borussia Mönchengladbach,20,173,RB Leipzig,19
+1224217,GER1,2025-03-29,Holstein Kiel,Werder Bremen,191,Holstein Kiel,20,162,Werder Bremen,20
+1224210,GER1,2025-03-29,Bayern München,FC St. Pauli,157,Bayern München,20,186,FC St. Pauli,20
+1224215,GER1,2025-03-29,VfL Wolfsburg,1. FC Heidenheim,161,VfL Wolfsburg,20,180,1. FC Heidenheim,20
+1224212,GER1,2025-03-29,Eintracht Frankfurt,VfB Stuttgart,169,Eintracht Frankfurt,20,172,VfB Stuttgart,20
+1224214,GER1,2025-03-30,SC Freiburg,Union Berlin,160,SC Freiburg,20,182,Union Berlin,20
+1224211,GER1,2025-03-30,Borussia Dortmund,FSV Mainz 05,165,Borussia Dortmund,20,164,FSV Mainz 05,20
+1224222,GER1,2025-04-04,FC Augsburg,Bayern München,170,FC Augsburg,20,157,Bayern München,20
+1224225,GER1,2025-04-05,VfL Bochum,VfB Stuttgart,176,VfL Bochum,20,172,VfB Stuttgart,18
+1224221,GER1,2025-04-05,SC Freiburg,Borussia Dortmund,160,SC Freiburg,20,165,Borussia Dortmund,20
+1224223,GER1,2025-04-05,FSV Mainz 05,Holstein Kiel,164,FSV Mainz 05,20,191,Holstein Kiel,20
+1224218,GER1,2025-04-05,RB Leipzig,1899 Hoffenheim,173,RB Leipzig,20,167,1899 Hoffenheim,19
+1224219,GER1,2025-04-05,1. FC Heidenheim,Bayer Leverkusen,180,1. FC Heidenheim,20,168,Bayer Leverkusen,20
+1224220,GER1,2025-04-05,Werder Bremen,Eintracht Frankfurt,162,Werder Bremen,20,169,Eintracht Frankfurt,20
+1224226,GER1,2025-04-06,FC St. Pauli,Borussia Mönchengladbach,186,FC St. Pauli,20,163,Borussia Mönchengladbach,20
+1224224,GER1,2025-04-06,Union Berlin,VfL Wolfsburg,182,Union Berlin,20,161,VfL Wolfsburg,20
+1224232,GER1,2025-04-11,VfL Wolfsburg,RB Leipzig,161,VfL Wolfsburg,20,173,RB Leipzig,20
+1224233,GER1,2025-04-12,Borussia Mönchengladbach,SC Freiburg,163,Borussia Mönchengladbach,20,160,SC Freiburg,20
+1224231,GER1,2025-04-12,1899 Hoffenheim,FSV Mainz 05,167,1899 Hoffenheim,20,164,FSV Mainz 05,20
+1224227,GER1,2025-04-12,Bayer Leverkusen,Union Berlin,168,Bayer Leverkusen,20,182,Union Berlin,20
+1224234,GER1,2025-04-12,VfL Bochum,FC Augsburg,176,VfL Bochum,20,170,FC Augsburg,20
+1224235,GER1,2025-04-12,Holstein Kiel,FC St. Pauli,191,Holstein Kiel,20,186,FC St. Pauli,20
+1224229,GER1,2025-04-12,Bayern München,Borussia Dortmund,157,Bayern München,20,165,Borussia Dortmund,20
+1224228,GER1,2025-04-13,VfB Stuttgart,Werder Bremen,172,VfB Stuttgart,20,162,Werder Bremen,20
+1224230,GER1,2025-04-13,Eintracht Frankfurt,1. FC Heidenheim,169,Eintracht Frankfurt,20,180,1. FC Heidenheim,20
+1224242,GER1,2025-04-19,FSV Mainz 05,VfL Wolfsburg,164,FSV Mainz 05,19,161,VfL Wolfsburg,20
+1224240,GER1,2025-04-19,SC Freiburg,1899 Hoffenheim,160,SC Freiburg,20,167,1899 Hoffenheim,20
+1224239,GER1,2025-04-19,Werder Bremen,VfL Bochum,162,Werder Bremen,20,176,VfL Bochum,20
+1224238,GER1,2025-04-19,1. FC Heidenheim,Bayern München,180,1. FC Heidenheim,20,157,Bayern München,20
+1224243,GER1,2025-04-19,Union Berlin,VfB Stuttgart,182,Union Berlin,20,172,VfB Stuttgart,19
+1224236,GER1,2025-04-19,RB Leipzig,Holstein Kiel,173,RB Leipzig,19,191,Holstein Kiel,20
+1224241,GER1,2025-04-20,FC Augsburg,Eintracht Frankfurt,170,FC Augsburg,20,169,Eintracht Frankfurt,20
+1224237,GER1,2025-04-20,Borussia Dortmund,Borussia Mönchengladbach,165,Borussia Dortmund,20,163,Borussia Mönchengladbach,20
+1224244,GER1,2025-04-20,FC St. Pauli,Bayer Leverkusen,186,FC St. Pauli,20,168,Bayer Leverkusen,20
+1224246,GER1,2025-04-25,VfB Stuttgart,1. FC Heidenheim,172,VfB Stuttgart,20,180,1. FC Heidenheim,20
+1224251,GER1,2025-04-26,VfL Wolfsburg,SC Freiburg,161,VfL Wolfsburg,20,160,SC Freiburg,20
+1224249,GER1,2025-04-26,1899 Hoffenheim,Borussia Dortmund,167,1899 Hoffenheim,20,165,Borussia Dortmund,19
+1224247,GER1,2025-04-26,Bayern München,FSV Mainz 05,157,Bayern München,20,164,FSV Mainz 05,20
+1224253,GER1,2025-04-26,Holstein Kiel,Borussia Mönchengladbach,191,Holstein Kiel,20,163,Borussia Mönchengladbach,20
+1224248,GER1,2025-04-26,Eintracht Frankfurt,RB Leipzig,169,Eintracht Frankfurt,20,173,RB Leipzig,20
+1224245,GER1,2025-04-26,Bayer Leverkusen,FC Augsburg,168,Bayer Leverkusen,20,170,FC Augsburg,20
+1224252,GER1,2025-04-27,VfL Bochum,Union Berlin,176,VfL Bochum,20,182,Union Berlin,20
+1224250,GER1,2025-04-27,Werder Bremen,FC St. Pauli,162,Werder Bremen,20,186,FC St. Pauli,20
+1224256,GER1,2025-05-02,1. FC Heidenheim,VfL Bochum,180,1. FC Heidenheim,20,176,VfL Bochum,20
+1224260,GER1,2025-05-03,Borussia Mönchengladbach,1899 Hoffenheim,163,Borussia Mönchengladbach,20,167,1899 Hoffenheim,20
+1224254,GER1,2025-05-03,RB Leipzig,Bayern München,173,RB Leipzig,20,157,Bayern München,19
+1224261,GER1,2025-05-03,Union Berlin,Werder Bremen,182,Union Berlin,20,162,Werder Bremen,20
+1224262,GER1,2025-05-03,FC St. Pauli,VfB Stuttgart,186,FC St. Pauli,20,172,VfB Stuttgart,20
+1224255,GER1,2025-05-03,Borussia Dortmund,VfL Wolfsburg,165,Borussia Dortmund,20,161,VfL Wolfsburg,20
+1224258,GER1,2025-05-04,FC Augsburg,Holstein Kiel,170,FC Augsburg,20,191,Holstein Kiel,20
+1224257,GER1,2025-05-04,SC Freiburg,Bayer Leverkusen,160,SC Freiburg,20,168,Bayer Leverkusen,19
+1224259,GER1,2025-05-04,FSV Mainz 05,Eintracht Frankfurt,164,FSV Mainz 05,20,169,Eintracht Frankfurt,20
+1224268,GER1,2025-05-09,VfL Wolfsburg,1899 Hoffenheim,161,VfL Wolfsburg,20,167,1899 Hoffenheim,20
+1224267,GER1,2025-05-10,Werder Bremen,RB Leipzig,162,Werder Bremen,20,173,RB Leipzig,20
+1224265,GER1,2025-05-10,Bayern München,Borussia Mönchengladbach,157,Bayern München,20,163,Borussia Mönchengladbach,20
+1224270,GER1,2025-05-10,VfL Bochum,FSV Mainz 05,176,VfL Bochum,20,164,FSV Mainz 05,20
+1224271,GER1,2025-05-10,Holstein Kiel,SC Freiburg,191,Holstein Kiel,20,160,SC Freiburg,20
+1224269,GER1,2025-05-10,Union Berlin,1. FC Heidenheim,182,Union Berlin,20,180,1. FC Heidenheim,20
+1224263,GER1,2025-05-11,Bayer Leverkusen,Borussia Dortmund,168,Bayer Leverkusen,20,165,Borussia Dortmund,20
+1224266,GER1,2025-05-11,Eintracht Frankfurt,FC St. Pauli,169,Eintracht Frankfurt,20,186,FC St. Pauli,20
+1224264,GER1,2025-05-11,VfB Stuttgart,FC Augsburg,172,VfB Stuttgart,20,170,FC Augsburg,20
+1224277,GER1,2025-05-17,FC Augsburg,Union Berlin,170,FC Augsburg,20,182,Union Berlin,19
+1224280,GER1,2025-05-17,FC St. Pauli,VfL Bochum,186,FC St. Pauli,20,176,VfL Bochum,20
+1224275,GER1,2025-05-17,1. FC Heidenheim,Werder Bremen,180,1. FC Heidenheim,20,162,Werder Bremen,20
+1224272,GER1,2025-05-17,RB Leipzig,VfB Stuttgart,173,RB Leipzig,20,172,VfB Stuttgart,20
+1224279,GER1,2025-05-17,Borussia Mönchengladbach,VfL Wolfsburg,163,Borussia Mönchengladbach,20,161,VfL Wolfsburg,20
+1224278,GER1,2025-05-17,FSV Mainz 05,Bayer Leverkusen,164,FSV Mainz 05,20,168,Bayer Leverkusen,19
+1224276,GER1,2025-05-17,SC Freiburg,Eintracht Frankfurt,160,SC Freiburg,20,169,Eintracht Frankfurt,20
+1224274,GER1,2025-05-17,1899 Hoffenheim,Bayern München,167,1899 Hoffenheim,20,157,Bayern München,20
+1224273,GER1,2025-05-17,Borussia Dortmund,Holstein Kiel,165,Borussia Dortmund,19,191,Holstein Kiel,20
+1375862,GER1,2025-05-22,1. FC Heidenheim,SV Elversberg,180,1. FC Heidenheim,20,1660,SV Elversberg,20
+1375863,GER1,2025-05-26,SV Elversberg,1. FC Heidenheim,1660,SV Elversberg,20,180,1. FC Heidenheim,20

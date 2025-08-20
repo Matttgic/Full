@@ -1,0 +1,557 @@
+fixture_id,league_code,match_date,home_team,away_team,team_1_id,team_1_name,team_1_players_count,team_2_id,team_2_name,team_2_players_count
+1215874,ENG2,2024-08-23,Sheffield Wednesday,Leeds,74,Sheffield Wednesday,20,63,Leeds,20
+1215872,ENG2,2024-08-24,Preston,Luton,59,Preston,20,1359,Luton,20
+1215869,ENG2,2024-08-24,Hull City,Millwall,64,Hull City,20,58,Millwall,20
+1215868,ENG2,2024-08-24,Bristol City,Coventry,56,Bristol City,20,1346,Coventry,20
+1215878,ENG2,2024-08-24,Watford,Derby,38,Watford,20,69,Derby,19
+1215873,ENG2,2024-08-24,QPR,Plymouth,72,QPR,20,1357,Plymouth,20
+1215867,ENG2,2024-08-24,Blackburn,Oxford United,67,Blackburn,20,1338,Oxford United,20
+1215871,ENG2,2024-08-24,Norwich,Sheffield Utd,71,Norwich,20,62,Sheffield Utd,20
+1215875,ENG2,2024-08-24,Stoke City,West Brom,75,Stoke City,20,60,West Brom,20
+1215876,ENG2,2024-08-24,Sunderland,Burnley,746,Sunderland,20,44,Burnley,20
+1215870,ENG2,2024-08-24,Middlesbrough,Portsmouth,70,Middlesbrough,20,1355,Portsmouth,20
+1215877,ENG2,2024-08-25,Swansea,Cardiff,76,Swansea,20,43,Cardiff,20
+1215884,ENG2,2024-08-30,Luton,QPR,1359,Luton,20,72,QPR,20
+1215881,ENG2,2024-08-31,Coventry,Norwich,1346,Coventry,20,71,Norwich,20
+1215887,ENG2,2024-08-31,Plymouth,Stoke City,1357,Plymouth,20,75,Stoke City,20
+1215880,ENG2,2024-08-31,Cardiff,Middlesbrough,43,Cardiff,20,70,Middlesbrough,20
+1215886,ENG2,2024-08-31,Oxford United,Preston,1338,Oxford United,20,59,Preston,20
+1215879,ENG2,2024-08-31,Burnley,Blackburn,44,Burnley,20,67,Blackburn,20
+1215882,ENG2,2024-08-31,Derby,Bristol City,69,Derby,20,56,Bristol City,20
+1215885,ENG2,2024-08-31,Millwall,Sheffield Wednesday,58,Millwall,20,74,Sheffield Wednesday,20
+1215883,ENG2,2024-08-31,Leeds,Hull City,63,Leeds,20,64,Hull City,20
+1215888,ENG2,2024-08-31,Portsmouth,Sunderland,1355,Portsmouth,20,746,Sunderland,20
+1215890,ENG2,2024-08-31,West Brom,Swansea,60,West Brom,20,76,Swansea,20
+1215889,ENG2,2024-09-01,Sheffield Utd,Watford,62,Sheffield Utd,20,38,Watford,20
+1215893,ENG2,2024-09-13,Hull City,Sheffield Utd,64,Hull City,20,62,Sheffield Utd,20
+1215891,ENG2,2024-09-14,Blackburn,Bristol City,67,Blackburn,20,56,Bristol City,20
+1215896,ENG2,2024-09-14,Millwall,Luton,58,Millwall,20,1359,Luton,20
+1215894,ENG2,2024-09-14,Leeds,Burnley,63,Leeds,20,44,Burnley,20
+1215897,ENG2,2024-09-14,Oxford United,Stoke City,1338,Oxford United,20,75,Stoke City,20
+1215892,ENG2,2024-09-14,Derby,Cardiff,69,Derby,20,43,Cardiff,20
+1215895,ENG2,2024-09-14,Middlesbrough,Preston,70,Middlesbrough,20,59,Preston,19
+1215901,ENG2,2024-09-14,Swansea,Norwich,76,Swansea,20,71,Norwich,20
+1215898,ENG2,2024-09-14,Plymouth,Sunderland,1357,Plymouth,20,746,Sunderland,20
+1215902,ENG2,2024-09-14,Watford,Coventry,38,Watford,20,1346,Coventry,20
+1215900,ENG2,2024-09-14,Sheffield Wednesday,QPR,74,Sheffield Wednesday,20,72,QPR,20
+1215899,ENG2,2024-09-15,Portsmouth,West Brom,1355,Portsmouth,20,60,West Brom,20
+1215912,ENG2,2024-09-20,Stoke City,Hull City,75,Stoke City,20,64,Hull City,20
+1215905,ENG2,2024-09-21,Cardiff,Leeds,43,Cardiff,20,63,Leeds,20
+1215913,ENG2,2024-09-21,Sunderland,Middlesbrough,746,Sunderland,20,70,Middlesbrough,20
+1215904,ENG2,2024-09-21,Burnley,Portsmouth,44,Burnley,20,1355,Portsmouth,20
+1215910,ENG2,2024-09-21,QPR,Millwall,72,QPR,20,58,Millwall,20
+1215908,ENG2,2024-09-21,Norwich,Watford,71,Norwich,20,38,Watford,20
+1215907,ENG2,2024-09-21,Luton,Sheffield Wednesday,1359,Luton,20,74,Sheffield Wednesday,20
+1215911,ENG2,2024-09-21,Sheffield Utd,Derby,62,Sheffield Utd,20,69,Derby,20
+1215906,ENG2,2024-09-21,Coventry,Swansea,1346,Coventry,20,76,Swansea,20
+1215903,ENG2,2024-09-21,Bristol City,Oxford United,56,Bristol City,20,1338,Oxford United,20
+1215914,ENG2,2024-09-21,West Brom,Plymouth,60,West Brom,20,1357,Plymouth,20
+1215909,ENG2,2024-09-22,Preston,Blackburn,59,Preston,20,67,Blackburn,20
+1215922,ENG2,2024-09-27,Plymouth,Luton,1357,Plymouth,20,1359,Luton,20
+1215915,ENG2,2024-09-28,Blackburn,QPR,67,Blackburn,20,72,QPR,20
+1215916,ENG2,2024-09-28,Derby,Norwich,69,Derby,20,71,Norwich,20
+1215924,ENG2,2024-09-28,Sheffield Wednesday,West Brom,74,Sheffield Wednesday,20,60,West Brom,20
+1215919,ENG2,2024-09-28,Middlesbrough,Stoke City,70,Middlesbrough,20,75,Stoke City,20
+1215923,ENG2,2024-09-28,Portsmouth,Sheffield Utd,1355,Portsmouth,20,62,Sheffield Utd,20
+1215917,ENG2,2024-09-28,Hull City,Cardiff,64,Hull City,20,43,Cardiff,20
+1215921,ENG2,2024-09-28,Oxford United,Burnley,1338,Oxford United,20,44,Burnley,20
+1215920,ENG2,2024-09-28,Millwall,Preston,58,Millwall,20,59,Preston,20
+1215926,ENG2,2024-09-28,Watford,Sunderland,38,Watford,20,746,Sunderland,20
+1215918,ENG2,2024-09-28,Leeds,Coventry,63,Leeds,20,1346,Coventry,20
+1215925,ENG2,2024-09-29,Swansea,Bristol City,76,Swansea,20,56,Bristol City,20
+1215931,ENG2,2024-10-01,QPR,Hull City,72,QPR,20,64,Hull City,20
+1215927,ENG2,2024-10-01,Burnley,Plymouth,44,Burnley,20,1357,Plymouth,20
+1215936,ENG2,2024-10-01,Norwich,Leeds,71,Norwich,20,63,Leeds,20
+1215928,ENG2,2024-10-01,Cardiff,Millwall,43,Cardiff,20,58,Millwall,20
+1215934,ENG2,2024-10-01,West Brom,Middlesbrough,60,West Brom,20,70,Middlesbrough,20
+1215929,ENG2,2024-10-01,Coventry,Blackburn,1346,Coventry,20,67,Blackburn,20
+1215930,ENG2,2024-10-01,Luton,Oxford United,1359,Luton,20,1338,Oxford United,20
+1215933,ENG2,2024-10-01,Sunderland,Derby,746,Sunderland,20,69,Derby,20
+1215937,ENG2,2024-10-02,Preston,Watford,59,Preston,20,38,Watford,20
+1215932,ENG2,2024-10-02,Sheffield Utd,Swansea,62,Sheffield Utd,20,76,Swansea,20
+1215938,ENG2,2024-10-02,Stoke City,Portsmouth,75,Stoke City,20,1355,Portsmouth,20
+1215935,ENG2,2024-10-02,Bristol City,Sheffield Wednesday,56,Bristol City,20,74,Sheffield Wednesday,20
+1215947,ENG2,2024-10-04,Sunderland,Leeds,746,Sunderland,20,63,Leeds,20
+1215949,ENG2,2024-10-05,Watford,Middlesbrough,38,Watford,20,70,Middlesbrough,20
+1215940,ENG2,2024-10-05,Burnley,Preston,44,Burnley,20,59,Preston,20
+1215950,ENG2,2024-10-05,West Brom,Millwall,60,West Brom,20,58,Millwall,20
+1215945,ENG2,2024-10-05,Portsmouth,Oxford United,1355,Portsmouth,20,1338,Oxford United,20
+1215943,ENG2,2024-10-05,Norwich,Hull City,71,Norwich,20,64,Hull City,20
+1215944,ENG2,2024-10-05,Plymouth,Blackburn,1357,Plymouth,20,67,Blackburn,20
+1215948,ENG2,2024-10-05,Swansea,Stoke City,76,Swansea,20,75,Stoke City,20
+1215942,ENG2,2024-10-05,Derby,QPR,69,Derby,20,72,QPR,20
+1215946,ENG2,2024-10-05,Sheffield Utd,Luton,62,Sheffield Utd,20,1359,Luton,20
+1215941,ENG2,2024-10-05,Coventry,Sheffield Wednesday,1346,Coventry,20,74,Sheffield Wednesday,20
+1215939,ENG2,2024-10-06,Bristol City,Cardiff,56,Bristol City,20,43,Cardiff,20
+1215954,ENG2,2024-10-18,Leeds,Sheffield Utd,63,Leeds,20,62,Sheffield Utd,20
+1215951,ENG2,2024-10-19,Blackburn,Swansea,67,Blackburn,20,76,Swansea,20
+1215957,ENG2,2024-10-19,Millwall,Derby,58,Millwall,20,69,Derby,20
+1215956,ENG2,2024-10-19,Middlesbrough,Bristol City,70,Middlesbrough,20,56,Bristol City,20
+1215962,ENG2,2024-10-19,Stoke City,Norwich,75,Stoke City,20,71,Norwich,20
+1215961,ENG2,2024-10-19,Sheffield Wednesday,Burnley,74,Sheffield Wednesday,20,44,Burnley,20
+1215958,ENG2,2024-10-19,Oxford United,West Brom,1338,Oxford United,20,60,West Brom,20
+1215959,ENG2,2024-10-19,Preston,Coventry,59,Preston,20,1346,Coventry,20
+1215952,ENG2,2024-10-19,Cardiff,Plymouth,43,Cardiff,20,1357,Plymouth,20
+1215960,ENG2,2024-10-19,QPR,Portsmouth,72,QPR,20,1355,Portsmouth,20
+1215955,ENG2,2024-10-19,Luton,Watford,1359,Luton,20,38,Watford,20
+1215953,ENG2,2024-10-20,Hull City,Sunderland,64,Hull City,20,746,Sunderland,20
+1215965,ENG2,2024-10-22,Leeds,Watford,63,Leeds,20,38,Watford,20
+1215969,ENG2,2024-10-22,Sheffield Wednesday,Swansea,74,Sheffield Wednesday,20,76,Swansea,20
+1215963,ENG2,2024-10-22,Cardiff,Portsmouth,43,Cardiff,20,1355,Portsmouth,20
+1215966,ENG2,2024-10-22,Oxford United,Derby,1338,Oxford United,20,69,Derby,20
+1215968,ENG2,2024-10-22,QPR,Coventry,72,QPR,20,1346,Coventry,20
+1215970,ENG2,2024-10-22,Stoke City,Bristol City,75,Stoke City,20,56,Bristol City,20
+1215967,ENG2,2024-10-22,Preston,Norwich,59,Preston,20,71,Norwich,20
+1215974,ENG2,2024-10-23,Millwall,Plymouth,58,Millwall,20,1357,Plymouth,20
+1215964,ENG2,2024-10-23,Hull City,Burnley,64,Hull City,20,44,Burnley,20
+1215971,ENG2,2024-10-23,Blackburn,West Brom,67,Blackburn,20,60,West Brom,20
+1215972,ENG2,2024-10-23,Luton,Sunderland,1359,Luton,20,746,Sunderland,20
+1215973,ENG2,2024-10-23,Middlesbrough,Sheffield Utd,70,Middlesbrough,20,62,Sheffield Utd,20
+1215981,ENG2,2024-10-25,Portsmouth,Sheffield Wednesday,1355,Portsmouth,20,74,Sheffield Wednesday,20
+1215976,ENG2,2024-10-26,Burnley,QPR,44,Burnley,20,72,QPR,20
+1215986,ENG2,2024-10-26,West Brom,Cardiff,60,West Brom,20,43,Cardiff,20
+1215977,ENG2,2024-10-26,Coventry,Luton,1346,Coventry,20,1359,Luton,20
+1215985,ENG2,2024-10-26,Watford,Blackburn,38,Watford,20,67,Blackburn,20
+1215975,ENG2,2024-10-26,Bristol City,Leeds,56,Bristol City,20,63,Leeds,20
+1215980,ENG2,2024-10-26,Plymouth,Preston,1357,Plymouth,20,59,Preston,20
+1215984,ENG2,2024-10-26,Swansea,Millwall,76,Swansea,20,58,Millwall,20
+1215983,ENG2,2024-10-26,Sunderland,Oxford United,746,Sunderland,20,1338,Oxford United,20
+1215982,ENG2,2024-10-26,Sheffield Utd,Stoke City,62,Sheffield Utd,20,75,Stoke City,20
+1215978,ENG2,2024-10-26,Derby,Hull City,69,Derby,20,64,Hull City,20
+1215979,ENG2,2024-10-27,Norwich,Middlesbrough,71,Norwich,20,70,Middlesbrough,20
+1215991,ENG2,2024-11-01,Luton,West Brom,1359,Luton,20,60,West Brom,20
+1215987,ENG2,2024-11-02,Blackburn,Sheffield Utd,67,Blackburn,20,62,Sheffield Utd,20
+1215998,ENG2,2024-11-02,Stoke City,Derby,75,Stoke City,20,69,Derby,20
+1215994,ENG2,2024-11-02,Oxford United,Swansea,1338,Oxford United,20,76,Swansea,20
+1215992,ENG2,2024-11-02,Middlesbrough,Coventry,70,Middlesbrough,20,1346,Coventry,20
+1215996,ENG2,2024-11-02,QPR,Sunderland,72,QPR,20,746,Sunderland,20
+1215989,ENG2,2024-11-02,Hull City,Portsmouth,64,Hull City,20,1355,Portsmouth,20
+1215997,ENG2,2024-11-02,Sheffield Wednesday,Watford,74,Sheffield Wednesday,20,38,Watford,20
+1215995,ENG2,2024-11-02,Preston,Bristol City,59,Preston,20,56,Bristol City,20
+1215988,ENG2,2024-11-02,Cardiff,Norwich,43,Cardiff,20,71,Norwich,20
+1215990,ENG2,2024-11-02,Leeds,Plymouth,63,Leeds,20,1357,Plymouth,20
+1215993,ENG2,2024-11-03,Millwall,Burnley,58,Millwall,20,44,Burnley,20
+1215999,ENG2,2024-11-05,Bristol City,Sheffield Utd,56,Bristol City,20,62,Sheffield Utd,20
+1216003,ENG2,2024-11-05,QPR,Middlesbrough,72,QPR,20,70,Middlesbrough,20
+1216004,ENG2,2024-11-05,Sheffield Wednesday,Norwich,74,Sheffield Wednesday,20,71,Norwich,20
+1216001,ENG2,2024-11-05,Oxford United,Hull City,1338,Oxford United,20,64,Hull City,19
+1216005,ENG2,2024-11-05,Swansea,Watford,76,Swansea,20,38,Watford,20
+1216002,ENG2,2024-11-05,Plymouth,Portsmouth,1357,Plymouth,20,1355,Portsmouth,20
+1216000,ENG2,2024-11-06,Millwall,Leeds,58,Millwall,20,63,Leeds,20
+1216007,ENG2,2024-11-06,Blackburn,Stoke City,67,Blackburn,20,75,Stoke City,20
+1216008,ENG2,2024-11-06,Coventry,Derby,1346,Coventry,20,69,Derby,20
+1216010,ENG2,2024-11-06,Preston,Sunderland,59,Preston,20,746,Sunderland,20
+1216009,ENG2,2024-11-06,Luton,Cardiff,1359,Luton,20,43,Cardiff,20
+1216006,ENG2,2024-11-07,West Brom,Burnley,60,West Brom,20,44,Burnley,20
+1216022,ENG2,2024-11-08,Watford,Oxford United,38,Watford,20,1338,Oxford United,20
+1216015,ENG2,2024-11-09,Leeds,QPR,63,Leeds,20,72,QPR,20
+1216016,ENG2,2024-11-09,Middlesbrough,Luton,70,Middlesbrough,20,1359,Luton,20
+1216020,ENG2,2024-11-09,Stoke City,Millwall,75,Stoke City,20,58,Millwall,20
+1216012,ENG2,2024-11-09,Cardiff,Blackburn,43,Cardiff,20,67,Blackburn,20
+1216018,ENG2,2024-11-09,Portsmouth,Preston,1355,Portsmouth,20,59,Preston,20
+1216017,ENG2,2024-11-09,Norwich,Bristol City,71,Norwich,20,56,Bristol City,20
+1216021,ENG2,2024-11-09,Sunderland,Coventry,746,Sunderland,20,1346,Coventry,20
+1216013,ENG2,2024-11-09,Derby,Plymouth,69,Derby,20,1357,Plymouth,20
+1216019,ENG2,2024-11-10,Sheffield Utd,Sheffield Wednesday,62,Sheffield Utd,20,74,Sheffield Wednesday,20
+1216014,ENG2,2024-11-10,Hull City,West Brom,64,Hull City,20,60,West Brom,20
+1216011,ENG2,2024-11-10,Burnley,Swansea,44,Burnley,20,76,Swansea,20
+1216029,ENG2,2024-11-22,Plymouth,Watford,1357,Plymouth,20,38,Watford,20
+1216024,ENG2,2024-11-23,Bristol City,Burnley,56,Bristol City,20,44,Burnley,20
+1216032,ENG2,2024-11-23,Sheffield Wednesday,Cardiff,74,Sheffield Wednesday,20,43,Cardiff,20
+1216025,ENG2,2024-11-23,Coventry,Sheffield Utd,1346,Coventry,20,62,Sheffield Utd,20
+1216028,ENG2,2024-11-23,Oxford United,Middlesbrough,1338,Oxford United,20,70,Middlesbrough,20
+1216031,ENG2,2024-11-23,QPR,Stoke City,72,QPR,20,75,Stoke City,20
+1216026,ENG2,2024-11-23,Luton,Hull City,1359,Luton,20,64,Hull City,20
+1216030,ENG2,2024-11-23,Preston,Derby,59,Preston,20,69,Derby,20
+1216027,ENG2,2024-11-23,Millwall,Sunderland,58,Millwall,20,746,Sunderland,20
+1216034,ENG2,2024-11-23,West Brom,Norwich,60,West Brom,20,71,Norwich,20
+1216033,ENG2,2024-11-24,Swansea,Leeds,76,Swansea,20,63,Leeds,20
+1216038,ENG2,2024-11-26,Norwich,Plymouth,71,Norwich,20,1357,Plymouth,20
+1216036,ENG2,2024-11-26,Hull City,Sheffield Wednesday,64,Hull City,20,74,Sheffield Wednesday,20
+1216040,ENG2,2024-11-26,Stoke City,Preston,75,Stoke City,20,59,Preston,20
+1216035,ENG2,2024-11-26,Burnley,Coventry,44,Burnley,20,1346,Coventry,20
+1216042,ENG2,2024-11-26,Watford,Bristol City,38,Watford,20,56,Bristol City,20
+1216039,ENG2,2024-11-26,Sheffield Utd,Oxford United,62,Sheffield Utd,20,1338,Oxford United,20
+1216041,ENG2,2024-11-26,Sunderland,West Brom,746,Sunderland,20,60,West Brom,20
+1216043,ENG2,2024-11-27,Cardiff,QPR,43,Cardiff,20,72,QPR,20
+1216037,ENG2,2024-11-27,Leeds,Luton,63,Leeds,20,1359,Luton,20
+1216045,ENG2,2024-11-27,Middlesbrough,Blackburn,70,Middlesbrough,20,67,Blackburn,20
+1216044,ENG2,2024-11-27,Derby,Swansea,69,Derby,20,76,Swansea,20
+1216055,ENG2,2024-11-29,Sheffield Utd,Sunderland,62,Sheffield Utd,20,746,Sunderland,20
+1216051,ENG2,2024-11-30,Middlesbrough,Hull City,70,Middlesbrough,20,64,Hull City,20
+1216058,ENG2,2024-11-30,Watford,QPR,38,Watford,20,72,QPR,20
+1216053,ENG2,2024-11-30,Oxford United,Millwall,1338,Oxford United,20,58,Millwall,20
+1216047,ENG2,2024-11-30,Blackburn,Leeds,67,Blackburn,20,63,Leeds,20
+1216048,ENG2,2024-11-30,Bristol City,Plymouth,56,Bristol City,20,1357,Plymouth,20
+1216054,ENG2,2024-11-30,Preston,West Brom,59,Preston,20,60,West Brom,20
+1216052,ENG2,2024-11-30,Norwich,Luton,71,Norwich,20,1359,Luton,20
+1216056,ENG2,2024-11-30,Stoke City,Burnley,75,Stoke City,20,44,Burnley,20
+1216057,ENG2,2024-11-30,Swansea,Portsmouth,76,Swansea,20,1355,Portsmouth,20
+1216049,ENG2,2024-11-30,Coventry,Cardiff,1346,Coventry,20,43,Cardiff,20
+1216050,ENG2,2024-12-01,Derby,Sheffield Wednesday,69,Derby,20,74,Sheffield Wednesday,20
+1216059,ENG2,2024-12-06,Burnley,Middlesbrough,44,Burnley,20,70,Middlesbrough,20
+1216064,ENG2,2024-12-07,Millwall,Coventry,58,Millwall,20,1346,Coventry,20
+1216069,ENG2,2024-12-07,Sunderland,Stoke City,746,Sunderland,20,75,Stoke City,20
+1216068,ENG2,2024-12-07,Sheffield Wednesday,Preston,74,Sheffield Wednesday,20,59,Preston,20
+1216062,ENG2,2024-12-07,Leeds,Derby,63,Leeds,20,69,Derby,20
+1216067,ENG2,2024-12-07,QPR,Norwich,72,QPR,20,71,Norwich,20
+1216066,ENG2,2024-12-07,Portsmouth,Bristol City,1355,Portsmouth,20,56,Bristol City,20
+1216063,ENG2,2024-12-07,Luton,Swansea,1359,Luton,20,76,Swansea,20
+1216061,ENG2,2024-12-07,Hull City,Blackburn,64,Hull City,20,67,Blackburn,20
+1216070,ENG2,2024-12-08,West Brom,Sheffield Utd,60,West Brom,20,62,Sheffield Utd,20
+1216075,ENG2,2024-12-10,Plymouth,Swansea,1357,Plymouth,20,76,Swansea,20
+1216071,ENG2,2024-12-10,Burnley,Derby,44,Burnley,20,69,Derby,20
+1216076,ENG2,2024-12-10,Portsmouth,Norwich,1355,Portsmouth,20,71,Norwich,20
+1216078,ENG2,2024-12-10,Sunderland,Bristol City,746,Sunderland,20,56,Bristol City,20
+1216077,ENG2,2024-12-10,Sheffield Wednesday,Blackburn,74,Sheffield Wednesday,20,67,Blackburn,20
+1216072,ENG2,2024-12-10,Leeds,Middlesbrough,63,Leeds,20,70,Middlesbrough,20
+1216073,ENG2,2024-12-10,Luton,Stoke City,1359,Luton,20,75,Stoke City,20
+1216079,ENG2,2024-12-11,Cardiff,Preston,43,Cardiff,20,59,Preston,20
+1216074,ENG2,2024-12-11,Millwall,Sheffield Utd,58,Millwall,20,62,Sheffield Utd,20
+1216080,ENG2,2024-12-11,Hull City,Watford,64,Hull City,20,38,Watford,20
+1216081,ENG2,2024-12-11,QPR,Oxford United,72,QPR,20,1338,Oxford United,20
+1216082,ENG2,2024-12-11,West Brom,Coventry,60,West Brom,20,1346,Coventry,20
+1216086,ENG2,2024-12-13,Derby,Portsmouth,69,Derby,20,1355,Portsmouth,20
+1216085,ENG2,2024-12-14,Coventry,Hull City,1346,Coventry,20,64,Hull City,20
+1216090,ENG2,2024-12-14,Preston,Leeds,59,Preston,20,63,Leeds,20
+1216084,ENG2,2024-12-14,Bristol City,QPR,56,Bristol City,20,72,QPR,20
+1216093,ENG2,2024-12-14,Swansea,Sunderland,76,Swansea,20,746,Sunderland,20
+1216091,ENG2,2024-12-14,Sheffield Utd,Plymouth,62,Sheffield Utd,20,1357,Plymouth,20
+1216092,ENG2,2024-12-14,Stoke City,Cardiff,75,Stoke City,20,43,Cardiff,20
+1216087,ENG2,2024-12-14,Middlesbrough,Millwall,70,Middlesbrough,20,58,Millwall,20
+1216083,ENG2,2024-12-14,Blackburn,Luton,67,Blackburn,20,1359,Luton,20
+1216089,ENG2,2024-12-14,Oxford United,Sheffield Wednesday,1338,Oxford United,20,74,Sheffield Wednesday,20
+1216094,ENG2,2024-12-15,Watford,West Brom,38,Watford,20,60,West Brom,20
+1216088,ENG2,2024-12-15,Norwich,Burnley,71,Norwich,20,44,Burnley,20
+1216099,ENG2,2024-12-20,Luton,Derby,1359,Luton,20,69,Derby,20
+1216103,ENG2,2024-12-21,QPR,Preston,72,QPR,20,59,Preston,20
+1216098,ENG2,2024-12-21,Leeds,Oxford United,63,Leeds,20,1338,Oxford United,20
+1216097,ENG2,2024-12-21,Hull City,Swansea,64,Hull City,20,76,Swansea,20
+1216104,ENG2,2024-12-21,Sheffield Wednesday,Stoke City,74,Sheffield Wednesday,19,75,Stoke City,20
+1216102,ENG2,2024-12-21,Portsmouth,Coventry,1355,Portsmouth,20,1346,Coventry,20
+1216101,ENG2,2024-12-21,Plymouth,Middlesbrough,1357,Plymouth,20,70,Middlesbrough,20
+1216105,ENG2,2024-12-21,Sunderland,Norwich,746,Sunderland,20,71,Norwich,20
+1216100,ENG2,2024-12-21,Millwall,Blackburn,58,Millwall,20,67,Blackburn,20
+1216095,ENG2,2024-12-21,Burnley,Watford,44,Burnley,20,38,Watford,20
+1216096,ENG2,2024-12-21,Cardiff,Sheffield Utd,43,Cardiff,20,62,Sheffield Utd,20
+1216106,ENG2,2024-12-22,West Brom,Bristol City,60,West Brom,20,56,Bristol City,20
+1216111,ENG2,2024-12-26,Middlesbrough,Sheffield Wednesday,70,Middlesbrough,20,74,Sheffield Wednesday,20
+1216117,ENG2,2024-12-26,Swansea,QPR,76,Swansea,20,72,QPR,20
+1216109,ENG2,2024-12-26,Coventry,Plymouth,1346,Coventry,20,1357,Plymouth,20
+1216112,ENG2,2024-12-26,Norwich,Millwall,71,Norwich,20,58,Millwall,20
+1216114,ENG2,2024-12-26,Preston,Hull City,59,Preston,20,64,Hull City,20
+1216113,ENG2,2024-12-26,Oxford United,Cardiff,1338,Oxford United,20,43,Cardiff,20
+1216108,ENG2,2024-12-26,Bristol City,Luton,56,Bristol City,20,1359,Luton,20
+1216116,ENG2,2024-12-26,Stoke City,Leeds,75,Stoke City,20,63,Leeds,20
+1216118,ENG2,2024-12-26,Watford,Portsmouth,38,Watford,20,1355,Portsmouth,20
+1216107,ENG2,2024-12-26,Blackburn,Sunderland,67,Blackburn,20,746,Sunderland,20
+1216110,ENG2,2024-12-26,Derby,West Brom,69,Derby,20,60,West Brom,20
+1216115,ENG2,2024-12-26,Sheffield Utd,Burnley,62,Sheffield Utd,20,44,Burnley,20
+1216125,ENG2,2024-12-29,Oxford United,Plymouth,1338,Oxford United,20,1357,Plymouth,20
+1216126,ENG2,2024-12-29,Preston,Sheffield Wednesday,59,Preston,20,74,Sheffield Wednesday,20
+1216127,ENG2,2024-12-29,Sheffield Utd,West Brom,62,Sheffield Utd,20,60,West Brom,20
+1216124,ENG2,2024-12-29,Norwich,QPR,71,Norwich,20,72,QPR,20
+1216128,ENG2,2024-12-29,Stoke City,Sunderland,75,Stoke City,20,746,Sunderland,20
+1216129,ENG2,2024-12-29,Swansea,Luton,76,Swansea,20,1359,Luton,20
+1216123,ENG2,2024-12-29,Middlesbrough,Burnley,70,Middlesbrough,20,44,Burnley,20
+1216130,ENG2,2024-12-29,Watford,Cardiff,38,Watford,20,43,Cardiff,20
+1216119,ENG2,2024-12-29,Blackburn,Hull City,67,Blackburn,20,64,Hull City,20
+1216122,ENG2,2024-12-29,Derby,Leeds,69,Derby,20,63,Leeds,20
+1216120,ENG2,2024-12-29,Bristol City,Portsmouth,56,Bristol City,20,1355,Portsmouth,20
+1216121,ENG2,2024-12-29,Coventry,Millwall,1346,Coventry,20,58,Millwall,20
+1216139,ENG2,2025-01-01,QPR,Watford,72,QPR,20,38,Watford,20
+1216137,ENG2,2025-01-01,Plymouth,Bristol City,1357,Plymouth,20,56,Bristol City,20
+1216136,ENG2,2025-01-01,Millwall,Oxford United,58,Millwall,20,1338,Oxford United,20
+1216135,ENG2,2025-01-01,Luton,Norwich,1359,Luton,20,71,Norwich,20
+1216138,ENG2,2025-01-01,Portsmouth,Swansea,1355,Portsmouth,20,76,Swansea,20
+1216140,ENG2,2025-01-01,Sheffield Wednesday,Derby,74,Sheffield Wednesday,20,69,Derby,20
+1216132,ENG2,2025-01-01,Cardiff,Coventry,43,Cardiff,20,1346,Coventry,20
+1216142,ENG2,2025-01-01,West Brom,Preston,60,West Brom,20,59,Preston,20
+1216131,ENG2,2025-01-01,Burnley,Stoke City,44,Burnley,20,75,Stoke City,20
+1216134,ENG2,2025-01-01,Leeds,Blackburn,63,Leeds,20,67,Blackburn,20
+1216133,ENG2,2025-01-01,Hull City,Middlesbrough,64,Hull City,20,70,Middlesbrough,20
+1216141,ENG2,2025-01-01,Sunderland,Sheffield Utd,746,Sunderland,20,62,Sheffield Utd,20
+1216144,ENG2,2025-01-04,Bristol City,Derby,56,Bristol City,20,69,Derby,20
+1216143,ENG2,2025-01-04,Blackburn,Burnley,67,Blackburn,20,44,Burnley,20
+1216151,ENG2,2025-01-04,Stoke City,Plymouth,75,Stoke City,20,1357,Plymouth,20
+1216154,ENG2,2025-01-04,Watford,Sheffield Utd,38,Watford,20,62,Sheffield Utd,20
+1216153,ENG2,2025-01-04,Swansea,West Brom,76,Swansea,20,60,West Brom,20
+1216150,ENG2,2025-01-04,Sheffield Wednesday,Millwall,74,Sheffield Wednesday,20,58,Millwall,20
+1216145,ENG2,2025-01-04,Hull City,Leeds,64,Hull City,20,63,Leeds,20
+1216146,ENG2,2025-01-04,Middlesbrough,Cardiff,70,Middlesbrough,20,43,Cardiff,20
+1216147,ENG2,2025-01-04,Norwich,Coventry,71,Norwich,20,1346,Coventry,20
+1216148,ENG2,2025-01-04,Preston,Oxford United,59,Preston,20,1338,Oxford United,20
+1216152,ENG2,2025-01-05,Sunderland,Portsmouth,746,Sunderland,20,1355,Portsmouth,20
+1216149,ENG2,2025-01-06,QPR,Luton,72,QPR,20,1359,Luton,20
+1216060,ENG2,2025-01-14,Cardiff,Watford,43,Cardiff,20,38,Watford,20
+1216065,ENG2,2025-01-14,Plymouth,Oxford United,1357,Plymouth,20,1338,Oxford United,20
+1216023,ENG2,2025-01-15,Blackburn,Portsmouth,67,Blackburn,20,1355,Portsmouth,20
+1216155,ENG2,2025-01-17,Burnley,Sunderland,44,Burnley,20,746,Sunderland,20
+1216156,ENG2,2025-01-18,Cardiff,Swansea,43,Cardiff,20,76,Swansea,20
+1216161,ENG2,2025-01-18,Millwall,Hull City,58,Millwall,20,64,Hull City,20
+1216165,ENG2,2025-01-18,Sheffield Utd,Norwich,62,Sheffield Utd,20,71,Norwich,20
+1216166,ENG2,2025-01-18,West Brom,Stoke City,60,West Brom,20,75,Stoke City,20
+1216163,ENG2,2025-01-18,Plymouth,QPR,1357,Plymouth,20,72,QPR,20
+1216158,ENG2,2025-01-18,Derby,Watford,69,Derby,20,38,Watford,20
+1216164,ENG2,2025-01-18,Portsmouth,Middlesbrough,1355,Portsmouth,20,70,Middlesbrough,20
+1216160,ENG2,2025-01-18,Luton,Preston,1359,Luton,20,59,Preston,20
+1216157,ENG2,2025-01-18,Coventry,Bristol City,1346,Coventry,20,56,Bristol City,20
+1216162,ENG2,2025-01-18,Oxford United,Blackburn,1338,Oxford United,20,67,Blackburn,20
+1216159,ENG2,2025-01-19,Leeds,Sheffield Wednesday,63,Leeds,20,74,Sheffield Wednesday,20
+1216168,ENG2,2025-01-21,Derby,Sunderland,69,Derby,20,746,Sunderland,20
+1216174,ENG2,2025-01-21,Watford,Preston,38,Watford,20,59,Preston,20
+1216169,ENG2,2025-01-21,Hull City,QPR,64,Hull City,20,72,QPR,20
+1216167,ENG2,2025-01-21,Blackburn,Coventry,67,Blackburn,20,1346,Coventry,20
+1216173,ENG2,2025-01-21,Swansea,Sheffield Utd,76,Swansea,20,62,Sheffield Utd,20
+1216172,ENG2,2025-01-21,Oxford United,Luton,1338,Oxford United,20,1359,Luton,20
+1216171,ENG2,2025-01-21,Millwall,Cardiff,58,Millwall,20,43,Cardiff,20
+1216170,ENG2,2025-01-21,Middlesbrough,West Brom,70,Middlesbrough,20,60,West Brom,20
+1216177,ENG2,2025-01-22,Portsmouth,Stoke City,1355,Portsmouth,20,75,Stoke City,20
+1216175,ENG2,2025-01-22,Leeds,Norwich,63,Leeds,20,71,Norwich,20
+1216178,ENG2,2025-01-22,Sheffield Wednesday,Bristol City,74,Sheffield Wednesday,20,56,Bristol City,20
+1216176,ENG2,2025-01-22,Plymouth,Burnley,1357,Plymouth,20,44,Burnley,20
+1216187,ENG2,2025-01-24,Sheffield Utd,Hull City,62,Sheffield Utd,20,64,Hull City,20
+1216184,ENG2,2025-01-25,Norwich,Swansea,71,Norwich,20,76,Swansea,20
+1216189,ENG2,2025-01-25,Sunderland,Plymouth,746,Sunderland,20,1357,Plymouth,20
+1216183,ENG2,2025-01-25,Luton,Millwall,1359,Luton,20,58,Millwall,20
+1216182,ENG2,2025-01-25,Coventry,Watford,1346,Coventry,20,38,Watford,20
+1216181,ENG2,2025-01-25,Cardiff,Derby,43,Cardiff,20,69,Derby,20
+1216188,ENG2,2025-01-25,Stoke City,Oxford United,75,Stoke City,20,1338,Oxford United,20
+1216185,ENG2,2025-01-25,Preston,Middlesbrough,59,Preston,20,70,Middlesbrough,20
+1216179,ENG2,2025-01-25,Bristol City,Blackburn,56,Bristol City,20,67,Blackburn,20
+1216190,ENG2,2025-01-25,West Brom,Portsmouth,60,West Brom,20,1355,Portsmouth,20
+1216186,ENG2,2025-01-25,QPR,Sheffield Wednesday,72,QPR,20,74,Sheffield Wednesday,20
+1216180,ENG2,2025-01-27,Burnley,Leeds,44,Burnley,20,63,Leeds,20
+1216046,ENG2,2025-01-28,Portsmouth,Millwall,1355,Portsmouth,20,58,Millwall,20
+1216191,ENG2,2025-01-31,Blackburn,Preston,67,Blackburn,20,59,Preston,20
+1216196,ENG2,2025-02-01,Millwall,QPR,58,Millwall,20,72,QPR,20
+1216194,ENG2,2025-02-01,Leeds,Cardiff,63,Leeds,20,43,Cardiff,20
+1216198,ENG2,2025-02-01,Plymouth,West Brom,1357,Plymouth,20,60,West Brom,20
+1216197,ENG2,2025-02-01,Oxford United,Bristol City,1338,Oxford United,20,56,Bristol City,20
+1216202,ENG2,2025-02-01,Watford,Norwich,38,Watford,20,71,Norwich,20
+1216199,ENG2,2025-02-01,Portsmouth,Burnley,1355,Portsmouth,20,44,Burnley,20
+1216200,ENG2,2025-02-01,Sheffield Wednesday,Luton,74,Sheffield Wednesday,20,1359,Luton,20
+1216201,ENG2,2025-02-01,Swansea,Coventry,76,Swansea,20,1346,Coventry,20
+1216192,ENG2,2025-02-01,Derby,Sheffield Utd,69,Derby,20,62,Sheffield Utd,20
+1216193,ENG2,2025-02-01,Hull City,Stoke City,64,Hull City,20,75,Stoke City,20
+1216195,ENG2,2025-02-03,Middlesbrough,Sunderland,70,Middlesbrough,20,746,Sunderland,20
+1216204,ENG2,2025-02-04,Burnley,Oxford United,44,Burnley,20,1338,Oxford United,20
+1216210,ENG2,2025-02-04,QPR,Blackburn,72,QPR,20,67,Blackburn,20
+1216206,ENG2,2025-02-05,Coventry,Leeds,1346,Coventry,20,63,Leeds,20
+1216214,ENG2,2025-02-08,West Brom,Sheffield Wednesday,60,West Brom,20,74,Sheffield Wednesday,20
+1216213,ENG2,2025-02-08,Sunderland,Watford,746,Sunderland,20,38,Watford,20
+1216211,ENG2,2025-02-08,Sheffield Utd,Portsmouth,62,Sheffield Utd,20,1355,Portsmouth,20
+1216208,ENG2,2025-02-08,Norwich,Derby,71,Norwich,20,69,Derby,20
+1216203,ENG2,2025-02-09,Bristol City,Swansea,56,Bristol City,20,76,Swansea,20
+1216217,ENG2,2025-02-11,Derby,Oxford United,69,Derby,20,1338,Oxford United,20
+1216220,ENG2,2025-02-11,Portsmouth,Cardiff,1355,Portsmouth,20,43,Cardiff,20
+1216222,ENG2,2025-02-11,Watford,Leeds,38,Watford,20,63,Leeds,20
+1216218,ENG2,2025-02-11,Norwich,Preston,71,Norwich,20,59,Preston,20
+1216216,ENG2,2025-02-11,Coventry,QPR,1346,Coventry,20,72,QPR,20
+1216223,ENG2,2025-02-12,Burnley,Hull City,44,Burnley,20,64,Hull City,20
+1216215,ENG2,2025-02-12,Bristol City,Stoke City,56,Bristol City,20,75,Stoke City,20
+1216221,ENG2,2025-02-12,Swansea,Sheffield Wednesday,76,Swansea,20,74,Sheffield Wednesday,20
+1216225,ENG2,2025-02-12,Sunderland,Luton,746,Sunderland,20,1359,Luton,20
+1216219,ENG2,2025-02-12,Plymouth,Millwall,1357,Plymouth,20,58,Millwall,20
+1216224,ENG2,2025-02-12,Sheffield Utd,Middlesbrough,62,Sheffield Utd,20,70,Middlesbrough,20
+1216226,ENG2,2025-02-12,West Brom,Blackburn,60,West Brom,20,67,Blackburn,20
+1216236,ENG2,2025-02-14,QPR,Derby,72,QPR,20,69,Derby,20
+1216234,ENG2,2025-02-15,Oxford United,Portsmouth,1338,Oxford United,20,1355,Portsmouth,20
+1216228,ENG2,2025-02-15,Cardiff,Bristol City,43,Cardiff,20,56,Bristol City,20
+1216235,ENG2,2025-02-15,Preston,Burnley,59,Preston,20,44,Burnley,20
+1216237,ENG2,2025-02-15,Sheffield Wednesday,Coventry,74,Sheffield Wednesday,20,1346,Coventry,20
+1216231,ENG2,2025-02-15,Luton,Sheffield Utd,1359,Luton,20,62,Sheffield Utd,20
+1216238,ENG2,2025-02-15,Stoke City,Swansea,75,Stoke City,20,76,Swansea,20
+1216233,ENG2,2025-02-15,Millwall,West Brom,58,Millwall,20,60,West Brom,20
+1216229,ENG2,2025-02-15,Hull City,Norwich,64,Hull City,20,71,Norwich,20
+1216227,ENG2,2025-02-15,Blackburn,Plymouth,67,Blackburn,20,1357,Plymouth,20
+1216232,ENG2,2025-02-15,Middlesbrough,Watford,70,Middlesbrough,20,38,Watford,20
+1216230,ENG2,2025-02-17,Leeds,Sunderland,63,Leeds,20,746,Sunderland,20
+1216209,ENG2,2025-02-18,Preston,Millwall,59,Preston,20,58,Millwall,20
+1216207,ENG2,2025-02-19,Luton,Plymouth,1359,Luton,20,1357,Plymouth,20
+1216239,ENG2,2025-02-21,Bristol City,Middlesbrough,56,Bristol City,20,70,Middlesbrough,20
+1216240,ENG2,2025-02-21,Burnley,Sheffield Wednesday,44,Burnley,20,74,Sheffield Wednesday,20
+1216243,ENG2,2025-02-22,Norwich,Stoke City,71,Norwich,20,75,Stoke City,20
+1216245,ENG2,2025-02-22,Portsmouth,QPR,1355,Portsmouth,20,72,QPR,20
+1216244,ENG2,2025-02-22,Plymouth,Cardiff,1357,Plymouth,20,43,Cardiff,20
+1216242,ENG2,2025-02-22,Derby,Millwall,69,Derby,20,58,Millwall,20
+1216247,ENG2,2025-02-22,Sunderland,Hull City,746,Sunderland,20,64,Hull City,20
+1216248,ENG2,2025-02-22,Swansea,Blackburn,76,Swansea,20,67,Blackburn,20
+1216241,ENG2,2025-02-22,Coventry,Preston,1346,Coventry,20,59,Preston,20
+1216250,ENG2,2025-02-22,West Brom,Oxford United,60,West Brom,20,1338,Oxford United,20
+1216249,ENG2,2025-02-23,Watford,Luton,38,Watford,20,1359,Luton,20
+1216246,ENG2,2025-02-24,Sheffield Utd,Leeds,62,Sheffield Utd,20,63,Leeds,20
+1216205,ENG2,2025-02-25,Cardiff,Hull City,43,Cardiff,20,64,Hull City,20
+1216212,ENG2,2025-02-25,Stoke City,Middlesbrough,75,Stoke City,20,70,Middlesbrough,20
+1216261,ENG2,2025-02-28,Sheffield Wednesday,Sunderland,74,Sheffield Wednesday,20,746,Sunderland,20
+1216254,ENG2,2025-03-01,Leeds,West Brom,63,Leeds,20,60,West Brom,20
+1216251,ENG2,2025-03-01,Blackburn,Norwich,67,Blackburn,20,71,Norwich,20
+1216255,ENG2,2025-03-01,Luton,Portsmouth,1359,Luton,20,1355,Portsmouth,20
+1216258,ENG2,2025-03-01,Oxford United,Coventry,1338,Oxford United,20,1346,Coventry,20
+1216260,ENG2,2025-03-01,QPR,Sheffield Utd,72,QPR,20,62,Sheffield Utd,20
+1216262,ENG2,2025-03-01,Stoke City,Watford,75,Stoke City,20,38,Watford,20
+1216256,ENG2,2025-03-01,Middlesbrough,Derby,70,Middlesbrough,20,69,Derby,20
+1216259,ENG2,2025-03-04,Preston,Swansea,59,Preston,20,76,Swansea,20
+1216253,ENG2,2025-03-04,Hull City,Plymouth,64,Hull City,20,1357,Plymouth,20
+1216252,ENG2,2025-03-04,Cardiff,Burnley,43,Cardiff,20,44,Burnley,20
+1216257,ENG2,2025-03-04,Millwall,Bristol City,58,Millwall,20,56,Bristol City,20
+1216267,ENG2,2025-03-07,Norwich,Oxford United,71,Norwich,20,1338,Oxford United,20
+1216263,ENG2,2025-03-08,Bristol City,Hull City,56,Bristol City,20,64,Hull City,20
+1216273,ENG2,2025-03-08,Watford,Millwall,38,Watford,20,58,Millwall,20
+1216265,ENG2,2025-03-08,Coventry,Stoke City,1346,Coventry,20,75,Stoke City,20
+1216274,ENG2,2025-03-08,West Brom,QPR,60,West Brom,20,72,QPR,20
+1216264,ENG2,2025-03-08,Burnley,Luton,44,Burnley,20,1359,Luton,20
+1216272,ENG2,2025-03-08,Swansea,Middlesbrough,76,Swansea,20,70,Middlesbrough,20
+1216268,ENG2,2025-03-08,Plymouth,Sheffield Wednesday,1357,Plymouth,20,74,Sheffield Wednesday,20
+1216271,ENG2,2025-03-08,Sunderland,Cardiff,746,Sunderland,20,43,Cardiff,20
+1216266,ENG2,2025-03-08,Derby,Blackburn,69,Derby,20,67,Blackburn,20
+1216270,ENG2,2025-03-08,Sheffield Utd,Preston,62,Sheffield Utd,20,59,Preston,20
+1216269,ENG2,2025-03-09,Portsmouth,Leeds,1355,Portsmouth,20,63,Leeds,20
+1216278,ENG2,2025-03-11,Middlesbrough,QPR,70,Middlesbrough,20,72,QPR,20
+1216277,ENG2,2025-03-11,Derby,Coventry,69,Derby,20,1346,Coventry,20
+1216284,ENG2,2025-03-11,Norwich,Sheffield Wednesday,71,Norwich,20,74,Sheffield Wednesday,20
+1216276,ENG2,2025-03-11,Cardiff,Luton,43,Cardiff,20,1359,Luton,20
+1216275,ENG2,2025-03-11,Burnley,West Brom,44,Burnley,20,60,West Brom,20
+1216281,ENG2,2025-03-11,Sunderland,Preston,746,Sunderland,20,59,Preston,20
+1216285,ENG2,2025-03-11,Sheffield Utd,Bristol City,62,Sheffield Utd,20,56,Bristol City,20
+1216279,ENG2,2025-03-12,Portsmouth,Plymouth,1355,Portsmouth,20,1357,Plymouth,20
+1216280,ENG2,2025-03-12,Stoke City,Blackburn,75,Stoke City,20,67,Blackburn,20
+1216282,ENG2,2025-03-12,Hull City,Oxford United,64,Hull City,20,1338,Oxford United,20
+1216283,ENG2,2025-03-12,Leeds,Millwall,63,Leeds,20,58,Millwall,20
+1216286,ENG2,2025-03-12,Watford,Swansea,38,Watford,20,76,Swansea,20
+1216288,ENG2,2025-03-14,Bristol City,Norwich,56,Bristol City,20,71,Norwich,20
+1216287,ENG2,2025-03-15,Blackburn,Cardiff,67,Blackburn,20,43,Cardiff,20
+1216291,ENG2,2025-03-15,Millwall,Stoke City,58,Millwall,20,75,Stoke City,20
+1216295,ENG2,2025-03-15,QPR,Leeds,72,QPR,20,63,Leeds,20
+1216298,ENG2,2025-03-15,West Brom,Hull City,60,West Brom,20,64,Hull City,20
+1216294,ENG2,2025-03-15,Preston,Portsmouth,59,Preston,20,1355,Portsmouth,20
+1216297,ENG2,2025-03-15,Swansea,Burnley,76,Swansea,20,44,Burnley,20
+1216289,ENG2,2025-03-15,Coventry,Sunderland,1346,Coventry,20,746,Sunderland,20
+1216293,ENG2,2025-03-15,Plymouth,Derby,1357,Plymouth,20,69,Derby,20
+1216290,ENG2,2025-03-15,Luton,Middlesbrough,1359,Luton,20,70,Middlesbrough,20
+1216292,ENG2,2025-03-15,Oxford United,Watford,1338,Oxford United,20,38,Watford,20
+1216296,ENG2,2025-03-16,Sheffield Wednesday,Sheffield Utd,74,Sheffield Wednesday,20,62,Sheffield Utd,20
+1216307,ENG2,2025-03-28,Sheffield Utd,Coventry,62,Sheffield Utd,20,1346,Coventry,20
+1216306,ENG2,2025-03-29,Portsmouth,Blackburn,1355,Portsmouth,20,67,Blackburn,20
+1216302,ENG2,2025-03-29,Hull City,Luton,64,Hull City,20,1359,Luton,20
+1216310,ENG2,2025-03-29,Watford,Plymouth,38,Watford,20,1357,Plymouth,20
+1216300,ENG2,2025-03-29,Cardiff,Sheffield Wednesday,43,Cardiff,20,74,Sheffield Wednesday,20
+1216299,ENG2,2025-03-29,Burnley,Bristol City,44,Burnley,20,56,Bristol City,20
+1216303,ENG2,2025-03-29,Leeds,Swansea,63,Leeds,20,76,Swansea,20
+1216305,ENG2,2025-03-29,Norwich,West Brom,71,Norwich,20,60,West Brom,20
+1216308,ENG2,2025-03-29,Stoke City,QPR,75,Stoke City,20,72,QPR,20
+1216304,ENG2,2025-03-29,Middlesbrough,Oxford United,70,Middlesbrough,20,1338,Oxford United,20
+1216309,ENG2,2025-03-29,Sunderland,Millwall,746,Sunderland,20,58,Millwall,20
+1216301,ENG2,2025-04-02,Derby,Preston,69,Derby,20,59,Preston,20
+1216311,ENG2,2025-04-04,Blackburn,Middlesbrough,67,Blackburn,20,70,Middlesbrough,20
+1216322,ENG2,2025-04-05,West Brom,Sunderland,60,West Brom,20,746,Sunderland,20
+1216313,ENG2,2025-04-05,Coventry,Burnley,1346,Coventry,20,44,Burnley,20
+1216314,ENG2,2025-04-05,Luton,Leeds,1359,Luton,20,63,Leeds,20
+1216316,ENG2,2025-04-05,Oxford United,Sheffield Utd,1338,Oxford United,20,62,Sheffield Utd,20
+1216312,ENG2,2025-04-05,Bristol City,Watford,56,Bristol City,19,38,Watford,20
+1216321,ENG2,2025-04-05,Swansea,Derby,76,Swansea,20,69,Derby,20
+1216320,ENG2,2025-04-05,Sheffield Wednesday,Hull City,74,Sheffield Wednesday,20,64,Hull City,20
+1216319,ENG2,2025-04-05,QPR,Cardiff,72,QPR,20,43,Cardiff,19
+1216318,ENG2,2025-04-05,Preston,Stoke City,59,Preston,20,75,Stoke City,20
+1216315,ENG2,2025-04-05,Millwall,Portsmouth,58,Millwall,20,1355,Portsmouth,20
+1216317,ENG2,2025-04-05,Plymouth,Norwich,1357,Plymouth,20,71,Norwich,20
+1216328,ENG2,2025-04-08,Sheffield Utd,Millwall,62,Sheffield Utd,20,58,Millwall,20
+1216330,ENG2,2025-04-08,Watford,Hull City,38,Watford,20,64,Hull City,20
+1216324,ENG2,2025-04-08,Bristol City,West Brom,56,Bristol City,20,60,West Brom,20
+1216332,ENG2,2025-04-08,Derby,Burnley,69,Derby,20,44,Burnley,20
+1216327,ENG2,2025-04-08,Preston,Cardiff,59,Preston,20,43,Cardiff,20
+1216326,ENG2,2025-04-08,Norwich,Sunderland,71,Norwich,20,746,Sunderland,20
+1216329,ENG2,2025-04-08,Stoke City,Luton,75,Stoke City,20,1359,Luton,20
+1216325,ENG2,2025-04-08,Middlesbrough,Leeds,70,Middlesbrough,20,63,Leeds,20
+1216323,ENG2,2025-04-08,Blackburn,Sheffield Wednesday,67,Blackburn,20,74,Sheffield Wednesday,20
+1216334,ENG2,2025-04-09,Swansea,Plymouth,76,Swansea,20,1357,Plymouth,20
+1216333,ENG2,2025-04-09,Oxford United,QPR,1338,Oxford United,20,72,QPR,20
+1216331,ENG2,2025-04-09,Coventry,Portsmouth,1346,Coventry,20,1355,Portsmouth,20
+1216335,ENG2,2025-04-11,Burnley,Norwich,44,Burnley,20,71,Norwich,20
+1216336,ENG2,2025-04-12,Cardiff,Stoke City,43,Cardiff,20,75,Stoke City,20
+1216338,ENG2,2025-04-12,Leeds,Preston,63,Leeds,20,59,Preston,20
+1216341,ENG2,2025-04-12,Plymouth,Sheffield Utd,1357,Plymouth,20,62,Sheffield Utd,20
+1216340,ENG2,2025-04-12,Millwall,Middlesbrough,58,Millwall,20,70,Middlesbrough,20
+1216346,ENG2,2025-04-12,West Brom,Watford,60,West Brom,20,38,Watford,20
+1216343,ENG2,2025-04-12,QPR,Bristol City,72,QPR,20,56,Bristol City,20
+1216342,ENG2,2025-04-12,Portsmouth,Derby,1355,Portsmouth,20,69,Derby,20
+1216345,ENG2,2025-04-12,Sunderland,Swansea,746,Sunderland,20,76,Swansea,20
+1216339,ENG2,2025-04-12,Luton,Blackburn,1359,Luton,20,67,Blackburn,20
+1216344,ENG2,2025-04-12,Sheffield Wednesday,Oxford United,74,Sheffield Wednesday,20,1338,Oxford United,20
+1216337,ENG2,2025-04-14,Hull City,Coventry,64,Hull City,20,1346,Coventry,20
+1216350,ENG2,2025-04-18,Derby,Luton,69,Derby,20,1359,Luton,20
+1216349,ENG2,2025-04-18,Coventry,West Brom,1346,Coventry,20,60,West Brom,20
+1216357,ENG2,2025-04-18,Swansea,Hull City,76,Swansea,20,64,Hull City,20
+1216356,ENG2,2025-04-18,Stoke City,Sheffield Wednesday,75,Stoke City,20,74,Sheffield Wednesday,20
+1216352,ENG2,2025-04-18,Norwich,Portsmouth,71,Norwich,20,1355,Portsmouth,20
+1216354,ENG2,2025-04-18,Preston,QPR,59,Preston,20,72,QPR,20
+1216347,ENG2,2025-04-18,Blackburn,Millwall,67,Blackburn,20,58,Millwall,20
+1216351,ENG2,2025-04-18,Middlesbrough,Plymouth,70,Middlesbrough,20,1357,Plymouth,20
+1216348,ENG2,2025-04-18,Bristol City,Sunderland,56,Bristol City,20,746,Sunderland,20
+1216358,ENG2,2025-04-18,Watford,Burnley,38,Watford,20,44,Burnley,20
+1216355,ENG2,2025-04-18,Sheffield Utd,Cardiff,62,Sheffield Utd,20,43,Cardiff,20
+1216353,ENG2,2025-04-18,Oxford United,Leeds,1338,Oxford United,20,63,Leeds,20
+1216366,ENG2,2025-04-21,Portsmouth,Watford,1355,Portsmouth,20,38,Watford,20
+1216369,ENG2,2025-04-21,Sunderland,Blackburn,746,Sunderland,20,67,Blackburn,20
+1216362,ENG2,2025-04-21,Leeds,Stoke City,63,Leeds,20,75,Stoke City,20
+1216367,ENG2,2025-04-21,QPR,Swansea,72,QPR,20,76,Swansea,20
+1216370,ENG2,2025-04-21,West Brom,Derby,60,West Brom,20,69,Derby,20
+1216368,ENG2,2025-04-21,Sheffield Wednesday,Middlesbrough,74,Sheffield Wednesday,20,70,Middlesbrough,20
+1216359,ENG2,2025-04-21,Burnley,Sheffield Utd,44,Burnley,20,62,Sheffield Utd,20
+1216364,ENG2,2025-04-21,Millwall,Norwich,58,Millwall,20,71,Norwich,20
+1216360,ENG2,2025-04-21,Cardiff,Oxford United,43,Cardiff,20,1338,Oxford United,20
+1216361,ENG2,2025-04-21,Hull City,Preston,64,Hull City,20,59,Preston,20
+1216363,ENG2,2025-04-21,Luton,Bristol City,1359,Luton,20,56,Bristol City,20
+1216365,ENG2,2025-04-21,Plymouth,Coventry,1357,Plymouth,20,1346,Coventry,20
+1216382,ENG2,2025-04-25,Stoke City,Sheffield Utd,75,Stoke City,20,62,Sheffield Utd,20
+1216377,ENG2,2025-04-26,Millwall,Swansea,58,Millwall,20,76,Swansea,20
+1216372,ENG2,2025-04-26,Cardiff,West Brom,43,Cardiff,20,60,West Brom,20
+1216380,ENG2,2025-04-26,QPR,Burnley,72,QPR,20,44,Burnley,20
+1216375,ENG2,2025-04-26,Luton,Coventry,1359,Luton,20,1346,Coventry,20
+1216378,ENG2,2025-04-26,Oxford United,Sunderland,1338,Oxford United,20,746,Sunderland,20
+1216381,ENG2,2025-04-26,Sheffield Wednesday,Portsmouth,74,Sheffield Wednesday,20,1355,Portsmouth,20
+1216371,ENG2,2025-04-26,Blackburn,Watford,67,Blackburn,20,38,Watford,20
+1216376,ENG2,2025-04-26,Middlesbrough,Norwich,70,Middlesbrough,20,71,Norwich,20
+1216379,ENG2,2025-04-26,Preston,Plymouth,59,Preston,20,1357,Plymouth,20
+1216373,ENG2,2025-04-26,Hull City,Derby,64,Hull City,20,69,Derby,20
+1216374,ENG2,2025-04-28,Leeds,Bristol City,63,Leeds,20,56,Bristol City,19
+1216392,ENG2,2025-05-03,Swansea,Oxford United,76,Swansea,20,1338,Oxford United,19
+1216389,ENG2,2025-05-03,Portsmouth,Hull City,1355,Portsmouth,20,64,Hull City,20
+1216388,ENG2,2025-05-03,Plymouth,Leeds,1357,Plymouth,20,63,Leeds,20
+1216385,ENG2,2025-05-03,Coventry,Middlesbrough,1346,Coventry,20,70,Middlesbrough,20
+1216391,ENG2,2025-05-03,Sunderland,QPR,746,Sunderland,20,72,QPR,20
+1216387,ENG2,2025-05-03,Norwich,Cardiff,71,Norwich,20,43,Cardiff,20
+1216384,ENG2,2025-05-03,Burnley,Millwall,44,Burnley,20,58,Millwall,20
+1216390,ENG2,2025-05-03,Sheffield Utd,Blackburn,62,Sheffield Utd,20,67,Blackburn,20
+1216394,ENG2,2025-05-03,West Brom,Luton,60,West Brom,20,1359,Luton,20
+1216383,ENG2,2025-05-03,Bristol City,Preston,56,Bristol City,19,59,Preston,19
+1216393,ENG2,2025-05-03,Watford,Sheffield Wednesday,38,Watford,20,74,Sheffield Wednesday,20
+1216386,ENG2,2025-05-03,Derby,Stoke City,69,Derby,20,75,Stoke City,20
+1374041,ENG2,2025-05-08,Bristol City,Sheffield Utd,56,Bristol City,20,62,Sheffield Utd,20
+1374043,ENG2,2025-05-09,Coventry,Sunderland,1346,Coventry,20,746,Sunderland,20
+1374042,ENG2,2025-05-12,Sheffield Utd,Bristol City,62,Sheffield Utd,20,56,Bristol City,19
+1375668,ENG2,2025-05-24,Sheffield Utd,Sunderland,62,Sheffield Utd,20,746,Sunderland,20
+1386551,ENG2,2025-08-08,Birmingham,Ipswich,54,Birmingham,20,57,Ipswich,20
+1386554,ENG2,2025-08-09,Charlton,Watford,1335,Charlton,20,38,Watford,20
+1386552,ENG2,2025-08-09,Coventry,Hull City,1346,Coventry,20,64,Hull City,20
+1386553,ENG2,2025-08-09,Southampton,Wrexham,41,Southampton,20,1837,Wrexham,20
+1386555,ENG2,2025-08-09,West Brom,Blackburn,60,West Brom,20,67,Blackburn,20
+1386557,ENG2,2025-08-09,Middlesbrough,Swansea,70,Middlesbrough,20,76,Swansea,20
+1386560,ENG2,2025-08-09,Norwich,Millwall,71,Norwich,20,58,Millwall,20
+1386558,ENG2,2025-08-09,QPR,Preston,72,QPR,20,59,Preston,19
+1386556,ENG2,2025-08-09,Stoke City,Derby,75,Stoke City,20,69,Derby,20
+1386559,ENG2,2025-08-09,Oxford United,Portsmouth,1338,Oxford United,20,1355,Portsmouth,20
+1386561,ENG2,2025-08-09,Sheffield Utd,Bristol City,62,Sheffield Utd,20,56,Bristol City,20
+1386562,ENG2,2025-08-10,Leicester,Sheffield Wednesday,46,Leicester,20,74,Sheffield Wednesday,20
+1386568,ENG2,2025-08-16,Derby,Coventry,69,Derby,20,1346,Coventry,20
+1386565,ENG2,2025-08-16,Portsmouth,Norwich,1355,Portsmouth,20,71,Norwich,20
+1386564,ENG2,2025-08-16,Wrexham,West Brom,1837,Wrexham,20,60,West Brom,20
+1386569,ENG2,2025-08-16,Blackburn,Birmingham,67,Blackburn,20,54,Birmingham,20
+1386567,ENG2,2025-08-16,Preston,Leicester,59,Preston,19,46,Leicester,20
+1386573,ENG2,2025-08-16,Sheffield Wednesday,Stoke City,74,Sheffield Wednesday,20,75,Stoke City,20
+1386566,ENG2,2025-08-16,Bristol City,Charlton,56,Bristol City,20,1335,Charlton,20
+1386571,ENG2,2025-08-16,Watford,QPR,38,Watford,20,72,QPR,20
+1386563,ENG2,2025-08-16,Millwall,Middlesbrough,58,Millwall,20,70,Middlesbrough,20
+1386574,ENG2,2025-08-16,Swansea,Sheffield Utd,76,Swansea,20,62,Sheffield Utd,20
+1386572,ENG2,2025-08-17,Ipswich,Southampton,57,Ipswich,20,41,Southampton,20
+1386570,ENG2,2025-08-17,Hull City,Oxford United,64,Hull City,20,1338,Oxford United,20

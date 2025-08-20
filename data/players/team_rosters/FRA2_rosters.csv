@@ -1,0 +1,808 @@
+league_code,team_id,team_name,player_id,player_name
+FRA2,112,Metz,2096,Arnaud Bodart
+FRA2,112,Metz,331856,Alexis Mirbach
+FRA2,112,Metz,87267,Kevin Van Den Kerkhof
+FRA2,112,Metz,347644,Arthur Atta
+FRA2,112,Metz,378353,Urie-Michel Mboula
+FRA2,112,Metz,20525,Matthieu Udol
+FRA2,112,Metz,20519,Alexandre Oukidja
+FRA2,112,Metz,408870,Ibou Sane
+FRA2,112,Metz,20530,Ablie Jallow
+FRA2,112,Metz,20529,Gauthier Hein
+FRA2,112,Metz,19518,Maxime Colin
+FRA2,112,Metz,403878,Pape Sy
+FRA2,112,Metz,327548,Joseph N'Duquidi
+FRA2,112,Metz,407,Benjamin Stambouli
+FRA2,112,Metz,3237,Ismaël Traoré
+FRA2,112,Metz,396394,Luca Pausé
+FRA2,112,Metz,336180,Morgan Bokele Mputu
+FRA2,112,Metz,405072,Joseph Mangondo
+FRA2,112,Metz,129675,Aboubacar Lô
+FRA2,112,Metz,20534,Cheick Tidiane Sabaly
+FRA2,112,Metz,403889,Pape Diallo
+FRA2,112,Metz,434352,Alpha Touré
+FRA2,112,Metz,19323,Joel Asoro
+FRA2,112,Metz,21640,Jessy Deminguet
+FRA2,112,Metz,384683,Ismaël Guerti
+FRA2,112,Metz,190985,Simon Elisor
+FRA2,112,Metz,403883,Malick Mbaye
+FRA2,112,Metz,434410,Idrissa Gueye
+FRA2,112,Metz,41371,Fali Candé
+FRA2,112,Metz,428084,Sadibou Sané
+FRA2,112,Metz,96331,Koffi Kouao
+FRA2,1305,Bastia,191193,Issiaka Karamoko
+FRA2,1305,Bastia,265961,Juan Guevara
+FRA2,1305,Bastia,437713,Donovan Basset
+FRA2,1305,Bastia,20973,Dominique Guidi
+FRA2,1305,Bastia,275337,Maxime Blé
+FRA2,1305,Bastia,55886,Florian Bohnert
+FRA2,1305,Bastia,179568,Lisandru Tramoni
+FRA2,1305,Bastia,368126,Jocelyn Janneh
+FRA2,1305,Bastia,191368,Florian Bianchini
+FRA2,1305,Bastia,20958,Felix Tomi
+FRA2,1305,Bastia,85342,Julien Maggiotti
+FRA2,1305,Bastia,437157,Mohamed Amine Boumaaoui
+FRA2,1305,Bastia,20669,Tom Ducrocq
+FRA2,1305,Bastia,194449,Clement Rodrigues
+FRA2,1305,Bastia,21091,Charles Traoré
+FRA2,1305,Bastia,20540,Julien Fabri
+FRA2,1305,Bastia,123466,Dylan Tavares
+FRA2,1305,Bastia,21320,Amine Boutrah
+FRA2,1305,Bastia,369885,Jeremy Sebas
+FRA2,1305,Bastia,526529,Alexandre Bi Zaouai
+FRA2,1305,Bastia,353540,Zakaria Ariss
+FRA2,1305,Bastia,237320,Loïc Etoga
+FRA2,1305,Bastia,312902,Lamine Cissé
+FRA2,1305,Bastia,23013,Gustave Akueson
+FRA2,1305,Bastia,301860,Tom Meynadier
+FRA2,1305,Bastia,21318,Christophe Vincent
+FRA2,1305,Bastia,326093,Matéo Loubatières
+FRA2,1305,Bastia,237320,Loic Etoga
+FRA2,1305,Bastia,339601,Ayman Aiki
+FRA2,1305,Bastia,21316,Anthony Roncaglia
+FRA2,1305,Bastia,474591,Christ Inao Oulaï
+FRA2,1305,Bastia,343349,Lisandru Olmeta
+FRA2,1305,Bastia,48503,Anthony Maisonnial
+FRA2,1305,Bastia,339614,Steevy Mazikou
+FRA2,1305,Bastia,87789,Johny Placide
+FRA2,3200,Martigues,21838,Francois Kembolo Luyeye
+FRA2,3200,Martigues,24209,Romain Montiel
+FRA2,3200,Martigues,413602,Kaïs Benabdelouahed
+FRA2,3200,Martigues,24130,Steve Shamal
+FRA2,3200,Martigues,24128,Bevic Moussiti Oko
+FRA2,3200,Martigues,326079,Mohamed Bamba
+FRA2,3200,Martigues,325141,Ayoub Amraoui
+FRA2,3200,Martigues,22872,Adel Anzimati-Aboudou
+FRA2,3200,Martigues,86636,Oualid Orinel
+FRA2,3200,Martigues,175101,Yanis Hadjem
+FRA2,3200,Martigues,483472,Max Bonalair
+FRA2,3200,Martigues,179402,Oucasse Mendy
+FRA2,3200,Martigues,276560,Ilyes Zouaoui
+FRA2,3200,Martigues,503551,Morlaye Camara
+FRA2,3200,Martigues,85545,Abdoul Diawara
+FRA2,3200,Martigues,86918,Samir Belloumou
+FRA2,3200,Martigues,174814,Akim Djaha
+FRA2,3200,Martigues,483473,Luan Gautier
+FRA2,3200,Martigues,20896,Mahamé Siby
+FRA2,3200,Martigues,126772,Leandro Morante
+FRA2,3200,Martigues,403887,Patrick Ouotro
+FRA2,3200,Martigues,191202,Milan Robin
+FRA2,3200,Martigues,504153,Aness Gharbi
+FRA2,3200,Martigues,24187,Jeremy Aymes
+FRA2,3200,Martigues,191238,Yannick Etilé
+FRA2,3200,Martigues,174827,Steve Solvet
+FRA2,3200,Martigues,23610,Karim Tlilli
+FRA2,3200,Martigues,1804,Simon Falette
+FRA2,3200,Martigues,403887,Vignon Ouotro
+FRA2,3200,Martigues,21023,Yan Marillat
+FRA2,3200,Martigues,48514,Nathanaël Saintini
+FRA2,3200,Martigues,191578,Alain Ipiele
+FRA2,97,Lorient,1142,Yvon Mvogo
+FRA2,97,Lorient,402225,Isaac James
+FRA2,97,Lorient,20917,Laurent Abergel
+FRA2,97,Lorient,368030,Eli Junior Kroupi
+FRA2,97,Lorient,152669,Darlin Yongwa
+FRA2,97,Lorient,144319,Sambou Soumano
+FRA2,97,Lorient,384112,Panos Katseris
+FRA2,97,Lorient,24207,Stéphane Diarra
+FRA2,97,Lorient,72457,Aiyegun Tosin
+FRA2,97,Lorient,20766,Julien Laporte
+FRA2,97,Lorient,416968,Enzo Genton
+FRA2,97,Lorient,50030,Montassar Talbi
+FRA2,97,Lorient,284072,Ahmadou Bamba Dieng
+FRA2,97,Lorient,158551,Joel Mugisha Mvuka
+FRA2,97,Lorient,162236,Formose Mendy
+FRA2,97,Lorient,174703,Théo Le Bris
+FRA2,97,Lorient,20641,Julien Ponceau
+FRA2,97,Lorient,355042,Jérémy Hatchi
+FRA2,97,Lorient,24245,Gedeon Kalulu
+FRA2,97,Lorient,214310,Nathaniel Adjei
+FRA2,97,Lorient,20936,Benjamin Leroy
+FRA2,97,Lorient,1031,Igor Silva
+FRA2,97,Lorient,22171,Jean-Victor Makengo
+FRA2,97,Lorient,276662,Pablo Pagis
+FRA2,97,Lorient,402265,Arthur Avom Ebong
+FRA2,97,Lorient,200873,Mohamed Bamba
+FRA2,97,Lorient,402265,Arthur Avom
+FRA2,97,Lorient,162018,Bandiougou Fadiga
+FRA2,110,Estac Troyes,278408,Martin Adeline
+FRA2,110,Estac Troyes,1913,Alexandre Philiponeau
+FRA2,110,Estac Troyes,20658,Mehdi Tahrat
+FRA2,110,Estac Troyes,384828,Abdoulaye Kante
+FRA2,110,Estac Troyes,490075,Arthylio Nade
+FRA2,110,Estac Troyes,431149,Cyriaque Irié
+FRA2,110,Estac Troyes,275353,Ryan Fage
+FRA2,110,Estac Troyes,859,Paolo Gozzi
+FRA2,110,Estac Troyes,20627,Houboulang Mendes
+FRA2,110,Estac Troyes,21135,Zacharie Boucher
+FRA2,110,Estac Troyes,1275,Nicolas de Préville
+FRA2,110,Estac Troyes,335162,Mouhamed Diop
+FRA2,110,Estac Troyes,365742,Michel Diaz
+FRA2,110,Estac Troyes,175020,Corentin Michel
+FRA2,110,Estac Troyes,462278,Mathys Detourbet
+FRA2,110,Estac Troyes,20961,Mounaim El Idrissy
+FRA2,110,Estac Troyes,421863,Ibrahim Traore
+FRA2,110,Estac Troyes,438702,Almami Touré
+FRA2,110,Estac Troyes,345501,Mathis Hamdi
+FRA2,110,Estac Troyes,395810,Yvann Titi
+FRA2,110,Estac Troyes,343710,Kyliane Dong
+FRA2,110,Estac Troyes,194116,Rafiki Saïd
+FRA2,110,Estac Troyes,340078,Joseph Nonge
+FRA2,110,Estac Troyes,20715,Adrien Monfray
+FRA2,110,Estac Troyes,16171,Andreas Bruus
+FRA2,110,Estac Troyes,20873,Hillel Konaté
+FRA2,110,Estac Troyes,174806,Antoine Mille
+FRA2,110,Estac Troyes,174766,Lucas Maronnier
+FRA2,110,Estac Troyes,356998,Jaures Assoumou
+FRA2,110,Estac Troyes,162023,Thierno Baldé
+FRA2,110,Estac Troyes,21995,Nicolas Lemaitre
+FRA2,110,Estac Troyes,87644,Pape Ibnou Ba
+FRA2,110,Estac Troyes,420722,Tom Akpakoun
+FRA2,110,Estac Troyes,275478,Merwan Ifnaoui
+FRA2,110,Estac Troyes,442933,Anis Ouzenadji
+FRA2,110,Estac Troyes,22005,Xavier Chavalerin
+FRA2,110,Estac Troyes,21451,Renaud Ripart
+FRA2,110,Estac Troyes,174596,Ismaël Boura
+FRA2,110,Estac Troyes,384828,Abdoulaye Kanté
+FRA2,110,Estac Troyes,456882,Roman Murcy
+FRA2,110,Estac Troyes,20754,Youssouf M'Changama
+FRA2,99,Clermont Foot,20576,Yoann Salmier
+FRA2,99,Clermont Foot,20778,Yohann Magnin
+FRA2,99,Clermont Foot,350189,Ibrahim Coulibaly
+FRA2,99,Clermont Foot,20852,Kenji Van Boto
+FRA2,99,Clermont Foot,504612,Abderrahmane Ndaw
+FRA2,99,Clermont Foot,357074,Marks Inchaud
+FRA2,99,Clermont Foot,19278,Famara Diédhiou
+FRA2,99,Clermont Foot,8718,Maximiliano Caufriez
+FRA2,99,Clermont Foot,446824,Ilhan Fakili
+FRA2,99,Clermont Foot,22347,Mons Bassouamina
+FRA2,99,Clermont Foot,274271,Maidine Douane
+FRA2,99,Clermont Foot,351690,Tidyane Diagouraga
+FRA2,99,Clermont Foot,175137,Mehdi Baaloudj
+FRA2,99,Clermont Foot,22452,Loic Socka
+FRA2,99,Clermont Foot,432023,Matys Donavin
+FRA2,99,Clermont Foot,286660,Habib Keita
+FRA2,99,Clermont Foot,438699,Ousmane Diop
+FRA2,99,Clermont Foot,2196,Damien Da Silva
+FRA2,99,Clermont Foot,406591,Cheick Konaté
+FRA2,99,Clermont Foot,64256,Andy Pelmard
+FRA2,99,Clermont Foot,444662,Ethan Kena Kabeya
+FRA2,99,Clermont Foot,324900,Yoan Koré
+FRA2,99,Clermont Foot,2210,Adrien Hunou
+FRA2,99,Clermont Foot,334799,Aïman Maurer
+FRA2,99,Clermont Foot,352800,Allan Ackra
+FRA2,99,Clermont Foot,274271,Maïdine Douane
+FRA2,99,Clermont Foot,50237,Henri Saivet
+FRA2,99,Clermont Foot,386505,Amine Said
+FRA2,99,Clermont Foot,84055,Abdoul Kader Bamba
+FRA2,99,Clermont Foot,367636,Jérémy Jacquet
+FRA2,99,Clermont Foot,24212,Théo Guivarch
+FRA2,99,Clermont Foot,328447,Massamba Ndiaye
+FRA2,99,Clermont Foot,406591,Cheick Konate
+FRA2,99,Clermont Foot,275959,Baïla Diallo
+FRA2,99,Clermont Foot,277053,Yuliwes Bellache
+FRA2,99,Clermont Foot,20776,Johan Gastien
+FRA2,99,Clermont Foot,21630,Yoël Armougom
+FRA2,99,Clermont Foot,390440,Mohamed-Amine Bouchenna
+FRA2,99,Clermont Foot,437298,El Hadj Koné
+FRA2,99,Clermont Foot,392801,Musa Toure
+FRA2,99,Clermont Foot,174783,Yadaly Diaby
+FRA2,99,Clermont Foot,327560,Theo Borne
+FRA2,99,Clermont Foot,407199,Josue Isala
+FRA2,99,Clermont Foot,461421,Ivan M'Bahia
+FRA2,114,Paris FC,1910,Maxime López
+FRA2,114,Paris FC,174663,Jules Gaudin
+FRA2,114,Paris FC,492148,El Kit
+FRA2,114,Paris FC,20599,Julien López
+FRA2,114,Paris FC,417550,Omar Sissoko
+FRA2,114,Paris FC,324900,Yoan Koré
+FRA2,114,Paris FC,22842,Jean-Philippe Krasso
+FRA2,114,Paris FC,20647,Pierre-Yves Hamel
+FRA2,114,Paris FC,21436,Sofiane Alakouch
+FRA2,114,Paris FC,8474,Thibault De Smet
+FRA2,114,Paris FC,384861,Aboubaka Soumahoro
+FRA2,114,Paris FC,55819,Tuomas Ollila
+FRA2,114,Paris FC,20704,Alimami Gory
+FRA2,114,Paris FC,22003,Mathieu Cafaro
+FRA2,114,Paris FC,22086,Timothée Kolodziejczak
+FRA2,114,Paris FC,194981,Obed Nkambadio
+FRA2,114,Paris FC,20869,Samir Sophian Chergui
+FRA2,114,Paris FC,84218,Adama Camara
+FRA2,114,Paris FC,23126,Lamine Gueye
+FRA2,114,Paris FC,83831,Ilan Kebbal
+FRA2,114,Paris FC,135264,Josias Lukembila
+FRA2,114,Paris FC,327592,Lohann Doucet
+FRA2,114,Paris FC,19430,Nouha Dicko
+FRA2,114,Paris FC,8551,Rémy Riou
+FRA2,114,Paris FC,163234,Mathys Tourraine
+FRA2,114,Paris FC,401278,Mohamadou Kanté
+FRA2,114,Paris FC,174881,Moustapha Mbow
+FRA2,114,Paris FC,20925,Vincent Marchetti
+FRA2,114,Paris FC,191299,Thomas Himeur
+FRA2,1304,Dunkerque,369544,Gessime Yassine
+FRA2,1304,Dunkerque,437484,Anto Sekongo
+FRA2,1304,Dunkerque,55319,Naatan Skyttä
+FRA2,1304,Dunkerque,449106,Lenny Dziki
+FRA2,1304,Dunkerque,21647,Yacine Bammou
+FRA2,1304,Dunkerque,490095,Aristide Zossou
+FRA2,1304,Dunkerque,439986,Muhannad Al Saad
+FRA2,1304,Dunkerque,10126,Abner
+FRA2,1304,Dunkerque,525880,Théna Massock
+FRA2,1304,Dunkerque,20857,Benjaloud Youssouf
+FRA2,1304,Dunkerque,41723,Diogo Queirós
+FRA2,1304,Dunkerque,20645,Gaëtan Courtet
+FRA2,1304,Dunkerque,41238,Vincent Sasso
+FRA2,1304,Dunkerque,373827,Nachon Nsingi
+FRA2,1304,Dunkerque,129000,Marco Essimi
+FRA2,1304,Dunkerque,525879,Malone Boucard
+FRA2,1304,Dunkerque,20838,Opa Sangante
+FRA2,1304,Dunkerque,379322,Geoffrey Kondo
+FRA2,1304,Dunkerque,385580,Alex Daho
+FRA2,1304,Dunkerque,22135,Loic Bessile
+FRA2,1304,Dunkerque,161893,Enzo Bardeli
+FRA2,1304,Dunkerque,174797,Maxence Rivera
+FRA2,1304,Dunkerque,43088,Alexi Pitu
+FRA2,1304,Dunkerque,431165,Koula Sébastien Tou
+FRA2,1304,Dunkerque,93072,Kay Tejan
+FRA2,1304,Dunkerque,329640,Ewen Jaouen
+FRA2,1304,Dunkerque,23109,Ibrahim Kone
+FRA2,1304,Dunkerque,334878,Ugo Raghouber
+FRA2,1304,Dunkerque,22344,Christian Junior Senneville
+FRA2,1304,Dunkerque,20882,Allan Linguet
+FRA2,1304,Dunkerque,8557,Núrio Fortuna
+FRA2,1304,Dunkerque,46785,Adrián Ortolá
+FRA2,1304,Dunkerque,322556,Nehemiah Fernandez
+FRA2,1304,Dunkerque,282531,Abdoullah Ba
+FRA2,1304,Dunkerque,47186,Marcos Lavín
+FRA2,1304,Dunkerque,438752,Pape Diong
+FRA2,1304,Dunkerque,85773,Alec Georgen
+FRA2,1304,Dunkerque,412760,Mathys Niflore
+FRA2,1304,Dunkerque,21047,Aboubakary Kanté
+FRA2,1304,Dunkerque,496526,Malick Diop
+FRA2,433,Laval,21398,Maxime Hautbois
+FRA2,433,Laval,161915,Titouan Thomas
+FRA2,433,Laval,482309,Owen Kouassi
+FRA2,433,Laval,358183,Mathis Raimbault
+FRA2,433,Laval,20607,Cyril Mandouki
+FRA2,433,Laval,399885,Ange Badey
+FRA2,433,Laval,297142,Williams Kokolo
+FRA2,433,Laval,85342,Julien Maggiotti
+FRA2,433,Laval,162779,Thibault Vargas
+FRA2,433,Laval,3382,Jordan Adeoti
+FRA2,433,Laval,179475,Amjhad Nazih
+FRA2,433,Laval,276550,William Benard
+FRA2,433,Laval,482309,Christ-Owen Kouassi
+FRA2,433,Laval,21143,Théo Pellenard
+FRA2,433,Laval,384823,Mattéo Commaret
+FRA2,433,Laval,21653,Malik Tchokounté
+FRA2,433,Laval,20628,Peter Ouaneh
+FRA2,433,Laval,191194,Mamadou Camara
+FRA2,433,Laval,161620,Junior Kadile
+FRA2,433,Laval,20577,Yohan Tavares
+FRA2,433,Laval,26943,Moise Adilehou
+FRA2,433,Laval,190831,Siriné Doucouré
+FRA2,433,Laval,3331,Mamadou Samassa
+FRA2,433,Laval,195897,Amine Cherni
+FRA2,433,Laval,22263,Kévin Zohi
+FRA2,433,Laval,85063,William Bianda
+FRA2,433,Laval,399886,Lucas Droyaux
+FRA2,433,Laval,21059,Edson Seidou
+FRA2,433,Laval,129683,Sam Sanna
+FRA2,433,Laval,492821,Ethan Clavreul
+FRA2,433,Laval,348058,Noa Mupemba
+FRA2,433,Laval,190959,Malik Sellouki
+FRA2,433,Laval,327554,Loïs Martins
+FRA2,433,Laval,20984,Jimmy Roye
+FRA2,433,Laval,358186,Enzo Montet
+FRA2,433,Laval,20734,Jordan Tell
+FRA2,433,Laval,384837,Aymeric Faurand-Tournaire
+FRA2,433,Laval,22255,Anthony Gonçalves
+FRA2,90,Guingamp,21775,Brighton Labeau
+FRA2,90,Guingamp,437171,Idriss Planeix
+FRA2,90,Guingamp,273080,Mathis Riou
+FRA2,90,Guingamp,365746,Dylan Ourega
+FRA2,90,Guingamp,190829,Amine Hemia
+FRA2,90,Guingamp,209943,Albin Demouchy
+FRA2,90,Guingamp,347646,Tieri Godame
+FRA2,90,Guingamp,441931,Eden Gassama
+FRA2,90,Guingamp,161891,Darly Nlandu
+FRA2,90,Guingamp,127625,Amadou Sagna
+FRA2,90,Guingamp,21505,Lebogang Phiri
+FRA2,90,Guingamp,21326,Enzo Basilio
+FRA2,90,Guingamp,22871,Junior Armando Mendes
+FRA2,90,Guingamp,23402,Donatien Gomis
+FRA2,90,Guingamp,338201,Hugo Picard
+FRA2,90,Guingamp,20770,Alpha Sissoko
+FRA2,90,Guingamp,15400,Erwin Koffi
+FRA2,90,Guingamp,21251,Abdel Hakim Abdallah
+FRA2,90,Guingamp,23119,Lenny Vallier
+FRA2,90,Guingamp,22871,Junior Mendes
+FRA2,90,Guingamp,174766,Lucas Maronnier
+FRA2,90,Guingamp,20809,Dylan Louiserre
+FRA2,90,Guingamp,24196,Pierre Lemonnier
+FRA2,90,Guingamp,483117,Jérémie Matumona
+FRA2,90,Guingamp,23630,Rayan Ghrieb
+FRA2,90,Guingamp,174703,Théo Le Bris
+FRA2,90,Guingamp,355042,Jérémy Hatchi
+FRA2,90,Guingamp,201264,Gauthier Ott
+FRA2,90,Guingamp,20618,Teddy Bartouche
+FRA2,90,Guingamp,403276,Tanguy Ahile
+FRA2,90,Guingamp,46785,Adrián Ortolá
+FRA2,90,Guingamp,85558,Louis Mafouta
+FRA2,90,Guingamp,193705,Jacques Siwe
+FRA2,90,Guingamp,8630,Babacar Niasse
+FRA2,90,Guingamp,174795,Taylor Luvambo
+FRA2,90,Guingamp,330306,Hugo Dupont
+FRA2,90,Guingamp,22150,Kalidou Sidibé
+FRA2,90,Guingamp,191336,Sohaib Nair
+FRA2,90,Guingamp,191415,Severin Sabri Guendouz
+FRA2,90,Guingamp,333150,Rayan Touzghar
+FRA2,1297,PAU,158516,Kandet Diawara
+FRA2,1297,PAU,339598,Noah Raveyre
+FRA2,1297,PAU,20597,Ousmane Kanté
+FRA2,1297,PAU,20852,Kenji Van Boto
+FRA2,1297,PAU,129084,Setigui Karamoko
+FRA2,1297,PAU,20763,Mehdi Jeannin
+FRA2,1297,PAU,20574,Johann Obiang
+FRA2,1297,PAU,162274,Kylian Gasnier
+FRA2,1297,PAU,21438,Anthony Briançon
+FRA2,1297,PAU,370059,Tom Gomes
+FRA2,1297,PAU,293948,Kouadio Ange Ahoussou
+FRA2,1297,PAU,409558,Joseph Kalulu Kyatengwa
+FRA2,1297,PAU,384896,Clément Darribère
+FRA2,1297,PAU,191086,Iyad Mohamed
+FRA2,1297,PAU,327692,Therence Koudou
+FRA2,1297,PAU,419912,Omar Sadik
+FRA2,1297,PAU,375990,Pathé Mboup
+FRA2,1297,PAU,401844,Alexandre Fernandes
+FRA2,1297,PAU,327692,Thérence Koudou
+FRA2,1297,PAU,20737,Esteban Salles
+FRA2,1297,PAU,21446,Antonin Bobichon
+FRA2,1297,PAU,399908,Titouan Nihouarn
+FRA2,1297,PAU,0,Titouan Nihouarn
+FRA2,1297,PAU,22241,Bingourou Kamara
+FRA2,1297,PAU,368024,Yonis Njoh
+FRA2,1297,PAU,20725,Joseph Lopy
+FRA2,1297,PAU,56370,Jean Lambert Evan's Allan
+FRA2,1297,PAU,2720,Khalid Boutaïb
+FRA2,1297,PAU,366572,Edhy Zuliani
+FRA2,1297,PAU,128992,Daylam Meddah
+FRA2,1297,PAU,326976,Tom Pouilly
+FRA2,1297,PAU,418910,Fidèle Malcolm Bongelo
+FRA2,1297,PAU,21045,Steeve Beusnard
+FRA2,1297,PAU,174806,Antoine Mille
+FRA2,1297,PAU,498904,Mensah Govou
+FRA2,1297,PAU,334925,Oumar Ngom
+FRA2,1297,PAU,21011,Jean Ruiz
+FRA2,1297,PAU,385162,Salif Lebouath
+FRA2,1297,PAU,438840,Tao Paradowski
+FRA2,1297,PAU,191252,Mamady Bangré
+FRA2,1297,PAU,48523,Xavier Kouassi
+FRA2,1297,PAU,368039,Neil Glossoa
+FRA2,1297,PAU,327697,Giovani Versini
+FRA2,1297,PAU,76576,Jordy Gaspar
+FRA2,1297,PAU,24279,Mehdi Chahiri
+FRA2,1297,PAU,305959,Tairyk Arconte
+FRA2,1297,PAU,333150,Rayan Touzghar
+FRA2,88,Caen,66205,Adriel D'Avila Ba Loua
+FRA2,88,Caen,193956,Ilyes Najim
+FRA2,88,Caen,330314,Diabe Bolumbu
+FRA2,88,Caen,330315,Noe Lebreton
+FRA2,88,Caen,84259,Emmanuel Ntim
+FRA2,88,Caen,284942,Brahim Traoré
+FRA2,88,Caen,193953,Lamine Sy
+FRA2,88,Caen,20548,Valentin Henry
+FRA2,88,Caen,21506,Alexandre Mendy
+FRA2,88,Caen,22266,Samuel Grandsir
+FRA2,88,Caen,174663,Jules Gaudin
+FRA2,88,Caen,1267,Yassine Benrahou
+FRA2,88,Caen,296362,Alex Moucketou-Moussounda
+FRA2,88,Caen,438712,Léo Milliner
+FRA2,88,Caen,368031,Héliohdino Tavares
+FRA2,88,Caen,22159,Yannis Clementia
+FRA2,88,Caen,20713,Quentin Lecoeuche
+FRA2,88,Caen,3344,Kalifa Coulibaly
+FRA2,88,Caen,339127,Mohamed Hafid
+FRA2,88,Caen,22096,Yann M'Vila
+FRA2,88,Caen,128992,Daylam Meddah
+FRA2,88,Caen,128347,Hugo Vandermersch
+FRA2,88,Caen,191229,Bilal Brahimi
+FRA2,88,Caen,386282,Zoumana Bagbema
+FRA2,88,Caen,330318,Robin Verhaeghe
+FRA2,88,Caen,21144,Romain Thomas
+FRA2,88,Caen,383665,Tidiam Gomis
+FRA2,88,Caen,22178,Mickaël Le Bihan
+FRA2,88,Caen,43175,Parfait Mandanda
+FRA2,88,Caen,20785,Lorenzo Rajot
+FRA2,88,Caen,21641,Godson Kyeremeh
+FRA2,88,Caen,49583,Ali Abdi
+FRA2,88,Caen,21137,Anthony Mandrea
+FRA2,88,Caen,383662,Gabin Tomé
+FRA2,88,Caen,313305,Didí Gaucho
+FRA2,88,Caen,20551,Mathias Autret
+FRA2,1301,Rodez,1255,Till Cissokho
+FRA2,1301,Rodez,194073,Alexis Trouillet
+FRA2,1301,Rodez,20744,Eric Vandenabeele
+FRA2,1301,Rodez,418978,Jordan Mendes Correia
+FRA2,1301,Rodez,64188,Stone Muzalimoja Mambo
+FRA2,1301,Rodez,2217,Timothee Nkada
+FRA2,1301,Rodez,271274,Wilitty Younoussa
+FRA2,1301,Rodez,24012,Lionel M'Pasi
+FRA2,1301,Rodez,201334,Clément Jolibois
+FRA2,1301,Rodez,175137,Mehdi Baaloudj
+FRA2,1301,Rodez,303485,Tawfik Bentayeb
+FRA2,1301,Rodez,84962,Loni Quenabio
+FRA2,1301,Rodez,274278,Ibrahima Baldé
+FRA2,1301,Rodez,84962,Loni Laurent
+FRA2,1301,Rodez,306021,Mohamed Achi
+FRA2,1301,Rodez,413609,Morgan Corredor
+FRA2,1301,Rodez,344298,Octave Joly
+FRA2,1301,Rodez,21078,Quentin Braat
+FRA2,1301,Rodez,272112,Mathis Magnin
+FRA2,1301,Rodez,327703,Aurelien Pelon
+FRA2,1301,Rodez,56370,Jean Lambert Evan's Allan
+FRA2,1301,Rodez,21251,Abdel Hakim Abdallah
+FRA2,1301,Rodez,162146,Kenny Nagera
+FRA2,1301,Rodez,491303,Loni Laurent
+FRA2,1301,Rodez,20933,Giovanni Haag
+FRA2,1301,Rodez,421890,Corentin Issanchou Roubiou
+FRA2,1301,Rodez,119115,Mohamed Bouchouari
+FRA2,1301,Rodez,301938,Yannis Verdier
+FRA2,1301,Rodez,326148,Cheick Doumbia
+FRA2,1301,Rodez,325916,Raphael Lipinski
+FRA2,1301,Rodez,237292,Dany Jean
+FRA2,1301,Rodez,325787,Derek Mazou-Sacko
+FRA2,1301,Rodez,333078,Nolan Galves
+FRA2,1301,Rodez,178530,Ryan Ponti
+FRA2,1301,Rodez,23363,Noah Cadiou
+FRA2,1301,Rodez,396400,Hugo Garie
+FRA2,1301,Rodez,255,Sébastien Cibois
+FRA2,1301,Rodez,167650,Ahmad Toure Ngouyamsa
+FRA2,1301,Rodez,336896,Enzo Crombez
+FRA2,1301,Rodez,24015,Joris Chougrani
+FRA2,1301,Rodez,174659,Waniss Taibi
+FRA2,1301,Rodez,162464,Lucas Margueron
+FRA2,1301,Rodez,119853,Mory Diaw
+FRA2,87,Amiens,20807,Antoine Leautey
+FRA2,87,Amiens,351979,Ibrahim Fofana
+FRA2,87,Amiens,449715,Nathan Talbot
+FRA2,87,Amiens,357157,Mactar Tine
+FRA2,87,Amiens,19306,Arvin Appiah
+FRA2,87,Amiens,485956,Messy Mubundu
+FRA2,87,Amiens,521651,Ilan Daf
+FRA2,87,Amiens,501200,Patrick Carraro Injai
+FRA2,87,Amiens,21378,Régis Gurtner
+FRA2,87,Amiens,470337,Amine Chabane
+FRA2,87,Amiens,512689,Foly Amegatse
+FRA2,87,Amiens,21264,Victor Lobry
+FRA2,87,Amiens,385601,Siaka Bakayoko
+FRA2,87,Amiens,308679,Mohammed El Idrissi
+FRA2,87,Amiens,501199,Krys Kouassi
+FRA2,87,Amiens,21387,Thomas Monconduit
+FRA2,87,Amiens,419584,Joan Tincres
+FRA2,87,Amiens,485956,Messy Manitu
+FRA2,87,Amiens,21425,Paul Bernardoni
+FRA2,87,Amiens,8578,Frank Boya
+FRA2,87,Amiens,363544,Mathis Touho
+FRA2,87,Amiens,349167,Yvan Ikia Dimi
+FRA2,87,Amiens,191970,Osaze Urhoghide
+FRA2,87,Amiens,289630,Owen Gene
+FRA2,87,Amiens,3341,Mamadou Fofana
+FRA2,87,Amiens,359335,Rayan Lutin
+FRA2,87,Amiens,471432,Elyess Dao
+FRA2,87,Amiens,21755,Alexis Sauvage
+FRA2,87,Amiens,491304,Louis Moussier
+FRA2,87,Amiens,270511,Ange Chibozo
+FRA2,87,Amiens,21794,Teddy Averlant
+FRA2,87,Amiens,18831,Andy Carroll
+FRA2,87,Amiens,129675,Aboubacar Lô
+FRA2,87,Amiens,390438,Mohamed Jaouab
+FRA2,87,Amiens,191245,Nordine Kandil
+FRA2,87,Amiens,21579,Kylian Kaiboue
+FRA2,87,Amiens,191230,Rémy Vita
+FRA2,87,Amiens,85558,Louis Mafouta
+FRA2,87,Amiens,403883,Malick Mbaye
+FRA2,87,Amiens,417830,Abdelhamid Ait Boudlal
+FRA2,87,Amiens,21378,Regis Gurtner
+FRA2,87,Amiens,510352,Yanis Rafii
+FRA2,87,Amiens,560,Sébastien Corchia
+FRA2,87,Amiens,275687,Matthieu Rongier
+FRA2,3012,Annecy,190826,Matteo Veillon
+FRA2,3012,Annecy,84478,Antoine Larose
+FRA2,3012,Annecy,86481,Thibault Rambaud
+FRA2,3012,Annecy,280511,Goteh Ntignee
+FRA2,3012,Annecy,369500,Pierre Ganiou
+FRA2,3012,Annecy,22335,Cédric Makutungu
+FRA2,3012,Annecy,485820,Quentin Paris
+FRA2,3012,Annecy,175029,Julien Kouadio
+FRA2,3012,Annecy,362900,Sidi Bane
+FRA2,3012,Annecy,402066,Anthony Bermont
+FRA2,3012,Annecy,484194,Kilyan Jusseron-Veniere
+FRA2,3012,Annecy,23253,Gaby Jean
+FRA2,3012,Annecy,20117,Ahmed Kashi
+FRA2,3012,Annecy,194446,Paul Venot
+FRA2,3012,Annecy,198473,Samuel Ntamack Ndimba
+FRA2,3012,Annecy,20722,Yohan Demoncy
+FRA2,3012,Annecy,501203,Ibrahim Raache
+FRA2,3012,Annecy,381122,Trévis Dago
+FRA2,3012,Annecy,21150,Vincent Pajot
+FRA2,3012,Annecy,382190,Ranjan Neelakandan
+FRA2,3012,Annecy,107441,Hamjatou Soukouna
+FRA2,3012,Annecy,482310,Wael Debbiche
+FRA2,3012,Annecy,301821,Moise Mahop
+FRA2,3012,Annecy,1896,Florian Escales
+FRA2,3012,Annecy,21626,Thomas Callens
+FRA2,3012,Annecy,85020,Kapitbafan Djoco
+FRA2,3012,Annecy,369500,Ismaelo Ganiou
+FRA2,3012,Annecy,90597,Clement Billemaz
+FRA2,3012,Annecy,513289,Adam Yahi
+FRA2,3012,Annecy,191138,Axel Drouhin
+FRA2,3012,Annecy,501204,Esteban Riou
+FRA2,3012,Annecy,142231,Abdel Hbouch
+FRA2,3012,Annecy,338856,Noha Lemina
+FRA2,3012,Annecy,275869,Karim Cisse
+FRA2,3012,Annecy,430112,Thibault Delphis
+FRA2,3012,Annecy,85874,Francois Lajugie
+FRA2,3012,Annecy,49932,Fabrice N'Sakala
+FRA2,3012,Annecy,483098,Josué Tiendrebeogo
+FRA2,3012,Annecy,361426,Ritchy Valme
+FRA2,101,Grenoble,180730,Alan Kerouedan
+FRA2,101,Grenoble,193900,Abiezer Jeno
+FRA2,101,Grenoble,24173,Shaquil Delos
+FRA2,101,Grenoble,22336,Mathieu Mion
+FRA2,101,Grenoble,83762,Eddy Sylvestre
+FRA2,101,Grenoble,64188,Stone Muzalimoja Mambo
+FRA2,101,Grenoble,21435,Theo Valls
+FRA2,101,Grenoble,174719,Baptiste Mouazan
+FRA2,101,Grenoble,128339,Pape Meissa Ba
+FRA2,101,Grenoble,62048,Mamadou Diarra
+FRA2,101,Grenoble,301924,Nesta Elphege
+FRA2,101,Grenoble,134264,Mamadou Diop
+FRA2,101,Grenoble,20883,Loïc Nestor
+FRA2,101,Grenoble,21442,Gaëtan Paquiez
+FRA2,101,Grenoble,22009,Nolan Mbemba
+FRA2,101,Grenoble,231065,Allan Tchaptchet
+FRA2,101,Grenoble,20621,Maxime Pattier
+FRA2,101,Grenoble,239,Dante Rigo
+FRA2,101,Grenoble,200833,Ayoub Jabbari
+FRA2,101,Grenoble,21613,Lenny Joseph
+FRA2,101,Grenoble,417475,Charlie Dressel
+FRA2,101,Grenoble,322869,Nesta Zahui
+FRA2,101,Grenoble,20745,Jessy Benet
+FRA2,101,Grenoble,191289,Mohamed Amine Sbai
+FRA2,101,Grenoble,174744,Loris Mouyokolo
+FRA2,101,Grenoble,359365,Efe Sarıkaya
+FRA2,101,Grenoble,21692,Bobby Allain
+FRA2,101,Grenoble,374504,Samba Diba
+FRA2,101,Grenoble,191252,Mamady Bangré
+FRA2,101,Grenoble,127751,Saikou Touray
+FRA2,101,Grenoble,206351,Mattheo Xantippe
+FRA2,101,Grenoble,307243,Bachirou Yaméogo
+FRA2,101,Grenoble,174783,Yadaly Diaby
+FRA2,101,Grenoble,316904,Junior Olaitan
+FRA2,101,Grenoble,20659,Arial Mendy
+FRA2,104,RED Star FC 93,86549,Damien Durand
+FRA2,104,RED Star FC 93,347211,Robin Risser
+FRA2,104,RED Star FC 93,85999,Valentin Rabouille
+FRA2,104,RED Star FC 93,469471,Vincent Kany
+FRA2,104,RED Star FC 93,338203,Mohafidh Ahamada
+FRA2,104,RED Star FC 93,275706,Josue Escartin
+FRA2,104,RED Star FC 93,327778,Jovany Ikanga
+FRA2,104,RED Star FC 93,24175,Joachim Eickmayer
+FRA2,104,RED Star FC 93,174625,Fodé Doucouré
+FRA2,104,RED Star FC 93,343014,Ronan Matuvangua
+FRA2,104,RED Star FC 93,383567,Abdelsamad Hachem
+FRA2,104,RED Star FC 93,276548,Kemo Cissé
+FRA2,104,RED Star FC 93,174842,Dylan Durivaux
+FRA2,104,RED Star FC 93,41318,Quentin Beunardeau
+FRA2,104,RED Star FC 93,87106,Jose Dembi
+FRA2,104,RED Star FC 93,85405,Achille Anani
+FRA2,104,RED Star FC 93,193507,Dembo Sylla
+FRA2,104,RED Star FC 93,303104,Blondon  Meyapya Fongain
+FRA2,104,RED Star FC 93,127546,Matthieu Huard
+FRA2,104,RED Star FC 93,1659,Aniss El Hriti
+FRA2,104,RED Star FC 93,174743,Ryad Hachem
+FRA2,104,RED Star FC 93,129680,Hianga'a M'Bock
+FRA2,104,RED Star FC 93,21228,Loic Kouagba
+FRA2,104,RED Star FC 93,24196,Pierre Lemonnier
+FRA2,104,RED Star FC 93,22885,Hacene Benali
+FRA2,104,RED Star FC 93,153086,Pépé Bonet
+FRA2,104,RED Star FC 93,22910,Bissenty Mendy
+FRA2,104,RED Star FC 93,275478,Merwan Ifnaoui
+FRA2,104,RED Star FC 93,2955,Saîf-Eddine Khaoui
+FRA2,104,RED Star FC 93,23964,Bradley Danger
+FRA2,104,RED Star FC 93,96423,Alioune Fall
+FRA2,104,RED Star FC 93,1732,Aliou Badji
+FRA2,104,RED Star FC 93,129679,Ivann Botella
+FRA2,104,RED Star FC 93,22426,William Avognan
+FRA2,104,RED Star FC 93,86639,Guillaume Trani
+FRA2,104,RED Star FC 93,166807,Samuel Renel
+FRA2,98,Ajaccio,20849,Mathieu Michel
+FRA2,98,Ajaccio,21575,Clement Vidal
+FRA2,98,Ajaccio,193639,Ghjuvanni Quilichini
+FRA2,98,Ajaccio,85756,Stephen Quemper
+FRA2,98,Ajaccio,421852,Tom Fragassi
+FRA2,98,Ajaccio,20970,Thibault Campanini
+FRA2,98,Ajaccio,153603,Al Hassan Toure
+FRA2,98,Ajaccio,20596,Axel Bamba
+FRA2,98,Ajaccio,21148,Thomas Mangani
+FRA2,98,Ajaccio,21317,Benjamin Santelli
+FRA2,98,Ajaccio,404593,Owen Martinez-Jullien
+FRA2,98,Ajaccio,345489,Mehdi Puch-Herrantz
+FRA2,98,Ajaccio,325783,Everson Junior
+FRA2,98,Ajaccio,390687,Ricardo Coutinho
+FRA2,98,Ajaccio,446846,Julien Prenant
+FRA2,98,Ajaccio,353825,Anthony Khelifa
+FRA2,98,Ajaccio,354845,Ben Hamed Toure
+FRA2,98,Ajaccio,402386,Arsène Kouassi
+FRA2,98,Ajaccio,370042,Tony Strata
+FRA2,98,Ajaccio,356109,Sacha Contena
+FRA2,98,Ajaccio,20938,Francois-Joseph Sollacaro
+FRA2,98,Ajaccio,20977,Julien Anziani
+FRA2,98,Ajaccio,127546,Matthieu Huard
+FRA2,98,Ajaccio,384808,Moussa Soumano
+FRA2,98,Ajaccio,20592,Yoann Touzghar
+FRA2,98,Ajaccio,20815,Valentin Jacob
+FRA2,98,Ajaccio,20960,Mohamed Youssouf
+FRA2,98,Ajaccio,402386,Kan Guy Arsène Kouassi
+FRA2,98,Ajaccio,465879,Bilal Merouga
+FRA2,98,Ajaccio,354845,Ben Touré
+FRA2,98,Ajaccio,22408,Tim Jabol-Folcarelli
+FRA2,98,Ajaccio,20858,Mickaël Barreto
+FRA2,98,Ajaccio,356191,Ivane Chegra
+FRA2,98,Ajaccio,21047,Aboubakary Kanté
+FRA2,98,Ajaccio,417765,Zyed Beltaief
+FRA2,98,Ajaccio,193715,Jesah Ayessa
+FRA2,98,Ajaccio,174711,Christopher Ibayi
+FRA2,1299,Boulogne,326080,Aurelien Platret
+FRA2,1299,Boulogne,174638,Yannick Pandor
+FRA2,1299,Boulogne,413606,Zanga Koné
+FRA2,1299,Boulogne,162115,Noah Fatar
+FRA2,1299,Boulogne,21027,Julien Boyer
+FRA2,1299,Boulogne,68145,Sonny Duflos
+FRA2,1299,Boulogne,299931,Adrien Pinot
+FRA2,1299,Boulogne,24276,Abdelwahab Baalla
+FRA2,1299,Boulogne,86481,Thibault Rambaud
+FRA2,1299,Boulogne,520996,Souleymane Keita
+FRA2,1299,Boulogne,163369,Theo Epailly
+FRA2,1299,Boulogne,24274,Demba Thiam
+FRA2,1299,Boulogne,366552,Louis Siliadin
+FRA2,1299,Boulogne,181945,Joffrey Bultel
+FRA2,1299,Boulogne,327546,Lilian Raillot
+FRA2,1299,Boulogne,350581,Azamat Uriev
+FRA2,1299,Boulogne,128993,Nathan Zohoré
+FRA2,1299,Boulogne,21794,Teddy Averlant
+FRA2,1299,Boulogne,23109,Ibrahim Kone
+FRA2,1299,Boulogne,275384,Herve Toure
+FRA2,1299,Boulogne,162706,Jean Vercruysse
+FRA2,1299,Boulogne,333138,Florian Boulet
+FRA2,1299,Boulogne,193686,Siad Gourville
+FRA2,1299,Boulogne,326132,Nolan Binet
+FRA2,1299,Boulogne,85197,A. El Farissi
+FRA2,1299,Boulogne,142231,Abdel Hbouch
+FRA2,1299,Boulogne,20880,Elhadj Dabo
+FRA2,1299,Boulogne,174851,Corentin Fatou
+FRA2,82,Montpellier,999,Bećir Omeragić
+FRA2,82,Montpellier,369676,Theo Chennahi
+FRA2,82,Montpellier,21443,Teji Savanier
+FRA2,82,Montpellier,179399,Enzo Tchato Mbiayi
+FRA2,82,Montpellier,21506,Alexandre Mendy
+FRA2,82,Montpellier,333118,Lucas Mincarelli Davin
+FRA2,82,Montpellier,325783,Everson Junior
+FRA2,82,Montpellier,21434,Theo Sainte Luce
+FRA2,82,Montpellier,20766,Julien Laporte
+FRA2,82,Montpellier,129670,Nathanaël Mbuku
+FRA2,82,Montpellier,22138,Christopher Jullien
+FRA2,82,Montpellier,361383,Junior Ndiaye
+FRA2,82,Montpellier,128287,Joris Chotard
+FRA2,82,Montpellier,441284,Naoufel El Hannach
+FRA2,82,Montpellier,113581,Tanguy Coulibaly
+FRA2,82,Montpellier,145060,Simon Ngapandouetnbu
+FRA2,82,Montpellier,349616,Nicolas Pays
+FRA2,82,Montpellier,350388,Yael Mouanga
+FRA2,82,Montpellier,398204,Viktor Džodić
+FRA2,82,Montpellier,326088,Khalil Fayad
+FRA2,1298,Le Mans,21450,Baptiste Guillaume
+FRA2,1298,Le Mans,483116,Noa Boissé
+FRA2,1298,Le Mans,381116,William Harhouz
+FRA2,1298,Le Mans,270515,Théo Eyoum
+FRA2,1298,Le Mans,275668,Brice Oggad
+FRA2,1298,Le Mans,4743,Dame Gueye
+FRA2,1298,Le Mans,162990,Leroy Abanda
+FRA2,1298,Le Mans,191202,Milan Robin
+FRA2,1298,Le Mans,24189,Nicolas Kocik
+FRA2,1298,Le Mans,349631,Martin Rossignol
+FRA2,1298,Le Mans,1258,Alexandre Lauray
+FRA2,1298,Le Mans,502513,Amadou Cissé
+FRA2,1298,Le Mans,21048,Antoine Rabillard
+FRA2,1298,Le Mans,20602,Samuel Yohou
+FRA2,1298,Le Mans,179480,Ewan Hatfout
+FRA2,1298,Le Mans,162706,Jean Vercruysse
+FRA2,1298,Le Mans,87645,Anthony Ribelin
+FRA2,1298,Le Mans,174795,Taylor Luvambo
+FRA2,1298,Le Mans,24259,Edwin Quarshie
+FRA2,1298,Le Mans,174605,Harold Voyer
+FRA2,1298,Le Mans,179414,Lucas Calodat
+FRA2,1063,Saint Etienne,305450,Ebenezer Annan
+FRA2,1063,Saint Etienne,24743,Zuriko Davitashvili
+FRA2,1063,Saint Etienne,136155,Mahmoud Jaber
+FRA2,1063,Saint Etienne,363053,Igor Miladinović
+FRA2,1063,Saint Etienne,322560,Lucas Stassin
+FRA2,1063,Saint Etienne,127634,João Ferreira
+FRA2,1063,Saint Etienne,337426,Augustine Boakye
+FRA2,1063,Saint Etienne,1407,Dennis Appiah
+FRA2,1063,Saint Etienne,20541,Gautier Larsonneur
+FRA2,1063,Saint Etienne,396323,Jules Mouton
+FRA2,1063,Saint Etienne,417858,Lassana Traoré
+FRA2,1063,Saint Etienne,8624,Florian Tardieu
+FRA2,1063,Saint Etienne,500070,Nadir El Jamali
+FRA2,1063,Saint Etienne,22087,Mickael Nade
+FRA2,1063,Saint Etienne,281438,Chico Lamba
+FRA2,1063,Saint Etienne,8683,Irvin Cardona
+FRA2,1063,Saint Etienne,179856,Benjamin Old
+FRA2,1063,Saint Etienne,174801,Aimen Moueffek
+FRA2,1063,Saint Etienne,20736,Brice Maubleu
+FRA2,1063,Saint Etienne,495154,Luan Gadegbeku
+FRA2,1063,Saint Etienne,305735,Joshua Duffus
+FRA2,102,Nancy,422741,Chafik El Hansar
+FRA2,102,Nancy,417767,Yanis Delaveau
+FRA2,102,Nancy,269490,Jimmy Evans
+FRA2,102,Nancy,526530,Zakaria Ztouti
+FRA2,102,Nancy,127167,Zakaria Fdaouch
+FRA2,102,Nancy,21326,Enzo Basilio
+FRA2,102,Nancy,0,Zakaria Ztouti
+FRA2,102,Nancy,21252,Maxence Carlier
+FRA2,102,Nancy,20914,Nicolas Saint-Ruf
+FRA2,102,Nancy,190747,Martin Expérience
+FRA2,102,Nancy,403887,Patrick Ouotro
+FRA2,102,Nancy,64189,Adrien Julloux
+FRA2,102,Nancy,275848,Brandon Bokangu
+FRA2,102,Nancy,56446,Ćazim Suljić
+FRA2,102,Nancy,174807,Teddy Bouriaud
+FRA2,102,Nancy,275684,Oumar Sidibe
+FRA2,102,Nancy,21427,Martin Sourzac
+FRA2,102,Nancy,322556,Nehemiah Fernandez
+FRA2,102,Nancy,20812,Adrian Dabasse
+FRA2,102,Nancy,174805,Cheikh Toure
+FRA2,102,Nancy,347611,Yannis Nahounou
+FRA2,102,Nancy,275358,Walid Bouabdelli
+FRA2,93,Reims,2219,Jordan Siebatcheu
+FRA2,93,Reims,386481,Mamadou Diakhon
+FRA2,93,Reims,329642,Thiemoko Diarra
+FRA2,93,Reims,21080,Alexandre Olliero
+FRA2,93,Reims,71545,Joseph Okumu
+FRA2,93,Reims,293297,John Patrick
+FRA2,93,Reims,20722,Yohan Demoncy
+FRA2,93,Reims,494535,Hafiz Umar Ibrahim
+FRA2,93,Reims,334429,Oumar Diakité
+FRA2,93,Reims,21088,Nicolas Pallois
+FRA2,93,Reims,8966,Teddy Teuma
+FRA2,93,Reims,8553,Maxime Busi
+FRA2,93,Reims,329640,Ewen Jaouen
+FRA2,93,Reims,420292,Hiroki Sekine
+FRA2,93,Reims,156992,Mory Gbane
+FRA2,93,Reims,442929,Abdoul Kone
+FRA2,93,Reims,47530,Sergio Akieme
+FRA2,93,Reims,505518,Zabi
+FRA2,93,Reims,369059,Adama Bojang
+FRA2,93,Reims,418190,Ange Tia

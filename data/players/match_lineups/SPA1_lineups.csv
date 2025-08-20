@@ -1,0 +1,382 @@
+fixture_id,league_code,match_date,home_team,away_team,team_1_id,team_1_name,team_1_players_count,team_2_id,team_2_name,team_2_players_count
+1212910,SPA1,2024-08-19,Valladolid,Espanyol,720,Valladolid,23,540,Espanyol,23
+1208498,SPA1,2024-08-19,Villarreal,Atletico Madrid,533,Villarreal,20,530,Atletico Madrid,23
+1208504,SPA1,2024-08-23,Celta Vigo,Valencia,538,Celta Vigo,23,532,Valencia,23
+1208507,SPA1,2024-08-23,Sevilla,Villarreal,536,Sevilla,23,533,Villarreal,22
+1208511,SPA1,2024-08-24,Osasuna,Mallorca,727,Osasuna,22,798,Mallorca,23
+1208510,SPA1,2024-08-24,Barcelona,Athletic Club,529,Barcelona,22,531,Athletic Club,23
+1212911,SPA1,2024-08-24,Espanyol,Real Sociedad,540,Espanyol,23,548,Real Sociedad,23
+1208505,SPA1,2024-08-24,Getafe,Rayo Vallecano,546,Getafe,18,728,Rayo Vallecano,23
+1208506,SPA1,2024-08-25,Real Madrid,Valladolid,541,Real Madrid,19,720,Valladolid,23
+1208509,SPA1,2024-08-25,Leganes,Las Palmas,537,Leganes,23,534,Las Palmas,23
+1208503,SPA1,2024-08-25,Atletico Madrid,Girona,530,Atletico Madrid,23,547,Girona,23
+1208508,SPA1,2024-08-25,Alaves,Real Betis,542,Alaves,22,543,Real Betis,23
+1208518,SPA1,2024-08-26,Villarreal,Celta Vigo,533,Villarreal,22,538,Celta Vigo,23
+1208515,SPA1,2024-08-27,Mallorca,Sevilla,798,Mallorca,23,536,Sevilla,22
+1208517,SPA1,2024-08-27,Rayo Vallecano,Barcelona,728,Rayo Vallecano,23,529,Barcelona,22
+1208512,SPA1,2024-08-28,Athletic Club,Valencia,531,Athletic Club,23,532,Valencia,22
+1208520,SPA1,2024-08-28,Valladolid,Leganes,720,Valladolid,23,537,Leganes,23
+1212912,SPA1,2024-08-28,Atletico Madrid,Espanyol,530,Atletico Madrid,23,540,Espanyol,23
+1208519,SPA1,2024-08-28,Real Sociedad,Alaves,548,Real Sociedad,23,542,Alaves,23
+1208514,SPA1,2024-08-29,Girona,Osasuna,547,Girona,23,727,Osasuna,22
+1208516,SPA1,2024-08-29,Las Palmas,Real Madrid,534,Las Palmas,23,541,Real Madrid,20
+1208521,SPA1,2024-08-31,Athletic Club,Atletico Madrid,531,Athletic Club,23,530,Atletico Madrid,22
+1208522,SPA1,2024-08-31,Barcelona,Valladolid,529,Barcelona,21,720,Valladolid,23
+1212913,SPA1,2024-08-31,Espanyol,Rayo Vallecano,540,Espanyol,23,728,Rayo Vallecano,23
+1208526,SPA1,2024-08-31,Leganes,Mallorca,537,Leganes,22,798,Mallorca,23
+1208524,SPA1,2024-08-31,Valencia,Villarreal,532,Valencia,23,533,Villarreal,21
+1208525,SPA1,2024-09-01,Alaves,Las Palmas,542,Alaves,23,534,Las Palmas,23
+1208528,SPA1,2024-09-01,Osasuna,Celta Vigo,727,Osasuna,23,538,Celta Vigo,23
+1208529,SPA1,2024-09-01,Sevilla,Girona,536,Sevilla,23,547,Girona,23
+1208523,SPA1,2024-09-01,Getafe,Real Sociedad,546,Getafe,22,548,Real Sociedad,22
+1208527,SPA1,2024-09-01,Real Madrid,Real Betis,541,Real Madrid,20,543,Real Betis,23
+1208531,SPA1,2024-09-13,Real Betis,Leganes,543,Real Betis,23,537,Leganes,23
+1208538,SPA1,2024-09-14,Real Sociedad,Real Madrid,548,Real Sociedad,23,541,Real Madrid,19
+1208536,SPA1,2024-09-14,Sevilla,Getafe,536,Sevilla,23,546,Getafe,21
+1208533,SPA1,2024-09-14,Mallorca,Villarreal,798,Mallorca,23,533,Villarreal,19
+1212914,SPA1,2024-09-14,Espanyol,Alaves,540,Espanyol,23,542,Alaves,23
+1208530,SPA1,2024-09-15,Atletico Madrid,Valencia,530,Atletico Madrid,23,532,Valencia,20
+1208534,SPA1,2024-09-15,Las Palmas,Athletic Club,534,Las Palmas,23,531,Athletic Club,23
+1208535,SPA1,2024-09-15,Girona,Barcelona,547,Girona,23,529,Barcelona,21
+1208532,SPA1,2024-09-15,Celta Vigo,Valladolid,538,Celta Vigo,23,720,Valladolid,22
+1208537,SPA1,2024-09-16,Rayo Vallecano,Osasuna,728,Rayo Vallecano,23,727,Osasuna,23
+1208550,SPA1,2024-09-17,Mallorca,Real Sociedad,798,Mallorca,23,548,Real Sociedad,23
+1208513,SPA1,2024-09-18,Real Betis,Getafe,543,Real Betis,23,546,Getafe,23
+1208552,SPA1,2024-09-19,Leganes,Athletic Club,537,Leganes,23,531,Athletic Club,23
+1208542,SPA1,2024-09-20,Alaves,Sevilla,542,Alaves,23,536,Sevilla,23
+1212915,SPA1,2024-09-21,Real Madrid,Espanyol,541,Real Madrid,19,540,Espanyol,23
+1208545,SPA1,2024-09-21,Valencia,Girona,532,Valencia,23,547,Girona,23
+1208546,SPA1,2024-09-21,Valladolid,Real Sociedad,720,Valladolid,23,548,Real Sociedad,23
+1208547,SPA1,2024-09-21,Osasuna,Las Palmas,727,Osasuna,23,534,Las Palmas,23
+1208543,SPA1,2024-09-22,Rayo Vallecano,Atletico Madrid,728,Rayo Vallecano,23,530,Atletico Madrid,22
+1208544,SPA1,2024-09-22,Villarreal,Barcelona,533,Villarreal,20,529,Barcelona,22
+1208539,SPA1,2024-09-22,Athletic Club,Celta Vigo,531,Athletic Club,22,538,Celta Vigo,23
+1208541,SPA1,2024-09-22,Getafe,Leganes,546,Getafe,23,537,Leganes,23
+1208540,SPA1,2024-09-23,Real Betis,Mallorca,543,Real Betis,23,798,Mallorca,23
+1208555,SPA1,2024-09-24,Valencia,Osasuna,532,Valencia,23,727,Osasuna,23
+1208551,SPA1,2024-09-24,Sevilla,Valladolid,536,Sevilla,23,720,Valladolid,22
+1208556,SPA1,2024-09-24,Real Madrid,Alaves,541,Real Madrid,20,542,Alaves,23
+1208549,SPA1,2024-09-25,Girona,Rayo Vallecano,547,Girona,23,728,Rayo Vallecano,23
+1208548,SPA1,2024-09-25,Barcelona,Getafe,529,Barcelona,23,546,Getafe,23
+1208553,SPA1,2024-09-26,Celta Vigo,Atletico Madrid,538,Celta Vigo,23,530,Atletico Madrid,22
+1208554,SPA1,2024-09-26,Las Palmas,Real Betis,534,Las Palmas,23,543,Real Betis,21
+1212916,SPA1,2024-09-26,Espanyol,Villarreal,540,Espanyol,23,533,Villarreal,20
+1208562,SPA1,2024-09-27,Valladolid,Mallorca,720,Valladolid,22,798,Mallorca,23
+1208560,SPA1,2024-09-28,Real Sociedad,Valencia,548,Real Sociedad,23,532,Valencia,22
+1208565,SPA1,2024-09-28,Rayo Vallecano,Leganes,728,Rayo Vallecano,23,537,Leganes,22
+1208561,SPA1,2024-09-28,Osasuna,Barcelona,727,Osasuna,23,529,Barcelona,23
+1208564,SPA1,2024-09-28,Getafe,Alaves,546,Getafe,23,542,Alaves,23
+1212917,SPA1,2024-09-29,Real Betis,Espanyol,543,Real Betis,22,540,Espanyol,23
+1208558,SPA1,2024-09-29,Atletico Madrid,Real Madrid,530,Atletico Madrid,22,541,Real Madrid,20
+1208559,SPA1,2024-09-29,Celta Vigo,Girona,538,Celta Vigo,23,547,Girona,23
+1208557,SPA1,2024-09-29,Athletic Club,Sevilla,531,Athletic Club,22,536,Sevilla,23
+1208563,SPA1,2024-09-30,Villarreal,Las Palmas,533,Villarreal,21,534,Las Palmas,23
+1208569,SPA1,2024-10-04,Leganes,Valencia,537,Leganes,21,532,Valencia,21
+1208567,SPA1,2024-10-05,Real Madrid,Villarreal,541,Real Madrid,22,533,Villarreal,19
+1208573,SPA1,2024-10-05,Las Palmas,Celta Vigo,534,Las Palmas,23,538,Celta Vigo,23
+1208574,SPA1,2024-10-05,Valladolid,Rayo Vallecano,720,Valladolid,23,728,Rayo Vallecano,23
+1212918,SPA1,2024-10-05,Espanyol,Mallorca,540,Espanyol,23,798,Mallorca,23
+1208566,SPA1,2024-10-05,Getafe,Osasuna,546,Getafe,23,727,Osasuna,23
+1208570,SPA1,2024-10-06,Girona,Athletic Club,547,Girona,20,531,Athletic Club,23
+1208568,SPA1,2024-10-06,Alaves,Barcelona,542,Alaves,23,529,Barcelona,21
+1208572,SPA1,2024-10-06,Sevilla,Real Betis,536,Sevilla,23,543,Real Betis,23
+1208571,SPA1,2024-10-06,Real Sociedad,Atletico Madrid,548,Real Sociedad,23,530,Atletico Madrid,22
+1208580,SPA1,2024-10-18,Alaves,Valladolid,542,Alaves,23,720,Valladolid,22
+1208581,SPA1,2024-10-19,Osasuna,Real Betis,727,Osasuna,23,543,Real Betis,21
+1208577,SPA1,2024-10-19,Celta Vigo,Real Madrid,538,Celta Vigo,23,541,Real Madrid,20
+1208578,SPA1,2024-10-19,Girona,Real Sociedad,547,Girona,21,548,Real Sociedad,23
+1212919,SPA1,2024-10-19,Athletic Club,Espanyol,531,Athletic Club,22,540,Espanyol,22
+1208576,SPA1,2024-10-20,Barcelona,Sevilla,529,Barcelona,22,536,Sevilla,23
+1208582,SPA1,2024-10-20,Villarreal,Getafe,533,Villarreal,19,546,Getafe,22
+1208575,SPA1,2024-10-20,Atletico Madrid,Leganes,530,Atletico Madrid,21,537,Leganes,23
+1208579,SPA1,2024-10-20,Mallorca,Rayo Vallecano,798,Mallorca,23,728,Rayo Vallecano,23
+1208583,SPA1,2024-10-21,Valencia,Las Palmas,532,Valencia,23,534,Las Palmas,23
+1212920,SPA1,2024-10-25,Espanyol,Sevilla,540,Espanyol,22,536,Sevilla,23
+1208592,SPA1,2024-10-26,Rayo Vallecano,Alaves,728,Rayo Vallecano,23,542,Alaves,22
+1208589,SPA1,2024-10-26,Las Palmas,Girona,534,Las Palmas,23,547,Girona,20
+1208587,SPA1,2024-10-26,Real Madrid,Barcelona,541,Real Madrid,20,529,Barcelona,22
+1208591,SPA1,2024-10-26,Valladolid,Villarreal,720,Valladolid,23,533,Villarreal,21
+1208590,SPA1,2024-10-27,Real Sociedad,Osasuna,548,Real Sociedad,23,727,Osasuna,23
+1208588,SPA1,2024-10-27,Leganes,Celta Vigo,537,Leganes,23,538,Celta Vigo,23
+1208586,SPA1,2024-10-27,Real Betis,Atletico Madrid,543,Real Betis,21,530,Atletico Madrid,22
+1208584,SPA1,2024-10-27,Getafe,Valencia,546,Getafe,21,532,Valencia,22
+1208585,SPA1,2024-10-28,Mallorca,Athletic Club,798,Mallorca,23,531,Athletic Club,23
+1208598,SPA1,2024-11-01,Alaves,Mallorca,542,Alaves,23,798,Mallorca,23
+1208597,SPA1,2024-11-02,Osasuna,Valladolid,727,Osasuna,23,720,Valladolid,22
+1208596,SPA1,2024-11-02,Girona,Leganes,547,Girona,22,537,Leganes,19
+1208594,SPA1,2024-11-03,Atletico Madrid,Las Palmas,530,Atletico Madrid,20,534,Las Palmas,23
+1212921,SPA1,2024-11-03,Barcelona,Espanyol,529,Barcelona,22,540,Espanyol,23
+1208601,SPA1,2024-11-03,Sevilla,Real Sociedad,536,Sevilla,23,548,Real Sociedad,23
+1208593,SPA1,2024-11-03,Athletic Club,Real Betis,531,Athletic Club,23,543,Real Betis,21
+1208595,SPA1,2024-11-04,Celta Vigo,Getafe,538,Celta Vigo,23,546,Getafe,21
+1208609,SPA1,2024-11-08,Rayo Vallecano,Las Palmas,728,Rayo Vallecano,23,534,Las Palmas,23
+1208610,SPA1,2024-11-09,Villarreal,Alaves,533,Villarreal,20,542,Alaves,23
+1208604,SPA1,2024-11-09,Leganes,Sevilla,537,Leganes,22,536,Sevilla,22
+1208608,SPA1,2024-11-09,Real Madrid,Osasuna,541,Real Madrid,21,727,Osasuna,23
+1208602,SPA1,2024-11-10,Real Betis,Celta Vigo,543,Real Betis,23,538,Celta Vigo,23
+1208606,SPA1,2024-11-10,Mallorca,Atletico Madrid,798,Mallorca,22,530,Atletico Madrid,21
+1208605,SPA1,2024-11-10,Valladolid,Athletic Club,720,Valladolid,23,531,Athletic Club,23
+1208603,SPA1,2024-11-10,Getafe,Girona,546,Getafe,20,547,Girona,20
+1208607,SPA1,2024-11-10,Real Sociedad,Barcelona,548,Real Sociedad,23,529,Barcelona,21
+1208612,SPA1,2024-11-22,Getafe,Valladolid,546,Getafe,20,720,Valladolid,23
+1208619,SPA1,2024-11-23,Atletico Madrid,Alaves,530,Atletico Madrid,21,542,Alaves,23
+1212923,SPA1,2024-11-23,Girona,Espanyol,547,Girona,23,540,Espanyol,23
+1208614,SPA1,2024-11-23,Las Palmas,Mallorca,534,Las Palmas,23,798,Mallorca,22
+1208616,SPA1,2024-11-23,Celta Vigo,Barcelona,538,Celta Vigo,23,529,Barcelona,23
+1208617,SPA1,2024-11-23,Valencia,Real Betis,532,Valencia,23,543,Real Betis,21
+1208611,SPA1,2024-11-24,Athletic Club,Real Sociedad,531,Athletic Club,23,548,Real Sociedad,23
+1208615,SPA1,2024-11-24,Leganes,Real Madrid,537,Leganes,23,541,Real Madrid,19
+1208613,SPA1,2024-11-24,Osasuna,Villarreal,727,Osasuna,23,533,Villarreal,19
+1208618,SPA1,2024-11-24,Sevilla,Rayo Vallecano,536,Sevilla,22,728,Rayo Vallecano,23
+1208621,SPA1,2024-11-29,Mallorca,Valencia,798,Mallorca,23,532,Valencia,22
+1208620,SPA1,2024-11-30,Barcelona,Las Palmas,529,Barcelona,23,534,Las Palmas,23
+1208622,SPA1,2024-11-30,Alaves,Leganes,542,Alaves,22,537,Leganes,23
+1212924,SPA1,2024-11-30,Espanyol,Celta Vigo,540,Espanyol,23,538,Celta Vigo,23
+1208624,SPA1,2024-11-30,Valladolid,Atletico Madrid,720,Valladolid,23,530,Atletico Madrid,21
+1208625,SPA1,2024-12-01,Real Sociedad,Real Betis,548,Real Sociedad,23,543,Real Betis,22
+1208623,SPA1,2024-12-01,Rayo Vallecano,Athletic Club,728,Rayo Vallecano,23,531,Athletic Club,23
+1208627,SPA1,2024-12-01,Villarreal,Girona,533,Villarreal,18,547,Girona,22
+1208626,SPA1,2024-12-01,Real Madrid,Getafe,541,Real Madrid,21,546,Getafe,20
+1208628,SPA1,2024-12-02,Sevilla,Osasuna,536,Sevilla,23,727,Osasuna,23
+1208661,SPA1,2024-12-03,Mallorca,Barcelona,798,Mallorca,23,529,Barcelona,23
+1208656,SPA1,2024-12-04,Athletic Club,Real Madrid,531,Athletic Club,23,541,Real Madrid,21
+1208631,SPA1,2024-12-06,Celta Vigo,Mallorca,538,Celta Vigo,23,798,Mallorca,23
+1208633,SPA1,2024-12-07,Las Palmas,Valladolid,534,Las Palmas,23,720,Valladolid,22
+1208635,SPA1,2024-12-07,Real Betis,Barcelona,543,Real Betis,22,529,Barcelona,23
+1208636,SPA1,2024-12-07,Valencia,Rayo Vallecano,532,Valencia,22,728,Rayo Vallecano,23
+1208632,SPA1,2024-12-07,Girona,Real Madrid,547,Girona,23,541,Real Madrid,19
+1208630,SPA1,2024-12-08,Atletico Madrid,Sevilla,530,Atletico Madrid,23,536,Sevilla,22
+1208634,SPA1,2024-12-08,Leganes,Real Sociedad,537,Leganes,22,548,Real Sociedad,23
+1208629,SPA1,2024-12-08,Athletic Club,Villarreal,531,Athletic Club,23,533,Villarreal,20
+1208637,SPA1,2024-12-08,Osasuna,Alaves,727,Osasuna,23,542,Alaves,23
+1212925,SPA1,2024-12-09,Getafe,Espanyol,546,Getafe,21,540,Espanyol,23
+1208645,SPA1,2024-12-13,Valladolid,Valencia,720,Valladolid,23,532,Valencia,23
+1208640,SPA1,2024-12-14,Rayo Vallecano,Real Madrid,728,Rayo Vallecano,23,541,Real Madrid,22
+1208643,SPA1,2024-12-14,Sevilla,Celta Vigo,536,Sevilla,22,538,Celta Vigo,23
+1212926,SPA1,2024-12-14,Espanyol,Osasuna,540,Espanyol,22,727,Osasuna,21
+1208644,SPA1,2024-12-14,Mallorca,Girona,798,Mallorca,22,547,Girona,23
+1208638,SPA1,2024-12-15,Atletico Madrid,Getafe,530,Atletico Madrid,23,546,Getafe,22
+1208641,SPA1,2024-12-15,Alaves,Athletic Club,542,Alaves,23,531,Athletic Club,23
+1208642,SPA1,2024-12-15,Villarreal,Real Betis,533,Villarreal,19,543,Real Betis,23
+1208646,SPA1,2024-12-15,Real Sociedad,Las Palmas,548,Real Sociedad,23,534,Las Palmas,23
+1208639,SPA1,2024-12-15,Barcelona,Leganes,529,Barcelona,23,537,Leganes,23
+1208599,SPA1,2024-12-18,Villarreal,Rayo Vallecano,533,Villarreal,21,728,Rayo Vallecano,23
+1212922,SPA1,2024-12-18,Espanyol,Valencia,540,Espanyol,23,532,Valencia,23
+1208650,SPA1,2024-12-20,Girona,Valladolid,547,Girona,22,720,Valladolid,23
+1208653,SPA1,2024-12-21,Osasuna,Athletic Club,727,Osasuna,22,531,Athletic Club,23
+1208654,SPA1,2024-12-21,Barcelona,Atletico Madrid,529,Barcelona,23,530,Atletico Madrid,23
+1208649,SPA1,2024-12-21,Getafe,Mallorca,546,Getafe,22,798,Mallorca,23
+1208648,SPA1,2024-12-21,Celta Vigo,Real Sociedad,538,Celta Vigo,23,548,Real Sociedad,23
+1208655,SPA1,2024-12-22,Valencia,Alaves,532,Valencia,22,542,Alaves,23
+1208651,SPA1,2024-12-22,Real Madrid,Sevilla,541,Real Madrid,20,536,Sevilla,23
+1212927,SPA1,2024-12-22,Las Palmas,Espanyol,534,Las Palmas,23,540,Espanyol,23
+1208652,SPA1,2024-12-22,Leganes,Villarreal,537,Leganes,23,533,Villarreal,20
+1208647,SPA1,2024-12-22,Real Betis,Rayo Vallecano,543,Real Betis,22,728,Rayo Vallecano,23
+1208600,SPA1,2025-01-03,Valencia,Real Madrid,532,Valencia,22,541,Real Madrid,21
+1208663,SPA1,2025-01-10,Rayo Vallecano,Celta Vigo,728,Rayo Vallecano,23,538,Celta Vigo,23
+1208659,SPA1,2025-01-11,Sevilla,Valencia,536,Sevilla,23,532,Valencia,23
+1212928,SPA1,2025-01-11,Espanyol,Leganes,540,Espanyol,23,537,Leganes,21
+1208660,SPA1,2025-01-11,Alaves,Girona,542,Alaves,23,547,Girona,23
+1208662,SPA1,2025-01-11,Valladolid,Real Betis,720,Valladolid,23,543,Real Betis,21
+1208657,SPA1,2025-01-12,Atletico Madrid,Osasuna,530,Atletico Madrid,23,727,Osasuna,22
+1208664,SPA1,2025-01-12,Las Palmas,Getafe,534,Las Palmas,21,546,Getafe,23
+1208658,SPA1,2025-01-13,Real Sociedad,Villarreal,548,Real Sociedad,23,533,Villarreal,21
+1212929,SPA1,2025-01-17,Espanyol,Valladolid,540,Espanyol,23,720,Valladolid,23
+1208665,SPA1,2025-01-18,Girona,Sevilla,547,Girona,21,536,Sevilla,23
+1208668,SPA1,2025-01-18,Leganes,Atletico Madrid,537,Leganes,23,530,Atletico Madrid,23
+1208673,SPA1,2025-01-18,Real Betis,Alaves,543,Real Betis,21,542,Alaves,22
+1208669,SPA1,2025-01-18,Getafe,Barcelona,546,Getafe,23,529,Barcelona,23
+1208671,SPA1,2025-01-19,Valencia,Real Sociedad,532,Valencia,23,548,Real Sociedad,23
+1208666,SPA1,2025-01-19,Osasuna,Rayo Vallecano,727,Osasuna,23,728,Rayo Vallecano,22
+1208667,SPA1,2025-01-19,Celta Vigo,Athletic Club,538,Celta Vigo,23,531,Athletic Club,23
+1208672,SPA1,2025-01-19,Real Madrid,Las Palmas,541,Real Madrid,21,534,Las Palmas,22
+1208670,SPA1,2025-01-20,Villarreal,Mallorca,533,Villarreal,23,798,Mallorca,23
+1208677,SPA1,2025-01-24,Las Palmas,Osasuna,534,Las Palmas,22,727,Osasuna,22
+1208679,SPA1,2025-01-25,Mallorca,Real Betis,798,Mallorca,23,543,Real Betis,20
+1208675,SPA1,2025-01-25,Atletico Madrid,Villarreal,530,Atletico Madrid,23,533,Villarreal,23
+1212930,SPA1,2025-01-25,Sevilla,Espanyol,536,Sevilla,23,540,Espanyol,23
+1208682,SPA1,2025-01-25,Valladolid,Real Madrid,720,Valladolid,20,541,Real Madrid,21
+1208676,SPA1,2025-01-26,Barcelona,Valencia,529,Barcelona,22,532,Valencia,23
+1208681,SPA1,2025-01-26,Rayo Vallecano,Girona,728,Rayo Vallecano,23,547,Girona,22
+1208680,SPA1,2025-01-26,Real Sociedad,Getafe,548,Real Sociedad,23,546,Getafe,23
+1208674,SPA1,2025-01-26,Athletic Club,Leganes,531,Athletic Club,23,537,Leganes,20
+1208678,SPA1,2025-01-27,Alaves,Celta Vigo,542,Alaves,22,538,Celta Vigo,23
+1208688,SPA1,2025-01-31,Leganes,Rayo Vallecano,537,Leganes,22,728,Rayo Vallecano,23
+1208687,SPA1,2025-02-01,Villarreal,Valladolid,533,Villarreal,22,720,Valladolid,21
+1208684,SPA1,2025-02-01,Getafe,Sevilla,546,Getafe,23,536,Sevilla,23
+1212931,SPA1,2025-02-01,Espanyol,Real Madrid,540,Espanyol,22,541,Real Madrid,22
+1208683,SPA1,2025-02-01,Atletico Madrid,Mallorca,530,Atletico Madrid,23,798,Mallorca,22
+1208691,SPA1,2025-02-02,Barcelona,Alaves,529,Barcelona,23,542,Alaves,21
+1208690,SPA1,2025-02-02,Valencia,Celta Vigo,532,Valencia,23,538,Celta Vigo,23
+1208686,SPA1,2025-02-02,Osasuna,Real Sociedad,727,Osasuna,23,548,Real Sociedad,23
+1208689,SPA1,2025-02-02,Real Betis,Athletic Club,543,Real Betis,22,531,Athletic Club,22
+1208685,SPA1,2025-02-03,Girona,Las Palmas,547,Girona,23,534,Las Palmas,21
+1208694,SPA1,2025-02-07,Rayo Vallecano,Valladolid,728,Rayo Vallecano,23,720,Valladolid,22
+1208695,SPA1,2025-02-08,Las Palmas,Villarreal,534,Las Palmas,21,533,Villarreal,21
+1208697,SPA1,2025-02-08,Real Madrid,Atletico Madrid,541,Real Madrid,23,530,Atletico Madrid,23
+1208699,SPA1,2025-02-08,Celta Vigo,Real Betis,538,Celta Vigo,23,543,Real Betis,23
+1208692,SPA1,2025-02-08,Athletic Club,Girona,531,Athletic Club,22,547,Girona,23
+1208698,SPA1,2025-02-09,Sevilla,Barcelona,536,Sevilla,21,529,Barcelona,23
+1212932,SPA1,2025-02-09,Real Sociedad,Espanyol,548,Real Sociedad,23,540,Espanyol,22
+1208700,SPA1,2025-02-09,Valencia,Leganes,532,Valencia,23,537,Leganes,21
+1208696,SPA1,2025-02-09,Alaves,Getafe,542,Alaves,20,546,Getafe,23
+1208693,SPA1,2025-02-10,Mallorca,Osasuna,798,Mallorca,22,727,Osasuna,22
+1208705,SPA1,2025-02-14,Girona,Getafe,547,Girona,23,546,Getafe,23
+1208707,SPA1,2025-02-15,Villarreal,Valencia,533,Villarreal,20,532,Valencia,23
+1208709,SPA1,2025-02-15,Leganes,Alaves,537,Leganes,22,542,Alaves,22
+1208704,SPA1,2025-02-15,Osasuna,Real Madrid,727,Osasuna,22,541,Real Madrid,21
+1208701,SPA1,2025-02-15,Atletico Madrid,Celta Vigo,530,Atletico Madrid,23,538,Celta Vigo,23
+1208708,SPA1,2025-02-16,Mallorca,Las Palmas,798,Mallorca,23,534,Las Palmas,21
+1208703,SPA1,2025-02-16,Real Betis,Real Sociedad,543,Real Betis,22,548,Real Sociedad,23
+1212933,SPA1,2025-02-16,Espanyol,Athletic Club,540,Espanyol,23,531,Athletic Club,23
+1208706,SPA1,2025-02-16,Valladolid,Sevilla,720,Valladolid,22,536,Sevilla,21
+1208702,SPA1,2025-02-17,Barcelona,Rayo Vallecano,529,Barcelona,23,728,Rayo Vallecano,23
+1208711,SPA1,2025-02-21,Celta Vigo,Osasuna,538,Celta Vigo,23,727,Osasuna,22
+1212934,SPA1,2025-02-22,Alaves,Espanyol,542,Alaves,22,540,Espanyol,23
+1208712,SPA1,2025-02-22,Rayo Vallecano,Villarreal,728,Rayo Vallecano,23,533,Villarreal,20
+1208713,SPA1,2025-02-22,Valencia,Atletico Madrid,532,Valencia,23,530,Atletico Madrid,22
+1208714,SPA1,2025-02-22,Las Palmas,Barcelona,534,Las Palmas,20,529,Barcelona,23
+1208710,SPA1,2025-02-23,Athletic Club,Valladolid,531,Athletic Club,23,720,Valladolid,22
+1208716,SPA1,2025-02-23,Real Madrid,Girona,541,Real Madrid,21,547,Girona,23
+1208715,SPA1,2025-02-23,Getafe,Real Betis,546,Getafe,22,543,Real Betis,20
+1208718,SPA1,2025-02-23,Real Sociedad,Leganes,548,Real Sociedad,23,537,Leganes,21
+1208717,SPA1,2025-02-24,Sevilla,Mallorca,536,Sevilla,22,798,Mallorca,23
+1208726,SPA1,2025-02-28,Valladolid,Las Palmas,720,Valladolid,23,534,Las Palmas,22
+1208723,SPA1,2025-03-01,Atletico Madrid,Athletic Club,530,Atletico Madrid,22,531,Athletic Club,22
+1208720,SPA1,2025-03-01,Real Betis,Real Madrid,543,Real Betis,20,541,Real Madrid,19
+1208724,SPA1,2025-03-01,Girona,Celta Vigo,547,Girona,23,538,Celta Vigo,23
+1208722,SPA1,2025-03-01,Rayo Vallecano,Sevilla,728,Rayo Vallecano,22,536,Sevilla,22
+1208725,SPA1,2025-03-02,Leganes,Getafe,537,Leganes,20,546,Getafe,23
+1208719,SPA1,2025-03-02,Barcelona,Real Sociedad,529,Barcelona,23,548,Real Sociedad,22
+1208727,SPA1,2025-03-02,Mallorca,Alaves,798,Mallorca,23,542,Alaves,21
+1208721,SPA1,2025-03-02,Osasuna,Valencia,727,Osasuna,23,532,Valencia,23
+1208731,SPA1,2025-03-08,Celta Vigo,Leganes,538,Celta Vigo,23,537,Leganes,21
+1208734,SPA1,2025-03-08,Alaves,Villarreal,542,Alaves,22,533,Villarreal,20
+1208733,SPA1,2025-03-08,Valencia,Valladolid,532,Valencia,23,720,Valladolid,22
+1208735,SPA1,2025-03-09,Getafe,Atletico Madrid,546,Getafe,23,530,Atletico Madrid,22
+1208736,SPA1,2025-03-09,Real Madrid,Rayo Vallecano,541,Real Madrid,19,728,Rayo Vallecano,20
+1208728,SPA1,2025-03-09,Athletic Club,Mallorca,531,Athletic Club,20,798,Mallorca,23
+1208730,SPA1,2025-03-09,Real Betis,Las Palmas,543,Real Betis,21,534,Las Palmas,22
+1208732,SPA1,2025-03-09,Real Sociedad,Sevilla,548,Real Sociedad,23,536,Sevilla,23
+1212936,SPA1,2025-03-10,Espanyol,Girona,540,Espanyol,23,547,Girona,23
+1208745,SPA1,2025-03-14,Las Palmas,Alaves,534,Las Palmas,21,542,Alaves,22
+1208742,SPA1,2025-03-15,Valladolid,Celta Vigo,720,Valladolid,23,538,Celta Vigo,23
+1212937,SPA1,2025-03-15,Mallorca,Espanyol,798,Mallorca,23,540,Espanyol,23
+1208744,SPA1,2025-03-15,Villarreal,Real Madrid,533,Villarreal,20,541,Real Madrid,21
+1208738,SPA1,2025-03-15,Girona,Valencia,547,Girona,22,532,Valencia,23
+1208737,SPA1,2025-03-16,Atletico Madrid,Barcelona,530,Atletico Madrid,22,529,Barcelona,22
+1208743,SPA1,2025-03-16,Osasuna,Getafe,727,Osasuna,23,546,Getafe,23
+1208739,SPA1,2025-03-16,Rayo Vallecano,Real Sociedad,728,Rayo Vallecano,20,548,Real Sociedad,22
+1208741,SPA1,2025-03-16,Leganes,Real Betis,537,Leganes,21,543,Real Betis,22
+1208740,SPA1,2025-03-16,Sevilla,Athletic Club,536,Sevilla,23,531,Athletic Club,22
+1208729,SPA1,2025-03-27,Barcelona,Osasuna,529,Barcelona,23,727,Osasuna,23
+1208751,SPA1,2025-03-29,Real Sociedad,Valladolid,548,Real Sociedad,22,720,Valladolid,23
+1212938,SPA1,2025-03-29,Espanyol,Atletico Madrid,540,Espanyol,23,530,Atletico Madrid,23
+1208752,SPA1,2025-03-29,Alaves,Rayo Vallecano,542,Alaves,23,728,Rayo Vallecano,23
+1208754,SPA1,2025-03-29,Real Madrid,Leganes,541,Real Madrid,21,537,Leganes,23
+1208748,SPA1,2025-03-30,Real Betis,Sevilla,543,Real Betis,22,536,Sevilla,22
+1208750,SPA1,2025-03-30,Getafe,Villarreal,546,Getafe,23,533,Villarreal,20
+1208747,SPA1,2025-03-30,Barcelona,Girona,529,Barcelona,22,547,Girona,19
+1208746,SPA1,2025-03-30,Athletic Club,Osasuna,531,Athletic Club,23,727,Osasuna,21
+1208753,SPA1,2025-03-30,Valencia,Mallorca,532,Valencia,23,798,Mallorca,22
+1208749,SPA1,2025-03-31,Celta Vigo,Las Palmas,538,Celta Vigo,23,534,Las Palmas,23
+1212939,SPA1,2025-04-04,Rayo Vallecano,Espanyol,728,Rayo Vallecano,23,540,Espanyol,23
+1208755,SPA1,2025-04-05,Barcelona,Real Betis,529,Barcelona,22,543,Real Betis,22
+1208761,SPA1,2025-04-05,Mallorca,Celta Vigo,798,Mallorca,22,538,Celta Vigo,23
+1208763,SPA1,2025-04-05,Girona,Alaves,547,Girona,23,542,Alaves,23
+1208756,SPA1,2025-04-05,Real Madrid,Valencia,541,Real Madrid,20,532,Valencia,23
+1208757,SPA1,2025-04-06,Las Palmas,Real Sociedad,534,Las Palmas,23,548,Real Sociedad,22
+1208760,SPA1,2025-04-06,Sevilla,Atletico Madrid,536,Sevilla,22,530,Atletico Madrid,21
+1208762,SPA1,2025-04-06,Valladolid,Getafe,720,Valladolid,23,546,Getafe,23
+1208759,SPA1,2025-04-06,Villarreal,Athletic Club,533,Villarreal,20,531,Athletic Club,22
+1208758,SPA1,2025-04-07,Leganes,Osasuna,537,Leganes,22,727,Osasuna,22
+1208772,SPA1,2025-04-11,Valencia,Sevilla,532,Valencia,23,536,Sevilla,23
+1212940,SPA1,2025-04-12,Celta Vigo,Espanyol,538,Celta Vigo,23,540,Espanyol,23
+1208767,SPA1,2025-04-12,Getafe,Las Palmas,546,Getafe,23,534,Las Palmas,23
+1208769,SPA1,2025-04-12,Leganes,Barcelona,537,Leganes,23,529,Barcelona,23
+1208771,SPA1,2025-04-12,Real Sociedad,Mallorca,548,Real Sociedad,23,798,Mallorca,22
+1208764,SPA1,2025-04-13,Athletic Club,Rayo Vallecano,531,Athletic Club,23,728,Rayo Vallecano,22
+1208766,SPA1,2025-04-13,Real Betis,Villarreal,543,Real Betis,22,533,Villarreal,19
+1208770,SPA1,2025-04-13,Osasuna,Girona,727,Osasuna,22,547,Girona,23
+1208768,SPA1,2025-04-13,Alaves,Real Madrid,542,Alaves,22,541,Real Madrid,21
+1208765,SPA1,2025-04-14,Atletico Madrid,Valladolid,530,Atletico Madrid,23,720,Valladolid,23
+1212941,SPA1,2025-04-18,Espanyol,Getafe,540,Espanyol,23,546,Getafe,23
+1208781,SPA1,2025-04-19,Mallorca,Leganes,798,Mallorca,22,537,Leganes,21
+1208774,SPA1,2025-04-19,Rayo Vallecano,Valencia,728,Rayo Vallecano,23,532,Valencia,23
+1208773,SPA1,2025-04-19,Barcelona,Celta Vigo,529,Barcelona,23,538,Celta Vigo,23
+1208776,SPA1,2025-04-19,Las Palmas,Atletico Madrid,534,Las Palmas,23,530,Atletico Madrid,23
+1208779,SPA1,2025-04-20,Villarreal,Real Sociedad,533,Villarreal,20,548,Real Sociedad,21
+1208778,SPA1,2025-04-20,Valladolid,Osasuna,720,Valladolid,23,727,Osasuna,23
+1208775,SPA1,2025-04-20,Real Madrid,Athletic Club,541,Real Madrid,20,531,Athletic Club,23
+1208780,SPA1,2025-04-20,Sevilla,Alaves,536,Sevilla,23,542,Alaves,22
+1208777,SPA1,2025-04-21,Girona,Real Betis,547,Girona,23,543,Real Betis,21
+1212942,SPA1,2025-04-22,Valencia,Espanyol,532,Valencia,23,540,Espanyol,23
+1208784,SPA1,2025-04-22,Barcelona,Mallorca,529,Barcelona,22,798,Mallorca,20
+1208782,SPA1,2025-04-23,Athletic Club,Las Palmas,531,Athletic Club,23,534,Las Palmas,22
+1208786,SPA1,2025-04-23,Celta Vigo,Villarreal,538,Celta Vigo,23,533,Villarreal,20
+1208789,SPA1,2025-04-23,Alaves,Real Sociedad,542,Alaves,23,548,Real Sociedad,23
+1208787,SPA1,2025-04-23,Getafe,Real Madrid,546,Getafe,21,541,Real Madrid,21
+1208788,SPA1,2025-04-24,Osasuna,Sevilla,727,Osasuna,23,536,Sevilla,23
+1208790,SPA1,2025-04-24,Leganes,Girona,537,Leganes,23,547,Girona,23
+1208783,SPA1,2025-04-24,Atletico Madrid,Rayo Vallecano,530,Atletico Madrid,23,728,Rayo Vallecano,23
+1208785,SPA1,2025-04-24,Real Betis,Valladolid,543,Real Betis,23,720,Valladolid,23
+1212935,SPA1,2025-04-27,Villarreal,Espanyol,533,Villarreal,19,540,Espanyol,23
+1208797,SPA1,2025-05-02,Rayo Vallecano,Getafe,728,Rayo Vallecano,22,546,Getafe,20
+1208793,SPA1,2025-05-03,Alaves,Atletico Madrid,542,Alaves,23,530,Atletico Madrid,23
+1208798,SPA1,2025-05-03,Villarreal,Osasuna,533,Villarreal,20,727,Osasuna,21
+1208792,SPA1,2025-05-03,Las Palmas,Valencia,534,Las Palmas,23,532,Valencia,23
+1208795,SPA1,2025-05-03,Valladolid,Barcelona,720,Valladolid,23,529,Barcelona,23
+1208799,SPA1,2025-05-04,Sevilla,Leganes,536,Sevilla,22,537,Leganes,19
+1208794,SPA1,2025-05-04,Real Sociedad,Athletic Club,548,Real Sociedad,23,531,Athletic Club,22
+1208796,SPA1,2025-05-04,Real Madrid,Celta Vigo,541,Real Madrid,19,538,Celta Vigo,23
+1212943,SPA1,2025-05-04,Espanyol,Real Betis,540,Espanyol,23,543,Real Betis,22
+1208791,SPA1,2025-05-05,Girona,Mallorca,547,Girona,21,798,Mallorca,22
+1208806,SPA1,2025-05-09,Las Palmas,Rayo Vallecano,534,Las Palmas,23,728,Rayo Vallecano,23
+1208807,SPA1,2025-05-10,Valencia,Getafe,532,Valencia,23,546,Getafe,21
+1208803,SPA1,2025-05-10,Celta Vigo,Sevilla,538,Celta Vigo,23,536,Sevilla,22
+1208804,SPA1,2025-05-10,Girona,Villarreal,547,Girona,21,533,Villarreal,21
+1208805,SPA1,2025-05-10,Mallorca,Valladolid,798,Mallorca,22,720,Valladolid,23
+1208800,SPA1,2025-05-10,Atletico Madrid,Real Sociedad,530,Atletico Madrid,22,548,Real Sociedad,23
+1212944,SPA1,2025-05-11,Leganes,Espanyol,537,Leganes,22,540,Espanyol,23
+1208801,SPA1,2025-05-11,Barcelona,Real Madrid,529,Barcelona,23,541,Real Madrid,21
+1208808,SPA1,2025-05-11,Athletic Club,Alaves,531,Athletic Club,22,542,Alaves,23
+1208802,SPA1,2025-05-11,Real Betis,Osasuna,543,Real Betis,22,727,Osasuna,22
+1208814,SPA1,2025-05-13,Valladolid,Girona,720,Valladolid,23,547,Girona,21
+1208816,SPA1,2025-05-13,Sevilla,Las Palmas,536,Sevilla,23,534,Las Palmas,23
+1208813,SPA1,2025-05-13,Real Sociedad,Celta Vigo,548,Real Sociedad,23,538,Celta Vigo,23
+1208817,SPA1,2025-05-14,Villarreal,Leganes,533,Villarreal,21,537,Leganes,23
+1208809,SPA1,2025-05-14,Alaves,Valencia,542,Alaves,23,532,Valencia,23
+1208815,SPA1,2025-05-14,Real Madrid,Mallorca,541,Real Madrid,20,798,Mallorca,21
+1208811,SPA1,2025-05-15,Osasuna,Atletico Madrid,727,Osasuna,23,530,Atletico Madrid,23
+1208812,SPA1,2025-05-15,Rayo Vallecano,Real Betis,728,Rayo Vallecano,23,543,Real Betis,22
+1212945,SPA1,2025-05-15,Espanyol,Barcelona,540,Espanyol,22,529,Barcelona,22
+1208810,SPA1,2025-05-15,Getafe,Athletic Club,546,Getafe,21,531,Athletic Club,23
+1208822,SPA1,2025-05-18,Mallorca,Getafe,798,Mallorca,23,546,Getafe,23
+1208825,SPA1,2025-05-18,Valladolid,Alaves,720,Valladolid,23,542,Alaves,23
+1208823,SPA1,2025-05-18,Real Sociedad,Girona,548,Real Sociedad,23,547,Girona,21
+1208820,SPA1,2025-05-18,Celta Vigo,Rayo Vallecano,538,Celta Vigo,23,728,Rayo Vallecano,22
+1212946,SPA1,2025-05-18,Osasuna,Espanyol,727,Osasuna,23,540,Espanyol,23
+1208821,SPA1,2025-05-18,Valencia,Athletic Club,532,Valencia,23,531,Athletic Club,23
+1208819,SPA1,2025-05-18,Barcelona,Villarreal,529,Barcelona,23,533,Villarreal,22
+1208824,SPA1,2025-05-18,Sevilla,Real Madrid,536,Sevilla,23,541,Real Madrid,20
+1208818,SPA1,2025-05-18,Atletico Madrid,Real Betis,530,Atletico Madrid,23,543,Real Betis,21
+1208826,SPA1,2025-05-18,Las Palmas,Leganes,534,Las Palmas,23,537,Leganes,22
+1208828,SPA1,2025-05-23,Real Betis,Valencia,543,Real Betis,21,532,Valencia,23
+1208829,SPA1,2025-05-24,Real Madrid,Real Sociedad,541,Real Madrid,19,548,Real Sociedad,23
+1208831,SPA1,2025-05-24,Leganes,Valladolid,537,Leganes,23,720,Valladolid,23
+1212947,SPA1,2025-05-24,Espanyol,Las Palmas,540,Espanyol,23,534,Las Palmas,23
+1208834,SPA1,2025-05-24,Rayo Vallecano,Mallorca,728,Rayo Vallecano,23,798,Mallorca,23
+1208833,SPA1,2025-05-24,Getafe,Celta Vigo,546,Getafe,21,538,Celta Vigo,23
+1208830,SPA1,2025-05-24,Alaves,Osasuna,542,Alaves,22,727,Osasuna,23
+1208832,SPA1,2025-05-25,Girona,Atletico Madrid,547,Girona,20,530,Atletico Madrid,23
+1208835,SPA1,2025-05-25,Villarreal,Sevilla,533,Villarreal,21,536,Sevilla,22
+1208827,SPA1,2025-05-25,Athletic Club,Barcelona,531,Athletic Club,23,529,Barcelona,23
+1390824,SPA1,2025-08-15,Girona,Rayo Vallecano,547,Girona,21,728,Rayo Vallecano,23
+1390828,SPA1,2025-08-15,Villarreal,Oviedo,533,Villarreal,23,718,Oviedo,23
+1390825,SPA1,2025-08-16,Mallorca,Barcelona,798,Mallorca,23,529,Barcelona,23
+1390827,SPA1,2025-08-16,Valencia,Real Sociedad,532,Valencia,23,548,Real Sociedad,23
+1390819,SPA1,2025-08-16,Alaves,Levante,542,Alaves,22,539,Levante,23
+1390821,SPA1,2025-08-17,Celta Vigo,Getafe,538,Celta Vigo,23,546,Getafe,18
+1390823,SPA1,2025-08-17,Espanyol,Atletico Madrid,540,Espanyol,23,530,Atletico Madrid,23
+1390820,SPA1,2025-08-17,Athletic Club,Sevilla,531,Athletic Club,23,536,Sevilla,22
+1390822,SPA1,2025-08-18,Elche,Real Betis,797,Elche,23,543,Real Betis,22

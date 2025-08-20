@@ -1,0 +1,380 @@
+fixture_id,league_code,match_date,home_team,away_team,team_1_id,team_1_name,team_1_players_count,team_2_id,team_2_name,team_2_players_count
+1234644,ITA2,2024-08-23,Modena,Bari,899,Modena,23,508,Bari,23
+1234645,ITA2,2024-08-24,Pisa,Palermo,801,Pisa,23,522,Palermo,23
+1234640,ITA2,2024-08-24,Brescia,Cittadella,518,Brescia,23,510,Cittadella,22
+1234648,ITA2,2024-08-24,Spezia,Frosinone,515,Spezia,23,512,Frosinone,23
+1234642,ITA2,2024-08-24,Cremonese,Carrarese,520,Cremonese,23,1581,Carrarese,23
+1234647,ITA2,2024-08-24,Sassuolo,Cesena,488,Sassuolo,23,509,Cesena,21
+1234649,ITA2,2024-08-24,Sudtirol,Salernitana,1578,Sudtirol,23,514,Salernitana,21
+1234646,ITA2,2024-08-24,Sampdoria,Reggiana,498,Sampdoria,23,880,Reggiana,22
+1234641,ITA2,2024-08-25,Catanzaro,Juve Stabia,1687,Catanzaro,22,863,Juve Stabia,23
+1234643,ITA2,2024-08-25,Mantova,Cosenza,1693,Mantova,23,10137,Cosenza,23
+1234650,ITA2,2024-08-27,Bari,Sassuolo,508,Bari,23,488,Sassuolo,23
+1234653,ITA2,2024-08-27,Cittadella,Pisa,510,Cittadella,23,801,Pisa,23
+1234655,ITA2,2024-08-27,Cremonese,Palermo,520,Cremonese,23,522,Palermo,23
+1234656,ITA2,2024-08-27,Frosinone,Modena,512,Frosinone,23,899,Modena,23
+1234658,ITA2,2024-08-27,Reggiana,Brescia,880,Reggiana,22,518,Brescia,23
+1234651,ITA2,2024-08-27,Carrarese,Sudtirol,1581,Carrarese,23,1578,Sudtirol,23
+1234659,ITA2,2024-08-27,Salernitana,Sampdoria,514,Salernitana,22,498,Sampdoria,23
+1234654,ITA2,2024-08-28,Cosenza,Spezia,10137,Cosenza,23,515,Spezia,23
+1234657,ITA2,2024-08-28,Juve Stabia,Mantova,863,Juve Stabia,23,1693,Mantova,23
+1234652,ITA2,2024-08-28,Cesena,Catanzaro,509,Cesena,23,1687,Catanzaro,23
+1234665,ITA2,2024-08-31,Pisa,Reggiana,801,Pisa,23,880,Reggiana,23
+1234667,ITA2,2024-08-31,Sassuolo,Cremonese,488,Sassuolo,23,520,Cremonese,22
+1234663,ITA2,2024-08-31,Modena,Cittadella,899,Modena,23,510,Cittadella,21
+1234666,ITA2,2024-08-31,Sampdoria,Bari,498,Sampdoria,23,508,Bari,23
+1234669,ITA2,2024-08-31,Sudtirol,Brescia,1578,Sudtirol,23,518,Brescia,23
+1234662,ITA2,2024-09-01,Mantova,Salernitana,1693,Mantova,23,514,Salernitana,23
+1234660,ITA2,2024-09-01,Catanzaro,Carrarese,1687,Catanzaro,23,1581,Carrarese,23
+1234661,ITA2,2024-09-01,Frosinone,Juve Stabia,512,Frosinone,23,863,Juve Stabia,23
+1234668,ITA2,2024-09-01,Spezia,Cesena,515,Spezia,23,509,Cesena,23
+1234664,ITA2,2024-09-01,Palermo,Cosenza,522,Palermo,22,10137,Cosenza,23
+1234673,ITA2,2024-09-13,Cesena,Modena,509,Cesena,23,899,Modena,23
+1234676,ITA2,2024-09-14,Cremonese,Spezia,520,Cremonese,23,515,Spezia,23
+1234670,ITA2,2024-09-14,Bari,Mantova,508,Bari,23,1693,Mantova,23
+1234674,ITA2,2024-09-14,Cittadella,Catanzaro,510,Cittadella,23,1687,Catanzaro,23
+1234671,ITA2,2024-09-14,Brescia,Frosinone,518,Brescia,23,512,Frosinone,23
+1234677,ITA2,2024-09-14,Juve Stabia,Palermo,863,Juve Stabia,23,522,Palermo,23
+1234679,ITA2,2024-09-15,Salernitana,Pisa,514,Salernitana,23,801,Pisa,23
+1234678,ITA2,2024-09-15,Reggiana,Sudtirol,880,Reggiana,23,1578,Sudtirol,23
+1234675,ITA2,2024-09-15,Cosenza,Sampdoria,10137,Cosenza,23,498,Sampdoria,23
+1234672,ITA2,2024-09-15,Carrarese,Sassuolo,1581,Carrarese,23,488,Sassuolo,23
+1234680,ITA2,2024-09-20,Catanzaro,Cremonese,1687,Catanzaro,23,520,Cremonese,21
+1234684,ITA2,2024-09-21,Modena,Juve Stabia,899,Modena,21,863,Juve Stabia,23
+1234687,ITA2,2024-09-21,Reggiana,Salernitana,880,Reggiana,23,514,Salernitana,23
+1234681,ITA2,2024-09-21,Cosenza,Sassuolo,10137,Cosenza,23,488,Sassuolo,23
+1234685,ITA2,2024-09-21,Palermo,Cesena,522,Palermo,22,509,Cesena,23
+1234686,ITA2,2024-09-21,Pisa,Brescia,801,Pisa,23,518,Brescia,21
+1234688,ITA2,2024-09-21,Sampdoria,Sudtirol,498,Sampdoria,23,1578,Sudtirol,23
+1234689,ITA2,2024-09-22,Spezia,Carrarese,515,Spezia,23,1581,Carrarese,23
+1234682,ITA2,2024-09-22,Frosinone,Bari,512,Frosinone,23,508,Bari,23
+1234683,ITA2,2024-09-22,Mantova,Cittadella,1693,Mantova,23,510,Cittadella,21
+1234694,ITA2,2024-09-27,Cittadella,Frosinone,510,Cittadella,22,512,Frosinone,23
+1234698,ITA2,2024-09-28,Sassuolo,Spezia,488,Sassuolo,23,515,Spezia,23
+1234690,ITA2,2024-09-28,Bari,Cosenza,508,Bari,23,10137,Cosenza,23
+1234692,ITA2,2024-09-28,Carrarese,Reggiana,1581,Carrarese,23,880,Reggiana,23
+1234696,ITA2,2024-09-29,Modena,Sampdoria,899,Modena,21,498,Sampdoria,23
+1234695,ITA2,2024-09-29,Juve Stabia,Pisa,863,Juve Stabia,23,801,Pisa,23
+1234693,ITA2,2024-09-29,Cesena,Mantova,509,Cesena,23,1693,Mantova,23
+1234697,ITA2,2024-09-29,Salernitana,Catanzaro,514,Salernitana,23,1687,Catanzaro,23
+1234699,ITA2,2024-09-30,Sudtirol,Palermo,1578,Sudtirol,23,522,Palermo,23
+1234691,ITA2,2024-09-30,Brescia,Cremonese,518,Brescia,23,520,Cremonese,22
+1234707,ITA2,2024-10-04,Sampdoria,Juve Stabia,498,Sampdoria,23,863,Juve Stabia,22
+1234703,ITA2,2024-10-05,Frosinone,Carrarese,512,Frosinone,23,1581,Carrarese,23
+1234708,ITA2,2024-10-05,Sassuolo,Cittadella,488,Sassuolo,23,510,Cittadella,23
+1234706,ITA2,2024-10-05,Pisa,Cesena,801,Pisa,22,509,Cesena,23
+1234709,ITA2,2024-10-05,Spezia,Reggiana,515,Spezia,23,880,Reggiana,23
+1234704,ITA2,2024-10-06,Mantova,Brescia,1693,Mantova,23,518,Brescia,23
+1234702,ITA2,2024-10-06,Cremonese,Bari,520,Cremonese,23,508,Bari,23
+1234705,ITA2,2024-10-06,Palermo,Salernitana,522,Palermo,23,514,Salernitana,23
+1234700,ITA2,2024-10-06,Catanzaro,Modena,1687,Catanzaro,23,899,Modena,23
+1234701,ITA2,2024-10-06,Cosenza,Sudtirol,10137,Cosenza,23,1578,Sudtirol,23
+1234710,ITA2,2024-10-18,Bari,Catanzaro,508,Bari,22,1687,Catanzaro,23
+1234714,ITA2,2024-10-19,Cittadella,Cosenza,510,Cittadella,23,10137,Cosenza,23
+1234718,ITA2,2024-10-19,Salernitana,Spezia,514,Salernitana,23,515,Spezia,23
+1234711,ITA2,2024-10-19,Brescia,Sassuolo,518,Brescia,19,488,Sassuolo,23
+1234719,ITA2,2024-10-19,Sudtirol,Pisa,1578,Sudtirol,21,801,Pisa,23
+1234716,ITA2,2024-10-19,Modena,Palermo,899,Modena,23,522,Palermo,22
+1234715,ITA2,2024-10-20,Juve Stabia,Cremonese,863,Juve Stabia,23,520,Cremonese,23
+1234717,ITA2,2024-10-20,Reggiana,Frosinone,880,Reggiana,23,512,Frosinone,23
+1234712,ITA2,2024-10-20,Carrarese,Mantova,1581,Carrarese,23,1693,Mantova,23
+1234713,ITA2,2024-10-20,Cesena,Sampdoria,509,Cesena,22,498,Sampdoria,23
+1234729,ITA2,2024-10-25,Spezia,Bari,515,Spezia,23,508,Bari,23
+1234728,ITA2,2024-10-26,Sassuolo,Modena,488,Sassuolo,23,899,Modena,23
+1234720,ITA2,2024-10-26,Carrarese,Cittadella,1581,Carrarese,23,510,Cittadella,23
+1234723,ITA2,2024-10-26,Cosenza,Juve Stabia,10137,Cosenza,23,863,Juve Stabia,23
+1234722,ITA2,2024-10-26,Cesena,Brescia,509,Cesena,23,518,Brescia,20
+1234726,ITA2,2024-10-26,Palermo,Reggiana,522,Palermo,23,880,Reggiana,23
+1234724,ITA2,2024-10-26,Cremonese,Salernitana,520,Cremonese,24,514,Salernitana,23
+1234721,ITA2,2024-10-27,Catanzaro,Sudtirol,1687,Catanzaro,23,1578,Sudtirol,21
+1234727,ITA2,2024-10-27,Sampdoria,Mantova,498,Sampdoria,23,1693,Mantova,23
+1234725,ITA2,2024-10-27,Frosinone,Pisa,512,Frosinone,23,801,Pisa,23
+1234730,ITA2,2024-10-29,Bari,Carrarese,508,Bari,22,1581,Carrarese,23
+1234738,ITA2,2024-10-29,Salernitana,Cesena,514,Salernitana,23,509,Cesena,23
+1234731,ITA2,2024-10-29,Brescia,Spezia,518,Brescia,21,515,Spezia,23
+1234733,ITA2,2024-10-29,Juve Stabia,Sassuolo,863,Juve Stabia,23,488,Sassuolo,23
+1234737,ITA2,2024-10-29,Reggiana,Cosenza,880,Reggiana,23,10137,Cosenza,23
+1234735,ITA2,2024-10-29,Modena,Cremonese,899,Modena,23,520,Cremonese,23
+1234739,ITA2,2024-10-30,Sudtirol,Frosinone,1578,Sudtirol,23,512,Frosinone,23
+1234736,ITA2,2024-10-30,Pisa,Catanzaro,801,Pisa,23,1687,Catanzaro,23
+1234732,ITA2,2024-10-30,Cittadella,Sampdoria,510,Cittadella,23,498,Sampdoria,23
+1234734,ITA2,2024-10-30,Mantova,Palermo,1693,Mantova,23,522,Palermo,22
+1234741,ITA2,2024-11-02,Carrarese,Juve Stabia,1581,Carrarese,23,863,Juve Stabia,23
+1234749,ITA2,2024-11-02,Spezia,Modena,515,Spezia,23,899,Modena,22
+1234740,ITA2,2024-11-02,Bari,Reggiana,508,Bari,23,880,Reggiana,23
+1234744,ITA2,2024-11-03,Cosenza,Salernitana,10137,Cosenza,23,514,Salernitana,23
+1234743,ITA2,2024-11-03,Cesena,Sudtirol,509,Cesena,23,1578,Sudtirol,23
+1234745,ITA2,2024-11-03,Cremonese,Pisa,520,Cremonese,23,801,Pisa,23
+1234746,ITA2,2024-11-03,Palermo,Cittadella,522,Palermo,23,510,Cittadella,22
+1234742,ITA2,2024-11-03,Catanzaro,Frosinone,1687,Catanzaro,23,512,Frosinone,23
+1234747,ITA2,2024-11-03,Sampdoria,Brescia,498,Sampdoria,23,518,Brescia,20
+1234748,ITA2,2024-11-03,Sassuolo,Mantova,488,Sassuolo,23,1693,Mantova,23
+1234752,ITA2,2024-11-08,Frosinone,Palermo,512,Frosinone,22,522,Palermo,23
+1234754,ITA2,2024-11-09,Mantova,Cremonese,1693,Mantova,23,520,Cremonese,22
+1234755,ITA2,2024-11-09,Modena,Carrarese,899,Modena,23,1581,Carrarese,23
+1234759,ITA2,2024-11-09,Sudtirol,Sassuolo,1578,Sudtirol,23,488,Sassuolo,23
+1234750,ITA2,2024-11-09,Brescia,Cosenza,518,Brescia,22,10137,Cosenza,23
+1234756,ITA2,2024-11-09,Pisa,Sampdoria,801,Pisa,23,498,Sampdoria,23
+1234751,ITA2,2024-11-10,Cittadella,Cesena,510,Cittadella,21,509,Cesena,23
+1234753,ITA2,2024-11-10,Juve Stabia,Spezia,863,Juve Stabia,23,515,Spezia,23
+1234757,ITA2,2024-11-10,Reggiana,Catanzaro,880,Reggiana,23,1687,Catanzaro,23
+1234758,ITA2,2024-11-10,Salernitana,Bari,514,Salernitana,23,508,Bari,23
+1234764,ITA2,2024-11-22,Cosenza,Modena,10137,Cosenza,23,899,Modena,23
+1234763,ITA2,2024-11-23,Cesena,Reggiana,509,Cesena,23,880,Reggiana,23
+1234762,ITA2,2024-11-23,Catanzaro,Mantova,1687,Catanzaro,23,1693,Mantova,23
+1234761,ITA2,2024-11-23,Carrarese,Pisa,1581,Carrarese,23,801,Pisa,23
+1234766,ITA2,2024-11-23,Juve Stabia,Brescia,863,Juve Stabia,23,518,Brescia,20
+1234768,ITA2,2024-11-23,Sassuolo,Salernitana,488,Sassuolo,23,514,Salernitana,21
+1234767,ITA2,2024-11-24,Palermo,Sampdoria,522,Palermo,23,498,Sampdoria,23
+1234765,ITA2,2024-11-24,Cremonese,Frosinone,520,Cremonese,23,512,Frosinone,22
+1234769,ITA2,2024-11-24,Spezia,Sudtirol,515,Spezia,23,1578,Sudtirol,23
+1234760,ITA2,2024-11-24,Bari,Cittadella,508,Bari,22,510,Cittadella,20
+1234776,ITA2,2024-11-29,Reggiana,Sassuolo,880,Reggiana,23,488,Sassuolo,23
+1234779,ITA2,2024-11-30,Sudtirol,Cremonese,1578,Sudtirol,22,520,Cremonese,23
+1234770,ITA2,2024-11-30,Brescia,Bari,518,Brescia,22,508,Bari,23
+1234771,ITA2,2024-11-30,Cittadella,Juve Stabia,510,Cittadella,20,863,Juve Stabia,23
+1234778,ITA2,2024-11-30,Sampdoria,Catanzaro,498,Sampdoria,22,1687,Catanzaro,23
+1234773,ITA2,2024-11-30,Mantova,Modena,1693,Mantova,23,899,Modena,23
+1234777,ITA2,2024-12-01,Salernitana,Carrarese,514,Salernitana,23,1581,Carrarese,23
+1234775,ITA2,2024-12-01,Pisa,Cosenza,801,Pisa,22,10137,Cosenza,23
+1234772,ITA2,2024-12-01,Frosinone,Cesena,512,Frosinone,23,509,Cesena,23
+1234774,ITA2,2024-12-01,Palermo,Spezia,522,Palermo,23,515,Spezia,23
+1234785,ITA2,2024-12-06,Juve Stabia,Sudtirol,863,Juve Stabia,23,1578,Sudtirol,23
+1234781,ITA2,2024-12-07,Carrarese,Palermo,1581,Carrarese,23,522,Palermo,23
+1234786,ITA2,2024-12-07,Mantova,Pisa,1693,Mantova,23,801,Pisa,23
+1234780,ITA2,2024-12-07,Bari,Cesena,508,Bari,23,509,Cesena,23
+1234787,ITA2,2024-12-07,Modena,Salernitana,899,Modena,23,514,Salernitana,22
+1234783,ITA2,2024-12-07,Cosenza,Frosinone,10137,Cosenza,23,512,Frosinone,23
+1234782,ITA2,2024-12-08,Catanzaro,Brescia,1687,Catanzaro,22,518,Brescia,23
+1234789,ITA2,2024-12-08,Spezia,Cittadella,515,Spezia,23,510,Cittadella,20
+1234784,ITA2,2024-12-08,Cremonese,Reggiana,520,Cremonese,23,880,Reggiana,23
+1234788,ITA2,2024-12-08,Sassuolo,Sampdoria,488,Sassuolo,23,498,Sampdoria,23
+1234795,ITA2,2024-12-13,Pisa,Bari,801,Pisa,23,508,Bari,23
+1234798,ITA2,2024-12-14,Sampdoria,Spezia,498,Sampdoria,23,515,Spezia,23
+1234799,ITA2,2024-12-14,Sudtirol,Mantova,1578,Sudtirol,22,1693,Mantova,23
+1234793,ITA2,2024-12-14,Frosinone,Sassuolo,512,Frosinone,23,488,Sassuolo,23
+1234791,ITA2,2024-12-14,Cesena,Cosenza,509,Cesena,23,10137,Cosenza,23
+1234796,ITA2,2024-12-14,Reggiana,Modena,880,Reggiana,23,899,Modena,23
+1234794,ITA2,2024-12-15,Palermo,Catanzaro,522,Palermo,22,1687,Catanzaro,22
+1234792,ITA2,2024-12-15,Cittadella,Cremonese,510,Cittadella,22,520,Cremonese,23
+1234790,ITA2,2024-12-15,Brescia,Carrarese,518,Brescia,22,1581,Carrarese,23
+1234797,ITA2,2024-12-15,Salernitana,Juve Stabia,514,Salernitana,23,863,Juve Stabia,22
+1234808,ITA2,2024-12-20,Salernitana,Brescia,514,Salernitana,23,518,Brescia,21
+1234803,ITA2,2024-12-21,Cittadella,Reggiana,510,Cittadella,21,880,Reggiana,23
+1234802,ITA2,2024-12-21,Catanzaro,Spezia,1687,Catanzaro,23,515,Spezia,23
+1234807,ITA2,2024-12-21,Modena,Pisa,899,Modena,23,801,Pisa,23
+1234800,ITA2,2024-12-21,Bari,Sudtirol,508,Bari,23,1578,Sudtirol,22
+1234801,ITA2,2024-12-21,Carrarese,Cosenza,1581,Carrarese,23,10137,Cosenza,23
+1234809,ITA2,2024-12-21,Sassuolo,Palermo,488,Sassuolo,23,522,Palermo,21
+1234806,ITA2,2024-12-21,Mantova,Frosinone,1693,Mantova,23,512,Frosinone,23
+1234805,ITA2,2024-12-22,Juve Stabia,Cesena,863,Juve Stabia,21,509,Cesena,23
+1234804,ITA2,2024-12-22,Cremonese,Sampdoria,520,Cremonese,23,498,Sampdoria,23
+1234815,ITA2,2024-12-26,Pisa,Sassuolo,801,Pisa,23,488,Sassuolo,23
+1234816,ITA2,2024-12-26,Reggiana,Juve Stabia,880,Reggiana,23,863,Juve Stabia,21
+1234812,ITA2,2024-12-26,Cosenza,Catanzaro,10137,Cosenza,23,1687,Catanzaro,23
+1234810,ITA2,2024-12-26,Brescia,Modena,518,Brescia,23,899,Modena,23
+1234819,ITA2,2024-12-26,Sudtirol,Cittadella,1578,Sudtirol,22,510,Cittadella,22
+1234811,ITA2,2024-12-26,Cesena,Cremonese,509,Cesena,22,520,Cremonese,22
+1234814,ITA2,2024-12-26,Palermo,Bari,522,Palermo,23,508,Bari,23
+1234817,ITA2,2024-12-26,Sampdoria,Carrarese,498,Sampdoria,23,1581,Carrarese,23
+1234818,ITA2,2024-12-26,Spezia,Mantova,515,Spezia,23,1693,Mantova,23
+1234813,ITA2,2024-12-26,Frosinone,Salernitana,512,Frosinone,23,514,Salernitana,23
+1234829,ITA2,2024-12-29,Sassuolo,Cosenza,488,Sassuolo,23,10137,Cosenza,22
+1234824,ITA2,2024-12-29,Cremonese,Brescia,520,Cremonese,23,518,Brescia,23
+1234827,ITA2,2024-12-29,Modena,Sudtirol,899,Modena,23,1578,Sudtirol,23
+1234826,ITA2,2024-12-29,Mantova,Reggiana,1693,Mantova,21,880,Reggiana,23
+1234821,ITA2,2024-12-29,Carrarese,Cesena,1581,Carrarese,23,509,Cesena,23
+1234820,ITA2,2024-12-29,Bari,Spezia,508,Bari,21,515,Spezia,23
+1234822,ITA2,2024-12-29,Catanzaro,Salernitana,1687,Catanzaro,23,514,Salernitana,23
+1234828,ITA2,2024-12-29,Sampdoria,Pisa,498,Sampdoria,23,801,Pisa,23
+1234825,ITA2,2024-12-29,Juve Stabia,Frosinone,863,Juve Stabia,23,512,Frosinone,23
+1234823,ITA2,2024-12-29,Cittadella,Palermo,510,Cittadella,23,522,Palermo,21
+1234831,ITA2,2025-01-12,Cesena,Cittadella,509,Cesena,23,510,Cittadella,23
+1234837,ITA2,2025-01-12,Salernitana,Sassuolo,514,Salernitana,23,488,Sassuolo,23
+1234832,ITA2,2025-01-12,Cosenza,Mantova,10137,Cosenza,23,1693,Mantova,23
+1234836,ITA2,2025-01-12,Reggiana,Bari,880,Reggiana,23,508,Bari,22
+1234839,ITA2,2025-01-12,Sudtirol,Catanzaro,1578,Sudtirol,22,1687,Catanzaro,23
+1234838,ITA2,2025-01-12,Spezia,Juve Stabia,515,Spezia,23,863,Juve Stabia,23
+1234833,ITA2,2025-01-12,Frosinone,Cremonese,512,Frosinone,23,520,Cremonese,23
+1234834,ITA2,2025-01-12,Palermo,Modena,522,Palermo,22,899,Modena,24
+1234830,ITA2,2025-01-12,Brescia,Sampdoria,518,Brescia,20,498,Sampdoria,22
+1234835,ITA2,2025-01-13,Pisa,Carrarese,801,Pisa,23,1581,Carrarese,23
+1234848,ITA2,2025-01-17,Sampdoria,Cesena,498,Sampdoria,23,509,Cesena,23
+1234845,ITA2,2025-01-18,Modena,Frosinone,899,Modena,23,512,Frosinone,23
+1234843,ITA2,2025-01-18,Cittadella,Mantova,510,Cittadella,23,1693,Mantova,23
+1234847,ITA2,2025-01-18,Salernitana,Reggiana,514,Salernitana,23,880,Reggiana,23
+1234844,ITA2,2025-01-18,Cremonese,Cosenza,520,Cremonese,22,10137,Cosenza,23
+1234840,ITA2,2025-01-18,Bari,Brescia,508,Bari,20,518,Brescia,18
+1234842,ITA2,2025-01-19,Catanzaro,Pisa,1687,Catanzaro,23,801,Pisa,23
+1234846,ITA2,2025-01-19,Palermo,Juve Stabia,522,Palermo,23,863,Juve Stabia,23
+1234849,ITA2,2025-01-19,Sassuolo,Sudtirol,488,Sassuolo,23,1578,Sudtirol,21
+1234841,ITA2,2025-01-19,Carrarese,Spezia,1581,Carrarese,22,515,Spezia,22
+1234859,ITA2,2025-01-24,Spezia,Sassuolo,515,Spezia,23,488,Sassuolo,23
+1234851,ITA2,2025-01-25,Cesena,Bari,509,Cesena,21,508,Bari,21
+1234856,ITA2,2025-01-25,Mantova,Sampdoria,1693,Mantova,23,498,Sampdoria,23
+1234854,ITA2,2025-01-25,Frosinone,Sudtirol,512,Frosinone,23,1578,Sudtirol,23
+1234852,ITA2,2025-01-25,Cosenza,Cittadella,10137,Cosenza,23,510,Cittadella,22
+1234855,ITA2,2025-01-25,Juve Stabia,Carrarese,863,Juve Stabia,23,1581,Carrarese,21
+1234850,ITA2,2025-01-26,Brescia,Catanzaro,518,Brescia,22,1687,Catanzaro,21
+1234857,ITA2,2025-01-26,Pisa,Salernitana,801,Pisa,23,514,Salernitana,23
+1234858,ITA2,2025-01-26,Reggiana,Palermo,880,Reggiana,23,522,Palermo,23
+1234853,ITA2,2025-01-26,Cremonese,Modena,520,Cremonese,20,899,Modena,23
+1234865,ITA2,2025-01-31,Palermo,Pisa,522,Palermo,21,801,Pisa,22
+1234862,ITA2,2025-02-01,Catanzaro,Cesena,1687,Catanzaro,23,509,Cesena,22
+1234864,ITA2,2025-02-01,Modena,Mantova,899,Modena,23,1693,Mantova,23
+1234868,ITA2,2025-02-01,Sassuolo,Juve Stabia,488,Sassuolo,23,863,Juve Stabia,23
+1234867,ITA2,2025-02-01,Sampdoria,Cosenza,498,Sampdoria,21,10137,Cosenza,23
+1234863,ITA2,2025-02-01,Cittadella,Spezia,510,Cittadella,22,515,Spezia,22
+1234869,ITA2,2025-02-02,Sudtirol,Reggiana,1578,Sudtirol,23,880,Reggiana,23
+1234866,ITA2,2025-02-02,Salernitana,Cremonese,514,Salernitana,23,520,Cremonese,21
+1234860,ITA2,2025-02-02,Bari,Frosinone,508,Bari,20,512,Frosinone,23
+1234861,ITA2,2025-02-02,Carrarese,Brescia,1581,Carrarese,21,518,Brescia,22
+1234870,ITA2,2025-02-07,Brescia,Salernitana,518,Brescia,19,514,Salernitana,23
+1234871,ITA2,2025-02-08,Cosenza,Carrarese,10137,Cosenza,23,1581,Carrarese,23
+1234875,ITA2,2025-02-08,Mantova,Sassuolo,1693,Mantova,23,488,Sassuolo,23
+1234873,ITA2,2025-02-08,Frosinone,Catanzaro,512,Frosinone,23,1687,Catanzaro,23
+1234876,ITA2,2025-02-08,Pisa,Cittadella,801,Pisa,22,510,Cittadella,23
+1234878,ITA2,2025-02-08,Sampdoria,Modena,498,Sampdoria,22,899,Modena,23
+1234877,ITA2,2025-02-09,Reggiana,Cesena,880,Reggiana,19,509,Cesena,23
+1234874,ITA2,2025-02-09,Juve Stabia,Bari,863,Juve Stabia,23,508,Bari,20
+1234879,ITA2,2025-02-09,Spezia,Palermo,515,Spezia,23,522,Palermo,21
+1234872,ITA2,2025-02-09,Cremonese,Sudtirol,520,Cremonese,22,1578,Sudtirol,23
+1234882,ITA2,2025-02-14,Catanzaro,Cittadella,1687,Catanzaro,23,510,Cittadella,22
+1234889,ITA2,2025-02-15,Sudtirol,Sampdoria,1578,Sudtirol,23,498,Sampdoria,23
+1234881,ITA2,2025-02-15,Carrarese,Salernitana,1581,Carrarese,23,514,Salernitana,23
+1234888,ITA2,2025-02-15,Sassuolo,Brescia,488,Sassuolo,23,518,Brescia,22
+1234886,ITA2,2025-02-15,Modena,Spezia,899,Modena,22,515,Spezia,23
+1234880,ITA2,2025-02-15,Bari,Cremonese,508,Bari,22,520,Cremonese,22
+1234884,ITA2,2025-02-16,Frosinone,Reggiana,512,Frosinone,23,880,Reggiana,23
+1234887,ITA2,2025-02-16,Palermo,Mantova,522,Palermo,19,1693,Mantova,23
+1234885,ITA2,2025-02-16,Juve Stabia,Cosenza,863,Juve Stabia,23,10137,Cosenza,23
+1234883,ITA2,2025-02-16,Cesena,Pisa,509,Cesena,21,801,Pisa,23
+1234898,ITA2,2025-02-21,Sampdoria,Sassuolo,498,Sampdoria,23,488,Sassuolo,23
+1234895,ITA2,2025-02-22,Pisa,Juve Stabia,801,Pisa,23,863,Juve Stabia,23
+1234891,ITA2,2025-02-22,Cittadella,Modena,510,Cittadella,21,899,Modena,22
+1234896,ITA2,2025-02-22,Reggiana,Carrarese,880,Reggiana,23,1581,Carrarese,23
+1234893,ITA2,2025-02-22,Cremonese,Cesena,520,Cremonese,21,509,Cesena,23
+1234894,ITA2,2025-02-22,Mantova,Bari,1693,Mantova,23,508,Bari,20
+1234892,ITA2,2025-02-23,Cosenza,Palermo,10137,Cosenza,23,522,Palermo,19
+1234890,ITA2,2025-02-23,Brescia,Sudtirol,518,Brescia,22,1578,Sudtirol,23
+1234899,ITA2,2025-02-23,Spezia,Catanzaro,515,Spezia,23,1687,Catanzaro,23
+1234897,ITA2,2025-02-23,Salernitana,Frosinone,514,Salernitana,23,512,Frosinone,23
+1234909,ITA2,2025-02-28,Sudtirol,Spezia,1578,Sudtirol,23,515,Spezia,23
+1234903,ITA2,2025-03-01,Cesena,Salernitana,509,Cesena,23,514,Salernitana,23
+1234904,ITA2,2025-03-01,Frosinone,Mantova,512,Frosinone,23,1693,Mantova,23
+1234905,ITA2,2025-03-01,Juve Stabia,Cittadella,863,Juve Stabia,23,510,Cittadella,22
+1234901,ITA2,2025-03-01,Carrarese,Cremonese,1581,Carrarese,23,520,Cremonese,20
+1234908,ITA2,2025-03-01,Sassuolo,Pisa,488,Sassuolo,23,801,Pisa,23
+1234906,ITA2,2025-03-02,Modena,Cosenza,899,Modena,23,10137,Cosenza,23
+1234907,ITA2,2025-03-02,Palermo,Brescia,522,Palermo,20,518,Brescia,21
+1234900,ITA2,2025-03-02,Bari,Sampdoria,508,Bari,23,498,Sampdoria,22
+1234902,ITA2,2025-03-02,Catanzaro,Reggiana,1687,Catanzaro,23,880,Reggiana,23
+1234913,ITA2,2025-03-07,Cosenza,Reggiana,10137,Cosenza,23,880,Reggiana,23
+1234917,ITA2,2025-03-08,Sampdoria,Palermo,498,Sampdoria,23,522,Palermo,21
+1234910,ITA2,2025-03-08,Brescia,Cesena,518,Brescia,22,509,Cesena,23
+1234916,ITA2,2025-03-08,Salernitana,Modena,514,Salernitana,23,899,Modena,23
+1234914,ITA2,2025-03-08,Cremonese,Catanzaro,520,Cremonese,22,1687,Catanzaro,23
+1234911,ITA2,2025-03-08,Carrarese,Frosinone,1581,Carrarese,23,512,Frosinone,23
+1234915,ITA2,2025-03-08,Mantova,Juve Stabia,1693,Mantova,23,863,Juve Stabia,23
+1234919,ITA2,2025-03-09,Spezia,Pisa,515,Spezia,23,801,Pisa,23
+1234912,ITA2,2025-03-09,Cittadella,Sudtirol,510,Cittadella,22,1578,Sudtirol,23
+1234918,ITA2,2025-03-09,Sassuolo,Bari,488,Sassuolo,23,508,Bari,22
+1234926,ITA2,2025-03-14,Palermo,Cremonese,522,Palermo,21,520,Cremonese,22
+1234925,ITA2,2025-03-15,Juve Stabia,Modena,863,Juve Stabia,23,899,Modena,23
+1234924,ITA2,2025-03-15,Frosinone,Brescia,512,Frosinone,23,518,Brescia,21
+1234922,ITA2,2025-03-15,Cesena,Spezia,509,Cesena,20,515,Spezia,23
+1234923,ITA2,2025-03-15,Cittadella,Sassuolo,510,Cittadella,23,488,Sassuolo,23
+1234920,ITA2,2025-03-15,Bari,Salernitana,508,Bari,23,514,Salernitana,23
+1234928,ITA2,2025-03-16,Reggiana,Sampdoria,880,Reggiana,23,498,Sampdoria,23
+1234927,ITA2,2025-03-16,Pisa,Mantova,801,Pisa,23,1693,Mantova,23
+1234921,ITA2,2025-03-16,Catanzaro,Cosenza,1687,Catanzaro,23,10137,Cosenza,23
+1234929,ITA2,2025-03-16,Sudtirol,Carrarese,1578,Sudtirol,23,1581,Carrarese,22
+1234939,ITA2,2025-03-28,Spezia,Brescia,515,Spezia,23,518,Brescia,22
+1234933,ITA2,2025-03-29,Cremonese,Cittadella,520,Cremonese,22,510,Cittadella,21
+1234938,ITA2,2025-03-29,Sassuolo,Reggiana,488,Sassuolo,23,880,Reggiana,23
+1234937,ITA2,2025-03-29,Sampdoria,Frosinone,498,Sampdoria,23,512,Frosinone,23
+1234935,ITA2,2025-03-29,Modena,Catanzaro,899,Modena,23,1687,Catanzaro,23
+1234934,ITA2,2025-03-29,Mantova,Sudtirol,1693,Mantova,23,1578,Sudtirol,23
+1234932,ITA2,2025-03-29,Cosenza,Pisa,10137,Cosenza,23,801,Pisa,23
+1234936,ITA2,2025-03-30,Salernitana,Palermo,514,Salernitana,23,522,Palermo,22
+1234931,ITA2,2025-03-30,Cesena,Juve Stabia,509,Cesena,23,863,Juve Stabia,23
+1234930,ITA2,2025-03-30,Carrarese,Bari,1581,Carrarese,23,508,Bari,23
+1234947,ITA2,2025-04-04,Reggiana,Cremonese,880,Reggiana,23,520,Cremonese,23
+1234940,ITA2,2025-04-05,Brescia,Mantova,518,Brescia,21,1693,Mantova,23
+1234943,ITA2,2025-04-05,Frosinone,Cosenza,512,Frosinone,23,10137,Cosenza,23
+1234942,ITA2,2025-04-05,Cittadella,Carrarese,510,Cittadella,23,1581,Carrarese,23
+1234949,ITA2,2025-04-05,Sudtirol,Cesena,1578,Sudtirol,23,509,Cesena,23
+1234944,ITA2,2025-04-05,Juve Stabia,Salernitana,863,Juve Stabia,23,514,Salernitana,23
+1234946,ITA2,2025-04-05,Pisa,Modena,801,Pisa,23,899,Modena,23
+1234941,ITA2,2025-04-06,Catanzaro,Bari,1687,Catanzaro,23,508,Bari,23
+1234945,ITA2,2025-04-06,Palermo,Sassuolo,522,Palermo,22,488,Sassuolo,23
+1234948,ITA2,2025-04-06,Spezia,Sampdoria,515,Spezia,23,498,Sampdoria,23
+1234950,ITA2,2025-04-11,Bari,Palermo,508,Bari,23,522,Palermo,21
+1234958,ITA2,2025-04-12,Salernitana,Sudtirol,514,Salernitana,23,1578,Sudtirol,23
+1234957,ITA2,2025-04-12,Reggiana,Pisa,880,Reggiana,23,801,Pisa,23
+1234951,ITA2,2025-04-12,Carrarese,Catanzaro,1581,Carrarese,23,1687,Catanzaro,22
+1234953,ITA2,2025-04-12,Cosenza,Brescia,10137,Cosenza,23,518,Brescia,23
+1234959,ITA2,2025-04-12,Sampdoria,Cittadella,498,Sampdoria,23,510,Cittadella,23
+1234956,ITA2,2025-04-12,Modena,Sassuolo,899,Modena,23,488,Sassuolo,23
+1234952,ITA2,2025-04-13,Cesena,Frosinone,509,Cesena,22,512,Frosinone,23
+1234955,ITA2,2025-04-13,Mantova,Spezia,1693,Mantova,23,515,Spezia,23
+1234954,ITA2,2025-04-13,Cremonese,Juve Stabia,520,Cremonese,22,863,Juve Stabia,23
+1234975,ITA2,2025-04-25,Cremonese,Mantova,520,Cremonese,23,1693,Mantova,23
+1234974,ITA2,2025-04-25,Cesena,Sassuolo,509,Cesena,23,488,Sassuolo,23
+1234976,ITA2,2025-04-25,Frosinone,Spezia,512,Frosinone,23,515,Spezia,23
+1234970,ITA2,2025-04-25,Bari,Modena,508,Bari,23,899,Modena,23
+1234978,ITA2,2025-04-25,Salernitana,Cosenza,514,Salernitana,23,10137,Cosenza,23
+1234971,ITA2,2025-04-25,Brescia,Pisa,518,Brescia,22,801,Pisa,23
+1234977,ITA2,2025-04-25,Reggiana,Cittadella,880,Reggiana,21,510,Cittadella,22
+1234972,ITA2,2025-04-25,Carrarese,Sampdoria,1581,Carrarese,23,498,Sampdoria,23
+1234979,ITA2,2025-04-27,Sudtirol,Juve Stabia,1578,Sudtirol,23,863,Juve Stabia,23
+1234973,ITA2,2025-04-27,Catanzaro,Palermo,1687,Catanzaro,23,522,Palermo,23
+1234982,ITA2,2025-05-01,Juve Stabia,Catanzaro,863,Juve Stabia,23,1687,Catanzaro,22
+1234983,ITA2,2025-05-01,Mantova,Cesena,1693,Mantova,23,509,Cesena,22
+1234981,ITA2,2025-05-01,Cosenza,Bari,10137,Cosenza,23,508,Bari,23
+1234984,ITA2,2025-05-01,Modena,Reggiana,899,Modena,23,880,Reggiana,21
+1234987,ITA2,2025-05-01,Sampdoria,Cremonese,498,Sampdoria,23,520,Cremonese,23
+1234985,ITA2,2025-05-01,Palermo,Sudtirol,522,Palermo,23,1578,Sudtirol,23
+1234989,ITA2,2025-05-01,Spezia,Salernitana,515,Spezia,23,514,Salernitana,23
+1234986,ITA2,2025-05-01,Pisa,Frosinone,801,Pisa,23,512,Frosinone,23
+1234980,ITA2,2025-05-01,Cittadella,Brescia,510,Cittadella,23,518,Brescia,23
+1234988,ITA2,2025-05-01,Sassuolo,Carrarese,488,Sassuolo,23,1581,Carrarese,23
+1234991,ITA2,2025-05-04,Brescia,Juve Stabia,518,Brescia,23,863,Juve Stabia,23
+1234993,ITA2,2025-05-04,Catanzaro,Sampdoria,1687,Catanzaro,23,498,Sampdoria,23
+1234999,ITA2,2025-05-04,Sudtirol,Cosenza,1578,Sudtirol,23,10137,Cosenza,23
+1234997,ITA2,2025-05-04,Reggiana,Spezia,880,Reggiana,23,515,Spezia,22
+1234992,ITA2,2025-05-04,Carrarese,Modena,1581,Carrarese,23,899,Modena,23
+1234998,ITA2,2025-05-04,Salernitana,Mantova,514,Salernitana,23,1693,Mantova,23
+1234994,ITA2,2025-05-04,Cesena,Palermo,509,Cesena,23,522,Palermo,23
+1234990,ITA2,2025-05-04,Bari,Pisa,508,Bari,23,801,Pisa,23
+1234995,ITA2,2025-05-04,Cremonese,Sassuolo,520,Cremonese,22,488,Sassuolo,23
+1234996,ITA2,2025-05-04,Frosinone,Cittadella,512,Frosinone,23,510,Cittadella,22
+1235004,ITA2,2025-05-09,Modena,Brescia,899,Modena,23,518,Brescia,23
+1235001,ITA2,2025-05-09,Cosenza,Cesena,10137,Cosenza,23,509,Cesena,23
+1235003,ITA2,2025-05-09,Mantova,Carrarese,1693,Mantova,23,1581,Carrarese,23
+1235002,ITA2,2025-05-09,Juve Stabia,Reggiana,863,Juve Stabia,23,880,Reggiana,22
+1235006,ITA2,2025-05-09,Pisa,Sudtirol,801,Pisa,23,1578,Sudtirol,22
+1235005,ITA2,2025-05-09,Palermo,Frosinone,522,Palermo,22,512,Frosinone,23
+1235007,ITA2,2025-05-09,Sampdoria,Salernitana,498,Sampdoria,23,514,Salernitana,23
+1235008,ITA2,2025-05-09,Sassuolo,Catanzaro,488,Sassuolo,23,1687,Catanzaro,23
+1235000,ITA2,2025-05-09,Cittadella,Bari,510,Cittadella,23,508,Bari,22
+1235009,ITA2,2025-05-09,Spezia,Cremonese,515,Spezia,22,520,Cremonese,19
+1234962,ITA2,2025-05-13,Juve Stabia,Sampdoria,863,Juve Stabia,23,498,Sampdoria,23
+1234963,ITA2,2025-05-13,Mantova,Catanzaro,1693,Mantova,23,1687,Catanzaro,23
+1234964,ITA2,2025-05-13,Modena,Cesena,899,Modena,23,509,Cesena,22
+1234966,ITA2,2025-05-13,Pisa,Cremonese,801,Pisa,23,520,Cremonese,23
+1234969,ITA2,2025-05-13,Sudtirol,Bari,1578,Sudtirol,23,508,Bari,23
+1234960,ITA2,2025-05-13,Brescia,Reggiana,518,Brescia,23,880,Reggiana,23
+1234968,ITA2,2025-05-13,Spezia,Cosenza,515,Spezia,23,10137,Cosenza,22
+1234967,ITA2,2025-05-13,Sassuolo,Frosinone,488,Sassuolo,23,512,Frosinone,23
+1234965,ITA2,2025-05-13,Palermo,Carrarese,522,Palermo,22,1581,Carrarese,23
+1234961,ITA2,2025-05-13,Cittadella,Salernitana,510,Cittadella,23,514,Salernitana,23
+1375443,ITA2,2025-05-17,Catanzaro,Cesena,1687,Catanzaro,22,509,Cesena,23
+1375444,ITA2,2025-05-17,Juve Stabia,Palermo,863,Juve Stabia,23,522,Palermo,22
+1375818,ITA2,2025-05-21,Juve Stabia,Cremonese,863,Juve Stabia,23,520,Cremonese,21
+1375820,ITA2,2025-05-21,Catanzaro,Spezia,1687,Catanzaro,22,515,Spezia,23
+1375819,ITA2,2025-05-25,Cremonese,Juve Stabia,520,Cremonese,23,863,Juve Stabia,23
+1375821,ITA2,2025-05-25,Spezia,Catanzaro,515,Spezia,23,1687,Catanzaro,22
+1376535,ITA2,2025-05-29,Cremonese,Spezia,520,Cremonese,22,515,Spezia,23
+1376536,ITA2,2025-06-01,Spezia,Cremonese,515,Spezia,23,520,Cremonese,23
+1375442,ITA2,2025-06-15,Sampdoria,Salernitana,498,Sampdoria,23,514,Salernitana,23

@@ -1,0 +1,755 @@
+league_code,team_id,team_name,player_id,player_name
+ITA2,899,Modena,31557,Simone Santoro
+ITA2,899,Modena,32095,Cristian Cauz
+ITA2,899,Modena,56449,Giuseppe Caso
+ITA2,899,Modena,1628,Mattia Caldara
+ITA2,899,Modena,32190,Fabio Gerli
+ITA2,899,Modena,136062,Edoardo Duca
+ITA2,899,Modena,56225,Giovanni Zaro
+ITA2,899,Modena,342005,Alessandro Dellavalle
+ITA2,899,Modena,32201,Ettore Gliozzi
+ITA2,899,Modena,281191,Fabio Abiuso
+ITA2,899,Modena,37142,Eric Botteghin
+ITA2,899,Modena,57107,Thomas Alberti
+ITA2,899,Modena,296046,Lukas Mondele
+ITA2,899,Modena,56287,Alessandro Di Pardo
+ITA2,899,Modena,56309,Matteo Cotali
+ITA2,899,Modena,31005,Fabrizio Bagheria
+ITA2,899,Modena,434018,Mirko Castelnuovo
+ITA2,899,Modena,30732,Andrea Seculin
+ITA2,899,Modena,32097,Antonio Pergreffi
+ITA2,899,Modena,147756,Pedro Mendes
+ITA2,899,Modena,467714,Marco Oliva
+ITA2,899,Modena,31271,Antonio Palumbo
+ITA2,899,Modena,336646,Jacopo Sassi
+ITA2,899,Modena,383000,Issiaka Kamate
+ITA2,899,Modena,215866,Fabio Ponsi
+ITA2,899,Modena,480409,Gady Beyuku
+ITA2,899,Modena,215902,Kleis Bozhanaj
+ITA2,899,Modena,492845,Taha Zidouh
+ITA2,899,Modena,31251,Riccardo Gagno
+ITA2,899,Modena,446023,Ioannis Sarris
+ITA2,899,Modena,30461,Grégoire Defrel
+ITA2,899,Modena,14867,Stipe Vulikić
+ITA2,899,Modena,383026,Riyad Idrissi
+ITA2,899,Modena,31765,Luca Magnino
+ITA2,899,Modena,30804,Thomas Battistella
+ITA2,508,Bari,348532,Costantino Favasuli
+ITA2,508,Bari,91423,Davide Marfella
+ITA2,508,Bari,237,Gastón Pereiro
+ITA2,508,Bari,336640,Andrea Oliveri
+ITA2,508,Bari,37026,Andrija Novakovich
+ITA2,508,Bari,8731,Karlo Lulić
+ITA2,508,Bari,162092,Lorenzo Sgarbi
+ITA2,508,Bari,480398,Flavio De Giosa
+ITA2,508,Bari,30863,Francesco Vicari
+ITA2,508,Bari,31601,Boris Radunović
+ITA2,508,Bari,56796,Mattia Maita
+ITA2,508,Bari,30788,Andrea Favilli
+ITA2,508,Bari,332129,Andrea Astrologo
+ITA2,508,Bari,30847,Gregorio Morachioli
+ITA2,508,Bari,162181,Nicholas Bonfanti
+ITA2,508,Bari,341914,Coli Saco
+ITA2,508,Bari,30862,Lorenco Šimić
+ITA2,508,Bari,30836,Giulio Maggiore
+ITA2,508,Bari,336688,Nosa Edward Obaretin
+ITA2,508,Bari,56815,Emmanuele Matino
+ITA2,508,Bari,31672,Valerio Mantovani
+ITA2,508,Bari,56877,Nicola Bellomo
+ITA2,508,Bari,284935,Mehdi Dorval
+ITA2,508,Bari,32059,Marco Pissardo
+ITA2,508,Bari,30551,Nunzio Lella
+ITA2,508,Bari,30986,Alessandro Tripaldelli
+ITA2,508,Bari,386380,Filippo Faggi
+ITA2,508,Bari,31553,César Falletti
+ITA2,508,Bari,31676,Raffaele Pucino
+ITA2,508,Bari,30990,Ahmad Benali
+ITA2,508,Bari,32122,Giacomo Ricci
+ITA2,508,Bari,31086,Raffaele Maiello
+ITA2,508,Bari,264479,Giacomo Manzari
+ITA2,508,Bari,30815,Kevin Lasagna
+ITA2,508,Bari,31996,Giuseppe Sibilli
+ITA2,508,Bari,456217,Paolo Antonio De Lucci
+ITA2,801,Pisa,427079,Alessio Castellini
+ITA2,801,Pisa,56293,Idrissa Touré
+ITA2,801,Pisa,30469,Arturo Calabresi
+ITA2,801,Pisa,56267,Leonardo Loria
+ITA2,801,Pisa,341838,Giovanni Bonfanti
+ITA2,801,Pisa,127055,Alessandro Arena
+ITA2,801,Pisa,30792,Nícolas
+ITA2,801,Pisa,331678,Henrik Wendel Meister
+ITA2,801,Pisa,43129,Adrian Rus
+ITA2,801,Pisa,431398,Mattia Leoncini
+ITA2,801,Pisa,162181,Nicholas Bonfanti
+ITA2,801,Pisa,30530,Leonardo Sernicola
+ITA2,801,Pisa,15723,Malthe Højholt
+ITA2,801,Pisa,180982,Alexander Lind
+ITA2,801,Pisa,15719,Oliver Abildgaard
+ITA2,801,Pisa,335043,Žan Jevšenak
+ITA2,801,Pisa,493582,Tommaso Ferrari
+ITA2,801,Pisa,30755,Emanuel Vignato
+ITA2,801,Pisa,302069,Samuele Angori
+ITA2,801,Pisa,30753,Mehdi Léris
+ITA2,801,Pisa,56174,Christian Sussi
+ITA2,801,Pisa,43024,Olimpiu Moruțan
+ITA2,801,Pisa,475089,Lorenzo Tosi
+ITA2,801,Pisa,394170,Adrian Raychev
+ITA2,801,Pisa,30733,Adrian Šemper
+ITA2,801,Pisa,31560,Stefano Moreo
+ITA2,801,Pisa,20959,Matteo Tramoni
+ITA2,801,Pisa,492545,Riccardo Bassanini
+ITA2,801,Pisa,91457,Jan Mlakar
+ITA2,801,Pisa,510473,Louis Buffon
+ITA2,801,Pisa,325387,Gabriele Piccinini
+ITA2,801,Pisa,56275,Pietro Beruatto
+ITA2,801,Pisa,31604,Antonio Caracciolo
+ITA2,801,Pisa,91503,Simone Canestrelli
+ITA2,801,Pisa,30723,Marius Marin
+ITA2,801,Pisa,57425,Markus Solbakken
+ITA2,522,Palermo,433548,Francesco Cutrona
+ITA2,522,Palermo,31403,Valerio Verre
+ITA2,522,Palermo,368909,Stredair Appuah
+ITA2,522,Palermo,31045,Dimitris Nikolaou
+ITA2,522,Palermo,197788,Aljoša Vasić
+ITA2,522,Palermo,432099,Manfredi Nespola
+ITA2,522,Palermo,383264,Francesco Di Bartolo Zuccarello
+ITA2,522,Palermo,322859,Sebastiano Desplanches
+ITA2,522,Palermo,31415,Pietro Ceccaroni
+ITA2,522,Palermo,30539,Federico Di Francesco
+ITA2,522,Palermo,31376,Francesco Di Mariano
+ITA2,522,Palermo,56176,Matteo Brunori
+ITA2,522,Palermo,324095,Alessio Buttaro
+ITA2,522,Palermo,8793,Thomas Henry
+ITA2,522,Palermo,30441,Emil Audero
+ITA2,522,Palermo,119182,Rayyan Baniya
+ITA2,522,Palermo,280801,Salim Diakité
+ITA2,522,Palermo,30495,Salvatore Sirigu
+ITA2,522,Palermo,31370,Jacopo Segre
+ITA2,522,Palermo,31402,Filippo Ranocchia
+ITA2,522,Palermo,85772,Jérémy Le Douaron
+ITA2,522,Palermo,310576,Patryk Peda
+ITA2,522,Palermo,162386,Kristoffer Lund
+ITA2,522,Palermo,31725,Fabio Lucioni
+ITA2,522,Palermo,986,Joel Pohjanpalo
+ITA2,522,Palermo,30526,Giangiacomo Magnani
+ITA2,522,Palermo,53704,Ionuț Nedelcearu
+ITA2,522,Palermo,21384,Alexis Blin
+ITA2,522,Palermo,30637,Roberto Insigne
+ITA2,522,Palermo,470971,Ettore Nicolosi
+ITA2,522,Palermo,632,Claudio Gomes
+ITA2,522,Palermo,325388,Niccolò Pierozzi
+ITA2,522,Palermo,31241,Dario Šarić
+ITA2,522,Palermo,518661,Pietro Avena
+ITA2,518,Brescia,30644,Davide Adorni
+ITA2,518,Brescia,31130,Andrea Cistana
+ITA2,518,Brescia,106196,Michele Avella
+ITA2,518,Brescia,2791,Birkir Bjarnason
+ITA2,518,Brescia,91306,Massimo Bertagnoli
+ITA2,518,Brescia,437778,Riccardo Fogliata
+ITA2,518,Brescia,31127,Lorenzo Andrenacci
+ITA2,518,Brescia,207480,Andrea Papetti
+ITA2,518,Brescia,31270,Fabrizio Paghera
+ITA2,518,Brescia,266481,Flavio Bianchi
+ITA2,518,Brescia,342011,Michele Besaggio
+ITA2,518,Brescia,31352,Luca Lezzerini
+ITA2,518,Brescia,378846,Patrick Amiamo Nuamah
+ITA2,518,Brescia,30857,Lorenzo Dickmann
+ITA2,518,Brescia,252,Matthias Verreth
+ITA2,518,Brescia,353613,Gabriele Calvani
+ITA2,518,Brescia,343567,Zylif Muca
+ITA2,518,Brescia,30665,Gabriele Moncini
+ITA2,518,Brescia,280938,Nicolas Galazzi
+ITA2,518,Brescia,31139,Dimitri Bisoli
+ITA2,518,Brescia,337630,Ante Matej Jurić
+ITA2,518,Brescia,136005,Niccolò Corrado
+ITA2,518,Brescia,263480,Giacomo Olzer
+ITA2,518,Brescia,6839,Trent Buhagiar
+ITA2,518,Brescia,341978,Luca D'Andrea
+ITA2,518,Brescia,47786,Alexander Jallow
+ITA2,518,Brescia,497255,Giacomo Maucci
+ITA2,518,Brescia,31499,Gennaro Borrelli
+ITA2,510,Cittadella,56954,Andrea Magrassi
+ITA2,510,Cittadella,30652,Simone Branca
+ITA2,510,Cittadella,31994,Mario Ravasio
+ITA2,510,Cittadella,156478,Stefano Piccinini
+ITA2,510,Cittadella,282412,Alessio Rizza
+ITA2,510,Cittadella,30641,Luca Maniero
+ITA2,510,Cittadella,56685,Andrea Tessiore
+ITA2,510,Cittadella,348323,Federico Casolari
+ITA2,510,Cittadella,127935,Luca Pandolfi
+ITA2,510,Cittadella,31451,Stefano Negro
+ITA2,510,Cittadella,30663,Davide Diaw
+ITA2,510,Cittadella,459005,Akim Djibril
+ITA2,510,Cittadella,31550,Alessandro Salvi
+ITA2,510,Cittadella,341985,Jacopo Desogus
+ITA2,510,Cittadella,56815,Emmanuele Matino
+ITA2,510,Cittadella,354531,Claudio Cassano
+ITA2,510,Cittadella,287917,Simone Rabbi
+ITA2,510,Cittadella,277174,Simone Tronchin
+ITA2,510,Cittadella,56692,Davide Voltan
+ITA2,510,Cittadella,50798,Orji Okwonkwo
+ITA2,510,Cittadella,162179,Edoardo Sottini
+ITA2,510,Cittadella,32118,Lorenzo Carissoni
+ITA2,510,Cittadella,31474,Elhan Kastrati
+ITA2,510,Cittadella,432053,Andrea Cecchetto
+ITA2,510,Cittadella,127047,Riccardo Palmieri
+ITA2,510,Cittadella,56278,Edoardo Masciangelo
+ITA2,510,Cittadella,352212,Ahmed Kader Sanogo
+ITA2,510,Cittadella,31898,Nicola Pavan
+ITA2,510,Cittadella,496554,Nicolò Scarpa
+ITA2,510,Cittadella,281780,Matteo Angeli
+ITA2,510,Cittadella,323211,Francesco Amatucci
+ITA2,510,Cittadella,31770,Alessio Vita
+ITA2,510,Cittadella,342037,Francesco D'Alessio
+ITA2,510,Cittadella,30824,Elio Capradossi
+ITA2,510,Cittadella,163088,Matteo Cardinali
+ITA2,510,Cittadella,470924,Edoardo Scquizzato
+ITA2,515,Spezia,56558,Salvatore Esposito
+ITA2,515,Spezia,3010,Arkadiusz Reca
+ITA2,515,Spezia,47246,Leandro Chichizola
+ITA2,515,Spezia,31081,Francesco Cassata
+ITA2,515,Spezia,386393,Rachid Kouda
+ITA2,515,Spezia,264477,Giuseppe Aurelio
+ITA2,515,Spezia,31135,Aleš Matějů
+ITA2,515,Spezia,330637,Halid Djankpata
+ITA2,515,Spezia,30790,Gianluca Lapadula
+ITA2,515,Spezia,30704,Stefano Gori
+ITA2,515,Spezia,47217,Salvador Ferrer
+ITA2,515,Spezia,30624,Filippo Bandinelli
+ITA2,515,Spezia,340699,Duccio Degli Innocenti
+ITA2,515,Spezia,345808,Francesco Pio Esposito
+ITA2,515,Spezia,56753,Mouhamadou Sarr
+ITA2,515,Spezia,41989,Edoardo Soleri
+ITA2,515,Spezia,406049,Simone Giorgeschi
+ITA2,515,Spezia,31258,Petko Hristov
+ITA2,515,Spezia,40231,Przemysław Wiśniewski
+ITA2,515,Spezia,406160,Pietro Candelari
+ITA2,515,Spezia,30840,Luca Vignali
+ITA2,515,Spezia,505905,Matteo Leonardo
+ITA2,515,Spezia,64024,Giuseppe Di Serio
+ITA2,515,Spezia,32023,Salvatore Elia
+ITA2,515,Spezia,14293,Antonio Čolak
+ITA2,515,Spezia,419871,Diego Mascardi
+ITA2,515,Spezia,495678,Matteo Garzia
+ITA2,515,Spezia,30487,Diego Falcinelli
+ITA2,515,Spezia,136014,Gian Marco Crespi
+ITA2,515,Spezia,481077,Mattia Benvenuto
+ITA2,515,Spezia,481076,Nicola Mosti
+ITA2,515,Spezia,30481,Ádám Nagy
+ITA2,515,Spezia,315249,Nicolò Bertola
+ITA2,512,Frosinone,364600,Isak Vural
+ITA2,512,Frosinone,435548,Mateus Lusuardi
+ITA2,512,Frosinone,129553,Alessandro Sorrentino
+ITA2,512,Frosinone,32020,Luigi Canotto
+ITA2,512,Frosinone,447068,Filippo Grosso
+ITA2,512,Frosinone,407859,Lazar Žaknić
+ITA2,512,Frosinone,325899,Jérémy Oyono
+ITA2,512,Frosinone,162570,Giorgio Cittadini
+ITA2,512,Frosinone,422153,Matteo Cichella
+ITA2,512,Frosinone,30981,Riccardo Marchizza
+ITA2,512,Frosinone,334915,Farès Ghedjemis
+ITA2,512,Frosinone,379504,Gabriele Bracaglia
+ITA2,512,Frosinone,311251,Giorgi Kvernadze
+ITA2,512,Frosinone,30911,Emanuele Pecorino
+ITA2,512,Frosinone,31006,Pierluigi Frattali
+ITA2,512,Frosinone,39286,Emil Bohinen
+ITA2,512,Frosinone,180586,Ilario Monterisi
+ITA2,512,Frosinone,414388,Alejandro Cichero
+ITA2,512,Frosinone,1842,Sergio Kalaj
+ITA2,512,Frosinone,201466,Tjaš Begić
+ITA2,512,Frosinone,417025,Kevin Barcella
+ITA2,512,Frosinone,31477,Davide Bettella
+ITA2,512,Frosinone,364087,Fallou Sene
+ITA2,512,Frosinone,502553,Victor Hegelund
+ITA2,512,Frosinone,204088,Ilias Koutsoupias
+ITA2,512,Frosinone,30618,Gianluca Di Chiara
+ITA2,512,Frosinone,31725,Fabio Lucioni
+ITA2,512,Frosinone,31982,Francesco Gelli
+ITA2,512,Frosinone,342067,Filippo Distefano
+ITA2,512,Frosinone,31334,Luca Garritano
+ITA2,512,Frosinone,30769,Davide Biraschi
+ITA2,512,Frosinone,191417,Anthony Oyono
+ITA2,512,Frosinone,158059,Ebrima Darboe
+ITA2,512,Frosinone,341912,Giuseppe Ambrosino
+ITA2,512,Frosinone,162036,Marvin Çuni
+ITA2,512,Frosinone,56860,Anthony Partipilo
+ITA2,512,Frosinone,351970,Alessandro Selvini
+ITA2,512,Frosinone,57053,Michele Cerofolini
+ITA2,512,Frosinone,481065,Francesco Minicangeli
+ITA2,512,Frosinone,31551,Przemysław Szymiński
+ITA2,512,Frosinone,31024,José Machín
+ITA2,512,Frosinone,30513,Ben Lhassine Kone
+ITA2,512,Frosinone,1652,Frank Tsadjout
+ITA2,512,Frosinone,266083,Hamza Haoudi
+ITA2,520,Cremonese,470707,Daniele Triacca
+ITA2,520,Cremonese,30634,Cristian Buonaiuto
+ITA2,520,Cremonese,30919,Matteo Bianchetti
+ITA2,520,Cremonese,31736,Žan Majer
+ITA2,520,Cremonese,31436,Federico Bonazzoli
+ITA2,520,Cremonese,127025,Giacomo Quagliata
+ITA2,520,Cremonese,30530,Leonardo Sernicola
+ITA2,520,Cremonese,30850,Andrea Fulignati
+ITA2,520,Cremonese,289292,Tommaso Milanese
+ITA2,520,Cremonese,31038,Gianluca Saro
+ITA2,520,Cremonese,36986,Dennis Johnsen
+ITA2,520,Cremonese,492934,Davide Pavesi
+ITA2,520,Cremonese,126980,Tommaso Barbieri
+ITA2,520,Cremonese,10997,Valentin Antov
+ITA2,520,Cremonese,392530,Francesco Tommasi
+ITA2,520,Cremonese,470706,Denis Prendi
+ITA2,520,Cremonese,126889,Michele Collocolo
+ITA2,520,Cremonese,2057,Franco Vázquez
+ITA2,520,Cremonese,237266,Lorenzo Moretti
+ITA2,520,Cremonese,48555,Charles Pickel
+ITA2,520,Cremonese,56304,Luca Zanimacchia
+ITA2,520,Cremonese,361412,Dachi Lordkipanidze
+ITA2,520,Cremonese,470716,Giacomo Gabbiani
+ITA2,520,Cremonese,30875,Mattia Valoti
+ITA2,520,Cremonese,30671,Giacomo Drago
+ITA2,520,Cremonese,31421,Luca Ravanelli
+ITA2,520,Cremonese,31853,Manuel De Luca
+ITA2,520,Cremonese,31211,Jari Vandeputte
+ITA2,520,Cremonese,30397,Federico Ceccherini
+ITA2,520,Cremonese,277175,Andreas Jungdal
+ITA2,520,Cremonese,31553,César Falletti
+ITA2,520,Cremonese,56207,Paulo Azzi
+ITA2,520,Cremonese,31982,Francesco Gelli
+ITA2,520,Cremonese,61224,Luka Lochoshvili
+ITA2,520,Cremonese,31614,Michele Castagnetti
+ITA2,520,Cremonese,345467,Marco Nasti
+ITA2,520,Cremonese,137854,Jakob Tånnander
+ITA2,520,Cremonese,385788,Francesco Folino
+ITA2,520,Cremonese,441550,Adrián Malovec
+ITA2,520,Cremonese,1652,Frank Tsadjout
+ITA2,1581,Carrarese,56405,Filippo Oliana
+ITA2,1581,Carrarese,31493,Filippo Melegoni
+ITA2,1581,Carrarese,342044,Mattia Motolese
+ITA2,1581,Carrarese,31357,Mauro Coppolaro
+ITA2,1581,Carrarese,31437,Alessandro Capello
+ITA2,1581,Carrarese,90405,Simone Zanon
+ITA2,1581,Carrarese,429641,Raffaele Cartano
+ITA2,1581,Carrarese,340706,Gabriele Guarino
+ITA2,1581,Carrarese,31473,Vincenzo Fiorillo
+ITA2,1581,Carrarese,32115,Stefano Mazzini
+ITA2,1581,Carrarese,504667,Gianluca Mazzi
+ITA2,1581,Carrarese,165712,Niccolò Chiorra
+ITA2,1581,Carrarese,289292,Tommaso Milanese
+ITA2,1581,Carrarese,337982,Stiven Shpendi
+ITA2,1581,Carrarese,503703,Kristian Ferrara
+ITA2,1581,Carrarese,31717,Marco Bleve
+ITA2,1581,Carrarese,119700,Davide Grassini
+ITA2,1581,Carrarese,30666,Giuseppe Panico
+ITA2,1581,Carrarese,182467,Emanuele Zuelli
+ITA2,1581,Carrarese,30664,Mattia Finotto
+ITA2,1581,Carrarese,31170,Michele Cavion
+ITA2,1581,Carrarese,31733,Filippo Falco
+ITA2,1581,Carrarese,6705,Julián Illanes
+ITA2,1581,Carrarese,2785,Hjörtur Hermannsson
+ITA2,1581,Carrarese,31053,Leonardo Capezzi
+ITA2,1581,Carrarese,295159,Leonardo Cerri
+ITA2,1581,Carrarese,335112,Tommaso Maressa
+ITA2,1581,Carrarese,32179,Marco Imperiale
+ITA2,1581,Carrarese,127047,Riccardo Palmieri
+ITA2,1581,Carrarese,32103,Simone Della Latta
+ITA2,1581,Carrarese,5219,Ryduan Palermo
+ITA2,1581,Carrarese,31153,Ernesto Torregrossa
+ITA2,1581,Carrarese,91436,Devid Eugene Bouah
+ITA2,1581,Carrarese,264479,Giacomo Manzari
+ITA2,1581,Carrarese,30695,Nicolas Schiavi
+ITA2,1581,Carrarese,106256,Manuel Cicconi
+ITA2,1581,Carrarese,237150,Samuel Giovane
+ITA2,1581,Carrarese,342042,Luigi Cherubini
+ITA2,1581,Carrarese,56165,Niccolò Belloni
+ITA2,1581,Carrarese,63669,Ivan Kovalenko
+ITA2,1581,Carrarese,475091,Mateo Scheffer Bracco
+ITA2,1581,Carrarese,336704,Alessandro Fontanarosa
+ITA2,1581,Carrarese,31602,Nicola Ravaglia
+ITA2,488,Sassuolo,363982,Kevin Leone
+ITA2,488,Sassuolo,30849,Nicholas Pierini
+ITA2,488,Sassuolo,30780,Luca Mazzitelli
+ITA2,488,Sassuolo,30556,Filippo Romagna
+ITA2,488,Sassuolo,57899,Yeferson Paz
+ITA2,488,Sassuolo,48577,Nedim Bajrami
+ITA2,488,Sassuolo,68407,Andrea Ghion
+ITA2,488,Sassuolo,145548,Tijs Velthuis
+ITA2,488,Sassuolo,271350,Tarik Muharemović
+ITA2,488,Sassuolo,341995,Justin Kumi
+ITA2,488,Sassuolo,30853,Kevin Bonifazi
+ITA2,488,Sassuolo,30537,Domenico Berardi
+ITA2,488,Sassuolo,127802,Cas Odenthal
+ITA2,488,Sassuolo,291780,Daniel Boloca
+ITA2,488,Sassuolo,281291,Edoardo Iannoni
+ITA2,488,Sassuolo,343540,Kevin Bruno
+ITA2,488,Sassuolo,42642,Horațiu Moldovan
+ITA2,488,Sassuolo,135526,Josh Doig
+ITA2,488,Sassuolo,342035,Cristian Volpato
+ITA2,488,Sassuolo,330758,Flavio Russo
+ITA2,488,Sassuolo,264739,Laurs Skjellerup
+ITA2,488,Sassuolo,343562,Luca Lipani
+ITA2,488,Sassuolo,39143,Kristian Thorstvedt
+ITA2,488,Sassuolo,193870,Janis Antiste
+ITA2,488,Sassuolo,30518,Giacomo Satalino
+ITA2,488,Sassuolo,30766,Alessandro Russo
+ITA2,488,Sassuolo,56318,Fabrizio Caligara
+ITA2,488,Sassuolo,91490,Samuele Mulattieri
+ITA2,488,Sassuolo,31418,Matteo Lovato
+ITA2,488,Sassuolo,18824,Pedro Obiang
+ITA2,488,Sassuolo,342653,Filippo Missori
+ITA2,488,Sassuolo,438210,Borna Knezović
+ITA2,488,Sassuolo,31440,Luca Moro
+ITA2,488,Sassuolo,341978,Luca D'Andrea
+ITA2,488,Sassuolo,342056,Kevin Miranda
+ITA2,488,Sassuolo,1118,Jeremy Toljan
+ITA2,488,Sassuolo,2215,Armand Laurienté
+ITA2,488,Sassuolo,342055,Edoardo Pieragnolo
+ITA2,488,Sassuolo,334,Simone Verdi
+ITA2,509,Cesena,483592,Niccolo Fontana
+ITA2,509,Cesena,483586,Ibrahima Wade Papa
+ITA2,509,Cesena,32160,Saber Hraiech
+ITA2,509,Cesena,32064,Daniele Donnarumma
+ITA2,509,Cesena,325399,Tommaso Berti
+ITA2,509,Cesena,31062,Antonino La Gumina
+ITA2,509,Cesena,47841,Joseph Ceesay
+ITA2,509,Cesena,93001,Elayis Tavsan
+ITA2,509,Cesena,31842,Riccardo Chiarello
+ITA2,509,Cesena,30998,Augustus Kargbo
+ITA2,509,Cesena,403544,Gianmarco Castorri
+ITA2,509,Cesena,441581,Enea Pitti
+ITA2,509,Cesena,325403,Cristian Shpendi
+ITA2,509,Cesena,56384,Massimiliano Mangraviti
+ITA2,509,Cesena,330758,Flavio Russo
+ITA2,509,Cesena,383028,Simone Pieraccini
+ITA2,509,Cesena,325400,Matteo Francesconi
+ITA2,509,Cesena,392489,Leonardo Mendicino
+ITA2,509,Cesena,483592,Niccolò Fontana
+ITA2,509,Cesena,32011,Giacomo Calò
+ITA2,509,Cesena,56644,Matteo Piacentini
+ITA2,509,Cesena,454244,William Montalti
+ITA2,509,Cesena,422102,Federico Valentini
+ITA2,509,Cesena,412945,Valentino Coveri
+ITA2,509,Cesena,403542,Giulio Manetti
+ITA2,509,Cesena,30687,Simone Bastoni
+ITA2,509,Cesena,127024,Emanuele Adamo
+ITA2,509,Cesena,106167,Andrea Ciofi
+ITA2,509,Cesena,25335,Jonathan Klinsmann
+ITA2,509,Cesena,56270,Alessandro Siano
+ITA2,509,Cesena,412944,Alessandro Giovannini
+ITA2,509,Cesena,415249,Giulio Veliaj
+ITA2,509,Cesena,470768,Giovanni Perini
+ITA2,509,Cesena,31040,Marco Curto
+ITA2,509,Cesena,30882,Matteo Pisseri
+ITA2,509,Cesena,56433,Raffaele Celia
+ITA2,509,Cesena,31497,Mirko Antonucci
+ITA2,509,Cesena,31836,Giuseppe Prestia
+ITA2,509,Cesena,31241,Dario Šarić
+ITA2,509,Cesena,38713,Sydney van Hooijdonk
+ITA2,1578,Sudtirol,378281,Federico Davi
+ITA2,1578,Sudtirol,30851,Giacomo Poluzzi
+ITA2,1578,Sudtirol,449685,Renato Halili
+ITA2,1578,Sudtirol,56620,Daniele Casiraghi
+ITA2,1578,Sudtirol,137098,Andrea Giorgini
+ITA2,1578,Sudtirol,31050,Frédéric Veseli
+ITA2,1578,Sudtirol,30820,Eugenio Lamanna
+ITA2,1578,Sudtirol,127945,Raphael Odogwu
+ITA2,1578,Sudtirol,31051,Luca Belardinelli
+ITA2,1578,Sudtirol,330680,Silvio Merkaj
+ITA2,1578,Sudtirol,30971,Gabriele Gori
+ITA2,1578,Sudtirol,106232,Nicola Pietrangeli
+ITA2,1578,Sudtirol,56425,Andrea Cisco
+ITA2,1578,Sudtirol,452817,Benedikt Rottensteiner
+ITA2,1578,Sudtirol,312485,Daniel Theiner
+ITA2,1578,Sudtirol,32185,Tommaso Arrigoni
+ITA2,1578,Sudtirol,470787,Dhirar Brik
+ITA2,1578,Sudtirol,30865,Jasmin Kurtić
+ITA2,1578,Sudtirol,377118,Raphael Kofler
+ITA2,1578,Sudtirol,30671,Giacomo Drago
+ITA2,1578,Sudtirol,349464,Jacopo Martini
+ITA2,1578,Sudtirol,133638,Simone Davì
+ITA2,1578,Sudtirol,432074,Valerio Crespi
+ITA2,1578,Sudtirol,469325,Lorenzo Bonifacio
+ITA2,1578,Sudtirol,40399,Mateusz Praszelik
+ITA2,1578,Sudtirol,134432,Edoardo Vergani
+ITA2,1578,Sudtirol,502508,Lorenzo Coco
+ITA2,1578,Sudtirol,437680,Jonas Arlanch
+ITA2,1578,Sudtirol,32038,Hamza El Kaouakibi
+ITA2,1578,Sudtirol,31535,Matteo Rover
+ITA2,1578,Sudtirol,32032,Andrea Cagnano
+ITA2,1578,Sudtirol,30691,Alessandro Mallamo
+ITA2,1578,Sudtirol,31109,Fabian Tait
+ITA2,1578,Sudtirol,452401,Jakob Tschöll
+ITA2,1578,Sudtirol,470784,Simone Testa
+ITA2,1578,Sudtirol,375966,Alessandro Vimercati
+ITA2,1578,Sudtirol,31775,Marius Adamonis
+ITA2,1578,Sudtirol,323,Karim Zedadka
+ITA2,1578,Sudtirol,30994,Salvatore Molina
+ITA2,1578,Sudtirol,30549,Luca Ceppitelli
+ITA2,1578,Sudtirol,30426,Andrea Masiello
+ITA2,1578,Sudtirol,153459,Niklas Pyyhtiä
+ITA2,1578,Sudtirol,18890,Antonio Barreca
+ITA2,514,Salernitana,289500,Juan Cruz Guasone
+ITA2,514,Salernitana,336639,Federico Zuccon
+ITA2,514,Salernitana,2945,Dylan Bronn
+ITA2,514,Salernitana,47500,Daniele Verde
+ITA2,514,Salernitana,31619,Stefano Girelli
+ITA2,514,Salernitana,145548,Tijs Velthuis
+ITA2,514,Salernitana,11377,Diego Valencia
+ITA2,514,Salernitana,30483,Roberto Soriano
+ITA2,514,Salernitana,30787,Nicola Dalmonte
+ITA2,514,Salernitana,468738,Gerardo Fusco
+ITA2,514,Salernitana,341974,Tommaso Corazza
+ITA2,514,Salernitana,31473,Vincenzo Fiorillo
+ITA2,514,Salernitana,31084,Paolo Ghiglione
+ITA2,514,Salernitana,30836,Giulio Maggiore
+ITA2,514,Salernitana,125715,Flavius Daniliuc
+ITA2,514,Salernitana,283008,Antonio Iervolino
+ITA2,514,Salernitana,161972,Franco Tongya
+ITA2,514,Salernitana,516933,Francesco Nunziata
+ITA2,514,Salernitana,408626,Fabio Ruggeri
+ITA2,514,Salernitana,21152,Jeff Reine-Adélaïde
+ITA2,514,Salernitana,31003,Simy
+ITA2,514,Salernitana,144735,Jayden Braaf
+ITA2,514,Salernitana,322147,Andres Șfaiț
+ITA2,514,Salernitana,31008,Luigi Sepe
+ITA2,514,Salernitana,315026,Yayah Kallon
+ITA2,514,Salernitana,158614,Szymon Włodarczyk
+ITA2,514,Salernitana,301772,Mateusz Łęgowski
+ITA2,514,Salernitana,15843,Oliver Christensen
+ITA2,514,Salernitana,30523,Gian Marco Ferrari
+ITA2,514,Salernitana,346865,Lorenzo Amatucci
+ITA2,514,Salernitana,56318,Fabrizio Caligara
+ITA2,514,Salernitana,61224,Luka Lochoshvili
+ITA2,514,Salernitana,469484,Rocco Di Vico
+ITA2,514,Salernitana,31153,Ernesto Torregrossa
+ITA2,514,Salernitana,347128,Lilian Njoh
+ITA2,514,Salernitana,450919,Gregorio Salvati
+ITA2,514,Salernitana,265686,Davide Gentile
+ITA2,514,Salernitana,1315,Petar Stojanović
+ITA2,514,Salernitana,14327,Domagoj Bradarić
+ITA2,514,Salernitana,314254,Antonio Raimondo
+ITA2,514,Salernitana,38123,Ajdin Hrustić
+ITA2,514,Salernitana,30570,Alberto Cerri
+ITA2,514,Salernitana,30740,Paweł Jaroszyński
+ITA2,514,Salernitana,483677,Luca Rodolfo
+ITA2,514,Salernitana,482060,Francesco Corriere
+ITA2,514,Salernitana,30628,Andrés Tello
+ITA2,498,Sampdoria,341826,Simone Leonardi
+ITA2,498,Sampdoria,329401,Gerard Yepes
+ITA2,498,Sampdoria,411838,Nicholas Scardigno
+ITA2,498,Sampdoria,31348,Gennaro Tutino
+ITA2,498,Sampdoria,31730,Lorenzo Venuti
+ITA2,498,Sampdoria,31619,Stefano Girelli
+ITA2,498,Sampdoria,1648,Fabio Borini
+ITA2,498,Sampdoria,470720,Lorenzo Ceppi
+ITA2,498,Sampdoria,15281,Nicholas Ioannou
+ITA2,498,Sampdoria,2216,M'Baye Niang
+ITA2,498,Sampdoria,31062,Antonino La Gumina
+ITA2,498,Sampdoria,30915,Marco Silvestri
+ITA2,498,Sampdoria,465709,Mateo Fisher
+ITA2,498,Sampdoria,22016,Rémi Oudin
+ITA2,498,Sampdoria,30838,Matteo Ricci
+ITA2,498,Sampdoria,281191,Fabio Abiuso
+ITA2,498,Sampdoria,408635,Ebenezer Akinsanmiro
+ITA2,498,Sampdoria,161973,Nikola Sekulov
+ITA2,498,Sampdoria,36865,Melle Meulensteen
+ITA2,498,Sampdoria,30446,Alex Ferrari
+ITA2,498,Sampdoria,165712,Niccolò Chiorra
+ITA2,498,Sampdoria,510405,Andrey Krastev
+ITA2,498,Sampdoria,56193,Alessandro Bellemo
+ITA2,498,Sampdoria,3000,Bartosz Bereszyński
+ITA2,498,Sampdoria,31136,Simone Romagnoli
+ITA2,498,Sampdoria,31751,Giorgio Altare
+ITA2,498,Sampdoria,48521,Pajtim Kasami
+ITA2,498,Sampdoria,30794,Samuele Perisan
+ITA2,498,Sampdoria,336555,Estanis Pedrola
+ITA2,498,Sampdoria,350078,Paolo Vismara
+ITA2,498,Sampdoria,30635,Massimo Coda
+ITA2,498,Sampdoria,30747,Fabio Depaoli
+ITA2,498,Sampdoria,30546,Alessio Cragno
+ITA2,498,Sampdoria,162501,Alessandro Pio Riccio
+ITA2,498,Sampdoria,31996,Giuseppe Sibilli
+ITA2,498,Sampdoria,322954,Simone Giordano
+ITA2,498,Sampdoria,333033,Davide Veroli
+ITA2,498,Sampdoria,56275,Pietro Beruatto
+ITA2,498,Sampdoria,14867,Stipe Vulikić
+ITA2,498,Sampdoria,31040,Marco Curto
+ITA2,498,Sampdoria,30392,Simone Ghidotti
+ITA2,498,Sampdoria,31602,Nicola Ravaglia
+ITA2,498,Sampdoria,91527,Leonardo Benedetti
+ITA2,498,Sampdoria,18890,Antonio Barreca
+ITA2,498,Sampdoria,30459,Ronaldo Vieira
+ITA2,880,Reggiana,31724,Riccardo Fiamozzi
+ITA2,880,Reggiana,31407,Luca Vido
+ITA2,880,Reggiana,519853,Lorenzo Rubboli
+ITA2,880,Reggiana,281775,Diego Stramaccioni
+ITA2,880,Reggiana,30984,Mario Sampirisi
+ITA2,880,Reggiana,341995,Justin Kumi
+ITA2,880,Reggiana,470746,Federico Paterlini
+ITA2,880,Reggiana,195508,Joaquín Sosa
+ITA2,880,Reggiana,385793,Matteo Maggio
+ITA2,880,Reggiana,31504,Manuel Marras
+ITA2,880,Reggiana,31001,Stefano Pettinari
+ITA2,880,Reggiana,56292,Manolo Portanova
+ITA2,880,Reggiana,56502,Oliver Urso
+ITA2,880,Reggiana,31065,Francesco Bardi
+ITA2,880,Reggiana,430389,Simon Aibangbee
+ITA2,880,Reggiana,483590,Edoardo Cavaliere
+ITA2,880,Reggiana,342018,Lorenzo Lucchesi
+ITA2,880,Reggiana,30715,Andrea Meroni
+ITA2,880,Reggiana,115420,Paolo Rozzio
+ITA2,880,Reggiana,32194,Alessandro Sersanti
+ITA2,880,Reggiana,50798,Orji Okwonkwo
+ITA2,880,Reggiana,30486,Mattia Destro
+ITA2,880,Reggiana,43188,Elvis Kabashi
+ITA2,880,Reggiana,431413,Edoardo Motta
+ITA2,880,Reggiana,429064,Natan Girma
+ITA2,880,Reggiana,56518,Lorenzo Libutti
+ITA2,880,Reggiana,431414,Giacomo Cavallini
+ITA2,880,Reggiana,5563,Tobías Reinhart
+ITA2,880,Reggiana,30560,Luca Cigarini
+ITA2,880,Reggiana,57016,Cedric Gondo
+ITA2,880,Reggiana,31028,Leo Štulac
+ITA2,880,Reggiana,347395,Antonio Vergara
+ITA2,880,Reggiana,340589,Lorenzo Ignacchiti
+ITA2,880,Reggiana,270813,Filip Brekalo
+ITA2,880,Reggiana,347611,Yannis Nahounou
+ITA2,880,Reggiana,336704,Alessandro Fontanarosa
+ITA2,880,Reggiana,322632,Alex Sposito
+ITA2,1687,Catanzaro,340628,Riccardo Turicchia
+ITA2,1687,Catanzaro,31297,Stefano Scognamillo
+ITA2,1687,Catanzaro,285035,Philipp Breit
+ITA2,1687,Catanzaro,127025,Giacomo Quagliata
+ITA2,1687,Catanzaro,91399,Matias Antonini
+ITA2,1687,Catanzaro,275053,Rares Ilie
+ITA2,1687,Catanzaro,266331,Filippo Pittarello
+ITA2,1687,Catanzaro,31236,Mamadou Coulibaly
+ITA2,1687,Catanzaro,31738,Jacopo Petriccione
+ITA2,1687,Catanzaro,136017,Tommaso Cassandro
+ITA2,1687,Catanzaro,43039,Mirko Pigliacelli
+ITA2,1687,Catanzaro,31660,Pietro Iemmello
+ITA2,1687,Catanzaro,379068,Christian Corradi
+ITA2,1687,Catanzaro,162982,Marco Pompetti
+ITA2,1687,Catanzaro,468543,Giacint Rafele
+ITA2,1687,Catanzaro,144804,Giovanni Volpe
+ITA2,1687,Catanzaro,31585,Simone Pontisso
+ITA2,1687,Catanzaro,30806,Marco D'Alessandro
+ITA2,1687,Catanzaro,343383,Riccardo Pagano
+ITA2,1687,Catanzaro,162519,Ludovico Gelmi
+ITA2,1687,Catanzaro,470986,Gabriel Arditi
+ITA2,1687,Catanzaro,336551,Andrea Ceresoli
+ITA2,1687,Catanzaro,31283,Andrea Dini
+ITA2,1687,Catanzaro,162994,Nicolò Buso
+ITA2,1687,Catanzaro,204088,Ilias Koutsoupias
+ITA2,1687,Catanzaro,31743,Andrea La Mantia
+ITA2,1687,Catanzaro,30538,Enrico Brignola
+ITA2,1687,Catanzaro,515613,Cristian Aloisio
+ITA2,1687,Catanzaro,429063,Edoardo Borrelli
+ITA2,1687,Catanzaro,1332,Mario Šitum
+ITA2,1687,Catanzaro,282706,Demba Seck
+ITA2,1687,Catanzaro,480408,Karol Maiolo
+ITA2,1687,Catanzaro,266185,Mattia Compagnon
+ITA2,1687,Catanzaro,275053,Rareș Ilie
+ITA2,1687,Catanzaro,31074,Luka Krajnc
+ITA2,1687,Catanzaro,480408,Francesco Karol Maiolo
+ITA2,1687,Catanzaro,31071,Nicolò Brighenti
+ITA2,1687,Catanzaro,480407,Marcello Piras
+ITA2,1687,Catanzaro,30583,Federico Bonini
+ITA2,1687,Catanzaro,365017,Mario Paura
+ITA2,1687,Catanzaro,32134,Tommaso Biasci
+ITA2,863,Juve Stabia,64025,Marco Ruggero
+ITA2,863,Juve Stabia,212,Andrea Adorante
+ITA2,863,Juve Stabia,342651,Romano Floriani Mussolini
+ITA2,863,Juve Stabia,336639,Federico Zuccon
+ITA2,863,Juve Stabia,57012,Fabio Maistro
+ITA2,863,Juve Stabia,31158,Cristian Andreoni
+ITA2,863,Juve Stabia,438282,Alessandro Signorini
+ITA2,863,Juve Stabia,162092,Lorenzo Sgarbi
+ITA2,863,Juve Stabia,31650,Alberto Gerbo
+ITA2,863,Juve Stabia,30847,Gregorio Morachioli
+ITA2,863,Juve Stabia,342073,Yuri Rocchetti
+ITA2,863,Juve Stabia,32161,Nicola Mosti
+ITA2,863,Juve Stabia,56289,Giuseppe Leone
+ITA2,863,Juve Stabia,107818,Enrico Piovanello
+ITA2,863,Juve Stabia,180764,Gabriele Artistico
+ITA2,863,Juve Stabia,31198,Daniele Mignanelli
+ITA2,863,Juve Stabia,521708,Cristian Cirillo
+ITA2,863,Juve Stabia,31191,Demba Thiam
+ITA2,863,Juve Stabia,437093,Niccolò Fortini
+ITA2,863,Juve Stabia,342009,Tommaso Di Marco
+ITA2,863,Juve Stabia,136064,Marco Meli
+ITA2,863,Juve Stabia,31164,Danilo Quaranta
+ITA2,863,Juve Stabia,32139,Kevin Piscopo
+ITA2,863,Juve Stabia,56167,Davide Buglio
+ITA2,863,Juve Stabia,265366,Riccardo Tonin
+ITA2,863,Juve Stabia,323331,Matteo Baldi
+ITA2,863,Juve Stabia,56508,Kristjan Matošević
+ITA2,863,Juve Stabia,32225,Edgaras Dubickas
+ITA2,863,Juve Stabia,310576,Patryk Peda
+ITA2,863,Juve Stabia,31531,Leonardo Candellone
+ITA2,863,Juve Stabia,30675,Marco Bellich
+ITA2,863,Juve Stabia,385788,Francesco Folino
+ITA2,863,Juve Stabia,265552,Christian Pierobon
+ITA2,863,Juve Stabia,30430,Marco Varnier
+ITA2,863,Juve Stabia,344574,Alessandro Louati
+ITA2,1693,Mantova,431394,Alessandro de Benedetti
+ITA2,1693,Mantova,31523,Salvatore Burrai
+ITA2,1693,Mantova,375956,Federico Botti
+ITA2,1693,Mantova,289744,David Wieser
+ITA2,1693,Mantova,30796,Sebastien De Maio
+ITA2,1693,Mantova,31503,Leonardo Mancuso
+ITA2,1693,Mantova,56876,Matteo Solini
+ITA2,1693,Mantova,431394,Alessandro Debenedetti
+ITA2,1693,Mantova,30709,Fabrizio Brignani
+ITA2,1693,Mantova,281772,Francesco Ruocco
+ITA2,1693,Mantova,427116,Giacomo Fedel
+ITA2,1693,Mantova,341840,Flavio Paoletti
+ITA2,1693,Mantova,281219,Tommaso Maggioni
+ITA2,1693,Mantova,56320,Mattia Muroni
+ITA2,1693,Mantova,56566,Francesco Galuppini
+ITA2,1693,Mantova,106229,Cristiano Bani
+ITA2,1693,Mantova,30458,Simone Trimboli
+ITA2,1693,Mantova,31616,Stefano Cella
+ITA2,1693,Mantova,30975,Marco Festa
+ITA2,1693,Mantova,31834,Erik Panizzi
+ITA2,1693,Mantova,379312,Luca Sonzogni
+ITA2,1693,Mantova,322954,Simone Giordano
+ITA2,1693,Mantova,309830,Federico Artioli
+ITA2,1693,Mantova,56874,Alex Redolfi
+ITA2,1693,Mantova,379334,Nicolò Radaelli
+ITA2,1693,Mantova,56539,Davis Mensah
+ITA2,1693,Mantova,342065,Davide Bragantini
+ITA2,1693,Mantova,347393,Antonio Fiori
+ITA2,1693,Mantova,32196,Mattia Aramu
+ITA2,10137,Cosenza,31123,Simone Mazzocchi
+ITA2,10137,Cosenza,327580,Baldovino Cimino
+ITA2,10137,Cosenza,31637,Michele Camporese
+ITA2,10137,Cosenza,31664,Alessandro Micai
+ITA2,10137,Cosenza,330776,Pietro Martino
+ITA2,10137,Cosenza,56390,Michael Venturi
+ITA2,10137,Cosenza,282409,Aldo Florenzi
+ITA2,10137,Cosenza,342053,Christos Kourfalidis
+ITA2,10137,Cosenza,31629,Luca Strizzolo
+ITA2,10137,Cosenza,180764,Gabriele Artistico
+ITA2,10137,Cosenza,515612,Leonardo De Franceschi
+ITA2,10137,Cosenza,137093,Tommaso Fumagalli
+ITA2,10137,Cosenza,31399,Christian Kouan
+ITA2,10137,Cosenza,405273,Charlys
+ITA2,10137,Cosenza,286373,Mohamed Sankoh
+ITA2,10137,Cosenza,483114,Edoardo Contiero
+ITA2,10137,Cosenza,126885,Manuel Ricciardi
+ITA2,10137,Cosenza,279757,Riccardo Ciervo
+ITA2,10137,Cosenza,1644,José Mauri
+ITA2,10137,Cosenza,196843,Christian Dalle Mura
+ITA2,10137,Cosenza,31327,Tommaso D'Orazio
+ITA2,10137,Cosenza,129892,Juan Manuel Cruz
+ITA2,10137,Cosenza,31334,Luca Garritano
+ITA2,10137,Cosenza,356892,Gabriele Baldi
+ITA2,10137,Cosenza,91502,Thomas Vettorel
+ITA2,10137,Cosenza,32122,Giacomo Ricci
+ITA2,10137,Cosenza,31393,Filippo Sgarbi
+ITA2,10137,Cosenza,327581,Massimo Zilli
+ITA2,10137,Cosenza,411164,Jahce Novello
+ITA2,10137,Cosenza,375954,Gianmarco Begheldo
+ITA2,10137,Cosenza,32158,Mario Gargiulo
+ITA2,10137,Cosenza,56841,Alessandro Caporale
+ITA2,10137,Cosenza,31329,Andrea Hristov
+ITA2,10137,Cosenza,30870,Andrea Rizzo Pinna

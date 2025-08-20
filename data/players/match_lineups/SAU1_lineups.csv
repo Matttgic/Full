@@ -1,0 +1,307 @@
+fixture_id,league_code,match_date,home_team,away_team,team_1_id,team_1_name,team_1_players_count,team_2_id,team_2_name,team_2_players_count
+1252419,SAU1,2024-08-22,Al Taawon,Al-Fayha,2936,Al Taawon,20,2944,Al-Fayha,17
+1252420,SAU1,2024-08-22,Al Wehda Club,Al Riyadh,2937,Al Wehda Club,18,10511,Al Riyadh,20
+1252421,SAU1,2024-08-22,Al-Nassr,Al-Raed,2939,Al-Nassr,20,2935,Al-Raed,19
+1252422,SAU1,2024-08-23,Damac,Al Khaleej Saihat,2956,Damac,18,2928,Al Khaleej Saihat,20
+1252423,SAU1,2024-08-23,Al-Ahli Jeddah,Al Orubah,2929,Al-Ahli Jeddah,20,2961,Al Orubah,20
+1252424,SAU1,2024-08-23,Al-Qadisiyah FC,Al-Fateh,2933,Al-Qadisiyah FC,20,2931,Al-Fateh,19
+1252425,SAU1,2024-08-24,Al Kholood,Al-Ittihad FC,10509,Al Kholood,19,2938,Al-Ittihad FC,20
+1252426,SAU1,2024-08-24,Al Akhdoud,Al-Hilal Saudi FC,2977,Al Akhdoud,18,2932,Al-Hilal Saudi FC,20
+1252427,SAU1,2024-08-24,Al Shabab,Al-Ettifaq,2940,Al Shabab,17,2934,Al-Ettifaq,20
+1252429,SAU1,2024-08-27,Al-Raed,Al-Qadisiyah FC,2935,Al-Raed,19,2933,Al-Qadisiyah FC,20
+1252430,SAU1,2024-08-27,Al-Fayha,Al-Nassr,2944,Al-Fayha,19,2939,Al-Nassr,20
+1252428,SAU1,2024-08-27,Al-Fateh,Al-Ahli Jeddah,2931,Al-Fateh,20,2929,Al-Ahli Jeddah,20
+1252431,SAU1,2024-08-28,Al-Ettifaq,Al Akhdoud,2934,Al-Ettifaq,20,2977,Al Akhdoud,19
+1252432,SAU1,2024-08-28,Al-Hilal Saudi FC,Damac,2932,Al-Hilal Saudi FC,20,2956,Damac,19
+1252433,SAU1,2024-08-28,Al Wehda Club,Al Orubah,2937,Al Wehda Club,19,2961,Al Orubah,20
+1252435,SAU1,2024-08-29,Al Khaleej Saihat,Al Shabab,2928,Al Khaleej Saihat,20,2940,Al Shabab,19
+1252436,SAU1,2024-08-29,Al-Ittihad FC,Al Taawon,2938,Al-Ittihad FC,20,2936,Al Taawon,20
+1252434,SAU1,2024-08-29,Al Riyadh,Al Kholood,10511,Al Riyadh,20,10509,Al Kholood,20
+1252437,SAU1,2024-09-13,Al Taawon,Al Khaleej Saihat,2936,Al Taawon,20,2928,Al Khaleej Saihat,20
+1252440,SAU1,2024-09-13,Damac,Al Akhdoud,2956,Damac,20,2977,Al Akhdoud,20
+1252438,SAU1,2024-09-13,Al-Nassr,Al-Ahli Jeddah,2939,Al-Nassr,19,2929,Al-Ahli Jeddah,20
+1252441,SAU1,2024-09-14,Al-Fateh,Al-Ettifaq,2931,Al-Fateh,20,2934,Al-Ettifaq,20
+1252444,SAU1,2024-09-14,Al-Fayha,Al-Raed,2944,Al-Fayha,20,2935,Al-Raed,20
+1252439,SAU1,2024-09-14,Al Riyadh,Al-Hilal Saudi FC,10511,Al Riyadh,20,2932,Al-Hilal Saudi FC,20
+1252442,SAU1,2024-09-15,Al-Qadisiyah FC,Al Shabab,2933,Al-Qadisiyah FC,20,2940,Al Shabab,20
+1252445,SAU1,2024-09-15,Al Kholood,Al Orubah,10509,Al Kholood,20,2961,Al Orubah,19
+1252443,SAU1,2024-09-15,Al-Ittihad FC,Al Wehda Club,2938,Al-Ittihad FC,20,2937,Al Wehda Club,20
+1252447,SAU1,2024-09-19,Al Wehda Club,Al Kholood,2937,Al Wehda Club,20,10509,Al Kholood,20
+1252449,SAU1,2024-09-19,Al Akhdoud,Al-Qadisiyah FC,2977,Al Akhdoud,20,2933,Al-Qadisiyah FC,20
+1252448,SAU1,2024-09-19,Al Orubah,Al-Fateh,2961,Al Orubah,20,2931,Al-Fateh,20
+1252451,SAU1,2024-09-20,Al Khaleej Saihat,Al-Fayha,2928,Al Khaleej Saihat,20,2944,Al-Fayha,20
+1252453,SAU1,2024-09-20,Al-Ahli Jeddah,Damac,2929,Al-Ahli Jeddah,20,2956,Damac,20
+1252450,SAU1,2024-09-20,Al-Ettifaq,Al-Nassr,2934,Al-Ettifaq,20,2939,Al-Nassr,19
+1252454,SAU1,2024-09-21,Al Shabab,Al Taawon,2940,Al Shabab,20,2936,Al Taawon,20
+1252446,SAU1,2024-09-21,Al-Raed,Al Riyadh,2935,Al-Raed,20,10511,Al Riyadh,20
+1252452,SAU1,2024-09-21,Al-Hilal Saudi FC,Al-Ittihad FC,2932,Al-Hilal Saudi FC,20,2938,Al-Ittihad FC,20
+1252462,SAU1,2024-09-27,Al-Ittihad FC,Al Khaleej Saihat,2938,Al-Ittihad FC,20,2928,Al Khaleej Saihat,19
+1252457,SAU1,2024-09-27,Al-Qadisiyah FC,Al-Ahli Jeddah,2933,Al-Qadisiyah FC,20,2929,Al-Ahli Jeddah,20
+1252456,SAU1,2024-09-27,Al-Nassr,Al Wehda Club,2939,Al-Nassr,20,2937,Al Wehda Club,20
+1252458,SAU1,2024-09-28,Al Orubah,Damac,2961,Al Orubah,20,2956,Damac,20
+1252455,SAU1,2024-09-28,Al-Fateh,Al Akhdoud,2931,Al-Fateh,20,2977,Al Akhdoud,20
+1252460,SAU1,2024-09-28,Al Kholood,Al-Hilal Saudi FC,10509,Al Kholood,20,2932,Al-Hilal Saudi FC,20
+1252463,SAU1,2024-09-29,Al-Fayha,Al Riyadh,2944,Al-Fayha,20,10511,Al Riyadh,20
+1252459,SAU1,2024-09-29,Al Taawon,Al-Ettifaq,2936,Al Taawon,20,2934,Al-Ettifaq,20
+1252461,SAU1,2024-09-29,Al Shabab,Al-Raed,2940,Al Shabab,20,2935,Al-Raed,20
+1252469,SAU1,2024-10-03,Al-Ettifaq,Al-Raed,2934,Al-Ettifaq,20,2935,Al-Raed,19
+1252466,SAU1,2024-10-03,Al Akhdoud,Al-Ittihad FC,2977,Al Akhdoud,20,2938,Al-Ittihad FC,20
+1252467,SAU1,2024-10-03,Al Wehda Club,Al-Fayha,2937,Al Wehda Club,20,2944,Al-Fayha,20
+1252464,SAU1,2024-10-04,Al Riyadh,Al-Qadisiyah FC,10511,Al Riyadh,20,2933,Al-Qadisiyah FC,20
+1252472,SAU1,2024-10-04,Al Khaleej Saihat,Al Kholood,2928,Al Khaleej Saihat,20,10509,Al Kholood,20
+1252465,SAU1,2024-10-04,Damac,Al Shabab,2956,Damac,20,2940,Al Shabab,20
+1252470,SAU1,2024-10-05,Al-Nassr,Al Orubah,2939,Al-Nassr,20,2961,Al Orubah,20
+1252471,SAU1,2024-10-05,Al Taawon,Al-Fateh,2936,Al Taawon,19,2931,Al-Fateh,19
+1252468,SAU1,2024-10-05,Al-Ahli Jeddah,Al-Hilal Saudi FC,2929,Al-Ahli Jeddah,20,2932,Al-Hilal Saudi FC,19
+1252475,SAU1,2024-10-18,Al Khaleej Saihat,Al-Ahli Jeddah,2928,Al Khaleej Saihat,20,2929,Al-Ahli Jeddah,20
+1252473,SAU1,2024-10-18,Al-Hilal Saudi FC,Al-Fayha,2932,Al-Hilal Saudi FC,20,2944,Al-Fayha,20
+1252474,SAU1,2024-10-18,Al Shabab,Al-Nassr,2940,Al Shabab,20,2939,Al-Nassr,20
+1252481,SAU1,2024-10-19,Al-Raed,Al Wehda Club,2935,Al-Raed,20,2937,Al Wehda Club,20
+1252477,SAU1,2024-10-19,Al-Ittihad FC,Al-Qadisiyah FC,2938,Al-Ittihad FC,20,2933,Al-Qadisiyah FC,20
+1252478,SAU1,2024-10-19,Damac,Al Taawon,2956,Damac,20,2936,Al Taawon,20
+1252479,SAU1,2024-10-20,Al-Ettifaq,Al Orubah,2934,Al-Ettifaq,20,2961,Al Orubah,20
+1252476,SAU1,2024-10-20,Al Akhdoud,Al Riyadh,2977,Al Akhdoud,20,10511,Al Riyadh,20
+1252480,SAU1,2024-10-20,Al-Fateh,Al Kholood,2931,Al-Fateh,20,10509,Al Kholood,20
+1252486,SAU1,2024-10-24,Al Orubah,Al Shabab,2961,Al Orubah,20,2940,Al Shabab,20
+1252484,SAU1,2024-10-24,Al Riyadh,Al-Ittihad FC,10511,Al Riyadh,20,2938,Al-Ittihad FC,20
+1252485,SAU1,2024-10-24,Al Wehda Club,Al Khaleej Saihat,2937,Al Wehda Club,20,2928,Al Khaleej Saihat,20
+1252489,SAU1,2024-10-25,Al-Ahli Jeddah,Al Akhdoud,2929,Al-Ahli Jeddah,20,2977,Al Akhdoud,20
+1252487,SAU1,2024-10-25,Al Kholood,Al-Nassr,10509,Al Kholood,20,2939,Al-Nassr,20
+1252490,SAU1,2024-10-25,Al-Qadisiyah FC,Damac,2933,Al-Qadisiyah FC,20,2956,Damac,20
+1252482,SAU1,2024-10-26,Al-Raed,Al-Fateh,2935,Al-Raed,20,2931,Al-Fateh,20
+1252488,SAU1,2024-10-26,Al-Hilal Saudi FC,Al Taawon,2932,Al-Hilal Saudi FC,20,2936,Al Taawon,20
+1252483,SAU1,2024-10-26,Al-Fayha,Al-Ettifaq,2944,Al-Fayha,20,2934,Al-Ettifaq,20
+1252497,SAU1,2024-10-31,Al Shabab,Al Wehda Club,2940,Al Shabab,20,2937,Al Wehda Club,20
+1252494,SAU1,2024-10-31,Al Akhdoud,Al Orubah,2977,Al Akhdoud,20,2961,Al Orubah,20
+1252493,SAU1,2024-10-31,Al-Ittihad FC,Al-Ahli Jeddah,2938,Al-Ittihad FC,20,2929,Al-Ahli Jeddah,20
+1252499,SAU1,2024-11-01,Damac,Al Riyadh,2956,Damac,20,10511,Al Riyadh,19
+1252495,SAU1,2024-11-01,Al-Nassr,Al-Hilal Saudi FC,2939,Al-Nassr,20,2932,Al-Hilal Saudi FC,20
+1252491,SAU1,2024-11-01,Al Khaleej Saihat,Al-Raed,2928,Al Khaleej Saihat,20,2935,Al-Raed,20
+1252496,SAU1,2024-11-02,Al-Fateh,Al-Fayha,2931,Al-Fateh,20,2944,Al-Fayha,20
+1252498,SAU1,2024-11-02,Al-Ettifaq,Al-Qadisiyah FC,2934,Al-Ettifaq,20,2933,Al-Qadisiyah FC,20
+1252492,SAU1,2024-11-02,Al Taawon,Al Kholood,2936,Al Taawon,20,10509,Al Kholood,19
+1252502,SAU1,2024-11-07,Al Orubah,Al-Ittihad FC,2961,Al Orubah,20,2938,Al-Ittihad FC,20
+1252500,SAU1,2024-11-07,Al-Qadisiyah FC,Al-Fayha,2933,Al-Qadisiyah FC,20,2944,Al-Fayha,20
+1252505,SAU1,2024-11-07,Al Kholood,Al Shabab,10509,Al Kholood,20,2940,Al Shabab,20
+1252504,SAU1,2024-11-08,Al-Hilal Saudi FC,Al-Ettifaq,2932,Al-Hilal Saudi FC,20,2934,Al-Ettifaq,20
+1252506,SAU1,2024-11-08,Al-Ahli Jeddah,Al-Raed,2929,Al-Ahli Jeddah,20,2935,Al-Raed,20
+1252508,SAU1,2024-11-08,Al Riyadh,Al-Nassr,10511,Al Riyadh,20,2939,Al-Nassr,20
+1252507,SAU1,2024-11-09,Al Taawon,Al Akhdoud,2936,Al Taawon,20,2977,Al Akhdoud,20
+1252503,SAU1,2024-11-09,Al Wehda Club,Damac,2937,Al Wehda Club,20,2956,Damac,20
+1252501,SAU1,2024-11-09,Al-Fateh,Al Khaleej Saihat,2931,Al-Fateh,20,2928,Al Khaleej Saihat,20
+1252509,SAU1,2024-11-22,Al-Nassr,Al-Qadisiyah FC,2939,Al-Nassr,20,2933,Al-Qadisiyah FC,20
+1252514,SAU1,2024-11-22,Al Akhdoud,Al Shabab,2977,Al Akhdoud,20,2940,Al Shabab,20
+1252510,SAU1,2024-11-22,Al-Fayha,Al-Ahli Jeddah,2944,Al-Fayha,20,2929,Al-Ahli Jeddah,20
+1252512,SAU1,2024-11-23,Al-Raed,Al Orubah,2935,Al-Raed,20,2961,Al Orubah,20
+1252513,SAU1,2024-11-23,Al Wehda Club,Al Taawon,2937,Al Wehda Club,20,2936,Al Taawon,20
+1252511,SAU1,2024-11-23,Al Khaleej Saihat,Al-Hilal Saudi FC,2928,Al Khaleej Saihat,20,2932,Al-Hilal Saudi FC,20
+1252517,SAU1,2024-11-24,Al Riyadh,Al-Ettifaq,10511,Al Riyadh,20,2934,Al-Ettifaq,20
+1252515,SAU1,2024-11-24,Al-Ittihad FC,Al-Fateh,2938,Al-Ittihad FC,20,2931,Al-Fateh,20
+1252516,SAU1,2024-11-24,Damac,Al Kholood,2956,Damac,20,10509,Al Kholood,20
+1252520,SAU1,2024-11-28,Al Akhdoud,Al Kholood,2977,Al Akhdoud,20,10509,Al Kholood,19
+1252525,SAU1,2024-11-28,Al-Fateh,Al Riyadh,2931,Al-Fateh,20,10511,Al Riyadh,20
+1252526,SAU1,2024-11-28,Al-Fayha,Al Orubah,2944,Al-Fayha,20,2961,Al Orubah,20
+1252518,SAU1,2024-11-29,Al-Qadisiyah FC,Al Khaleej Saihat,2933,Al-Qadisiyah FC,20,2928,Al Khaleej Saihat,20
+1252522,SAU1,2024-11-29,Al-Nassr,Damac,2939,Al-Nassr,20,2956,Damac,20
+1252521,SAU1,2024-11-29,Al-Ahli Jeddah,Al Wehda Club,2929,Al-Ahli Jeddah,20,2937,Al Wehda Club,19
+1252523,SAU1,2024-11-30,Al Shabab,Al-Hilal Saudi FC,2940,Al Shabab,20,2932,Al-Hilal Saudi FC,20
+1252519,SAU1,2024-11-30,Al-Ettifaq,Al-Ittihad FC,2934,Al-Ettifaq,20,2938,Al-Ittihad FC,20
+1252524,SAU1,2024-11-30,Al-Raed,Al Taawon,2935,Al-Raed,20,2936,Al Taawon,20
+1252535,SAU1,2024-12-05,Al Shabab,Al-Fateh,2940,Al Shabab,20,2931,Al-Fateh,19
+1252530,SAU1,2024-12-05,Al Wehda Club,Al Akhdoud,2937,Al Wehda Club,20,2977,Al Akhdoud,20
+1252528,SAU1,2024-12-05,Damac,Al-Fayha,2956,Damac,20,2944,Al-Fayha,20
+1252532,SAU1,2024-12-06,Al Kholood,Al-Qadisiyah FC,10509,Al Kholood,18,2933,Al-Qadisiyah FC,20
+1252527,SAU1,2024-12-06,Al Orubah,Al Riyadh,2961,Al Orubah,20,10511,Al Riyadh,20
+1252531,SAU1,2024-12-06,Al-Ittihad FC,Al-Nassr,2938,Al-Ittihad FC,20,2939,Al-Nassr,20
+1252534,SAU1,2024-12-07,Al-Hilal Saudi FC,Al-Raed,2932,Al-Hilal Saudi FC,20,2935,Al-Raed,20
+1252533,SAU1,2024-12-07,Al Taawon,Al-Ahli Jeddah,2936,Al Taawon,20,2929,Al-Ahli Jeddah,19
+1252529,SAU1,2024-12-07,Al Khaleej Saihat,Al-Ettifaq,2928,Al Khaleej Saihat,20,2934,Al-Ettifaq,20
+1252543,SAU1,2025-01-09,Al-Nassr,Al Akhdoud,2939,Al-Nassr,20,2977,Al Akhdoud,20
+1252536,SAU1,2025-01-09,Al-Fateh,Al Wehda Club,2931,Al-Fateh,20,2937,Al Wehda Club,20
+1252539,SAU1,2025-01-09,Al Riyadh,Al Khaleej Saihat,10511,Al Riyadh,20,2928,Al Khaleej Saihat,19
+1252537,SAU1,2025-01-10,Al-Ahli Jeddah,Al Shabab,2929,Al-Ahli Jeddah,20,2940,Al Shabab,20
+1252544,SAU1,2025-01-10,Al-Raed,Damac,2935,Al-Raed,20,2956,Damac,20
+1252540,SAU1,2025-01-10,Al-Ettifaq,Al Kholood,2934,Al-Ettifaq,20,10509,Al Kholood,19
+1252542,SAU1,2025-01-11,Al Orubah,Al-Hilal Saudi FC,2961,Al Orubah,20,2932,Al-Hilal Saudi FC,20
+1252538,SAU1,2025-01-11,Al-Qadisiyah FC,Al Taawon,2933,Al-Qadisiyah FC,20,2936,Al Taawon,20
+1252541,SAU1,2025-01-11,Al-Fayha,Al-Ittihad FC,2944,Al-Fayha,20,2938,Al-Ittihad FC,20
+1252550,SAU1,2025-01-15,Damac,Al-Ettifaq,2956,Damac,20,2934,Al-Ettifaq,20
+1252551,SAU1,2025-01-15,Al Kholood,Al-Ahli Jeddah,10509,Al Kholood,20,2929,Al-Ahli Jeddah,20
+1252545,SAU1,2025-01-15,Al Shabab,Al Riyadh,2940,Al Shabab,20,10511,Al Riyadh,20
+1252552,SAU1,2025-01-16,Al-Ittihad FC,Al-Raed,2938,Al-Ittihad FC,20,2935,Al-Raed,20
+1252546,SAU1,2025-01-16,Al-Hilal Saudi FC,Al-Fateh,2932,Al-Hilal Saudi FC,20,2931,Al-Fateh,20
+1252548,SAU1,2025-01-16,Al Akhdoud,Al-Fayha,2977,Al Akhdoud,20,2944,Al-Fayha,20
+1252553,SAU1,2025-01-17,Al Khaleej Saihat,Al Orubah,2928,Al Khaleej Saihat,20,2961,Al Orubah,19
+1252547,SAU1,2025-01-17,Al Wehda Club,Al-Qadisiyah FC,2937,Al Wehda Club,20,2933,Al-Qadisiyah FC,20
+1252549,SAU1,2025-01-17,Al Taawon,Al-Nassr,2936,Al Taawon,20,2939,Al-Nassr,20
+1252557,SAU1,2025-01-20,Al-Fayha,Al Kholood,2944,Al-Fayha,20,10509,Al Kholood,20
+1252554,SAU1,2025-01-20,Al-Raed,Al Akhdoud,2935,Al-Raed,20,2977,Al Akhdoud,20
+1252560,SAU1,2025-01-20,Al-Ettifaq,Al-Ahli Jeddah,2934,Al-Ettifaq,20,2929,Al-Ahli Jeddah,20
+1252555,SAU1,2025-01-21,Al Riyadh,Al Taawon,10511,Al Riyadh,20,2936,Al Taawon,20
+1252559,SAU1,2025-01-21,Al Khaleej Saihat,Al-Nassr,2928,Al Khaleej Saihat,20,2939,Al-Nassr,20
+1252561,SAU1,2025-01-21,Al-Hilal Saudi FC,Al Wehda Club,2932,Al-Hilal Saudi FC,20,2937,Al Wehda Club,20
+1252556,SAU1,2025-01-22,Al Orubah,Al-Qadisiyah FC,2961,Al Orubah,20,2933,Al-Qadisiyah FC,20
+1252562,SAU1,2025-01-22,Al-Fateh,Damac,2931,Al-Fateh,20,2956,Damac,20
+1252558,SAU1,2025-01-22,Al-Ittihad FC,Al Shabab,2938,Al-Ittihad FC,19,2940,Al Shabab,20
+1252565,SAU1,2025-01-25,Al Kholood,Al-Raed,10509,Al Kholood,20,2935,Al-Raed,20
+1252571,SAU1,2025-01-25,Al Wehda Club,Al-Ettifaq,2937,Al Wehda Club,20,2934,Al-Ettifaq,20
+1252569,SAU1,2025-01-26,Al-Nassr,Al-Fateh,2939,Al-Nassr,20,2931,Al-Fateh,20
+1252566,SAU1,2025-01-26,Al Akhdoud,Al Khaleej Saihat,2977,Al Akhdoud,20,2928,Al Khaleej Saihat,20
+1252570,SAU1,2025-01-26,Al-Ahli Jeddah,Al Riyadh,2929,Al-Ahli Jeddah,20,10511,Al Riyadh,20
+1252564,SAU1,2025-01-26,Al Taawon,Al Orubah,2936,Al Taawon,20,2961,Al Orubah,20
+1252567,SAU1,2025-01-27,Damac,Al-Ittihad FC,2956,Damac,20,2938,Al-Ittihad FC,20
+1252563,SAU1,2025-01-27,Al Shabab,Al-Fayha,2940,Al Shabab,19,2944,Al-Fayha,20
+1252568,SAU1,2025-01-27,Al-Qadisiyah FC,Al-Hilal Saudi FC,2933,Al-Qadisiyah FC,20,2932,Al-Hilal Saudi FC,20
+1252575,SAU1,2025-01-30,Al Orubah,Al-Ahli Jeddah,2961,Al Orubah,17,2929,Al-Ahli Jeddah,20
+1252580,SAU1,2025-01-30,Al Riyadh,Al Wehda Club,10511,Al Riyadh,20,2937,Al Wehda Club,20
+1252576,SAU1,2025-01-30,Al-Raed,Al-Nassr,2935,Al-Raed,20,2939,Al-Nassr,19
+1252578,SAU1,2025-01-31,Al-Ettifaq,Al Shabab,2934,Al-Ettifaq,20,2940,Al Shabab,20
+1252572,SAU1,2025-01-31,Al-Fayha,Al Taawon,2944,Al-Fayha,20,2936,Al Taawon,20
+1252573,SAU1,2025-01-31,Al-Hilal Saudi FC,Al Akhdoud,2932,Al-Hilal Saudi FC,20,2977,Al Akhdoud,20
+1252574,SAU1,2025-02-01,Al-Ittihad FC,Al Kholood,2938,Al-Ittihad FC,20,10509,Al Kholood,20
+1252579,SAU1,2025-02-01,Al Khaleej Saihat,Damac,2928,Al Khaleej Saihat,20,2956,Damac,20
+1252577,SAU1,2025-02-01,Al-Fateh,Al-Qadisiyah FC,2931,Al-Fateh,20,2933,Al-Qadisiyah FC,20
+1252582,SAU1,2025-02-06,Al Taawon,Al-Ittihad FC,2936,Al Taawon,20,2938,Al-Ittihad FC,20
+1252581,SAU1,2025-02-06,Al Shabab,Al Khaleej Saihat,2940,Al Shabab,20,2928,Al Khaleej Saihat,20
+1252588,SAU1,2025-02-06,Al-Qadisiyah FC,Al-Raed,2933,Al-Qadisiyah FC,20,2935,Al-Raed,20
+1252584,SAU1,2025-02-07,Al Orubah,Al Wehda Club,2961,Al Orubah,20,2937,Al Wehda Club,20
+1252587,SAU1,2025-02-07,Al-Nassr,Al-Fayha,2939,Al-Nassr,18,2944,Al-Fayha,20
+1252586,SAU1,2025-02-07,Al-Ahli Jeddah,Al-Fateh,2929,Al-Ahli Jeddah,20,2931,Al-Fateh,20
+1252585,SAU1,2025-02-08,Damac,Al-Hilal Saudi FC,2956,Damac,20,2932,Al-Hilal Saudi FC,20
+1252583,SAU1,2025-02-08,Al Akhdoud,Al-Ettifaq,2977,Al Akhdoud,20,2934,Al-Ettifaq,20
+1252589,SAU1,2025-02-08,Al Kholood,Al Riyadh,10509,Al Kholood,20,10511,Al Riyadh,20
+1252594,SAU1,2025-02-13,Al-Ahli Jeddah,Al-Nassr,2929,Al-Ahli Jeddah,20,2939,Al-Nassr,20
+1252592,SAU1,2025-02-13,Al Shabab,Al-Qadisiyah FC,2940,Al Shabab,18,2933,Al-Qadisiyah FC,20
+1252593,SAU1,2025-02-13,Al Akhdoud,Damac,2977,Al Akhdoud,20,2956,Damac,20
+1252598,SAU1,2025-02-14,Al Orubah,Al Kholood,2961,Al Orubah,20,10509,Al Kholood,20
+1252596,SAU1,2025-02-14,Al-Ettifaq,Al-Fateh,2934,Al-Ettifaq,20,2931,Al-Fateh,20
+1252595,SAU1,2025-02-14,Al-Hilal Saudi FC,Al Riyadh,2932,Al-Hilal Saudi FC,20,10511,Al Riyadh,20
+1252590,SAU1,2025-02-15,Al-Raed,Al-Fayha,2935,Al-Raed,20,2944,Al-Fayha,20
+1252591,SAU1,2025-02-15,Al Wehda Club,Al-Ittihad FC,2937,Al Wehda Club,20,2938,Al-Ittihad FC,20
+1252597,SAU1,2025-02-15,Al Khaleej Saihat,Al Taawon,2928,Al Khaleej Saihat,20,2936,Al Taawon,19
+1252606,SAU1,2025-02-20,Al-Fayha,Al Khaleej Saihat,2944,Al-Fayha,20,2928,Al Khaleej Saihat,20
+1252600,SAU1,2025-02-20,Al Riyadh,Al-Raed,10511,Al Riyadh,20,2935,Al-Raed,20
+1252601,SAU1,2025-02-20,Al-Fateh,Al Orubah,2931,Al-Fateh,20,2961,Al Orubah,20
+1252604,SAU1,2025-02-21,Damac,Al-Ahli Jeddah,2956,Damac,20,2929,Al-Ahli Jeddah,20
+1252607,SAU1,2025-02-21,Al-Qadisiyah FC,Al Akhdoud,2933,Al-Qadisiyah FC,20,2977,Al Akhdoud,20
+1252602,SAU1,2025-02-21,Al-Nassr,Al-Ettifaq,2939,Al-Nassr,19,2934,Al-Ettifaq,20
+1252603,SAU1,2025-02-22,Al-Ittihad FC,Al-Hilal Saudi FC,2938,Al-Ittihad FC,20,2932,Al-Hilal Saudi FC,20
+1252605,SAU1,2025-02-22,Al Taawon,Al Shabab,2936,Al Taawon,19,2940,Al Shabab,20
+1252599,SAU1,2025-02-22,Al Kholood,Al Wehda Club,10509,Al Kholood,20,2937,Al Wehda Club,20
+1252608,SAU1,2025-02-24,Damac,Al Orubah,2956,Damac,20,2961,Al Orubah,20
+1252615,SAU1,2025-02-24,Al Akhdoud,Al-Fateh,2977,Al Akhdoud,20,2931,Al-Fateh,20
+1252613,SAU1,2025-02-25,Al-Ahli Jeddah,Al-Qadisiyah FC,2929,Al-Ahli Jeddah,20,2933,Al-Qadisiyah FC,20
+1252609,SAU1,2025-02-25,Al Wehda Club,Al-Nassr,2937,Al Wehda Club,20,2939,Al-Nassr,19
+1252616,SAU1,2025-02-25,Al-Raed,Al Shabab,2935,Al-Raed,20,2940,Al Shabab,20
+1252610,SAU1,2025-02-25,Al-Hilal Saudi FC,Al Kholood,2932,Al-Hilal Saudi FC,20,10509,Al Kholood,20
+1252612,SAU1,2025-02-26,Al-Ettifaq,Al Taawon,2934,Al-Ettifaq,20,2936,Al Taawon,20
+1252611,SAU1,2025-02-26,Al Riyadh,Al-Fayha,10511,Al Riyadh,20,2944,Al-Fayha,20
+1252614,SAU1,2025-02-26,Al Khaleej Saihat,Al-Ittihad FC,2928,Al Khaleej Saihat,20,2938,Al-Ittihad FC,20
+1252619,SAU1,2025-02-28,Al-Hilal Saudi FC,Al-Ahli Jeddah,2932,Al-Hilal Saudi FC,20,2929,Al-Ahli Jeddah,20
+1252618,SAU1,2025-02-28,Al Orubah,Al-Nassr,2961,Al Orubah,20,2939,Al-Nassr,20
+1252624,SAU1,2025-02-28,Al Shabab,Damac,2940,Al Shabab,20,2956,Damac,20
+1252617,SAU1,2025-03-01,Al-Fayha,Al Wehda Club,2944,Al-Fayha,20,2937,Al Wehda Club,19
+1252620,SAU1,2025-03-01,Al Kholood,Al Khaleej Saihat,10509,Al Kholood,20,2928,Al Khaleej Saihat,20
+1252621,SAU1,2025-03-01,Al-Fateh,Al Taawon,2931,Al-Fateh,20,2936,Al Taawon,20
+1252625,SAU1,2025-03-02,Al-Qadisiyah FC,Al Riyadh,2933,Al-Qadisiyah FC,20,10511,Al Riyadh,20
+1252622,SAU1,2025-03-02,Al-Raed,Al-Ettifaq,2935,Al-Raed,20,2934,Al-Ettifaq,20
+1252623,SAU1,2025-03-02,Al-Ittihad FC,Al Akhdoud,2938,Al-Ittihad FC,20,2977,Al Akhdoud,20
+1252632,SAU1,2025-03-06,Al Kholood,Al-Fateh,10509,Al Kholood,20,2931,Al-Fateh,20
+1252634,SAU1,2025-03-06,Al Wehda Club,Al-Raed,2937,Al Wehda Club,20,2935,Al-Raed,20
+1252627,SAU1,2025-03-06,Al-Qadisiyah FC,Al-Ittihad FC,2933,Al-Qadisiyah FC,20,2938,Al-Ittihad FC,20
+1252631,SAU1,2025-03-07,Al-Nassr,Al Shabab,2939,Al-Nassr,20,2940,Al Shabab,20
+1252630,SAU1,2025-03-07,Al-Fayha,Al-Hilal Saudi FC,2944,Al-Fayha,20,2932,Al-Hilal Saudi FC,18
+1252629,SAU1,2025-03-07,Al-Ahli Jeddah,Al Khaleej Saihat,2929,Al-Ahli Jeddah,20,2928,Al Khaleej Saihat,20
+1252633,SAU1,2025-03-08,Al Taawon,Damac,2936,Al Taawon,19,2956,Damac,20
+1252628,SAU1,2025-03-08,Al Orubah,Al-Ettifaq,2961,Al Orubah,19,2934,Al-Ettifaq,20
+1252626,SAU1,2025-03-08,Al Riyadh,Al Akhdoud,10511,Al Riyadh,20,2977,Al Akhdoud,20
+1252639,SAU1,2025-03-13,Al-Fateh,Al-Raed,2931,Al-Fateh,20,2935,Al-Raed,20
+1252635,SAU1,2025-03-13,Al-Ittihad FC,Al Riyadh,2938,Al-Ittihad FC,20,10511,Al Riyadh,20
+1252637,SAU1,2025-03-13,Al Shabab,Al Orubah,2940,Al Shabab,19,2961,Al Orubah,17
+1252641,SAU1,2025-03-14,Al-Nassr,Al Kholood,2939,Al-Nassr,20,10509,Al Kholood,20
+1252638,SAU1,2025-03-14,Al Khaleej Saihat,Al Wehda Club,2928,Al Khaleej Saihat,20,2937,Al Wehda Club,20
+1252640,SAU1,2025-03-14,Damac,Al-Qadisiyah FC,2956,Damac,20,2933,Al-Qadisiyah FC,20
+1252643,SAU1,2025-03-15,Al Akhdoud,Al-Ahli Jeddah,2977,Al Akhdoud,20,2929,Al-Ahli Jeddah,20
+1252642,SAU1,2025-03-15,Al Taawon,Al-Hilal Saudi FC,2936,Al Taawon,20,2932,Al-Hilal Saudi FC,20
+1252636,SAU1,2025-03-15,Al-Ettifaq,Al-Fayha,2934,Al-Ettifaq,20,2944,Al-Fayha,20
+1252648,SAU1,2025-04-04,Al Kholood,Al Taawon,10509,Al Kholood,20,2936,Al Taawon,20
+1252644,SAU1,2025-04-04,Al Orubah,Al Akhdoud,2961,Al Orubah,20,2977,Al Akhdoud,20
+1252645,SAU1,2025-04-04,Al-Hilal Saudi FC,Al-Nassr,2932,Al-Hilal Saudi FC,20,2939,Al-Nassr,20
+1252647,SAU1,2025-04-05,Al Riyadh,Damac,10511,Al Riyadh,20,2956,Damac,20
+1252651,SAU1,2025-04-05,Al-Qadisiyah FC,Al-Ettifaq,2933,Al-Qadisiyah FC,20,2934,Al-Ettifaq,20
+1252649,SAU1,2025-04-05,Al-Ahli Jeddah,Al-Ittihad FC,2929,Al-Ahli Jeddah,20,2938,Al-Ittihad FC,20
+1252652,SAU1,2025-04-06,Al-Raed,Al Khaleej Saihat,2935,Al-Raed,20,2928,Al Khaleej Saihat,20
+1252650,SAU1,2025-04-06,Al-Fayha,Al-Fateh,2944,Al-Fayha,20,2931,Al-Fateh,20
+1252646,SAU1,2025-04-06,Al Wehda Club,Al Shabab,2937,Al Wehda Club,20,2940,Al Shabab,20
+1252653,SAU1,2025-04-10,Damac,Al Wehda Club,2956,Damac,20,2937,Al Wehda Club,20
+1252659,SAU1,2025-04-10,Al-Ittihad FC,Al Orubah,2938,Al-Ittihad FC,20,2961,Al Orubah,20
+1252655,SAU1,2025-04-10,Al Shabab,Al Kholood,2940,Al Shabab,20,10509,Al Kholood,20
+1252654,SAU1,2025-04-11,Al-Ettifaq,Al-Hilal Saudi FC,2934,Al-Ettifaq,20,2932,Al-Hilal Saudi FC,20
+1252660,SAU1,2025-04-11,Al Akhdoud,Al Taawon,2977,Al Akhdoud,20,2936,Al Taawon,20
+1252657,SAU1,2025-04-11,Al-Raed,Al-Ahli Jeddah,2935,Al-Raed,20,2929,Al-Ahli Jeddah,19
+1252656,SAU1,2025-04-12,Al Khaleej Saihat,Al-Fateh,2928,Al Khaleej Saihat,20,2931,Al-Fateh,20
+1252658,SAU1,2025-04-12,Al-Fayha,Al-Qadisiyah FC,2944,Al-Fayha,20,2933,Al-Qadisiyah FC,20
+1252661,SAU1,2025-04-12,Al-Nassr,Al Riyadh,2939,Al-Nassr,20,10511,Al Riyadh,20
+1252667,SAU1,2025-04-17,Al-Fateh,Al-Ittihad FC,2931,Al-Fateh,20,2938,Al-Ittihad FC,20
+1252670,SAU1,2025-04-17,Al Shabab,Al Akhdoud,2940,Al Shabab,20,2977,Al Akhdoud,19
+1252664,SAU1,2025-04-17,Al-Hilal Saudi FC,Al Khaleej Saihat,2932,Al-Hilal Saudi FC,20,2928,Al Khaleej Saihat,19
+1252662,SAU1,2025-04-17,Al-Ettifaq,Al Riyadh,2934,Al-Ettifaq,20,10511,Al Riyadh,20
+1252663,SAU1,2025-04-18,Al Kholood,Damac,10509,Al Kholood,20,2956,Damac,20
+1252668,SAU1,2025-04-18,Al-Ahli Jeddah,Al-Fayha,2929,Al-Ahli Jeddah,20,2944,Al-Fayha,20
+1252666,SAU1,2025-04-18,Al-Qadisiyah FC,Al-Nassr,2933,Al-Qadisiyah FC,20,2939,Al-Nassr,20
+1252669,SAU1,2025-04-19,Al Taawon,Al Wehda Club,2936,Al Taawon,19,2937,Al Wehda Club,20
+1252665,SAU1,2025-04-19,Al Orubah,Al-Raed,2961,Al Orubah,20,2935,Al-Raed,20
+1252671,SAU1,2025-04-21,Al-Hilal Saudi FC,Al Shabab,2932,Al-Hilal Saudi FC,20,2940,Al Shabab,20
+1252675,SAU1,2025-04-21,Al-Ittihad FC,Al-Ettifaq,2938,Al-Ittihad FC,20,2934,Al-Ettifaq,20
+1252673,SAU1,2025-04-22,Al Wehda Club,Al-Ahli Jeddah,2937,Al Wehda Club,20,2929,Al-Ahli Jeddah,20
+1252672,SAU1,2025-04-22,Damac,Al-Nassr,2956,Damac,20,2939,Al-Nassr,20
+1252674,SAU1,2025-04-23,Al Riyadh,Al-Fateh,10511,Al Riyadh,20,2931,Al-Fateh,20
+1252679,SAU1,2025-04-23,Al Kholood,Al Akhdoud,10509,Al Kholood,20,2977,Al Akhdoud,20
+1252677,SAU1,2025-04-23,Al Khaleej Saihat,Al-Qadisiyah FC,2928,Al Khaleej Saihat,20,2933,Al-Qadisiyah FC,20
+1252676,SAU1,2025-04-24,Al Taawon,Al-Raed,2936,Al Taawon,20,2935,Al-Raed,18
+1252678,SAU1,2025-04-24,Al Orubah,Al-Fayha,2961,Al Orubah,19,2944,Al-Fayha,20
+1252680,SAU1,2025-05-01,Al Akhdoud,Al Wehda Club,2977,Al Akhdoud,20,2937,Al Wehda Club,20
+1252683,SAU1,2025-05-01,Al Riyadh,Al Orubah,10511,Al Riyadh,20,2961,Al Orubah,20
+1252685,SAU1,2025-05-01,Al-Fateh,Al Shabab,2931,Al-Fateh,20,2940,Al Shabab,20
+1252682,SAU1,2025-05-02,Al-Qadisiyah FC,Al Kholood,2933,Al-Qadisiyah FC,20,10509,Al Kholood,20
+1252687,SAU1,2025-05-02,Al-Fayha,Damac,2944,Al-Fayha,20,2956,Damac,20
+1252688,SAU1,2025-05-02,Al-Ettifaq,Al Khaleej Saihat,2934,Al-Ettifaq,20,2928,Al Khaleej Saihat,20
+1252686,SAU1,2025-05-07,Al-Nassr,Al-Ittihad FC,2939,Al-Nassr,20,2938,Al-Ittihad FC,20
+1252681,SAU1,2025-05-07,Al-Ahli Jeddah,Al Taawon,2929,Al-Ahli Jeddah,20,2936,Al Taawon,20
+1252684,SAU1,2025-05-07,Al-Raed,Al-Hilal Saudi FC,2935,Al-Raed,20,2932,Al-Hilal Saudi FC,20
+1252690,SAU1,2025-05-10,Al Kholood,Al-Ettifaq,10509,Al Kholood,20,2934,Al-Ettifaq,20
+1252692,SAU1,2025-05-10,Al Wehda Club,Al-Fateh,2937,Al Wehda Club,20,2931,Al-Fateh,20
+1252689,SAU1,2025-05-10,Al Khaleej Saihat,Al Riyadh,2928,Al Khaleej Saihat,20,10511,Al Riyadh,20
+1252697,SAU1,2025-05-11,Al-Ittihad FC,Al-Fayha,2938,Al-Ittihad FC,20,2944,Al-Fayha,20
+1252694,SAU1,2025-05-11,Al Taawon,Al-Qadisiyah FC,2936,Al Taawon,20,2933,Al-Qadisiyah FC,20
+1252693,SAU1,2025-05-11,Al Shabab,Al-Ahli Jeddah,2940,Al Shabab,20,2929,Al-Ahli Jeddah,20
+1252691,SAU1,2025-05-11,Damac,Al-Raed,2956,Damac,20,2935,Al-Raed,20
+1252696,SAU1,2025-05-12,Al Akhdoud,Al-Nassr,2977,Al Akhdoud,20,2939,Al-Nassr,20
+1252695,SAU1,2025-05-12,Al-Hilal Saudi FC,Al Orubah,2932,Al-Hilal Saudi FC,20,2961,Al Orubah,20
+1252700,SAU1,2025-05-15,Al-Raed,Al-Ittihad FC,2935,Al-Raed,20,2938,Al-Ittihad FC,20
+1252706,SAU1,2025-05-15,Al-Qadisiyah FC,Al Wehda Club,2933,Al-Qadisiyah FC,20,2937,Al Wehda Club,20
+1252705,SAU1,2025-05-15,Al Riyadh,Al Shabab,10511,Al Riyadh,20,2940,Al Shabab,20
+1252702,SAU1,2025-05-16,Al-Fateh,Al-Hilal Saudi FC,2931,Al-Fateh,20,2932,Al-Hilal Saudi FC,20
+1252701,SAU1,2025-05-16,Al Orubah,Al Khaleej Saihat,2961,Al Orubah,20,2928,Al Khaleej Saihat,20
+1252699,SAU1,2025-05-16,Al-Nassr,Al Taawon,2939,Al-Nassr,20,2936,Al Taawon,19
+1252703,SAU1,2025-05-17,Al-Ahli Jeddah,Al Kholood,2929,Al-Ahli Jeddah,20,10509,Al Kholood,20
+1252704,SAU1,2025-05-17,Al-Ettifaq,Damac,2934,Al-Ettifaq,20,2956,Damac,20
+1252698,SAU1,2025-05-17,Al-Fayha,Al Akhdoud,2944,Al-Fayha,20,2977,Al Akhdoud,20
+1252710,SAU1,2025-05-20,Al Taawon,Al Riyadh,2936,Al Taawon,18,10511,Al Riyadh,20
+1252715,SAU1,2025-05-20,Al-Qadisiyah FC,Al Orubah,2933,Al-Qadisiyah FC,20,2961,Al Orubah,20
+1252711,SAU1,2025-05-20,Al Shabab,Al-Ittihad FC,2940,Al Shabab,20,2938,Al-Ittihad FC,20
+1252713,SAU1,2025-05-21,Al Wehda Club,Al-Hilal Saudi FC,2937,Al Wehda Club,20,2932,Al-Hilal Saudi FC,20
+1252709,SAU1,2025-05-21,Al-Nassr,Al Khaleej Saihat,2939,Al-Nassr,20,2928,Al Khaleej Saihat,20
+1252714,SAU1,2025-05-21,Al Kholood,Al-Fayha,10509,Al Kholood,20,2944,Al-Fayha,20
+1252708,SAU1,2025-05-22,Al-Ahli Jeddah,Al-Ettifaq,2929,Al-Ahli Jeddah,20,2934,Al-Ettifaq,20
+1252712,SAU1,2025-05-22,Al Akhdoud,Al-Raed,2977,Al Akhdoud,20,2935,Al-Raed,20
+1252707,SAU1,2025-05-22,Damac,Al-Fateh,2956,Damac,20,2931,Al-Fateh,20
+1252719,SAU1,2025-05-26,Al-Raed,Al Kholood,2935,Al-Raed,20,10509,Al Kholood,20
+1252717,SAU1,2025-05-26,Al-Fateh,Al-Nassr,2931,Al-Fateh,20,2939,Al-Nassr,20
+1252716,SAU1,2025-05-26,Al Khaleej Saihat,Al Akhdoud,2928,Al Khaleej Saihat,20,2977,Al Akhdoud,20
+1252718,SAU1,2025-05-26,Al-Ittihad FC,Damac,2938,Al-Ittihad FC,20,2956,Damac,20
+1252724,SAU1,2025-05-26,Al-Ettifaq,Al Wehda Club,2934,Al-Ettifaq,20,2937,Al Wehda Club,20
+1252721,SAU1,2025-05-26,Al-Fayha,Al Shabab,2944,Al-Fayha,20,2940,Al Shabab,18
+1252723,SAU1,2025-05-26,Al Riyadh,Al-Ahli Jeddah,10511,Al Riyadh,20,2929,Al-Ahli Jeddah,20
+1252722,SAU1,2025-05-26,Al-Hilal Saudi FC,Al-Qadisiyah FC,2932,Al-Hilal Saudi FC,20,2933,Al-Qadisiyah FC,20
+1252720,SAU1,2025-05-26,Al Orubah,Al Taawon,2961,Al Orubah,19,2936,Al Taawon,20

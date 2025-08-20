@@ -1,0 +1,469 @@
+fixture_id,league_code,match_date,home_team,away_team,team_1_id,team_1_name,team_1_players_count,team_2_id,team_2_name,team_2_players_count
+1217503,SPA2,2024-08-19,Eldense,Tenerife,9692,Eldense,22,719,Tenerife,23
+1217519,SPA2,2024-08-23,Racing Santander,Eibar,4665,Racing Santander,22,545,Eibar,22
+1217518,SPA2,2024-08-23,Huesca,Deportivo La Coruna,726,Huesca,23,544,Deportivo La Coruna,23
+1217520,SPA2,2024-08-24,Sporting Gijon,Eldense,731,Sporting Gijon,21,9692,Eldense,22
+1217513,SPA2,2024-08-24,Racing Ferrol,Granada CF,9409,Racing Ferrol,21,715,Granada CF,23
+1217517,SPA2,2024-08-24,Levante,Cadiz,539,Levante,22,724,Cadiz,22
+1217515,SPA2,2024-08-24,Tenerife,Almeria,719,Tenerife,23,723,Almeria,23
+1217514,SPA2,2024-08-24,Malaga,Mirandes,535,Malaga,23,799,Mirandes,20
+1217510,SPA2,2024-08-25,Albacete,Elche,722,Albacete,23,797,Elche,23
+1217512,SPA2,2024-08-25,Castellón,Oviedo,5254,Castellón,23,718,Oviedo,22
+1217516,SPA2,2024-08-26,Cordoba,Burgos,713,Cordoba,21,9580,Burgos,23
+1217511,SPA2,2024-08-26,FC Cartagena,Zaragoza,5262,FC Cartagena,22,732,Zaragoza,21
+1217526,SPA2,2024-08-30,Granada CF,Huesca,715,Granada CF,23,726,Huesca,23
+1217528,SPA2,2024-08-30,Oviedo,Racing Santander,718,Oviedo,23,4665,Racing Santander,22
+1217521,SPA2,2024-08-31,Almeria,Sporting Gijon,723,Almeria,23,731,Sporting Gijon,23
+1217523,SPA2,2024-08-31,Cadiz,Tenerife,724,Cadiz,22,719,Tenerife,21
+1217529,SPA2,2024-08-31,Malaga,Albacete,535,Malaga,23,722,Albacete,23
+1217524,SPA2,2024-09-01,Deportivo La Coruna,Racing Ferrol,544,Deportivo La Coruna,22,9409,Racing Ferrol,21
+1217522,SPA2,2024-09-01,Burgos,Castellón,9580,Burgos,23,5254,Castellón,23
+1217527,SPA2,2024-09-01,Mirandes,Zaragoza,799,Mirandes,23,732,Zaragoza,23
+1217530,SPA2,2024-09-01,Eldense,FC Cartagena,9692,Eldense,23,5262,FC Cartagena,23
+1217525,SPA2,2024-09-02,Eibar,Levante,545,Eibar,23,539,Levante,21
+1217531,SPA2,2024-09-02,Elche,Cordoba,797,Elche,22,713,Cordoba,21
+1217542,SPA2,2024-09-06,Tenerife,Racing Santander,719,Tenerife,23,4665,Racing Santander,21
+1217537,SPA2,2024-09-07,Huesca,Burgos,726,Huesca,23,9580,Burgos,23
+1217534,SPA2,2024-09-07,Cordoba,Malaga,713,Cordoba,21,535,Malaga,22
+1217541,SPA2,2024-09-07,Sporting Gijon,Oviedo,731,Sporting Gijon,23,718,Oviedo,23
+1217539,SPA2,2024-09-07,Granada CF,Deportivo La Coruna,715,Granada CF,23,544,Deportivo La Coruna,23
+1217540,SPA2,2024-09-08,Zaragoza,Elche,732,Zaragoza,23,797,Elche,20
+1217536,SPA2,2024-09-08,Eldense,Almeria,9692,Eldense,23,723,Almeria,20
+1217535,SPA2,2024-09-08,Racing Ferrol,Mirandes,9409,Racing Ferrol,22,799,Mirandes,20
+1217533,SPA2,2024-09-08,FC Cartagena,Levante,5262,FC Cartagena,20,539,Levante,21
+1217532,SPA2,2024-09-09,Albacete,Eibar,722,Albacete,22,545,Eibar,23
+1217538,SPA2,2024-09-09,Castellón,Cadiz,5254,Castellón,23,724,Cadiz,22
+1217546,SPA2,2024-09-13,Cordoba,Deportivo La Coruna,713,Cordoba,21,544,Deportivo La Coruna,23
+1217553,SPA2,2024-09-14,Malaga,Huesca,535,Malaga,23,726,Huesca,21
+1217549,SPA2,2024-09-14,Racing Santander,Sporting Gijon,4665,Racing Santander,23,731,Sporting Gijon,22
+1217547,SPA2,2024-09-14,Eibar,Tenerife,545,Eibar,23,719,Tenerife,22
+1217552,SPA2,2024-09-14,Levante,Eldense,539,Levante,22,9692,Eldense,23
+1217545,SPA2,2024-09-15,Cadiz,Racing Ferrol,724,Cadiz,22,9409,Racing Ferrol,22
+1217548,SPA2,2024-09-15,Elche,Granada CF,797,Elche,22,715,Granada CF,23
+1217544,SPA2,2024-09-15,Burgos,Zaragoza,9580,Burgos,23,732,Zaragoza,23
+1217551,SPA2,2024-09-15,Oviedo,FC Cartagena,718,Oviedo,23,5262,FC Cartagena,22
+1217550,SPA2,2024-09-15,Mirandes,Albacete,799,Mirandes,22,722,Albacete,21
+1217543,SPA2,2024-09-16,Almeria,Castellón,723,Almeria,23,5254,Castellón,23
+1217558,SPA2,2024-09-20,Granada CF,Malaga,715,Granada CF,23,535,Malaga,23
+1217563,SPA2,2024-09-21,Zaragoza,Levante,732,Zaragoza,23,539,Levante,22
+1217557,SPA2,2024-09-21,Eldense,Oviedo,9692,Eldense,23,718,Oviedo,22
+1217559,SPA2,2024-09-21,Racing Ferrol,Albacete,9409,Racing Ferrol,21,722,Albacete,20
+1217560,SPA2,2024-09-21,Deportivo La Coruna,Burgos,544,Deportivo La Coruna,23,9580,Burgos,21
+1217564,SPA2,2024-09-22,Tenerife,Sporting Gijon,719,Tenerife,23,731,Sporting Gijon,21
+1217555,SPA2,2024-09-22,Castellón,Racing Santander,5254,Castellón,23,4665,Racing Santander,23
+1217561,SPA2,2024-09-22,FC Cartagena,Cadiz,5262,FC Cartagena,22,724,Cadiz,23
+1217556,SPA2,2024-09-22,Elche,Mirandes,797,Elche,23,799,Mirandes,20
+1217554,SPA2,2024-09-22,Almeria,Eibar,723,Almeria,22,545,Eibar,22
+1217562,SPA2,2024-09-23,Huesca,Cordoba,726,Huesca,23,713,Cordoba,20
+1217565,SPA2,2024-09-27,Albacete,Deportivo La Coruna,722,Albacete,21,544,Deportivo La Coruna,23
+1217574,SPA2,2024-09-28,Malaga,Elche,535,Malaga,23,797,Elche,22
+1217570,SPA2,2024-09-28,Sporting Gijon,Zaragoza,731,Sporting Gijon,21,732,Zaragoza,23
+1217575,SPA2,2024-09-28,Mirandes,Huesca,799,Mirandes,21,726,Huesca,23
+1217567,SPA2,2024-09-28,Cadiz,Eldense,724,Cadiz,22,9692,Eldense,23
+1217569,SPA2,2024-09-29,Cordoba,Racing Ferrol,713,Cordoba,18,9409,Racing Ferrol,21
+1217573,SPA2,2024-09-29,Oviedo,Eibar,718,Oviedo,23,545,Eibar,22
+1217566,SPA2,2024-09-29,Burgos,Granada CF,9580,Burgos,22,715,Granada CF,22
+1217568,SPA2,2024-09-29,Castellón,Tenerife,5254,Castellón,23,719,Tenerife,23
+1217571,SPA2,2024-09-29,Levante,Almeria,539,Levante,22,723,Almeria,21
+1217572,SPA2,2024-09-30,Racing Santander,FC Cartagena,4665,Racing Santander,23,5262,FC Cartagena,20
+1217581,SPA2,2024-10-04,Huesca,Cadiz,726,Huesca,23,724,Cadiz,23
+1217584,SPA2,2024-10-05,Racing Ferrol,Elche,9409,Racing Ferrol,21,797,Elche,22
+1217579,SPA2,2024-10-05,Eibar,Sporting Gijon,545,Eibar,21,731,Sporting Gijon,21
+1217585,SPA2,2024-10-05,Mirandes,Granada CF,799,Mirandes,22,715,Granada CF,23
+1217577,SPA2,2024-10-05,Almeria,Burgos,723,Almeria,20,9580,Burgos,22
+1217586,SPA2,2024-10-05,Zaragoza,Racing Santander,732,Zaragoza,23,4665,Racing Santander,23
+1217582,SPA2,2024-10-05,Tenerife,FC Cartagena,719,Tenerife,23,5262,FC Cartagena,19
+1217576,SPA2,2024-10-06,Albacete,Cordoba,722,Albacete,21,713,Cordoba,19
+1217583,SPA2,2024-10-06,Eldense,Castellón,9692,Eldense,23,5254,Castellón,23
+1217578,SPA2,2024-10-06,Deportivo La Coruna,Malaga,544,Deportivo La Coruna,23,535,Malaga,23
+1217580,SPA2,2024-10-06,Levante,Oviedo,539,Levante,21,718,Oviedo,23
+1217591,SPA2,2024-10-11,Tenerife,Zaragoza,719,Tenerife,23,732,Zaragoza,23
+1217588,SPA2,2024-10-12,Cadiz,Malaga,724,Cadiz,23,535,Malaga,23
+1217590,SPA2,2024-10-12,Eibar,Eldense,545,Eibar,23,9692,Eldense,23
+1217589,SPA2,2024-10-12,FC Cartagena,Racing Ferrol,5262,FC Cartagena,19,9409,Racing Ferrol,20
+1217592,SPA2,2024-10-13,Huesca,Albacete,726,Huesca,23,722,Albacete,18
+1217593,SPA2,2024-10-13,Oviedo,Almeria,718,Oviedo,22,723,Almeria,21
+1217597,SPA2,2024-10-13,Racing Santander,Levante,4665,Racing Santander,22,539,Levante,20
+1217595,SPA2,2024-10-13,Granada CF,Cordoba,715,Granada CF,22,713,Cordoba,21
+1217587,SPA2,2024-10-13,Burgos,Mirandes,9580,Burgos,23,799,Mirandes,20
+1217596,SPA2,2024-10-13,Elche,Deportivo La Coruna,797,Elche,23,544,Deportivo La Coruna,23
+1217594,SPA2,2024-10-14,Sporting Gijon,Castellón,731,Sporting Gijon,22,5254,Castellón,23
+1217607,SPA2,2024-10-18,Cordoba,FC Cartagena,713,Cordoba,19,5262,FC Cartagena,21
+1217601,SPA2,2024-10-19,Deportivo La Coruna,Eldense,544,Deportivo La Coruna,22,9692,Eldense,23
+1217608,SPA2,2024-10-19,Mirandes,Eibar,799,Mirandes,19,545,Eibar,22
+1217600,SPA2,2024-10-19,Castellón,Levante,5254,Castellón,23,539,Levante,21
+1217605,SPA2,2024-10-19,Malaga,Oviedo,535,Malaga,23,718,Oviedo,21
+1217604,SPA2,2024-10-19,Granada CF,Tenerife,715,Granada CF,23,719,Tenerife,23
+1217602,SPA2,2024-10-20,Elche,Sporting Gijon,797,Elche,23,731,Sporting Gijon,22
+1217606,SPA2,2024-10-20,Zaragoza,Almeria,732,Zaragoza,23,723,Almeria,21
+1217599,SPA2,2024-10-20,Cadiz,Racing Santander,724,Cadiz,23,4665,Racing Santander,23
+1217603,SPA2,2024-10-20,Racing Ferrol,Huesca,9409,Racing Ferrol,22,726,Huesca,23
+1217598,SPA2,2024-10-21,Albacete,Burgos,722,Albacete,22,9580,Burgos,22
+1217619,SPA2,2024-10-22,Oviedo,Mirandes,718,Oviedo,20,799,Mirandes,20
+1217611,SPA2,2024-10-22,Castellón,Granada CF,5254,Castellón,23,715,Granada CF,23
+1217610,SPA2,2024-10-23,FC Cartagena,Elche,5262,FC Cartagena,21,797,Elche,23
+1217614,SPA2,2024-10-23,Eibar,Cadiz,545,Eibar,22,724,Cadiz,23
+1217612,SPA2,2024-10-23,Eldense,Zaragoza,9692,Eldense,23,732,Zaragoza,23
+1217615,SPA2,2024-10-23,Racing Santander,Cordoba,4665,Racing Santander,22,713,Cordoba,21
+1217617,SPA2,2024-10-24,Sporting Gijon,Huesca,731,Sporting Gijon,21,726,Huesca,22
+1217618,SPA2,2024-10-24,Tenerife,Malaga,719,Tenerife,23,535,Malaga,23
+1217609,SPA2,2024-10-24,Burgos,Racing Ferrol,9580,Burgos,22,9409,Racing Ferrol,21
+1217613,SPA2,2024-10-24,Almeria,Albacete,723,Almeria,23,722,Albacete,21
+1217616,SPA2,2024-10-24,Levante,Deportivo La Coruna,539,Levante,20,544,Deportivo La Coruna,23
+1217629,SPA2,2024-10-26,Zaragoza,Castellón,732,Zaragoza,23,5254,Castellón,23
+1217622,SPA2,2024-10-26,Cordoba,Eldense,713,Cordoba,20,9692,Eldense,22
+1217628,SPA2,2024-10-26,Mirandes,FC Cartagena,799,Mirandes,21,5262,FC Cartagena,21
+1217621,SPA2,2024-10-26,Cadiz,Oviedo,724,Cadiz,22,718,Oviedo,21
+1217626,SPA2,2024-10-27,Huesca,Almeria,726,Huesca,21,723,Almeria,22
+1217620,SPA2,2024-10-27,Albacete,Sporting Gijon,722,Albacete,20,731,Sporting Gijon,22
+1217625,SPA2,2024-10-27,Granada CF,Levante,715,Granada CF,23,539,Levante,20
+1217623,SPA2,2024-10-27,Deportivo La Coruna,Racing Santander,544,Deportivo La Coruna,22,4665,Racing Santander,22
+1217630,SPA2,2024-10-27,Malaga,Eibar,535,Malaga,23,545,Eibar,20
+1217627,SPA2,2024-10-27,Elche,Burgos,797,Elche,23,9580,Burgos,20
+1217624,SPA2,2024-10-28,Racing Ferrol,Tenerife,9409,Racing Ferrol,21,719,Tenerife,22
+1217632,SPA2,2024-11-02,FC Cartagena,Deportivo La Coruna,5262,FC Cartagena,23,544,Deportivo La Coruna,23
+1217640,SPA2,2024-11-02,Zaragoza,Granada CF,732,Zaragoza,22,715,Granada CF,22
+1217634,SPA2,2024-11-02,Eibar,Elche,545,Eibar,22,797,Elche,23
+1217637,SPA2,2024-11-02,Racing Santander,Albacete,4665,Racing Santander,23,722,Albacete,20
+1217639,SPA2,2024-11-02,Sporting Gijon,Cadiz,731,Sporting Gijon,22,724,Cadiz,23
+1217641,SPA2,2024-11-03,Tenerife,Mirandes,719,Tenerife,23,799,Mirandes,18
+1217638,SPA2,2024-11-03,Oviedo,Burgos,718,Oviedo,21,9580,Burgos,23
+1217647,SPA2,2024-11-08,Elche,Almeria,797,Elche,23,723,Almeria,22
+1217646,SPA2,2024-11-09,Huesca,Zaragoza,726,Huesca,23,732,Zaragoza,22
+1217649,SPA2,2024-11-09,Malaga,FC Cartagena,535,Malaga,23,5262,FC Cartagena,21
+1217648,SPA2,2024-11-09,Mirandes,Cadiz,799,Mirandes,20,724,Cadiz,23
+1217651,SPA2,2024-11-09,Granada CF,Eldense,715,Granada CF,23,9692,Eldense,21
+1217650,SPA2,2024-11-10,Cordoba,Castellón,713,Cordoba,21,5254,Castellón,21
+1217645,SPA2,2024-11-10,Racing Ferrol,Racing Santander,9409,Racing Ferrol,22,4665,Racing Santander,22
+1217643,SPA2,2024-11-10,Burgos,Sporting Gijon,9580,Burgos,23,731,Sporting Gijon,22
+1217642,SPA2,2024-11-10,Albacete,Oviedo,722,Albacete,20,718,Oviedo,21
+1217644,SPA2,2024-11-11,Deportivo La Coruna,Eibar,544,Deportivo La Coruna,22,545,Eibar,21
+1217657,SPA2,2024-11-16,Eibar,Racing Ferrol,545,Eibar,22,9409,Racing Ferrol,21
+1217659,SPA2,2024-11-16,Eldense,Albacete,9692,Eldense,22,722,Albacete,20
+1217656,SPA2,2024-11-16,Castellón,Mirandes,5254,Castellón,23,799,Mirandes,19
+1217662,SPA2,2024-11-16,Sporting Gijon,Granada CF,731,Sporting Gijon,21,715,Granada CF,23
+1217661,SPA2,2024-11-16,Levante,Elche,539,Levante,22,797,Elche,23
+1217660,SPA2,2024-11-16,Racing Santander,Burgos,4665,Racing Santander,23,9580,Burgos,23
+1217658,SPA2,2024-11-17,Oviedo,Tenerife,718,Oviedo,23,719,Tenerife,23
+1217654,SPA2,2024-11-17,Cadiz,Cordoba,724,Cadiz,21,713,Cordoba,22
+1217653,SPA2,2024-11-17,Almeria,Deportivo La Coruna,723,Almeria,21,544,Deportivo La Coruna,22
+1217655,SPA2,2024-11-17,FC Cartagena,Huesca,5262,FC Cartagena,21,726,Huesca,23
+1217663,SPA2,2024-11-17,Zaragoza,Malaga,732,Zaragoza,22,535,Malaga,23
+1217635,SPA2,2024-11-20,Eldense,Huesca,9692,Eldense,21,726,Huesca,23
+1217669,SPA2,2024-11-22,Racing Ferrol,Levante,9409,Racing Ferrol,20,539,Levante,23
+1217671,SPA2,2024-11-23,FC Cartagena,Almeria,5262,FC Cartagena,21,723,Almeria,23
+1217672,SPA2,2024-11-23,Granada CF,Cadiz,715,Granada CF,23,724,Cadiz,23
+1217665,SPA2,2024-11-23,Burgos,Eibar,9580,Burgos,23,545,Eibar,21
+1217666,SPA2,2024-11-23,Cordoba,Zaragoza,713,Cordoba,20,732,Zaragoza,23
+1217670,SPA2,2024-11-23,Malaga,Racing Santander,535,Malaga,23,4665,Racing Santander,22
+1217674,SPA2,2024-11-24,Mirandes,Eldense,799,Mirandes,20,9692,Eldense,19
+1217667,SPA2,2024-11-24,Deportivo La Coruna,Sporting Gijon,544,Deportivo La Coruna,23,731,Sporting Gijon,21
+1217664,SPA2,2024-11-24,Albacete,Tenerife,722,Albacete,20,719,Tenerife,23
+1217673,SPA2,2024-11-24,Huesca,Castellón,726,Huesca,23,5254,Castellón,21
+1217668,SPA2,2024-11-24,Elche,Oviedo,797,Elche,23,718,Oviedo,23
+1217631,SPA2,2024-11-26,Almeria,Cordoba,723,Almeria,23,713,Cordoba,20
+1217636,SPA2,2024-11-27,Levante,Malaga,539,Levante,23,535,Malaga,23
+1217633,SPA2,2024-11-27,Castellón,Racing Ferrol,5254,Castellón,23,9409,Racing Ferrol,19
+1217684,SPA2,2024-11-29,Oviedo,Huesca,718,Oviedo,23,726,Huesca,22
+1217675,SPA2,2024-11-30,Almeria,Granada CF,723,Almeria,22,715,Granada CF,23
+1217679,SPA2,2024-11-30,Zaragoza,Albacete,732,Zaragoza,23,722,Albacete,20
+1217685,SPA2,2024-11-30,Racing Santander,Mirandes,4665,Racing Santander,22,799,Mirandes,19
+1217676,SPA2,2024-11-30,Cadiz,Deportivo La Coruna,724,Cadiz,22,544,Deportivo La Coruna,23
+1217683,SPA2,2024-11-30,Tenerife,Elche,719,Tenerife,23,797,Elche,23
+1217678,SPA2,2024-12-01,Eldense,Racing Ferrol,9692,Eldense,21,9409,Racing Ferrol,19
+1217682,SPA2,2024-12-01,Sporting Gijon,Cordoba,731,Sporting Gijon,21,713,Cordoba,20
+1217677,SPA2,2024-12-01,Castellón,Malaga,5254,Castellón,23,535,Malaga,23
+1217680,SPA2,2024-12-01,Levante,Burgos,539,Levante,22,9580,Burgos,23
+1217681,SPA2,2024-12-02,Eibar,FC Cartagena,545,Eibar,22,5262,FC Cartagena,20
+1217696,SPA2,2024-12-06,Mirandes,Levante,799,Mirandes,18,539,Levante,22
+1217694,SPA2,2024-12-07,Elche,Cadiz,797,Elche,23,724,Cadiz,23
+1217692,SPA2,2024-12-07,Granada CF,Racing Santander,715,Granada CF,23,4665,Racing Santander,23
+1217690,SPA2,2024-12-07,Deportivo La Coruna,Zaragoza,544,Deportivo La Coruna,22,732,Zaragoza,22
+1217695,SPA2,2024-12-07,Huesca,Eibar,726,Huesca,23,545,Eibar,22
+1217689,SPA2,2024-12-08,Cordoba,Tenerife,713,Cordoba,20,719,Tenerife,23
+1217686,SPA2,2024-12-08,Albacete,Castellón,722,Albacete,20,5254,Castellón,23
+1217691,SPA2,2024-12-08,Racing Ferrol,Oviedo,9409,Racing Ferrol,19,718,Oviedo,23
+1217693,SPA2,2024-12-08,Malaga,Almeria,535,Malaga,23,723,Almeria,22
+1217687,SPA2,2024-12-08,Burgos,Eldense,9580,Burgos,23,9692,Eldense,21
+1217688,SPA2,2024-12-09,FC Cartagena,Sporting Gijon,5262,FC Cartagena,21,731,Sporting Gijon,22
+1217697,SPA2,2024-12-13,Almeria,Mirandes,723,Almeria,22,799,Mirandes,19
+1217699,SPA2,2024-12-14,Eibar,Zaragoza,545,Eibar,22,732,Zaragoza,22
+1217702,SPA2,2024-12-14,Levante,Cordoba,539,Levante,22,713,Cordoba,19
+1217700,SPA2,2024-12-14,Cadiz,Albacete,724,Cadiz,22,722,Albacete,19
+1217704,SPA2,2024-12-14,Eldense,Elche,9692,Eldense,21,797,Elche,23
+1217706,SPA2,2024-12-14,Oviedo,Granada CF,718,Oviedo,23,715,Granada CF,23
+1217701,SPA2,2024-12-14,Castellón,FC Cartagena,5254,Castellón,21,5262,FC Cartagena,19
+1217705,SPA2,2024-12-15,Sporting Gijon,Racing Ferrol,731,Sporting Gijon,22,9409,Racing Ferrol,22
+1217698,SPA2,2024-12-15,Burgos,Malaga,9580,Burgos,23,535,Malaga,23
+1217707,SPA2,2024-12-15,Racing Santander,Huesca,4665,Racing Santander,22,726,Huesca,20
+1217708,SPA2,2024-12-17,Albacete,Levante,722,Albacete,19,539,Levante,21
+1217715,SPA2,2024-12-17,Granada CF,FC Cartagena,715,Granada CF,23,5262,FC Cartagena,21
+1217709,SPA2,2024-12-17,Cordoba,Eibar,713,Cordoba,21,545,Eibar,22
+1217718,SPA2,2024-12-17,Zaragoza,Oviedo,732,Zaragoza,22,718,Oviedo,23
+1217713,SPA2,2024-12-18,Racing Ferrol,Almeria,9409,Racing Ferrol,22,723,Almeria,20
+1217717,SPA2,2024-12-18,Malaga,Eldense,535,Malaga,23,9692,Eldense,21
+1217712,SPA2,2024-12-18,Mirandes,Sporting Gijon,799,Mirandes,19,731,Sporting Gijon,22
+1217710,SPA2,2024-12-19,Elche,Racing Santander,797,Elche,23,4665,Racing Santander,23
+1217714,SPA2,2024-12-19,Cadiz,Burgos,724,Cadiz,23,9580,Burgos,22
+1217716,SPA2,2024-12-19,Deportivo La Coruna,Castellón,544,Deportivo La Coruna,23,5254,Castellón,23
+1217711,SPA2,2024-12-19,Huesca,Tenerife,726,Huesca,21,719,Tenerife,23
+1217724,SPA2,2024-12-20,FC Cartagena,Albacete,5262,FC Cartagena,19,722,Albacete,19
+1217723,SPA2,2024-12-21,Eibar,Granada CF,545,Eibar,20,715,Granada CF,22
+1217725,SPA2,2024-12-21,Oviedo,Cordoba,718,Oviedo,23,713,Cordoba,18
+1217727,SPA2,2024-12-21,Zaragoza,Racing Ferrol,732,Zaragoza,23,9409,Racing Ferrol,22
+1217729,SPA2,2024-12-21,Sporting Gijon,Malaga,731,Sporting Gijon,23,535,Malaga,23
+1217720,SPA2,2024-12-22,Burgos,Tenerife,9580,Burgos,23,719,Tenerife,23
+1217721,SPA2,2024-12-22,Castellón,Elche,5254,Castellón,23,797,Elche,23
+1217719,SPA2,2024-12-22,Almeria,Cadiz,723,Almeria,20,724,Cadiz,22
+1217726,SPA2,2024-12-22,Racing Santander,Eldense,4665,Racing Santander,22,9692,Eldense,21
+1217728,SPA2,2024-12-22,Levante,Huesca,539,Levante,21,726,Huesca,21
+1217722,SPA2,2024-12-22,Deportivo La Coruna,Mirandes,544,Deportivo La Coruna,23,799,Mirandes,20
+1217652,SPA2,2025-01-07,Tenerife,Levante,719,Tenerife,23,539,Levante,22
+1217736,SPA2,2025-01-10,Granada CF,Burgos,715,Granada CF,22,9580,Burgos,22
+1217734,SPA2,2025-01-11,Oviedo,Sporting Gijon,718,Oviedo,22,731,Sporting Gijon,22
+1217739,SPA2,2025-01-11,Malaga,Deportivo La Coruna,535,Malaga,22,544,Deportivo La Coruna,23
+1217733,SPA2,2025-01-11,Huesca,Mirandes,726,Huesca,23,799,Mirandes,18
+1217730,SPA2,2025-01-11,Albacete,Racing Santander,722,Albacete,20,4665,Racing Santander,23
+1217738,SPA2,2025-01-11,Tenerife,Castellón,719,Tenerife,21,5254,Castellón,23
+1217737,SPA2,2025-01-11,Racing Ferrol,FC Cartagena,9409,Racing Ferrol,21,5262,FC Cartagena,22
+1217735,SPA2,2025-01-12,Cordoba,Almeria,713,Cordoba,21,723,Almeria,20
+1217732,SPA2,2025-01-12,Elche,Zaragoza,797,Elche,23,732,Zaragoza,23
+1217731,SPA2,2025-01-12,Cadiz,Levante,724,Cadiz,23,539,Levante,21
+1217740,SPA2,2025-01-13,Eldense,Eibar,9692,Eldense,22,545,Eibar,20
+1217743,SPA2,2025-01-17,FC Cartagena,Oviedo,5262,FC Cartagena,22,718,Oviedo,21
+1217746,SPA2,2025-01-18,Eldense,Cadiz,9692,Eldense,23,724,Cadiz,23
+1217745,SPA2,2025-01-18,Eibar,Albacete,545,Eibar,21,722,Albacete,19
+1217747,SPA2,2025-01-18,Sporting Gijon,Elche,731,Sporting Gijon,20,797,Elche,23
+1217749,SPA2,2025-01-18,Levante,Granada CF,539,Levante,21,715,Granada CF,22
+1217748,SPA2,2025-01-19,Racing Santander,Racing Ferrol,4665,Racing Santander,21,9409,Racing Ferrol,21
+1217742,SPA2,2025-01-19,Burgos,Deportivo La Coruna,9580,Burgos,22,544,Deportivo La Coruna,23
+1217751,SPA2,2025-01-19,Zaragoza,Tenerife,732,Zaragoza,22,719,Tenerife,21
+1217741,SPA2,2025-01-19,Almeria,Huesca,723,Almeria,22,726,Huesca,21
+1217744,SPA2,2025-01-19,Castellón,Cordoba,5254,Castellón,23,713,Cordoba,20
+1217750,SPA2,2025-01-20,Mirandes,Malaga,799,Mirandes,19,535,Malaga,23
+1217761,SPA2,2025-01-24,Elche,Eibar,797,Elche,23,545,Eibar,21
+1217754,SPA2,2025-01-25,Cordoba,Racing Santander,713,Cordoba,20,4665,Racing Santander,22
+1217755,SPA2,2025-01-25,Deportivo La Coruna,Levante,544,Deportivo La Coruna,23,539,Levante,20
+1217759,SPA2,2025-01-25,Huesca,FC Cartagena,726,Huesca,23,5262,FC Cartagena,23
+1217762,SPA2,2025-01-25,Tenerife,Eldense,719,Tenerife,21,9692,Eldense,20
+1217757,SPA2,2025-01-26,Malaga,Zaragoza,535,Malaga,23,732,Zaragoza,21
+1217756,SPA2,2025-01-26,Granada CF,Sporting Gijon,715,Granada CF,23,731,Sporting Gijon,21
+1217760,SPA2,2025-01-26,Oviedo,Castellón,718,Oviedo,20,5254,Castellón,23
+1217752,SPA2,2025-01-26,Albacete,Almeria,722,Albacete,21,723,Almeria,23
+1217753,SPA2,2025-01-27,Cadiz,Mirandes,724,Cadiz,23,799,Mirandes,20
+1217703,SPA2,2025-01-29,Tenerife,Deportivo La Coruna,719,Tenerife,22,544,Deportivo La Coruna,23
+1217766,SPA2,2025-01-31,Eldense,Granada CF,9692,Eldense,23,715,Granada CF,23
+1217768,SPA2,2025-02-01,Sporting Gijon,Burgos,731,Sporting Gijon,21,9580,Burgos,23
+1217771,SPA2,2025-02-01,Mirandes,Elche,799,Mirandes,22,797,Elche,23
+1217763,SPA2,2025-02-01,Almeria,Oviedo,723,Almeria,20,718,Oviedo,21
+1217773,SPA2,2025-02-01,Racing Santander,Malaga,4665,Racing Santander,23,535,Malaga,23
+1217765,SPA2,2025-02-02,Castellón,Huesca,5254,Castellón,23,726,Huesca,19
+1217770,SPA2,2025-02-02,Eibar,Deportivo La Coruna,545,Eibar,22,544,Deportivo La Coruna,22
+1217769,SPA2,2025-02-02,Zaragoza,Cadiz,732,Zaragoza,22,724,Cadiz,22
+1217764,SPA2,2025-02-02,FC Cartagena,Cordoba,5262,FC Cartagena,23,713,Cordoba,20
+1217767,SPA2,2025-02-02,Tenerife,Albacete,719,Tenerife,22,722,Albacete,20
+1217772,SPA2,2025-02-03,Levante,Racing Ferrol,539,Levante,22,9409,Racing Ferrol,21
+1217774,SPA2,2025-02-07,Albacete,Zaragoza,722,Albacete,21,732,Zaragoza,22
+1217784,SPA2,2025-02-08,Malaga,Levante,535,Malaga,23,539,Levante,21
+1217782,SPA2,2025-02-08,Sporting Gijon,Eibar,731,Sporting Gijon,22,545,Eibar,23
+1217781,SPA2,2025-02-08,Racing Ferrol,Castellón,9409,Racing Ferrol,23,5254,Castellón,23
+1217779,SPA2,2025-02-08,Granada CF,Mirandes,715,Granada CF,23,799,Mirandes,21
+1217780,SPA2,2025-02-09,Deportivo La Coruna,Almeria,544,Deportivo La Coruna,23,723,Almeria,22
+1217776,SPA2,2025-02-09,Cadiz,FC Cartagena,724,Cadiz,21,5262,FC Cartagena,23
+1217778,SPA2,2025-02-09,Elche,Tenerife,797,Elche,23,719,Tenerife,21
+1217777,SPA2,2025-02-09,Cordoba,Huesca,713,Cordoba,21,726,Huesca,19
+1217775,SPA2,2025-02-09,Burgos,Racing Santander,9580,Burgos,23,4665,Racing Santander,22
+1217783,SPA2,2025-02-10,Oviedo,Eldense,718,Oviedo,22,9692,Eldense,23
+1217794,SPA2,2025-02-14,Mirandes,Racing Ferrol,799,Mirandes,23,9409,Racing Ferrol,23
+1217792,SPA2,2025-02-15,Tenerife,Cordoba,719,Tenerife,23,713,Cordoba,19
+1217787,SPA2,2025-02-15,Castellón,Eibar,5254,Castellón,23,545,Eibar,21
+1217786,SPA2,2025-02-15,FC Cartagena,Malaga,5262,FC Cartagena,23,535,Malaga,22
+1217791,SPA2,2025-02-15,Racing Santander,Cadiz,4665,Racing Santander,23,724,Cadiz,22
+1217793,SPA2,2025-02-16,Eldense,Deportivo La Coruna,9692,Eldense,23,544,Deportivo La Coruna,23
+1217795,SPA2,2025-02-16,Huesca,Granada CF,726,Huesca,22,715,Granada CF,22
+1217790,SPA2,2025-02-16,Zaragoza,Burgos,732,Zaragoza,23,9580,Burgos,23
+1217788,SPA2,2025-02-16,Levante,Sporting Gijon,539,Levante,23,731,Sporting Gijon,19
+1217789,SPA2,2025-02-16,Oviedo,Albacete,718,Oviedo,20,722,Albacete,22
+1217785,SPA2,2025-02-17,Almeria,Elche,723,Almeria,22,797,Elche,23
+1217803,SPA2,2025-02-21,Malaga,Tenerife,535,Malaga,23,719,Tenerife,20
+1217804,SPA2,2025-02-22,Sporting Gijon,Almeria,731,Sporting Gijon,22,723,Almeria,22
+1217801,SPA2,2025-02-22,Granada CF,Zaragoza,715,Granada CF,23,732,Zaragoza,22
+1217806,SPA2,2025-02-22,Racing Ferrol,Cordoba,9409,Racing Ferrol,23,713,Cordoba,20
+1217800,SPA2,2025-02-22,Eibar,Racing Santander,545,Eibar,23,4665,Racing Santander,22
+1217797,SPA2,2025-02-22,Burgos,Oviedo,9580,Burgos,23,718,Oviedo,21
+1217796,SPA2,2025-02-23,Albacete,Eldense,722,Albacete,23,9692,Eldense,23
+1217802,SPA2,2025-02-23,Levante,Mirandes,539,Levante,22,799,Mirandes,21
+1217798,SPA2,2025-02-23,Cadiz,Castellón,724,Cadiz,23,5254,Castellón,23
+1217799,SPA2,2025-02-23,Deportivo La Coruna,Huesca,544,Deportivo La Coruna,23,726,Huesca,21
+1217805,SPA2,2025-02-23,Elche,FC Cartagena,797,Elche,23,5262,FC Cartagena,21
+1217809,SPA2,2025-02-28,FC Cartagena,Eibar,5262,FC Cartagena,22,545,Eibar,23
+1217816,SPA2,2025-03-01,Huesca,Racing Ferrol,726,Huesca,23,9409,Racing Ferrol,23
+1217813,SPA2,2025-03-01,Castellón,Burgos,5254,Castellón,23,9580,Burgos,23
+1217817,SPA2,2025-03-01,Zaragoza,Sporting Gijon,732,Zaragoza,23,731,Sporting Gijon,20
+1217808,SPA2,2025-03-01,Almeria,Malaga,723,Almeria,20,535,Malaga,23
+1217810,SPA2,2025-03-02,Cordoba,Granada CF,713,Cordoba,22,715,Granada CF,22
+1217815,SPA2,2025-03-02,Racing Santander,Elche,4665,Racing Santander,23,797,Elche,23
+1217811,SPA2,2025-03-02,Eldense,Levante,9692,Eldense,23,539,Levante,20
+1217807,SPA2,2025-03-02,Albacete,Cadiz,722,Albacete,22,724,Cadiz,23
+1217814,SPA2,2025-03-02,Oviedo,Deportivo La Coruna,718,Oviedo,21,544,Deportivo La Coruna,23
+1217812,SPA2,2025-03-03,Mirandes,Tenerife,799,Mirandes,22,719,Tenerife,20
+1217758,SPA2,2025-03-05,Racing Ferrol,Burgos,9409,Racing Ferrol,23,9580,Burgos,23
+1217820,SPA2,2025-03-07,Eibar,Almeria,545,Eibar,22,723,Almeria,23
+1217824,SPA2,2025-03-07,Deportivo La Coruna,Cordoba,544,Deportivo La Coruna,23,713,Cordoba,20
+1217818,SPA2,2025-03-08,Mirandes,Oviedo,799,Mirandes,20,718,Oviedo,23
+1217828,SPA2,2025-03-08,Sporting Gijon,Racing Santander,731,Sporting Gijon,23,4665,Racing Santander,23
+1217823,SPA2,2025-03-08,Elche,Castellón,797,Elche,23,5254,Castellón,23
+1217825,SPA2,2025-03-08,Zaragoza,Eldense,732,Zaragoza,23,9692,Eldense,23
+1217821,SPA2,2025-03-09,Malaga,Cadiz,535,Malaga,22,724,Cadiz,23
+1217826,SPA2,2025-03-09,Granada CF,Racing Ferrol,715,Granada CF,23,9409,Racing Ferrol,21
+1217822,SPA2,2025-03-09,Levante,FC Cartagena,539,Levante,23,5262,FC Cartagena,22
+1217827,SPA2,2025-03-09,Tenerife,Huesca,719,Tenerife,23,726,Huesca,20
+1217819,SPA2,2025-03-10,Burgos,Albacete,9580,Burgos,23,722,Albacete,21
+1217839,SPA2,2025-03-14,Oviedo,Elche,718,Oviedo,23,797,Elche,23
+1217838,SPA2,2025-03-15,Racing Ferrol,Eibar,9409,Racing Ferrol,22,545,Eibar,22
+1217829,SPA2,2025-03-15,Albacete,Malaga,722,Albacete,21,535,Malaga,23
+1217837,SPA2,2025-03-15,FC Cartagena,Burgos,5262,FC Cartagena,23,9580,Burgos,23
+1217830,SPA2,2025-03-15,Almeria,Zaragoza,723,Almeria,22,732,Zaragoza,23
+1217833,SPA2,2025-03-15,Cordoba,Sporting Gijon,713,Cordoba,20,731,Sporting Gijon,21
+1217831,SPA2,2025-03-16,Cadiz,Granada CF,724,Cadiz,23,715,Granada CF,23
+1217836,SPA2,2025-03-16,Racing Santander,Tenerife,4665,Racing Santander,23,719,Tenerife,22
+1217834,SPA2,2025-03-16,Eldense,Mirandes,9692,Eldense,23,799,Mirandes,22
+1217835,SPA2,2025-03-16,Huesca,Levante,726,Huesca,20,539,Levante,22
+1217832,SPA2,2025-03-17,Castellón,Deportivo La Coruna,5254,Castellón,23,544,Deportivo La Coruna,22
+1217845,SPA2,2025-03-21,Burgos,Almeria,9580,Burgos,23,723,Almeria,20
+1217842,SPA2,2025-03-22,Granada CF,Oviedo,715,Granada CF,22,718,Oviedo,21
+1217843,SPA2,2025-03-22,Mirandes,Racing Santander,799,Mirandes,22,4665,Racing Santander,23
+1217841,SPA2,2025-03-22,Elche,Eldense,797,Elche,23,9692,Eldense,23
+1217850,SPA2,2025-03-22,Malaga,Racing Ferrol,535,Malaga,23,9409,Racing Ferrol,22
+1217846,SPA2,2025-03-23,Tenerife,Cadiz,719,Tenerife,23,724,Cadiz,21
+1217847,SPA2,2025-03-23,Deportivo La Coruna,FC Cartagena,544,Deportivo La Coruna,23,5262,FC Cartagena,21
+1217844,SPA2,2025-03-23,Sporting Gijon,Albacete,731,Sporting Gijon,21,722,Albacete,21
+1217848,SPA2,2025-03-23,Levante,Castellón,539,Levante,22,5254,Castellón,23
+1217840,SPA2,2025-03-23,Eibar,Huesca,545,Eibar,22,726,Huesca,20
+1217849,SPA2,2025-03-24,Zaragoza,Cordoba,732,Zaragoza,22,713,Cordoba,19
+1217860,SPA2,2025-03-28,Tenerife,Granada CF,719,Tenerife,23,715,Granada CF,23
+1217852,SPA2,2025-03-29,Almeria,Levante,723,Almeria,23,539,Levante,22
+1217858,SPA2,2025-03-29,Eldense,Burgos,9692,Eldense,23,9580,Burgos,23
+1217859,SPA2,2025-03-29,Racing Ferrol,Deportivo La Coruna,9409,Racing Ferrol,22,544,Deportivo La Coruna,23
+1217857,SPA2,2025-03-29,Racing Santander,Zaragoza,4665,Racing Santander,23,732,Zaragoza,23
+1217854,SPA2,2025-03-29,FC Cartagena,Castellón,5262,FC Cartagena,23,5254,Castellón,23
+1217861,SPA2,2025-03-30,Oviedo,Malaga,718,Oviedo,23,535,Malaga,23
+1217855,SPA2,2025-03-30,Cordoba,Elche,713,Cordoba,21,797,Elche,23
+1217851,SPA2,2025-03-30,Albacete,Mirandes,722,Albacete,21,799,Mirandes,20
+1217856,SPA2,2025-03-30,Huesca,Sporting Gijon,726,Huesca,22,731,Sporting Gijon,21
+1217853,SPA2,2025-03-31,Cadiz,Eibar,724,Cadiz,23,545,Eibar,22
+1217868,SPA2,2025-04-04,Castellón,Albacete,5254,Castellón,23,722,Albacete,20
+1217864,SPA2,2025-04-05,Eibar,Oviedo,545,Eibar,23,718,Oviedo,22
+1217869,SPA2,2025-04-05,Granada CF,Almeria,715,Granada CF,23,723,Almeria,23
+1217863,SPA2,2025-04-05,FC Cartagena,Eldense,5262,FC Cartagena,23,9692,Eldense,23
+1217867,SPA2,2025-04-05,Sporting Gijon,Tenerife,731,Sporting Gijon,23,719,Tenerife,21
+1217870,SPA2,2025-04-06,Deportivo La Coruna,Cadiz,544,Deportivo La Coruna,23,724,Cadiz,23
+1217862,SPA2,2025-04-06,Burgos,Huesca,9580,Burgos,23,726,Huesca,21
+1217871,SPA2,2025-04-06,Malaga,Cordoba,535,Malaga,23,713,Cordoba,21
+1217872,SPA2,2025-04-06,Zaragoza,Mirandes,732,Zaragoza,21,799,Mirandes,22
+1217866,SPA2,2025-04-06,Levante,Racing Santander,539,Levante,21,4665,Racing Santander,23
+1217865,SPA2,2025-04-07,Elche,Racing Ferrol,797,Elche,23,9409,Racing Ferrol,21
+1217876,SPA2,2025-04-11,Cordoba,Levante,713,Cordoba,20,539,Levante,21
+1217883,SPA2,2025-04-12,Oviedo,Racing Ferrol,718,Oviedo,23,9409,Racing Ferrol,23
+1217875,SPA2,2025-04-12,Cadiz,Elche,724,Cadiz,22,797,Elche,23
+1217882,SPA2,2025-04-12,Zaragoza,Eibar,732,Zaragoza,23,545,Eibar,22
+1217879,SPA2,2025-04-12,Tenerife,Burgos,719,Tenerife,23,9580,Burgos,23
+1217874,SPA2,2025-04-13,Almeria,FC Cartagena,723,Almeria,22,5262,FC Cartagena,23
+1217877,SPA2,2025-04-13,Eldense,Sporting Gijon,9692,Eldense,23,731,Sporting Gijon,23
+1217881,SPA2,2025-04-13,Mirandes,Deportivo La Coruna,799,Mirandes,21,544,Deportivo La Coruna,22
+1217873,SPA2,2025-04-13,Albacete,Granada CF,722,Albacete,21,715,Granada CF,23
+1217880,SPA2,2025-04-13,Racing Santander,Castellón,4665,Racing Santander,23,5254,Castellón,23
+1217878,SPA2,2025-04-14,Huesca,Malaga,726,Huesca,22,535,Malaga,22
+1217892,SPA2,2025-04-18,Castellón,Almeria,5254,Castellón,23,723,Almeria,22
+1217894,SPA2,2025-04-18,Sporting Gijon,Mirandes,731,Sporting Gijon,23,799,Mirandes,21
+1217884,SPA2,2025-04-19,Burgos,Cadiz,9580,Burgos,23,724,Cadiz,21
+1217889,SPA2,2025-04-19,Huesca,Racing Santander,726,Huesca,23,4665,Racing Santander,23
+1217890,SPA2,2025-04-19,Levante,Zaragoza,539,Levante,21,732,Zaragoza,22
+1217893,SPA2,2025-04-19,Racing Ferrol,Eldense,9409,Racing Ferrol,23,9692,Eldense,23
+1217885,SPA2,2025-04-20,FC Cartagena,Granada CF,5262,FC Cartagena,22,715,Granada CF,23
+1217886,SPA2,2025-04-20,Cordoba,Oviedo,713,Cordoba,19,718,Oviedo,23
+1217887,SPA2,2025-04-20,Deportivo La Coruna,Tenerife,544,Deportivo La Coruna,23,719,Tenerife,21
+1217891,SPA2,2025-04-20,Elche,Albacete,797,Elche,23,722,Albacete,20
+1217888,SPA2,2025-04-21,Eibar,Malaga,545,Eibar,22,535,Malaga,23
+1217897,SPA2,2025-04-25,Cadiz,Sporting Gijon,724,Cadiz,22,731,Sporting Gijon,23
+1217895,SPA2,2025-04-26,Albacete,FC Cartagena,722,Albacete,21,5262,FC Cartagena,22
+1217905,SPA2,2025-04-26,Oviedo,Levante,718,Oviedo,23,539,Levante,22
+1217900,SPA2,2025-04-26,Eldense,Cordoba,9692,Eldense,23,713,Cordoba,17
+1217898,SPA2,2025-04-26,Mirandes,Burgos,799,Mirandes,21,9580,Burgos,23
+1217903,SPA2,2025-04-26,Granada CF,Elche,715,Granada CF,23,797,Elche,23
+1217904,SPA2,2025-04-27,Zaragoza,Huesca,732,Zaragoza,23,726,Huesca,22
+1217902,SPA2,2025-04-27,Tenerife,Eibar,719,Tenerife,23,545,Eibar,22
+1217899,SPA2,2025-04-27,Malaga,Castellón,535,Malaga,23,5254,Castellón,23
+1217901,SPA2,2025-04-27,Racing Santander,Deportivo La Coruna,4665,Racing Santander,23,544,Deportivo La Coruna,21
+1217896,SPA2,2025-04-29,Almeria,Racing Ferrol,723,Almeria,22,9409,Racing Ferrol,21
+1217915,SPA2,2025-05-02,Cordoba,Cadiz,713,Cordoba,20,724,Cadiz,21
+1217907,SPA2,2025-05-03,Burgos,Elche,9580,Burgos,23,797,Elche,23
+1217910,SPA2,2025-05-03,Eibar,Mirandes,545,Eibar,21,799,Mirandes,22
+1217916,SPA2,2025-05-03,Malaga,Granada CF,535,Malaga,22,715,Granada CF,23
+1217912,SPA2,2025-05-03,Huesca,Oviedo,726,Huesca,23,718,Oviedo,23
+1217914,SPA2,2025-05-04,Deportivo La Coruna,Albacete,544,Deportivo La Coruna,20,722,Albacete,21
+1217908,SPA2,2025-05-04,FC Cartagena,Racing Santander,5262,FC Cartagena,23,4665,Racing Santander,23
+1217913,SPA2,2025-05-04,Levante,Tenerife,539,Levante,21,719,Tenerife,22
+1217911,SPA2,2025-05-04,Racing Ferrol,Zaragoza,9409,Racing Ferrol,20,732,Zaragoza,23
+1217906,SPA2,2025-05-04,Almeria,Eldense,723,Almeria,22,9692,Eldense,22
+1217909,SPA2,2025-05-05,Castellón,Sporting Gijon,5254,Castellón,23,731,Sporting Gijon,23
+1217921,SPA2,2025-05-09,Cadiz,Almeria,724,Cadiz,22,723,Almeria,23
+1217922,SPA2,2025-05-10,Zaragoza,FC Cartagena,732,Zaragoza,23,5262,FC Cartagena,23
+1217919,SPA2,2025-05-10,Elche,Levante,797,Elche,23,539,Levante,22
+1217918,SPA2,2025-05-10,Burgos,Cordoba,9580,Burgos,23,713,Cordoba,21
+1217924,SPA2,2025-05-10,Sporting Gijon,Deportivo La Coruna,731,Sporting Gijon,23,544,Deportivo La Coruna,21
+1217923,SPA2,2025-05-10,Mirandes,Castellón,799,Mirandes,23,5254,Castellón,23
+1217926,SPA2,2025-05-11,Tenerife,Racing Ferrol,719,Tenerife,23,9409,Racing Ferrol,20
+1217920,SPA2,2025-05-11,Eldense,Malaga,9692,Eldense,23,535,Malaga,23
+1217917,SPA2,2025-05-11,Albacete,Huesca,722,Albacete,22,726,Huesca,21
+1217927,SPA2,2025-05-11,Racing Santander,Oviedo,4665,Racing Santander,23,718,Oviedo,23
+1217925,SPA2,2025-05-12,Granada CF,Eibar,715,Granada CF,23,545,Eibar,21
+1217935,SPA2,2025-05-16,Levante,Albacete,539,Levante,23,722,Albacete,22
+1217929,SPA2,2025-05-17,FC Cartagena,Tenerife,5262,FC Cartagena,22,719,Tenerife,20
+1217938,SPA2,2025-05-17,Huesca,Elche,726,Huesca,21,797,Elche,23
+1217933,SPA2,2025-05-17,Malaga,Sporting Gijon,535,Malaga,23,731,Sporting Gijon,22
+1217936,SPA2,2025-05-17,Eibar,Burgos,545,Eibar,21,9580,Burgos,23
+1217932,SPA2,2025-05-17,Deportivo La Coruna,Granada CF,544,Deportivo La Coruna,22,715,Granada CF,23
+1217937,SPA2,2025-05-18,Racing Ferrol,Cadiz,9409,Racing Ferrol,21,724,Cadiz,22
+1217934,SPA2,2025-05-18,Oviedo,Zaragoza,718,Oviedo,23,732,Zaragoza,23
+1217930,SPA2,2025-05-18,Castellón,Eldense,5254,Castellón,23,9692,Eldense,21
+1217928,SPA2,2025-05-18,Almeria,Racing Santander,723,Almeria,21,4665,Racing Santander,23
+1217931,SPA2,2025-05-19,Cordoba,Mirandes,713,Cordoba,21,799,Mirandes,21
+1217939,SPA2,2025-05-24,Albacete,Racing Ferrol,722,Albacete,21,9409,Racing Ferrol,20
+1217948,SPA2,2025-05-25,Zaragoza,Deportivo La Coruna,732,Zaragoza,23,544,Deportivo La Coruna,23
+1217942,SPA2,2025-05-25,Elche,Malaga,797,Elche,23,535,Malaga,23
+1217943,SPA2,2025-05-25,Eldense,Racing Santander,9692,Eldense,21,4665,Racing Santander,23
+1217940,SPA2,2025-05-25,Burgos,Levante,9580,Burgos,23,539,Levante,23
+1217944,SPA2,2025-05-25,Mirandes,Almeria,799,Mirandes,22,723,Almeria,23
+1217947,SPA2,2025-05-25,Eibar,Cordoba,545,Eibar,22,713,Cordoba,20
+1217945,SPA2,2025-05-25,Sporting Gijon,FC Cartagena,731,Sporting Gijon,21,5262,FC Cartagena,21
+1217941,SPA2,2025-05-25,Cadiz,Huesca,724,Cadiz,22,726,Huesca,18
+1217949,SPA2,2025-05-25,Tenerife,Oviedo,719,Tenerife,23,718,Oviedo,23
+1217946,SPA2,2025-05-25,Granada CF,Castellón,715,Granada CF,23,5254,Castellón,23
+1217952,SPA2,2025-05-30,Castellón,Zaragoza,5254,Castellón,23,732,Zaragoza,21
+1217956,SPA2,2025-05-31,Malaga,Burgos,535,Malaga,23,9580,Burgos,22
+1217954,SPA2,2025-05-31,Racing Ferrol,Sporting Gijon,9409,Racing Ferrol,19,731,Sporting Gijon,22
+1217959,SPA2,2025-06-01,Huesca,Eldense,726,Huesca,23,9692,Eldense,20
+1217951,SPA2,2025-06-01,FC Cartagena,Mirandes,5262,FC Cartagena,22,799,Mirandes,22
+1217950,SPA2,2025-06-01,Almeria,Tenerife,723,Almeria,23,719,Tenerife,20
+1217960,SPA2,2025-06-01,Racing Santander,Granada CF,4665,Racing Santander,23,715,Granada CF,23
+1217955,SPA2,2025-06-01,Cordoba,Albacete,713,Cordoba,20,722,Albacete,21
+1217957,SPA2,2025-06-01,Oviedo,Cadiz,718,Oviedo,23,724,Cadiz,23
+1217958,SPA2,2025-06-01,Levante,Eibar,539,Levante,23,545,Eibar,22
+1217953,SPA2,2025-06-01,Deportivo La Coruna,Elche,544,Deportivo La Coruna,23,797,Elche,23
+1377428,SPA2,2025-06-07,Almeria,Oviedo,723,Almeria,23,718,Oviedo,23
+1377430,SPA2,2025-06-08,Racing Santander,Mirandes,4665,Racing Santander,23,799,Mirandes,23
+1377429,SPA2,2025-06-11,Oviedo,Almeria,718,Oviedo,23,723,Almeria,22
+1377431,SPA2,2025-06-12,Mirandes,Racing Santander,799,Mirandes,23,4665,Racing Santander,23
+1378301,SPA2,2025-06-15,Mirandes,Oviedo,799,Mirandes,23,718,Oviedo,23
+1396944,SPA2,2025-08-15,Valladolid,AD Ceuta FC,720,Valladolid,23,10139,AD Ceuta FC,22
+1391254,SPA2,2025-08-15,Burgos,Cultural Leonesa,9580,Burgos,23,725,Cultural Leonesa,23
+1391253,SPA2,2025-08-16,Granada CF,Deportivo La Coruna,715,Granada CF,20,544,Deportivo La Coruna,21
+1391256,SPA2,2025-08-16,Racing Santander,Castellón,4665,Racing Santander,23,5254,Castellón,23
+1391259,SPA2,2025-08-16,Malaga,Eibar,535,Malaga,23,545,Eibar,22
+1391258,SPA2,2025-08-17,Huesca,Leganes,726,Huesca,23,537,Leganes,23
+1396943,SPA2,2025-08-17,Las Palmas,FC Andorra,534,Las Palmas,23,8157,FC Andorra,20
+1391257,SPA2,2025-08-17,Real Sociedad II,Zaragoza,9585,Real Sociedad II,22,732,Zaragoza,21
+1391255,SPA2,2025-08-17,Cadiz,Mirandes,724,Cadiz,23,799,Mirandes,18
+1396942,SPA2,2025-08-18,Sporting Gijon,Cordoba,731,Sporting Gijon,23,713,Cordoba,23
+1396941,SPA2,2025-08-18,Almeria,Albacete,723,Almeria,23,722,Albacete,23

@@ -1,0 +1,373 @@
+fixture_id,league_code,match_date,home_team,away_team,team_1_id,team_1_name,team_1_players_count,team_2_id,team_2_name,team_2_players_count
+1223602,ITA1,2024-08-19,Lecce,Atalanta,867,Lecce,26,499,Atalanta,23
+1223600,ITA1,2024-08-19,Juventus,Como,496,Juventus,19,895,Como,19
+1223614,ITA1,2024-08-24,Udinese,Lazio,494,Udinese,22,487,Lazio,23
+1223611,ITA1,2024-08-24,Parma,AC Milan,523,Parma,22,489,AC Milan,22
+1223608,ITA1,2024-08-24,Inter,Lecce,505,Inter,22,867,Lecce,24
+1223609,ITA1,2024-08-24,Monza,Genoa,1579,Monza,24,495,Genoa,24
+1223612,ITA1,2024-08-25,AS Roma,Empoli,497,AS Roma,26,511,Empoli,22
+1223610,ITA1,2024-08-25,Napoli,Bologna,492,Napoli,25,500,Bologna,26
+1223606,ITA1,2024-08-25,Fiorentina,Venezia,502,Fiorentina,23,517,Venezia,24
+1223613,ITA1,2024-08-25,Torino,Atalanta,503,Torino,25,499,Atalanta,22
+1223607,ITA1,2024-08-26,Verona,Juventus,504,Verona,26,496,Juventus,19
+1223605,ITA1,2024-08-26,Cagliari,Como,490,Cagliari,25,895,Como,23
+1223624,ITA1,2024-08-30,Venezia,Torino,517,Venezia,23,503,Torino,23
+1223618,ITA1,2024-08-30,Inter,Atalanta,505,Inter,23,499,Atalanta,24
+1223615,ITA1,2024-08-31,Bologna,Empoli,500,Bologna,24,511,Empoli,21
+1223621,ITA1,2024-08-31,Lecce,Cagliari,867,Lecce,26,490,Cagliari,26
+1223622,ITA1,2024-08-31,Napoli,Parma,492,Napoli,21,523,Parma,24
+1223620,ITA1,2024-08-31,Lazio,AC Milan,487,Lazio,21,489,AC Milan,23
+1223616,ITA1,2024-09-01,Fiorentina,Monza,502,Fiorentina,24,1579,Monza,23
+1223619,ITA1,2024-09-01,Juventus,AS Roma,496,Juventus,21,497,AS Roma,26
+1223623,ITA1,2024-09-01,Udinese,Como,494,Udinese,23,895,Como,24
+1223617,ITA1,2024-09-01,Genoa,Verona,495,Genoa,23,504,Verona,26
+1223631,ITA1,2024-09-14,AC Milan,Venezia,489,AC Milan,22,517,Venezia,24
+1223628,ITA1,2024-09-14,Empoli,Juventus,511,Empoli,23,496,Juventus,23
+1223627,ITA1,2024-09-14,Como,Bologna,895,Como,24,500,Bologna,26
+1223629,ITA1,2024-09-15,Genoa,AS Roma,495,Genoa,22,497,AS Roma,24
+1223625,ITA1,2024-09-15,Atalanta,Fiorentina,499,Atalanta,23,502,Fiorentina,23
+1223634,ITA1,2024-09-15,Torino,Lecce,503,Torino,24,867,Lecce,24
+1223626,ITA1,2024-09-15,Cagliari,Napoli,490,Cagliari,25,492,Napoli,24
+1223632,ITA1,2024-09-15,Monza,Inter,1579,Monza,22,505,Inter,24
+1223633,ITA1,2024-09-16,Parma,Udinese,523,Parma,23,494,Udinese,26
+1223630,ITA1,2024-09-16,Lazio,Verona,487,Lazio,23,504,Verona,26
+1223638,ITA1,2024-09-20,Verona,Torino,504,Verona,26,503,Torino,23
+1223636,ITA1,2024-09-20,Cagliari,Empoli,490,Cagliari,25,511,Empoli,23
+1223641,ITA1,2024-09-21,Lecce,Parma,867,Lecce,26,523,Parma,22
+1223640,ITA1,2024-09-21,Juventus,Napoli,496,Juventus,23,492,Napoli,24
+1223644,ITA1,2024-09-21,Venezia,Genoa,517,Venezia,24,495,Genoa,25
+1223637,ITA1,2024-09-22,Fiorentina,Lazio,502,Fiorentina,24,487,Lazio,21
+1223642,ITA1,2024-09-22,Monza,Bologna,1579,Monza,21,500,Bologna,25
+1223643,ITA1,2024-09-22,AS Roma,Udinese,497,AS Roma,23,494,Udinese,26
+1223639,ITA1,2024-09-22,Inter,AC Milan,505,Inter,24,489,AC Milan,23
+1223635,ITA1,2024-09-24,Atalanta,Como,499,Atalanta,24,895,Como,25
+1223649,ITA1,2024-09-27,AC Milan,Lecce,489,AC Milan,23,867,Lecce,24
+1223648,ITA1,2024-09-28,Genoa,Juventus,495,Genoa,23,496,Juventus,22
+1223645,ITA1,2024-09-28,Bologna,Atalanta,500,Bologna,26,499,Atalanta,23
+1223654,ITA1,2024-09-28,Udinese,Inter,494,Udinese,22,505,Inter,23
+1223650,ITA1,2024-09-29,Napoli,Monza,492,Napoli,24,1579,Monza,23
+1223646,ITA1,2024-09-29,Como,Verona,895,Como,26,504,Verona,26
+1223647,ITA1,2024-09-29,Empoli,Fiorentina,511,Empoli,25,502,Fiorentina,24
+1223652,ITA1,2024-09-29,AS Roma,Venezia,497,AS Roma,23,517,Venezia,24
+1223653,ITA1,2024-09-29,Torino,Lazio,503,Torino,23,487,Lazio,22
+1223651,ITA1,2024-09-30,Parma,Cagliari,523,Parma,23,490,Cagliari,22
+1223663,ITA1,2024-10-04,Napoli,Como,492,Napoli,24,895,Como,25
+1223658,ITA1,2024-10-04,Verona,Venezia,504,Verona,25,517,Venezia,26
+1223659,ITA1,2024-10-05,Inter,Torino,505,Inter,23,503,Torino,22
+1223655,ITA1,2024-10-05,Atalanta,Genoa,499,Atalanta,21,495,Genoa,25
+1223664,ITA1,2024-10-05,Udinese,Lecce,494,Udinese,22,867,Lecce,24
+1223657,ITA1,2024-10-06,Fiorentina,AC Milan,502,Fiorentina,23,489,AC Milan,22
+1223656,ITA1,2024-10-06,Bologna,Parma,500,Bologna,25,523,Parma,24
+1223662,ITA1,2024-10-06,Monza,AS Roma,1579,Monza,22,497,AS Roma,23
+1223660,ITA1,2024-10-06,Juventus,Cagliari,496,Juventus,20,490,Cagliari,22
+1223661,ITA1,2024-10-06,Lazio,Empoli,487,Lazio,22,511,Empoli,24
+1223668,ITA1,2024-10-19,Genoa,Bologna,495,Genoa,24,500,Bologna,23
+1223666,ITA1,2024-10-19,Como,Parma,895,Como,26,523,Parma,22
+1223672,ITA1,2024-10-19,AC Milan,Udinese,489,AC Milan,21,494,Udinese,24
+1223670,ITA1,2024-10-19,Juventus,Lazio,496,Juventus,19,487,Lazio,22
+1223674,ITA1,2024-10-20,Venezia,Atalanta,517,Venezia,26,499,Atalanta,23
+1223673,ITA1,2024-10-20,AS Roma,Inter,497,AS Roma,24,505,Inter,23
+1223671,ITA1,2024-10-20,Lecce,Fiorentina,867,Lecce,24,502,Fiorentina,23
+1223665,ITA1,2024-10-20,Cagliari,Torino,490,Cagliari,23,503,Torino,21
+1223667,ITA1,2024-10-20,Empoli,Napoli,511,Empoli,24,492,Napoli,23
+1223669,ITA1,2024-10-21,Verona,Monza,504,Verona,26,1579,Monza,24
+1223683,ITA1,2024-10-25,Torino,Como,503,Torino,23,895,Como,25
+1223684,ITA1,2024-10-25,Udinese,Cagliari,494,Udinese,23,490,Cagliari,24
+1223681,ITA1,2024-10-26,Napoli,Lecce,492,Napoli,22,867,Lecce,22
+1223675,ITA1,2024-10-26,Atalanta,Verona,499,Atalanta,24,504,Verona,26
+1223678,ITA1,2024-10-27,Inter,Juventus,505,Inter,23,496,Juventus,20
+1223682,ITA1,2024-10-27,Parma,Empoli,523,Parma,25,511,Empoli,25
+1223680,ITA1,2024-10-27,Monza,Venezia,1579,Monza,23,517,Venezia,26
+1223679,ITA1,2024-10-27,Lazio,Genoa,487,Lazio,20,495,Genoa,24
+1223677,ITA1,2024-10-27,Fiorentina,AS Roma,502,Fiorentina,22,497,AS Roma,23
+1223691,ITA1,2024-10-29,Lecce,Verona,867,Lecce,24,504,Verona,26
+1223686,ITA1,2024-10-29,Cagliari,Bologna,490,Cagliari,23,500,Bologna,25
+1223692,ITA1,2024-10-29,AC Milan,Napoli,489,AC Milan,22,492,Napoli,23
+1223688,ITA1,2024-10-30,Empoli,Inter,511,Empoli,25,505,Inter,23
+1223694,ITA1,2024-10-30,Venezia,Udinese,517,Venezia,26,494,Udinese,24
+1223690,ITA1,2024-10-30,Juventus,Parma,496,Juventus,22,523,Parma,25
+1223685,ITA1,2024-10-30,Atalanta,Monza,499,Atalanta,23,1579,Monza,22
+1223687,ITA1,2024-10-31,Como,Lazio,895,Como,24,487,Lazio,21
+1223689,ITA1,2024-10-31,Genoa,Fiorentina,495,Genoa,23,502,Fiorentina,23
+1223693,ITA1,2024-10-31,AS Roma,Torino,497,AS Roma,23,503,Torino,23
+1223695,ITA1,2024-11-02,Bologna,Lecce,500,Bologna,25,867,Lecce,24
+1223700,ITA1,2024-11-02,Monza,AC Milan,1579,Monza,23,489,AC Milan,21
+1223704,ITA1,2024-11-02,Udinese,Juventus,494,Udinese,24,496,Juventus,22
+1223703,ITA1,2024-11-03,Torino,Fiorentina,503,Torino,24,502,Fiorentina,24
+1223701,ITA1,2024-11-03,Napoli,Atalanta,492,Napoli,22,499,Atalanta,24
+1223698,ITA1,2024-11-03,Inter,Venezia,505,Inter,23,517,Venezia,26
+1223697,ITA1,2024-11-03,Verona,AS Roma,504,Verona,26,497,AS Roma,24
+1223699,ITA1,2024-11-04,Lazio,Cagliari,487,Lazio,21,490,Cagliari,26
+1223702,ITA1,2024-11-04,Parma,Genoa,523,Parma,24,495,Genoa,24
+1223696,ITA1,2024-11-04,Empoli,Como,511,Empoli,21,895,Como,23
+1223708,ITA1,2024-11-07,Genoa,Como,495,Genoa,24,895,Como,22
+1223711,ITA1,2024-11-08,Lecce,Empoli,867,Lecce,23,511,Empoli,20
+1223714,ITA1,2024-11-09,Venezia,Parma,517,Venezia,26,523,Parma,22
+1223706,ITA1,2024-11-09,Cagliari,AC Milan,490,Cagliari,24,489,AC Milan,20
+1223710,ITA1,2024-11-09,Juventus,Torino,496,Juventus,19,503,Torino,24
+1223709,ITA1,2024-11-10,Inter,Napoli,505,Inter,24,492,Napoli,23
+1223712,ITA1,2024-11-10,Monza,Lazio,1579,Monza,22,487,Lazio,22
+1223707,ITA1,2024-11-10,Fiorentina,Verona,502,Fiorentina,23,504,Verona,26
+1223713,ITA1,2024-11-10,AS Roma,Bologna,497,AS Roma,21,500,Bologna,26
+1223705,ITA1,2024-11-10,Atalanta,Udinese,499,Atalanta,23,494,Udinese,25
+1223722,ITA1,2024-11-23,Parma,Atalanta,523,Parma,22,499,Atalanta,21
+1223718,ITA1,2024-11-23,Verona,Inter,504,Verona,26,505,Inter,23
+1223720,ITA1,2024-11-23,AC Milan,Juventus,489,AC Milan,22,496,Juventus,18
+1223717,ITA1,2024-11-24,Genoa,Cagliari,495,Genoa,26,490,Cagliari,26
+1223723,ITA1,2024-11-24,Torino,Monza,503,Torino,22,1579,Monza,25
+1223715,ITA1,2024-11-24,Como,Fiorentina,895,Como,22,502,Fiorentina,23
+1223721,ITA1,2024-11-24,Napoli,AS Roma,492,Napoli,24,497,AS Roma,23
+1223719,ITA1,2024-11-24,Lazio,Bologna,487,Lazio,21,500,Bologna,25
+1223716,ITA1,2024-11-25,Empoli,Udinese,511,Empoli,22,494,Udinese,24
+1223724,ITA1,2024-11-25,Venezia,Lecce,517,Venezia,26,867,Lecce,25
+1223726,ITA1,2024-11-29,Cagliari,Verona,490,Cagliari,26,504,Verona,26
+1223730,ITA1,2024-11-30,AC Milan,Empoli,489,AC Milan,21,511,Empoli,24
+1223725,ITA1,2024-11-30,Bologna,Venezia,500,Bologna,26,517,Venezia,25
+1223727,ITA1,2024-11-30,Como,Monza,895,Como,23,1579,Monza,24
+1223734,ITA1,2024-12-01,Udinese,Genoa,494,Udinese,25,495,Genoa,25
+1223733,ITA1,2024-12-01,Torino,Napoli,503,Torino,22,492,Napoli,23
+1223731,ITA1,2024-12-01,Parma,Lazio,523,Parma,24,487,Lazio,19
+1223729,ITA1,2024-12-01,Lecce,Juventus,867,Lecce,26,496,Juventus,21
+1223732,ITA1,2024-12-02,AS Roma,Atalanta,497,AS Roma,24,499,Atalanta,24
+1223739,ITA1,2024-12-06,Inter,Parma,505,Inter,23,523,Parma,22
+1223735,ITA1,2024-12-06,Atalanta,AC Milan,499,Atalanta,23,489,AC Milan,22
+1223737,ITA1,2024-12-07,Genoa,Torino,495,Genoa,24,503,Torino,22
+1223743,ITA1,2024-12-07,AS Roma,Lecce,497,AS Roma,24,867,Lecce,24
+1223740,ITA1,2024-12-07,Juventus,Bologna,496,Juventus,23,500,Bologna,25
+1223742,ITA1,2024-12-08,Napoli,Lazio,492,Napoli,23,487,Lazio,21
+1223744,ITA1,2024-12-08,Venezia,Como,517,Venezia,24,895,Como,25
+1223738,ITA1,2024-12-08,Verona,Empoli,504,Verona,24,511,Empoli,23
+1223736,ITA1,2024-12-08,Fiorentina,Cagliari,502,Fiorentina,23,490,Cagliari,25
+1223741,ITA1,2024-12-09,Monza,Udinese,1579,Monza,25,494,Udinese,22
+1223748,ITA1,2024-12-13,Empoli,Torino,511,Empoli,24,503,Torino,22
+1223749,ITA1,2024-12-14,Juventus,Venezia,496,Juventus,20,517,Venezia,25
+1223746,ITA1,2024-12-14,Cagliari,Atalanta,490,Cagliari,26,499,Atalanta,24
+1223754,ITA1,2024-12-14,Udinese,Napoli,494,Udinese,23,492,Napoli,21
+1223753,ITA1,2024-12-15,Parma,Verona,523,Parma,22,504,Verona,24
+1223745,ITA1,2024-12-15,Bologna,Fiorentina,500,Bologna,25,502,Fiorentina,23
+1223752,ITA1,2024-12-15,AC Milan,Genoa,489,AC Milan,23,495,Genoa,25
+1223747,ITA1,2024-12-15,Como,AS Roma,895,Como,24,497,AS Roma,24
+1223751,ITA1,2024-12-15,Lecce,Monza,867,Lecce,25,1579,Monza,23
+1223750,ITA1,2024-12-16,Lazio,Inter,487,Lazio,20,505,Inter,23
+1223758,ITA1,2024-12-20,Verona,AC Milan,504,Verona,25,489,AC Milan,20
+1223763,ITA1,2024-12-21,Torino,Bologna,503,Torino,22,500,Bologna,26
+1223757,ITA1,2024-12-21,Genoa,Napoli,495,Genoa,24,492,Napoli,23
+1223760,ITA1,2024-12-21,Lecce,Lazio,867,Lecce,25,487,Lazio,22
+1223762,ITA1,2024-12-22,AS Roma,Parma,497,AS Roma,25,523,Parma,22
+1223764,ITA1,2024-12-22,Venezia,Cagliari,517,Venezia,23,490,Cagliari,25
+1223755,ITA1,2024-12-22,Atalanta,Empoli,499,Atalanta,23,511,Empoli,21
+1223761,ITA1,2024-12-22,Monza,Juventus,1579,Monza,21,496,Juventus,18
+1223759,ITA1,2024-12-23,Inter,Como,505,Inter,24,895,Como,23
+1223756,ITA1,2024-12-23,Fiorentina,Udinese,502,Fiorentina,22,494,Udinese,23
+1223770,ITA1,2024-12-28,Lazio,Atalanta,487,Lazio,18,499,Atalanta,24
+1223766,ITA1,2024-12-28,Cagliari,Inter,490,Cagliari,25,505,Inter,24
+1223768,ITA1,2024-12-28,Empoli,Genoa,511,Empoli,22,495,Genoa,26
+1223773,ITA1,2024-12-28,Parma,Monza,523,Parma,21,1579,Monza,23
+1223774,ITA1,2024-12-29,Udinese,Torino,494,Udinese,24,503,Torino,23
+1223772,ITA1,2024-12-29,Napoli,Venezia,492,Napoli,23,517,Venezia,23
+1223769,ITA1,2024-12-29,Juventus,Fiorentina,496,Juventus,20,502,Fiorentina,23
+1223771,ITA1,2024-12-29,AC Milan,AS Roma,489,AC Milan,22,497,AS Roma,25
+1223767,ITA1,2024-12-30,Como,Lecce,895,Como,24,867,Lecce,25
+1223765,ITA1,2024-12-30,Bologna,Verona,500,Bologna,26,504,Verona,26
+1223778,ITA1,2025-01-04,Verona,Udinese,504,Verona,26,494,Udinese,23
+1223777,ITA1,2025-01-04,Fiorentina,Napoli,502,Fiorentina,24,492,Napoli,21
+1223784,ITA1,2025-01-04,Venezia,Empoli,517,Venezia,23,511,Empoli,22
+1223782,ITA1,2025-01-05,AS Roma,Lazio,497,AS Roma,24,487,Lazio,23
+1223783,ITA1,2025-01-05,Torino,Parma,503,Torino,21,523,Parma,20
+1223780,ITA1,2025-01-05,Lecce,Genoa,867,Lecce,26,495,Genoa,25
+1223781,ITA1,2025-01-05,Monza,Cagliari,1579,Monza,25,490,Cagliari,23
+1223788,ITA1,2025-01-10,Lazio,Como,487,Lazio,19,895,Como,24
+1223793,ITA1,2025-01-11,Udinese,Atalanta,494,Udinese,23,499,Atalanta,22
+1223786,ITA1,2025-01-11,Empoli,Lecce,511,Empoli,22,867,Lecce,24
+1223792,ITA1,2025-01-11,Torino,Juventus,503,Torino,22,496,Juventus,18
+1223789,ITA1,2025-01-11,AC Milan,Cagliari,489,AC Milan,23,490,Cagliari,22
+1223791,ITA1,2025-01-12,Napoli,Verona,492,Napoli,21,504,Verona,26
+1223785,ITA1,2025-01-12,Bologna,AS Roma,500,Bologna,24,497,AS Roma,24
+1223794,ITA1,2025-01-12,Venezia,Inter,517,Venezia,21,505,Inter,23
+1223787,ITA1,2025-01-12,Genoa,Parma,495,Genoa,25,523,Parma,22
+1223790,ITA1,2025-01-13,Monza,Fiorentina,1579,Monza,22,502,Fiorentina,23
+1223775,ITA1,2025-01-14,Atalanta,Juventus,499,Atalanta,22,496,Juventus,19
+1223776,ITA1,2025-01-14,Como,AC Milan,895,Como,26,489,AC Milan,22
+1223779,ITA1,2025-01-15,Inter,Bologna,505,Inter,24,500,Bologna,24
+1223804,ITA1,2025-01-17,AS Roma,Genoa,497,AS Roma,24,495,Genoa,23
+1223796,ITA1,2025-01-18,Bologna,Monza,500,Bologna,25,1579,Monza,23
+1223802,ITA1,2025-01-18,Juventus,AC Milan,496,Juventus,21,489,AC Milan,22
+1223795,ITA1,2025-01-18,Atalanta,Napoli,499,Atalanta,21,492,Napoli,22
+1223800,ITA1,2025-01-19,Verona,Lazio,504,Verona,25,487,Lazio,22
+1223803,ITA1,2025-01-19,Parma,Venezia,523,Parma,23,517,Venezia,20
+1223801,ITA1,2025-01-19,Inter,Empoli,505,Inter,24,511,Empoli,22
+1223799,ITA1,2025-01-19,Fiorentina,Torino,502,Fiorentina,22,503,Torino,20
+1223797,ITA1,2025-01-19,Cagliari,Lecce,490,Cagliari,25,867,Lecce,21
+1223798,ITA1,2025-01-20,Como,Udinese,895,Como,22,494,Udinese,23
+1223812,ITA1,2025-01-24,Torino,Cagliari,503,Torino,21,490,Cagliari,23
+1223805,ITA1,2025-01-25,Como,Atalanta,895,Como,23,499,Atalanta,22
+1223811,ITA1,2025-01-25,Napoli,Juventus,492,Napoli,21,496,Juventus,23
+1223806,ITA1,2025-01-25,Empoli,Bologna,511,Empoli,26,500,Bologna,24
+1223810,ITA1,2025-01-26,AC Milan,Parma,489,AC Milan,23,523,Parma,24
+1223813,ITA1,2025-01-26,Udinese,AS Roma,494,Udinese,21,497,AS Roma,24
+1223809,ITA1,2025-01-26,Lecce,Inter,867,Lecce,21,505,Inter,21
+1223808,ITA1,2025-01-26,Lazio,Fiorentina,487,Lazio,22,502,Fiorentina,23
+1223814,ITA1,2025-01-27,Venezia,Verona,517,Venezia,22,504,Verona,24
+1223807,ITA1,2025-01-27,Genoa,Monza,495,Genoa,24,1579,Monza,25
+1223822,ITA1,2025-01-31,Parma,Lecce,523,Parma,24,867,Lecce,21
+1223816,ITA1,2025-02-01,Bologna,Como,500,Bologna,23,895,Como,22
+1223815,ITA1,2025-02-01,Atalanta,Torino,499,Atalanta,21,503,Torino,22
+1223824,ITA1,2025-02-01,Udinese,Venezia,494,Udinese,20,517,Venezia,23
+1223821,ITA1,2025-02-01,Monza,Verona,1579,Monza,21,504,Verona,25
+1223819,ITA1,2025-02-02,Juventus,Empoli,496,Juventus,22,511,Empoli,22
+1223818,ITA1,2025-02-02,Fiorentina,Genoa,502,Fiorentina,22,495,Genoa,23
+1223820,ITA1,2025-02-02,AC Milan,Inter,489,AC Milan,23,505,Inter,24
+1223823,ITA1,2025-02-02,AS Roma,Napoli,497,AS Roma,23,492,Napoli,22
+1223817,ITA1,2025-02-03,Cagliari,Lazio,490,Cagliari,23,487,Lazio,20
+1223728,ITA1,2025-02-06,Fiorentina,Inter,502,Fiorentina,28,505,Inter,26
+1223826,ITA1,2025-02-07,Como,Juventus,895,Como,23,496,Juventus,22
+1223833,ITA1,2025-02-08,Torino,Genoa,503,Torino,23,495,Genoa,24
+1223827,ITA1,2025-02-08,Empoli,AC Milan,511,Empoli,22,489,AC Milan,23
+1223828,ITA1,2025-02-08,Verona,Atalanta,504,Verona,23,499,Atalanta,23
+1223832,ITA1,2025-02-09,Napoli,Udinese,492,Napoli,22,494,Udinese,23
+1223831,ITA1,2025-02-09,Lecce,Bologna,867,Lecce,25,500,Bologna,24
+1223834,ITA1,2025-02-09,Venezia,AS Roma,517,Venezia,24,497,AS Roma,23
+1223830,ITA1,2025-02-09,Lazio,Monza,487,Lazio,23,1579,Monza,23
+1223825,ITA1,2025-02-09,Cagliari,Parma,490,Cagliari,24,523,Parma,26
+1223829,ITA1,2025-02-10,Inter,Fiorentina,505,Inter,22,502,Fiorentina,21
+1223836,ITA1,2025-02-14,Bologna,Torino,500,Bologna,24,503,Torino,22
+1223835,ITA1,2025-02-15,Atalanta,Cagliari,499,Atalanta,23,490,Cagliari,23
+1223840,ITA1,2025-02-15,Lazio,Napoli,487,Lazio,23,492,Napoli,21
+1223841,ITA1,2025-02-15,AC Milan,Verona,489,AC Milan,23,504,Verona,24
+1223842,ITA1,2025-02-16,Monza,Lecce,1579,Monza,24,867,Lecce,25
+1223837,ITA1,2025-02-16,Fiorentina,Como,502,Fiorentina,22,895,Como,22
+1223844,ITA1,2025-02-16,Udinese,Empoli,494,Udinese,23,511,Empoli,20
+1223839,ITA1,2025-02-16,Juventus,Inter,496,Juventus,21,505,Inter,24
+1223843,ITA1,2025-02-16,Parma,AS Roma,523,Parma,25,497,AS Roma,22
+1223838,ITA1,2025-02-17,Genoa,Venezia,495,Genoa,25,517,Venezia,25
+1223850,ITA1,2025-02-21,Lecce,Udinese,867,Lecce,24,494,Udinese,24
+1223854,ITA1,2025-02-22,Venezia,Lazio,517,Venezia,26,487,Lazio,21
+1223851,ITA1,2025-02-22,Parma,Bologna,523,Parma,23,500,Bologna,24
+1223853,ITA1,2025-02-22,Torino,AC Milan,503,Torino,21,489,AC Milan,23
+1223849,ITA1,2025-02-22,Inter,Genoa,505,Inter,22,495,Genoa,24
+1223848,ITA1,2025-02-23,Verona,Fiorentina,504,Verona,25,502,Fiorentina,21
+1223845,ITA1,2025-02-23,Cagliari,Juventus,490,Cagliari,23,496,Juventus,20
+1223847,ITA1,2025-02-23,Empoli,Atalanta,511,Empoli,23,499,Atalanta,24
+1223846,ITA1,2025-02-23,Como,Napoli,895,Como,23,492,Napoli,22
+1223852,ITA1,2025-02-24,AS Roma,Monza,497,AS Roma,24,1579,Monza,21
+1223676,ITA1,2025-02-27,Bologna,AC Milan,500,Bologna,25,489,AC Milan,24
+1223857,ITA1,2025-02-28,Fiorentina,Lecce,502,Fiorentina,21,867,Lecce,25
+1223855,ITA1,2025-03-01,Atalanta,Venezia,499,Atalanta,22,517,Venezia,23
+1223862,ITA1,2025-03-01,Napoli,Inter,492,Napoli,21,505,Inter,23
+1223864,ITA1,2025-03-01,Udinese,Parma,494,Udinese,25,523,Parma,24
+1223860,ITA1,2025-03-02,AC Milan,Lazio,489,AC Milan,25,487,Lazio,21
+1223861,ITA1,2025-03-02,Monza,Torino,1579,Monza,25,503,Torino,22
+1223858,ITA1,2025-03-02,Genoa,Empoli,495,Genoa,25,511,Empoli,23
+1223856,ITA1,2025-03-02,Bologna,Cagliari,500,Bologna,25,490,Cagliari,23
+1223863,ITA1,2025-03-02,AS Roma,Como,497,AS Roma,25,895,Como,25
+1223859,ITA1,2025-03-03,Juventus,Verona,496,Juventus,19,504,Verona,26
+1223865,ITA1,2025-03-07,Cagliari,Genoa,490,Cagliari,23,495,Genoa,23
+1223874,ITA1,2025-03-08,Parma,Torino,523,Parma,26,503,Torino,22
+1223866,ITA1,2025-03-08,Como,Venezia,895,Como,25,517,Venezia,25
+1223872,ITA1,2025-03-08,Lecce,AC Milan,867,Lecce,26,489,AC Milan,24
+1223869,ITA1,2025-03-08,Inter,Monza,505,Inter,23,1579,Monza,25
+1223868,ITA1,2025-03-09,Verona,Bologna,504,Verona,26,500,Bologna,26
+1223873,ITA1,2025-03-09,Napoli,Fiorentina,492,Napoli,21,502,Fiorentina,20
+1223867,ITA1,2025-03-09,Empoli,AS Roma,511,Empoli,23,497,AS Roma,23
+1223870,ITA1,2025-03-09,Juventus,Atalanta,496,Juventus,19,499,Atalanta,23
+1223871,ITA1,2025-03-10,Lazio,Udinese,487,Lazio,23,494,Udinese,25
+1223878,ITA1,2025-03-14,Genoa,Lecce,495,Genoa,23,867,Lecce,24
+1223880,ITA1,2025-03-15,Monza,Parma,1579,Monza,26,523,Parma,21
+1223883,ITA1,2025-03-15,Udinese,Verona,494,Udinese,23,504,Verona,25
+1223882,ITA1,2025-03-15,Torino,Empoli,503,Torino,23,511,Empoli,24
+1223879,ITA1,2025-03-15,AC Milan,Como,489,AC Milan,25,895,Como,26
+1223884,ITA1,2025-03-16,Venezia,Napoli,517,Venezia,25,492,Napoli,23
+1223876,ITA1,2025-03-16,Bologna,Lazio,500,Bologna,26,487,Lazio,25
+1223881,ITA1,2025-03-16,AS Roma,Cagliari,497,AS Roma,23,490,Cagliari,22
+1223877,ITA1,2025-03-16,Fiorentina,Juventus,502,Fiorentina,22,496,Juventus,22
+1223875,ITA1,2025-03-16,Atalanta,Inter,499,Atalanta,21,505,Inter,23
+1223886,ITA1,2025-03-29,Como,Empoli,895,Como,26,511,Empoli,25
+1223892,ITA1,2025-03-29,Lecce,AS Roma,867,Lecce,26,497,AS Roma,22
+1223890,ITA1,2025-03-29,Juventus,Genoa,496,Juventus,21,495,Genoa,21
+1223894,ITA1,2025-03-29,Venezia,Bologna,517,Venezia,24,500,Bologna,24
+1223893,ITA1,2025-03-30,Napoli,AC Milan,492,Napoli,23,489,AC Milan,23
+1223889,ITA1,2025-03-30,Inter,Udinese,505,Inter,23,494,Udinese,22
+1223887,ITA1,2025-03-30,Fiorentina,Atalanta,502,Fiorentina,21,499,Atalanta,20
+1223885,ITA1,2025-03-30,Cagliari,Monza,490,Cagliari,24,1579,Monza,26
+1223891,ITA1,2025-03-31,Lazio,Torino,487,Lazio,22,503,Torino,23
+1223888,ITA1,2025-03-31,Verona,Parma,504,Verona,26,523,Parma,23
+1223898,ITA1,2025-04-04,Genoa,Udinese,495,Genoa,25,494,Udinese,22
+1223900,ITA1,2025-04-05,AC Milan,Fiorentina,489,AC Milan,24,502,Fiorentina,21
+1223902,ITA1,2025-04-05,Parma,Inter,523,Parma,24,505,Inter,23
+1223901,ITA1,2025-04-05,Monza,Como,1579,Monza,26,895,Como,26
+1223895,ITA1,2025-04-06,Atalanta,Lazio,499,Atalanta,20,487,Lazio,23
+1223899,ITA1,2025-04-06,Lecce,Venezia,867,Lecce,26,517,Venezia,24
+1223903,ITA1,2025-04-06,AS Roma,Juventus,497,AS Roma,23,496,Juventus,22
+1223897,ITA1,2025-04-06,Empoli,Cagliari,511,Empoli,21,490,Cagliari,24
+1223904,ITA1,2025-04-06,Torino,Verona,503,Torino,23,504,Verona,24
+1223896,ITA1,2025-04-07,Bologna,Napoli,500,Bologna,26,492,Napoli,23
+1223913,ITA1,2025-04-11,Udinese,AC Milan,494,Udinese,22,489,AC Milan,24
+1223914,ITA1,2025-04-12,Venezia,Monza,517,Venezia,25,1579,Monza,26
+1223909,ITA1,2025-04-12,Inter,Cagliari,505,Inter,24,490,Cagliari,24
+1223910,ITA1,2025-04-12,Juventus,Lecce,496,Juventus,21,867,Lecce,26
+1223905,ITA1,2025-04-13,Atalanta,Bologna,499,Atalanta,21,500,Bologna,25
+1223907,ITA1,2025-04-13,Fiorentina,Parma,502,Fiorentina,22,523,Parma,24
+1223908,ITA1,2025-04-13,Verona,Genoa,504,Verona,26,495,Genoa,22
+1223906,ITA1,2025-04-13,Como,Torino,895,Como,26,503,Torino,20
+1223911,ITA1,2025-04-13,Lazio,AS Roma,487,Lazio,25,497,AS Roma,24
+1223912,ITA1,2025-04-14,Napoli,Empoli,492,Napoli,21,511,Empoli,23
+1223921,ITA1,2025-04-19,Monza,Napoli,1579,Monza,25,492,Napoli,21
+1223919,ITA1,2025-04-19,Lecce,Como,867,Lecce,25,895,Como,26
+1223923,ITA1,2025-04-19,AS Roma,Verona,497,AS Roma,24,504,Verona,26
+1223917,ITA1,2025-04-20,Empoli,Venezia,511,Empoli,26,517,Venezia,25
+1223915,ITA1,2025-04-20,Bologna,Inter,500,Bologna,24,505,Inter,23
+1223920,ITA1,2025-04-20,AC Milan,Atalanta,489,AC Milan,24,499,Atalanta,21
+1223916,ITA1,2025-04-23,Cagliari,Fiorentina,490,Cagliari,22,502,Fiorentina,21
+1223918,ITA1,2025-04-23,Genoa,Lazio,495,Genoa,24,487,Lazio,24
+1223924,ITA1,2025-04-23,Torino,Udinese,503,Torino,20,494,Udinese,23
+1223922,ITA1,2025-04-23,Parma,Juventus,523,Parma,26,496,Juventus,21
+1223934,ITA1,2025-04-27,Venezia,AC Milan,517,Venezia,26,489,AC Milan,25
+1223926,ITA1,2025-04-27,Como,Genoa,895,Como,24,495,Genoa,23
+1223929,ITA1,2025-04-27,Inter,AS Roma,505,Inter,21,497,AS Roma,23
+1223927,ITA1,2025-04-27,Fiorentina,Empoli,502,Fiorentina,21,511,Empoli,25
+1223930,ITA1,2025-04-27,Juventus,Monza,496,Juventus,21,1579,Monza,24
+1223925,ITA1,2025-04-27,Atalanta,Lecce,499,Atalanta,21,867,Lecce,22
+1223932,ITA1,2025-04-27,Napoli,Torino,492,Napoli,22,503,Torino,23
+1223933,ITA1,2025-04-28,Udinese,Bologna,494,Udinese,23,500,Bologna,23
+1223931,ITA1,2025-04-28,Lazio,Parma,487,Lazio,23,523,Parma,23
+1223928,ITA1,2025-04-28,Verona,Cagliari,504,Verona,26,490,Cagliari,23
+1223944,ITA1,2025-05-02,Torino,Venezia,503,Torino,22,517,Venezia,25
+1223936,ITA1,2025-05-03,Cagliari,Udinese,490,Cagliari,24,494,Udinese,22
+1223942,ITA1,2025-05-03,Parma,Como,523,Parma,23,895,Como,25
+1223940,ITA1,2025-05-03,Lecce,Napoli,867,Lecce,24,492,Napoli,21
+1223939,ITA1,2025-05-03,Inter,Verona,505,Inter,22,504,Verona,25
+1223937,ITA1,2025-05-04,Empoli,Lazio,511,Empoli,21,487,Lazio,24
+1223941,ITA1,2025-05-04,Monza,Atalanta,1579,Monza,24,499,Atalanta,21
+1223935,ITA1,2025-05-04,Bologna,Juventus,500,Bologna,24,496,Juventus,19
+1223943,ITA1,2025-05-04,AS Roma,Fiorentina,497,AS Roma,25,502,Fiorentina,21
+1223938,ITA1,2025-05-05,Genoa,AC Milan,495,Genoa,22,489,AC Milan,24
+1223950,ITA1,2025-05-09,AC Milan,Bologna,489,AC Milan,23,500,Bologna,23
+1223946,ITA1,2025-05-10,Como,Cagliari,895,Como,24,490,Cagliari,23
+1223949,ITA1,2025-05-10,Lazio,Juventus,487,Lazio,24,496,Juventus,20
+1223947,ITA1,2025-05-10,Empoli,Parma,511,Empoli,24,523,Parma,24
+1223952,ITA1,2025-05-11,Torino,Inter,503,Torino,22,505,Inter,24
+1223953,ITA1,2025-05-11,Udinese,Monza,494,Udinese,25,1579,Monza,24
+1223948,ITA1,2025-05-11,Verona,Lecce,504,Verona,26,867,Lecce,26
+1223951,ITA1,2025-05-11,Napoli,Genoa,492,Napoli,22,495,Genoa,22
+1223954,ITA1,2025-05-12,Venezia,Fiorentina,517,Venezia,26,502,Fiorentina,21
+1223945,ITA1,2025-05-12,Atalanta,AS Roma,499,Atalanta,23,497,AS Roma,24
+1223957,ITA1,2025-05-17,Genoa,Atalanta,495,Genoa,24,499,Atalanta,23
+1223956,ITA1,2025-05-18,Fiorentina,Bologna,502,Fiorentina,21,500,Bologna,24
+1223962,ITA1,2025-05-18,Monza,Empoli,1579,Monza,25,511,Empoli,26
+1223963,ITA1,2025-05-18,Parma,Napoli,523,Parma,26,492,Napoli,20
+1223959,ITA1,2025-05-18,Inter,Lazio,505,Inter,23,487,Lazio,22
+1223958,ITA1,2025-05-18,Verona,Como,504,Verona,26,895,Como,23
+1223961,ITA1,2025-05-18,Lecce,Torino,867,Lecce,25,503,Torino,21
+1223964,ITA1,2025-05-18,AS Roma,AC Milan,497,AS Roma,26,489,AC Milan,23
+1223960,ITA1,2025-05-18,Juventus,Udinese,496,Juventus,22,494,Udinese,20
+1223955,ITA1,2025-05-18,Cagliari,Venezia,490,Cagliari,24,517,Venezia,25
+1223971,ITA1,2025-05-23,Napoli,Cagliari,492,Napoli,24,490,Cagliari,23
+1223967,ITA1,2025-05-23,Como,Inter,895,Como,25,505,Inter,25
+1223966,ITA1,2025-05-24,Bologna,Genoa,500,Bologna,24,495,Genoa,25
+1223970,ITA1,2025-05-24,AC Milan,Monza,489,AC Milan,26,1579,Monza,26
+1223968,ITA1,2025-05-25,Empoli,Verona,511,Empoli,25,504,Verona,26
+1223969,ITA1,2025-05-25,Lazio,Lecce,487,Lazio,24,867,Lecce,25
+1223973,ITA1,2025-05-25,Udinese,Fiorentina,494,Udinese,20,502,Fiorentina,21
+1223965,ITA1,2025-05-25,Atalanta,Parma,499,Atalanta,23,523,Parma,26
+1223972,ITA1,2025-05-25,Torino,AS Roma,503,Torino,26,497,AS Roma,26
+1223974,ITA1,2025-05-25,Venezia,Juventus,517,Venezia,24,496,Juventus,23

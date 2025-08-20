@@ -1,0 +1,838 @@
+league_code,team_id,team_name,player_id,player_name
+GER2,166,Hannover 96,25206,Phil Neumann
+GER2,166,Hannover 96,289576,Lukas Wallner
+GER2,166,Hannover 96,26293,Ron-Robert Zieler
+GER2,166,Hannover 96,2593,Sei Muroya
+GER2,166,Hannover 96,287923,Nicolò Tresoldi
+GER2,166,Hannover 96,180318,Eric Uhlmann
+GER2,166,Hannover 96,342171,Noël Aséko
+GER2,166,Hannover 96,334122,Ben Westermeier
+GER2,166,Hannover 96,122259,Bartłomiej Wdowik
+GER2,166,Hannover 96,202930,Bastian Allgeier
+GER2,166,Hannover 96,162771,Jessic Ngankam
+GER2,166,Hannover 96,25013,Max Christiansen
+GER2,166,Hannover 96,322221,Kolja Oudenne
+GER2,166,Hannover 96,202771,Lars Gindorf
+GER2,166,Hannover 96,88074,Maurice Neubauer
+GER2,166,Hannover 96,1143,Marcel Halstenberg
+GER2,166,Hannover 96,260798,Daisuke Yokota
+GER2,166,Hannover 96,351801,Hayate Matsuda
+GER2,166,Hannover 96,25499,Fabian Kunze
+GER2,166,Hannover 96,7305,Benedikt Pichler
+GER2,166,Hannover 96,25277,Håvard Nielsen
+GER2,166,Hannover 96,25030,Andreas Voglsammer
+GER2,166,Hannover 96,406752,Ime Okon
+GER2,166,Hannover 96,15595,Mustapha Bundu
+GER2,166,Hannover 96,202616,Monju Momuluh
+GER2,166,Hannover 96,423,Rabbi Matondo
+GER2,166,Hannover 96,428450,Husseyn Chakroun
+GER2,166,Hannover 96,203329,Nahuel Noll
+GER2,166,Hannover 96,203160,Brooklyn Ezeh
+GER2,166,Hannover 96,24954,Jannik Dehm
+GER2,166,Hannover 96,25365,Leo Weinkauf
+GER2,166,Hannover 96,202558,Franz Roggow
+GER2,166,Hannover 96,15761,Benjamin Källman
+GER2,166,Hannover 96,125712,Jannik Rochelt
+GER2,166,Hannover 96,19955,Josh Knight
+GER2,166,Hannover 96,334178,Hendry Blank
+GER2,166,Hannover 96,178250,Enzo Leopold
+GER2,166,Hannover 96,355171,Hyun-ju Lee
+GER2,166,Hannover 96,43074,Virgil Ghiță
+GER2,166,Hannover 96,174659,Waniss Taibi
+GER2,166,Hannover 96,108605,Boris Tomiak
+GER2,166,Hannover 96,202843,Kenneth Schmidt
+GER2,175,Hamburger SV,24965,Jonas Meffert
+GER2,175,Hamburger SV,24880,Bakery Jatta
+GER2,175,Hamburger SV,40533,Łukasz Poręba
+GER2,175,Hamburger SV,14351,Emir Sahiti
+GER2,175,Hamburger SV,162773,Ransford Yeboah Königsdörffer
+GER2,175,Hamburger SV,324019,Daniel Elfadli
+GER2,175,Hamburger SV,470282,Alexander Røssing-Lelesiit
+GER2,175,Hamburger SV,380939,Fabio Baldé
+GER2,175,Hamburger SV,41799,Guilherme Ramos
+GER2,175,Hamburger SV,444962,Otto Stange
+GER2,175,Hamburger SV,24792,Noah Katterbach
+GER2,175,Hamburger SV,8483,Jean-Luc Dompé
+GER2,175,Hamburger SV,177780,Anssi Suhonen
+GER2,175,Hamburger SV,25307,Marco Richter
+GER2,175,Hamburger SV,24820,Sebastian Schonlau
+GER2,175,Hamburger SV,327798,Milad Nejad Haji Lor
+GER2,175,Hamburger SV,25033,Daniel Heuer Fernandes
+GER2,175,Hamburger SV,24863,Tom Mickel
+GER2,175,Hamburger SV,26356,Moritz Heyer
+GER2,175,Hamburger SV,38124,Ludovit Reis
+GER2,175,Hamburger SV,53517,Dennis Hadžikadunić
+GER2,175,Hamburger SV,25922,Levin Öztunali
+GER2,175,Hamburger SV,162773,Ransford-Yeboah Königsdörffer
+GER2,175,Hamburger SV,327908,Nicolas Oliveira Kisilowski
+GER2,175,Hamburger SV,262815,Matheo Raab
+GER2,175,Hamburger SV,380940,Hannes Hermann
+GER2,175,Hamburger SV,380937,Joel Agyekum
+GER2,175,Hamburger SV,161923,Immanuel Pherai
+GER2,175,Hamburger SV,302632,William Mikelbrencis
+GER2,175,Hamburger SV,24914,Robert Glatzel
+GER2,175,Hamburger SV,48475,Silvan Hefti
+GER2,175,Hamburger SV,380939,Fabio Balde
+GER2,175,Hamburger SV,199871,Adam Karabec
+GER2,175,Hamburger SV,162418,Adedire Mebude
+GER2,175,Hamburger SV,48489,Miro Muheim
+GER2,175,Hamburger SV,25362,Davie Selke
+GER2,175,Hamburger SV,67953,Lucas Perrin
+GER2,785,Karlsruher SC,178701,Marcel Beifus
+GER2,785,Karlsruher SC,24919,Robin Himmelmann
+GER2,785,Karlsruher SC,413112,Paul Scholl
+GER2,785,Karlsruher SC,162536,David Herold
+GER2,785,Karlsruher SC,25402,Sebastian Jung
+GER2,785,Karlsruher SC,24641,Budu Zivzivadze
+GER2,785,Karlsruher SC,25129,Dženis Burnić
+GER2,785,Karlsruher SC,25194,Fabian Schleusener
+GER2,785,Karlsruher SC,25450,Robin Bormuth
+GER2,785,Karlsruher SC,15842,Hans Christian Bernat
+GER2,785,Karlsruher SC,178199,Andreas Müller
+GER2,785,Karlsruher SC,304858,Andrin Hunziker
+GER2,785,Karlsruher SC,177370,Robin Heußer
+GER2,785,Karlsruher SC,328273,Max Weiss
+GER2,785,Karlsruher SC,26107,Marvin Wanitzek
+GER2,785,Karlsruher SC,162079,Lasse Günther
+GER2,785,Karlsruher SC,420463,Rafael Pinto Pedrosa
+GER2,785,Karlsruher SC,26342,Luca Pfeiffer
+GER2,785,Karlsruher SC,1665,Leon Jensen
+GER2,785,Karlsruher SC,419542,Mateo Kritzer
+GER2,785,Karlsruher SC,24843,Nicolai Rapp
+GER2,785,Karlsruher SC,25852,Dominik Salz
+GER2,785,Karlsruher SC,322316,Benedikt Bauer
+GER2,785,Karlsruher SC,328276,Aki Koch
+GER2,785,Karlsruher SC,328231,Robert Geller
+GER2,785,Karlsruher SC,25036,Marcel Franke
+GER2,785,Karlsruher SC,26091,Christoph Kobald
+GER2,785,Karlsruher SC,371931,Ali Eren Ersungur
+GER2,785,Karlsruher SC,279905,Bambasé Conté
+GER2,785,Karlsruher SC,179567,Lilian Egloff
+GER2,785,Karlsruher SC,328031,Enes Zengin
+GER2,785,Karlsruher SC,432547,Louey Ben Farhat
+GER2,785,Karlsruher SC,325689,Noah Rupp
+GER2,785,Karlsruher SC,334358,Meiko Wäschenbach
+GER2,785,Karlsruher SC,15732,Mikkel Kaufmann
+GER2,785,Karlsruher SC,271066,Roko Šimić
+GER2,1660,SV Elversberg,177452,Lukas Petkov
+GER2,1660,SV Elversberg,394665,Jarzinho Malanga
+GER2,1660,SV Elversberg,24958,Arne Sicker
+GER2,1660,SV Elversberg,177362,Tom Zimmerschied
+GER2,1660,SV Elversberg,40533,Łukasz Poręba
+GER2,1660,SV Elversberg,25063,Jan Gyamerah
+GER2,1660,SV Elversberg,26642,Luca Schnellbacher
+GER2,1660,SV Elversberg,380565,Mohammad Mahmoud
+GER2,1660,SV Elversberg,143831,Robin Fellhauer
+GER2,1660,SV Elversberg,25708,Manuel Feil
+GER2,1660,SV Elversberg,25820,Carlo Sickinger
+GER2,1660,SV Elversberg,88074,Maurice Neubauer
+GER2,1660,SV Elversberg,328262,Muhammed Damar
+GER2,1660,SV Elversberg,25697,Frank Lehmann
+GER2,1660,SV Elversberg,162479,Frederik Jäkel
+GER2,1660,SV Elversberg,90695,Amara Condé
+GER2,1660,SV Elversberg,280070,Felix Keidel
+GER2,1660,SV Elversberg,177731,Lukas Finn Pinckert
+GER2,1660,SV Elversberg,21333,Florian Le Joncour
+GER2,1660,SV Elversberg,297155,Paul Stock
+GER2,1660,SV Elversberg,178089,Semih Şahin
+GER2,1660,SV Elversberg,202501,Fisnik Asllani
+GER2,1660,SV Elversberg,178194,Nicolas Kristof
+GER2,1660,SV Elversberg,162079,Lasse Günther
+GER2,1660,SV Elversberg,25113,Tim Boss
+GER2,1660,SV Elversberg,409190,Younes Ebnoutalib
+GER2,1660,SV Elversberg,126951,Maximilian Rohr
+GER2,1660,SV Elversberg,25707,Luca Dürholtz
+GER2,1660,SV Elversberg,298284,Daniel Pantschenko
+GER2,1660,SV Elversberg,382492,Elias Baum
+GER2,1660,SV Elversberg,279905,Bambasé Conté
+GER2,1660,SV Elversberg,39331,Nicholas Mickelson
+GER2,1660,SV Elversberg,272219,Filimon Gerezgiher
+GER2,1660,SV Elversberg,203260,Frederik Schmahl
+GER2,1660,SV Elversberg,178346,Jason Ceka
+GER2,159,Hertha BSC,38120,Deyovaisio Zeefuik
+GER2,159,Hertha BSC,125618,Michał Karbownik
+GER2,159,Hertha BSC,26257,Florian Niederlechner
+GER2,159,Hertha BSC,382486,Pascal Klemens
+GER2,159,Hertha BSC,25167,Fabian Reese
+GER2,159,Hertha BSC,3013,Dawid Kownacki
+GER2,159,Hertha BSC,15776,Sebastian Grønning
+GER2,159,Hertha BSC,279877,Luca Wollschläger
+GER2,159,Hertha BSC,25334,Marius Gersbeck
+GER2,159,Hertha BSC,338030,Dion Ajvazi
+GER2,159,Hertha BSC,342170,Maurice Krattenmacher
+GER2,159,Hertha BSC,380587,Ibrahim Maza
+GER2,159,Hertha BSC,342266,Tim Goller
+GER2,159,Hertha BSC,444958,Boris Lum
+GER2,159,Hertha BSC,444958,Boris Mamuzah Lum
+GER2,159,Hertha BSC,163072,Marlon Morgenstern
+GER2,159,Hertha BSC,202614,Marten Winkler
+GER2,159,Hertha BSC,19580,Toni Leistner
+GER2,159,Hertha BSC,1102,Smail Prevljak
+GER2,159,Hertha BSC,330633,Robert Kwasigroch
+GER2,159,Hertha BSC,15755,Jón Dagur Þórsteinsson
+GER2,159,Hertha BSC,414782,Selim Telib
+GER2,159,Hertha BSC,178353,Jan Luca Schuler
+GER2,159,Hertha BSC,286710,Derry Scherhant
+GER2,159,Hertha BSC,342174,Tim Hoffmann
+GER2,159,Hertha BSC,25357,Palkó Dárdai
+GER2,159,Hertha BSC,199934,Márton Dárdai
+GER2,159,Hertha BSC,25337,Dennis Smarsch
+GER2,159,Hertha BSC,359568,Sebastian Weiland
+GER2,159,Hertha BSC,1665,Leon Jensen
+GER2,159,Hertha BSC,26301,Marc-Oliver Kempf
+GER2,159,Hertha BSC,286711,Linus Gechter
+GER2,159,Hertha BSC,24936,Jeremy Dudziak
+GER2,159,Hertha BSC,18760,Jonjoe Kenny
+GER2,159,Hertha BSC,48148,Bilal Hussein
+GER2,159,Hertha BSC,24909,Kevin Sessa
+GER2,159,Hertha BSC,1603,Andreas Bouchalakis
+GER2,159,Hertha BSC,494120,Niklas Hildebrandt
+GER2,159,Hertha BSC,90813,Niklas Kolbe
+GER2,159,Hertha BSC,466239,Jelani Ndi
+GER2,159,Hertha BSC,327965,Maximilian Mohwinkel
+GER2,159,Hertha BSC,327659,Julian Eitschberger
+GER2,159,Hertha BSC,380588,Lukas Michelbrink
+GER2,159,Hertha BSC,203380,Tjark Ernst
+GER2,159,Hertha BSC,25634,Michaël Cuisance
+GER2,159,Hertha BSC,1151,Diego Demme
+GER2,159,Hertha BSC,503467,Kennet Eichhorn
+GER2,159,Hertha BSC,53678,Agustín Rogel
+GER2,159,Hertha BSC,380607,Janne Berner
+GER2,159,Hertha BSC,340610,Gustav Christensen
+GER2,177,SSV Jahn Regensburg,24988,Andreas Geipl
+GER2,177,SSV Jahn Regensburg,25116,Florian Ballas
+GER2,177,SSV Jahn Regensburg,459719,Max Meyer
+GER2,177,SSV Jahn Regensburg,432483,Leopold Wurm
+GER2,177,SSV Jahn Regensburg,24827,Kai Pröger
+GER2,177,SSV Jahn Regensburg,128549,Rasim Bulić
+GER2,177,SSV Jahn Regensburg,25826,Christian Kühlwetter
+GER2,177,SSV Jahn Regensburg,90724,Christian Viet
+GER2,177,SSV Jahn Regensburg,177780,Anssi Suhonen
+GER2,177,SSV Jahn Regensburg,478882,Ben Kieffer
+GER2,177,SSV Jahn Regensburg,24993,Sargis Adamyan
+GER2,177,SSV Jahn Regensburg,321685,Louis Breunig
+GER2,177,SSV Jahn Regensburg,26596,Nico Ochojski
+GER2,177,SSV Jahn Regensburg,24976,Alexander Weidinger
+GER2,177,SSV Jahn Regensburg,26517,Niclas Anspach
+GER2,177,SSV Jahn Regensburg,202737,Oscar Schönfelder
+GER2,177,SSV Jahn Regensburg,126778,Dominik Kother
+GER2,177,SSV Jahn Regensburg,177858,Bryan Hein
+GER2,177,SSV Jahn Regensburg,203253,Noah Ganaus
+GER2,177,SSV Jahn Regensburg,26479,Alexander Bittroff
+GER2,177,SSV Jahn Regensburg,380547,Mansour Ouro-Tagba
+GER2,177,SSV Jahn Regensburg,202758,Dejan Galjen
+GER2,177,SSV Jahn Regensburg,163131,Felix Gebhardt
+GER2,177,SSV Jahn Regensburg,25407,Robin Ziegele
+GER2,177,SSV Jahn Regensburg,25200,Frederic Ananou
+GER2,177,SSV Jahn Regensburg,38113,Tim Handwerker
+GER2,177,SSV Jahn Regensburg,281913,Leon Cuk
+GER2,177,SSV Jahn Regensburg,24990,Benedikt Saller
+GER2,177,SSV Jahn Regensburg,25824,Elias Huth
+GER2,177,SSV Jahn Regensburg,128138,Tobias Eisenhuth
+GER2,177,SSV Jahn Regensburg,108483,Eric Hottmann
+GER2,177,SSV Jahn Regensburg,448270,Jonas Bauer
+GER2,177,SSV Jahn Regensburg,24864,Julian Pollersbeck
+GER2,177,SSV Jahn Regensburg,381270,Volodymyr Kharabara
+GER2,177,SSV Jahn Regensburg,25164,Sebastian Ernst
+GER2,178,SpVgg Greuther Fürth,25452,Niko Giesselmann
+GER2,178,SpVgg Greuther Fürth,25165,Julian Green
+GER2,178,SpVgg Greuther Fürth,1827,Branimir Hrgota
+GER2,178,SpVgg Greuther Fürth,432607,Raul Marița
+GER2,178,SpVgg Greuther Fürth,196500,Noel Futkeu
+GER2,178,SpVgg Greuther Fürth,119204,Damian Michalski
+GER2,178,SpVgg Greuther Fürth,25437,Felix Higl
+GER2,178,SpVgg Greuther Fürth,280453,Juan Cabrera
+GER2,178,SpVgg Greuther Fürth,108575,Jannik Mause
+GER2,178,SpVgg Greuther Fürth,278917,Daniel Kasper
+GER2,178,SpVgg Greuther Fürth,364997,Matti Wagner
+GER2,178,SpVgg Greuther Fürth,24931,Philipp Ziereis
+GER2,178,SpVgg Greuther Fürth,25285,Simon Asta
+GER2,178,SpVgg Greuther Fürth,327973,Philipp Muller
+GER2,178,SpVgg Greuther Fürth,433089,Denis Pfaffenroth
+GER2,178,SpVgg Greuther Fürth,140612,Mathias Olesen
+GER2,178,SpVgg Greuther Fürth,25401,Gian-Luca Itter
+GER2,178,SpVgg Greuther Fürth,433089,Daniel Pfaffenroth
+GER2,178,SpVgg Greuther Fürth,327849,Marlon Fries
+GER2,178,SpVgg Greuther Fürth,48629,Noah Loosli
+GER2,178,SpVgg Greuther Fürth,330594,Omar Sillah
+GER2,178,SpVgg Greuther Fürth,202774,Maximilian Dietz
+GER2,178,SpVgg Greuther Fürth,26317,Nils-Jonathan Körber
+GER2,178,SpVgg Greuther Fürth,280337,Nemanja Motika
+GER2,178,SpVgg Greuther Fürth,25411,Felix Klaus
+GER2,178,SpVgg Greuther Fürth,203329,Nahuel Noll
+GER2,178,SpVgg Greuther Fürth,375983,Sacha Banse
+GER2,178,SpVgg Greuther Fürth,38108,Pelle Boevink
+GER2,178,SpVgg Greuther Fürth,162485,Moritz Schulze
+GER2,178,SpVgg Greuther Fürth,24954,Jannik Dehm
+GER2,178,SpVgg Greuther Fürth,380595,Silas Prüfrock
+GER2,178,SpVgg Greuther Fürth,203337,Noah König
+GER2,178,SpVgg Greuther Fürth,282953,Oualid Mhamdi
+GER2,178,SpVgg Greuther Fürth,125681,Jomaine Consbruch
+GER2,178,SpVgg Greuther Fürth,327926,Sebastian Jung
+GER2,178,SpVgg Greuther Fürth,24867,Gideon Jung
+GER2,178,SpVgg Greuther Fürth,25026,Roberto Massimo
+GER2,178,SpVgg Greuther Fürth,334353,Joshua Quarshie
+GER2,178,SpVgg Greuther Fürth,28775,Brynjar Ingi Bjarnason
+GER2,178,SpVgg Greuther Fürth,382329,Reno Münz
+GER2,178,SpVgg Greuther Fürth,19087,Dennis Srbeny
+GER2,178,SpVgg Greuther Fürth,202729,Marlon Mustapha
+GER2,178,SpVgg Greuther Fürth,113591,Marco Meyerhofer
+GER2,178,SpVgg Greuther Fürth,432604,Jakob Engel
+GER2,178,SpVgg Greuther Fürth,25802,Lennart Grill
+GER2,178,SpVgg Greuther Fürth,162723,Marco John
+GER2,178,SpVgg Greuther Fürth,341246,Leander Popp
+GER2,185,SC Paderborn 07,327987,Tristan Zobel
+GER2,185,SC Paderborn 07,125726,Bilbija Filip
+GER2,185,SC Paderborn 07,26343,Steffen Tigges
+GER2,185,SC Paderborn 07,327993,Dennis Seimen
+GER2,185,SC Paderborn 07,334163,Kevin Krumme
+GER2,185,SC Paderborn 07,24826,Sven Michel
+GER2,185,SC Paderborn 07,203381,Arne Schulz
+GER2,185,SC Paderborn 07,25114,Markus Schubert
+GER2,185,SC Paderborn 07,119173,Marcel Hoffmeier
+GER2,185,SC Paderborn 07,323951,Aaron Zehnter
+GER2,185,SC Paderborn 07,25289,Felix Götze
+GER2,185,SC Paderborn 07,380873,Ilyas Ansah
+GER2,185,SC Paderborn 07,156618,Casper Terho
+GER2,185,SC Paderborn 07,363156,Santiago Castaneda
+GER2,185,SC Paderborn 07,125726,Filip Bilbija
+GER2,185,SC Paderborn 07,7592,Raphael Obermair
+GER2,185,SC Paderborn 07,203015,Tjark Lasse Scheller
+GER2,185,SC Paderborn 07,178107,Luca Herrmann
+GER2,185,SC Paderborn 07,455332,Luis Engelns
+GER2,185,SC Paderborn 07,272813,Adrian Bravo-Sanchez
+GER2,185,SC Paderborn 07,25049,Marvin Mehlem
+GER2,185,SC Paderborn 07,334331,Mattes Hansen
+GER2,185,SC Paderborn 07,25058,Manuel Riemann
+GER2,185,SC Paderborn 07,178403,Calvin Brackelmann
+GER2,185,SC Paderborn 07,38108,Pelle Boevink
+GER2,185,SC Paderborn 07,354091,Anton Bäuerle
+GER2,185,SC Paderborn 07,24964,David Kinsombi
+GER2,185,SC Paderborn 07,279869,Jascha Brandt
+GER2,185,SC Paderborn 07,328235,Stefano Marino
+GER2,185,SC Paderborn 07,328035,Mika Baur
+GER2,185,SC Paderborn 07,105474,Visar Musliu
+GER2,185,SC Paderborn 07,38780,Koen Kostons
+GER2,185,SC Paderborn 07,163078,Laurin Curda
+GER2,185,SC Paderborn 07,25055,Felix Platte
+GER2,185,SC Paderborn 07,260983,Martin Ens
+GER2,185,SC Paderborn 07,322624,Lucas Copado
+GER2,185,SC Paderborn 07,26502,Adriano Grimaldi
+GER2,185,SC Paderborn 07,327899,Marco Wörner
+GER2,185,SC Paderborn 07,26333,Sebastian Klaas
+GER2,185,SC Paderborn 07,260780,Nick Bätzner
+GER2,1313,Preußen Münster,26108,Malik Batmaz
+GER2,1313,Preußen Münster,334173,Marian Kirsch
+GER2,1313,Preußen Münster,235,Jorrit Hendrix
+GER2,1313,Preußen Münster,25525,Sebastian Mrowca
+GER2,1313,Preußen Münster,336220,Leon Tasov
+GER2,1313,Preußen Münster,70099,Oliver Batista Meier
+GER2,1313,Preußen Münster,26375,Simon Scherder
+GER2,1313,Preußen Münster,40415,Mikkel Kirkeskov
+GER2,1313,Preußen Münster,203331,Johannes Schenk
+GER2,1313,Preußen Münster,24852,Joshua Mees
+GER2,1313,Preußen Münster,25147,Paul Jaeckel
+GER2,1313,Preußen Münster,177648,Jannis Heuer
+GER2,1313,Preußen Münster,153375,Charalambos Makridis
+GER2,1313,Preußen Münster,203155,Marvin Benjamins
+GER2,1313,Preußen Münster,48456,Marvin Schulz
+GER2,1313,Preußen Münster,26101,Marc Lorenz
+GER2,1313,Preußen Münster,57162,Hólmbert Aron Friðjónsson
+GER2,1313,Preußen Münster,26339,Etienne Amenyido
+GER2,1313,Preußen Münster,202831,Luca Bolay
+GER2,1313,Preußen Münster,162658,Luca Steinfeldt
+GER2,1313,Preußen Münster,177993,Niko Koulis
+GER2,1313,Preußen Münster,313791,Tidiane Gueye
+GER2,1313,Preußen Münster,178162,Luca Bazzoli
+GER2,1313,Preußen Münster,87801,Joel Grodowski
+GER2,1313,Preußen Münster,90648,Marcel Benger
+GER2,1313,Preußen Münster,25552,Torge Paetow
+GER2,1313,Preußen Münster,24862,Morten Behrens
+GER2,1313,Preußen Münster,24964,David Kinsombi
+GER2,1313,Preußen Münster,203037,Daniel Kyerewaa
+GER2,1313,Preußen Münster,342433,Antonio Tikvić
+GER2,1313,Preußen Münster,25810,Dominik Schad
+GER2,1313,Preußen Münster,280361,Jakob Korte
+GER2,1313,Preußen Münster,203132,Jano ter Horst
+GER2,1313,Preußen Münster,260894,Lukas Frenkert
+GER2,1313,Preußen Münster,25513,Lars Lokotsch
+GER2,1313,Preußen Münster,161899,András Németh
+GER2,1313,Preußen Münster,87946,Thorben Deters
+GER2,1313,Preußen Münster,268221,Yassine Bouchama
+GER2,1313,Preußen Münster,25819,Florian Pick
+GER2,1313,Preußen Münster,113591,Marco Meyerhofer
+GER2,1313,Preußen Münster,334188,Matthias Bräuer
+GER2,1313,Preußen Münster,25248,Rico Preißinger
+GER2,745,1. FC Kaiserslautern,55319,Naatan Skyttä
+GER2,745,1. FC Kaiserslautern,202755,Tim Breithaupt
+GER2,745,1. FC Kaiserslautern,24833,Marlon Ritter
+GER2,745,1. FC Kaiserslautern,432336,Mika Haas
+GER2,745,1. FC Kaiserslautern,177745,Faride Alidou
+GER2,745,1. FC Kaiserslautern,25063,Jan Gyamerah
+GER2,745,1. FC Kaiserslautern,57248,Afeez Aremu
+GER2,745,1. FC Kaiserslautern,25159,Kenny Prince Redondo
+GER2,745,1. FC Kaiserslautern,478308,Leon Robinson
+GER2,745,1. FC Kaiserslautern,24825,Philipp Klement
+GER2,745,1. FC Kaiserslautern,108575,Jannik Mause
+GER2,745,1. FC Kaiserslautern,24884,Aaron Opoku
+GER2,745,1. FC Kaiserslautern,135328,Richmond Tachie
+GER2,745,1. FC Kaiserslautern,177648,Jannis Heuer
+GER2,745,1. FC Kaiserslautern,127850,Frank Ronstadt
+GER2,745,1. FC Kaiserslautern,260798,Daisuke Yokota
+GER2,745,1. FC Kaiserslautern,25499,Fabian Kunze
+GER2,745,1. FC Kaiserslautern,25285,Simon Asta
+GER2,745,1. FC Kaiserslautern,356237,Kim Ji-Soo
+GER2,745,1. FC Kaiserslautern,14605,Ivan Prtajin
+GER2,745,1. FC Kaiserslautern,177509,Luca Sirch
+GER2,745,1. FC Kaiserslautern,26201,Avdo Spahić
+GER2,745,1. FC Kaiserslautern,178089,Semih Şahin
+GER2,745,1. FC Kaiserslautern,125620,Maxwell Gyamfi
+GER2,745,1. FC Kaiserslautern,1811,Almamy Touré
+GER2,745,1. FC Kaiserslautern,194682,Dickson Abiama
+GER2,745,1. FC Kaiserslautern,260773,Florian Kleinhansl
+GER2,745,1. FC Kaiserslautern,25462,Jean Zimmer
+GER2,745,1. FC Kaiserslautern,1556,Mahir Emreli
+GER2,745,1. FC Kaiserslautern,1140,Julian Krahl
+GER2,745,1. FC Kaiserslautern,357341,Fabian Heck
+GER2,745,1. FC Kaiserslautern,108482,Daniel Hanslik
+GER2,745,1. FC Kaiserslautern,25144,Maximilian Bauer
+GER2,745,1. FC Kaiserslautern,37439,Ragnar Ache
+GER2,745,1. FC Kaiserslautern,4145,Simon Simoni
+GER2,745,1. FC Kaiserslautern,280427,Grant-Leon Ranos
+GER2,745,1. FC Kaiserslautern,66531,Filip Kaloč
+GER2,745,1. FC Kaiserslautern,90987,Erik Wekesser
+GER2,745,1. FC Kaiserslautern,48790,Jan Elvedi
+GER2,745,1. FC Kaiserslautern,129131,Tobias Raschl
+GER2,745,1. FC Kaiserslautern,108605,Boris Tomiak
+GER2,192,1.FC Köln,392761,Julian Pauli
+GER2,192,1.FC Köln,7319,Jusuf Gazibegović
+GER2,192,1.FC Köln,48765,Joel Schmied
+GER2,192,1.FC Köln,26343,Steffen Tigges
+GER2,192,1.FC Köln,203045,Marvin Obuz
+GER2,192,1.FC Köln,25380,Linton Maina
+GER2,192,1.FC Köln,339917,Jaka Cuber Potocnik
+GER2,192,1.FC Köln,648,Anthony Racioppi
+GER2,192,1.FC Köln,90641,Timo Hübers
+GER2,192,1.FC Köln,91181,Florian Dietz
+GER2,192,1.FC Köln,181908,Jan Thielmann
+GER2,192,1.FC Köln,24993,Sargis Adamyan
+GER2,192,1.FC Köln,355167,Max Finkgrafe
+GER2,192,1.FC Köln,140612,Mathias Olesen
+GER2,192,1.FC Köln,426,Mark Uth
+GER2,192,1.FC Köln,1725,Dejan Ljubičić
+GER2,192,1.FC Köln,162480,Eric Martel
+GER2,192,1.FC Köln,15931,Rasmus Carstensen
+GER2,192,1.FC Köln,80497,Imad Rondić
+GER2,192,1.FC Köln,25178,Leart Paqarada
+GER2,192,1.FC Köln,202838,Denis Huseinbašić
+GER2,192,1.FC Köln,506467,Emin Kujovic
+GER2,192,1.FC Köln,26260,Luca Waldschmidt
+GER2,192,1.FC Köln,178255,Oliver Issa Schmitt
+GER2,192,1.FC Köln,203070,Meiko Sponsel
+GER2,192,1.FC Köln,26237,Dominique Heintz
+GER2,192,1.FC Köln,24975,Philipp Pentke
+GER2,192,1.FC Köln,24803,Florian Kainz
+GER2,192,1.FC Köln,15871,Marvin Schwäbe
+GER2,192,1.FC Köln,203376,Jonas Urbig
+GER2,192,1.FC Köln,344283,Elias Bakatukanda
+GER2,192,1.FC Köln,24892,Matthias Köbbing
+GER2,192,1.FC Köln,203040,Tim Lemperle
+GER2,192,1.FC Köln,280454,Mikail Özkan
+GER2,192,1.FC Köln,334362,Damion Downs
+GER2,192,1.FC Köln,380860,Neo Telle
+GER2,744,Eintracht Braunschweig,158397,Marko Rajkovacic
+GER2,744,Eintracht Braunschweig,128350,Erencan Yardımcı
+GER2,744,Eintracht Braunschweig,483966,Linus Queisser
+GER2,744,Eintracht Braunschweig,64302,Christian Joe Conteh
+GER2,744,Eintracht Braunschweig,428209,Justin Duda
+GER2,744,Eintracht Braunschweig,178370,Marvin Rittmüller
+GER2,744,Eintracht Braunschweig,478862,Leon Herdes
+GER2,744,Eintracht Braunschweig,432329,Jona Borsum
+GER2,744,Eintracht Braunschweig,125730,Leon Bell Bell
+GER2,744,Eintracht Braunschweig,432358,Leonard Laatsch
+GER2,744,Eintracht Braunschweig,2952,Mohamed Dräger
+GER2,744,Eintracht Braunschweig,25147,Paul Jaeckel
+GER2,744,Eintracht Braunschweig,135328,Richmond Tachie
+GER2,744,Eintracht Braunschweig,502502,Phil Kunze
+GER2,744,Eintracht Braunschweig,129693,Rayan Philippe
+GER2,744,Eintracht Braunschweig,279861,Fabio Di Michele Sanchez
+GER2,744,Eintracht Braunschweig,272454,Julian Baas
+GER2,744,Eintracht Braunschweig,127928,Lino Tempelmann
+GER2,744,Eintracht Braunschweig,162479,Frederik Jäkel
+GER2,744,Eintracht Braunschweig,280457,Sidi Sané
+GER2,744,Eintracht Braunschweig,47736,Marko Johansson
+GER2,744,Eintracht Braunschweig,705,Ermin Bičakčić
+GER2,744,Eintracht Braunschweig,177370,Robin Heußer
+GER2,744,Eintracht Braunschweig,202731,Niklas Tauer
+GER2,744,Eintracht Braunschweig,321685,Louis Breunig
+GER2,744,Eintracht Braunschweig,25118,Kevin Ehlers
+GER2,744,Eintracht Braunschweig,161584,Johan Arath Gomez
+GER2,744,Eintracht Braunschweig,38464,Walid Ould-Chikh
+GER2,744,Eintracht Braunschweig,327805,Sanoussy Ba
+GER2,744,Eintracht Braunschweig,203018,Mehmet Aydın
+GER2,744,Eintracht Braunschweig,55467,Robert Ivanov
+GER2,744,Eintracht Braunschweig,25122,Jannis Nikolaou
+GER2,744,Eintracht Braunschweig,260894,Lukas Frenkert
+GER2,744,Eintracht Braunschweig,314273,Lars Sidney Raebiger
+GER2,744,Eintracht Braunschweig,327935,Max Marie
+GER2,744,Eintracht Braunschweig,502503,Benjamin Mbom
+GER2,744,Eintracht Braunschweig,25214,Robin Krausse
+GER2,744,Eintracht Braunschweig,133571,Levente Szabó
+GER2,744,Eintracht Braunschweig,113584,Sven Köhler
+GER2,744,Eintracht Braunschweig,25802,Lennart Grill
+GER2,744,Eintracht Braunschweig,496,Ron-Thorben Hoffmann
+GER2,744,Eintracht Braunschweig,26408,Fabio Kaufmann
+GER2,744,Eintracht Braunschweig,24861,Sebastian Polter
+GER2,1652,SSV Ulm 1846,193279,Jayden Nelson
+GER2,1652,SSV Ulm 1846,178169,Philipp Strompf
+GER2,1652,SSV Ulm 1846,25435,Lennart Stoll
+GER2,1652,SSV Ulm 1846,70099,Oliver Batista Meier
+GER2,1652,SSV Ulm 1846,342170,Maurice Krattenmacher
+GER2,1652,SSV Ulm 1846,25437,Felix Higl
+GER2,1652,SSV Ulm 1846,25425,Johannes Reichert
+GER2,1652,SSV Ulm 1846,202930,Bastian Allgeier
+GER2,1652,SSV Ulm 1846,67861,Romario Rösch
+GER2,1652,SSV Ulm 1846,90763,Andreas Ludwig
+GER2,1652,SSV Ulm 1846,322314,Aaron Keller
+GER2,1652,SSV Ulm 1846,127929,Niclas Thiede
+GER2,1652,SSV Ulm 1846,177487,Philipp Maier
+GER2,1652,SSV Ulm 1846,321716,Semir Telalović
+GER2,1652,SSV Ulm 1846,25418,Christian Ortag
+GER2,1652,SSV Ulm 1846,26480,Dennis Chessa
+GER2,1652,SSV Ulm 1846,24915,Robert Leipertz
+GER2,1652,SSV Ulm 1846,340622,Aleksandar Kahvić
+GER2,1652,SSV Ulm 1846,328213,Luka Hyrylainen
+GER2,1652,SSV Ulm 1846,25140,Lucas Röser
+GER2,1652,SSV Ulm 1846,352265,Niklas Castelle
+GER2,1652,SSV Ulm 1846,90813,Niklas Kolbe
+GER2,1652,SSV Ulm 1846,177865,Max Brandt
+GER2,1652,SSV Ulm 1846,342268,Laurin Ulrich
+GER2,1652,SSV Ulm 1846,26623,Thomas Geyer
+GER2,1652,SSV Ulm 1846,26130,Dennis Dressel
+GER2,1652,SSV Ulm 1846,203205,Tom Gaal
+GER2,1652,SSV Ulm 1846,129144,Niklas Kolle
+GER2,1652,SSV Ulm 1846,504,Jonathan Meier
+GER2,1652,SSV Ulm 1846,202912,Marvin Seybold
+GER2,158,Fortuna Düsseldorf,279997,Leonard Brodersen
+GER2,158,Fortuna Düsseldorf,25108,Emmanuel Iyoha
+GER2,158,Fortuna Düsseldorf,161886,Christian Rasmussen
+GER2,158,Fortuna Düsseldorf,24841,Christopher Lenz
+GER2,158,Fortuna Düsseldorf,3013,Dawid Kownacki
+GER2,158,Fortuna Düsseldorf,25383,Florent Muslija
+GER2,158,Fortuna Düsseldorf,108485,Florian Kastenmeier
+GER2,158,Fortuna Düsseldorf,89717,Valgeir Lunddal
+GER2,158,Fortuna Düsseldorf,32966,Ao Tanaka
+GER2,158,Fortuna Düsseldorf,334083,Hamza Anhari
+GER2,158,Fortuna Düsseldorf,48497,Cédric Itten
+GER2,158,Fortuna Düsseldorf,37179,Nicolas Gavory
+GER2,158,Fortuna Düsseldorf,280327,Tim Rossmann
+GER2,158,Fortuna Düsseldorf,287797,Myron Van Brederode
+GER2,158,Fortuna Düsseldorf,178293,Tim Christopher Oberdorf
+GER2,158,Fortuna Düsseldorf,330633,Robert Kwasigroch
+GER2,158,Fortuna Düsseldorf,25463,Matthias Zimmermann
+GER2,158,Fortuna Düsseldorf,25360,Dennis Jastrzembski
+GER2,158,Fortuna Düsseldorf,135842,Sotiris Alexandropoulos
+GER2,158,Fortuna Düsseldorf,37473,Vincent Vermeij
+GER2,158,Fortuna Düsseldorf,203219,Jamil Siebert
+GER2,158,Fortuna Düsseldorf,203777,Anouar El Azzouzi
+GER2,158,Fortuna Düsseldorf,25411,Felix Klaus
+GER2,158,Fortuna Düsseldorf,280363,Deniz-Fabian Bindemann
+GER2,158,Fortuna Düsseldorf,26356,Moritz Heyer
+GER2,158,Fortuna Düsseldorf,203377,Julian Hettwer
+GER2,158,Fortuna Düsseldorf,20933,Giovanni Haag
+GER2,158,Fortuna Düsseldorf,162502,Marcel Lotka
+GER2,158,Fortuna Düsseldorf,203299,Florian Schock
+GER2,158,Fortuna Düsseldorf,340983,David Savic
+GER2,158,Fortuna Düsseldorf,25920,Danny Latza
+GER2,158,Fortuna Düsseldorf,342188,Dženan Pejčinović
+GER2,158,Fortuna Düsseldorf,25453,Andre Hoffmann
+GER2,158,Fortuna Düsseldorf,145059,Moritz-Broni Kwarteng
+GER2,158,Fortuna Düsseldorf,280328,Danny Schmidt
+GER2,158,Fortuna Düsseldorf,967,Jan Boller
+GER2,158,Fortuna Düsseldorf,334353,Joshua Quarshie
+GER2,158,Fortuna Düsseldorf,48198,Ísak Bergmann Jóhannesson
+GER2,158,Fortuna Düsseldorf,25460,Marcel Sobottka
+GER2,158,Fortuna Düsseldorf,374842,Elias Egouli
+GER2,158,Fortuna Düsseldorf,408288,Karim Affo
+GER2,158,Fortuna Düsseldorf,343159,Sima Suso
+GER2,158,Fortuna Düsseldorf,127885,Shinta Karl Appelkamp
+GER2,158,Fortuna Düsseldorf,298006,Noah Mbamba
+GER2,158,Fortuna Düsseldorf,19409,Jordy de Wijs
+GER2,158,Fortuna Düsseldorf,324030,Jona Niemiec
+GER2,158,Fortuna Düsseldorf,202843,Kenneth Schmidt
+GER2,179,1. FC Magdeburg,400756,Magnus Baars
+GER2,179,1. FC Magdeburg,125714,Alexander Nollenberger
+GER2,179,1. FC Magdeburg,25246,Tobias Müller
+GER2,179,1. FC Magdeburg,25243,Tarek Chahed
+GER2,179,1. FC Magdeburg,26574,Philipp Hercher
+GER2,179,1. FC Magdeburg,380923,Robert Kampa
+GER2,179,1. FC Magdeburg,107241,Alexander Ahl Holmstrom
+GER2,179,1. FC Magdeburg,280459,Pierre Nadjombe
+GER2,179,1. FC Magdeburg,24951,Dominik Reimann
+GER2,179,1. FC Magdeburg,22708,Samuel Loric
+GER2,179,1. FC Magdeburg,323507,Dariusz Stalmach
+GER2,179,1. FC Magdeburg,280367,Abu-Bekir Ömer El-Zein
+GER2,179,1. FC Magdeburg,48358,Marcus Mathisen
+GER2,179,1. FC Magdeburg,281910,Noah Kruth
+GER2,179,1. FC Magdeburg,24878,Tatsuya Ito
+GER2,179,1. FC Magdeburg,24915,Robert Leipertz
+GER2,179,1. FC Magdeburg,8636,Silas Gnaka
+GER2,179,1. FC Magdeburg,202694,Eldin Džogović
+GER2,179,1. FC Magdeburg,89489,Andi Hoti
+GER2,179,1. FC Magdeburg,23630,Rayan Ghrieb
+GER2,179,1. FC Magdeburg,37759,Martijn Kaars
+GER2,179,1. FC Magdeburg,38128,Mo El Hankouri
+GER2,179,1. FC Magdeburg,334092,Noah Pesch
+GER2,179,1. FC Magdeburg,342268,Laurin Ulrich
+GER2,179,1. FC Magdeburg,40345,Lubambo Musonda
+GER2,179,1. FC Magdeburg,25126,Barış Atik
+GER2,179,1. FC Magdeburg,108475,Patric Pfeiffer
+GER2,179,1. FC Magdeburg,119158,Herbert Bockhorn
+GER2,179,1. FC Magdeburg,126876,Xavier Amaechi
+GER2,179,1. FC Magdeburg,26494,Connor Krempicki
+GER2,179,1. FC Magdeburg,202841,Falko Michel
+GER2,179,1. FC Magdeburg,430354,Livan Burcu
+GER2,179,1. FC Magdeburg,66759,Aleksa Marušić
+GER2,179,1. FC Magdeburg,128343,Jean Hugonet
+GER2,179,1. FC Magdeburg,178347,Daniel Heber
+GER2,179,1. FC Magdeburg,178346,Jason Ceka
+GER2,179,1. FC Magdeburg,20786,Bryan Silva Teixeira
+GER2,174,FC Schalke 04,339233,Faaris Yusufu
+GER2,174,FC Schalke 04,26397,Janik Bachmann
+GER2,174,FC Schalke 04,323581,Ilyes Hamache
+GER2,174,FC Schalke 04,81164,Hasan Kuruçay
+GER2,174,FC Schalke 04,1972,Loris Karius
+GER2,174,FC Schalke 04,380507,Aris Bayindir
+GER2,174,FC Schalke 04,361362,Mertcan Ayhan
+GER2,174,FC Schalke 04,25161,Paul Seguin
+GER2,174,FC Schalke 04,115,Moussa Sylla
+GER2,174,FC Schalke 04,367972,Mauro Zalazar Martínez
+GER2,174,FC Schalke 04,24889,Pierre-Michel Lasogga
+GER2,174,FC Schalke 04,128339,Pape Meissa Ba
+GER2,174,FC Schalke 04,88140,Ron Schallenberg
+GER2,174,FC Schalke 04,266192,Adrian Gantenbein
+GER2,174,FC Schalke 04,162117,Malik Talabidi
+GER2,174,FC Schalke 04,497109,Steve Noode
+GER2,174,FC Schalke 04,106792,Justin Heekeren
+GER2,174,FC Schalke 04,24815,Christopher Antwi-Adjei
+GER2,174,FC Schalke 04,356492,Peter Remmert
+GER2,174,FC Schalke 04,127928,Lino Tempelmann
+GER2,174,FC Schalke 04,367972,Mauro Zalazar
+GER2,174,FC Schalke 04,394663,Taylan Bulut
+GER2,174,FC Schalke 04,25586,Anton Donkor
+GER2,174,FC Schalke 04,24228,Bryan Lasme
+GER2,174,FC Schalke 04,202833,Tim Schmidt
+GER2,174,FC Schalke 04,323584,Martin Wasinski
+GER2,174,FC Schalke 04,25466,Kenan Karaman
+GER2,174,FC Schalke 04,397,Michael Langer
+GER2,174,FC Schalke 04,37760,Derry Murkin
+GER2,174,FC Schalke 04,405691,Felipe Sánchez
+GER2,174,FC Schalke 04,19262,Tomáš Kalas
+GER2,174,FC Schalke 04,25886,Yassin Ben Balla
+GER2,174,FC Schalke 04,203018,Mehmet Aydın
+GER2,174,FC Schalke 04,178375,Henning Matriciani
+GER2,174,FC Schalke 04,339875,Emil Højlund
+GER2,174,FC Schalke 04,361411,Vitalie Becker
+GER2,174,FC Schalke 04,25155,Tobias Mohr
+GER2,174,FC Schalke 04,25267,Tim Albutat
+GER2,174,FC Schalke 04,1741,Nikola Katić
+GER2,174,FC Schalke 04,334339,Tidiane Toure
+GER2,174,FC Schalke 04,380854,Max Grüger
+GER2,174,FC Schalke 04,334361,Luca Podlech
+GER2,174,FC Schalke 04,129124,Ibrahima Cissé
+GER2,174,FC Schalke 04,90977,Timo Becker
+GER2,174,FC Schalke 04,403697,Zaid Amoussou-Tchibara
+GER2,174,FC Schalke 04,280090,Soufian El-Faouzi
+GER2,174,FC Schalke 04,282087,Seok-ju Hong
+GER2,174,FC Schalke 04,496,Ron-Thorben Hoffmann
+GER2,174,FC Schalke 04,25455,Aymen Barkok
+GER2,174,FC Schalke 04,3003,Marcin Kamiński
+GER2,174,FC Schalke 04,335,Amin Younes
+GER2,181,SV Darmstadt 98,520,Paul Will
+GER2,181,SV Darmstadt 98,24823,Klaus Gjasula
+GER2,181,SV Darmstadt 98,293603,Guille Bueno
+GER2,181,SV Darmstadt 98,47895,Isac Lidberg
+GER2,181,SV Darmstadt 98,67024,Meldin Drešković
+GER2,181,SV Darmstadt 98,25307,Marco Richter
+GER2,181,SV Darmstadt 98,25925,Jean-Paul Boëtius
+GER2,181,SV Darmstadt 98,146009,Fraser Hornby
+GER2,181,SV Darmstadt 98,351528,Yosuke Furukawa
+GER2,181,SV Darmstadt 98,178199,Andreas Müller
+GER2,181,SV Darmstadt 98,24788,Matthias Bader
+GER2,181,SV Darmstadt 98,33634,Hiroki Akiyama
+GER2,181,SV Darmstadt 98,413485,Tim Arnold
+GER2,181,SV Darmstadt 98,8725,Aleksandar Vukotić
+GER2,181,SV Darmstadt 98,354085,Fabio Torsiello
+GER2,181,SV Darmstadt 98,25169,Marcel Schuhen
+GER2,181,SV Darmstadt 98,191250,Killian Corredor
+GER2,181,SV Darmstadt 98,135513,Oscar Vilhelmsson
+GER2,181,SV Darmstadt 98,272242,Matej Maglica
+GER2,181,SV Darmstadt 98,26119,Leon Klassen
+GER2,181,SV Darmstadt 98,282054,Clemens Riedel
+GER2,181,SV Darmstadt 98,177802,Fynn Lakenmacher
+GER2,181,SV Darmstadt 98,336023,Nico Baier
+GER2,181,SV Darmstadt 98,26532,Steve Kroll
+GER2,181,SV Darmstadt 98,26073,Kai Klefisch
+GER2,181,SV Darmstadt 98,178325,Serhat-Semih Güler
+GER2,181,SV Darmstadt 98,26523,Luca Marseiler
+GER2,181,SV Darmstadt 98,19069,Christoph Zimmermann
+GER2,181,SV Darmstadt 98,25226,Alexander Brunst
+GER2,181,SV Darmstadt 98,25040,Fabian Holland
+GER2,181,SV Darmstadt 98,26096,Marco Thiede
+GER2,181,SV Darmstadt 98,25047,Tobias Kempe
+GER2,181,SV Darmstadt 98,417817,Othmane El Idrissi
+GER2,181,SV Darmstadt 98,108475,Patric Pfeiffer
+GER2,181,SV Darmstadt 98,202727,Matondo-Merveille Papela
+GER2,181,SV Darmstadt 98,162722,Sergio López
+GER2,181,SV Darmstadt 98,125312,Fabian Nürnberger
+GER2,181,SV Darmstadt 98,38683,Karol Niemczycki
+GER2,181,SV Darmstadt 98,25183,Philipp Förster
+GER2,171,1. FC Nürnberg,411,Benjamin Goller
+GER2,171,1. FC Nürnberg,24973,Janni Serra
+GER2,171,1. FC Nürnberg,407144,Winners Osawe
+GER2,171,1. FC Nürnberg,154928,Michal Kukučka
+GER2,171,1. FC Nürnberg,380945,Nick Seidel
+GER2,171,1. FC Nürnberg,353142,Berkay Yılmaz
+GER2,171,1. FC Nürnberg,494323,Tino Kusanovic
+GER2,171,1. FC Nürnberg,343311,Stefanos Tzimas
+GER2,171,1. FC Nürnberg,25651,Jan Reichert
+GER2,171,1. FC Nürnberg,216623,Michal Ševčík
+GER2,171,1. FC Nürnberg,119771,Florian Flick
+GER2,171,1. FC Nürnberg,25599,Christian Mathenia
+GER2,171,1. FC Nürnberg,128763,Oliver Villadsen
+GER2,171,1. FC Nürnberg,327861,Tim Drexler
+GER2,171,1. FC Nürnberg,282060,Caspar Jander
+GER2,171,1. FC Nürnberg,83824,Mickaël Biron
+GER2,171,1. FC Nürnberg,90697,Taylan Duman
+GER2,171,1. FC Nürnberg,202845,Fabio Gruber
+GER2,171,1. FC Nürnberg,396428,Justin von der Hitz
+GER2,171,1. FC Nürnberg,177661,Julian Justvan
+GER2,171,1. FC Nürnberg,406798,Ayoub Chaikhoun
+GER2,171,1. FC Nürnberg,260882,Jannik Hofmann
+GER2,171,1. FC Nürnberg,374875,Simon Joachims
+GER2,171,1. FC Nürnberg,25403,Robin Knoche
+GER2,171,1. FC Nürnberg,380968,Dustin Forkel
+GER2,171,1. FC Nürnberg,366021,Rafael Lubach
+GER2,171,1. FC Nürnberg,330612,Tarek Buchmann
+GER2,171,1. FC Nürnberg,321716,Semir Telalović
+GER2,171,1. FC Nürnberg,353142,Berkay Yilmaz
+GER2,171,1. FC Nürnberg,353670,Noah Le Bret Maboulou
+GER2,171,1. FC Nürnberg,193870,Janis Antiste
+GER2,171,1. FC Nürnberg,380969,Tim Janisch
+GER2,171,1. FC Nürnberg,1556,Mahir Emreli
+GER2,171,1. FC Nürnberg,444975,Artem Stepanov
+GER2,171,1. FC Nürnberg,478854,Eric Porstner
+GER2,171,1. FC Nürnberg,33496,Kanji Okunuki
+GER2,171,1. FC Nürnberg,25607,Enrico Valentini
+GER2,171,1. FC Nürnberg,61224,Luka Lochoshvili
+GER2,171,1. FC Nürnberg,436341,Levin Chiumento
+GER2,171,1. FC Nürnberg,280358,Jens Castrop
+GER2,171,1. FC Nürnberg,25819,Florian Pick
+GER2,171,1. FC Nürnberg,147847,Lukas Schleimer
+GER2,171,1. FC Nürnberg,25059,Tom Baack
+GER2,171,1. FC Nürnberg,25067,Danilo Soares
+GER2,171,1. FC Nürnberg,394734,Finn Jeltsch
+GER2,171,1. FC Nürnberg,66037,Ondrej Karafiat
+GER2,1639,FC Saarbrücken,24916,Patrick Schmidt
+GER2,1639,FC Saarbrücken,177840,Dominik Becker
+GER2,1639,FC Saarbrücken,25395,Phillip Menzel
+GER2,1639,FC Saarbrücken,90823,Manuel Zeitz
+GER2,1639,FC Saarbrücken,26167,Julian Günther-Schmidt
+GER2,1639,FC Saarbrücken,125719,Sven Sonnenberg
+GER2,1639,FC Saarbrücken,280023,Philip Fahrner
+GER2,1639,FC Saarbrücken,177474,Kasim Rabihic
+GER2,1639,FC Saarbrücken,202811,Tim Civeja
+GER2,1639,FC Saarbrücken,25957,Tim Paterok
+GER2,1639,FC Saarbrücken,24829,Sebastian Vasiliadis
+GER2,1639,FC Saarbrücken,7707,Bjarne Thoelke
+GER2,1639,FC Saarbrücken,25095,Calogero Rizzuto
+GER2,1639,FC Saarbrücken,26584,Kai Brünker
+GER2,1639,FC Saarbrücken,161818,Joel Bichsel
+GER2,1639,FC Saarbrücken,26414,Patrick Sontheimer
+GER2,1639,FC Saarbrücken,24907,Maurice Multhaup
+GER2,1639,FC Saarbrücken,281926,Lasse Wilhelm
+GER2,1639,FC Saarbrücken,281904,Elijah Krahn
+GER2,1639,FC Saarbrücken,25109,Florian Krüger
+GER2,176,VfL Bochum,25919,Gerrit Holtmann
+GER2,176,VfL Bochum,25151,Maximilian Wittek
+GER2,176,VfL Bochum,178169,Philipp Strompf
+GER2,176,VfL Bochum,26287,Philipp Hofmann
+GER2,176,VfL Bochum,713,Kevin Vogt
+GER2,176,VfL Bochum,67861,Romario Rösch
+GER2,176,VfL Bochum,19068,Felix Passlack
+GER2,176,VfL Bochum,162476,Colin Noah Kleine-Bekel
+GER2,176,VfL Bochum,336224,Mats Pannewig
+GER2,176,VfL Bochum,22260,Ibrahima Sissoko
+GER2,176,VfL Bochum,33019,Koji Miyoshi
+GER2,176,VfL Bochum,127929,Niclas Thiede
+GER2,176,VfL Bochum,48629,Noah Loosli
+GER2,176,VfL Bochum,329265,Leandro Morgalla
+GER2,176,VfL Bochum,20648,Ibrahim Sissoko
+GER2,176,VfL Bochum,24785,Timo Horn
+GER2,176,VfL Bochum,418888,Cajetan Lenz
+GER2,176,VfL Bochum,480847,Kacper Kościerski
+GER2,176,VfL Bochum,277054,Mathis Clairicia
+GER2,176,VfL Bochum,26227,Moritz Broschinski
+GER2,176,VfL Bochum,397740,Kjell Wätjen
+GER2,176,VfL Bochum,37122,Matúš Bero
+GER2,188,Arminia Bielefeld,298254,Felix Hagmann
+GER2,188,Arminia Bielefeld,88126,Mael Corboz
+GER2,188,Arminia Bielefeld,25508,Lukas Kunze
+GER2,188,Arminia Bielefeld,341250,Benjamin Boakye
+GER2,188,Arminia Bielefeld,26220,Leon Schneider
+GER2,188,Arminia Bielefeld,427588,Julian Kania
+GER2,188,Arminia Bielefeld,126895,Joel Felix
+GER2,188,Arminia Bielefeld,25049,Marvin Mehlem
+GER2,188,Arminia Bielefeld,202643,Maximilian Großer
+GER2,188,Arminia Bielefeld,340089,Florian Micheler
+GER2,188,Arminia Bielefeld,67860,Stefano Russo
+GER2,188,Arminia Bielefeld,145480,Leo Oppermann
+GER2,188,Arminia Bielefeld,25385,Noah Joel Sarenren Bazee
+GER2,188,Arminia Bielefeld,87801,Joel Grodowski
+GER2,188,Arminia Bielefeld,456255,Daniel Richter
+GER2,188,Arminia Bielefeld,980,Sam Schreck
+GER2,188,Arminia Bielefeld,108604,Jonas Thomas Kersken
+GER2,188,Arminia Bielefeld,38113,Tim Handwerker
+GER2,188,Arminia Bielefeld,177451,Christopher Lannert
+GER2,188,Arminia Bielefeld,91180,Isaiah Young
+GER2,191,Holstein Kiel,39315,Magnus Knudsen
+GER2,191,Holstein Kiel,280389,Mladen Cvjetinović
+GER2,191,Holstein Kiel,70514,Armin Gigović
+GER2,191,Holstein Kiel,280024,Robert Wagner
+GER2,191,Holstein Kiel,162720,Max Geschwill
+GER2,191,Holstein Kiel,202804,Marcus Müller
+GER2,191,Holstein Kiel,24952,Timon Weiner
+GER2,191,Holstein Kiel,26525,Finn Porath
+GER2,191,Holstein Kiel,1729,Stefan Schwab
+GER2,191,Holstein Kiel,47696,Alexander Bernhardsson
+GER2,191,Holstein Kiel,327793,Niklas Niehoff
+GER2,191,Holstein Kiel,41578,David Zec
+GER2,191,Holstein Kiel,119002,John Tolkin
+GER2,191,Holstein Kiel,202580,Lasse Rosenboom
+GER2,191,Holstein Kiel,433609,Kasper Davidsen
+GER2,191,Holstein Kiel,202514,Phil Harres
+GER2,191,Holstein Kiel,14445,Ivan Nekić
+GER2,191,Holstein Kiel,287792,Jonas Krumrey
+GER2,191,Holstein Kiel,371637,Jonas Therkelsen
+GER2,191,Holstein Kiel,424,Steven Skrzybski
+GER2,191,Holstein Kiel,306338,Marko Ivezić
+GER2,183,Dynamo Dresden,129139,Tim Schreiber
+GER2,183,Dynamo Dresden,25224,Stefan Kutschke
+GER2,183,Dynamo Dresden,178770,Sascha Risch
+GER2,183,Dynamo Dresden,344288,Tony Menzel
+GER2,183,Dynamo Dresden,178152,Claudio Kammerknecht
+GER2,183,Dynamo Dresden,178084,Jakob Lemmer
+GER2,183,Dynamo Dresden,24816,Lukas Boeder
+GER2,183,Dynamo Dresden,25432,Vinko Šapina
+GER2,183,Dynamo Dresden,25179,Alexander Rossipal
+GER2,183,Dynamo Dresden,178107,Luca Herrmann
+GER2,183,Dynamo Dresden,26254,Christoph Daferner
+GER2,183,Dynamo Dresden,126778,Dominik Kother
+GER2,183,Dynamo Dresden,91178,Lars Bünning
+GER2,183,Dynamo Dresden,327947,Jonas Oehmichen
+GER2,183,Dynamo Dresden,120390,Aljaž Casar
+GER2,183,Dynamo Dresden,48232,Nils Fröling
+GER2,183,Dynamo Dresden,178092,Konrad Faber
+GER2,183,Dynamo Dresden,24800,Niklas Hauptmann
+GER2,183,Dynamo Dresden,25254,Daniel Mesenhöler
+GER2,183,Dynamo Dresden,355176,Kofi Jeremy Amoako

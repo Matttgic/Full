@@ -1,0 +1,308 @@
+fixture_id,league_code,match_date,home_team,away_team,team_1_id,team_1_name,team_1_players_count,team_2_id,team_2_name,team_2_players_count
+1226186,GER2,2024-08-23,Hannover 96,Hamburger SV,166,Hannover 96,20,175,Hamburger SV,20
+1226185,GER2,2024-08-23,Karlsruher SC,SV Elversberg,785,Karlsruher SC,20,1660,SV Elversberg,20
+1226188,GER2,2024-08-24,Hertha BSC,SSV Jahn Regensburg,159,Hertha BSC,20,177,SSV Jahn Regensburg,20
+1226187,GER2,2024-08-24,SpVgg Greuther Fürth,SC Paderborn 07,178,SpVgg Greuther Fürth,20,185,SC Paderborn 07,20
+1226191,GER2,2024-08-24,Preußen Münster,1. FC Kaiserslautern,1313,Preußen Münster,20,745,1. FC Kaiserslautern,20
+1226183,GER2,2024-08-24,1.FC Köln,Eintracht Braunschweig,192,1.FC Köln,20,744,Eintracht Braunschweig,20
+1226190,GER2,2024-08-25,SSV Ulm 1846,Fortuna Düsseldorf,1652,SSV Ulm 1846,20,158,Fortuna Düsseldorf,20
+1226189,GER2,2024-08-25,1. FC Magdeburg,FC Schalke 04,179,1. FC Magdeburg,20,174,FC Schalke 04,20
+1226184,GER2,2024-08-25,SV Darmstadt 98,1. FC Nürnberg,181,SV Darmstadt 98,20,171,1. FC Nürnberg,20
+1226192,GER2,2024-08-30,Fortuna Düsseldorf,Hannover 96,158,Fortuna Düsseldorf,20,166,Hannover 96,20
+1226200,GER2,2024-08-30,SSV Jahn Regensburg,SpVgg Greuther Fürth,177,SSV Jahn Regensburg,20,178,SpVgg Greuther Fürth,20
+1226197,GER2,2024-08-31,1. FC Nürnberg,1. FC Magdeburg,171,1. FC Nürnberg,20,179,1. FC Magdeburg,20
+1226193,GER2,2024-08-31,Hamburger SV,Preußen Münster,175,Hamburger SV,20,1313,Preußen Münster,20
+1226196,GER2,2024-08-31,SV Elversberg,SV Darmstadt 98,1660,SV Elversberg,20,181,SV Darmstadt 98,20
+1226198,GER2,2024-08-31,1. FC Kaiserslautern,Hertha BSC,745,1. FC Kaiserslautern,20,159,Hertha BSC,20
+1226194,GER2,2024-09-01,SC Paderborn 07,SSV Ulm 1846,185,SC Paderborn 07,20,1652,SSV Ulm 1846,20
+1226199,GER2,2024-09-01,Eintracht Braunschweig,Karlsruher SC,744,Eintracht Braunschweig,20,785,Karlsruher SC,20
+1226195,GER2,2024-09-01,FC Schalke 04,1.FC Köln,174,FC Schalke 04,20,192,1.FC Köln,20
+1226204,GER2,2024-09-13,Karlsruher SC,FC Schalke 04,785,Karlsruher SC,20,174,FC Schalke 04,20
+1226209,GER2,2024-09-13,Preußen Münster,SC Paderborn 07,1313,Preußen Münster,20,185,SC Paderborn 07,20
+1226205,GER2,2024-09-14,Hannover 96,1. FC Kaiserslautern,166,Hannover 96,20,745,1. FC Kaiserslautern,20
+1226202,GER2,2024-09-14,SV Darmstadt 98,Eintracht Braunschweig,181,SV Darmstadt 98,20,744,Eintracht Braunschweig,20
+1226208,GER2,2024-09-14,SSV Ulm 1846,1. FC Nürnberg,1652,SSV Ulm 1846,20,171,1. FC Nürnberg,20
+1226201,GER2,2024-09-14,1.FC Köln,1. FC Magdeburg,192,1.FC Köln,20,179,1. FC Magdeburg,20
+1226206,GER2,2024-09-15,SpVgg Greuther Fürth,SV Elversberg,178,SpVgg Greuther Fürth,20,1660,SV Elversberg,18
+1226207,GER2,2024-09-15,Hertha BSC,Fortuna Düsseldorf,159,Hertha BSC,20,158,Fortuna Düsseldorf,20
+1226203,GER2,2024-09-15,Hamburger SV,SSV Jahn Regensburg,175,Hamburger SV,20,177,SSV Jahn Regensburg,20
+1226212,GER2,2024-09-20,FC Schalke 04,SV Darmstadt 98,174,FC Schalke 04,20,181,SV Darmstadt 98,19
+1226211,GER2,2024-09-20,SC Paderborn 07,Hannover 96,185,SC Paderborn 07,20,166,Hannover 96,20
+1226210,GER2,2024-09-21,Fortuna Düsseldorf,1.FC Köln,158,Fortuna Düsseldorf,20,192,1.FC Köln,20
+1226214,GER2,2024-09-21,1. FC Nürnberg,Hertha BSC,171,1. FC Nürnberg,20,159,Hertha BSC,20
+1226217,GER2,2024-09-21,Eintracht Braunschweig,SpVgg Greuther Fürth,744,Eintracht Braunschweig,20,178,SpVgg Greuther Fürth,20
+1226215,GER2,2024-09-21,1. FC Kaiserslautern,Hamburger SV,745,1. FC Kaiserslautern,20,175,Hamburger SV,19
+1226216,GER2,2024-09-22,1. FC Magdeburg,Karlsruher SC,179,1. FC Magdeburg,20,785,Karlsruher SC,20
+1226218,GER2,2024-09-22,SSV Jahn Regensburg,Preußen Münster,177,SSV Jahn Regensburg,20,1313,Preußen Münster,20
+1226213,GER2,2024-09-22,SV Elversberg,SSV Ulm 1846,1660,SV Elversberg,20,1652,SSV Ulm 1846,20
+1226225,GER2,2024-09-27,SSV Ulm 1846,Eintracht Braunschweig,1652,SSV Ulm 1846,20,744,Eintracht Braunschweig,20
+1226223,GER2,2024-09-27,SpVgg Greuther Fürth,Fortuna Düsseldorf,178,SpVgg Greuther Fürth,20,158,Fortuna Düsseldorf,20
+1226221,GER2,2024-09-28,Hamburger SV,SC Paderborn 07,175,Hamburger SV,20,185,SC Paderborn 07,20
+1226227,GER2,2024-09-28,SSV Jahn Regensburg,1. FC Kaiserslautern,177,SSV Jahn Regensburg,20,745,1. FC Kaiserslautern,20
+1226220,GER2,2024-09-28,SV Darmstadt 98,1. FC Magdeburg,181,SV Darmstadt 98,20,179,1. FC Magdeburg,20
+1226226,GER2,2024-09-28,Preußen Münster,FC Schalke 04,1313,Preußen Münster,20,174,FC Schalke 04,20
+1226224,GER2,2024-09-29,Hertha BSC,SV Elversberg,159,Hertha BSC,19,1660,SV Elversberg,20
+1226222,GER2,2024-09-29,Hannover 96,1. FC Nürnberg,166,Hannover 96,20,171,1. FC Nürnberg,20
+1226219,GER2,2024-09-29,1.FC Köln,Karlsruher SC,192,1.FC Köln,20,785,Karlsruher SC,20
+1226230,GER2,2024-10-04,Karlsruher SC,SV Darmstadt 98,785,Karlsruher SC,20,181,SV Darmstadt 98,20
+1226231,GER2,2024-10-04,SC Paderborn 07,SSV Jahn Regensburg,185,SC Paderborn 07,20,177,SSV Jahn Regensburg,20
+1226234,GER2,2024-10-05,1. FC Nürnberg,Preußen Münster,171,1. FC Nürnberg,20,1313,Preußen Münster,20
+1226228,GER2,2024-10-05,1.FC Köln,SSV Ulm 1846,192,1.FC Köln,20,1652,SSV Ulm 1846,20
+1226233,GER2,2024-10-05,SV Elversberg,1. FC Kaiserslautern,1660,SV Elversberg,20,745,1. FC Kaiserslautern,20
+1226232,GER2,2024-10-05,FC Schalke 04,Hertha BSC,174,FC Schalke 04,20,159,Hertha BSC,19
+1226229,GER2,2024-10-06,Fortuna Düsseldorf,Hamburger SV,158,Fortuna Düsseldorf,20,175,Hamburger SV,20
+1226235,GER2,2024-10-06,1. FC Magdeburg,SpVgg Greuther Fürth,179,1. FC Magdeburg,20,178,SpVgg Greuther Fürth,20
+1226236,GER2,2024-10-06,Eintracht Braunschweig,Hannover 96,744,Eintracht Braunschweig,20,166,Hannover 96,20
+1226237,GER2,2024-10-18,SV Darmstadt 98,1.FC Köln,181,SV Darmstadt 98,20,192,1.FC Köln,20
+1226241,GER2,2024-10-18,Hertha BSC,Eintracht Braunschweig,159,Hertha BSC,20,744,Eintracht Braunschweig,20
+1226244,GER2,2024-10-19,Preußen Münster,SV Elversberg,1313,Preußen Münster,20,1660,SV Elversberg,20
+1226242,GER2,2024-10-19,1. FC Kaiserslautern,SC Paderborn 07,745,1. FC Kaiserslautern,20,185,SC Paderborn 07,20
+1226239,GER2,2024-10-19,Hannover 96,FC Schalke 04,166,Hannover 96,20,174,FC Schalke 04,20
+1226245,GER2,2024-10-19,SSV Jahn Regensburg,Fortuna Düsseldorf,177,SSV Jahn Regensburg,20,158,Fortuna Düsseldorf,20
+1226240,GER2,2024-10-20,SpVgg Greuther Fürth,1. FC Nürnberg,178,SpVgg Greuther Fürth,20,171,1. FC Nürnberg,20
+1226243,GER2,2024-10-20,SSV Ulm 1846,Karlsruher SC,1652,SSV Ulm 1846,20,785,Karlsruher SC,20
+1226238,GER2,2024-10-20,Hamburger SV,1. FC Magdeburg,175,Hamburger SV,20,179,1. FC Magdeburg,20
+1226252,GER2,2024-10-25,1. FC Nürnberg,SSV Jahn Regensburg,171,1. FC Nürnberg,20,177,SSV Jahn Regensburg,20
+1226246,GER2,2024-10-25,1.FC Köln,SC Paderborn 07,192,1.FC Köln,20,185,SC Paderborn 07,20
+1226250,GER2,2024-10-26,FC Schalke 04,SpVgg Greuther Fürth,174,FC Schalke 04,20,178,SpVgg Greuther Fürth,20
+1226249,GER2,2024-10-26,Karlsruher SC,Hertha BSC,785,Karlsruher SC,20,159,Hertha BSC,20
+1226251,GER2,2024-10-26,SV Elversberg,Hamburger SV,1660,SV Elversberg,20,175,Hamburger SV,20
+1226248,GER2,2024-10-26,Fortuna Düsseldorf,1. FC Kaiserslautern,158,Fortuna Düsseldorf,20,745,1. FC Kaiserslautern,20
+1226253,GER2,2024-10-27,1. FC Magdeburg,Hannover 96,179,1. FC Magdeburg,20,166,Hannover 96,20
+1226247,GER2,2024-10-27,SV Darmstadt 98,SSV Ulm 1846,181,SV Darmstadt 98,19,1652,SSV Ulm 1846,20
+1226254,GER2,2024-10-27,Eintracht Braunschweig,Preußen Münster,744,Eintracht Braunschweig,20,1313,Preußen Münster,20
+1226261,GER2,2024-11-01,SSV Ulm 1846,FC Schalke 04,1652,SSV Ulm 1846,20,174,FC Schalke 04,20
+1226262,GER2,2024-11-01,Preußen Münster,Fortuna Düsseldorf,1313,Preußen Münster,20,158,Fortuna Düsseldorf,20
+1226258,GER2,2024-11-02,SpVgg Greuther Fürth,SV Darmstadt 98,178,SpVgg Greuther Fürth,20,181,SV Darmstadt 98,20
+1226256,GER2,2024-11-02,Hannover 96,Karlsruher SC,166,Hannover 96,20,785,Karlsruher SC,20
+1226263,GER2,2024-11-02,SSV Jahn Regensburg,SV Elversberg,177,SSV Jahn Regensburg,20,1660,SV Elversberg,19
+1226259,GER2,2024-11-02,Hertha BSC,1.FC Köln,159,Hertha BSC,20,192,1.FC Köln,19
+1226255,GER2,2024-11-03,Hamburger SV,1. FC Nürnberg,175,Hamburger SV,20,171,1. FC Nürnberg,20
+1226257,GER2,2024-11-03,SC Paderborn 07,Eintracht Braunschweig,185,SC Paderborn 07,20,744,Eintracht Braunschweig,20
+1226260,GER2,2024-11-03,1. FC Kaiserslautern,1. FC Magdeburg,745,1. FC Kaiserslautern,20,179,1. FC Magdeburg,20
+1226270,GER2,2024-11-08,1. FC Nürnberg,1. FC Kaiserslautern,171,1. FC Nürnberg,20,745,1. FC Kaiserslautern,20
+1226272,GER2,2024-11-08,Eintracht Braunschweig,Hamburger SV,744,Eintracht Braunschweig,20,175,Hamburger SV,20
+1226264,GER2,2024-11-09,1.FC Köln,SpVgg Greuther Fürth,192,1.FC Köln,20,178,SpVgg Greuther Fürth,20
+1226265,GER2,2024-11-09,SV Darmstadt 98,Hertha BSC,181,SV Darmstadt 98,20,159,Hertha BSC,19
+1226271,GER2,2024-11-09,1. FC Magdeburg,SSV Ulm 1846,179,1. FC Magdeburg,20,1652,SSV Ulm 1846,20
+1226266,GER2,2024-11-09,Fortuna Düsseldorf,SC Paderborn 07,158,Fortuna Düsseldorf,20,185,SC Paderborn 07,20
+1226268,GER2,2024-11-10,FC Schalke 04,SSV Jahn Regensburg,174,FC Schalke 04,20,177,SSV Jahn Regensburg,20
+1226267,GER2,2024-11-10,Karlsruher SC,Preußen Münster,785,Karlsruher SC,20,1313,Preußen Münster,20
+1226269,GER2,2024-11-10,SV Elversberg,Hannover 96,1660,SV Elversberg,18,166,Hannover 96,20
+1226276,GER2,2024-11-22,SC Paderborn 07,1. FC Nürnberg,185,SC Paderborn 07,20,171,1. FC Nürnberg,20
+1226280,GER2,2024-11-22,Preußen Münster,1.FC Köln,1313,Preußen Münster,20,192,1.FC Köln,20
+1226273,GER2,2024-11-23,Fortuna Düsseldorf,SV Elversberg,158,Fortuna Düsseldorf,20,1660,SV Elversberg,20
+1226277,GER2,2024-11-23,SpVgg Greuther Fürth,Karlsruher SC,178,SpVgg Greuther Fürth,20,785,Karlsruher SC,20
+1226274,GER2,2024-11-23,Hamburger SV,FC Schalke 04,175,Hamburger SV,20,174,FC Schalke 04,20
+1226278,GER2,2024-11-23,Hertha BSC,SSV Ulm 1846,159,Hertha BSC,20,1652,SSV Ulm 1846,20
+1226275,GER2,2024-11-23,Hannover 96,SV Darmstadt 98,166,Hannover 96,20,181,SV Darmstadt 98,19
+1226281,GER2,2024-11-24,SSV Jahn Regensburg,1. FC Magdeburg,177,SSV Jahn Regensburg,20,179,1. FC Magdeburg,20
+1226279,GER2,2024-11-24,1. FC Kaiserslautern,Eintracht Braunschweig,745,1. FC Kaiserslautern,20,744,Eintracht Braunschweig,20
+1226285,GER2,2024-11-29,FC Schalke 04,1. FC Kaiserslautern,174,FC Schalke 04,20,745,1. FC Kaiserslautern,20
+1226288,GER2,2024-11-29,1. FC Magdeburg,Hertha BSC,179,1. FC Magdeburg,20,159,Hertha BSC,20
+1226282,GER2,2024-11-30,1.FC Köln,Hannover 96,192,1.FC Köln,20,166,Hannover 96,20
+1226289,GER2,2024-11-30,Eintracht Braunschweig,SSV Jahn Regensburg,744,Eintracht Braunschweig,20,177,SSV Jahn Regensburg,20
+1226286,GER2,2024-11-30,SV Elversberg,SC Paderborn 07,1660,SV Elversberg,20,185,SC Paderborn 07,20
+1226283,GER2,2024-11-30,SV Darmstadt 98,Preußen Münster,181,SV Darmstadt 98,20,1313,Preußen Münster,20
+1226287,GER2,2024-12-01,1. FC Nürnberg,Fortuna Düsseldorf,171,1. FC Nürnberg,20,158,Fortuna Düsseldorf,20
+1226284,GER2,2024-12-01,Karlsruher SC,Hamburger SV,785,Karlsruher SC,20,175,Hamburger SV,20
+1226290,GER2,2024-12-01,SSV Ulm 1846,SpVgg Greuther Fürth,1652,SSV Ulm 1846,20,178,SpVgg Greuther Fürth,20
+1226294,GER2,2024-12-06,SC Paderborn 07,FC Schalke 04,185,SC Paderborn 07,20,174,FC Schalke 04,20
+1226296,GER2,2024-12-06,SV Elversberg,1. FC Nürnberg,1660,SV Elversberg,20,171,1. FC Nürnberg,20
+1226293,GER2,2024-12-07,Hannover 96,SSV Ulm 1846,166,Hannover 96,20,1652,SSV Ulm 1846,20
+1226295,GER2,2024-12-07,SpVgg Greuther Fürth,Hertha BSC,178,SpVgg Greuther Fürth,20,159,Hertha BSC,20
+1226297,GER2,2024-12-07,1. FC Kaiserslautern,Karlsruher SC,745,1. FC Kaiserslautern,20,785,Karlsruher SC,19
+1226298,GER2,2024-12-07,Preußen Münster,1. FC Magdeburg,1313,Preußen Münster,20,179,1. FC Magdeburg,20
+1226299,GER2,2024-12-08,SSV Jahn Regensburg,1.FC Köln,177,SSV Jahn Regensburg,20,192,1.FC Köln,20
+1226291,GER2,2024-12-08,Fortuna Düsseldorf,Eintracht Braunschweig,158,Fortuna Düsseldorf,20,744,Eintracht Braunschweig,20
+1226292,GER2,2024-12-08,Hamburger SV,SV Darmstadt 98,175,Hamburger SV,20,181,SV Darmstadt 98,20
+1226304,GER2,2024-12-13,Hertha BSC,Preußen Münster,159,Hertha BSC,19,1313,Preußen Münster,20
+1226302,GER2,2024-12-13,Karlsruher SC,SSV Jahn Regensburg,785,Karlsruher SC,20,177,SSV Jahn Regensburg,20
+1226308,GER2,2024-12-14,SSV Ulm 1846,Hamburger SV,1652,SSV Ulm 1846,20,175,Hamburger SV,20
+1226301,GER2,2024-12-14,SV Darmstadt 98,1. FC Kaiserslautern,181,SV Darmstadt 98,19,745,1. FC Kaiserslautern,20
+1226305,GER2,2024-12-14,FC Schalke 04,Fortuna Düsseldorf,174,FC Schalke 04,20,158,Fortuna Düsseldorf,20
+1226306,GER2,2024-12-14,1. FC Magdeburg,SC Paderborn 07,179,1. FC Magdeburg,20,185,SC Paderborn 07,20
+1226300,GER2,2024-12-15,1.FC Köln,1. FC Nürnberg,192,1.FC Köln,19,171,1. FC Nürnberg,20
+1226303,GER2,2024-12-15,SpVgg Greuther Fürth,Hannover 96,178,SpVgg Greuther Fürth,20,166,Hannover 96,20
+1226307,GER2,2024-12-15,Eintracht Braunschweig,SV Elversberg,744,Eintracht Braunschweig,20,1660,SV Elversberg,19
+1226309,GER2,2024-12-20,Fortuna Düsseldorf,1. FC Magdeburg,158,Fortuna Düsseldorf,20,179,1. FC Magdeburg,20
+1226313,GER2,2024-12-20,SV Elversberg,FC Schalke 04,1660,SV Elversberg,20,174,FC Schalke 04,19
+1226310,GER2,2024-12-21,Hamburger SV,SpVgg Greuther Fürth,175,Hamburger SV,20,178,SpVgg Greuther Fürth,20
+1226312,GER2,2024-12-21,SC Paderborn 07,Karlsruher SC,185,SC Paderborn 07,20,785,Karlsruher SC,20
+1226316,GER2,2024-12-21,Preußen Münster,SSV Ulm 1846,1313,Preußen Münster,20,1652,SSV Ulm 1846,20
+1226314,GER2,2024-12-21,1. FC Nürnberg,Eintracht Braunschweig,171,1. FC Nürnberg,20,744,Eintracht Braunschweig,20
+1226315,GER2,2024-12-22,1. FC Kaiserslautern,1.FC Köln,745,1. FC Kaiserslautern,20,192,1.FC Köln,20
+1226317,GER2,2024-12-22,SSV Jahn Regensburg,SV Darmstadt 98,177,SSV Jahn Regensburg,20,181,SV Darmstadt 98,19
+1226311,GER2,2024-12-22,Hannover 96,Hertha BSC,166,Hannover 96,20,159,Hertha BSC,20
+1226318,GER2,2025-01-17,Fortuna Düsseldorf,SV Darmstadt 98,158,Fortuna Düsseldorf,19,181,SV Darmstadt 98,19
+1226326,GER2,2025-01-17,SSV Jahn Regensburg,Hannover 96,177,SSV Jahn Regensburg,20,166,Hannover 96,20
+1226324,GER2,2025-01-18,Eintracht Braunschweig,FC Schalke 04,744,Eintracht Braunschweig,20,174,FC Schalke 04,20
+1226323,GER2,2025-01-18,1. FC Kaiserslautern,SSV Ulm 1846,745,1. FC Kaiserslautern,20,1652,SSV Ulm 1846,20
+1226325,GER2,2025-01-18,Preußen Münster,SpVgg Greuther Fürth,1313,Preußen Münster,20,178,SpVgg Greuther Fürth,20
+1226319,GER2,2025-01-18,Hamburger SV,1.FC Köln,175,Hamburger SV,20,192,1.FC Köln,20
+1226320,GER2,2025-01-19,SC Paderborn 07,Hertha BSC,185,SC Paderborn 07,20,159,Hertha BSC,20
+1226321,GER2,2025-01-19,SV Elversberg,1. FC Magdeburg,1660,SV Elversberg,20,179,1. FC Magdeburg,20
+1226322,GER2,2025-01-19,1. FC Nürnberg,Karlsruher SC,171,1. FC Nürnberg,20,785,Karlsruher SC,20
+1226331,GER2,2025-01-24,SpVgg Greuther Fürth,1. FC Kaiserslautern,178,SpVgg Greuther Fürth,19,745,1. FC Kaiserslautern,20
+1226334,GER2,2025-01-24,1. FC Magdeburg,Eintracht Braunschweig,179,1. FC Magdeburg,20,744,Eintracht Braunschweig,20
+1226333,GER2,2025-01-25,FC Schalke 04,1. FC Nürnberg,174,FC Schalke 04,20,171,1. FC Nürnberg,20
+1226327,GER2,2025-01-25,1.FC Köln,SV Elversberg,192,1.FC Köln,20,1660,SV Elversberg,20
+1226329,GER2,2025-01-25,Karlsruher SC,Fortuna Düsseldorf,785,Karlsruher SC,20,158,Fortuna Düsseldorf,19
+1226332,GER2,2025-01-25,Hertha BSC,Hamburger SV,159,Hertha BSC,20,175,Hamburger SV,20
+1226328,GER2,2025-01-26,SV Darmstadt 98,SC Paderborn 07,181,SV Darmstadt 98,20,185,SC Paderborn 07,19
+1226335,GER2,2025-01-26,SSV Ulm 1846,SSV Jahn Regensburg,1652,SSV Ulm 1846,20,177,SSV Jahn Regensburg,20
+1226330,GER2,2025-01-26,Hannover 96,Preußen Münster,166,Hannover 96,20,1313,Preußen Münster,20
+1226340,GER2,2025-01-31,SV Elversberg,Karlsruher SC,1660,SV Elversberg,20,785,Karlsruher SC,19
+1226341,GER2,2025-01-31,1. FC Nürnberg,SV Darmstadt 98,171,1. FC Nürnberg,20,181,SV Darmstadt 98,19
+1226344,GER2,2025-02-01,SSV Jahn Regensburg,Hertha BSC,177,SSV Jahn Regensburg,20,159,Hertha BSC,20
+1226343,GER2,2025-02-01,Eintracht Braunschweig,1.FC Köln,744,Eintracht Braunschweig,20,192,1.FC Köln,20
+1226336,GER2,2025-02-01,Fortuna Düsseldorf,SSV Ulm 1846,158,Fortuna Düsseldorf,19,1652,SSV Ulm 1846,20
+1226339,GER2,2025-02-01,FC Schalke 04,1. FC Magdeburg,174,FC Schalke 04,20,179,1. FC Magdeburg,20
+1226337,GER2,2025-02-02,Hamburger SV,Hannover 96,175,Hamburger SV,20,166,Hannover 96,20
+1226338,GER2,2025-02-02,SC Paderborn 07,SpVgg Greuther Fürth,185,SC Paderborn 07,20,178,SpVgg Greuther Fürth,20
+1226342,GER2,2025-02-02,1. FC Kaiserslautern,Preußen Münster,745,1. FC Kaiserslautern,20,1313,Preußen Münster,20
+1226349,GER2,2025-02-07,SpVgg Greuther Fürth,SSV Jahn Regensburg,178,SpVgg Greuther Fürth,20,177,SSV Jahn Regensburg,20
+1226353,GER2,2025-02-07,Preußen Münster,Hamburger SV,1313,Preußen Münster,20,175,Hamburger SV,20
+1226352,GER2,2025-02-08,SSV Ulm 1846,SC Paderborn 07,1652,SSV Ulm 1846,20,185,SC Paderborn 07,18
+1226351,GER2,2025-02-08,1. FC Magdeburg,1. FC Nürnberg,179,1. FC Magdeburg,20,171,1. FC Nürnberg,20
+1226346,GER2,2025-02-08,SV Darmstadt 98,SV Elversberg,181,SV Darmstadt 98,18,1660,SV Elversberg,20
+1226350,GER2,2025-02-08,Hertha BSC,1. FC Kaiserslautern,159,Hertha BSC,20,745,1. FC Kaiserslautern,20
+1226348,GER2,2025-02-09,Hannover 96,Fortuna Düsseldorf,166,Hannover 96,20,158,Fortuna Düsseldorf,19
+1226345,GER2,2025-02-09,1.FC Köln,FC Schalke 04,192,1.FC Köln,20,174,FC Schalke 04,20
+1226347,GER2,2025-02-09,Karlsruher SC,Eintracht Braunschweig,785,Karlsruher SC,20,744,Eintracht Braunschweig,20
+1226355,GER2,2025-02-14,SC Paderborn 07,Preußen Münster,185,SC Paderborn 07,19,1313,Preußen Münster,20
+1226360,GER2,2025-02-14,1. FC Magdeburg,1.FC Köln,179,1. FC Magdeburg,20,192,1.FC Köln,20
+1226357,GER2,2025-02-15,SV Elversberg,SpVgg Greuther Fürth,1660,SV Elversberg,20,178,SpVgg Greuther Fürth,20
+1226361,GER2,2025-02-15,Eintracht Braunschweig,SV Darmstadt 98,744,Eintracht Braunschweig,20,181,SV Darmstadt 98,18
+1226359,GER2,2025-02-15,1. FC Kaiserslautern,Hannover 96,745,1. FC Kaiserslautern,20,166,Hannover 96,20
+1226354,GER2,2025-02-15,Fortuna Düsseldorf,Hertha BSC,158,Fortuna Düsseldorf,20,159,Hertha BSC,20
+1226356,GER2,2025-02-16,FC Schalke 04,Karlsruher SC,174,FC Schalke 04,20,785,Karlsruher SC,20
+1226362,GER2,2025-02-16,SSV Jahn Regensburg,Hamburger SV,177,SSV Jahn Regensburg,20,175,Hamburger SV,20
+1226358,GER2,2025-02-16,1. FC Nürnberg,SSV Ulm 1846,171,1. FC Nürnberg,20,1652,SSV Ulm 1846,20
+1226369,GER2,2025-02-21,Hertha BSC,1. FC Nürnberg,159,Hertha BSC,20,171,1. FC Nürnberg,20
+1226365,GER2,2025-02-21,Hamburger SV,1. FC Kaiserslautern,175,Hamburger SV,20,745,1. FC Kaiserslautern,20
+1226370,GER2,2025-02-22,SSV Ulm 1846,SV Elversberg,1652,SSV Ulm 1846,20,1660,SV Elversberg,20
+1226367,GER2,2025-02-22,Hannover 96,SC Paderborn 07,166,Hannover 96,20,185,SC Paderborn 07,19
+1226371,GER2,2025-02-22,Preußen Münster,SSV Jahn Regensburg,1313,Preußen Münster,20,177,SSV Jahn Regensburg,20
+1226366,GER2,2025-02-22,Karlsruher SC,1. FC Magdeburg,785,Karlsruher SC,20,179,1. FC Magdeburg,20
+1226368,GER2,2025-02-23,SpVgg Greuther Fürth,Eintracht Braunschweig,178,SpVgg Greuther Fürth,20,744,Eintracht Braunschweig,20
+1226364,GER2,2025-02-23,SV Darmstadt 98,FC Schalke 04,181,SV Darmstadt 98,19,174,FC Schalke 04,20
+1226363,GER2,2025-02-23,1.FC Köln,Fortuna Düsseldorf,192,1.FC Köln,20,158,Fortuna Düsseldorf,19
+1226375,GER2,2025-02-28,FC Schalke 04,Preußen Münster,174,FC Schalke 04,20,1313,Preußen Münster,20
+1226372,GER2,2025-02-28,Fortuna Düsseldorf,SpVgg Greuther Fürth,158,Fortuna Düsseldorf,19,178,SpVgg Greuther Fürth,20
+1226380,GER2,2025-03-01,Eintracht Braunschweig,SSV Ulm 1846,744,Eintracht Braunschweig,20,1652,SSV Ulm 1846,20
+1226378,GER2,2025-03-01,1. FC Kaiserslautern,SSV Jahn Regensburg,745,1. FC Kaiserslautern,20,177,SSV Jahn Regensburg,20
+1226377,GER2,2025-03-01,1. FC Nürnberg,Hannover 96,171,1. FC Nürnberg,20,166,Hannover 96,20
+1226373,GER2,2025-03-01,Karlsruher SC,1.FC Köln,785,Karlsruher SC,20,192,1.FC Köln,20
+1226376,GER2,2025-03-02,SV Elversberg,Hertha BSC,1660,SV Elversberg,20,159,Hertha BSC,19
+1226379,GER2,2025-03-02,1. FC Magdeburg,SV Darmstadt 98,179,1. FC Magdeburg,20,181,SV Darmstadt 98,18
+1226374,GER2,2025-03-02,SC Paderborn 07,Hamburger SV,185,SC Paderborn 07,18,175,Hamburger SV,20
+1226381,GER2,2025-03-07,SV Darmstadt 98,Karlsruher SC,181,SV Darmstadt 98,19,785,Karlsruher SC,20
+1226386,GER2,2025-03-07,1. FC Kaiserslautern,SV Elversberg,745,1. FC Kaiserslautern,20,1660,SV Elversberg,20
+1226384,GER2,2025-03-08,SpVgg Greuther Fürth,1. FC Magdeburg,178,SpVgg Greuther Fürth,20,179,1. FC Magdeburg,20
+1226387,GER2,2025-03-08,SSV Ulm 1846,1.FC Köln,1652,SSV Ulm 1846,20,192,1.FC Köln,20
+1226385,GER2,2025-03-08,Hertha BSC,FC Schalke 04,159,Hertha BSC,20,174,FC Schalke 04,20
+1226382,GER2,2025-03-08,Hamburger SV,Fortuna Düsseldorf,175,Hamburger SV,20,158,Fortuna Düsseldorf,20
+1226383,GER2,2025-03-09,Hannover 96,Eintracht Braunschweig,166,Hannover 96,20,744,Eintracht Braunschweig,20
+1226389,GER2,2025-03-09,SSV Jahn Regensburg,SC Paderborn 07,177,SSV Jahn Regensburg,20,185,SC Paderborn 07,20
+1226388,GER2,2025-03-09,Preußen Münster,1. FC Nürnberg,1313,Preußen Münster,20,171,1. FC Nürnberg,20
+1226394,GER2,2025-03-14,FC Schalke 04,Hannover 96,174,FC Schalke 04,20,166,Hannover 96,20
+1226397,GER2,2025-03-14,1. FC Magdeburg,Hamburger SV,179,1. FC Magdeburg,20,175,Hamburger SV,20
+1226393,GER2,2025-03-15,SC Paderborn 07,1. FC Kaiserslautern,185,SC Paderborn 07,20,745,1. FC Kaiserslautern,20
+1226391,GER2,2025-03-15,Fortuna Düsseldorf,SSV Jahn Regensburg,158,Fortuna Düsseldorf,19,177,SSV Jahn Regensburg,20
+1226395,GER2,2025-03-15,SV Elversberg,Preußen Münster,1660,SV Elversberg,20,1313,Preußen Münster,20
+1226390,GER2,2025-03-15,1.FC Köln,SV Darmstadt 98,192,1.FC Köln,20,181,SV Darmstadt 98,18
+1226396,GER2,2025-03-16,1. FC Nürnberg,SpVgg Greuther Fürth,171,1. FC Nürnberg,20,178,SpVgg Greuther Fürth,20
+1226398,GER2,2025-03-16,Eintracht Braunschweig,Hertha BSC,744,Eintracht Braunschweig,20,159,Hertha BSC,20
+1226392,GER2,2025-03-16,Karlsruher SC,SSV Ulm 1846,785,Karlsruher SC,20,1652,SSV Ulm 1846,20
+1226399,GER2,2025-03-28,Hamburger SV,SV Elversberg,175,Hamburger SV,20,1660,SV Elversberg,20
+1226405,GER2,2025-03-28,SSV Ulm 1846,SV Darmstadt 98,1652,SSV Ulm 1846,20,181,SV Darmstadt 98,18
+1226400,GER2,2025-03-29,Hannover 96,1. FC Magdeburg,166,Hannover 96,20,179,1. FC Magdeburg,20
+1226403,GER2,2025-03-29,Hertha BSC,Karlsruher SC,159,Hertha BSC,20,785,Karlsruher SC,20
+1226404,GER2,2025-03-29,1. FC Kaiserslautern,Fortuna Düsseldorf,745,1. FC Kaiserslautern,20,158,Fortuna Düsseldorf,18
+1226401,GER2,2025-03-29,SC Paderborn 07,1.FC Köln,185,SC Paderborn 07,20,192,1.FC Köln,20
+1226407,GER2,2025-03-30,SSV Jahn Regensburg,1. FC Nürnberg,177,SSV Jahn Regensburg,20,171,1. FC Nürnberg,20
+1226402,GER2,2025-03-30,SpVgg Greuther Fürth,FC Schalke 04,178,SpVgg Greuther Fürth,20,174,FC Schalke 04,20
+1226406,GER2,2025-03-30,Preußen Münster,Eintracht Braunschweig,1313,Preußen Münster,20,744,Eintracht Braunschweig,20
+1226416,GER2,2025-04-04,Eintracht Braunschweig,SC Paderborn 07,744,Eintracht Braunschweig,20,185,SC Paderborn 07,20
+1226411,GER2,2025-04-04,Karlsruher SC,Hannover 96,785,Karlsruher SC,20,166,Hannover 96,20
+1226410,GER2,2025-04-05,Fortuna Düsseldorf,Preußen Münster,158,Fortuna Düsseldorf,19,1313,Preußen Münster,20
+1226414,GER2,2025-04-05,1. FC Nürnberg,Hamburger SV,171,1. FC Nürnberg,20,175,Hamburger SV,20
+1226409,GER2,2025-04-05,SV Darmstadt 98,SpVgg Greuther Fürth,181,SV Darmstadt 98,20,178,SpVgg Greuther Fürth,20
+1226408,GER2,2025-04-05,1.FC Köln,Hertha BSC,192,1.FC Köln,20,159,Hertha BSC,20
+1226413,GER2,2025-04-06,SV Elversberg,SSV Jahn Regensburg,1660,SV Elversberg,20,177,SSV Jahn Regensburg,19
+1226412,GER2,2025-04-06,FC Schalke 04,SSV Ulm 1846,174,FC Schalke 04,20,1652,SSV Ulm 1846,20
+1226415,GER2,2025-04-06,1. FC Magdeburg,1. FC Kaiserslautern,179,1. FC Magdeburg,20,745,1. FC Kaiserslautern,20
+1226417,GER2,2025-04-11,Hamburger SV,Eintracht Braunschweig,175,Hamburger SV,20,744,Eintracht Braunschweig,20
+1226420,GER2,2025-04-11,SpVgg Greuther Fürth,1.FC Köln,178,SpVgg Greuther Fürth,20,192,1.FC Köln,20
+1226421,GER2,2025-04-12,Hertha BSC,SV Darmstadt 98,159,Hertha BSC,20,181,SV Darmstadt 98,19
+1226418,GER2,2025-04-12,Hannover 96,SV Elversberg,166,Hannover 96,20,1660,SV Elversberg,20
+1226423,GER2,2025-04-12,SSV Ulm 1846,1. FC Magdeburg,1652,SSV Ulm 1846,20,179,1. FC Magdeburg,20
+1226422,GER2,2025-04-12,1. FC Kaiserslautern,1. FC Nürnberg,745,1. FC Kaiserslautern,20,171,1. FC Nürnberg,20
+1226425,GER2,2025-04-13,SSV Jahn Regensburg,FC Schalke 04,177,SSV Jahn Regensburg,20,174,FC Schalke 04,20
+1226419,GER2,2025-04-13,SC Paderborn 07,Fortuna Düsseldorf,185,SC Paderborn 07,20,158,Fortuna Düsseldorf,17
+1226424,GER2,2025-04-13,Preußen Münster,Karlsruher SC,1313,Preußen Münster,20,785,Karlsruher SC,20
+1226431,GER2,2025-04-19,1. FC Nürnberg,SC Paderborn 07,171,1. FC Nürnberg,20,185,SC Paderborn 07,20
+1226433,GER2,2025-04-19,Eintracht Braunschweig,1. FC Kaiserslautern,744,Eintracht Braunschweig,20,745,1. FC Kaiserslautern,20
+1226430,GER2,2025-04-19,SV Elversberg,Fortuna Düsseldorf,1660,SV Elversberg,18,158,Fortuna Düsseldorf,19
+1226429,GER2,2025-04-19,FC Schalke 04,Hamburger SV,174,FC Schalke 04,20,175,Hamburger SV,20
+1226426,GER2,2025-04-20,1.FC Köln,Preußen Münster,192,1.FC Köln,20,1313,Preußen Münster,20
+1226432,GER2,2025-04-20,1. FC Magdeburg,SSV Jahn Regensburg,179,1. FC Magdeburg,20,177,SSV Jahn Regensburg,19
+1226428,GER2,2025-04-20,Karlsruher SC,SpVgg Greuther Fürth,785,Karlsruher SC,20,178,SpVgg Greuther Fürth,20
+1226427,GER2,2025-04-20,SV Darmstadt 98,Hannover 96,181,SV Darmstadt 98,19,166,Hannover 96,20
+1226434,GER2,2025-04-20,SSV Ulm 1846,Hertha BSC,1652,SSV Ulm 1846,20,159,Hertha BSC,18
+1226440,GER2,2025-04-25,Hertha BSC,1. FC Magdeburg,159,Hertha BSC,20,179,1. FC Magdeburg,20
+1226439,GER2,2025-04-25,SpVgg Greuther Fürth,SSV Ulm 1846,178,SpVgg Greuther Fürth,20,1652,SSV Ulm 1846,20
+1226443,GER2,2025-04-26,SSV Jahn Regensburg,Eintracht Braunschweig,177,SSV Jahn Regensburg,20,744,Eintracht Braunschweig,20
+1226438,GER2,2025-04-26,SC Paderborn 07,SV Elversberg,185,SC Paderborn 07,20,1660,SV Elversberg,19
+1226442,GER2,2025-04-26,Preußen Münster,SV Darmstadt 98,1313,Preußen Münster,20,181,SV Darmstadt 98,19
+1226435,GER2,2025-04-26,Fortuna Düsseldorf,1. FC Nürnberg,158,Fortuna Düsseldorf,19,171,1. FC Nürnberg,20
+1226437,GER2,2025-04-27,Hannover 96,1.FC Köln,166,Hannover 96,20,192,1.FC Köln,20
+1226436,GER2,2025-04-27,Hamburger SV,Karlsruher SC,175,Hamburger SV,20,785,Karlsruher SC,20
+1226441,GER2,2025-04-27,1. FC Kaiserslautern,FC Schalke 04,745,1. FC Kaiserslautern,20,174,FC Schalke 04,20
+1226448,GER2,2025-05-02,FC Schalke 04,SC Paderborn 07,174,FC Schalke 04,20,185,SC Paderborn 07,20
+1226450,GER2,2025-05-02,1. FC Magdeburg,Preußen Münster,179,1. FC Magdeburg,20,1313,Preußen Münster,20
+1226445,GER2,2025-05-03,SV Darmstadt 98,Hamburger SV,181,SV Darmstadt 98,20,175,Hamburger SV,20
+1226451,GER2,2025-05-03,Eintracht Braunschweig,Fortuna Düsseldorf,744,Eintracht Braunschweig,20,158,Fortuna Düsseldorf,20
+1226452,GER2,2025-05-03,SSV Ulm 1846,Hannover 96,1652,SSV Ulm 1846,20,166,Hannover 96,19
+1226444,GER2,2025-05-03,1.FC Köln,SSV Jahn Regensburg,192,1.FC Köln,20,177,SSV Jahn Regensburg,19
+1226446,GER2,2025-05-04,Karlsruher SC,1. FC Kaiserslautern,785,Karlsruher SC,20,745,1. FC Kaiserslautern,20
+1226447,GER2,2025-05-04,Hertha BSC,SpVgg Greuther Fürth,159,Hertha BSC,20,178,SpVgg Greuther Fürth,20
+1226449,GER2,2025-05-04,1. FC Nürnberg,SV Elversberg,171,1. FC Nürnberg,20,1660,SV Elversberg,19
+1226460,GER2,2025-05-09,Preußen Münster,Hertha BSC,1313,Preußen Münster,20,159,Hertha BSC,20
+1226458,GER2,2025-05-09,1. FC Nürnberg,1.FC Köln,171,1. FC Nürnberg,20,192,1.FC Köln,20
+1226453,GER2,2025-05-10,Fortuna Düsseldorf,FC Schalke 04,158,Fortuna Düsseldorf,20,174,FC Schalke 04,20
+1226456,GER2,2025-05-10,SC Paderborn 07,1. FC Magdeburg,185,SC Paderborn 07,20,179,1. FC Magdeburg,20
+1226457,GER2,2025-05-10,SV Elversberg,Eintracht Braunschweig,1660,SV Elversberg,20,744,Eintracht Braunschweig,20
+1226454,GER2,2025-05-10,Hamburger SV,SSV Ulm 1846,175,Hamburger SV,20,1652,SSV Ulm 1846,20
+1226455,GER2,2025-05-11,Hannover 96,SpVgg Greuther Fürth,166,Hannover 96,20,178,SpVgg Greuther Fürth,20
+1226461,GER2,2025-05-11,SSV Jahn Regensburg,Karlsruher SC,177,SSV Jahn Regensburg,20,785,Karlsruher SC,19
+1226459,GER2,2025-05-11,1. FC Kaiserslautern,SV Darmstadt 98,745,1. FC Kaiserslautern,20,181,SV Darmstadt 98,19
+1226463,GER2,2025-05-18,SV Darmstadt 98,SSV Jahn Regensburg,181,SV Darmstadt 98,19,177,SSV Jahn Regensburg,20
+1226466,GER2,2025-05-18,Hertha BSC,Hannover 96,159,Hertha BSC,19,166,Hannover 96,20
+1226467,GER2,2025-05-18,FC Schalke 04,SV Elversberg,174,FC Schalke 04,20,1660,SV Elversberg,20
+1226468,GER2,2025-05-18,1. FC Magdeburg,Fortuna Düsseldorf,179,1. FC Magdeburg,20,158,Fortuna Düsseldorf,20
+1226469,GER2,2025-05-18,Eintracht Braunschweig,1. FC Nürnberg,744,Eintracht Braunschweig,20,171,1. FC Nürnberg,20
+1226462,GER2,2025-05-18,1.FC Köln,1. FC Kaiserslautern,192,1.FC Köln,20,745,1. FC Kaiserslautern,20
+1226464,GER2,2025-05-18,Karlsruher SC,SC Paderborn 07,785,Karlsruher SC,19,185,SC Paderborn 07,20
+1226470,GER2,2025-05-18,SSV Ulm 1846,Preußen Münster,1652,SSV Ulm 1846,20,1313,Preußen Münster,20
+1226465,GER2,2025-05-18,SpVgg Greuther Fürth,Hamburger SV,178,SpVgg Greuther Fürth,20,175,Hamburger SV,20
+1375875,GER2,2025-05-23,FC Saarbrücken,Eintracht Braunschweig,1639,FC Saarbrücken,20,744,Eintracht Braunschweig,20
+1388614,GER2,2025-08-01,FC Schalke 04,Hertha BSC,174,FC Schalke 04,20,159,Hertha BSC,20
+1388621,GER2,2025-08-02,Karlsruher SC,Preußen Münster,785,Karlsruher SC,20,1313,Preußen Münster,20
+1388617,GER2,2025-08-02,SV Darmstadt 98,VfL Bochum,181,SV Darmstadt 98,20,176,VfL Bochum,20
+1388618,GER2,2025-08-02,SV Elversberg,1. FC Nürnberg,1660,SV Elversberg,20,171,1. FC Nürnberg,20
+1388616,GER2,2025-08-02,Arminia Bielefeld,Fortuna Düsseldorf,188,Arminia Bielefeld,20,158,Fortuna Düsseldorf,20
+1388615,GER2,2025-08-02,SC Paderborn 07,Holstein Kiel,185,SC Paderborn 07,20,191,Holstein Kiel,20
+1388620,GER2,2025-08-03,Hannover 96,1. FC Kaiserslautern,166,Hannover 96,20,745,1. FC Kaiserslautern,20
+1388619,GER2,2025-08-03,SpVgg Greuther Fürth,Dynamo Dresden,178,SpVgg Greuther Fürth,20,183,Dynamo Dresden,20
+1388622,GER2,2025-08-03,1. FC Magdeburg,Eintracht Braunschweig,179,1. FC Magdeburg,20,744,Eintracht Braunschweig,20
+1388628,GER2,2025-08-08,1. FC Nürnberg,SV Darmstadt 98,171,1. FC Nürnberg,20,181,SV Darmstadt 98,20
+1388629,GER2,2025-08-08,Preußen Münster,SC Paderborn 07,1313,Preußen Münster,20,185,SC Paderborn 07,20
+1388625,GER2,2025-08-09,Fortuna Düsseldorf,Hannover 96,158,Fortuna Düsseldorf,20,166,Hannover 96,20
+1388630,GER2,2025-08-09,Dynamo Dresden,1. FC Magdeburg,183,Dynamo Dresden,20,179,1. FC Magdeburg,20
+1388624,GER2,2025-08-09,Eintracht Braunschweig,SpVgg Greuther Fürth,744,Eintracht Braunschweig,20,178,SpVgg Greuther Fürth,20
+1388627,GER2,2025-08-09,1. FC Kaiserslautern,FC Schalke 04,745,1. FC Kaiserslautern,20,174,FC Schalke 04,20
+1388631,GER2,2025-08-10,Holstein Kiel,Arminia Bielefeld,191,Holstein Kiel,20,188,Arminia Bielefeld,20
+1388623,GER2,2025-08-10,VfL Bochum,SV Elversberg,176,VfL Bochum,20,1660,SV Elversberg,20
+1388626,GER2,2025-08-10,Hertha BSC,Karlsruher SC,159,Hertha BSC,20,785,Karlsruher SC,18

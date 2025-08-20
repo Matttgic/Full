@@ -1,0 +1,382 @@
+fixture_id,league_code,match_date,home_team,away_team,team_1_id,team_1_name,team_1_players_count,team_2_id,team_2_name,team_2_players_count
+1208030,ENG1,2024-08-19,Leicester,Tottenham,46,Leicester,20,47,Tottenham,20
+1208033,ENG1,2024-08-24,Brighton,Manchester United,51,Brighton,20,33,Manchester United,20
+1208035,ENG1,2024-08-24,Fulham,Leicester,36,Fulham,20,46,Leicester,20
+1208038,ENG1,2024-08-24,Southampton,Nottingham Forest,41,Southampton,20,65,Nottingham Forest,20
+1208039,ENG1,2024-08-24,Tottenham,Everton,47,Tottenham,20,45,Everton,20
+1208037,ENG1,2024-08-24,Manchester City,Ipswich,50,Manchester City,20,57,Ipswich,20
+1208034,ENG1,2024-08-24,Crystal Palace,West Ham,52,Crystal Palace,20,48,West Ham,20
+1208032,ENG1,2024-08-24,Aston Villa,Arsenal,66,Aston Villa,20,42,Arsenal,20
+1208036,ENG1,2024-08-25,Liverpool,Brentford,40,Liverpool,20,55,Brentford,20
+1208040,ENG1,2024-08-25,Wolves,Chelsea,39,Wolves,20,49,Chelsea,20
+1208031,ENG1,2024-08-25,Bournemouth,Newcastle,35,Bournemouth,20,34,Newcastle,20
+1208049,ENG1,2024-08-31,Nottingham Forest,Wolves,65,Nottingham Forest,20,39,Wolves,20
+1208045,ENG1,2024-08-31,Ipswich,Fulham,57,Ipswich,20,36,Fulham,20
+1208042,ENG1,2024-08-31,Brentford,Southampton,55,Brentford,20,41,Southampton,20
+1208050,ENG1,2024-08-31,West Ham,Manchester City,48,West Ham,20,50,Manchester City,20
+1208044,ENG1,2024-08-31,Everton,Bournemouth,45,Everton,20,35,Bournemouth,20
+1208041,ENG1,2024-08-31,Arsenal,Brighton,42,Arsenal,20,51,Brighton,20
+1208046,ENG1,2024-08-31,Leicester,Aston Villa,46,Leicester,20,66,Aston Villa,20
+1208043,ENG1,2024-09-01,Chelsea,Crystal Palace,49,Chelsea,20,52,Crystal Palace,20
+1208047,ENG1,2024-09-01,Manchester United,Liverpool,33,Manchester United,20,40,Liverpool,20
+1208048,ENG1,2024-09-01,Newcastle,Tottenham,34,Newcastle,20,47,Tottenham,20
+1208052,ENG1,2024-09-14,Aston Villa,Everton,66,Aston Villa,20,45,Everton,20
+1208051,ENG1,2024-09-14,Bournemouth,Chelsea,35,Bournemouth,20,49,Chelsea,20
+1208053,ENG1,2024-09-14,Brighton,Ipswich,51,Brighton,20,57,Ipswich,20
+1208054,ENG1,2024-09-14,Crystal Palace,Leicester,52,Crystal Palace,20,46,Leicester,20
+1208056,ENG1,2024-09-14,Liverpool,Nottingham Forest,40,Liverpool,20,65,Nottingham Forest,20
+1208055,ENG1,2024-09-14,Fulham,West Ham,36,Fulham,20,48,West Ham,20
+1208058,ENG1,2024-09-14,Southampton,Manchester United,41,Southampton,20,33,Manchester United,20
+1208057,ENG1,2024-09-14,Manchester City,Brentford,50,Manchester City,20,55,Brentford,20
+1208060,ENG1,2024-09-15,Wolves,Newcastle,39,Wolves,20,34,Newcastle,20
+1208059,ENG1,2024-09-15,Tottenham,Arsenal,47,Tottenham,20,42,Arsenal,20
+1208063,ENG1,2024-09-21,Crystal Palace,Manchester United,52,Crystal Palace,20,33,Manchester United,20
+1208068,ENG1,2024-09-21,Southampton,Ipswich,41,Southampton,20,57,Ipswich,20
+1208066,ENG1,2024-09-21,Liverpool,Bournemouth,40,Liverpool,20,35,Bournemouth,20
+1208064,ENG1,2024-09-21,Fulham,Newcastle,36,Fulham,20,34,Newcastle,20
+1208070,ENG1,2024-09-21,West Ham,Chelsea,48,West Ham,20,49,Chelsea,20
+1208069,ENG1,2024-09-21,Tottenham,Brentford,47,Tottenham,20,55,Brentford,20
+1208061,ENG1,2024-09-21,Aston Villa,Wolves,66,Aston Villa,20,39,Wolves,20
+1208065,ENG1,2024-09-21,Leicester,Everton,46,Leicester,20,45,Everton,19
+1208067,ENG1,2024-09-22,Manchester City,Arsenal,50,Manchester City,20,42,Arsenal,20
+1208062,ENG1,2024-09-22,Brighton,Nottingham Forest,51,Brighton,20,65,Nottingham Forest,20
+1208075,ENG1,2024-09-28,Everton,Crystal Palace,45,Everton,20,52,Crystal Palace,20
+1208072,ENG1,2024-09-28,Arsenal,Leicester,42,Arsenal,20,46,Leicester,20
+1208074,ENG1,2024-09-28,Chelsea,Brighton,49,Chelsea,20,51,Brighton,20
+1208080,ENG1,2024-09-28,Wolves,Liverpool,39,Wolves,20,40,Liverpool,20
+1208079,ENG1,2024-09-28,Nottingham Forest,Fulham,65,Nottingham Forest,20,36,Fulham,20
+1208078,ENG1,2024-09-28,Newcastle,Manchester City,34,Newcastle,20,50,Manchester City,19
+1208073,ENG1,2024-09-28,Brentford,West Ham,55,Brentford,20,48,West Ham,20
+1208076,ENG1,2024-09-29,Ipswich,Aston Villa,57,Ipswich,20,66,Aston Villa,20
+1208077,ENG1,2024-09-29,Manchester United,Tottenham,33,Manchester United,20,47,Tottenham,20
+1208071,ENG1,2024-09-30,Bournemouth,Southampton,35,Bournemouth,20,41,Southampton,20
+1208090,ENG1,2024-10-05,West Ham,Ipswich,48,West Ham,20,57,Ipswich,20
+1208086,ENG1,2024-10-05,Crystal Palace,Liverpool,52,Crystal Palace,20,40,Liverpool,20
+1208089,ENG1,2024-10-05,Manchester City,Fulham,50,Manchester City,19,36,Fulham,20
+1208088,ENG1,2024-10-05,Leicester,Bournemouth,46,Leicester,20,35,Bournemouth,20
+1208083,ENG1,2024-10-05,Brentford,Wolves,55,Brentford,20,39,Wolves,20
+1208087,ENG1,2024-10-05,Everton,Newcastle,45,Everton,20,34,Newcastle,20
+1208081,ENG1,2024-10-05,Arsenal,Southampton,42,Arsenal,20,41,Southampton,20
+1208085,ENG1,2024-10-06,Chelsea,Nottingham Forest,49,Chelsea,20,65,Nottingham Forest,20
+1208082,ENG1,2024-10-06,Aston Villa,Manchester United,66,Aston Villa,20,33,Manchester United,20
+1208084,ENG1,2024-10-06,Brighton,Tottenham,51,Brighton,20,47,Tottenham,20
+1208091,ENG1,2024-10-19,Bournemouth,Arsenal,35,Bournemouth,20,42,Arsenal,20
+1208092,ENG1,2024-10-19,Fulham,Aston Villa,36,Fulham,20,66,Aston Villa,20
+1208096,ENG1,2024-10-19,Newcastle,Brighton,34,Newcastle,20,51,Brighton,20
+1208098,ENG1,2024-10-19,Southampton,Leicester,41,Southampton,20,46,Leicester,20
+1208093,ENG1,2024-10-19,Ipswich,Everton,57,Ipswich,20,45,Everton,20
+1208099,ENG1,2024-10-19,Tottenham,West Ham,47,Tottenham,20,48,West Ham,20
+1208095,ENG1,2024-10-19,Manchester United,Brentford,33,Manchester United,20,55,Brentford,20
+1208094,ENG1,2024-10-20,Liverpool,Chelsea,40,Liverpool,20,49,Chelsea,20
+1208100,ENG1,2024-10-20,Wolves,Manchester City,39,Wolves,20,50,Manchester City,20
+1208097,ENG1,2024-10-21,Nottingham Forest,Crystal Palace,65,Nottingham Forest,20,52,Crystal Palace,20
+1208110,ENG1,2024-10-25,Leicester,Nottingham Forest,46,Leicester,20,65,Nottingham Forest,20
+1208109,ENG1,2024-10-26,Everton,Fulham,45,Everton,20,36,Fulham,20
+1208111,ENG1,2024-10-26,Manchester City,Southampton,50,Manchester City,18,41,Southampton,20
+1208106,ENG1,2024-10-26,Brighton,Wolves,51,Brighton,20,39,Wolves,20
+1208105,ENG1,2024-10-26,Brentford,Ipswich,55,Brentford,20,57,Ipswich,20
+1208104,ENG1,2024-10-26,Aston Villa,Bournemouth,66,Aston Villa,20,35,Bournemouth,20
+1208103,ENG1,2024-10-27,Arsenal,Liverpool,42,Arsenal,20,40,Liverpool,20
+1208108,ENG1,2024-10-27,Crystal Palace,Tottenham,52,Crystal Palace,20,47,Tottenham,20
+1208112,ENG1,2024-10-27,West Ham,Manchester United,48,West Ham,20,33,Manchester United,20
+1208107,ENG1,2024-10-27,Chelsea,Newcastle,49,Chelsea,20,34,Newcastle,20
+1208122,ENG1,2024-11-02,Wolves,Crystal Palace,39,Wolves,20,52,Crystal Palace,20
+1208119,ENG1,2024-11-02,Nottingham Forest,West Ham,65,Nottingham Forest,20,48,West Ham,20
+1208115,ENG1,2024-11-02,Ipswich,Leicester,57,Ipswich,20,46,Leicester,20
+1208120,ENG1,2024-11-02,Southampton,Everton,41,Southampton,20,45,Everton,20
+1208116,ENG1,2024-11-02,Liverpool,Brighton,40,Liverpool,20,51,Brighton,20
+1208113,ENG1,2024-11-02,Bournemouth,Manchester City,35,Bournemouth,20,50,Manchester City,20
+1208118,ENG1,2024-11-02,Newcastle,Arsenal,34,Newcastle,20,42,Arsenal,20
+1208121,ENG1,2024-11-03,Tottenham,Aston Villa,47,Tottenham,20,66,Aston Villa,20
+1208117,ENG1,2024-11-03,Manchester United,Chelsea,33,Manchester United,20,49,Chelsea,20
+1208114,ENG1,2024-11-04,Fulham,Brentford,36,Fulham,20,55,Brentford,20
+1208127,ENG1,2024-11-09,Liverpool,Aston Villa,40,Liverpool,20,66,Aston Villa,20
+1208124,ENG1,2024-11-09,Brighton,Manchester City,51,Brighton,20,50,Manchester City,20
+1208132,ENG1,2024-11-09,Wolves,Southampton,39,Wolves,20,41,Southampton,20
+1208123,ENG1,2024-11-09,Brentford,Bournemouth,55,Brentford,20,35,Bournemouth,20
+1208126,ENG1,2024-11-09,Crystal Palace,Fulham,52,Crystal Palace,20,36,Fulham,20
+1208131,ENG1,2024-11-09,West Ham,Everton,48,West Ham,20,45,Everton,20
+1208125,ENG1,2024-11-10,Chelsea,Arsenal,49,Chelsea,20,42,Arsenal,20
+1208129,ENG1,2024-11-10,Nottingham Forest,Newcastle,65,Nottingham Forest,20,34,Newcastle,20
+1208130,ENG1,2024-11-10,Tottenham,Ipswich,47,Tottenham,20,57,Ipswich,20
+1208128,ENG1,2024-11-10,Manchester United,Leicester,33,Manchester United,20,46,Leicester,20
+1208137,ENG1,2024-11-23,Fulham,Wolves,36,Fulham,20,39,Wolves,20
+1208140,ENG1,2024-11-23,Manchester City,Tottenham,50,Manchester City,20,47,Tottenham,20
+1208133,ENG1,2024-11-23,Bournemouth,Brighton,35,Bournemouth,20,51,Brighton,20
+1208134,ENG1,2024-11-23,Arsenal,Nottingham Forest,42,Arsenal,20,65,Nottingham Forest,20
+1208136,ENG1,2024-11-23,Everton,Brentford,45,Everton,20,55,Brentford,20
+1208135,ENG1,2024-11-23,Aston Villa,Crystal Palace,66,Aston Villa,20,52,Crystal Palace,20
+1208139,ENG1,2024-11-23,Leicester,Chelsea,46,Leicester,20,49,Chelsea,20
+1208142,ENG1,2024-11-24,Southampton,Liverpool,41,Southampton,20,40,Liverpool,20
+1208138,ENG1,2024-11-24,Ipswich,Manchester United,57,Ipswich,20,33,Manchester United,20
+1208141,ENG1,2024-11-25,Newcastle,West Ham,34,Newcastle,20,48,West Ham,20
+1208144,ENG1,2024-11-29,Brighton,Southampton,51,Brighton,20,41,Southampton,20
+1208146,ENG1,2024-11-30,Crystal Palace,Newcastle,52,Crystal Palace,20,34,Newcastle,20
+1208152,ENG1,2024-11-30,Wolves,Bournemouth,39,Wolves,20,35,Bournemouth,20
+1208143,ENG1,2024-11-30,Brentford,Leicester,55,Brentford,20,46,Leicester,20
+1208151,ENG1,2024-11-30,West Ham,Arsenal,48,West Ham,20,42,Arsenal,20
+1208149,ENG1,2024-11-30,Nottingham Forest,Ipswich,65,Nottingham Forest,20,57,Ipswich,20
+1208145,ENG1,2024-12-01,Chelsea,Aston Villa,49,Chelsea,20,66,Aston Villa,20
+1208148,ENG1,2024-12-01,Manchester United,Everton,33,Manchester United,20,45,Everton,20
+1208150,ENG1,2024-12-01,Tottenham,Fulham,47,Tottenham,20,36,Fulham,20
+1208147,ENG1,2024-12-01,Liverpool,Manchester City,40,Liverpool,20,50,Manchester City,20
+1208158,ENG1,2024-12-03,Ipswich,Crystal Palace,57,Ipswich,20,52,Crystal Palace,20
+1208159,ENG1,2024-12-03,Leicester,West Ham,46,Leicester,20,48,West Ham,20
+1208162,ENG1,2024-12-04,Southampton,Chelsea,41,Southampton,20,49,Chelsea,20
+1208155,ENG1,2024-12-04,Aston Villa,Brentford,66,Aston Villa,20,55,Brentford,20
+1208154,ENG1,2024-12-04,Arsenal,Manchester United,42,Arsenal,20,33,Manchester United,20
+1208156,ENG1,2024-12-04,Everton,Wolves,45,Everton,20,39,Wolves,20
+1208161,ENG1,2024-12-04,Newcastle,Liverpool,34,Newcastle,20,40,Liverpool,20
+1208160,ENG1,2024-12-04,Manchester City,Nottingham Forest,50,Manchester City,20,65,Nottingham Forest,20
+1208153,ENG1,2024-12-05,Bournemouth,Tottenham,35,Bournemouth,20,47,Tottenham,20
+1208157,ENG1,2024-12-05,Fulham,Brighton,36,Fulham,20,51,Brighton,20
+1208165,ENG1,2024-12-07,Crystal Palace,Manchester City,52,Crystal Palace,20,50,Manchester City,20
+1208164,ENG1,2024-12-07,Brentford,Newcastle,55,Brentford,20,34,Newcastle,20
+1208163,ENG1,2024-12-07,Aston Villa,Southampton,66,Aston Villa,20,41,Southampton,20
+1208170,ENG1,2024-12-07,Manchester United,Nottingham Forest,33,Manchester United,20,65,Nottingham Forest,20
+1208171,ENG1,2024-12-08,Tottenham,Chelsea,47,Tottenham,20,49,Chelsea,20
+1208167,ENG1,2024-12-08,Fulham,Arsenal,36,Fulham,20,42,Arsenal,20
+1208169,ENG1,2024-12-08,Leicester,Brighton,46,Leicester,20,51,Brighton,20
+1208168,ENG1,2024-12-08,Ipswich,Bournemouth,57,Ipswich,20,35,Bournemouth,20
+1208172,ENG1,2024-12-09,West Ham,Wolves,48,West Ham,20,39,Wolves,20
+1208180,ENG1,2024-12-14,Nottingham Forest,Aston Villa,65,Nottingham Forest,20,66,Aston Villa,20
+1208182,ENG1,2024-12-14,Wolves,Ipswich,39,Wolves,20,57,Ipswich,20
+1208174,ENG1,2024-12-14,Arsenal,Everton,42,Arsenal,20,45,Everton,20
+1208177,ENG1,2024-12-14,Liverpool,Fulham,40,Liverpool,20,36,Fulham,20
+1208179,ENG1,2024-12-14,Newcastle,Leicester,34,Newcastle,20,46,Leicester,20
+1208176,ENG1,2024-12-15,Chelsea,Brentford,49,Chelsea,20,55,Brentford,20
+1208181,ENG1,2024-12-15,Southampton,Tottenham,41,Southampton,20,47,Tottenham,20
+1208175,ENG1,2024-12-15,Brighton,Crystal Palace,51,Brighton,20,52,Crystal Palace,20
+1208178,ENG1,2024-12-15,Manchester City,Manchester United,50,Manchester City,20,33,Manchester United,20
+1208173,ENG1,2024-12-16,Bournemouth,West Ham,35,Bournemouth,20,48,West Ham,20
+1208188,ENG1,2024-12-21,Ipswich,Newcastle,57,Ipswich,20,34,Newcastle,20
+1208183,ENG1,2024-12-21,Aston Villa,Manchester City,66,Aston Villa,20,50,Manchester City,20
+1208184,ENG1,2024-12-21,Brentford,Nottingham Forest,55,Brentford,20,65,Nottingham Forest,20
+1208185,ENG1,2024-12-21,Crystal Palace,Arsenal,52,Crystal Palace,20,42,Arsenal,20
+1208192,ENG1,2024-12-21,West Ham,Brighton,48,West Ham,20,51,Brighton,20
+1208191,ENG1,2024-12-22,Tottenham,Liverpool,47,Tottenham,20,40,Liverpool,20
+1208189,ENG1,2024-12-22,Leicester,Wolves,46,Leicester,20,39,Wolves,20
+1208190,ENG1,2024-12-22,Manchester United,Bournemouth,33,Manchester United,20,35,Bournemouth,20
+1208187,ENG1,2024-12-22,Fulham,Southampton,36,Fulham,20,41,Southampton,20
+1208186,ENG1,2024-12-22,Everton,Chelsea,45,Everton,20,49,Chelsea,20
+1208197,ENG1,2024-12-26,Liverpool,Leicester,40,Liverpool,20,46,Leicester,20
+1208202,ENG1,2024-12-26,Wolves,Manchester United,39,Wolves,20,33,Manchester United,20
+1208193,ENG1,2024-12-26,Bournemouth,Crystal Palace,35,Bournemouth,20,52,Crystal Palace,20
+1208201,ENG1,2024-12-26,Southampton,West Ham,41,Southampton,20,48,West Ham,20
+1208200,ENG1,2024-12-26,Nottingham Forest,Tottenham,65,Nottingham Forest,20,47,Tottenham,20
+1208198,ENG1,2024-12-26,Manchester City,Everton,50,Manchester City,20,45,Everton,20
+1208196,ENG1,2024-12-26,Chelsea,Fulham,49,Chelsea,20,36,Fulham,20
+1208199,ENG1,2024-12-26,Newcastle,Aston Villa,34,Newcastle,20,66,Aston Villa,20
+1208195,ENG1,2024-12-27,Brighton,Brentford,51,Brighton,20,55,Brentford,20
+1208194,ENG1,2024-12-27,Arsenal,Ipswich,42,Arsenal,20,57,Ipswich,20
+1208207,ENG1,2024-12-29,Fulham,Bournemouth,36,Fulham,20,35,Bournemouth,20
+1208206,ENG1,2024-12-29,Everton,Nottingham Forest,45,Everton,20,65,Nottingham Forest,19
+1208205,ENG1,2024-12-29,Crystal Palace,Southampton,52,Crystal Palace,20,41,Southampton,20
+1208212,ENG1,2024-12-29,West Ham,Liverpool,48,West Ham,20,40,Liverpool,20
+1208209,ENG1,2024-12-29,Leicester,Manchester City,46,Leicester,20,50,Manchester City,20
+1208211,ENG1,2024-12-29,Tottenham,Wolves,47,Tottenham,20,39,Wolves,20
+1208210,ENG1,2024-12-30,Manchester United,Newcastle,33,Manchester United,20,34,Newcastle,20
+1208208,ENG1,2024-12-30,Ipswich,Chelsea,57,Ipswich,20,49,Chelsea,20
+1208203,ENG1,2024-12-30,Aston Villa,Brighton,66,Aston Villa,20,51,Brighton,20
+1208204,ENG1,2025-01-01,Brentford,Arsenal,55,Brentford,20,42,Arsenal,20
+1208215,ENG1,2025-01-04,Brighton,Arsenal,51,Brighton,20,42,Arsenal,20
+1208220,ENG1,2025-01-04,Southampton,Brentford,41,Southampton,20,55,Brentford,20
+1208213,ENG1,2025-01-04,Bournemouth,Everton,35,Bournemouth,20,45,Everton,20
+1208216,ENG1,2025-01-04,Crystal Palace,Chelsea,52,Crystal Palace,20,49,Chelsea,20
+1208219,ENG1,2025-01-04,Manchester City,West Ham,50,Manchester City,20,48,West Ham,20
+1208221,ENG1,2025-01-04,Tottenham,Newcastle,47,Tottenham,20,34,Newcastle,20
+1208214,ENG1,2025-01-04,Aston Villa,Leicester,66,Aston Villa,20,46,Leicester,20
+1208218,ENG1,2025-01-05,Liverpool,Manchester United,40,Liverpool,20,33,Manchester United,20
+1208217,ENG1,2025-01-05,Fulham,Ipswich,36,Fulham,20,57,Ipswich,20
+1208222,ENG1,2025-01-06,Wolves,Nottingham Forest,39,Wolves,20,65,Nottingham Forest,20
+1208229,ENG1,2025-01-14,West Ham,Fulham,48,West Ham,20,36,Fulham,20
+1208230,ENG1,2025-01-14,Chelsea,Bournemouth,49,Chelsea,20,35,Bournemouth,20
+1208224,ENG1,2025-01-14,Brentford,Manchester City,55,Brentford,20,50,Manchester City,20
+1208228,ENG1,2025-01-14,Nottingham Forest,Liverpool,65,Nottingham Forest,20,40,Liverpool,20
+1208223,ENG1,2025-01-15,Arsenal,Tottenham,42,Arsenal,20,47,Tottenham,20
+1208227,ENG1,2025-01-15,Leicester,Crystal Palace,46,Leicester,20,52,Crystal Palace,20
+1208231,ENG1,2025-01-15,Newcastle,Wolves,34,Newcastle,20,39,Wolves,20
+1208225,ENG1,2025-01-15,Everton,Aston Villa,45,Everton,20,66,Aston Villa,20
+1208226,ENG1,2025-01-16,Ipswich,Brighton,57,Ipswich,20,51,Brighton,20
+1208232,ENG1,2025-01-16,Manchester United,Southampton,33,Manchester United,20,41,Southampton,20
+1208240,ENG1,2025-01-18,Newcastle,Bournemouth,34,Newcastle,20,35,Bournemouth,20
+1208234,ENG1,2025-01-18,Brentford,Liverpool,55,Brentford,20,40,Liverpool,20
+1208242,ENG1,2025-01-18,West Ham,Crystal Palace,48,West Ham,20,52,Crystal Palace,20
+1208233,ENG1,2025-01-18,Arsenal,Aston Villa,42,Arsenal,20,66,Aston Villa,20
+1208238,ENG1,2025-01-18,Leicester,Fulham,46,Leicester,20,36,Fulham,20
+1208237,ENG1,2025-01-19,Ipswich,Manchester City,57,Ipswich,20,50,Manchester City,20
+1208241,ENG1,2025-01-19,Nottingham Forest,Southampton,65,Nottingham Forest,20,41,Southampton,20
+1208239,ENG1,2025-01-19,Manchester United,Brighton,33,Manchester United,20,51,Brighton,20
+1208236,ENG1,2025-01-19,Everton,Tottenham,45,Everton,20,47,Tottenham,20
+1208235,ENG1,2025-01-20,Chelsea,Wolves,49,Chelsea,20,39,Wolves,20
+1208243,ENG1,2025-01-25,Bournemouth,Nottingham Forest,35,Bournemouth,20,65,Nottingham Forest,20
+1208252,ENG1,2025-01-25,Wolves,Arsenal,39,Wolves,20,42,Arsenal,20
+1208249,ENG1,2025-01-25,Manchester City,Chelsea,50,Manchester City,20,49,Chelsea,20
+1208250,ENG1,2025-01-25,Southampton,Newcastle,41,Southampton,20,34,Newcastle,20
+1208245,ENG1,2025-01-25,Brighton,Everton,51,Brighton,20,45,Everton,20
+1208248,ENG1,2025-01-25,Liverpool,Ipswich,40,Liverpool,20,57,Ipswich,20
+1208246,ENG1,2025-01-26,Crystal Palace,Brentford,52,Crystal Palace,20,55,Brentford,20
+1208251,ENG1,2025-01-26,Tottenham,Leicester,47,Tottenham,19,46,Leicester,20
+1208244,ENG1,2025-01-26,Aston Villa,West Ham,66,Aston Villa,20,48,West Ham,20
+1208247,ENG1,2025-01-26,Fulham,Manchester United,36,Fulham,20,33,Manchester United,20
+1208260,ENG1,2025-02-01,Newcastle,Fulham,34,Newcastle,20,36,Fulham,20
+1208257,ENG1,2025-02-01,Everton,Leicester,45,Everton,20,46,Leicester,20
+1208261,ENG1,2025-02-01,Nottingham Forest,Brighton,65,Nottingham Forest,20,51,Brighton,20
+1208262,ENG1,2025-02-01,Wolves,Aston Villa,39,Wolves,20,66,Aston Villa,20
+1208253,ENG1,2025-02-01,Bournemouth,Liverpool,35,Bournemouth,20,40,Liverpool,20
+1208258,ENG1,2025-02-01,Ipswich,Southampton,57,Ipswich,20,41,Southampton,20
+1208259,ENG1,2025-02-02,Manchester United,Crystal Palace,33,Manchester United,20,52,Crystal Palace,20
+1208255,ENG1,2025-02-02,Brentford,Tottenham,55,Brentford,20,47,Tottenham,20
+1208254,ENG1,2025-02-02,Arsenal,Manchester City,42,Arsenal,20,50,Manchester City,20
+1208256,ENG1,2025-02-03,Chelsea,West Ham,49,Chelsea,20,48,West Ham,20
+1208166,ENG1,2025-02-12,Everton,Liverpool,45,Everton,20,40,Liverpool,20
+1208264,ENG1,2025-02-14,Brighton,Chelsea,51,Brighton,20,49,Chelsea,20
+1208270,ENG1,2025-02-15,Southampton,Bournemouth,41,Southampton,20,35,Bournemouth,20
+1208266,ENG1,2025-02-15,Fulham,Nottingham Forest,36,Fulham,20,65,Nottingham Forest,20
+1208263,ENG1,2025-02-15,Aston Villa,Ipswich,66,Aston Villa,19,57,Ipswich,20
+1208265,ENG1,2025-02-15,Crystal Palace,Everton,52,Crystal Palace,20,45,Everton,20
+1208269,ENG1,2025-02-15,Manchester City,Newcastle,50,Manchester City,20,34,Newcastle,20
+1208267,ENG1,2025-02-15,Leicester,Arsenal,46,Leicester,20,42,Arsenal,20
+1208272,ENG1,2025-02-15,West Ham,Brentford,48,West Ham,20,55,Brentford,20
+1208271,ENG1,2025-02-16,Tottenham,Manchester United,47,Tottenham,20,33,Manchester United,20
+1208268,ENG1,2025-02-16,Liverpool,Wolves,40,Liverpool,20,39,Wolves,20
+1208305,ENG1,2025-02-19,Aston Villa,Liverpool,66,Aston Villa,19,40,Liverpool,20
+1208279,ENG1,2025-02-21,Leicester,Brentford,46,Leicester,20,55,Brentford,20
+1208274,ENG1,2025-02-22,Arsenal,West Ham,42,Arsenal,20,48,West Ham,20
+1208273,ENG1,2025-02-22,Bournemouth,Wolves,35,Bournemouth,20,39,Wolves,20
+1208282,ENG1,2025-02-22,Southampton,Brighton,41,Southampton,20,51,Brighton,20
+1208275,ENG1,2025-02-22,Aston Villa,Chelsea,66,Aston Villa,20,49,Chelsea,20
+1208276,ENG1,2025-02-22,Everton,Manchester United,45,Everton,20,33,Manchester United,20
+1208277,ENG1,2025-02-22,Fulham,Crystal Palace,36,Fulham,20,52,Crystal Palace,20
+1208278,ENG1,2025-02-22,Ipswich,Tottenham,57,Ipswich,20,47,Tottenham,20
+1208280,ENG1,2025-02-23,Manchester City,Liverpool,50,Manchester City,20,40,Liverpool,20
+1208281,ENG1,2025-02-23,Newcastle,Nottingham Forest,34,Newcastle,20,65,Nottingham Forest,20
+1208284,ENG1,2025-02-25,Brighton,Bournemouth,51,Brighton,20,35,Bournemouth,20
+1208290,ENG1,2025-02-25,Chelsea,Southampton,49,Chelsea,20,41,Southampton,20
+1208289,ENG1,2025-02-25,Crystal Palace,Aston Villa,52,Crystal Palace,20,66,Aston Villa,20
+1208288,ENG1,2025-02-25,Wolves,Fulham,39,Wolves,20,36,Fulham,20
+1208291,ENG1,2025-02-26,Liverpool,Newcastle,40,Liverpool,20,34,Newcastle,20
+1208285,ENG1,2025-02-26,Nottingham Forest,Arsenal,65,Nottingham Forest,20,42,Arsenal,20
+1208286,ENG1,2025-02-26,Tottenham,Manchester City,47,Tottenham,20,50,Manchester City,20
+1208292,ENG1,2025-02-26,Manchester United,Ipswich,33,Manchester United,19,57,Ipswich,20
+1208283,ENG1,2025-02-26,Brentford,Everton,55,Brentford,20,45,Everton,20
+1208287,ENG1,2025-02-27,West Ham,Leicester,48,West Ham,20,46,Leicester,20
+1208293,ENG1,2025-03-08,Brentford,Aston Villa,55,Brentford,20,66,Aston Villa,20
+1208296,ENG1,2025-03-08,Crystal Palace,Ipswich,52,Crystal Palace,20,57,Ipswich,20
+1208302,ENG1,2025-03-08,Wolves,Everton,39,Wolves,20,45,Everton,20
+1208297,ENG1,2025-03-08,Liverpool,Southampton,40,Liverpool,20,41,Southampton,20
+1208299,ENG1,2025-03-08,Nottingham Forest,Manchester City,65,Nottingham Forest,20,50,Manchester City,20
+1208294,ENG1,2025-03-08,Brighton,Fulham,51,Brighton,20,36,Fulham,20
+1208295,ENG1,2025-03-09,Chelsea,Leicester,49,Chelsea,20,46,Leicester,20
+1208298,ENG1,2025-03-09,Manchester United,Arsenal,33,Manchester United,20,42,Arsenal,20
+1208300,ENG1,2025-03-09,Tottenham,Bournemouth,47,Tottenham,20,35,Bournemouth,20
+1208301,ENG1,2025-03-10,West Ham,Newcastle,48,West Ham,20,34,Newcastle,20
+1208303,ENG1,2025-03-15,Bournemouth,Brentford,35,Bournemouth,20,55,Brentford,20
+1208312,ENG1,2025-03-15,Southampton,Wolves,41,Southampton,20,39,Wolves,20
+1208306,ENG1,2025-03-15,Everton,West Ham,45,Everton,20,48,West Ham,20
+1208308,ENG1,2025-03-15,Ipswich,Nottingham Forest,57,Ipswich,20,65,Nottingham Forest,20
+1208310,ENG1,2025-03-15,Manchester City,Brighton,50,Manchester City,20,51,Brighton,20
+1208309,ENG1,2025-03-16,Leicester,Manchester United,46,Leicester,20,33,Manchester United,20
+1208307,ENG1,2025-03-16,Fulham,Tottenham,36,Fulham,20,47,Tottenham,20
+1208304,ENG1,2025-03-16,Arsenal,Chelsea,42,Arsenal,20,49,Chelsea,20
+1208316,ENG1,2025-04-01,Nottingham Forest,Manchester United,65,Nottingham Forest,20,33,Manchester United,20
+1208317,ENG1,2025-04-01,Wolves,West Ham,39,Wolves,20,48,West Ham,20
+1208314,ENG1,2025-04-01,Arsenal,Fulham,42,Arsenal,20,36,Fulham,20
+1208315,ENG1,2025-04-02,Brighton,Aston Villa,51,Brighton,20,66,Aston Villa,20
+1208319,ENG1,2025-04-02,Manchester City,Leicester,50,Manchester City,20,46,Leicester,20
+1208321,ENG1,2025-04-02,Southampton,Crystal Palace,41,Southampton,20,52,Crystal Palace,20
+1208313,ENG1,2025-04-02,Bournemouth,Ipswich,35,Bournemouth,20,57,Ipswich,20
+1208320,ENG1,2025-04-02,Newcastle,Brentford,34,Newcastle,20,55,Brentford,20
+1208322,ENG1,2025-04-02,Liverpool,Everton,40,Liverpool,20,45,Everton,20
+1208318,ENG1,2025-04-03,Chelsea,Tottenham,49,Chelsea,20,47,Tottenham,20
+1208332,ENG1,2025-04-05,West Ham,Bournemouth,48,West Ham,20,35,Bournemouth,20
+1208328,ENG1,2025-04-05,Ipswich,Wolves,57,Ipswich,20,39,Wolves,20
+1208326,ENG1,2025-04-05,Everton,Arsenal,45,Everton,20,42,Arsenal,20
+1208323,ENG1,2025-04-05,Aston Villa,Nottingham Forest,66,Aston Villa,20,65,Nottingham Forest,20
+1208325,ENG1,2025-04-05,Crystal Palace,Brighton,52,Crystal Palace,20,51,Brighton,20
+1208331,ENG1,2025-04-06,Tottenham,Southampton,47,Tottenham,20,41,Southampton,20
+1208324,ENG1,2025-04-06,Brentford,Chelsea,55,Brentford,20,49,Chelsea,20
+1208327,ENG1,2025-04-06,Fulham,Liverpool,36,Fulham,20,40,Liverpool,20
+1208330,ENG1,2025-04-06,Manchester United,Manchester City,33,Manchester United,20,50,Manchester City,20
+1208329,ENG1,2025-04-07,Leicester,Newcastle,46,Leicester,20,34,Newcastle,20
+1208340,ENG1,2025-04-12,Nottingham Forest,Everton,65,Nottingham Forest,20,45,Everton,20
+1208338,ENG1,2025-04-12,Manchester City,Crystal Palace,50,Manchester City,20,52,Crystal Palace,20
+1208341,ENG1,2025-04-12,Southampton,Aston Villa,41,Southampton,20,66,Aston Villa,20
+1208335,ENG1,2025-04-12,Brighton,Leicester,51,Brighton,20,46,Leicester,20
+1208334,ENG1,2025-04-12,Arsenal,Brentford,42,Arsenal,20,55,Brentford,20
+1208342,ENG1,2025-04-13,Wolves,Tottenham,39,Wolves,20,47,Tottenham,20
+1208339,ENG1,2025-04-13,Newcastle,Manchester United,34,Newcastle,20,33,Manchester United,20
+1208337,ENG1,2025-04-13,Liverpool,West Ham,40,Liverpool,20,48,West Ham,20
+1208336,ENG1,2025-04-13,Chelsea,Ipswich,49,Chelsea,20,57,Ipswich,20
+1208333,ENG1,2025-04-14,Bournemouth,Fulham,35,Bournemouth,20,36,Fulham,20
+1208311,ENG1,2025-04-16,Newcastle,Crystal Palace,34,Newcastle,20,52,Crystal Palace,20
+1208346,ENG1,2025-04-19,Everton,Manchester City,45,Everton,20,50,Manchester City,20
+1208352,ENG1,2025-04-19,West Ham,Southampton,48,West Ham,20,41,Southampton,20
+1208345,ENG1,2025-04-19,Crystal Palace,Bournemouth,52,Crystal Palace,20,35,Bournemouth,20
+1208344,ENG1,2025-04-19,Brentford,Brighton,55,Brentford,20,51,Brighton,20
+1208343,ENG1,2025-04-19,Aston Villa,Newcastle,66,Aston Villa,20,34,Newcastle,20
+1208350,ENG1,2025-04-20,Manchester United,Wolves,33,Manchester United,20,39,Wolves,20
+1208347,ENG1,2025-04-20,Fulham,Chelsea,36,Fulham,20,49,Chelsea,20
+1208348,ENG1,2025-04-20,Ipswich,Arsenal,57,Ipswich,20,42,Arsenal,20
+1208349,ENG1,2025-04-20,Leicester,Liverpool,46,Leicester,20,40,Liverpool,20
+1208351,ENG1,2025-04-21,Tottenham,Nottingham Forest,47,Tottenham,20,65,Nottingham Forest,20
+1208358,ENG1,2025-04-22,Manchester City,Aston Villa,50,Manchester City,20,66,Aston Villa,20
+1208354,ENG1,2025-04-23,Arsenal,Crystal Palace,42,Arsenal,20,52,Crystal Palace,20
+1208355,ENG1,2025-04-26,Brighton,West Ham,51,Brighton,20,48,West Ham,20
+1208362,ENG1,2025-04-26,Wolves,Leicester,39,Wolves,20,46,Leicester,20
+1208361,ENG1,2025-04-26,Southampton,Fulham,41,Southampton,20,36,Fulham,20
+1208356,ENG1,2025-04-26,Chelsea,Everton,49,Chelsea,20,45,Everton,20
+1208359,ENG1,2025-04-26,Newcastle,Ipswich,34,Newcastle,20,57,Ipswich,20
+1208353,ENG1,2025-04-27,Bournemouth,Manchester United,35,Bournemouth,20,33,Manchester United,20
+1208357,ENG1,2025-04-27,Liverpool,Tottenham,40,Liverpool,20,47,Tottenham,20
+1208360,ENG1,2025-05-01,Nottingham Forest,Brentford,65,Nottingham Forest,20,55,Brentford,20
+1208371,ENG1,2025-05-02,Manchester City,Wolves,50,Manchester City,20,39,Wolves,20
+1208370,ENG1,2025-05-03,Leicester,Southampton,46,Leicester,20,41,Southampton,20
+1208363,ENG1,2025-05-03,Arsenal,Bournemouth,42,Arsenal,20,35,Bournemouth,20
+1208369,ENG1,2025-05-03,Everton,Ipswich,45,Everton,20,57,Ipswich,20
+1208364,ENG1,2025-05-03,Aston Villa,Fulham,66,Aston Villa,20,36,Fulham,20
+1208372,ENG1,2025-05-04,West Ham,Tottenham,48,West Ham,20,47,Tottenham,20
+1208366,ENG1,2025-05-04,Brighton,Newcastle,51,Brighton,20,34,Newcastle,20
+1208365,ENG1,2025-05-04,Brentford,Manchester United,55,Brentford,20,33,Manchester United,20
+1208367,ENG1,2025-05-04,Chelsea,Liverpool,49,Chelsea,20,40,Liverpool,20
+1208368,ENG1,2025-05-05,Crystal Palace,Nottingham Forest,52,Crystal Palace,20,65,Nottingham Forest,20
+1208373,ENG1,2025-05-10,Bournemouth,Aston Villa,35,Bournemouth,20,66,Aston Villa,20
+1208380,ENG1,2025-05-10,Southampton,Manchester City,41,Southampton,20,50,Manchester City,20
+1208375,ENG1,2025-05-10,Ipswich,Brentford,57,Ipswich,20,55,Brentford,20
+1208374,ENG1,2025-05-10,Fulham,Everton,36,Fulham,20,45,Everton,20
+1208382,ENG1,2025-05-10,Wolves,Brighton,39,Wolves,20,51,Brighton,20
+1208376,ENG1,2025-05-11,Liverpool,Arsenal,40,Liverpool,20,42,Arsenal,20
+1208379,ENG1,2025-05-11,Nottingham Forest,Leicester,65,Nottingham Forest,20,46,Leicester,20
+1208377,ENG1,2025-05-11,Manchester United,West Ham,33,Manchester United,20,48,West Ham,20
+1208378,ENG1,2025-05-11,Newcastle,Chelsea,34,Newcastle,20,49,Chelsea,20
+1208381,ENG1,2025-05-11,Tottenham,Crystal Palace,47,Tottenham,20,52,Crystal Palace,20
+1208384,ENG1,2025-05-16,Aston Villa,Tottenham,66,Aston Villa,20,47,Tottenham,20
+1208387,ENG1,2025-05-16,Chelsea,Manchester United,49,Chelsea,20,33,Manchester United,20
+1208392,ENG1,2025-05-18,West Ham,Nottingham Forest,48,West Ham,20,65,Nottingham Forest,20
+1208389,ENG1,2025-05-18,Everton,Southampton,45,Everton,20,41,Southampton,20
+1208390,ENG1,2025-05-18,Leicester,Ipswich,46,Leicester,20,57,Ipswich,20
+1208385,ENG1,2025-05-18,Brentford,Fulham,55,Brentford,20,36,Fulham,20
+1208383,ENG1,2025-05-18,Arsenal,Newcastle,42,Arsenal,20,34,Newcastle,20
+1208386,ENG1,2025-05-19,Brighton,Liverpool,51,Brighton,20,40,Liverpool,20
+1208391,ENG1,2025-05-20,Manchester City,Bournemouth,50,Manchester City,20,35,Bournemouth,20
+1208388,ENG1,2025-05-20,Crystal Palace,Wolves,52,Crystal Palace,20,39,Wolves,20
+1208402,ENG1,2025-05-25,Wolves,Brentford,39,Wolves,20,55,Brentford,20
+1208393,ENG1,2025-05-25,Bournemouth,Leicester,35,Bournemouth,20,46,Leicester,20
+1208397,ENG1,2025-05-25,Manchester United,Aston Villa,33,Manchester United,20,66,Aston Villa,20
+1208398,ENG1,2025-05-25,Newcastle,Everton,34,Newcastle,20,45,Everton,20
+1208394,ENG1,2025-05-25,Fulham,Manchester City,36,Fulham,20,50,Manchester City,20
+1208399,ENG1,2025-05-25,Nottingham Forest,Chelsea,65,Nottingham Forest,20,49,Chelsea,20
+1208396,ENG1,2025-05-25,Liverpool,Crystal Palace,40,Liverpool,20,52,Crystal Palace,18
+1208400,ENG1,2025-05-25,Southampton,Arsenal,41,Southampton,20,42,Arsenal,20
+1208401,ENG1,2025-05-25,Tottenham,Brighton,47,Tottenham,20,51,Brighton,20
+1208395,ENG1,2025-05-25,Ipswich,West Ham,57,Ipswich,20,48,West Ham,20
+1378969,ENG1,2025-08-15,Liverpool,Bournemouth,40,Liverpool,20,35,Bournemouth,20
+1378974,ENG1,2025-08-16,Tottenham,Burnley,47,Tottenham,20,44,Burnley,20
+1378975,ENG1,2025-08-16,Wolves,Manchester City,39,Wolves,20,50,Manchester City,20
+1378973,ENG1,2025-08-16,Sunderland,West Ham,746,Sunderland,20,48,West Ham,20
+1378970,ENG1,2025-08-16,Aston Villa,Newcastle,66,Aston Villa,20,34,Newcastle,20
+1378971,ENG1,2025-08-16,Brighton,Fulham,51,Brighton,20,36,Fulham,20
+1378972,ENG1,2025-08-17,Nottingham Forest,Brentford,65,Nottingham Forest,20,55,Brentford,20
+1378976,ENG1,2025-08-17,Chelsea,Crystal Palace,49,Chelsea,20,52,Crystal Palace,20
+1378977,ENG1,2025-08-17,Manchester United,Arsenal,33,Manchester United,20,42,Arsenal,20
+1378978,ENG1,2025-08-18,Leeds,Everton,63,Leeds,20,45,Everton,20

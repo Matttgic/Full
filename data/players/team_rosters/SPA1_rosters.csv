@@ -1,0 +1,920 @@
+league_code,team_id,team_name,player_id,player_name
+SPA1,720,Valladolid,1926,Joseph Aidoo
+SPA1,720,Valladolid,361386,Koke Iglesias
+SPA1,720,Valladolid,2459,Darwin Machís
+SPA1,720,Valladolid,14341,Stanko Jurić
+SPA1,720,Valladolid,333376,Adrián Verde
+SPA1,720,Valladolid,387519,Xavi Moreno
+SPA1,720,Valladolid,2717,Anuar
+SPA1,720,Valladolid,332304,Raúl Chasco
+SPA1,720,Valladolid,18902,Kenedy
+SPA1,720,Valladolid,169295,Karl Hein
+SPA1,720,Valladolid,8587,Selim Amallah
+SPA1,720,Valladolid,264470,Raúl Moro
+SPA1,720,Valladolid,449509,Abdulay Juma Bah
+SPA1,720,Valladolid,331004,Chuky
+SPA1,720,Valladolid,181463,Víctor Meseguer
+SPA1,720,Valladolid,8518,Mamadou Sylla
+SPA1,720,Valladolid,298064,David Torres
+SPA1,720,Valladolid,46979,Iván Sánchez
+SPA1,720,Valladolid,199042,Mario Maroto
+SPA1,720,Valladolid,440339,Adrián Arnu
+SPA1,720,Valladolid,279822,Flavien Boyomo
+SPA1,720,Valladolid,740,Javi Sánchez
+SPA1,720,Valladolid,10561,Henrique
+SPA1,720,Valladolid,309917,Alvaro Aceves Catalina
+SPA1,720,Valladolid,331004,Ivan Cantalejo
+SPA1,720,Valladolid,292219,Stipe Biuk
+SPA1,720,Valladolid,72048,Cenk Özkaçar
+SPA1,720,Valladolid,439614,Iago Parente
+SPA1,720,Valladolid,48372,Eray Cömert
+SPA1,720,Valladolid,361386,Koke
+SPA1,720,Valladolid,30770,Antonio Candela
+SPA1,720,Valladolid,431921,Adam Aznou
+SPA1,720,Valladolid,343205,Mario Martin
+SPA1,720,Valladolid,107153,Kike Pérez
+SPA1,720,Valladolid,329725,Arnau Rafús
+SPA1,720,Valladolid,104793,Amath Ndiaye
+SPA1,720,Valladolid,28373,Tamás Nikitscher
+SPA1,720,Valladolid,122233,Marcos André
+SPA1,720,Valladolid,46919,César de la Hoz
+SPA1,720,Valladolid,56283,Lucas Rosa
+SPA1,720,Valladolid,47078,Luis Pérez
+SPA1,720,Valladolid,719,Florian Grillitsch
+SPA1,720,Valladolid,162028,Juanmi Latasa
+SPA1,720,Valladolid,41320,André Ferreira
+SPA1,720,Valladolid,506254,Ibrahim Alani
+SPA1,540,Espanyol,1234,Alex Král
+SPA1,540,Espanyol,182674,Jofre Carreras
+SPA1,540,Espanyol,461502,Llorenç Serred
+SPA1,540,Espanyol,47352,Fernando Pacheco
+SPA1,540,Espanyol,404415,José Ángel López
+SPA1,540,Espanyol,46775,Salvi Sánchez
+SPA1,540,Espanyol,187987,Ramón Terrats
+SPA1,540,Espanyol,47398,Pere Milla
+SPA1,540,Espanyol,128478,Walid Cheddira
+SPA1,540,Espanyol,183699,Urko González
+SPA1,540,Espanyol,47396,Kike García
+SPA1,540,Espanyol,297742,Antoniu Roca
+SPA1,540,Espanyol,47349,Javi Puado
+SPA1,540,Espanyol,67940,José Gragera
+SPA1,540,Espanyol,355327,Jose Luis Catala
+SPA1,540,Espanyol,2042,Sergi Gómez
+SPA1,540,Espanyol,419912,Omar Sadik
+SPA1,540,Espanyol,2813,Marko Dmitrović
+SPA1,540,Espanyol,388057,Alex Almansa
+SPA1,540,Espanyol,182718,Joan García
+SPA1,540,Espanyol,47478,Fernando Calero
+SPA1,540,Espanyol,127426,Pol Lozano
+SPA1,540,Espanyol,46764,Brian Oliván
+SPA1,540,Espanyol,46734,Pablo Ramón
+SPA1,540,Espanyol,450716,Roger Hinojo
+SPA1,540,Espanyol,438284,Rafael Bauza
+SPA1,540,Espanyol,311344,Alejo Véliz
+SPA1,540,Espanyol,8683,Irvin Cardona
+SPA1,540,Espanyol,184420,Carlos Romero
+SPA1,540,Espanyol,286601,Omar El Hilali
+SPA1,540,Espanyol,47195,Álvaro Aguado
+SPA1,540,Espanyol,30924,Marash Kumbulla
+SPA1,540,Espanyol,161894,Naci Ünüvar
+SPA1,540,Espanyol,47249,Leandro Cabrera
+SPA1,540,Espanyol,182735,Angel Fortuno
+SPA1,540,Espanyol,46709,Álvaro Tejero
+SPA1,540,Espanyol,312990,Roberto Fernández
+SPA1,540,Espanyol,199824,Rubén Sánchez
+SPA1,540,Espanyol,184407,Jose Salinas
+SPA1,540,Espanyol,162585,Pol Tristan Jimenez
+SPA1,540,Espanyol,47256,Miguel Rubio
+SPA1,540,Espanyol,273732,Tyrhys Dolan
+SPA1,540,Espanyol,325140,Justin Smith
+SPA1,540,Espanyol,46799,Edu Expósito
+SPA1,533,Villarreal,47541,Santi Comesaña
+SPA1,533,Villarreal,20696,Pape Gueye
+SPA1,533,Villarreal,161931,Arnau Solà
+SPA1,533,Villarreal,187987,Ramón Terrats
+SPA1,533,Villarreal,302277,Rubén Gómez
+SPA1,533,Villarreal,484474,Jean Ives Valou
+SPA1,533,Villarreal,290740,Ilias Akhomach
+SPA1,533,Villarreal,182519,Alberto Moleiro
+SPA1,533,Villarreal,1461,Denis Suárez
+SPA1,533,Villarreal,307565,Thiago Ojeda
+SPA1,533,Villarreal,343684,Thierno Barry
+SPA1,533,Villarreal,21997,Logan Costa
+SPA1,533,Villarreal,83,Arnaut Danjuma
+SPA1,533,Villarreal,3246,Nicolas Pépé
+SPA1,533,Villarreal,18794,Kiko Femenía
+SPA1,533,Villarreal,1707,Gerard Moreno
+SPA1,533,Villarreal,288112,Willy Kambwala
+SPA1,533,Villarreal,1702,Alfonso Pedraza
+SPA1,533,Villarreal,258,Juan Bernat
+SPA1,533,Villarreal,51016,Tajon Buchanan
+SPA1,533,Villarreal,435552,Pau Navarro
+SPA1,533,Villarreal,463280,Alassane Diatta
+SPA1,533,Villarreal,184226,Yéremy Pino
+SPA1,533,Villarreal,378284,Etta Eyong
+SPA1,533,Villarreal,411702,Pau Cabanes De La Torre
+SPA1,533,Villarreal,70500,Sergi Cardona
+SPA1,533,Villarreal,391131,Dani Requena
+SPA1,533,Villarreal,166,Juan Foyth
+SPA1,533,Villarreal,182219,Alejandro Baena
+SPA1,533,Villarreal,336637,Antonio Espigares
+SPA1,533,Villarreal,885,Eric Bailly
+SPA1,533,Villarreal,49,Thomas Partey
+SPA1,533,Villarreal,122956,Diego Conde
+SPA1,533,Villarreal,314,Raúl Albiol
+SPA1,533,Villarreal,18906,Ayoze Pérez
+SPA1,533,Villarreal,928,Dani Parejo
+SPA1,533,Villarreal,237066,Rafa Marín
+SPA1,533,Villarreal,162122,Adrià Altimira
+SPA1,533,Villarreal,391131,Jose Requena
+SPA1,533,Villarreal,278619,Luiz Júnior
+SPA1,533,Villarreal,169256,Iker Álvarez
+SPA1,533,Villarreal,311773,Santiago Mouriño
+SPA1,530,Atletico Madrid,333379,Antonio Gomis
+SPA1,530,Atletico Madrid,323935,Giuliano Simeone
+SPA1,530,Atletico Madrid,295793,Marc Pubill
+SPA1,530,Atletico Madrid,162012,Matteo Ruggeri
+SPA1,530,Atletico Madrid,338508,Ilias Kostis
+SPA1,530,Atletico Madrid,31,José María Giménez
+SPA1,530,Atletico Madrid,50,Koke
+SPA1,530,Atletico Madrid,29,Jan Oblak
+SPA1,530,Atletico Madrid,449058,Omar Janneh
+SPA1,530,Atletico Madrid,133185,Johnny Cardoso
+SPA1,530,Atletico Madrid,133,Clément Lenglet
+SPA1,530,Atletico Madrid,386850,Adrián Niño
+SPA1,530,Atletico Madrid,47301,Robin Le Normand
+SPA1,530,Atletico Madrid,443668,Rayane Belaid
+SPA1,530,Atletico Madrid,42642,Horațiu Moldovan
+SPA1,530,Atletico Madrid,45,Thomas Lemar
+SPA1,530,Atletico Madrid,6503,Nahuel Molina
+SPA1,530,Atletico Madrid,340154,Arthur Vermeeren
+SPA1,530,Atletico Madrid,6009,Julián Álvarez
+SPA1,530,Atletico Madrid,441280,Gerónimo Spina
+SPA1,530,Atletico Madrid,315604,Alejandro Iturbe
+SPA1,530,Atletico Madrid,324750,Carlos Martín
+SPA1,530,Atletico Madrid,126936,Samuel Lino
+SPA1,530,Atletico Madrid,22225,Reinildo Mandava
+SPA1,530,Atletico Madrid,303378,Javier Serrano
+SPA1,530,Atletico Madrid,56,Antoine Griezmann
+SPA1,530,Atletico Madrid,2280,César Azpilicueta
+SPA1,530,Atletico Madrid,47566,Javi Galán
+SPA1,530,Atletico Madrid,336590,Aitor Gismera
+SPA1,530,Atletico Madrid,182219,Alejandro Baena
+SPA1,530,Atletico Madrid,136117,Rodrigo Riquelme
+SPA1,530,Atletico Madrid,753,Marcos Llorente
+SPA1,530,Atletico Madrid,30399,Dávid Hancko
+SPA1,530,Atletico Madrid,30543,Giacomo Raspadori
+SPA1,530,Atletico Madrid,8492,Alexander Sørloth
+SPA1,530,Atletico Madrid,336594,Pablo Barrios
+SPA1,530,Atletico Madrid,2472,Rodrigo de Paul
+SPA1,530,Atletico Madrid,393198,Salvador Esquivel
+SPA1,530,Atletico Madrid,67972,Conor Gallagher
+SPA1,530,Atletico Madrid,53,Ángel Correa
+SPA1,530,Atletico Madrid,6067,Thiago Almada
+SPA1,530,Atletico Madrid,2465,Juan Musso
+SPA1,530,Atletico Madrid,20,Axel Witsel
+SPA1,538,Celta Vigo,47445,Iago Aspas
+SPA1,538,Celta Vigo,1926,Joseph Aidoo
+SPA1,538,Celta Vigo,313651,Hugo Sotelo
+SPA1,538,Celta Vigo,162712,Óscar Mingueza
+SPA1,538,Celta Vigo,286795,César Fernández
+SPA1,538,Celta Vigo,333502,Miguel Román
+SPA1,538,Celta Vigo,182730,Marc Vidal
+SPA1,538,Celta Vigo,18896,Javier Manquillo
+SPA1,538,Celta Vigo,157988,Sergio Carreira
+SPA1,538,Celta Vigo,47427,Iván Villar
+SPA1,538,Celta Vigo,22235,Jonathan Bamba
+SPA1,538,Celta Vigo,286796,Damián Rodríguez
+SPA1,538,Celta Vigo,47988,Carl Starfelt
+SPA1,538,Celta Vigo,18835,Vicente Guaita
+SPA1,538,Celta Vigo,304383,Tadeo Allende
+SPA1,538,Celta Vigo,2278,Marcos Alonso
+SPA1,538,Celta Vigo,47348,Borja Iglesias
+SPA1,538,Celta Vigo,182638,Manu Fernández
+SPA1,538,Celta Vigo,47435,Fran Beltrán
+SPA1,538,Celta Vigo,329720,Hugo Álvarez
+SPA1,538,Celta Vigo,128985,Iker Losada
+SPA1,538,Celta Vigo,286639,Bryan Zaragoza
+SPA1,538,Celta Vigo,570,Franco Cervi
+SPA1,538,Celta Vigo,334573,Tincho Conde
+SPA1,538,Celta Vigo,1364,Jailson
+SPA1,538,Celta Vigo,391822,Fernando Lopez
+SPA1,538,Celta Vigo,179955,Javier Rueda
+SPA1,538,Celta Vigo,320517,Pablo Durán
+SPA1,538,Celta Vigo,162123,Ilaix Moriba
+SPA1,538,Celta Vigo,384135,Javi Rodríguez
+SPA1,538,Celta Vigo,30765,Ionuț Radu
+SPA1,538,Celta Vigo,391822,Fer López
+SPA1,538,Celta Vigo,26845,Anastasios Douvikas
+SPA1,538,Celta Vigo,351913,Jones El-Abdellaoui
+SPA1,538,Celta Vigo,329722,Yoel Lago
+SPA1,538,Celta Vigo,334573,Martin Conde
+SPA1,538,Celta Vigo,119213,Alfon González
+SPA1,538,Celta Vigo,122734,Ferran Jutglà
+SPA1,538,Celta Vigo,269163,Williot Swedberg
+SPA1,538,Celta Vigo,19026,Luca De La Torre
+SPA1,538,Celta Vigo,286559,Carlos Domínguez
+SPA1,538,Celta Vigo,21584,Mihailo Ristić
+SPA1,532,Valencia,158378,Enzo Barrenechea
+SPA1,532,Valencia,376416,Hamza Bellari
+SPA1,532,Valencia,406043,Lucas Núñez
+SPA1,532,Valencia,1708,Dani Raba
+SPA1,532,Valencia,8718,Maximiliano Caufriez
+SPA1,532,Valencia,442188,Iker Córdoba
+SPA1,532,Valencia,401983,Vicent Abril
+SPA1,532,Valencia,48465,Filip Ugrinić
+SPA1,532,Valencia,333682,Cristhian Mosquera
+SPA1,532,Valencia,333672,César Tárrega
+SPA1,532,Valencia,288074,Alberto Mari
+SPA1,532,Valencia,83,Arnaut Danjuma
+SPA1,532,Valencia,47264,Hugo Duro
+SPA1,532,Valencia,270498,Warren Madrigal
+SPA1,532,Valencia,47013,Rafa Mir
+SPA1,532,Valencia,439578,David Otorbi
+SPA1,532,Valencia,412737,Raúl Jiménez Latorre
+SPA1,532,Valencia,361385,Yarek Gasiorowski
+SPA1,532,Valencia,162127,Diego López
+SPA1,532,Valencia,161963,Germán Valera
+SPA1,532,Valencia,918,José Luis Gayà
+SPA1,532,Valencia,911,Jaume Doménech
+SPA1,532,Valencia,72048,Cenk Özkaçar
+SPA1,532,Valencia,916,Mouctar Diakhaby
+SPA1,532,Valencia,181582,José Copete
+SPA1,532,Valencia,46828,Iván Jaime
+SPA1,532,Valencia,48372,Eray Cömert
+SPA1,532,Valencia,919,Hugo Guillamón
+SPA1,532,Valencia,47251,Dimitri Foulquier
+SPA1,532,Valencia,162175,Jesús Vázquez
+SPA1,532,Valencia,442188,Iker Cordoba
+SPA1,532,Valencia,19070,Max Aarons
+SPA1,532,Valencia,406045,Aimar Blázquez
+SPA1,532,Valencia,183848,Julen Agirrezabala
+SPA1,532,Valencia,47527,Stole Dimitrievski
+SPA1,532,Valencia,24760,Giorgi Mamardashvili
+SPA1,532,Valencia,119232,Dani Gómez
+SPA1,532,Valencia,19352,Sergi Canós
+SPA1,532,Valencia,46933,Luis Rioja
+SPA1,532,Valencia,161873,Pedro Alemañ Serna
+SPA1,532,Valencia,21153,Baptiste Santamaria
+SPA1,532,Valencia,327496,Rodrigo Abajas
+SPA1,532,Valencia,47463,Pepelu
+SPA1,532,Valencia,348326,Martín Tejón
+SPA1,532,Valencia,315701,Rubén Iranzo
+SPA1,532,Valencia,913,Cristian Rivero
+SPA1,532,Valencia,315699,Javier Guerra
+SPA1,532,Valencia,1482,Thierry Correia
+SPA1,532,Valencia,31406,Umar Sadiq
+SPA1,532,Valencia,162931,Fran Pérez
+SPA1,532,Valencia,41157,André Almeida
+SPA1,532,Valencia,406046,Pablo López Gómez
+SPA1,536,Sevilla,2924,Adnan Januzaj
+SPA1,536,Sevilla,308346,Alberto Flores
+SPA1,536,Sevilla,329729,Lulo Dasilva
+SPA1,536,Sevilla,1489,Nemanja Gudelj
+SPA1,536,Sevilla,335057,Darío Benavides
+SPA1,536,Sevilla,162126,Peque Fernández
+SPA1,536,Sevilla,340152,Stanis Idumbo Muzambo
+SPA1,536,Sevilla,957,Djibril Sow
+SPA1,536,Sevilla,48,Saúl Ñíguez
+SPA1,536,Sevilla,331607,Manu Bueno
+SPA1,536,Sevilla,286271,Isra Dominguez
+SPA1,536,Sevilla,443593,Edu Altozano
+SPA1,536,Sevilla,290686,Rafael Romero
+SPA1,536,Sevilla,360411,Alberto Collado
+SPA1,536,Sevilla,185398,Isaac Romero
+SPA1,536,Sevilla,2468,Gonzalo Montiel
+SPA1,536,Sevilla,119235,Pedro Ortiz
+SPA1,536,Sevilla,486472,Alvaro Garcia-Pascual
+SPA1,536,Sevilla,2778,Kelechi Iheanacho
+SPA1,536,Sevilla,438263,Miguel Sierra
+SPA1,536,Sevilla,133110,Tanguy Nianzou
+SPA1,536,Sevilla,174918,Loïc Badé
+SPA1,536,Sevilla,1650,Suso
+SPA1,536,Sevilla,1911,Lucas Ocampos
+SPA1,536,Sevilla,19172,Ørjan Nyland
+SPA1,536,Sevilla,319572,Valentín Barco
+SPA1,536,Sevilla,433,Marcão
+SPA1,536,Sevilla,338900,Leandro Antonetti
+SPA1,536,Sevilla,48471,Ruben Vargas
+SPA1,536,Sevilla,335037,Diego Hormigo
+SPA1,536,Sevilla,57446,Akor Adams
+SPA1,536,Sevilla,338902,Andres Castrin
+SPA1,536,Sevilla,195923,José Ángel Carmona
+SPA1,536,Sevilla,486472,García Pascual
+SPA1,536,Sevilla,21004,Lucien Agoumé
+SPA1,536,Sevilla,331330,Matías Árbol
+SPA1,536,Sevilla,284241,Mateo Mejia
+SPA1,536,Sevilla,1427,Albert Sambi Lokonga
+SPA1,536,Sevilla,197196,Ramón Martínez
+SPA1,536,Sevilla,25458,Dodi Lukebakio
+SPA1,536,Sevilla,47329,Adrià Pedrosa
+SPA1,536,Sevilla,182772,Juanlu Sánchez
+SPA1,536,Sevilla,341453,Oso
+SPA1,536,Sevilla,297311,Kike Salas
+SPA1,536,Sevilla,2054,Jesús Navas
+SPA1,536,Sevilla,47016,Álvaro Fernández
+SPA1,536,Sevilla,335034,Pablo Rivera
+SPA1,536,Sevilla,39121,Chidera Ejuke
+SPA1,727,Osasuna,46652,Unai García
+SPA1,727,Osasuna,182621,Iker Muñoz
+SPA1,727,Osasuna,46660,Javi Martínez
+SPA1,727,Osasuna,405719,Sixtus Ogbuehi
+SPA1,727,Osasuna,182592,Jorge Herrando
+SPA1,727,Osasuna,288800,Iker Benito
+SPA1,727,Osasuna,47448,Aitor Fernández
+SPA1,727,Osasuna,46667,Kike Barja
+SPA1,727,Osasuna,46662,Jon Moncayola
+SPA1,727,Osasuna,279822,Flavien Boyomo
+SPA1,727,Osasuna,400901,Rafael Fernández
+SPA1,727,Osasuna,67939,Aimar Oroz
+SPA1,727,Osasuna,146751,Raúl García de Haro
+SPA1,727,Osasuna,47574,Moi Gómez
+SPA1,727,Osasuna,286639,Bryan Zaragoza
+SPA1,727,Osasuna,348029,Dimitrios Stamatakis
+SPA1,727,Osasuna,46967,Juan Cruz
+SPA1,727,Osasuna,182657,Pablo Valencia
+SPA1,727,Osasuna,338872,Jon Garcia
+SPA1,727,Osasuna,1825,Lucas Torró
+SPA1,727,Osasuna,46658,Rubén García
+SPA1,727,Osasuna,182181,Jesús Areso
+SPA1,727,Osasuna,429554,Carlos Lumbreras
+SPA1,727,Osasuna,139001,Pablo Ibáñez Lumbreras
+SPA1,727,Osasuna,139001,Pablo Ibáñez
+SPA1,727,Osasuna,181259,Abel Bretones
+SPA1,727,Osasuna,330443,Ismael Sierra Arnal
+SPA1,727,Osasuna,46657,Nacho Vidal
+SPA1,727,Osasuna,46746,Ante Budimir
+SPA1,727,Osasuna,47419,José Manuel Arnáiz
+SPA1,727,Osasuna,421044,Iñigo Arguibide
+SPA1,727,Osasuna,47391,Rubén Peña
+SPA1,727,Osasuna,47533,Alejandro Catena
+SPA1,727,Osasuna,46646,Sergio Herrera
+SPA1,727,Osasuna,381197,Asier Osambela
+SPA1,798,Mallorca,46733,Antonio Raíllo
+SPA1,798,Mallorca,411424,Jan Salas
+SPA1,798,Mallorca,152955,Lucas Bergström
+SPA1,798,Mallorca,179139,Leo Román
+SPA1,798,Mallorca,482473,Marc Domenech
+SPA1,798,Mallorca,335697,David López
+SPA1,798,Mallorca,46738,Martin Valjent
+SPA1,798,Mallorca,108519,Mateu Morey
+SPA1,798,Mallorca,37639,Siebe Van Der Heyden
+SPA1,798,Mallorca,195962,Chiquinho
+SPA1,798,Mallorca,297646,Daniel Luna
+SPA1,798,Mallorca,920,Toni Lato
+SPA1,798,Mallorca,25375,Takuma Asano
+SPA1,798,Mallorca,2001,Cyle Larin
+SPA1,798,Mallorca,237252,Pere García
+SPA1,798,Mallorca,47399,Iván Cuéllar
+SPA1,798,Mallorca,181582,José Copete
+SPA1,798,Mallorca,313059,Mateo Joseph
+SPA1,798,Mallorca,414,Omar Mascarell
+SPA1,798,Mallorca,46742,Dani Rodríguez
+SPA1,798,Mallorca,84086,Robert Navarro
+SPA1,798,Mallorca,190485,Samuel Costa
+SPA1,798,Mallorca,107194,Antonio Sánchez
+SPA1,798,Mallorca,46751,Abdón Prats
+SPA1,798,Mallorca,343001,Sebas Wade
+SPA1,798,Mallorca,47514,Valery Fernández
+SPA1,798,Mallorca,64268,Johan Mojica
+SPA1,798,Mallorca,293604,Javi Llabrés
+SPA1,798,Mallorca,1701,Manu Morlanes
+SPA1,798,Mallorca,26302,Pablo Maffeo
+SPA1,798,Mallorca,285909,Pablo Torre
+SPA1,798,Mallorca,50048,Vedat Muriqi
+SPA1,798,Mallorca,462277,Iliesse Salhi
+SPA1,798,Mallorca,61142,Dominik Greif
+SPA1,798,Mallorca,190485,Samú Costa
+SPA1,798,Mallorca,47336,Sergi Darder
+SPA1,529,Barcelona,340626,Fermín López
+SPA1,529,Barcelona,336653,Ander Astralaga
+SPA1,529,Barcelona,1323,Dani Olmo
+SPA1,529,Barcelona,386828,Lamine Yamal
+SPA1,529,Barcelona,371912,Dani Rodríguez
+SPA1,529,Barcelona,127,Marc-André ter Stegen
+SPA1,529,Barcelona,538,Frenkie de Jong
+SPA1,529,Barcelona,133609,Pedri
+SPA1,529,Barcelona,181701,Gerard Martín
+SPA1,529,Barcelona,396624,Sergi Domínguez
+SPA1,529,Barcelona,1257,Jules Koundé
+SPA1,529,Barcelona,446061,Landry Farré
+SPA1,529,Barcelona,521,Robert Lewandowski
+SPA1,529,Barcelona,296667,Gavi
+SPA1,529,Barcelona,445973,Toni Fernández
+SPA1,529,Barcelona,135775,Ansu Fati
+SPA1,529,Barcelona,2670,Iñigo Martínez
+SPA1,529,Barcelona,182718,Joan García
+SPA1,529,Barcelona,491250,Jofre Torrents 
+SPA1,529,Barcelona,1496,Raphinha
+SPA1,529,Barcelona,931,Ferran Torres
+SPA1,529,Barcelona,386859,Hector Fort
+SPA1,529,Barcelona,441244,Andrés Cuenca
+SPA1,529,Barcelona,433396,Marc Bernal
+SPA1,529,Barcelona,491087,Dro Fernández
+SPA1,529,Barcelona,263530,Pau Víctor
+SPA1,529,Barcelona,2282,Andreas Christensen
+SPA1,529,Barcelona,126,Iñaki Peña
+SPA1,529,Barcelona,441232,Guillermo Fernández
+SPA1,529,Barcelona,101814,Ronald Araújo
+SPA1,529,Barcelona,396623,Pau Cubarsí
+SPA1,529,Barcelona,161928,Alejandro Balde
+SPA1,529,Barcelona,383647,Diego Kochen
+SPA1,529,Barcelona,851,Wojciech Szczęsny
+SPA1,529,Barcelona,296667,Pablo Gavi
+SPA1,529,Barcelona,412704,Noah Darvich
+SPA1,529,Barcelona,285909,Pablo Torre
+SPA1,529,Barcelona,336560,Alex Valle
+SPA1,529,Barcelona,329728,Marc Casadó
+SPA1,529,Barcelona,909,Marcus Rashford
+SPA1,529,Barcelona,412699,Alexis Olmedo
+SPA1,529,Barcelona,391311,Áron Yaakobishvili
+SPA1,529,Barcelona,619,Eric García
+SPA1,529,Barcelona,433395,Álvaro Cortés
+SPA1,531,Athletic Club,47277,Unai Núñez
+SPA1,531,Athletic Club,47278,Daniel Vivian
+SPA1,531,Athletic Club,128398,Oihan Sancet
+SPA1,531,Athletic Club,898,Ander Herrera
+SPA1,531,Athletic Club,312468,Alex Padilla
+SPA1,531,Athletic Club,47271,Yeray Álvarez
+SPA1,531,Athletic Club,47418,Mikel Vesga
+SPA1,531,Athletic Club,47275,Óscar de Marcos
+SPA1,531,Athletic Club,47270,Unai Simón
+SPA1,531,Athletic Club,335490,Jon de Luis
+SPA1,531,Athletic Club,336998,Adama Boiro
+SPA1,531,Athletic Club,47276,Íñigo Lekue
+SPA1,531,Athletic Club,47299,Andoni Gorosabel
+SPA1,531,Athletic Club,182617,Beñat Prados
+SPA1,531,Athletic Club,288525,Malcom Ares
+SPA1,531,Athletic Club,377257,Endika Buján
+SPA1,531,Athletic Club,332308,Unai Gómez
+SPA1,531,Athletic Club,287680,Maroan Sannadi
+SPA1,531,Athletic Club,182639,Unai Vencedor
+SPA1,531,Athletic Club,440428,Ander Izagirre
+SPA1,531,Athletic Club,47294,Iñaki Williams
+SPA1,531,Athletic Club,183799,Nico Williams
+SPA1,531,Athletic Club,47273,Yuri Berchiche
+SPA1,531,Athletic Club,190489,Álvaro Djaló
+SPA1,531,Athletic Club,47007,Iñigo Ruiz de Galarreta
+SPA1,531,Athletic Club,183848,Julen Agirrezabala
+SPA1,531,Athletic Club,84086,Robert Navarro
+SPA1,531,Athletic Club,437643,Peio Canales
+SPA1,531,Athletic Club,332309,Alejandro Rego Mora
+SPA1,531,Athletic Club,182181,Jesús Areso
+SPA1,531,Athletic Club,30510,Álex Berenguer
+SPA1,531,Athletic Club,332302,Oier Gastesi
+SPA1,531,Athletic Club,47291,Gorka Guruzeta
+SPA1,531,Athletic Club,440413,Aingeru Olabarrieta
+SPA1,531,Athletic Club,354762,Iker Varela
+SPA1,531,Athletic Club,332305,Unai Eguíluz
+SPA1,531,Athletic Club,183849,Aitor Paredes
+SPA1,531,Athletic Club,183776,Urko Izeta
+SPA1,531,Athletic Club,383780,Mikel Jauregizar
+SPA1,531,Athletic Club,286593,Nico Serrano
+SPA1,531,Athletic Club,179153,Javier Martón Ansó
+SPA1,548,Real Sociedad,296757,Jon Balda
+SPA1,548,Real Sociedad,287652,Jon Magunazelaia
+SPA1,548,Real Sociedad,47314,Igor Zubeldia
+SPA1,548,Real Sociedad,199044,Jon Aramburu
+SPA1,548,Real Sociedad,47298,Aritz Elustondo
+SPA1,548,Real Sociedad,402168,Arkaitz Mariezkurrena
+SPA1,548,Real Sociedad,182546,Jon Pacheco
+SPA1,548,Real Sociedad,47315,Martín Zubimendi
+SPA1,548,Real Sociedad,405073,Jon Martin
+SPA1,548,Real Sociedad,337843,Aitor Fraga
+SPA1,548,Real Sociedad,61774,Orri Steinn Óskarsson
+SPA1,548,Real Sociedad,449063,Alex Garcia
+SPA1,548,Real Sociedad,182636,Javi López
+SPA1,548,Real Sociedad,47317,Ander Barrenetxea
+SPA1,548,Real Sociedad,183744,Beñat Turrientes
+SPA1,548,Real Sociedad,47303,Aihen Muñoz
+SPA1,548,Real Sociedad,21694,Nayef Aguerd
+SPA1,548,Real Sociedad,1902,Duje Ćaleta-Car
+SPA1,548,Real Sociedad,37938,Sheraldo Becker
+SPA1,548,Real Sociedad,182603,Jon Ander Olasagasti
+SPA1,548,Real Sociedad,32862,Takefusa Kubo
+SPA1,548,Real Sociedad,288384,Mikel Goti
+SPA1,548,Real Sociedad,7332,Luka Sučić
+SPA1,548,Real Sociedad,47323,Mikel Oyarzabal
+SPA1,548,Real Sociedad,268960,Arsen Zakharyan
+SPA1,548,Real Sociedad,189831,Egoitz Arana
+SPA1,548,Real Sociedad,189832,Unai Marrero
+SPA1,548,Real Sociedad,349063,Luken Beitia
+SPA1,548,Real Sociedad,2202,Hamari Traoré
+SPA1,548,Real Sociedad,449063,Alex Marchal
+SPA1,548,Real Sociedad,737,Álvaro Odriozola
+SPA1,548,Real Sociedad,47269,Álex Remiro
+SPA1,548,Real Sociedad,412738,Dani Díaz
+SPA1,548,Real Sociedad,183748,Jon Karrikaburu
+SPA1,548,Real Sociedad,290106,Pablo Marín
+SPA1,548,Real Sociedad,381599,Iñaki Rupérez
+SPA1,548,Real Sociedad,47440,Brais Méndez
+SPA1,548,Real Sociedad,31406,Umar Sadiq
+SPA1,548,Real Sociedad,925,Gonçalo Guedes
+SPA1,548,Real Sociedad,183699,Urko González
+SPA1,548,Real Sociedad,23,Sergio Gómez
+SPA1,546,Getafe,2039,Juan Berrocal
+SPA1,546,Getafe,187987,Ramón Terrats
+SPA1,546,Getafe,343202,Álvaro Rodríguez
+SPA1,546,Getafe,352859,Guillem Trilla
+SPA1,546,Getafe,200999,Abdoulaye Keita
+SPA1,546,Getafe,68483,Bertuğ Özgür Yıldırım
+SPA1,546,Getafe,47306,Álex Sola
+SPA1,546,Getafe,68483,Bertuğ Yıldırım
+SPA1,546,Getafe,351874,Luca Lohr
+SPA1,546,Getafe,293297,John Finn
+SPA1,546,Getafe,258,Juan Bernat
+SPA1,546,Getafe,192439,David Arguelles
+SPA1,546,Getafe,66491,Jiří Letáček
+SPA1,546,Getafe,364415,Yellu Santiago
+SPA1,546,Getafe,403554,Christantus Uche
+SPA1,546,Getafe,119742,Juan Iglesias
+SPA1,546,Getafe,6168,Omar Alderete
+SPA1,546,Getafe,47247,David Soria
+SPA1,546,Getafe,309364,Coba Gomes Da Costa
+SPA1,546,Getafe,454491,Djordjije Medenica
+SPA1,546,Getafe,309364,Coba da Costa
+SPA1,546,Getafe,293297,John Patrick
+SPA1,546,Getafe,351874,Luca Löhr
+SPA1,546,Getafe,394573,Adrian Liso
+SPA1,546,Getafe,18867,Diego Rico
+SPA1,546,Getafe,333369,José Luis Pérez
+SPA1,546,Getafe,333373,Gorka Rivera
+SPA1,546,Getafe,297235,Marc Vilaplana
+SPA1,546,Getafe,465838,Alberto Risco
+SPA1,546,Getafe,67955,Carles Pérez
+SPA1,546,Getafe,47085,Luis Milla
+SPA1,546,Getafe,432080,Jorge Benito
+SPA1,546,Getafe,471478,Davinchi
+SPA1,546,Getafe,439617,Ismael Bekhoucha
+SPA1,546,Getafe,343202,Álvaro Rodriguez
+SPA1,546,Getafe,47320,Juanmi
+SPA1,546,Getafe,46795,Domingos Duarte
+SPA1,546,Getafe,47407,Allan Nyom
+SPA1,546,Getafe,47472,Borja Mayoral
+SPA1,546,Getafe,504998,Martin Cuellar
+SPA1,546,Getafe,482071,Diego Ferrer
+SPA1,546,Getafe,270516,Peter González
+SPA1,546,Getafe,143,Carles Aleñá
+SPA1,546,Getafe,47258,Mauro Arambarri
+SPA1,546,Getafe,325415,Nabil Aberdin
+SPA1,546,Getafe,47250,Djené
+SPA1,546,Getafe,343205,Mario Martín
+SPA1,728,Rayo Vallecano,47109,Óscar Valentín
+SPA1,728,Rayo Vallecano,314006,Jozhua Vertrouwd
+SPA1,728,Rayo Vallecano,122657,Randy Nteka
+SPA1,728,Rayo Vallecano,47543,Álvaro García
+SPA1,728,Rayo Vallecano,46654,Aridane Hernández
+SPA1,728,Rayo Vallecano,333378,Diego Mendez
+SPA1,728,Rayo Vallecano,285505,Juanpe
+SPA1,728,Rayo Vallecano,478243,Marco de las Sias
+SPA1,728,Rayo Vallecano,47285,Unai López
+SPA1,728,Rayo Vallecano,46803,Joni Montiel
+SPA1,728,Rayo Vallecano,128582,Jorge de Frutos
+SPA1,728,Rayo Vallecano,20520,Iván Balliu
+SPA1,728,Rayo Vallecano,47414,Gerard Gumbau
+SPA1,728,Rayo Vallecano,1847,Luiz Felipe
+SPA1,728,Rayo Vallecano,46887,Pedro Díaz
+SPA1,728,Rayo Vallecano,439633,Samu Becerra
+SPA1,728,Rayo Vallecano,131546,Isi Palazón
+SPA1,728,Rayo Vallecano,181734,Josep Chavarría
+SPA1,728,Rayo Vallecano,18895,Florian Lejeune
+SPA1,728,Rayo Vallecano,41552,Pathé Ismaël Ciss
+SPA1,728,Rayo Vallecano,47554,Adrián Embarba
+SPA1,728,Rayo Vallecano,11379,Augusto Batalla
+SPA1,728,Rayo Vallecano,156488,Dani Cárdenas
+SPA1,728,Rayo Vallecano,47557,Óscar Trejo
+SPA1,728,Rayo Vallecano,478243,Marco de las Sías
+SPA1,728,Rayo Vallecano,52,Sergio Camello
+SPA1,728,Rayo Vallecano,15900,Abdul Mumin
+SPA1,728,Rayo Vallecano,469405,Sergio Lozano
+SPA1,728,Rayo Vallecano,41552,Ismaila Ciss
+SPA1,728,Rayo Vallecano,333292,Pelayo Fernández
+SPA1,728,Rayo Vallecano,303115,Etienne Eto'o Pineda
+SPA1,728,Rayo Vallecano,46759,Alfonso Espino
+SPA1,728,Rayo Vallecano,47495,Sergi Guardiola
+SPA1,728,Rayo Vallecano,517,James Rodríguez
+SPA1,728,Rayo Vallecano,47551,Raúl de Tomás
+SPA1,728,Rayo Vallecano,1703,Andrei Rațiu
+SPA1,728,Rayo Vallecano,162931,Fran Pérez
+SPA1,541,Real Madrid,1271,Aurélien Tchouaméni
+SPA1,541,Real Madrid,361384,Youssef Lekhedim
+SPA1,541,Real Madrid,451355,Diego Aguado Facio
+SPA1,541,Real Madrid,441497,Daniel Yañez
+SPA1,541,Real Madrid,762,Vinícius Júnior
+SPA1,541,Real Madrid,744,Brahim Díaz
+SPA1,541,Real Madrid,386305,Jacobo Naveros
+SPA1,541,Real Madrid,129718,Jude Bellingham
+SPA1,541,Real Madrid,396475,Fran Gonzalez
+SPA1,541,Real Madrid,10009,Rodrygo
+SPA1,541,Real Madrid,757,Lucas Vázquez
+SPA1,541,Real Madrid,338751,Víctor Muñoz
+SPA1,541,Real Madrid,377122,Endrick
+SPA1,541,Real Madrid,2207,Eduardo Camavinga
+SPA1,541,Real Madrid,451355,Diego Aguado
+SPA1,541,Real Madrid,278,Kylian Mbappé
+SPA1,541,Real Madrid,730,Thibaut Courtois
+SPA1,541,Real Madrid,2285,Antonio Rüdiger
+SPA1,541,Real Madrid,490779,Víctor Valdepeñas
+SPA1,541,Real Madrid,336988,Lorenzo Aguado
+SPA1,541,Real Madrid,456014,Mario Rivas
+SPA1,541,Real Madrid,733,Daniel Carvajal
+SPA1,541,Real Madrid,754,Luka Modrić
+SPA1,541,Real Madrid,386872,Sergio Mestre
+SPA1,541,Real Madrid,505,David Alaba
+SPA1,541,Real Madrid,653,Ferland Mendy
+SPA1,541,Real Madrid,372,Éder Militão
+SPA1,541,Real Madrid,341640,Raúl Asencio
+SPA1,541,Real Madrid,338751,Victor Muñoz
+SPA1,541,Real Madrid,336711,Gonzalo García
+SPA1,541,Real Madrid,748,Dani Ceballos
+SPA1,541,Real Madrid,388871,Chema Andrés
+SPA1,541,Real Madrid,736,Fran García
+SPA1,541,Real Madrid,47400,Andriy Lunin
+SPA1,541,Real Madrid,330436,David Jiménez
+SPA1,541,Real Madrid,756,Federico Valverde
+SPA1,541,Real Madrid,386305,Jacobo Ramón
+SPA1,541,Real Madrid,741,Jesús Vallejo
+SPA1,541,Real Madrid,291964,Arda Güler
+SPA1,537,Leganes,2575,Jackson Porozo
+SPA1,537,Leganes,1708,Dani Raba
+SPA1,537,Leganes,131492,Aritz Arambarri
+SPA1,537,Leganes,327495,Alvin
+SPA1,537,Leganes,184481,Diego Garcia
+SPA1,537,Leganes,47494,Miguel de la Fuente
+SPA1,537,Leganes,327495,Alvin Abajas
+SPA1,537,Leganes,2813,Marko Dmitrović
+SPA1,537,Leganes,352854,Guillermo Ruiz
+SPA1,537,Leganes,46849,Javier Hernández
+SPA1,537,Leganes,513776,Yan Diomande
+SPA1,537,Leganes,123047,Sergio González
+SPA1,537,Leganes,47321,Roberto López
+SPA1,537,Leganes,2036,Juan Soriano
+SPA1,537,Leganes,162944,Duk
+SPA1,537,Leganes,2060,Munir El Haddadi
+SPA1,537,Leganes,2433,Renato Tapia
+SPA1,537,Leganes,327622,Naim García
+SPA1,537,Leganes,47080,Jorge Sáenz
+SPA1,537,Leganes,41976,Yvan Neyou
+SPA1,537,Leganes,21701,Valentin Rosier
+SPA1,537,Leganes,1826,Sébastien Haller
+SPA1,537,Leganes,163013,Iker Bachiller
+SPA1,537,Leganes,185202,Juan Cruz
+SPA1,537,Leganes,403,Matija Nastasić
+SPA1,537,Leganes,1738,Borna Barišić
+SPA1,537,Leganes,302051,Seydouba Cisse
+SPA1,537,Leganes,162122,Adrià Altimira
+SPA1,537,Leganes,386187,Hugo Solozábal
+SPA1,537,Leganes,129657,Enric Franquesa
+SPA1,537,Leganes,5974,Julián Chicco
+SPA1,537,Leganes,47361,Darko Brašanac
+SPA1,537,Leganes,47416,Óscar Rodríguez
+SPA1,534,Las Palmas,2924,Adnan Januzaj
+SPA1,534,Las Palmas,1304,Dinko Horkaš
+SPA1,534,Las Palmas,157194,Pejiño
+SPA1,534,Las Palmas,47324,Sandro Ramírez
+SPA1,534,Las Palmas,19337,Oliver McBurnie
+SPA1,534,Las Palmas,182519,Alberto Moleiro
+SPA1,534,Las Palmas,47004,Fabio González
+SPA1,534,Las Palmas,440133,Elías Romero
+SPA1,534,Las Palmas,336645,Nacho Nicolau
+SPA1,534,Las Palmas,47393,Marc Cardona
+SPA1,534,Las Palmas,310187,Stefan Bajčetić
+SPA1,534,Las Palmas,481993,Valentin Pezzolesi
+SPA1,534,Las Palmas,182694,Iván Gil
+SPA1,534,Las Palmas,46854,Viti Rozada
+SPA1,534,Las Palmas,536,Daley Sinkgraven
+SPA1,534,Las Palmas,522648,José Carlos González
+SPA1,534,Las Palmas,505100,Israel Mora
+SPA1,534,Las Palmas,453885,Aboubacar Bassinga
+SPA1,534,Las Palmas,129791,Fábio Silva
+SPA1,534,Las Palmas,440748,Alvaro Killane
+SPA1,534,Las Palmas,47052,Álex Muñoz
+SPA1,534,Las Palmas,486068,Víctor Puig
+SPA1,534,Las Palmas,64256,Andy Pelmard
+SPA1,534,Las Palmas,162026,Marvin Park
+SPA1,534,Las Palmas,21709,Enzo Loiodice
+SPA1,534,Las Palmas,122230,Manuel Fuster
+SPA1,534,Las Palmas,404471,Diego Martín
+SPA1,534,Las Palmas,162475,Mika Mármol
+SPA1,534,Las Palmas,406123,Sergio Ruiz
+SPA1,534,Las Palmas,490848,Sergio Vieira
+SPA1,534,Las Palmas,308678,Dário Essugo
+SPA1,534,Las Palmas,46860,Javier Muñoz
+SPA1,534,Las Palmas,431890,Juanma Herzog
+SPA1,534,Las Palmas,522649,Arturo Rodríguez
+SPA1,534,Las Palmas,131535,Alex Suárez
+SPA1,534,Las Palmas,124,Jasper Cillessen
+SPA1,534,Las Palmas,70315,Kirian Rodríguez
+SPA1,534,Las Palmas,47464,José Campaña
+SPA1,534,Las Palmas,47111,Benito Ramírez
+SPA1,534,Las Palmas,2671,Jaime Mata
+SPA1,534,Las Palmas,44811,Scott McKenna
+SPA1,547,Girona,439700,Enric Garcia
+SPA1,547,Girona,18949,Oriol Romeu
+SPA1,547,Girona,2182,Viktor Tsygankov
+SPA1,547,Girona,547,Donny van de Beek
+SPA1,547,Girona,339105,Joel Roca
+SPA1,547,Girona,306727,Jhon Solís
+SPA1,547,Girona,389600,Jastin García
+SPA1,547,Girona,2617,Cristhian Stuani
+SPA1,547,Girona,313168,Ferrán Ruiz
+SPA1,547,Girona,83,Arnaut Danjuma
+SPA1,547,Girona,150,Arthur
+SPA1,547,Girona,389602,Iker Almena
+SPA1,547,Girona,1700,Iván Martín
+SPA1,547,Girona,2061,Bryan Gil
+SPA1,547,Girona,327628,Ricard Artero
+SPA1,547,Girona,491106,Gibert Jordana
+SPA1,547,Girona,47334,David López
+SPA1,547,Girona,155,Abel Ruíz
+SPA1,547,Girona,402280,Antal Yaakobishvili
+SPA1,547,Girona,333447,Raúl Martínez
+SPA1,547,Girona,432476,Vladyslav Krapyvtsov
+SPA1,547,Girona,47153,Juan Carlos
+SPA1,547,Girona,45,Thomas Lemar
+SPA1,547,Girona,2449,Yangel Herrera
+SPA1,547,Girona,283668,Arnau Martínez
+SPA1,547,Girona,158,Paulo Gazzaniga
+SPA1,547,Girona,313025,Hugo Rincón
+SPA1,547,Girona,281795,Yáser Asprilla
+SPA1,547,Girona,162032,Miguel Gutiérrez
+SPA1,547,Girona,109564,Bojan Miovski
+SPA1,547,Girona,297304,Dawda Camara
+SPA1,547,Girona,442861,Aleksandar Andreev
+SPA1,547,Girona,402281,Silvi Clúa
+SPA1,547,Girona,496425,Lucas García
+SPA1,547,Girona,414359,Vitor Reis
+SPA1,547,Girona,47520,Portu
+SPA1,547,Girona,66407,Ladislav Krejčí
+SPA1,547,Girona,47511,Juanpe
+SPA1,547,Girona,162434,Alejandro Francés
+SPA1,547,Girona,1557,Pau López
+SPA1,547,Girona,336674,Gabriel Misehouy
+SPA1,547,Girona,397941,Min-su Kim
+SPA1,547,Girona,531,Daley Blind
+SPA1,547,Girona,455366,Papa Dame Ba
+SPA1,542,Alaves,760,Mariano Díaz
+SPA1,542,Alaves,18740,Jonny Otto
+SPA1,542,Alaves,315586,Lander Pinillos
+SPA1,542,Alaves,6085,Carlos Benavídez
+SPA1,542,Alaves,47389,Joan Jordán
+SPA1,542,Alaves,47309,Ander Guevara
+SPA1,542,Alaves,47396,Kike García
+SPA1,542,Alaves,183751,Abderrahman Rebbach
+SPA1,542,Alaves,6638,Facundo Garcés
+SPA1,542,Alaves,40419,Aleksandar Sedlar
+SPA1,542,Alaves,295383,Adrián Pica
+SPA1,542,Alaves,46740,Stoichkov
+SPA1,542,Alaves,47353,Antonio Sivera
+SPA1,542,Alaves,266658,Calebe
+SPA1,542,Alaves,295383,Adrián
+SPA1,542,Alaves,46987,Raúl Fernández
+SPA1,542,Alaves,104853,Asier Villalibre
+SPA1,542,Alaves,70476,Moussa Diarra
+SPA1,542,Alaves,161842,Alejandro Jay
+SPA1,542,Alaves,438131,Egoitz Muñoz
+SPA1,542,Alaves,122471,Jesús Owono
+SPA1,542,Alaves,64309,Manuel Sánchez
+SPA1,542,Alaves,324750,Carlos Martín
+SPA1,542,Alaves,162170,Hugo Novoa Ramos
+SPA1,542,Alaves,411702,Pau Cabanes De La Torre
+SPA1,542,Alaves,51241,Tomás Conechny
+SPA1,542,Alaves,263812,Luka Romero
+SPA1,542,Alaves,162686,Antonio Blanco
+SPA1,542,Alaves,139001,Pablo Ibáñez
+SPA1,542,Alaves,46813,Abdelkabir Abqar
+SPA1,542,Alaves,104821,Jon Guridi
+SPA1,542,Alaves,41412,Nikola Maraš
+SPA1,542,Alaves,353444,Daouda Doumbia
+SPA1,542,Alaves,187214,Carlos Vicente
+SPA1,542,Alaves,47181,Toni Martínez
+SPA1,542,Alaves,377215,Grégoire Swiderski
+SPA1,542,Alaves,6233,Nahuel Tenaglia
+SPA1,542,Alaves,128951,Victor Parada
+SPA1,542,Alaves,143,Carles Aleñá
+SPA1,542,Alaves,163060,Adrián Rodríguez
+SPA1,542,Alaves,361384,Youssef Enríquez
+SPA1,542,Alaves,311773,Santiago Mouriño
+SPA1,543,Real Betis,1561,Marc Bartra
+SPA1,543,Real Betis,413502,Mateo Flores
+SPA1,543,Real Betis,456619,Manu González
+SPA1,543,Real Betis,439994,Pablo Busto
+SPA1,543,Real Betis,351127,Xavier Pleguezuelo
+SPA1,543,Real Betis,1631,Ricardo Rodríguez
+SPA1,543,Real Betis,1264,Youssouf Sabaly
+SPA1,543,Real Betis,355004,Valentín Gómez
+SPA1,543,Real Betis,668,Nabil Fekir
+SPA1,543,Real Betis,133185,Johnny Cardoso
+SPA1,543,Real Betis,392455,Germán García
+SPA1,543,Real Betis,400948,Assane Diao
+SPA1,543,Real Betis,1697,Pablo Fornals
+SPA1,543,Real Betis,1439,Héctor Bellerín
+SPA1,543,Real Betis,1580,William Carvalho
+SPA1,543,Real Betis,128985,Iker Losada
+SPA1,543,Real Betis,334574,Angel Ortiz
+SPA1,543,Real Betis,443163,Pablo Garcia
+SPA1,543,Real Betis,18812,Adrián
+SPA1,543,Real Betis,47579,Chimy Ávila
+SPA1,543,Real Betis,1578,Giovani Lo Celso
+SPA1,543,Real Betis,3033,Cédric Bakambu
+SPA1,543,Real Betis,46990,Álvaro Valles
+SPA1,543,Real Betis,47119,Aitor Ruibal
+SPA1,543,Real Betis,388032,Carlos Guirao
+SPA1,543,Real Betis,185477,Rodri Sánchez
+SPA1,543,Real Betis,20600,Romain Perraud
+SPA1,543,Real Betis,46672,Rui Silva
+SPA1,543,Real Betis,270973,Lucas Alcazar
+SPA1,543,Real Betis,133185,Johnny
+SPA1,543,Real Betis,286561,Sergio Arribas
+SPA1,543,Real Betis,358431,Nobel Mendy
+SPA1,543,Real Betis,47582,Cucho Hernández
+SPA1,543,Real Betis,329663,Guilherme Fernandes
+SPA1,543,Real Betis,1564,Junior Firpo
+SPA1,543,Real Betis,47302,Diego Llorente
+SPA1,543,Real Betis,47341,Marc Roca
+SPA1,543,Real Betis,136117,Rodrigo Riquelme
+SPA1,543,Real Betis,340279,Vitor Roque
+SPA1,543,Real Betis,47320,Juanmi
+SPA1,543,Real Betis,325785,Rudy Kohon
+SPA1,543,Real Betis,477231,Mawuli Mensah
+SPA1,543,Real Betis,1557,Pau López
+SPA1,543,Real Betis,443163,Pablo García
+SPA1,543,Real Betis,347885,Marcos Fernández
+SPA1,543,Real Betis,351131,Dani Pérez
+SPA1,543,Real Betis,9971,Antony
+SPA1,543,Real Betis,179996,Francisco Vieites
+SPA1,543,Real Betis,745,Isco
+SPA1,543,Real Betis,195100,Natan
+SPA1,543,Real Betis,286084,Sergi Altimira
+SPA1,543,Real Betis,181421,Abdessamad Ezzalzouli
+SPA1,543,Real Betis,443162,Jesús Rodriguez
+SPA1,543,Real Betis,443162,Jesus Rodriguez
+SPA1,718,Oviedo,51530,Federico Viñas
+SPA1,718,Oviedo,443152,Cheli
+SPA1,718,Oviedo,182486,Alberto Reina
+SPA1,718,Oviedo,2461,Salomón Rondón
+SPA1,718,Oviedo,402580,Marco Esteban
+SPA1,718,Oviedo,46862,Borja Sánchez
+SPA1,718,Oviedo,385405,Omar Falah
+SPA1,718,Oviedo,20844,Haissem Hassan
+SPA1,718,Oviedo,42642,Horațiu Moldovan
+SPA1,718,Oviedo,3608,Kwasi Sibo
+SPA1,718,Oviedo,107140,Oier Luengo
+SPA1,718,Oviedo,38699,Luka Ilić
+SPA1,718,Oviedo,266202,Ilyas Chaira
+SPA1,718,Oviedo,295223,Abdel Rahim
+SPA1,718,Oviedo,19613,Ovie Ejaria
+SPA1,718,Oviedo,46657,Nacho Vidal
+SPA1,718,Oviedo,297243,Miguel Narvaez
+SPA1,718,Oviedo,46966,Dani Calvo
+SPA1,718,Oviedo,1695,Santi Cazorla
+SPA1,718,Oviedo,46673,Aarón Escandell
+SPA1,718,Oviedo,286564,Álex Cardero
+SPA1,718,Oviedo,438123,Lamine Gueye
+SPA1,718,Oviedo,191184,Brandon Domingues
+SPA1,539,Levante,504605,Nacho Pérez
+SPA1,539,Levante,46790,Víctor García
+SPA1,539,Levante,450562,Cayetano
+SPA1,539,Levante,192032,Iván Romero
+SPA1,539,Levante,47225,Roger Brugué
+SPA1,539,Levante,182770,Carlos Álvarez
+SPA1,539,Levante,450497,Carlos Espí
+SPA1,539,Levante,286611,Pablo Cuñat
+SPA1,539,Levante,64309,Manuel Sánchez
+SPA1,539,Levante,182150,Sergio Lozano
+SPA1,539,Levante,407597,Martín Krug
+SPA1,539,Levante,47467,José Luis Morales
+SPA1,539,Levante,463279,Paco Cortés
+SPA1,539,Levante,104832,Diego Pampín
+SPA1,539,Levante,106727,Oriol Rey
+SPA1,539,Levante,104949,Pablo Martínez
+SPA1,539,Levante,338295,Alejandro Primo
+SPA1,539,Levante,734,Adrián de la Fuente
+SPA1,539,Levante,408320,Jorge Cabello
+SPA1,539,Levante,46941,Unai Elguezabal
+SPA1,539,Levante,1118,Jeremy Toljan
+SPA1,539,Levante,338871,Joan Ruiz
+SPA1,539,Levante,421807,Matias Moreno
+SPA1,797,Elche,187318,Marc Aguado
+SPA1,797,Elche,157146,Léo Pétrot
+SPA1,797,Elche,119223,Mourad El Ghezouani
+SPA1,797,Elche,46771,Jairo Izquierdo
+SPA1,797,Elche,497515,Albert Niculaesei
+SPA1,797,Elche,47378,Pedro Bigas
+SPA1,797,Elche,448243,Ali Houary
+SPA1,797,Elche,47013,Rafa Mir
+SPA1,797,Elche,341371,Rodrigo Mendoza
+SPA1,797,Elche,161963,Germán Valera
+SPA1,797,Elche,271580,Martim Neto
+SPA1,797,Elche,0,Antonio Martínez
+SPA1,797,Elche,315604,Alejandro Iturbe
+SPA1,797,Elche,46711,Aleix Febas
+SPA1,797,Elche,189866,John Nwankwo
+SPA1,797,Elche,343202,Álvaro Rodriguez
+SPA1,797,Elche,182661,Alvaro Núñez
+SPA1,797,Elche,162058,Víctor Chust
+SPA1,797,Elche,2063,André Silva
+SPA1,797,Elche,11346,Matías Dituro
+SPA1,797,Elche,311345,Federico Redondo
+SPA1,797,Elche,126640,David Affengruber
+SPA1,797,Elche,8746,Bambo Diaby

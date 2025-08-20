@@ -1,0 +1,308 @@
+fixture_id,league_code,match_date,home_team,away_team,team_1_id,team_1_name,team_1_players_count,team_2_id,team_2_name,team_2_players_count
+1213756,FRA1,2024-08-23,Paris Saint Germain,Montpellier,85,Paris Saint Germain,20,82,Montpellier,20
+1213763,FRA1,2024-08-24,Lyon,Monaco,80,Lyon,20,91,Monaco,20
+1213760,FRA1,2024-08-24,Lille,Angers,79,Lille,20,77,Angers,20
+1213759,FRA1,2024-08-24,Saint Etienne,Le Havre,1063,Saint Etienne,20,111,Le Havre,20
+1213764,FRA1,2024-08-25,Marseille,Reims,81,Marseille,20,93,Reims,20
+1213757,FRA1,2024-08-25,Strasbourg,Rennes,95,Strasbourg,20,94,Rennes,20
+1213762,FRA1,2024-08-25,Lens,Stade Brestois 29,116,Lens,20,106,Stade Brestois 29,19
+1213758,FRA1,2024-08-25,Nantes,Auxerre,83,Nantes,20,108,Auxerre,20
+1213761,FRA1,2024-08-25,Nice,Toulouse,84,Nice,20,96,Toulouse,20
+1213766,FRA1,2024-08-30,Lyon,Strasbourg,80,Lyon,20,95,Strasbourg,20
+1213767,FRA1,2024-08-31,Stade Brestois 29,Saint Etienne,106,Stade Brestois 29,19,1063,Saint Etienne,20
+1213768,FRA1,2024-08-31,Montpellier,Nantes,82,Montpellier,20,83,Nantes,20
+1213773,FRA1,2024-08-31,Toulouse,Marseille,96,Toulouse,20,81,Marseille,20
+1213765,FRA1,2024-09-01,Lille,Paris Saint Germain,79,Lille,20,85,Paris Saint Germain,20
+1213771,FRA1,2024-09-01,Le Havre,Auxerre,111,Le Havre,20,108,Auxerre,20
+1213772,FRA1,2024-09-01,Reims,Rennes,93,Reims,20,94,Rennes,20
+1213769,FRA1,2024-09-01,Angers,Nice,77,Angers,20,84,Nice,20
+1213770,FRA1,2024-09-01,Monaco,Lens,91,Monaco,20,116,Lens,20
+1213780,FRA1,2024-09-13,Saint Etienne,Lille,1063,Saint Etienne,20,79,Lille,20
+1213774,FRA1,2024-09-14,Auxerre,Monaco,108,Auxerre,20,91,Monaco,20
+1213782,FRA1,2024-09-14,Paris Saint Germain,Stade Brestois 29,85,Paris Saint Germain,20,106,Stade Brestois 29,20
+1213781,FRA1,2024-09-14,Marseille,Nice,81,Marseille,20,84,Nice,20
+1213779,FRA1,2024-09-15,Strasbourg,Angers,95,Strasbourg,20,77,Angers,20
+1213777,FRA1,2024-09-15,Nantes,Reims,83,Nantes,21,93,Reims,22
+1213776,FRA1,2024-09-15,Lens,Lyon,116,Lens,19,80,Lyon,20
+1213775,FRA1,2024-09-15,Rennes,Montpellier,94,Rennes,20,82,Montpellier,18
+1213778,FRA1,2024-09-15,Toulouse,Le Havre,96,Toulouse,20,111,Le Havre,20
+1213784,FRA1,2024-09-20,Nice,Saint Etienne,84,Nice,20,1063,Saint Etienne,20
+1213785,FRA1,2024-09-21,Reims,Paris Saint Germain,93,Reims,20,85,Paris Saint Germain,20
+1213789,FRA1,2024-09-21,Lille,Strasbourg,79,Lille,20,95,Strasbourg,20
+1213790,FRA1,2024-09-21,Rennes,Lens,94,Rennes,20,116,Lens,20
+1213787,FRA1,2024-09-22,Angers,Nantes,77,Angers,20,83,Nantes,20
+1213788,FRA1,2024-09-22,Montpellier,Auxerre,82,Montpellier,20,108,Auxerre,20
+1213783,FRA1,2024-09-22,Lyon,Marseille,80,Lyon,20,81,Marseille,20
+1213791,FRA1,2024-09-22,Monaco,Le Havre,91,Monaco,20,111,Le Havre,20
+1213786,FRA1,2024-09-22,Stade Brestois 29,Toulouse,106,Stade Brestois 29,20,96,Toulouse,20
+1213793,FRA1,2024-09-27,Paris Saint Germain,Rennes,85,Paris Saint Germain,18,94,Rennes,20
+1213794,FRA1,2024-09-27,Auxerre,Stade Brestois 29,108,Auxerre,20,106,Stade Brestois 29,20
+1213797,FRA1,2024-09-28,Le Havre,Lille,111,Le Havre,20,79,Lille,20
+1213795,FRA1,2024-09-28,Lens,Nice,116,Lens,20,84,Nice,20
+1213799,FRA1,2024-09-28,Monaco,Montpellier,91,Monaco,20,82,Montpellier,20
+1213792,FRA1,2024-09-29,Strasbourg,Marseille,95,Strasbourg,20,81,Marseille,20
+1213800,FRA1,2024-09-29,Angers,Reims,77,Angers,20,93,Reims,20
+1213798,FRA1,2024-09-29,Toulouse,Lyon,96,Toulouse,20,80,Lyon,20
+1213796,FRA1,2024-09-29,Nantes,Saint Etienne,83,Nantes,20,1063,Saint Etienne,20
+1213806,FRA1,2024-10-04,Marseille,Angers,81,Marseille,20,77,Angers,20
+1213807,FRA1,2024-10-05,Rennes,Monaco,94,Rennes,20,91,Monaco,20
+1213804,FRA1,2024-10-05,Saint Etienne,Auxerre,1063,Saint Etienne,20,108,Auxerre,20
+1213803,FRA1,2024-10-05,Lille,Toulouse,79,Lille,20,96,Toulouse,20
+1213809,FRA1,2024-10-06,Reims,Montpellier,93,Reims,20,82,Montpellier,19
+1213805,FRA1,2024-10-06,Stade Brestois 29,Le Havre,106,Stade Brestois 29,20,111,Le Havre,20
+1213802,FRA1,2024-10-06,Nice,Paris Saint Germain,84,Nice,20,85,Paris Saint Germain,20
+1213801,FRA1,2024-10-06,Lyon,Nantes,80,Lyon,20,83,Nantes,19
+1213808,FRA1,2024-10-06,Strasbourg,Lens,95,Strasbourg,20,116,Lens,20
+1213815,FRA1,2024-10-18,Monaco,Lille,91,Monaco,20,79,Lille,20
+1213816,FRA1,2024-10-19,Saint Etienne,Lens,1063,Saint Etienne,20,116,Lens,20
+1213818,FRA1,2024-10-19,Paris Saint Germain,Strasbourg,85,Paris Saint Germain,20,95,Strasbourg,20
+1213817,FRA1,2024-10-19,Stade Brestois 29,Rennes,106,Stade Brestois 29,20,94,Rennes,20
+1213813,FRA1,2024-10-20,Nantes,Nice,83,Nantes,20,84,Nice,20
+1213812,FRA1,2024-10-20,Le Havre,Lyon,111,Le Havre,20,80,Lyon,20
+1213810,FRA1,2024-10-20,Auxerre,Reims,108,Auxerre,20,93,Reims,20
+1213811,FRA1,2024-10-20,Toulouse,Angers,96,Toulouse,20,77,Angers,20
+1213814,FRA1,2024-10-20,Montpellier,Marseille,82,Montpellier,19,81,Marseille,20
+1213825,FRA1,2024-10-25,Rennes,Le Havre,94,Rennes,20,111,Le Havre,20
+1213827,FRA1,2024-10-26,Reims,Stade Brestois 29,93,Reims,20,106,Stade Brestois 29,20
+1213826,FRA1,2024-10-26,Angers,Saint Etienne,77,Angers,20,1063,Saint Etienne,20
+1213820,FRA1,2024-10-26,Lens,Lille,116,Lens,20,79,Lille,20
+1213821,FRA1,2024-10-27,Marseille,Paris Saint Germain,81,Marseille,20,85,Paris Saint Germain,20
+1213823,FRA1,2024-10-27,Montpellier,Toulouse,82,Montpellier,20,96,Toulouse,20
+1213822,FRA1,2024-10-27,Lyon,Auxerre,80,Lyon,20,108,Auxerre,20
+1213819,FRA1,2024-10-27,Nice,Monaco,84,Nice,20,91,Monaco,19
+1213824,FRA1,2024-10-27,Strasbourg,Nantes,95,Strasbourg,20,83,Nantes,20
+1213830,FRA1,2024-11-01,Monaco,Angers,91,Monaco,20,77,Angers,20
+1213833,FRA1,2024-11-01,Lille,Lyon,79,Lille,20,80,Lyon,20
+1213835,FRA1,2024-11-02,Stade Brestois 29,Nice,106,Stade Brestois 29,20,84,Nice,20
+1213834,FRA1,2024-11-02,Saint Etienne,Strasbourg,1063,Saint Etienne,20,95,Strasbourg,20
+1213836,FRA1,2024-11-02,Paris Saint Germain,Lens,85,Paris Saint Germain,20,116,Lens,20
+1213832,FRA1,2024-11-03,Nantes,Marseille,83,Nantes,20,81,Marseille,20
+1213831,FRA1,2024-11-03,Le Havre,Montpellier,111,Le Havre,20,82,Montpellier,20
+1213828,FRA1,2024-11-03,Auxerre,Rennes,108,Auxerre,20,94,Rennes,20
+1213829,FRA1,2024-11-03,Toulouse,Reims,96,Toulouse,20,93,Reims,20
+1213837,FRA1,2024-11-08,Marseille,Auxerre,81,Marseille,20,108,Auxerre,20
+1213845,FRA1,2024-11-09,Angers,Paris Saint Germain,77,Angers,20,85,Paris Saint Germain,20
+1213842,FRA1,2024-11-09,Lens,Nantes,116,Lens,20,83,Nantes,20
+1213841,FRA1,2024-11-09,Strasbourg,Monaco,95,Strasbourg,20,91,Monaco,20
+1213840,FRA1,2024-11-10,Le Havre,Reims,111,Le Havre,20,93,Reims,20
+1213843,FRA1,2024-11-10,Rennes,Toulouse,94,Rennes,20,96,Toulouse,20
+1213838,FRA1,2024-11-10,Lyon,Saint Etienne,80,Lyon,20,1063,Saint Etienne,20
+1213844,FRA1,2024-11-10,Nice,Lille,84,Nice,20,79,Lille,20
+1213839,FRA1,2024-11-10,Montpellier,Stade Brestois 29,82,Montpellier,20,106,Stade Brestois 29,20
+1213852,FRA1,2024-11-22,Monaco,Stade Brestois 29,91,Monaco,20,106,Stade Brestois 29,20
+1213846,FRA1,2024-11-22,Paris Saint Germain,Toulouse,85,Paris Saint Germain,20,96,Toulouse,20
+1213849,FRA1,2024-11-23,Saint Etienne,Montpellier,1063,Saint Etienne,20,82,Montpellier,20
+1213854,FRA1,2024-11-23,Reims,Lyon,93,Reims,20,80,Lyon,20
+1213847,FRA1,2024-11-23,Lens,Marseille,116,Lens,20,81,Marseille,20
+1213850,FRA1,2024-11-24,Lille,Rennes,79,Lille,20,94,Rennes,20
+1213851,FRA1,2024-11-24,Nantes,Le Havre,83,Nantes,20,111,Le Havre,20
+1213853,FRA1,2024-11-24,Auxerre,Angers,108,Auxerre,20,77,Angers,20
+1213848,FRA1,2024-11-24,Nice,Strasbourg,84,Nice,20,95,Strasbourg,20
+1213855,FRA1,2024-11-29,Reims,Lens,93,Reims,20,116,Lens,20
+1213861,FRA1,2024-11-30,Paris Saint Germain,Nantes,85,Paris Saint Germain,20,83,Nantes,20
+1213856,FRA1,2024-11-30,Rennes,Saint Etienne,94,Rennes,20,1063,Saint Etienne,20
+1213859,FRA1,2024-11-30,Stade Brestois 29,Strasbourg,106,Stade Brestois 29,20,95,Strasbourg,20
+1213862,FRA1,2024-12-01,Marseille,Monaco,81,Marseille,20,91,Monaco,20
+1213857,FRA1,2024-12-01,Le Havre,Angers,111,Le Havre,20,77,Angers,20
+1213860,FRA1,2024-12-01,Montpellier,Lille,82,Montpellier,20,79,Lille,20
+1213863,FRA1,2024-12-01,Lyon,Nice,80,Lyon,20,84,Nice,20
+1213858,FRA1,2024-12-01,Toulouse,Auxerre,96,Toulouse,20,108,Auxerre,20
+1213868,FRA1,2024-12-06,Lille,Stade Brestois 29,79,Lille,20,106,Stade Brestois 29,20
+1213865,FRA1,2024-12-06,Auxerre,Paris Saint Germain,108,Auxerre,20,85,Paris Saint Germain,20
+1213872,FRA1,2024-12-07,Monaco,Toulouse,91,Monaco,20,96,Toulouse,20
+1213864,FRA1,2024-12-07,Nice,Le Havre,84,Nice,20,111,Le Havre,20
+1213867,FRA1,2024-12-07,Angers,Lyon,77,Angers,20,80,Lyon,20
+1213866,FRA1,2024-12-08,Saint Etienne,Marseille,1063,Saint Etienne,20,81,Marseille,20
+1213870,FRA1,2024-12-08,Strasbourg,Reims,95,Strasbourg,20,93,Reims,20
+1213871,FRA1,2024-12-08,Nantes,Rennes,83,Nantes,20,94,Rennes,20
+1213869,FRA1,2024-12-08,Lens,Montpellier,116,Lens,20,82,Montpellier,20
+1213877,FRA1,2024-12-13,Toulouse,Saint Etienne,96,Toulouse,20,1063,Saint Etienne,20
+1213876,FRA1,2024-12-14,Auxerre,Lens,108,Auxerre,20,116,Lens,20
+1213875,FRA1,2024-12-14,Reims,Monaco,93,Reims,20,91,Monaco,20
+1213880,FRA1,2024-12-14,Marseille,Lille,81,Marseille,20,79,Lille,20
+1213873,FRA1,2024-12-15,Rennes,Angers,94,Rennes,20,77,Angers,20
+1213878,FRA1,2024-12-15,Montpellier,Nice,82,Montpellier,20,84,Nice,20
+1213879,FRA1,2024-12-15,Stade Brestois 29,Nantes,106,Stade Brestois 29,20,83,Nantes,20
+1213881,FRA1,2024-12-15,Paris Saint Germain,Lyon,85,Paris Saint Germain,20,80,Lyon,20
+1213874,FRA1,2024-12-15,Le Havre,Strasbourg,111,Le Havre,20,95,Strasbourg,20
+1213882,FRA1,2024-12-18,Monaco,Paris Saint Germain,91,Monaco,20,85,Paris Saint Germain,20
+1213890,FRA1,2025-01-03,Nice,Rennes,84,Nice,20,94,Rennes,20
+1213885,FRA1,2025-01-04,Saint Etienne,Reims,1063,Saint Etienne,20,93,Reims,20
+1213887,FRA1,2025-01-04,Lille,Nantes,79,Lille,20,83,Nantes,20
+1213883,FRA1,2025-01-04,Lyon,Montpellier,80,Lyon,20,82,Montpellier,20
+1213889,FRA1,2025-01-05,Strasbourg,Auxerre,95,Strasbourg,20,108,Auxerre,20
+1213888,FRA1,2025-01-05,Marseille,Le Havre,81,Marseille,20,111,Le Havre,20
+1213886,FRA1,2025-01-05,Angers,Stade Brestois 29,77,Angers,20,106,Stade Brestois 29,20
+1213884,FRA1,2025-01-05,Lens,Toulouse,116,Lens,20,96,Toulouse,20
+1213892,FRA1,2025-01-10,Nantes,Monaco,83,Nantes,20,91,Monaco,20
+1213893,FRA1,2025-01-10,Auxerre,Lille,108,Auxerre,20,79,Lille,20
+1213899,FRA1,2025-01-11,Rennes,Marseille,94,Rennes,20,81,Marseille,20
+1213897,FRA1,2025-01-11,Stade Brestois 29,Lyon,106,Stade Brestois 29,20,80,Lyon,20
+1213894,FRA1,2025-01-11,Reims,Nice,93,Reims,20,84,Nice,20
+1213895,FRA1,2025-01-12,Le Havre,Lens,111,Le Havre,20,116,Lens,20
+1213898,FRA1,2025-01-12,Paris Saint Germain,Saint Etienne,85,Paris Saint Germain,20,1063,Saint Etienne,20
+1213891,FRA1,2025-01-12,Toulouse,Strasbourg,96,Toulouse,20,95,Strasbourg,20
+1213896,FRA1,2025-01-12,Montpellier,Angers,82,Montpellier,20,77,Angers,20
+1213902,FRA1,2025-01-17,Lille,Nice,79,Lille,20,84,Nice,20
+1213905,FRA1,2025-01-17,Montpellier,Monaco,82,Montpellier,20,91,Monaco,20
+1213901,FRA1,2025-01-18,Lens,Paris Saint Germain,116,Lens,20,85,Paris Saint Germain,20
+1213908,FRA1,2025-01-18,Rennes,Stade Brestois 29,94,Rennes,20,106,Stade Brestois 29,20
+1213903,FRA1,2025-01-18,Lyon,Toulouse,80,Lyon,20,96,Toulouse,20
+1213900,FRA1,2025-01-19,Marseille,Strasbourg,81,Marseille,20,95,Strasbourg,20
+1213907,FRA1,2025-01-19,Angers,Auxerre,77,Angers,20,108,Auxerre,20
+1213904,FRA1,2025-01-19,Saint Etienne,Nantes,1063,Saint Etienne,20,83,Nantes,20
+1213906,FRA1,2025-01-19,Reims,Le Havre,93,Reims,20,111,Le Havre,20
+1213914,FRA1,2025-01-24,Auxerre,Saint Etienne,108,Auxerre,20,1063,Saint Etienne,20
+1213916,FRA1,2025-01-25,Paris Saint Germain,Reims,85,Paris Saint Germain,20,93,Reims,20
+1213909,FRA1,2025-01-25,Strasbourg,Lille,95,Strasbourg,20,79,Lille,20
+1213911,FRA1,2025-01-25,Monaco,Rennes,91,Monaco,20,94,Rennes,20
+1213910,FRA1,2025-01-26,Nantes,Lyon,83,Nantes,20,80,Lyon,20
+1213913,FRA1,2025-01-26,Le Havre,Stade Brestois 29,111,Le Havre,20,106,Stade Brestois 29,20
+1213915,FRA1,2025-01-26,Lens,Angers,116,Lens,20,77,Angers,20
+1213912,FRA1,2025-01-26,Toulouse,Montpellier,96,Toulouse,20,82,Montpellier,20
+1213917,FRA1,2025-01-26,Nice,Marseille,84,Nice,20,81,Marseille,20
+1213920,FRA1,2025-01-31,Montpellier,Lens,82,Montpellier,20,116,Lens,20
+1213921,FRA1,2025-02-01,Lille,Saint Etienne,79,Lille,20,1063,Saint Etienne,19
+1213926,FRA1,2025-02-01,Monaco,Auxerre,91,Monaco,20,108,Auxerre,20
+1213919,FRA1,2025-02-01,Stade Brestois 29,Paris Saint Germain,106,Stade Brestois 29,20,85,Paris Saint Germain,20
+1213918,FRA1,2025-02-02,Marseille,Lyon,81,Marseille,20,80,Lyon,20
+1213923,FRA1,2025-02-02,Angers,Le Havre,77,Angers,20,111,Le Havre,20
+1213922,FRA1,2025-02-02,Reims,Nantes,93,Reims,20,83,Nantes,20
+1213925,FRA1,2025-02-02,Rennes,Strasbourg,94,Rennes,20,95,Strasbourg,20
+1213924,FRA1,2025-02-02,Toulouse,Nice,96,Toulouse,20,84,Nice,20
+1213928,FRA1,2025-02-07,Nantes,Stade Brestois 29,83,Nantes,20,106,Stade Brestois 29,20
+1213932,FRA1,2025-02-07,Paris Saint Germain,Monaco,85,Paris Saint Germain,20,91,Monaco,20
+1213930,FRA1,2025-02-08,Lille,Le Havre,79,Lille,20,111,Le Havre,20
+1213931,FRA1,2025-02-08,Saint Etienne,Rennes,1063,Saint Etienne,20,94,Rennes,20
+1213935,FRA1,2025-02-08,Nice,Lens,84,Nice,20,116,Lens,20
+1213934,FRA1,2025-02-09,Angers,Marseille,77,Angers,20,81,Marseille,20
+1213929,FRA1,2025-02-09,Strasbourg,Montpellier,95,Strasbourg,20,82,Montpellier,20
+1213927,FRA1,2025-02-09,Auxerre,Toulouse,108,Auxerre,20,96,Toulouse,20
+1213933,FRA1,2025-02-09,Lyon,Reims,80,Lyon,20,93,Reims,20
+1213940,FRA1,2025-02-14,Stade Brestois 29,Auxerre,106,Stade Brestois 29,20,108,Auxerre,20
+1213937,FRA1,2025-02-15,Marseille,Saint Etienne,81,Marseille,20,1063,Saint Etienne,20
+1213944,FRA1,2025-02-15,Monaco,Nantes,91,Monaco,20,83,Nantes,20
+1213936,FRA1,2025-02-15,Toulouse,Paris Saint Germain,96,Toulouse,20,85,Paris Saint Germain,20
+1213939,FRA1,2025-02-16,Lens,Strasbourg,116,Lens,20,95,Strasbourg,20
+1213943,FRA1,2025-02-16,Le Havre,Nice,111,Le Havre,20,84,Nice,20
+1213938,FRA1,2025-02-16,Montpellier,Lyon,82,Montpellier,20,80,Lyon,20
+1213942,FRA1,2025-02-16,Reims,Angers,93,Reims,20,77,Angers,20
+1213941,FRA1,2025-02-16,Rennes,Lille,94,Rennes,20,79,Lille,20
+1213945,FRA1,2025-02-21,Rennes,Reims,94,Rennes,20,93,Reims,20
+1213947,FRA1,2025-02-22,Lille,Monaco,79,Lille,20,91,Monaco,20
+1213950,FRA1,2025-02-22,Saint Etienne,Angers,1063,Saint Etienne,20,77,Angers,20
+1213951,FRA1,2025-02-22,Auxerre,Marseille,108,Auxerre,20,81,Marseille,20
+1213952,FRA1,2025-02-23,Nice,Montpellier,84,Nice,20,82,Montpellier,20
+1213949,FRA1,2025-02-23,Nantes,Lens,83,Nantes,20,116,Lens,20
+1213948,FRA1,2025-02-23,Strasbourg,Stade Brestois 29,95,Strasbourg,20,106,Stade Brestois 29,20
+1213946,FRA1,2025-02-23,Le Havre,Toulouse,111,Le Havre,20,96,Toulouse,20
+1213953,FRA1,2025-02-23,Lyon,Paris Saint Germain,80,Lyon,20,85,Paris Saint Germain,20
+1213961,FRA1,2025-02-28,Monaco,Reims,91,Monaco,20,93,Reims,20
+1213958,FRA1,2025-03-01,Saint Etienne,Nice,1063,Saint Etienne,20,84,Nice,20
+1213959,FRA1,2025-03-01,Lens,Le Havre,116,Lens,20,111,Le Havre,20
+1213954,FRA1,2025-03-01,Paris Saint Germain,Lille,85,Paris Saint Germain,20,79,Lille,20
+1213962,FRA1,2025-03-02,Angers,Toulouse,77,Angers,20,96,Toulouse,20
+1213956,FRA1,2025-03-02,Lyon,Stade Brestois 29,80,Lyon,20,106,Stade Brestois 29,19
+1213960,FRA1,2025-03-02,Auxerre,Strasbourg,108,Auxerre,20,95,Strasbourg,20
+1213957,FRA1,2025-03-02,Montpellier,Rennes,82,Montpellier,20,94,Rennes,20
+1213955,FRA1,2025-03-02,Marseille,Nantes,81,Marseille,20,83,Nantes,20
+1213966,FRA1,2025-03-07,Toulouse,Monaco,96,Toulouse,20,91,Monaco,20
+1213971,FRA1,2025-03-08,Marseille,Lens,81,Marseille,20,116,Lens,20
+1213969,FRA1,2025-03-08,Lille,Montpellier,79,Lille,20,82,Montpellier,20
+1213970,FRA1,2025-03-08,Rennes,Paris Saint Germain,94,Rennes,20,85,Paris Saint Germain,20
+1213963,FRA1,2025-03-09,Le Havre,Saint Etienne,111,Le Havre,20,1063,Saint Etienne,20
+1213964,FRA1,2025-03-09,Reims,Auxerre,93,Reims,20,108,Auxerre,20
+1213967,FRA1,2025-03-09,Nice,Lyon,84,Nice,20,80,Lyon,20
+1213968,FRA1,2025-03-09,Stade Brestois 29,Angers,106,Stade Brestois 29,20,77,Angers,20
+1213965,FRA1,2025-03-09,Nantes,Strasbourg,83,Nantes,20,95,Strasbourg,20
+1213973,FRA1,2025-03-14,Nice,Auxerre,84,Nice,20,108,Auxerre,20
+1213979,FRA1,2025-03-15,Nantes,Lille,83,Nantes,20,79,Lille,20
+1213980,FRA1,2025-03-15,Angers,Monaco,77,Angers,20,91,Monaco,20
+1213977,FRA1,2025-03-15,Lens,Rennes,116,Lens,20,94,Rennes,20
+1213972,FRA1,2025-03-16,Paris Saint Germain,Marseille,85,Paris Saint Germain,20,81,Marseille,20
+1213975,FRA1,2025-03-16,Stade Brestois 29,Reims,106,Stade Brestois 29,20,93,Reims,20
+1213978,FRA1,2025-03-16,Strasbourg,Toulouse,95,Strasbourg,20,96,Toulouse,20
+1213974,FRA1,2025-03-16,Montpellier,Saint Etienne,82,Montpellier,20,1063,Saint Etienne,20
+1213976,FRA1,2025-03-16,Lyon,Le Havre,80,Lyon,20,111,Le Havre,20
+1213984,FRA1,2025-03-28,Strasbourg,Lyon,95,Strasbourg,20,80,Lyon,20
+1213989,FRA1,2025-03-29,Monaco,Nice,91,Monaco,20,84,Nice,20
+1213987,FRA1,2025-03-29,Reims,Marseille,93,Reims,20,81,Marseille,20
+1213986,FRA1,2025-03-29,Saint Etienne,Paris Saint Germain,1063,Saint Etienne,20,85,Paris Saint Germain,19
+1213985,FRA1,2025-03-30,Toulouse,Stade Brestois 29,96,Toulouse,20,106,Stade Brestois 29,18
+1213981,FRA1,2025-03-30,Angers,Rennes,77,Angers,20,94,Rennes,20
+1213982,FRA1,2025-03-30,Auxerre,Montpellier,108,Auxerre,20,82,Montpellier,20
+1213983,FRA1,2025-03-30,Le Havre,Nantes,111,Le Havre,20,83,Nantes,20
+1213988,FRA1,2025-03-30,Lille,Lens,79,Lille,20,116,Lens,20
+1213991,FRA1,2025-04-04,Nice,Nantes,84,Nice,20,83,Nantes,20
+1213996,FRA1,2025-04-05,Paris Saint Germain,Angers,85,Paris Saint Germain,20,77,Angers,20
+1213992,FRA1,2025-04-05,Stade Brestois 29,Monaco,106,Stade Brestois 29,20,91,Monaco,20
+1213994,FRA1,2025-04-05,Lyon,Lille,80,Lyon,20,79,Lille,20
+1213995,FRA1,2025-04-06,Lens,Saint Etienne,116,Lens,19,1063,Saint Etienne,20
+1213998,FRA1,2025-04-06,Rennes,Auxerre,94,Rennes,20,108,Auxerre,20
+1213993,FRA1,2025-04-06,Montpellier,Le Havre,82,Montpellier,20,111,Le Havre,20
+1213997,FRA1,2025-04-06,Reims,Strasbourg,93,Reims,20,95,Strasbourg,20
+1213990,FRA1,2025-04-06,Marseille,Toulouse,81,Marseille,20,96,Toulouse,20
+1214006,FRA1,2025-04-11,Lens,Reims,116,Lens,20,93,Reims,20
+1213999,FRA1,2025-04-12,Toulouse,Lille,96,Toulouse,20,79,Lille,20
+1214003,FRA1,2025-04-12,Strasbourg,Nice,95,Strasbourg,20,84,Nice,20
+1214007,FRA1,2025-04-12,Monaco,Marseille,91,Monaco,20,81,Marseille,20
+1214004,FRA1,2025-04-13,Saint Etienne,Stade Brestois 29,1063,Saint Etienne,20,106,Stade Brestois 29,20
+1214001,FRA1,2025-04-13,Auxerre,Lyon,108,Auxerre,20,80,Lyon,20
+1214005,FRA1,2025-04-13,Angers,Montpellier,77,Angers,20,82,Montpellier,20
+1214000,FRA1,2025-04-13,Le Havre,Rennes,111,Le Havre,20,94,Rennes,20
+1214016,FRA1,2025-04-18,Rennes,Nantes,94,Rennes,20,83,Nantes,20
+1214012,FRA1,2025-04-19,Paris Saint Germain,Le Havre,85,Paris Saint Germain,20,111,Le Havre,20
+1214015,FRA1,2025-04-19,Monaco,Strasbourg,91,Monaco,20,95,Strasbourg,20
+1214013,FRA1,2025-04-19,Marseille,Montpellier,81,Marseille,20,82,Montpellier,20
+1214008,FRA1,2025-04-20,Saint Etienne,Lyon,1063,Saint Etienne,20,80,Lyon,20
+1214009,FRA1,2025-04-20,Nice,Angers,84,Nice,20,77,Angers,20
+1214010,FRA1,2025-04-20,Stade Brestois 29,Lens,106,Stade Brestois 29,20,116,Lens,20
+1214014,FRA1,2025-04-20,Reims,Toulouse,93,Reims,20,96,Toulouse,20
+1214011,FRA1,2025-04-20,Lille,Auxerre,79,Lille,20,108,Auxerre,20
+1214002,FRA1,2025-04-22,Nantes,Paris Saint Germain,83,Nantes,20,85,Paris Saint Germain,20
+1214023,FRA1,2025-04-25,Paris Saint Germain,Nice,85,Paris Saint Germain,20,84,Nice,20
+1214025,FRA1,2025-04-26,Lyon,Rennes,80,Lyon,20,94,Rennes,20
+1214017,FRA1,2025-04-26,Le Havre,Monaco,111,Le Havre,20,91,Monaco,20
+1214018,FRA1,2025-04-26,Strasbourg,Saint Etienne,95,Strasbourg,20,1063,Saint Etienne,20
+1214019,FRA1,2025-04-27,Nantes,Toulouse,83,Nantes,20,96,Toulouse,19
+1214020,FRA1,2025-04-27,Montpellier,Reims,82,Montpellier,18,93,Reims,20
+1214022,FRA1,2025-04-27,Angers,Lille,77,Angers,20,79,Lille,20
+1214021,FRA1,2025-04-27,Lens,Auxerre,116,Lens,20,108,Auxerre,20
+1214024,FRA1,2025-04-27,Marseille,Stade Brestois 29,81,Marseille,20,106,Stade Brestois 29,20
+1214028,FRA1,2025-05-02,Nice,Reims,84,Nice,20,93,Reims,20
+1214033,FRA1,2025-05-03,Strasbourg,Paris Saint Germain,95,Strasbourg,20,85,Paris Saint Germain,19
+1214032,FRA1,2025-05-03,Toulouse,Rennes,96,Toulouse,20,94,Rennes,20
+1214030,FRA1,2025-05-03,Saint Etienne,Monaco,1063,Saint Etienne,20,91,Monaco,20
+1214027,FRA1,2025-05-04,Lille,Marseille,79,Lille,20,81,Marseille,20
+1214029,FRA1,2025-05-04,Stade Brestois 29,Montpellier,106,Stade Brestois 29,20,82,Montpellier,20
+1214034,FRA1,2025-05-04,Auxerre,Le Havre,108,Auxerre,20,111,Le Havre,20
+1214031,FRA1,2025-05-04,Nantes,Angers,83,Nantes,20,77,Angers,20
+1214026,FRA1,2025-05-04,Lyon,Lens,80,Lyon,20,116,Lens,20
+1214037,FRA1,2025-05-10,Angers,Strasbourg,77,Angers,20,95,Strasbourg,20
+1214040,FRA1,2025-05-10,Montpellier,Paris Saint Germain,82,Montpellier,20,85,Paris Saint Germain,18
+1214043,FRA1,2025-05-10,Monaco,Lyon,91,Monaco,20,80,Lyon,20
+1214036,FRA1,2025-05-10,Auxerre,Nantes,108,Auxerre,20,83,Nantes,20
+1214038,FRA1,2025-05-10,Le Havre,Marseille,111,Le Havre,20,81,Marseille,20
+1214041,FRA1,2025-05-10,Toulouse,Lens,96,Toulouse,20,116,Lens,20
+1214042,FRA1,2025-05-10,Stade Brestois 29,Lille,106,Stade Brestois 29,19,79,Lille,19
+1214035,FRA1,2025-05-10,Reims,Saint Etienne,93,Reims,20,1063,Saint Etienne,20
+1214039,FRA1,2025-05-10,Rennes,Nice,94,Rennes,20,84,Nice,20
+1214050,FRA1,2025-05-17,Nantes,Montpellier,83,Nantes,20,82,Montpellier,18
+1214049,FRA1,2025-05-17,Strasbourg,Le Havre,95,Strasbourg,20,111,Le Havre,20
+1214051,FRA1,2025-05-17,Lens,Monaco,116,Lens,20,91,Monaco,20
+1214052,FRA1,2025-05-17,Paris Saint Germain,Auxerre,85,Paris Saint Germain,20,108,Auxerre,20
+1214047,FRA1,2025-05-17,Saint Etienne,Toulouse,1063,Saint Etienne,20,96,Toulouse,20
+1214045,FRA1,2025-05-17,Lyon,Angers,80,Lyon,20,77,Angers,19
+1214048,FRA1,2025-05-17,Lille,Reims,79,Lille,20,93,Reims,20
+1214046,FRA1,2025-05-17,Nice,Stade Brestois 29,84,Nice,20,106,Stade Brestois 29,20
+1214044,FRA1,2025-05-17,Marseille,Rennes,81,Marseille,20,94,Rennes,20
+1375858,FRA1,2025-05-21,Metz,Reims,112,Metz,20,93,Reims,20
+1387706,FRA1,2025-08-15,Rennes,Marseille,94,Rennes,20,81,Marseille,20
+1387703,FRA1,2025-08-16,Monaco,Le Havre,91,Monaco,20,111,Le Havre,20
+1387705,FRA1,2025-08-16,Nice,Toulouse,84,Nice,20,96,Toulouse,20
+1387701,FRA1,2025-08-16,Lens,Lyon,116,Lens,20,80,Lyon,20
+1387698,FRA1,2025-08-17,Angers,Paris FC,77,Angers,20,114,Paris FC,20
+1387702,FRA1,2025-08-17,Metz,Strasbourg,112,Metz,20,95,Strasbourg,20
+1387700,FRA1,2025-08-17,Stade Brestois 29,Lille,106,Stade Brestois 29,20,79,Lille,20
+1387699,FRA1,2025-08-17,Auxerre,Lorient,108,Auxerre,20,97,Lorient,20
+1387704,FRA1,2025-08-17,Nantes,Paris Saint Germain,83,Nantes,20,85,Paris Saint Germain,20
