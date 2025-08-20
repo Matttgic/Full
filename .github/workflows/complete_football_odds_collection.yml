@@ -85,7 +85,7 @@ jobs:
         RAPIDAPI_KEY: ${{ secrets.RAPIDAPI_KEY }}
       run: |
         echo "🔌 Test de connectivité API Football..."
-        python3 << 'EOF'
+        python3 -c "
 import requests
 import os
 import json
@@ -110,10 +110,10 @@ try:
         account = data.get('account', {})
         subscription = data.get('subscription', {})
         
-        print(f'📊 Compte: {account.get("firstname", "N/A")} {account.get("lastname", "N/A")}')
-        print(f'📈 Plan: {subscription.get("plan", "N/A")}')
-        print(f'🔄 Requêtes/jour: {subscription.get("requests_limit_daily", "N/A")}')
-        print(f'✅ Requêtes utilisées: {account.get("requests", {}).get("current", "N/A")}')
+        print(f'📊 Compte: {account.get(\"firstname\", \"N/A\")} {account.get(\"lastname\", \"N/A\")}')
+        print(f'📈 Plan: {subscription.get(\"plan\", \"N/A\")}')
+        print(f'🔄 Requêtes/jour: {subscription.get(\"requests_limit_daily\", \"N/A\")}')
+        print(f'✅ Requêtes utilisées: {account.get(\"requests\", {}).get(\"current\", \"N/A\")}')
         
     else:
         print(f'⚠️ Status code: {response.status_code}')
@@ -122,7 +122,7 @@ try:
 except Exception as e:
     print(f'❌ Erreur API: {e}')
     exit(1)
-EOF
+"
 
     # Étape 7: Configuration des paramètres de collecte
     - name: Configure collection parameters
@@ -142,7 +142,7 @@ EOF
       run: |
         if [ ! -z "$LEAGUE_FILTER" ]; then
           echo "🔧 Application du filtrage par ligues: $LEAGUE_FILTER"
-          python3 << 'EOF'
+          cat > filter_script.py << 'EOF'
 import os
 
 # Lire le script original
@@ -185,6 +185,7 @@ if league_filter:
 else:
     print('ℹ️ Aucun filtrage demandé')
 EOF
+          python3 filter_script.py
         else
           echo "ℹ️ Pas de filtrage - utilisation du script original"
           cp complete_football_odds_collector.py complete_football_odds_collector_filtered.py
