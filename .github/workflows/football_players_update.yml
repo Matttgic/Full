@@ -1,0 +1,215 @@
+# .github/workflows/football_players_update.yml
+name: Football Players Data Update (Mise à jour hebdomadaire)
+
+# Déclenchement tous les mercredis à 8h00 UTC
+on:
+  schedule:
+    - cron: '0 8 * * 3'  # Tous les mercredis à 8h00 UTC
+  workflow_dispatch:  # Permet de lancer manuellement le workflow
+
+jobs:
+  update-players-data:
+    runs-on: ubuntu-latest
+    
+    steps:
+    # Étape 1: Checkout du code
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        fetch-depth: 0  # Récupère tout l'historique pour avoir les fichiers existants
+    
+    # Étape 2: Configuration de Python
+    - name: Set up Python 3.11
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+    
+    # Étape 3: Installation des dépendances
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install requests pandas
+    
+    # Étape 4: Vérification de la structure des données existantes
+    - name: Check existing data structure
+      run: |
+        echo "=== STRUCTURE DES DONNÉES EXISTANTES ==="
+        ls -la data/ || echo "Dossier data/ inexistant"
+        echo ""
+        echo "=== MATCHS DISPONIBLES ==="
+        ls -la data/matches/ || echo "Aucun dossier matches/"
+        echo ""
+        echo "=== DONNÉES JOUEURS EXISTANTES ==="
+        ls -la data/players/ || echo "Aucun dossier players/"
+        echo ""
+        if [ -d "data/players/player_stats" ]; then
+          echo "Stats joueurs existantes:"
+          ls -la data/players/player_stats/
+        fi
+        echo ""
+        if [ -d "data/players/match_lineups" ]; then
+          echo "Compositions existantes:"
+          ls -la data/players/match_lineups/
+        fi
+        echo ""
+        if [ -d "data/players/team_rosters" ]; then
+          echo "Effectifs existants:"
+          ls -la data/players/team_rosters/
+        fi
+    
+    # Étape 5: Création de la structure des dossiers si nécessaire
+    - name: Ensure data structure exists
+      run: |
+        mkdir -p data/matches
+        mkdir -p data/players/player_stats
+        mkdir -p data/players/match_lineups
+        mkdir -p data/players/team_rosters
+        
+        # Déplacer les CSV de matchs vers le bon dossier si nécessaire
+        find data/ -maxdepth 1 -name "*.csv" -type f -exec mv {} data/matches/ \; 2>/dev/null || true
+        
+        echo "✅ Structure des dossiers vérifiée"
+    
+    # Étape 6: Vérification des matchs récents pour mise à jour
+    - name: Check recent matches for update
+      run: |
+        echo "=== ANALYSE DES MATCHS RÉCENTS ==="
+        echo "Date actuelle: $(date)"
+        echo "Période d'analyse: 7 derniers jours"
+        echo ""
+        
+        for file in data/matches/*.csv; do
+          if [ -f "$file" ]; then
+            league=$(basename "$file" .csv)
+            echo "📊 $league:"
+            
+            # Compter les matchs totaux
+            total_matches=$(tail -n +2 "$file" | wc -l)
+            echo "  - Total matchs: $total_matches"
+            
+            # Compter les matchs récents (7 derniers jours)
+            recent_date=$(date -d '7 days ago' '+%Y-%m-%d')
+            recent_matches=$(tail -n +2 "$file" | awk -F',' -v date="$recent_date" '$3 >= date' | wc -l)
+            echo "  - Matchs récents (7j): $recent_matches"
+            echo ""
+          fi
+        done
+    
+    # Étape 7: Exécution du script de mise à jour des stats joueurs
+    - name: Run players stats update
+      env:
+        RAPIDAPI_KEY: ${{ secrets.RAPIDAPI_KEY }}
+      run: |
+        echo "🚀 Début de la mise à jour des données joueurs..."
+        python football_players_updater.py
+    
+    # Étape 8: Vérification des changements après mise à jour
+    - name: Check changes after update
+      run: |
+        echo "=== CHANGEMENTS DÉTECTÉS ==="
+        git status --porcelain
+        echo ""
+        echo "=== NOUVELLE STRUCTURE DES DONNÉES ==="
+        
+        echo "📊 Stats joueurs:"
+        if [ -d "data/players/player_stats" ]; then
+          ls -la data/players/player_stats/ | grep -E "\.csv$" | wc -l || echo "0"
+          echo "Taille totale:" 
+          du -h data/players/player_stats/ 2>/dev/null || echo "Calcul impossible"
+        fi
+        echo ""
+        
+        echo "📋 Compositions:"
+        if [ -d "data/players/match_lineups" ]; then
+          ls -la data/players/match_lineups/ | grep -E "\.csv$" | wc -l || echo "0"
+        fi
+        echo ""
+        
+        echo "👥 Effectifs:"
+        if [ -d "data/players/team_rosters" ]; then
+          ls -la data/players/team_rosters/ | grep -E "\.csv$" | wc -l || echo "0"
+        fi
+    
+    # Étape 9: Commit et push des modifications
+    - name: Commit and push changes
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        
+        # Ajouter tous les nouveaux fichiers et modifications
+        git add data/players/
+        git add football_players_update.log
+        
+        # Vérifier s'il y a des changements à committer
+        if git diff --staged --quiet; then
+          echo "✅ Aucune nouvelle donnée joueur - données déjà à jour"
+        else
+          echo "🔄 Nouveaux données joueurs détectées - commit en cours..."
+          git commit -m "🏃 Mise à jour hebdomadaire des données joueurs - $(date '+%Y-%m-%d')"
+          git push
+          echo "✅ Données joueurs mises à jour et poussées"
+        fi
+    
+    # Étape 10: Upload des logs en cas d'erreur
+    - name: Upload logs on failure
+      if: failure()
+      uses: actions/upload-artifact@v4
+      with:
+        name: football-players-update-logs
+        path: |
+          football_players_update.log
+          football_players.log
+    
+    # Étape 11: Résumé final de la mise à jour
+    - name: Display update summary
+      run: |
+        echo "=== RÉSUMÉ DE LA MISE À JOUR JOUEURS ==="
+        echo "Date: $(date)"
+        echo "Type: Mise à jour hebdomadaire automatique"
+        echo "Fréquence: Tous les mercredis à 8h00 UTC"
+        echo ""
+        
+        echo "📁 Structure finale des données:"
+        tree data/ 2>/dev/null || find data/ -type f -name "*.csv" | head -20
+        echo ""
+        
+        echo "📊 Résumé par type de données:"
+        
+        # Stats joueurs
+        if [ -d "data/players/player_stats" ]; then
+          player_files=$(ls data/players/player_stats/*.csv 2>/dev/null | wc -l)
+          echo "  🏃 Stats individuelles: $player_files ligues"
+          
+          total_players=0
+          for file in data/players/player_stats/*.csv; do
+            if [ -f "$file" ]; then
+              count=$(tail -n +2 "$file" | wc -l)
+              total_players=$((total_players + count))
+            fi
+          done
+          echo "      Total stats collectées: $total_players"
+        fi
+        
+        # Compositions
+        if [ -d "data/players/match_lineups" ]; then
+          lineup_files=$(ls data/players/match_lineups/*.csv 2>/dev/null | wc -l)
+          echo "  📋 Compositions de matchs: $lineup_files ligues"
+        fi
+        
+        # Effectifs
+        if [ -d "data/players/team_rosters" ]; then
+          roster_files=$(ls data/players/team_rosters/*.csv 2>/dev/null | wc -l)
+          echo "  👥 Effectifs d'équipes: $roster_files ligues"
+        fi
+        
+        echo ""
+        echo "💾 Taille totale des données joueurs:"
+        du -h data/players/ 2>/dev/null || echo "Calcul impossible"
+        
+        echo ""
+        echo "📋 Dernières lignes du log de mise à jour:"
+        tail -20 football_players_update.log 2>/dev/null || echo "Aucun log trouvé"
+        
+        echo ""
+        echo "✅ Mise à jour hebdomadaire terminée - Prochaine exécution: mercredi prochain à 8h00 UTC"
