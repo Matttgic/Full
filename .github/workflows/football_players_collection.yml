@@ -1,0 +1,132 @@
+# .github/workflows/football_players_collection.yml
+name: Football Players Stats Collection (365 derniers jours)
+
+# Workflow manuel uniquement pour collecte initiale des stats joueurs
+on:
+  workflow_dispatch:  # Lancement manuel uniquement
+
+jobs:
+  collect-players:
+    runs-on: ubuntu-latest
+    
+    steps:
+    # Étape 1: Checkout du code
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        fetch-depth: 0
+    
+    # Étape 2: Configuration de Python
+    - name: Set up Python 3.11
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+    
+    # Étape 3: Installation des dépendances
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install requests pandas
+    
+    # Étape 4: Création de la structure des dossiers
+    - name: Create data structure
+      run: |
+        mkdir -p data/matches
+        mkdir -p data/players/player_stats
+        mkdir -p data/players/match_lineups
+        mkdir -p data/players/team_rosters
+        
+        # Déplacer les CSV existants vers matches/
+        find data/ -maxdepth 1 -name "*.csv" -type f -exec mv {} data/matches/ \; 2>/dev/null || true
+    
+    # Étape 5: Vérification des données existantes
+    - name: Check existing match data
+      run: |
+        echo "=== STRUCTURE DES DONNÉES ==="
+        tree data/ || ls -la data/
+        echo ""
+        echo "=== MATCHS DISPONIBLES ==="
+        ls -la data/matches/ || echo "Aucun fichier de match trouvé"
+        echo ""
+        echo "=== NOMBRE DE MATCHS PAR LIGUE ==="
+        for file in data/matches/*.csv; do
+          if [ -f "$file" ]; then
+            league=$(basename "$file" .csv)
+            count=$(tail -n +2 "$file" | wc -l)
+            echo "$league: $count matchs"
+          fi
+        done
+    
+    # Étape 6: Exécution du script de collecte des stats joueurs
+    - name: Run players stats collection
+      env:
+        RAPIDAPI_KEY: ${{ secrets.RAPIDAPI_KEY }}
+      run: |
+        python football_players_collector.py
+    
+    # Étape 7: Vérification des données collectées
+    - name: Check collected player data
+      run: |
+        echo "=== DONNÉES JOUEURS COLLECTÉES ==="
+        echo ""
+        echo "Stats par joueur:"
+        ls -la data/players/player_stats/ || echo "Aucune stat joueur"
+        echo ""
+        echo "Compositions par match:"
+        ls -la data/players/match_lineups/ || echo "Aucune composition"
+        echo ""
+        echo "Effectifs par équipe:"
+        ls -la data/players/team_rosters/ || echo "Aucun effectif"
+        echo ""
+        echo "=== TAILLE DES FICHIERS ==="
+        find data/players/ -name "*.csv" -exec du -h {} \; 2>/dev/null || echo "Aucun fichier trouvé"
+    
+    # Étape 8: Commit et push des nouveaux fichiers
+    - name: Commit and push changes
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        
+        # Ajouter tous les nouveaux fichiers
+        git add data/matches/*.csv
+        git add data/players/
+        git add football_players.log
+        
+        # Vérifier s'il y a des changements à committer
+        if git diff --staged --quiet; then
+          echo "✅ Aucune nouvelle donnée à committer"
+        else
+          git commit -m "🏃 Collecte initiale des stats joueurs (365 derniers jours) - $(date '+%Y-%m-%d')"
+          git push
+          echo "✅ Stats joueurs ajoutées et poussées"
+        fi
+    
+    # Étape 9: Upload des logs en cas d'erreur
+    - name: Upload logs on failure
+      if: failure()
+      uses: actions/upload-artifact@v4
+      with:
+        name: football-players-logs
+        path: football_players.log
+    
+    # Étape 10: Résumé final
+    - name: Display collection summary
+      run: |
+        echo "=== RÉSUMÉ DE LA COLLECTE JOUEURS ==="
+        echo "Date: $(date)"
+        echo "Type: Collecte initiale des stats joueurs"
+        echo ""
+        echo "Structure finale:"
+        tree data/ || ls -la data/
+        echo ""
+        echo "Nombre total de fichiers créés:"
+        find data/players/ -name "*.csv" | wc -l
+        echo ""
+        echo "Taille totale des données joueurs:"
+        du -h data/players/ 2>/dev/null || echo "Calcul impossible"
+        echo ""
+        echo "Dernières lignes du log:"
+        tail -20 football_players.log 2>/dev/null || echo "Aucun log trouvé"
+        echo ""
+        echo "✅ Collecte terminée - Données disponibles pour analyse !"
