@@ -85,7 +85,7 @@ jobs:
         RAPIDAPI_KEY: ${{ secrets.RAPIDAPI_KEY }}
       run: |
         echo "🔌 Test de connectivité API Football..."
-        python -c "
+        python3 << 'EOF'
 import requests
 import os
 import json
@@ -110,10 +110,10 @@ try:
         account = data.get('account', {})
         subscription = data.get('subscription', {})
         
-        print(f'📊 Compte: {account.get(\"firstname\", \"N/A\")} {account.get(\"lastname\", \"N/A\")}')
-        print(f'📈 Plan: {subscription.get(\"plan\", \"N/A\")}')
-        print(f'🔄 Requêtes/jour: {subscription.get(\"requests_limit_daily\", \"N/A\")}')
-        print(f'✅ Requêtes utilisées: {account.get(\"requests\", {}).get(\"current\", \"N/A\")}')
+        print(f'📊 Compte: {account.get("firstname", "N/A")} {account.get("lastname", "N/A")}')
+        print(f'📈 Plan: {subscription.get("plan", "N/A")}')
+        print(f'🔄 Requêtes/jour: {subscription.get("requests_limit_daily", "N/A")}')
+        print(f'✅ Requêtes utilisées: {account.get("requests", {}).get("current", "N/A")}')
         
     else:
         print(f'⚠️ Status code: {response.status_code}')
@@ -122,7 +122,7 @@ try:
 except Exception as e:
     print(f'❌ Erreur API: {e}')
     exit(1)
-"
+EOF
 
     # Étape 7: Configuration des paramètres de collecte
     - name: Configure collection parameters
@@ -142,7 +142,7 @@ except Exception as e:
       run: |
         if [ ! -z "$LEAGUE_FILTER" ]; then
           echo "🔧 Application du filtrage par ligues: $LEAGUE_FILTER"
-          python -c "
+          python3 << 'EOF'
 import os
 
 # Lire le script original
@@ -163,8 +163,8 @@ if league_filter:
         original_leagues = len(self.all_leagues)
         filtered_leagues = {selected_leagues}
         self.all_leagues = {{k: v for k, v in self.all_leagues.items() if k in filtered_leagues}}
-        logger.info(f\"🎯 Filtrage activé: {{len(self.all_leagues)}}/{{original_leagues}} ligues sélectionnées\")
-        logger.info(f\"📋 Ligues à traiter: {{list(self.all_leagues.keys())}}\")
+        logger.info(f"🎯 Filtrage activé: {{len(self.all_leagues)}}/{{original_leagues}} ligues sélectionnées")
+        logger.info(f"📋 Ligues à traiter: {{list(self.all_leagues.keys())}}")
         '''
     
     # Injecter le code après l'initialisation des ligues
@@ -175,7 +175,7 @@ if league_filter:
         )
         print('✅ Filtrage injecté avec succès')
     else:
-        print('⚠️ Point d\\'injection non trouvé - utilisation du script original')
+        print('⚠️ Point d\'injection non trouvé - utilisation du script original')
     
     # Sauvegarder le script modifié
     with open('complete_football_odds_collector_filtered.py', 'w', encoding='utf-8') as f:
@@ -184,7 +184,7 @@ if league_filter:
     print(f'✅ Script personnalisé créé: complete_football_odds_collector_filtered.py')
 else:
     print('ℹ️ Aucun filtrage demandé')
-"
+EOF
         else
           echo "ℹ️ Pas de filtrage - utilisation du script original"
           cp complete_football_odds_collector.py complete_football_odds_collector_filtered.py
@@ -246,7 +246,7 @@ else:
                   filename=$(basename "$file")
                   lines=$(($(wc -l < "$file") - 1))  # Exclure l'en-tête
                   size=$(stat -f%z "$file" 2>/dev/null || stat -c%s "$file" 2>/dev/null || echo "0")
-                  size_mb=$(echo "scale=2; $size / 1024 / 1024" | bc -l 2>/dev/null || python3 -c "print(f'{$size/1024/1024:.2f}')")
+                  size_mb=$(python3 -c "print(f'{$size/1024/1024:.2f}')")
                   
                   echo "  📄 $filename"
                   echo "      📊 Cotes: $lines"
@@ -259,7 +259,7 @@ else:
                 fi
               done
               
-              total_size_mb=$(echo "scale=2; $total_size / 1024 / 1024" | bc -l 2>/dev/null || python3 -c "print(f'{$total_size/1024/1024:.2f}')")
+              total_size_mb=$(python3 -c "print(f'{$total_size/1024/1024:.2f}')")
               
               echo "📈 === RÉSUMÉ GLOBAL ==="
               echo "  📁 Fichiers générés: $total_files"
@@ -333,11 +333,11 @@ else:
           for file in data/odds/raw_data/*.csv; do
             if [ -f "$file" ]; then
               size=$(stat -f%z "$file" 2>/dev/null || stat -c%s "$file" 2>/dev/null || echo "0")
-              size_mb=$(echo "scale=1; $size / 1024 / 1024" | bc -l 2>/dev/null || python3 -c "print(f'{$size/1024/1024:.1f}')")
+              size_mb=$(python3 -c "print(f'{$size/1024/1024:.1f}')")
               filename=$(basename "$file")
               
               # Seuil: 75MB pour GitHub
-              if (( $(echo "$size > 75000000" | bc -l 2>/dev/null || python3 -c "print($size > 75000000)") )); then
+              if (( $(python3 -c "print($size > 75000000)") )); then
                 echo "📊 Fichier volumineux (${size_mb}MB): $filename"
                 large_files_count=$((large_files_count + 1))
                 
@@ -365,7 +365,7 @@ else:
           fi
         fi
         
-        total_size_mb=$(echo "scale=1; $total_data_size / 1024 / 1024" | bc -l 2>/dev/null || python3 -c "print(f'{$total_data_size/1024/1024:.1f}')")
+        total_size_mb=$(python3 -c "print(f'{$total_data_size/1024/1024:.1f}')")
         
         echo ""
         echo "📈 === BILAN COMMIT ==="
@@ -507,4 +507,4 @@ else:
         echo "   Les cotes historiques ont été récupérées et organisées"
         echo "   dans le dossier data/odds/ selon la structure définie."
         echo ""
-        echo "🚀 Prochaine étape: Analyser les données dans data/odds/"
+        echo "🚀 Prochaine étape: Analyser les données dans data/odds/" 
