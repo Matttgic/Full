@@ -1,0 +1,510 @@
+# .github/workflows/complete_football_odds_collection.yml
+name: Complete Football Odds Collection (TOUS les marchés et bookmakers)
+
+# Déclenchement manuel uniquement
+on:
+  workflow_dispatch:
+    inputs:
+      league_filter:
+        description: 'Filtrer par ligue (optionnel, ex: ENG1,FRA1) - laissez vide pour toutes'
+        required: false
+        default: ''
+        type: string
+      batch_size:
+        description: 'Taille des batches (défaut: 25)'
+        required: false
+        default: '25'
+        type: string
+
+jobs:
+  collect-complete-odds:
+    runs-on: ubuntu-latest
+    timeout-minutes: 480  # 8 heures max pour la collecte complète
+    
+    steps:
+    # Étape 1: Checkout du code
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        fetch-depth: 0
+
+    # Étape 2: Configuration de Python
+    - name: Set up Python 3.11
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+
+    # Étape 3: Installation des dépendances
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install requests pandas numpy
+        pip install --upgrade urllib3 requests
+
+    # Étape 4: Création de la structure des dossiers dans data/
+    - name: Create data directory structure
+      run: |
+        mkdir -p data
+        mkdir -p data/odds
+        mkdir -p data/odds/raw_data
+        mkdir -p data/odds/summaries
+        echo "📁 Structure créée:"
+        echo "data/"
+        echo "├── odds/"
+        echo "│   ├── raw_data/"
+        echo "│   └── summaries/"
+        tree data/ || ls -la data/
+
+    # Étape 5: Vérification des ressources et fichiers existants
+    - name: Check system resources and existing data
+      run: |
+        echo "=== VÉRIFICATION DES RESSOURCES SYSTÈME ==="
+        df -h
+        echo ""
+        echo "=== MÉMOIRE DISPONIBLE ==="
+        free -h
+        echo ""
+        echo "=== FICHIERS DE MATCHS EXISTANTS ==="
+        if [ -d "data" ]; then
+          find data/ -maxdepth 1 -name "*.csv" -type f | head -10 || echo "Aucun fichier CSV match"
+          match_count=$(find data/ -maxdepth 1 -name '*.csv' -type f | wc -l)
+          echo "Nombre de fichiers de matchs: $match_count"
+        fi
+        echo ""
+        echo "=== FICHIERS ODDS EXISTANTS ==="
+        if [ -d "data/odds/raw_data" ]; then
+          odds_count=$(ls data/odds/raw_data/*.csv 2>/dev/null | wc -l)
+          echo "Fichiers odds existants: $odds_count"
+          ls -la data/odds/raw_data/ 2>/dev/null || echo "Dossier odds vide"
+        fi
+
+    # Étape 6: Test de connectivité API
+    - name: Test API connectivity
+      env:
+        RAPIDAPI_KEY: ${{ secrets.RAPIDAPI_KEY }}
+      run: |
+        echo "🔌 Test de connectivité API Football..."
+        python -c "
+import requests
+import os
+import json
+
+headers = {
+    'x-rapidapi-host': 'api-football-v1.p.rapidapi.com',
+    'x-rapidapi-key': os.environ['RAPIDAPI_KEY']
+}
+
+try:
+    print('🔄 Test de connexion...')
+    response = requests.get(
+        'https://api-football-v1.p.rapidapi.com/v3/status', 
+        headers=headers, 
+        timeout=10
+    )
+    
+    if response.status_code == 200:
+        data = response.json()
+        print('✅ API accessible')
+        
+        account = data.get('account', {})
+        subscription = data.get('subscription', {})
+        
+        print(f'📊 Compte: {account.get(\"firstname\", \"N/A\")} {account.get(\"lastname\", \"N/A\")}')
+        print(f'📈 Plan: {subscription.get(\"plan\", \"N/A\")}')
+        print(f'🔄 Requêtes/jour: {subscription.get(\"requests_limit_daily\", \"N/A\")}')
+        print(f'✅ Requêtes utilisées: {account.get(\"requests\", {}).get(\"current\", \"N/A\")}')
+        
+    else:
+        print(f'⚠️ Status code: {response.status_code}')
+        print(f'Response: {response.text[:200]}')
+        
+except Exception as e:
+    print(f'❌ Erreur API: {e}')
+    exit(1)
+"
+
+    # Étape 7: Configuration des paramètres de collecte
+    - name: Configure collection parameters
+      run: |
+        echo "🎯 CONFIGURATION DE LA COLLECTE"
+        echo "LEAGUE_FILTER=${{ github.event.inputs.league_filter || '' }}" >> $GITHUB_ENV
+        echo "BATCH_SIZE=${{ github.event.inputs.batch_size || '25' }}" >> $GITHUB_ENV
+        
+        echo "Paramètres sélectionnés:"
+        echo "  📋 Filtrage ligues: '${{ github.event.inputs.league_filter || 'TOUTES LES LIGUES' }}'"
+        echo "  📦 Taille batch: ${{ github.event.inputs.batch_size || '25' }} matchs"
+        echo "  📁 Destination: data/odds/"
+        echo "  🎯 Objectif: TOUS les bookmakers et marchés"
+
+    # Étape 8: Préparation du script avec filtrage dynamique
+    - name: Prepare collection script with filtering
+      run: |
+        if [ ! -z "$LEAGUE_FILTER" ]; then
+          echo "🔧 Application du filtrage par ligues: $LEAGUE_FILTER"
+          python -c "
+import os
+
+# Lire le script original
+with open('complete_football_odds_collector.py', 'r', encoding='utf-8') as f:
+    content = f.read()
+
+# Récupérer le filtre depuis l'environnement
+league_filter = os.environ.get('LEAGUE_FILTER', '').strip()
+
+if league_filter:
+    # Parser les ligues demandées
+    selected_leagues = [l.strip().upper() for l in league_filter.split(',') if l.strip()]
+    print(f'🎯 Ligues sélectionnées: {selected_leagues}')
+    
+    # Créer le code de filtrage à injecter
+    filter_code = f'''
+        # Filtrage dynamique des ligues (depuis GitHub Actions)
+        original_leagues = len(self.all_leagues)
+        filtered_leagues = {selected_leagues}
+        self.all_leagues = {{k: v for k, v in self.all_leagues.items() if k in filtered_leagues}}
+        logger.info(f\"🎯 Filtrage activé: {{len(self.all_leagues)}}/{{original_leagues}} ligues sélectionnées\")
+        logger.info(f\"📋 Ligues à traiter: {{list(self.all_leagues.keys())}}\")
+        '''
+    
+    # Injecter le code après l'initialisation des ligues
+    if '# Saisons à analyser' in content:
+        content = content.replace(
+            '# Saisons à analyser',
+            filter_code + '\n        # Saisons à analyser'
+        )
+        print('✅ Filtrage injecté avec succès')
+    else:
+        print('⚠️ Point d\\'injection non trouvé - utilisation du script original')
+    
+    # Sauvegarder le script modifié
+    with open('complete_football_odds_collector_filtered.py', 'w', encoding='utf-8') as f:
+        f.write(content)
+    
+    print(f'✅ Script personnalisé créé: complete_football_odds_collector_filtered.py')
+else:
+    print('ℹ️ Aucun filtrage demandé')
+"
+        else
+          echo "ℹ️ Pas de filtrage - utilisation du script original"
+          cp complete_football_odds_collector.py complete_football_odds_collector_filtered.py
+        fi
+
+    # Étape 9: Exécution de la collecte complète des odds
+    - name: Run complete football odds collection
+      env:
+        RAPIDAPI_KEY: ${{ secrets.RAPIDAPI_KEY }}
+      run: |
+        echo "🚀 === DÉBUT DE LA COLLECTE COMPLÈTE DES ODDS ==="
+        echo "📅 Démarrage: $(date '+%Y-%m-%d %H:%M:%S UTC')"
+        echo "🎯 Mode: Collecte manuelle complète"
+        echo "📁 Destination: data/odds/"
+        echo "🔄 Script: complete_football_odds_collector_filtered.py"
+        echo ""
+        
+        # Lancement avec capture complète des logs
+        python complete_football_odds_collector_filtered.py 2>&1 | tee collection_output.log
+        
+        # Capturer le code de sortie
+        exit_code=${PIPESTATUS[0]}
+        
+        echo ""
+        echo "📅 Fin d'exécution: $(date '+%Y-%m-%d %H:%M:%S UTC')"
+        echo "🔢 Code de sortie: $exit_code"
+        
+        if [ $exit_code -ne 0 ]; then
+          echo "❌ La collecte s'est terminée avec des erreurs"
+        else
+          echo "✅ Collecte terminée avec succès"
+        fi
+
+    # Étape 10: Analyse détaillée des données collectées
+    - name: Analyze collected odds data
+      run: |
+        echo "=== ANALYSE DES DONNÉES COLLECTÉES ==="
+        echo "📅 Analyse effectuée le: $(date '+%Y-%m-%d %H:%M:%S UTC')"
+        echo ""
+        
+        # Vérifier la structure créée
+        if [ -d "data/odds" ]; then
+          echo "✅ Dossier principal odds créé: data/odds/"
+          
+          # Analyser les données brutes
+          if [ -d "data/odds/raw_data" ]; then
+            echo ""
+            echo "📊 === DONNÉES BRUTES COLLECTÉES ==="
+            
+            raw_files=(data/odds/raw_data/*.csv)
+            if [ -e "${raw_files[0]}" ]; then
+              total_files=0
+              total_size=0
+              total_lines=0
+              
+              echo "Liste des fichiers générés:"
+              for file in data/odds/raw_data/*.csv; do
+                if [ -f "$file" ]; then
+                  filename=$(basename "$file")
+                  lines=$(($(wc -l < "$file") - 1))  # Exclure l'en-tête
+                  size=$(stat -f%z "$file" 2>/dev/null || stat -c%s "$file" 2>/dev/null || echo "0")
+                  size_mb=$(echo "scale=2; $size / 1024 / 1024" | bc -l 2>/dev/null || python3 -c "print(f'{$size/1024/1024:.2f}')")
+                  
+                  echo "  📄 $filename"
+                  echo "      📊 Cotes: $lines"
+                  echo "      💾 Taille: ${size_mb}MB"
+                  echo ""
+                  
+                  total_files=$((total_files + 1))
+                  total_lines=$((total_lines + lines))
+                  total_size=$((total_size + size))
+                fi
+              done
+              
+              total_size_mb=$(echo "scale=2; $total_size / 1024 / 1024" | bc -l 2>/dev/null || python3 -c "print(f'{$total_size/1024/1024:.2f}')")
+              
+              echo "📈 === RÉSUMÉ GLOBAL ==="
+              echo "  📁 Fichiers générés: $total_files"
+              echo "  🎲 Total cotes collectées: $total_lines"
+              echo "  💾 Taille totale: ${total_size_mb}MB"
+              
+            else
+              echo "⚠️ Aucun fichier CSV généré dans raw_data/"
+            fi
+          fi
+          
+          # Analyser les résumés
+          if [ -d "data/odds/summaries" ]; then
+            echo ""
+            echo "📈 === RÉSUMÉS ANALYTIQUES ==="
+            summary_files=(data/odds/summaries/*.csv)
+            if [ -e "${summary_files[0]}" ]; then
+              summary_count=$(ls data/odds/summaries/*.csv 2>/dev/null | wc -l)
+              echo "📊 Fichiers de résumé générés: $summary_count"
+              ls -la data/odds/summaries/ | head -10
+            else
+              echo "⚠️ Aucun fichier de résumé généré"
+            fi
+          fi
+          
+          # Vérifier les métadonnées
+          if [ -f "data/odds/collection_metadata.json" ]; then
+            echo ""
+            echo "📄 === MÉTADONNÉES DE COLLECTE ==="
+            echo "Extrait des métadonnées:"
+            head -30 data/odds/collection_metadata.json | python3 -m json.tool 2>/dev/null || head -30 data/odds/collection_metadata.json
+          fi
+          
+        else
+          echo "❌ Dossier data/odds/ non créé"
+        fi
+        
+        # Afficher les derniers logs
+        echo ""
+        echo "📝 === LOGS RÉCENTS ==="
+        if [ -f "football_odds.log" ]; then
+          echo "Dernières 30 lignes du log principal:"
+          tail -30 football_odds.log
+        else
+          echo "⚠️ Fichier football_odds.log non trouvé"
+        fi
+
+    # Étape 11: Stratégie intelligente de commit (gestion des gros fichiers)
+    - name: Smart commit and push strategy
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action - Odds Collector"
+        
+        echo "🔍 === ANALYSE DES FICHIERS POUR COMMIT ==="
+        
+        # Toujours ajouter les petits fichiers
+        git add data/odds/summaries/*.csv 2>/dev/null && echo "✅ Résumés ajoutés" || echo "ℹ️ Aucun résumé"
+        git add data/odds/collection_metadata.json 2>/dev/null && echo "✅ Métadonnées ajoutées" || echo "ℹ️ Pas de métadonnées"
+        git add football_odds.log 2>/dev/null && echo "✅ Log principal ajouté" || echo "ℹ️ Pas de log"
+        git add collection_output.log 2>/dev/null && echo "✅ Log de collecte ajouté" || echo "ℹ️ Pas de log de collecte"
+        
+        # Gestion intelligente des fichiers de données volumineux
+        large_files_count=0
+        small_files_count=0
+        total_data_size=0
+        
+        echo ""
+        echo "📊 Analyse des fichiers de données:"
+        
+        if [ -d "data/odds/raw_data" ]; then
+          for file in data/odds/raw_data/*.csv; do
+            if [ -f "$file" ]; then
+              size=$(stat -f%z "$file" 2>/dev/null || stat -c%s "$file" 2>/dev/null || echo "0")
+              size_mb=$(echo "scale=1; $size / 1024 / 1024" | bc -l 2>/dev/null || python3 -c "print(f'{$size/1024/1024:.1f}')")
+              filename=$(basename "$file")
+              
+              # Seuil: 75MB pour GitHub
+              if (( $(echo "$size > 75000000" | bc -l 2>/dev/null || python3 -c "print($size > 75000000)") )); then
+                echo "📊 Fichier volumineux (${size_mb}MB): $filename"
+                large_files_count=$((large_files_count + 1))
+                
+                # Créer un résumé pour les gros fichiers
+                lines=$(($(wc -l < "$file") - 1))
+                echo "$filename,$lines,${size_mb},$(date -Iseconds)" >> "data/odds/large_files_summary.csv"
+                
+              else
+                echo "✅ Fichier standard (${size_mb}MB): $filename"
+                git add "$file"
+                small_files_count=$((small_files_count + 1))
+              fi
+              
+              total_data_size=$((total_data_size + size))
+            fi
+          done
+          
+          # Ajouter le résumé des gros fichiers s'il existe
+          if [ -f "data/odds/large_files_summary.csv" ]; then
+            echo "league_file,total_odds,file_size_mb,created_at" > temp_summary.csv
+            cat "data/odds/large_files_summary.csv" >> temp_summary.csv
+            mv temp_summary.csv "data/odds/large_files_summary.csv"
+            git add "data/odds/large_files_summary.csv"
+            echo "📋 Résumé des gros fichiers créé"
+          fi
+        fi
+        
+        total_size_mb=$(echo "scale=1; $total_data_size / 1024 / 1024" | bc -l 2>/dev/null || python3 -c "print(f'{$total_data_size/1024/1024:.1f}')")
+        
+        echo ""
+        echo "📈 === BILAN COMMIT ==="
+        echo "  📁 Fichiers standards ajoutés: $small_files_count"
+        echo "  📊 Fichiers volumineux exclus: $large_files_count"
+        echo "  💾 Taille totale données: ${total_size_mb}MB"
+        
+        # Vérifier s'il y a des changements à committer
+        if git diff --staged --quiet; then
+          echo ""
+          echo "ℹ️ Aucun changement détecté - repository déjà à jour"
+        else
+          echo ""
+          echo "🔄 Nouveaux données odds détectées - préparation du commit..."
+          
+          # Compter les fichiers modifiés
+          modified_files=$(git diff --staged --name-only | wc -l)
+          
+          # Message de commit détaillé avec émojis
+          commit_message="🎲 Collecte complète odds (manuel) - $(date '+%Y-%m-%d %H:%M')
+
+📊 Résumé de la collecte:
+  • Fichiers modifiés: $modified_files
+  • Fichiers standards: $small_files_count
+  • Fichiers volumineux: $large_files_count (résumés)
+  • Taille totale: ${total_size_mb}MB
+  • Période: 365 derniers jours
+  • Objectif: TOUS bookmakers et marchés
+  • Destination: data/odds/
+
+🤖 Collecte manuelle via GitHub Actions
+🎯 Filtrage: ${{ github.event.inputs.league_filter || 'Toutes les ligues' }}"
+          
+          git commit -m "$commit_message"
+          git push
+          
+          echo "✅ Données odds committées et poussées vers le repository"
+        fi
+
+    # Étape 12: Upload des artifacts (fichiers volumineux + logs)
+    - name: Upload comprehensive artifacts
+      if: always()
+      uses: actions/upload-artifact@v4
+      with:
+        name: complete-odds-collection-${{ github.run_number }}
+        path: |
+          data/odds/raw_data/*.csv
+          data/odds/summaries/*.csv
+          data/odds/collection_metadata.json
+          data/odds/large_files_summary.csv
+          football_odds.log
+          collection_output.log
+        retention-days: 30
+        if-no-files-found: warn
+
+    # Étape 13: Rapport final complet et notifications
+    - name: Generate final comprehensive report
+      if: always()
+      run: |
+        echo ""
+        echo "🎉 === RAPPORT FINAL DE LA COLLECTE COMPLÈTE ==="
+        echo "📅 Terminé le: $(date '+%Y-%m-%d %H:%M:%S UTC')"
+        echo ""
+        
+        # Statut global
+        if [ "${{ job.status }}" = "success" ]; then
+          echo "✅ STATUT GLOBAL: SUCCÈS COMPLET"
+          status_emoji="✅"
+        else
+          echo "⚠️ STATUT GLOBAL: TERMINÉ AVEC AVERTISSEMENTS"
+          status_emoji="⚠️"
+        fi
+        
+        echo ""
+        echo "📊 === BILAN DE LA COLLECTE ==="
+        
+        # Compter les résultats
+        if [ -d "data/odds/raw_data" ]; then
+          data_files=$(ls data/odds/raw_data/*.csv 2>/dev/null | wc -l)
+          echo "  📁 Fichiers de données: $data_files"
+          
+          # Calculer le total de cotes
+          total_odds=0
+          for file in data/odds/raw_data/*.csv; do
+            if [ -f "$file" ]; then
+              lines=$(($(wc -l < "$file") - 1))
+              total_odds=$((total_odds + lines))
+            fi
+          done
+          echo "  🎲 Total cotes collectées: $total_odds"
+        else
+          echo "  📁 Fichiers de données: 0"
+          echo "  🎲 Total cotes collectées: 0"
+        fi
+        
+        if [ -d "data/odds/summaries" ]; then
+          summary_files=$(ls data/odds/summaries/*.csv 2>/dev/null | wc -l)
+          echo "  📈 Fichiers de résumés: $summary_files"
+        else
+          echo "  📈 Fichiers de résumés: 0"
+        fi
+        
+        # Taille des données
+        if [ -d "data/odds" ]; then
+          total_size=$(du -sh data/odds 2>/dev/null | cut -f1 || echo "0B")
+          echo "  💾 Taille totale: $total_size"
+        fi
+        
+        echo ""
+        echo "📦 === INFORMATIONS ARTIFACTS ==="
+        echo "  🏷️ Nom: complete-odds-collection-${{ github.run_number }}"
+        echo "  📋 Contenu: Tous fichiers de données + logs"
+        echo "  ⏰ Rétention: 30 jours"
+        echo "  🔗 Accès: Actions → Run #${{ github.run_number }} → Artifacts"
+        
+        echo ""
+        echo "🗂️ === STRUCTURE FINALE DES DONNÉES ==="
+        echo "data/"
+        echo "├── [fichiers matchs existants].csv"
+        echo "└── odds/"
+        echo "    ├── raw_data/"
+        echo "    │   └── [LIGUE]_complete_odds.csv"
+        echo "    ├── summaries/"
+        echo "    │   ├── [LIGUE]_bookmaker_summary.csv"
+        echo "    │   └── [LIGUE]_bet_types_summary.csv"
+        echo "    ├── collection_metadata.json"
+        echo "    └── large_files_summary.csv (si applicable)"
+        
+        echo ""
+        echo "💡 === INFORMATIONS UTILES ==="
+        echo "  🎯 Période couverte: 365 derniers jours"
+        echo "  📊 Données: TOUS bookmakers et marchés disponibles"
+        echo "  🔄 Type: Collecte manuelle complète"
+        echo "  📁 Organisation: Données dans data/odds/"
+        echo "  🔍 Filtrage appliqué: ${{ github.event.inputs.league_filter || 'Aucun (toutes les ligues)' }}"
+        
+        echo ""
+        echo "$status_emoji COLLECTE COMPLÈTE TERMINÉE!"
+        echo "   Les cotes historiques ont été récupérées et organisées"
+        echo "   dans le dossier data/odds/ selon la structure définie."
+        echo ""
+        echo "🚀 Prochaine étape: Analyser les données dans data/odds/"
