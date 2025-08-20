@@ -1,10 +1,8 @@
 # .github/workflows/complete_football_odds_collection.yml
 name: Complete Football Odds Collection (TOUS les marchés et bookmakers)
 
-# Déclenchement manuel + automatique hebdomadaire
+# Déclenchement manuel uniquement (suppression du schedule)
 on:
-  schedule:
-    - cron: '0 6 * * 6'  # Tous les samedis à 6h00 UTC
   workflow_dispatch:  # Permet de lancer manuellement le workflow
     inputs:
       league_filter:
@@ -42,13 +40,13 @@ jobs:
         pip install requests pandas numpy
         pip install --upgrade urllib3 requests
 
-    # Étape 4: Création des dossiers nécessaires
+    # Étape 4: Création des dossiers nécessaires dans data/
     - name: Create directories
       run: |
         mkdir -p data
-        mkdir -p complete_odds_data
-        mkdir -p complete_odds_data/raw_data
-        mkdir -p complete_odds_data/summaries
+        mkdir -p data/odds
+        mkdir -p data/odds/raw_data
+        mkdir -p data/odds/summaries
 
     # Étape 5: Vérification de l'espace disque et des fichiers existants
     - name: Check system resources and existing files
@@ -61,14 +59,14 @@ jobs:
         echo ""
         echo "=== FICHIERS EXISTANTS (MATCHS) ==="
         if [ -d "data" ]; then
-          ls -la data/ || echo "Dossier data vide"
-          echo "Nombre de fichiers CSV matchs: $(ls data/*.csv 2>/dev/null | wc -l)"
+          find data/ -maxdepth 1 -name "*.csv" -type f | head -10 || echo "Aucun fichier CSV match dans data/"
+          echo "Nombre de fichiers CSV matchs: $(find data/ -maxdepth 1 -name '*.csv' -type f | wc -l)"
         fi
         echo ""
         echo "=== FICHIERS EXISTANTS (ODDS) ==="
-        if [ -d "complete_odds_data/raw_data" ]; then
-          ls -la complete_odds_data/raw_data/ || echo "Dossier odds vide"
-          echo "Nombre de fichiers CSV odds: $(ls complete_odds_data/raw_data/*.csv 2>/dev/null | wc -l)"
+        if [ -d "data/odds/raw_data" ]; then
+          ls -la data/odds/raw_data/ || echo "Dossier odds vide"
+          echo "Nombre de fichiers CSV odds: $(ls data/odds/raw_data/*.csv 2>/dev/null | wc -l)"
         fi
 
     # Étape 6: Test de connectivité API
@@ -159,6 +157,7 @@ else:
         echo "🚀 DÉBUT DE LA COLLECTE COMPLÈTE DES ODDS"
         echo "📅 Date de début: $(date)"
         echo "🎯 Objectif: TOUS les bookmakers, TOUS les marchés"
+        echo "📁 Destination: data/odds/"
         echo ""
         
         # Lancement avec gestion d'erreurs
@@ -175,20 +174,20 @@ else:
         echo ""
         
         # Vérifier le dossier principal
-        if [ -d "complete_odds_data" ]; then
-          echo "✅ Dossier principal odds créé"
+        if [ -d "data/odds" ]; then
+          echo "✅ Dossier principal odds créé dans data/"
           
           # Analyser les fichiers de données brutes
-          if [ -d "complete_odds_data/raw_data" ]; then
+          if [ -d "data/odds/raw_data" ]; then
             echo ""
             echo "📊 FICHIERS DE DONNÉES BRUTES:"
-            raw_files=(complete_odds_data/raw_data/*.csv)
+            raw_files=(data/odds/raw_data/*.csv)
             if [ -e "${raw_files[0]}" ]; then
               total_files=0
               total_size=0
               total_lines=0
               
-              for file in complete_odds_data/raw_data/*.csv; do
+              for file in data/odds/raw_data/*.csv; do
                 if [ -f "$file" ]; then
                   filename=$(basename "$file")
                   lines=$(($(wc -l < "$file") - 1))  # Exclure l'en-tête
@@ -217,26 +216,26 @@ else:
           fi
           
           # Analyser les résumés
-          if [ -d "complete_odds_data/summaries" ]; then
+          if [ -d "data/odds/summaries" ]; then
             echo ""
             echo "📈 FICHIERS DE RÉSUMÉS:"
-            summary_files=(complete_odds_data/summaries/*.csv)
+            summary_files=(data/odds/summaries/*.csv)
             if [ -e "${summary_files[0]}" ]; then
-              ls -la complete_odds_data/summaries/
+              ls -la data/odds/summaries/
             else
               echo "⚠️ Aucun fichier de résumé généré"
             fi
           fi
           
           # Vérifier les métadonnées
-          if [ -f "complete_odds_data/collection_metadata.json" ]; then
+          if [ -f "data/odds/collection_metadata.json" ]; then
             echo ""
             echo "📄 MÉTADONNÉES DE COLLECTE:"
-            echo "$(head -20 complete_odds_data/collection_metadata.json)"
+            echo "$(head -20 data/odds/collection_metadata.json)"
           fi
           
         else
-          echo "❌ Dossier complete_odds_data non créé"
+          echo "❌ Dossier data/odds non créé"
         fi
         
         # Vérifier les logs
@@ -257,16 +256,16 @@ else:
         echo "🔍 Analyse des fichiers pour commit intelligent..."
         
         # Ajouter les fichiers de résumés (toujours petits)
-        git add complete_odds_data/summaries/*.csv 2>/dev/null || echo "Aucun fichier de résumé"
-        git add complete_odds_data/collection_metadata.json 2>/dev/null || echo "Aucun fichier de métadonnées"
+        git add data/odds/summaries/*.csv 2>/dev/null || echo "Aucun fichier de résumé"
+        git add data/odds/collection_metadata.json 2>/dev/null || echo "Aucun fichier de métadonnées"
         git add football_odds.log 2>/dev/null || echo "Aucun fichier de log"
         
         # Gestion intelligente des gros fichiers de données
         large_files_count=0
         small_files_count=0
         
-        if [ -d "complete_odds_data/raw_data" ]; then
-          for file in complete_odds_data/raw_data/*.csv; do
+        if [ -d "data/odds/raw_data" ]; then
+          for file in data/odds/raw_data/*.csv; do
             if [ -f "$file" ]; then
               size=$(stat -f%z "$file" 2>/dev/null || stat -c%s "$file" 2>/dev/null || echo "0")
               size_mb=$(echo "$size / 1024 / 1024" | bc -l 2>/dev/null || echo "0")
@@ -278,8 +277,8 @@ else:
                 large_files_count=$((large_files_count + 1))
                 
                 # Créer un fichier résumé pour les gros fichiers
-                echo "league_file,total_odds,file_size_mb,created_at" > "complete_odds_data/large_file_summary.csv"
-                echo "$(basename "$file"),$(($(wc -l < "$file") - 1)),${size_mb},$(date -Iseconds)" >> "complete_odds_data/large_file_summary.csv"
+                echo "league_file,total_odds,file_size_mb,created_at" > "data/odds/large_file_summary.csv"
+                echo "$(basename "$file"),$(($(wc -l < "$file") - 1)),${size_mb},$(date -Iseconds)" >> "data/odds/large_file_summary.csv"
                 
               else
                 # Fichier < 50MB : commit normal
@@ -292,7 +291,7 @@ else:
         fi
         
         # Ajouter le résumé des gros fichiers s'il existe
-        git add complete_odds_data/large_file_summary.csv 2>/dev/null || true
+        git add data/odds/large_file_summary.csv 2>/dev/null || true
         
         # Vérifier s'il y a des changements à committer
         if git diff --staged --quiet; then
@@ -312,8 +311,9 @@ else:
 - Gros fichiers résumés: $large_files_count
 - Période: 365 derniers jours
 - Objectif: TOUS les bookmakers et marchés
+- Destination: data/odds/
 
-🤖 Collecte automatique via GitHub Actions"
+🤖 Collecte manuelle via GitHub Actions"
           
           git commit -m "$commit_message"
           git push
@@ -328,10 +328,10 @@ else:
       with:
         name: complete-odds-collection-${{ github.run_number }}
         path: |
-          complete_odds_data/raw_data/*.csv
+          data/odds/raw_data/*.csv
           football_odds.log
           collection_output.log
-          complete_odds_data/collection_metadata.json
+          data/odds/collection_metadata.json
         retention-days: 30
 
     # Étape 13: Résumé final et notifications
@@ -351,19 +351,19 @@ else:
         fi
         
         # Résumé des fichiers créés
-        if [ -d "complete_odds_data/raw_data" ]; then
-          file_count=$(ls complete_odds_data/raw_data/*.csv 2>/dev/null | wc -l)
+        if [ -d "data/odds/raw_data" ]; then
+          file_count=$(ls data/odds/raw_data/*.csv 2>/dev/null | wc -l)
           echo "📊 Fichiers de données créés: $file_count"
         fi
         
-        if [ -d "complete_odds_data/summaries" ]; then
-          summary_count=$(ls complete_odds_data/summaries/*.csv 2>/dev/null | wc -l)
+        if [ -d "data/odds/summaries" ]; then
+          summary_count=$(ls data/odds/summaries/*.csv 2>/dev/null | wc -l)
           echo "📈 Fichiers de résumés créés: $summary_count"
         fi
         
         # Espace disque utilisé
-        if [ -d "complete_odds_data" ]; then
-          total_size=$(du -sh complete_odds_data 2>/dev/null | cut -f1 || echo "0")
+        if [ -d "data/odds" ]; then
+          total_size=$(du -sh data/odds 2>/dev/null | cut -f1 || echo "0")
           echo "💾 Espace total utilisé: $total_size"
         fi
         
@@ -376,7 +376,20 @@ else:
         echo "  - Accès: Actions > Artifacts de cette exécution"
         
         echo ""
+        echo "📁 STRUCTURE FINALE DES DONNÉES:"
+        echo "data/"
+        echo "├── [fichiers de matchs existants].csv"
+        echo "└── odds/"
+        echo "    ├── raw_data/"
+        echo "    │   └── [ligue]_complete_odds.csv"
+        echo "    ├── summaries/"
+        echo "    │   ├── [ligue]_bookmaker_summary.csv"
+        echo "    │   └── [ligue]_bet_types_summary.csv"
+        echo "    └── collection_metadata.json"
+        
+        echo ""
         echo "🎯 COLLECTE COMPLÈTE TERMINÉE!"
         echo "   Toutes les cotes historiques disponibles ont été récupérées"
         echo "   pour la période de 365 derniers jours sur TOUS les marchés"
         echo "   et TOUS les bookmakers disponibles via API-Football."
+        echo "   📁 Données organisées dans: data/odds/" 
