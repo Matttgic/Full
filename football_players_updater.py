@@ -394,6 +394,56 @@ class FootballPlayersUpdater:
             combined_df = new_df
         
         # Sauvegarder
+        filepath = os.path.join(self.player_stats_folder, f"{league_code}_players.csv")
+        try:
+            combined_df.to_csv(filepath, index=False, encoding='utf-8')
+            logger.info(f"💾 Stats joueurs mises à jour: {filepath} ({len(combined_df)} lignes)")
+            self.stats['files_updated'] += 1
+        except Exception as e:
+            logger.error(f"❌ Erreur sauvegarde stats joueurs {league_code}: {e}")
+    
+    def update_match_lineups(self, existing_df: pd.DataFrame, new_lineups: List[Dict], league_code: str) -> None:
+        """Met à jour le fichier des compositions"""
+        # Aplatir les nouvelles compositions
+        flattened_lineups = []
+        for lineup in new_lineups:
+            base_info = {
+                'fixture_id': lineup['fixture_id'],
+                'league_code': lineup['league_code'],
+                'match_date': lineup['match_date'],
+                'home_team': lineup['home_team'],
+                'away_team': lineup['away_team']
+            }
+            
+            for i, team in enumerate(lineup['teams']):
+                team_info = base_info.copy()
+                team_info.update({
+                    f'team_{i+1}_id': team['team_id'],
+                    f'team_{i+1}_name': team['team_name'],
+                    f'team_{i+1}_players_count': team['players_count']
+                })
+                if i == 0:
+                    flattened_lineups.append(team_info)
+                else:
+                    if flattened_lineups:
+                        flattened_lineups[-1].update({
+                            f'team_{i+1}_id': team['team_id'],
+                            f'team_{i+1}_name': team['team_name'],
+                            f'team_{i+1}_players_count': team['players_count']
+                        })
+        
+        new_df = pd.DataFrame(flattened_lineups)
+        
+        if not existing_df.empty:
+            # Supprimer les anciennes données
+            existing_df['match_date'] = pd.to_datetime(existing_df['match_date']).dt.date
+            recent_existing = existing_df[existing_df['match_date'] >= self.cutoff_date]
+            
+            combined_df = pd.concat([recent_existing, new_df], ignore_index=True)
+        else:
+            combined_df = new_df
+        
+        # Sauvegarder
         filepath = os.path.join(self.match_lineups_folder, f"{league_code}_lineups.csv")
         try:
             combined_df.to_csv(filepath, index=False, encoding='utf-8')
@@ -515,53 +565,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-        
-        # Sauvegarder
-        filepath = os.path.join(self.player_stats_folder, f"{league_code}_players.csv")
-        try:
-            combined_df.to_csv(filepath, index=False, encoding='utf-8')
-            logger.info(f"💾 Stats joueurs mises à jour: {filepath} ({len(combined_df)} lignes)")
-            self.stats['files_updated'] += 1
-        except Exception as e:
-            logger.error(f"❌ Erreur sauvegarde stats joueurs {league_code}: {e}")
-    
-    def update_match_lineups(self, existing_df: pd.DataFrame, new_lineups: List[Dict], league_code: str) -> None:
-        """Met à jour le fichier des compositions"""
-        # Aplatir les nouvelles compositions
-        flattened_lineups = []
-        for lineup in new_lineups:
-            base_info = {
-                'fixture_id': lineup['fixture_id'],
-                'league_code': lineup['league_code'],
-                'match_date': lineup['match_date'],
-                'home_team': lineup['home_team'],
-                'away_team': lineup['away_team']
-            }
-            
-            for i, team in enumerate(lineup['teams']):
-                team_info = base_info.copy()
-                team_info.update({
-                    f'team_{i+1}_id': team['team_id'],
-                    f'team_{i+1}_name': team['team_name'],
-                    f'team_{i+1}_players_count': team['players_count']
-                })
-                if i == 0:
-                    flattened_lineups.append(team_info)
-                else:
-                    if flattened_lineups:
-                        flattened_lineups[-1].update({
-                            f'team_{i+1}_id': team['team_id'],
-                            f'team_{i+1}_name': team['team_name'],
-                            f'team_{i+1}_players_count': team['players_count']
-                        })
-        
-        new_df = pd.DataFrame(flattened_lineups)
-        
-        if not existing_df.empty:
-            # Supprimer les anciennes données
-            existing_df['match_date'] = pd.to_datetime(existing_df['match_date']).dt.date
-            recent_existing = existing_df[existing_df['match_date'] >= self.cutoff_date]
-            
-            combined_df = pd.concat([recent_existing, new_df], ignore_index=True)
-        else:
-            combined_df = new_df
