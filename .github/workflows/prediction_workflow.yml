@@ -1,0 +1,192 @@
+name: Football Match Prediction
+
+on:
+  schedule:
+    - cron: '0 11,14,17,20 * * *' # Run at 11, 14, 17, and 20 UTC
+  workflow_dispatch:
+
+jobs:
+  get_daily_fixtures:
+    runs-on: ubuntu-latest
+    outputs:
+      fixtures_json: ${{ steps.get_fixtures.outputs.fixtures }}
+    steps:
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install dependencies
+        run: pip install requests
+      - name: Get Fixtures for Today
+        id: get_fixtures
+        env:
+          RAPIDAPI_KEY: ${{ secrets.RAPIDAPI_KEY }}
+        run: |
+          import requests
+          import os
+          import json
+          from datetime import datetime
+
+          # League IDs we are interested in
+          LEAGUE_IDS = [39, 61, 135, 78, 140, 88, 94, 144, 40, 62, 136, 79, 141, 203, 307]
+
+          today_str = datetime.utcnow().strftime('%Y-%m-%d')
+
+          url = "https://api-football-v1.p.rapidapi.com/v3/fixtures"
+          params = {"date": today_str}
+          headers = {
+              'x-rapidapi-host': "api-football-v1.p.rapidapi.com",
+              'x-rapidapi-key': os.environ['RAPIDAPI_KEY']
+          }
+
+          response = requests.get(url, headers=headers, params=params)
+          response.raise_for_status()
+          data = response.json()['response']
+
+          fixture_ids = [
+              item['fixture']['id']
+              for item in data
+              if item['league']['id'] in LEAGUE_IDS and item['fixture']['status']['short'] == 'NS'
+          ]
+
+          print(f"Found {len(fixture_ids)} fixtures for today: {fixture_ids}")
+
+          # Set the output for the next job
+          with open(os.environ['GITHUB_OUTPUT'], 'a') as hf:
+              print(f'fixtures={json.dumps(fixture_ids)}', file=hf)
+
+  run_analysis:
+    needs: get_daily_fixtures
+    if: ${{ needs.get_daily_fixtures.outputs.fixtures_json != '[]' }}
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        fixture: ${{ fromJson(needs.get_daily_fixtures.outputs.fixtures_json) }}
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install pandas pyarrow fastparquet requests
+
+      - name: Preprocess Data and Run Analysis for Fixture ${{ matrix.fixture }}
+        env:
+          RAPIDAPI_KEY: ${{ secrets.RAPIDAPI_KEY }}
+        run: |
+          # Preprocess data first
+          python3 -m analysis.match_analyzer --preprocess
+          # Then run the analysis
+          python3 -m analysis.match_analyzer --analyze ${{ matrix.fixture }}
+
+      - name: Upload Prediction Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: prediction-${{ matrix.fixture }}
+          path: analysis/predictions/prediction_${{ matrix.fixture }}.json
+          retention-days: 1
+
+  aggregate_and_commit:
+    needs: run_analysis
+    if: success()
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install pandas
+
+      - name: Download all prediction artifacts
+        uses: actions/download-artifact@v4
+        with:
+          path: artifacts/
+
+      - name: Aggregate Predictions
+        id: aggregate
+        run: |
+          import pandas as pd
+          import os
+          import glob
+          import json
+
+          prediction_files = glob.glob("artifacts/prediction-*/prediction_*.json")
+
+          if not prediction_files:
+              print("No new predictions to process.")
+              # Set output to false to skip commit step
+              with open(os.environ['GITHUB_OUTPUT'], 'a') as hf:
+                  print(f'has_changes=false', file=hf)
+              exit()
+
+          all_predictions = []
+          for f in prediction_files:
+              with open(f, 'r') as file:
+                  data = json.load(file)
+                  if data['status'] == 'success' and data['probabilities']:
+                      # Flatten the data for the CSV
+                      row = {
+                          'fixture_id': data['fixture_id'],
+                          'prediction_timestamp': data['prediction_timestamp'],
+                          'similar_matches_count': data['similar_matches_count'],
+                          'avg_similarity_score': data['avg_similarity_score'],
+                      }
+                      # Add probabilities as columns
+                      for outcome, prob in data['probabilities'].items():
+                          row[f'prob_{outcome}'] = prob
+                      all_predictions.append(row)
+
+          if not all_predictions:
+              print("All predictions failed or found no similar matches.")
+              with open(os.environ['GITHUB_OUTPUT'], 'a') as hf:
+                  print(f'has_changes=false', file=hf)
+              exit()
+
+          # Create the daily predictions DataFrame
+          daily_df = pd.DataFrame(all_predictions)
+          daily_df.to_csv('predictions_du_jour.csv', index=False)
+          print("Daily predictions file created.")
+
+          # Create or update the history file
+          history_path = 'historique_predictions.csv'
+          history_df = pd.read_csv(history_path) if os.path.exists(history_path) else pd.DataFrame()
+
+          combined_history = pd.concat([history_df, daily_df], ignore_index=True)
+          # Update existing entries with the latest prediction
+          combined_history.drop_duplicates(subset=['fixture_id'], keep='last', inplace=True)
+          combined_history.sort_values(by='prediction_timestamp', ascending=False, inplace=True)
+
+          combined_history.to_csv(history_path, index=False)
+          print("Prediction history file updated.")
+
+          with open(os.environ['GITHUB_OUTPUT'], 'a') as hf:
+              print(f'has_changes=true', file=hf)
+
+      - name: Commit and Push Changes
+        if: steps.aggregate.outputs.has_changes == 'true'
+        run: |
+          git config user.name "GitHub Action"
+          git config user.email "action@github.com"
+          git add predictions_du_jour.csv historique_predictions.csv
+
+          if [ -z "$(git status --porcelain)" ]; then
+            echo "No changes to commit."
+            exit 0
+          fi
+
+          git commit -m "Feat: Add daily predictions for $(date -u +'%Y-%m-%d %H:%M')"
+          git push

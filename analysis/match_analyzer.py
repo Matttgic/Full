@@ -5,6 +5,8 @@ import numpy as np
 import logging
 import argparse
 import requests
+import json
+from datetime import datetime
 from . import config
 
 # Configure logging
@@ -31,7 +33,6 @@ def create_feature_matrix(df: pd.DataFrame) -> pd.DataFrame:
 
     df['bet_identifier'] = df['bet_type_name'] + '_' + df['bet_value'].astype(str)
 
-    # Filter out bets with too few bookmakers for reliability
     bookmaker_counts = df.groupby(['fixture_id', 'bet_identifier'])['bookmaker_id'].nunique().reset_index()
     reliable_bets = bookmaker_counts[bookmaker_counts['bookmaker_id'] >= config.MIN_BOOKMAKERS_THRESHOLD]
     reliable_df = pd.merge(df, reliable_bets[['fixture_id', 'bet_identifier']], on=['fixture_id', 'bet_identifier'])
@@ -48,7 +49,7 @@ def get_match_results(df: pd.DataFrame) -> pd.DataFrame:
     if df.empty:
         return pd.DataFrame()
 
-    results_df = df[['fixture_id', 'home_goals', 'away_goals']].copy()
+    results_df = df[['fixture_id', 'home_team_name', 'away_team_name', 'home_goals', 'away_goals']].copy()
     results_df.dropna(subset=['home_goals', 'away_goals'], inplace=True)
 
     conditions = [
@@ -58,7 +59,7 @@ def get_match_results(df: pd.DataFrame) -> pd.DataFrame:
     choices = ['Home', 'Away']
     results_df['result'] = np.select(conditions, choices, default='Draw')
 
-    return results_df[['fixture_id', 'result']].drop_duplicates()
+    return results_df[['fixture_id', 'home_team_name', 'away_team_name', 'result']].drop_duplicates()
 
 def preprocess_and_save_data():
     """Orchestrates the data loading and preprocessing, saving the result."""
@@ -120,7 +121,6 @@ def get_api_odds_for_fixture(fixture_id: int) -> pd.DataFrame:
 
 def find_similar_matches(target_vector: pd.Series, historical_matrix: pd.DataFrame, threshold: float):
     """Finds similar matches based on odds distance."""
-    # Align columns - crucial for comparison
     common_bets = target_vector.index.intersection(historical_matrix.columns)
 
     if len(common_bets) == 0:
@@ -130,64 +130,70 @@ def find_similar_matches(target_vector: pd.Series, historical_matrix: pd.DataFra
     historical_aligned = historical_matrix[common_bets]
     target_aligned = target_vector[common_bets]
 
-    # Calculate absolute difference and mean it
-    # This is robust to missing data (NaNs)
     diff = np.abs(historical_aligned - target_aligned)
     distance = diff.mean(axis=1)
 
-    # Filter by threshold
-    similar_fixtures = distance[distance < threshold]
-    return similar_fixtures.sort_values()
+    return distance[distance < threshold].sort_values()
 
 def analyze_fixture(fixture_id: int):
     """Main analysis workflow for a single fixture."""
     logging.info(f"--- Starting Analysis for Fixture ID: {fixture_id} ---")
 
-    # 1. Load preprocessed historical data
+    # Define output directory and ensure it exists
+    output_dir = 'analysis/predictions'
+    os.makedirs(output_dir, exist_ok=True)
+    output_path = os.path.join(output_dir, f"prediction_{fixture_id}.json")
+
+    report = {
+        'fixture_id': fixture_id,
+        'prediction_timestamp': datetime.now().isoformat(),
+        'status': 'failed',
+        'error_message': '',
+        'similar_matches_count': 0,
+        'avg_similarity_score': None,
+        'probabilities': {}
+    }
+
     try:
         historical_df = pd.read_parquet(config.PROCESSED_DATA_PATH)
-    except FileNotFoundError:
-        logging.error(f"Processed data file not found at {config.PROCESSED_DATA_PATH}. Please run with --preprocess first.")
-        return
+        target_odds_vector = get_api_odds_for_fixture(fixture_id)
 
-    # 2. Get odds for the target fixture from the API
-    target_odds_vector = get_api_odds_for_fixture(fixture_id)
-    if target_odds_vector.empty:
-        logging.error(f"Could not retrieve or process odds for fixture {fixture_id}.")
-        return
+        if target_odds_vector.empty:
+            raise ValueError(f"Could not retrieve or process odds for fixture {fixture_id}.")
 
-    # 3. Find similar matches
-    target_vector = target_odds_vector.iloc[0]
-    historical_matrix = historical_df.drop(columns=['result'])
+        target_vector = target_odds_vector.iloc[0]
+        historical_matrix = historical_df.drop(columns=['result', 'home_team_name', 'away_team_name'], errors='ignore')
 
-    similar_matches = find_similar_matches(target_vector, historical_matrix, config.SIMILARITY_THRESHOLD)
+        similar_matches = find_similar_matches(target_vector, historical_matrix, config.SIMILARITY_THRESHOLD)
 
-    if similar_matches.empty:
-        logging.info("No historically similar matches found.")
-        return
+        if similar_matches.empty:
+            report.update({'status': 'success', 'error_message': 'No historically similar matches found.'})
+        else:
+            results_of_similar = historical_df.loc[similar_matches.index]['result']
+            result_stats = results_of_similar.value_counts(normalize=True).to_dict()
 
-    logging.info(f"Found {len(similar_matches)} similar matches with an average distance < {config.SIMILARITY_THRESHOLD}.")
+            report.update({
+                'status': 'success',
+                'similar_matches_count': len(similar_matches),
+                'avg_similarity_score': similar_matches.mean(),
+                'probabilities': {k: v * 100 for k, v in result_stats.items()}
+            })
 
-    # 4. Analyze the results of those similar matches
-    similar_ids = similar_matches.index
-    results_of_similar = historical_df.loc[similar_ids]['result']
+    except Exception as e:
+        logging.error(f"Analysis for fixture {fixture_id} failed: {e}")
+        report['error_message'] = str(e)
 
-    result_stats = results_of_similar.value_counts(normalize=True) * 100
+    # Save the report to a JSON file
+    with open(output_path, 'w') as f:
+        json.dump(report, f, indent=4)
 
-    print("\n--- Analysis Report ---")
-    print(f"Fixture ID: {fixture_id}")
-    print(f"Found {len(similar_ids)} similar historical matches.")
-    print("\nPredicted Outcome Probabilities:")
-    for outcome, percentage in result_stats.items():
-        print(f"  - {outcome}: {percentage:.2f}%")
-    print("-----------------------\n")
-
+    logging.info(f"Analysis report for fixture {fixture_id} saved to {output_path}")
 
 def main():
     """Main entry point to run preprocessing or analysis."""
     parser = argparse.ArgumentParser(description="Football Match Odds Analyzer.")
     parser.add_argument('--preprocess', action='store_true', help="Run the data preprocessing and save the feature matrix.")
-    parser.add_argument('--analyze', type=int, metavar='FIXTURE_ID', help="Analyze a specific fixture ID to find similar historical matches.")
+    parser.add_argument('--analyze', type=int, metavar='FIXTURE_ID', help="Analyze a specific fixture ID.")
 
     args = parser.parse_args()
 
