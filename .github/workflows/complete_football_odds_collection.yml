@@ -84,11 +84,12 @@ jobs:
         echo '        print("API accessible")' >> test_api.py
         echo '        account = data.get("account", {})' >> test_api.py
         echo '        subscription = data.get("subscription", {})' >> test_api.py
-        echo '        print(f"Plan: {subscription.get('"'"'plan'"'"', '"'"'N/A'"'"')}")' >> test_api.py
+        echo '        plan = subscription.get("plan", "N/A")' >> test_api.py
+        echo '        print("Plan:", plan)' >> test_api.py
         echo '    else:' >> test_api.py
-        echo '        print(f"Status code: {response.status_code}")' >> test_api.py
+        echo '        print("Status code:", response.status_code)' >> test_api.py
         echo 'except Exception as e:' >> test_api.py
-        echo '    print(f"Erreur API: {e}")' >> test_api.py
+        echo '    print("Erreur API:", e)' >> test_api.py
         echo '    exit(1)' >> test_api.py
         python test_api.py
 
@@ -117,18 +118,18 @@ jobs:
           echo '' >> prepare_filter.py
           echo '    if league_filter:' >> prepare_filter.py
           echo '        selected_leagues = [l.strip().upper() for l in league_filter.split(",") if l.strip()]' >> prepare_filter.py
-          echo '        print(f"Ligues sélectionnées: {selected_leagues}")' >> prepare_filter.py
+          echo '        print("Ligues sélectionnées:", selected_leagues)' >> prepare_filter.py
           echo '' >> prepare_filter.py
           echo '        filter_code = """' >> prepare_filter.py
           echo '        # Filtrage dynamique des ligues' >> prepare_filter.py
           echo '        original_leagues = len(self.all_leagues)' >> prepare_filter.py
           echo '        filtered_leagues = """ + str(selected_leagues) + """' >> prepare_filter.py
           echo '        self.all_leagues = {k: v for k, v in self.all_leagues.items() if k in filtered_leagues}' >> prepare_filter.py
-          echo '        logger.info(f"Filtrage activé: {len(self.all_leagues)}/{original_leagues} ligues")' >> prepare_filter.py
+          echo '        logger.info("Filtrage activé")' >> prepare_filter.py
           echo '        """' >> prepare_filter.py
           echo '' >> prepare_filter.py
           echo '        if "# Saisons à analyser" in content:' >> prepare_filter.py
-          echo '            content = content.replace("# Saisons à analyser", filter_code + "\n        # Saisons à analyser")' >> prepare_filter.py
+          echo '            content = content.replace("# Saisons à analyser", filter_code + "\\n        # Saisons à analyser")' >> prepare_filter.py
           echo '            print("Filtrage injecté avec succès")' >> prepare_filter.py
           echo '        else:' >> prepare_filter.py
           echo '            print("Point d injection non trouvé")' >> prepare_filter.py
@@ -141,7 +142,7 @@ jobs:
           echo '        print("Aucun filtrage demandé")' >> prepare_filter.py
           echo '' >> prepare_filter.py
           echo 'except Exception as e:' >> prepare_filter.py
-          echo '    print(f"Erreur: {e}")' >> prepare_filter.py
+          echo '    print("Erreur:", e)' >> prepare_filter.py
           python prepare_filter.py
         else
           echo "Pas de filtrage - utilisation du script original"
