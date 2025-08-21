@@ -1,0 +1,371 @@
+2025-08-21 12:23:46,990 - INFO - ✅ Clé API récupérée.
+2025-08-21 12:23:46,991 - INFO - 🚀 === DÉBUT DE LA MISE À JOUR DES COTES ===
+2025-08-21 12:23:46,991 - INFO - Fenêtre de temps: 2025-08-18 à 2025-08-28
+2025-08-21 12:23:46,991 - INFO - --- Mise à jour des cotes pour la ligue: ENG1 ---
+2025-08-21 12:23:46,999 - INFO - [ENG1] 411 matchs chargés, 11 dans la fenêtre de mise à jour.
+2025-08-21 12:23:47,000 - INFO - [ENG1] 0 matchs ont déjà des cotes.
+2025-08-21 12:23:47,000 - INFO - [ENG1] Traitement du match 1378978 (Status: FT)
+2025-08-21 12:23:47,000 - INFO - 🔍 Appel API pour les cotes du match 1378978
+2025-08-21 12:23:49,163 - INFO - [ENG1] Traitement du match 1378988 (Status: NS)
+2025-08-21 12:23:49,163 - INFO - 🔍 Appel API pour les cotes du match 1378988
+2025-08-21 12:23:51,030 - INFO - [ENG1] Traitement du match 1378979 (Status: NS)
+2025-08-21 12:23:51,030 - INFO - 🔍 Appel API pour les cotes du match 1378979
+2025-08-21 12:23:52,972 - INFO - [ENG1] Traitement du match 1378981 (Status: NS)
+2025-08-21 12:23:52,972 - INFO - 🔍 Appel API pour les cotes du match 1378981
+2025-08-21 12:23:54,852 - INFO - [ENG1] Traitement du match 1378982 (Status: NS)
+2025-08-21 12:23:54,852 - INFO - 🔍 Appel API pour les cotes du match 1378982
+2025-08-21 12:23:56,863 - INFO - [ENG1] Traitement du match 1378980 (Status: NS)
+2025-08-21 12:23:56,864 - INFO - 🔍 Appel API pour les cotes du match 1378980
+2025-08-21 12:23:58,750 - INFO - [ENG1] Traitement du match 1378986 (Status: NS)
+2025-08-21 12:23:58,750 - INFO - 🔍 Appel API pour les cotes du match 1378986
+2025-08-21 12:24:00,640 - INFO - [ENG1] Traitement du match 1378984 (Status: NS)
+2025-08-21 12:24:00,640 - INFO - 🔍 Appel API pour les cotes du match 1378984
+2025-08-21 12:24:02,495 - INFO - [ENG1] Traitement du match 1378983 (Status: NS)
+2025-08-21 12:24:02,496 - INFO - 🔍 Appel API pour les cotes du match 1378983
+2025-08-21 12:24:04,457 - INFO - [ENG1] Traitement du match 1378985 (Status: NS)
+2025-08-21 12:24:04,458 - INFO - 🔍 Appel API pour les cotes du match 1378985
+2025-08-21 12:24:06,323 - INFO - [ENG1] Traitement du match 1378987 (Status: NS)
+2025-08-21 12:24:06,323 - INFO - 🔍 Appel API pour les cotes du match 1378987
+2025-08-21 12:24:08,453 - INFO - 💾 Fichier de cotes pour ENG1 mis à jour: 49817 nouvelles entrées ajoutées, 49817 total.
+2025-08-21 12:24:08,461 - INFO - ⏱️ Pause de 5 secondes avant la prochaine ligue...
+2025-08-21 12:24:13,461 - INFO - --- Mise à jour des cotes pour la ligue: FRA1 ---
+2025-08-21 12:24:13,467 - INFO - [FRA1] 335 matchs chargés, 9 dans la fenêtre de mise à jour.
+2025-08-21 12:24:13,468 - INFO - [FRA1] 0 matchs ont déjà des cotes.
+2025-08-21 12:24:13,468 - INFO - [FRA1] Traitement du match 1387713 (Status: NS)
+2025-08-21 12:24:13,468 - INFO - 🔍 Appel API pour les cotes du match 1387713
+2025-08-21 12:24:15,377 - INFO - [FRA1] Traitement du match 1387710 (Status: NS)
+2025-08-21 12:24:15,378 - INFO - 🔍 Appel API pour les cotes du match 1387710
+2025-08-21 12:24:17,238 - INFO - [FRA1] Traitement du match 1387711 (Status: NS)
+2025-08-21 12:24:17,238 - INFO - 🔍 Appel API pour les cotes du match 1387711
+2025-08-21 12:24:19,139 - INFO - [FRA1] Traitement du match 1387712 (Status: NS)
+2025-08-21 12:24:19,139 - INFO - 🔍 Appel API pour les cotes du match 1387712
+2025-08-21 12:24:21,446 - INFO - [FRA1] Traitement du match 1387709 (Status: NS)
+2025-08-21 12:24:21,446 - INFO - 🔍 Appel API pour les cotes du match 1387709
+2025-08-21 12:24:23,361 - INFO - [FRA1] Traitement du match 1387714 (Status: NS)
+2025-08-21 12:24:23,362 - INFO - 🔍 Appel API pour les cotes du match 1387714
+2025-08-21 12:24:25,217 - INFO - [FRA1] Traitement du match 1387715 (Status: NS)
+2025-08-21 12:24:25,217 - INFO - 🔍 Appel API pour les cotes du match 1387715
+2025-08-21 12:24:27,098 - INFO - [FRA1] Traitement du match 1387707 (Status: NS)
+2025-08-21 12:24:27,099 - INFO - 🔍 Appel API pour les cotes du match 1387707
+2025-08-21 12:24:28,980 - INFO - [FRA1] Traitement du match 1387708 (Status: NS)
+2025-08-21 12:24:28,980 - INFO - 🔍 Appel API pour les cotes du match 1387708
+2025-08-21 12:24:31,061 - INFO - 💾 Fichier de cotes pour FRA1 mis à jour: 34815 nouvelles entrées ajoutées, 34815 total.
+2025-08-21 12:24:31,066 - INFO - ⏱️ Pause de 5 secondes avant la prochaine ligue...
+2025-08-21 12:24:36,067 - INFO - --- Mise à jour des cotes pour la ligue: ITA1 ---
+2025-08-21 12:24:36,073 - INFO - [ITA1] 402 matchs chargés, 10 dans la fenêtre de mise à jour.
+2025-08-21 12:24:36,073 - INFO - [ITA1] 0 matchs ont déjà des cotes.
+2025-08-21 12:24:36,074 - INFO - [ITA1] Traitement du match 1377870 (Status: NS)
+2025-08-21 12:24:36,074 - INFO - 🔍 Appel API pour les cotes du match 1377870
+2025-08-21 12:24:37,955 - INFO - [ITA1] Traitement du match 1377871 (Status: NS)
+2025-08-21 12:24:37,955 - INFO - 🔍 Appel API pour les cotes du match 1377871
+2025-08-21 12:24:39,901 - INFO - [ITA1] Traitement du match 1377872 (Status: NS)
+2025-08-21 12:24:39,901 - INFO - 🔍 Appel API pour les cotes du match 1377872
+2025-08-21 12:24:41,799 - INFO - [ITA1] Traitement du match 1377867 (Status: NS)
+2025-08-21 12:24:41,799 - INFO - 🔍 Appel API pour les cotes du match 1377867
+2025-08-21 12:24:43,668 - INFO - [ITA1] Traitement du match 1377866 (Status: NS)
+2025-08-21 12:24:43,668 - INFO - 🔍 Appel API pour les cotes du match 1377866
+2025-08-21 12:24:45,517 - INFO - [ITA1] Traitement du match 1377865 (Status: NS)
+2025-08-21 12:24:45,517 - INFO - 🔍 Appel API pour les cotes du match 1377865
+2025-08-21 12:24:47,380 - INFO - [ITA1] Traitement du match 1377864 (Status: NS)
+2025-08-21 12:24:47,380 - INFO - 🔍 Appel API pour les cotes du match 1377864
+2025-08-21 12:24:49,262 - INFO - [ITA1] Traitement du match 1377869 (Status: NS)
+2025-08-21 12:24:49,262 - INFO - 🔍 Appel API pour les cotes du match 1377869
+2025-08-21 12:24:51,126 - INFO - [ITA1] Traitement du match 1377873 (Status: NS)
+2025-08-21 12:24:51,127 - INFO - 🔍 Appel API pour les cotes du match 1377873
+2025-08-21 12:24:53,006 - INFO - [ITA1] Traitement du match 1377868 (Status: NS)
+2025-08-21 12:24:53,006 - INFO - 🔍 Appel API pour les cotes du match 1377868
+2025-08-21 12:24:55,231 - INFO - 💾 Fichier de cotes pour ITA1 mis à jour: 45378 nouvelles entrées ajoutées, 45378 total.
+2025-08-21 12:24:55,238 - INFO - ⏱️ Pause de 5 secondes avant la prochaine ligue...
+2025-08-21 12:25:00,238 - INFO - --- Mise à jour des cotes pour la ligue: GER1 ---
+2025-08-21 12:25:00,244 - INFO - [GER1] 335 matchs chargés, 9 dans la fenêtre de mise à jour.
+2025-08-21 12:25:00,245 - INFO - [GER1] 0 matchs ont déjà des cotes.
+2025-08-21 12:25:00,245 - INFO - [GER1] Traitement du match 1388308 (Status: NS)
+2025-08-21 12:25:00,245 - INFO - 🔍 Appel API pour les cotes du match 1388308
+2025-08-21 12:25:01,998 - INFO - [GER1] Traitement du match 1388311 (Status: NS)
+2025-08-21 12:25:01,999 - INFO - 🔍 Appel API pour les cotes du match 1388311
+2025-08-21 12:25:04,023 - INFO - [GER1] Traitement du match 1388309 (Status: NS)
+2025-08-21 12:25:04,023 - INFO - 🔍 Appel API pour les cotes du match 1388309
+2025-08-21 12:25:05,896 - INFO - [GER1] Traitement du match 1388312 (Status: NS)
+2025-08-21 12:25:05,896 - INFO - 🔍 Appel API pour les cotes du match 1388312
+2025-08-21 12:25:07,776 - INFO - [GER1] Traitement du match 1388313 (Status: NS)
+2025-08-21 12:25:07,776 - INFO - 🔍 Appel API pour les cotes du match 1388313
+2025-08-21 12:25:09,667 - INFO - [GER1] Traitement du match 1388315 (Status: NS)
+2025-08-21 12:25:09,668 - INFO - 🔍 Appel API pour les cotes du match 1388315
+2025-08-21 12:25:11,546 - INFO - [GER1] Traitement du match 1388316 (Status: NS)
+2025-08-21 12:25:11,546 - INFO - 🔍 Appel API pour les cotes du match 1388316
+2025-08-21 12:25:13,293 - INFO - [GER1] Traitement du match 1388314 (Status: NS)
+2025-08-21 12:25:13,293 - INFO - 🔍 Appel API pour les cotes du match 1388314
+2025-08-21 12:25:15,157 - INFO - [GER1] Traitement du match 1388310 (Status: NS)
+2025-08-21 12:25:15,158 - INFO - 🔍 Appel API pour les cotes du match 1388310
+2025-08-21 12:25:17,189 - INFO - 💾 Fichier de cotes pour GER1 mis à jour: 32556 nouvelles entrées ajoutées, 32556 total.
+2025-08-21 12:25:17,194 - INFO - ⏱️ Pause de 5 secondes avant la prochaine ligue...
+2025-08-21 12:25:22,194 - INFO - --- Mise à jour des cotes pour la ligue: SPA1 ---
+2025-08-21 12:25:22,200 - INFO - [SPA1] 413 matchs chargés, 13 dans la fenêtre de mise à jour.
+2025-08-21 12:25:22,201 - INFO - [SPA1] 0 matchs ont déjà des cotes.
+2025-08-21 12:25:22,201 - INFO - [SPA1] Traitement du match 1390822 (Status: FT)
+2025-08-21 12:25:22,201 - INFO - 🔍 Appel API pour les cotes du match 1390822
+2025-08-21 12:25:24,233 - INFO - [SPA1] Traitement du match 1390826 (Status: NS)
+2025-08-21 12:25:24,233 - INFO - 🔍 Appel API pour les cotes du match 1390826
+2025-08-21 12:25:26,106 - INFO - [SPA1] Traitement du match 1390831 (Status: NS)
+2025-08-21 12:25:26,107 - INFO - 🔍 Appel API pour les cotes du match 1390831
+2025-08-21 12:25:27,971 - INFO - [SPA1] Traitement du match 1390832 (Status: NS)
+2025-08-21 12:25:27,971 - INFO - 🔍 Appel API pour les cotes du match 1390832
+2025-08-21 12:25:29,828 - INFO - [SPA1] Traitement du match 1390833 (Status: NS)
+2025-08-21 12:25:29,829 - INFO - 🔍 Appel API pour les cotes du match 1390833
+2025-08-21 12:25:31,691 - INFO - [SPA1] Traitement du match 1390830 (Status: NS)
+2025-08-21 12:25:31,691 - INFO - 🔍 Appel API pour les cotes du match 1390830
+2025-08-21 12:25:33,545 - INFO - [SPA1] Traitement du match 1390834 (Status: NS)
+2025-08-21 12:25:33,545 - INFO - 🔍 Appel API pour les cotes du match 1390834
+2025-08-21 12:25:35,414 - INFO - [SPA1] Traitement du match 1390838 (Status: NS)
+2025-08-21 12:25:35,414 - INFO - 🔍 Appel API pour les cotes du match 1390838
+2025-08-21 12:25:37,277 - INFO - [SPA1] Traitement du match 1390835 (Status: NS)
+2025-08-21 12:25:37,277 - INFO - 🔍 Appel API pour les cotes du match 1390835
+2025-08-21 12:25:39,143 - INFO - [SPA1] Traitement du match 1390836 (Status: NS)
+2025-08-21 12:25:39,144 - INFO - 🔍 Appel API pour les cotes du match 1390836
+2025-08-21 12:25:41,015 - INFO - [SPA1] Traitement du match 1390829 (Status: NS)
+2025-08-21 12:25:41,016 - INFO - 🔍 Appel API pour les cotes du match 1390829
+2025-08-21 12:25:42,908 - INFO - [SPA1] Traitement du match 1390837 (Status: NS)
+2025-08-21 12:25:42,908 - INFO - 🔍 Appel API pour les cotes du match 1390837
+2025-08-21 12:25:44,841 - INFO - [SPA1] Traitement du match 1390871 (Status: NS)
+2025-08-21 12:25:44,841 - INFO - 🔍 Appel API pour les cotes du match 1390871
+2025-08-21 12:25:46,917 - INFO - 💾 Fichier de cotes pour SPA1 mis à jour: 60656 nouvelles entrées ajoutées, 60656 total.
+2025-08-21 12:25:46,928 - INFO - ⏱️ Pause de 5 secondes avant la prochaine ligue...
+2025-08-21 12:25:51,928 - INFO - --- Mise à jour des cotes pour la ligue: NED1 ---
+2025-08-21 12:25:51,934 - INFO - [NED1] 347 matchs chargés, 7 dans la fenêtre de mise à jour.
+2025-08-21 12:25:51,935 - INFO - [NED1] 0 matchs ont déjà des cotes.
+2025-08-21 12:25:51,935 - INFO - [NED1] Traitement du match 1380886 (Status: NS)
+2025-08-21 12:25:51,935 - INFO - 🔍 Appel API pour les cotes du match 1380886
+2025-08-21 12:25:53,923 - INFO - [NED1] Traitement du match 1380887 (Status: NS)
+2025-08-21 12:25:53,923 - INFO - 🔍 Appel API pour les cotes du match 1380887
+2025-08-21 12:25:55,789 - INFO - [NED1] Traitement du match 1380885 (Status: NS)
+2025-08-21 12:25:55,789 - INFO - 🔍 Appel API pour les cotes du match 1380885
+2025-08-21 12:25:57,658 - INFO - [NED1] Traitement du match 1380889 (Status: NS)
+2025-08-21 12:25:57,658 - INFO - 🔍 Appel API pour les cotes du match 1380889
+2025-08-21 12:25:59,533 - INFO - [NED1] Traitement du match 1380891 (Status: NS)
+2025-08-21 12:25:59,533 - INFO - 🔍 Appel API pour les cotes du match 1380891
+2025-08-21 12:26:01,389 - INFO - [NED1] Traitement du match 1380890 (Status: NS)
+2025-08-21 12:26:01,389 - INFO - 🔍 Appel API pour les cotes du match 1380890
+2025-08-21 12:26:03,271 - INFO - [NED1] Traitement du match 1380892 (Status: NS)
+2025-08-21 12:26:03,271 - INFO - 🔍 Appel API pour les cotes du match 1380892
+2025-08-21 12:26:05,275 - INFO - 💾 Fichier de cotes pour NED1 mis à jour: 26116 nouvelles entrées ajoutées, 26116 total.
+2025-08-21 12:26:05,279 - INFO - ⏱️ Pause de 5 secondes avant la prochaine ligue...
+2025-08-21 12:26:10,279 - INFO - --- Mise à jour des cotes pour la ligue: POR1 ---
+2025-08-21 12:26:10,285 - INFO - [POR1] 335 matchs chargés, 9 dans la fenêtre de mise à jour.
+2025-08-21 12:26:10,286 - INFO - [POR1] 0 matchs ont déjà des cotes.
+2025-08-21 12:26:10,286 - INFO - [POR1] Traitement du match 1396249 (Status: FT)
+2025-08-21 12:26:10,286 - INFO - 🔍 Appel API pour les cotes du match 1396249
+2025-08-21 12:26:12,373 - INFO - [POR1] Traitement du match 1396263 (Status: NS)
+2025-08-21 12:26:12,373 - INFO - 🔍 Appel API pour les cotes du match 1396263
+2025-08-21 12:26:14,244 - INFO - [POR1] Traitement du match 1396256 (Status: NS)
+2025-08-21 12:26:14,244 - INFO - 🔍 Appel API pour les cotes du match 1396256
+2025-08-21 12:26:16,102 - INFO - [POR1] Traitement du match 1396255 (Status: NS)
+2025-08-21 12:26:16,102 - INFO - 🔍 Appel API pour les cotes du match 1396255
+2025-08-21 12:26:17,997 - INFO - [POR1] Traitement du match 1396261 (Status: NS)
+2025-08-21 12:26:17,997 - INFO - 🔍 Appel API pour les cotes du match 1396261
+2025-08-21 12:26:19,776 - INFO - [POR1] Traitement du match 1396257 (Status: NS)
+2025-08-21 12:26:19,777 - INFO - 🔍 Appel API pour les cotes du match 1396257
+2025-08-21 12:26:21,537 - INFO - [POR1] Traitement du match 1396260 (Status: NS)
+2025-08-21 12:26:21,537 - INFO - 🔍 Appel API pour les cotes du match 1396260
+2025-08-21 12:26:23,303 - INFO - [POR1] Traitement du match 1396262 (Status: NS)
+2025-08-21 12:26:23,303 - INFO - 🔍 Appel API pour les cotes du match 1396262
+2025-08-21 12:26:25,043 - INFO - [POR1] Traitement du match 1396259 (Status: NS)
+2025-08-21 12:26:25,044 - INFO - 🔍 Appel API pour les cotes du match 1396259
+2025-08-21 12:26:27,051 - INFO - 💾 Fichier de cotes pour POR1 mis à jour: 28318 nouvelles entrées ajoutées, 28318 total.
+2025-08-21 12:26:27,056 - INFO - ⏱️ Pause de 5 secondes avant la prochaine ligue...
+2025-08-21 12:26:32,056 - INFO - --- Mise à jour des cotes pour la ligue: BEL1 ---
+2025-08-21 12:26:32,062 - INFO - [BEL1] 339 matchs chargés, 8 dans la fenêtre de mise à jour.
+2025-08-21 12:26:32,063 - INFO - [BEL1] 0 matchs ont déjà des cotes.
+2025-08-21 12:26:32,063 - INFO - [BEL1] Traitement du match 1382459 (Status: PST)
+2025-08-21 12:26:32,063 - INFO - 🔍 Appel API pour les cotes du match 1382459
+2025-08-21 12:26:33,991 - INFO - [BEL1] Traitement du match 1382461 (Status: NS)
+2025-08-21 12:26:33,991 - INFO - 🔍 Appel API pour les cotes du match 1382461
+2025-08-21 12:26:35,868 - INFO - [BEL1] Traitement du match 1382460 (Status: NS)
+2025-08-21 12:26:35,868 - INFO - 🔍 Appel API pour les cotes du match 1382460
+2025-08-21 12:26:37,933 - INFO - [BEL1] Traitement du match 1382463 (Status: PST)
+2025-08-21 12:26:37,933 - INFO - 🔍 Appel API pour les cotes du match 1382463
+2025-08-21 12:26:39,699 - INFO - [BEL1] Traitement du match 1382462 (Status: NS)
+2025-08-21 12:26:39,699 - INFO - 🔍 Appel API pour les cotes du match 1382462
+2025-08-21 12:26:41,566 - INFO - [BEL1] Traitement du match 1382458 (Status: NS)
+2025-08-21 12:26:41,566 - INFO - 🔍 Appel API pour les cotes du match 1382458
+2025-08-21 12:26:43,312 - INFO - [BEL1] Traitement du match 1382464 (Status: NS)
+2025-08-21 12:26:43,312 - INFO - 🔍 Appel API pour les cotes du match 1382464
+2025-08-21 12:26:45,045 - INFO - [BEL1] Traitement du match 1382465 (Status: NS)
+2025-08-21 12:26:45,045 - INFO - 🔍 Appel API pour les cotes du match 1382465
+2025-08-21 12:26:46,998 - INFO - 💾 Fichier de cotes pour BEL1 mis à jour: 16533 nouvelles entrées ajoutées, 16533 total.
+2025-08-21 12:26:47,002 - INFO - ⏱️ Pause de 5 secondes avant la prochaine ligue...
+2025-08-21 12:26:52,002 - INFO - --- Mise à jour des cotes pour la ligue: ENG2 ---
+2025-08-21 12:26:52,008 - INFO - [ENG2] 593 matchs chargés, 12 dans la fenêtre de mise à jour.
+2025-08-21 12:26:52,009 - INFO - [ENG2] 0 matchs ont déjà des cotes.
+2025-08-21 12:26:52,009 - INFO - [ENG2] Traitement du match 1386580 (Status: NS)
+2025-08-21 12:26:52,010 - INFO - 🔍 Appel API pour les cotes du match 1386580
+2025-08-21 12:26:53,925 - INFO - [ENG2] Traitement du match 1386581 (Status: NS)
+2025-08-21 12:26:53,925 - INFO - 🔍 Appel API pour les cotes du match 1386581
+2025-08-21 12:26:55,793 - INFO - [ENG2] Traitement du match 1386579 (Status: NS)
+2025-08-21 12:26:55,793 - INFO - 🔍 Appel API pour les cotes du match 1386579
+2025-08-21 12:26:57,753 - INFO - [ENG2] Traitement du match 1386575 (Status: NS)
+2025-08-21 12:26:57,753 - INFO - 🔍 Appel API pour les cotes du match 1386575
+2025-08-21 12:26:59,764 - INFO - [ENG2] Traitement du match 1386577 (Status: NS)
+2025-08-21 12:26:59,764 - INFO - 🔍 Appel API pour les cotes du match 1386577
+2025-08-21 12:27:01,777 - INFO - [ENG2] Traitement du match 1386578 (Status: NS)
+2025-08-21 12:27:01,777 - INFO - 🔍 Appel API pour les cotes du match 1386578
+2025-08-21 12:27:03,635 - INFO - [ENG2] Traitement du match 1386576 (Status: NS)
+2025-08-21 12:27:03,635 - INFO - 🔍 Appel API pour les cotes du match 1386576
+2025-08-21 12:27:05,498 - INFO - [ENG2] Traitement du match 1386582 (Status: NS)
+2025-08-21 12:27:05,498 - INFO - 🔍 Appel API pour les cotes du match 1386582
+2025-08-21 12:27:07,378 - INFO - [ENG2] Traitement du match 1386583 (Status: NS)
+2025-08-21 12:27:07,378 - INFO - 🔍 Appel API pour les cotes du match 1386583
+2025-08-21 12:27:09,276 - INFO - [ENG2] Traitement du match 1386586 (Status: NS)
+2025-08-21 12:27:09,276 - INFO - 🔍 Appel API pour les cotes du match 1386586
+2025-08-21 12:27:11,174 - INFO - [ENG2] Traitement du match 1386585 (Status: NS)
+2025-08-21 12:27:11,174 - INFO - 🔍 Appel API pour les cotes du match 1386585
+2025-08-21 12:27:13,024 - INFO - [ENG2] Traitement du match 1386584 (Status: NS)
+2025-08-21 12:27:13,024 - INFO - 🔍 Appel API pour les cotes du match 1386584
+2025-08-21 12:27:15,172 - INFO - 💾 Fichier de cotes pour ENG2 mis à jour: 52102 nouvelles entrées ajoutées, 52102 total.
+2025-08-21 12:27:15,182 - INFO - ⏱️ Pause de 5 secondes avant la prochaine ligue...
+2025-08-21 12:27:20,182 - INFO - --- Mise à jour des cotes pour la ligue: FRA2 ---
+2025-08-21 12:27:20,187 - INFO - [FRA2] 348 matchs chargés, 10 dans la fenêtre de mise à jour.
+2025-08-21 12:27:20,188 - INFO - [FRA2] 0 matchs ont déjà des cotes.
+2025-08-21 12:27:20,188 - INFO - [FRA2] Traitement du match 1389135 (Status: FT)
+2025-08-21 12:27:20,188 - INFO - 🔍 Appel API pour les cotes du match 1389135
+2025-08-21 12:27:22,179 - INFO - [FRA2] Traitement du match 1389139 (Status: NS)
+2025-08-21 12:27:22,180 - INFO - 🔍 Appel API pour les cotes du match 1389139
+2025-08-21 12:27:24,055 - INFO - [FRA2] Traitement du match 1389141 (Status: NS)
+2025-08-21 12:27:24,055 - INFO - 🔍 Appel API pour les cotes du match 1389141
+2025-08-21 12:27:25,914 - INFO - [FRA2] Traitement du match 1389144 (Status: NS)
+2025-08-21 12:27:25,914 - INFO - 🔍 Appel API pour les cotes du match 1389144
+2025-08-21 12:27:27,786 - INFO - [FRA2] Traitement du match 1389146 (Status: NS)
+2025-08-21 12:27:27,786 - INFO - 🔍 Appel API pour les cotes du match 1389146
+2025-08-21 12:27:29,674 - INFO - [FRA2] Traitement du match 1389140 (Status: NS)
+2025-08-21 12:27:29,674 - INFO - 🔍 Appel API pour les cotes du match 1389140
+2025-08-21 12:27:31,546 - INFO - [FRA2] Traitement du match 1389143 (Status: NS)
+2025-08-21 12:27:31,546 - INFO - 🔍 Appel API pour les cotes du match 1389143
+2025-08-21 12:27:33,418 - INFO - [FRA2] Traitement du match 1389147 (Status: NS)
+2025-08-21 12:27:33,419 - INFO - 🔍 Appel API pour les cotes du match 1389147
+2025-08-21 12:27:35,146 - INFO - [FRA2] Traitement du match 1389142 (Status: NS)
+2025-08-21 12:27:35,147 - INFO - 🔍 Appel API pour les cotes du match 1389142
+2025-08-21 12:27:37,024 - INFO - [FRA2] Traitement du match 1389145 (Status: NS)
+2025-08-21 12:27:37,024 - INFO - 🔍 Appel API pour les cotes du match 1389145
+2025-08-21 12:27:38,931 - INFO - 💾 Fichier de cotes pour FRA2 mis à jour: 22679 nouvelles entrées ajoutées, 22679 total.
+2025-08-21 12:27:38,935 - INFO - ⏱️ Pause de 5 secondes avant la prochaine ligue...
+2025-08-21 12:27:43,935 - INFO - --- Mise à jour des cotes pour la ligue: ITA2 ---
+2025-08-21 12:27:43,941 - INFO - [ITA2] 410 matchs chargés, 10 dans la fenêtre de mise à jour.
+2025-08-21 12:27:43,941 - INFO - [ITA2] 0 matchs ont déjà des cotes.
+2025-08-21 12:27:43,942 - INFO - [ITA2] Traitement du match 1419594 (Status: NS)
+2025-08-21 12:27:43,942 - INFO - 🔍 Appel API pour les cotes du match 1419594
+2025-08-21 12:27:45,871 - INFO - [ITA2] Traitement du match 1419598 (Status: NS)
+2025-08-21 12:27:45,871 - INFO - 🔍 Appel API pour les cotes du match 1419598
+2025-08-21 12:27:47,607 - INFO - [ITA2] Traitement du match 1419595 (Status: NS)
+2025-08-21 12:27:47,608 - INFO - 🔍 Appel API pour les cotes du match 1419595
+2025-08-21 12:27:49,341 - INFO - [ITA2] Traitement du match 1419600 (Status: NS)
+2025-08-21 12:27:49,342 - INFO - 🔍 Appel API pour les cotes du match 1419600
+2025-08-21 12:27:51,112 - INFO - [ITA2] Traitement du match 1419596 (Status: NS)
+2025-08-21 12:27:51,113 - INFO - 🔍 Appel API pour les cotes du match 1419596
+2025-08-21 12:27:52,849 - INFO - [ITA2] Traitement du match 1419592 (Status: NS)
+2025-08-21 12:27:52,850 - INFO - 🔍 Appel API pour les cotes du match 1419592
+2025-08-21 12:27:54,652 - INFO - [ITA2] Traitement du match 1419601 (Status: NS)
+2025-08-21 12:27:54,652 - INFO - 🔍 Appel API pour les cotes du match 1419601
+2025-08-21 12:27:56,405 - INFO - [ITA2] Traitement du match 1419599 (Status: NS)
+2025-08-21 12:27:56,406 - INFO - 🔍 Appel API pour les cotes du match 1419599
+2025-08-21 12:27:58,229 - INFO - [ITA2] Traitement du match 1419593 (Status: NS)
+2025-08-21 12:27:58,229 - INFO - 🔍 Appel API pour les cotes du match 1419593
+2025-08-21 12:28:00,078 - INFO - [ITA2] Traitement du match 1419597 (Status: NS)
+2025-08-21 12:28:00,078 - INFO - 🔍 Appel API pour les cotes du match 1419597
+2025-08-21 12:28:02,002 - INFO - 💾 Fichier de cotes pour ITA2 mis à jour: 15023 nouvelles entrées ajoutées, 15023 total.
+2025-08-21 12:28:02,005 - INFO - ⏱️ Pause de 5 secondes avant la prochaine ligue...
+2025-08-21 12:28:07,006 - INFO - --- Mise à jour des cotes pour la ligue: GER2 ---
+2025-08-21 12:28:07,011 - INFO - [GER2] 335 matchs chargés, 9 dans la fenêtre de mise à jour.
+2025-08-21 12:28:07,012 - INFO - [GER2] 0 matchs ont déjà des cotes.
+2025-08-21 12:28:07,012 - INFO - [GER2] Traitement du match 1388638 (Status: NS)
+2025-08-21 12:28:07,012 - INFO - 🔍 Appel API pour les cotes du match 1388638
+2025-08-21 12:28:09,043 - INFO - [GER2] Traitement du match 1388634 (Status: NS)
+2025-08-21 12:28:09,043 - INFO - 🔍 Appel API pour les cotes du match 1388634
+2025-08-21 12:28:10,937 - INFO - [GER2] Traitement du match 1388636 (Status: NS)
+2025-08-21 12:28:10,937 - INFO - 🔍 Appel API pour les cotes du match 1388636
+2025-08-21 12:28:12,809 - INFO - [GER2] Traitement du match 1388639 (Status: NS)
+2025-08-21 12:28:12,810 - INFO - 🔍 Appel API pour les cotes du match 1388639
+2025-08-21 12:28:14,693 - INFO - [GER2] Traitement du match 1388635 (Status: NS)
+2025-08-21 12:28:14,694 - INFO - 🔍 Appel API pour les cotes du match 1388635
+2025-08-21 12:28:16,608 - INFO - [GER2] Traitement du match 1388637 (Status: NS)
+2025-08-21 12:28:16,608 - INFO - 🔍 Appel API pour les cotes du match 1388637
+2025-08-21 12:28:18,466 - INFO - [GER2] Traitement du match 1388633 (Status: NS)
+2025-08-21 12:28:18,466 - INFO - 🔍 Appel API pour les cotes du match 1388633
+2025-08-21 12:28:20,449 - INFO - [GER2] Traitement du match 1388632 (Status: NS)
+2025-08-21 12:28:20,449 - INFO - 🔍 Appel API pour les cotes du match 1388632
+2025-08-21 12:28:22,341 - INFO - [GER2] Traitement du match 1388640 (Status: NS)
+2025-08-21 12:28:22,341 - INFO - 🔍 Appel API pour les cotes du match 1388640
+2025-08-21 12:28:24,356 - INFO - 💾 Fichier de cotes pour GER2 mis à jour: 31900 nouvelles entrées ajoutées, 31900 total.
+2025-08-21 12:28:24,363 - INFO - ⏱️ Pause de 5 secondes avant la prochaine ligue...
+2025-08-21 12:28:29,363 - INFO - --- Mise à jour des cotes pour la ligue: SPA2 ---
+2025-08-21 12:28:29,369 - INFO - [SPA2] 513 matchs chargés, 13 dans la fenêtre de mise à jour.
+2025-08-21 12:28:29,370 - INFO - [SPA2] 0 matchs ont déjà des cotes.
+2025-08-21 12:28:29,370 - INFO - [SPA2] Traitement du match 1396942 (Status: FT)
+2025-08-21 12:28:29,370 - INFO - 🔍 Appel API pour les cotes du match 1396942
+2025-08-21 12:28:31,379 - INFO - [SPA2] Traitement du match 1396941 (Status: FT)
+2025-08-21 12:28:31,379 - INFO - 🔍 Appel API pour les cotes du match 1396941
+2025-08-21 12:28:33,330 - INFO - [SPA2] Traitement du match 1391266 (Status: NS)
+2025-08-21 12:28:33,330 - INFO - 🔍 Appel API pour les cotes du match 1391266
+2025-08-21 12:28:35,209 - INFO - [SPA2] Traitement du match 1391262 (Status: NS)
+2025-08-21 12:28:35,209 - INFO - 🔍 Appel API pour les cotes du match 1391262
+2025-08-21 12:28:37,084 - INFO - [SPA2] Traitement du match 1391264 (Status: NS)
+2025-08-21 12:28:37,085 - INFO - 🔍 Appel API pour les cotes du match 1391264
+2025-08-21 12:28:38,976 - INFO - [SPA2] Traitement du match 1396945 (Status: NS)
+2025-08-21 12:28:38,976 - INFO - 🔍 Appel API pour les cotes du match 1396945
+2025-08-21 12:28:40,839 - INFO - [SPA2] Traitement du match 1391261 (Status: NS)
+2025-08-21 12:28:40,839 - INFO - 🔍 Appel API pour les cotes du match 1391261
+2025-08-21 12:28:42,721 - INFO - [SPA2] Traitement du match 1391265 (Status: NS)
+2025-08-21 12:28:42,721 - INFO - 🔍 Appel API pour les cotes du match 1391265
+2025-08-21 12:28:44,621 - INFO - [SPA2] Traitement du match 1391268 (Status: NS)
+2025-08-21 12:28:44,621 - INFO - 🔍 Appel API pour les cotes du match 1391268
+2025-08-21 12:28:46,435 - INFO - [SPA2] Traitement du match 1391269 (Status: NS)
+2025-08-21 12:28:46,435 - INFO - 🔍 Appel API pour les cotes du match 1391269
+2025-08-21 12:28:48,268 - INFO - [SPA2] Traitement du match 1391263 (Status: NS)
+2025-08-21 12:28:48,268 - INFO - 🔍 Appel API pour les cotes du match 1391263
+2025-08-21 12:28:50,226 - INFO - [SPA2] Traitement du match 1391267 (Status: NS)
+2025-08-21 12:28:50,226 - INFO - 🔍 Appel API pour les cotes du match 1391267
+2025-08-21 12:28:52,199 - INFO - [SPA2] Traitement du match 1391260 (Status: NS)
+2025-08-21 12:28:52,200 - INFO - 🔍 Appel API pour les cotes du match 1391260
+2025-08-21 12:28:54,300 - INFO - 💾 Fichier de cotes pour SPA2 mis à jour: 47977 nouvelles entrées ajoutées, 47977 total.
+2025-08-21 12:28:54,309 - INFO - ⏱️ Pause de 5 secondes avant la prochaine ligue...
+2025-08-21 12:28:59,309 - INFO - --- Mise à jour des cotes pour la ligue: TUR1 ---
+2025-08-21 12:28:59,315 - INFO - [TUR1] 371 matchs chargés, 10 dans la fenêtre de mise à jour.
+2025-08-21 12:28:59,316 - INFO - [TUR1] 0 matchs ont déjà des cotes.
+2025-08-21 12:28:59,316 - INFO - [TUR1] Traitement du match 1394448 (Status: FT)
+2025-08-21 12:28:59,316 - INFO - 🔍 Appel API pour les cotes du match 1394448
+2025-08-21 12:29:01,386 - INFO - [TUR1] Traitement du match 1394454 (Status: NS)
+2025-08-21 12:29:01,387 - INFO - 🔍 Appel API pour les cotes du match 1394454
+2025-08-21 12:29:03,283 - INFO - [TUR1] Traitement du match 1394452 (Status: NS)
+2025-08-21 12:29:03,283 - INFO - 🔍 Appel API pour les cotes du match 1394452
+2025-08-21 12:29:05,140 - INFO - [TUR1] Traitement du match 1394453 (Status: NS)
+2025-08-21 12:29:05,141 - INFO - 🔍 Appel API pour les cotes du match 1394453
+2025-08-21 12:29:07,044 - INFO - [TUR1] Traitement du match 1394455 (Status: NS)
+2025-08-21 12:29:07,044 - INFO - 🔍 Appel API pour les cotes du match 1394455
+2025-08-21 12:29:08,842 - INFO - [TUR1] Traitement du match 1394458 (Status: NS)
+2025-08-21 12:29:08,842 - INFO - 🔍 Appel API pour les cotes du match 1394458
+2025-08-21 12:29:10,690 - INFO - [TUR1] Traitement du match 1394456 (Status: NS)
+2025-08-21 12:29:10,691 - INFO - 🔍 Appel API pour les cotes du match 1394456
+2025-08-21 12:29:12,456 - INFO - [TUR1] Traitement du match 1394459 (Status: NS)
+2025-08-21 12:29:12,456 - INFO - 🔍 Appel API pour les cotes du match 1394459
+2025-08-21 12:29:14,267 - INFO - [TUR1] Traitement du match 1394457 (Status: NS)
+2025-08-21 12:29:14,267 - INFO - 🔍 Appel API pour les cotes du match 1394457
+2025-08-21 12:29:16,124 - INFO - [TUR1] Traitement du match 1394451 (Status: NS)
+2025-08-21 12:29:16,124 - INFO - 🔍 Appel API pour les cotes du match 1394451
+2025-08-21 12:29:18,138 - INFO - 💾 Fichier de cotes pour TUR1 mis à jour: 26887 nouvelles entrées ajoutées, 26887 total.
+2025-08-21 12:29:18,144 - INFO - ⏱️ Pause de 5 secondes avant la prochaine ligue...
+2025-08-21 12:29:23,144 - INFO - --- Mise à jour des cotes pour la ligue: SAU1 ---
+2025-08-21 12:29:23,150 - INFO - [SAU1] 327 matchs chargés, 3 dans la fenêtre de mise à jour.
+2025-08-21 12:29:23,150 - INFO - [SAU1] 0 matchs ont déjà des cotes.
+2025-08-21 12:29:23,150 - INFO - [SAU1] Traitement du match 1435913 (Status: NS)
+2025-08-21 12:29:23,150 - INFO - 🔍 Appel API pour les cotes du match 1435913
+2025-08-21 12:29:24,880 - INFO - [SAU1] Traitement du match 1435915 (Status: NS)
+2025-08-21 12:29:24,881 - INFO - 🔍 Appel API pour les cotes du match 1435915
+2025-08-21 12:29:26,615 - INFO - [SAU1] Traitement du match 1435914 (Status: NS)
+2025-08-21 12:29:26,616 - INFO - 🔍 Appel API pour les cotes du match 1435914
+2025-08-21 12:29:28,398 - INFO - [SAU1] Aucune nouvelle cote à ajouter.
+2025-08-21 12:29:28,399 - INFO - ⏱️ Pause de 5 secondes avant la prochaine ligue...
+2025-08-21 12:29:33,399 - INFO - 
+🎉 === MISE À JOUR TERMINÉE ===
+2025-08-21 12:29:33,399 - INFO - ⏱️ Durée totale: 0:05:46.408263
+2025-08-21 12:29:33,399 - INFO - 📊 Ligues mises à jour: 14/15
+2025-08-21 12:29:33,399 - INFO - 🏟️ Matchs traités: 143
+2025-08-21 12:29:33,399 - INFO - 📞 Appels API (cotes): 143
+2025-08-21 12:29:33,399 - INFO - 📈 Nouvelles collections de cotes: 126
