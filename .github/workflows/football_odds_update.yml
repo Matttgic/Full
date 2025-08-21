@@ -1,4 +1,4 @@
-name: Football Odds Update - Fixed
+name: Football Odds Update
 
 on:
   schedule:
@@ -8,7 +8,7 @@ on:
 jobs:
   update-odds:
     runs-on: ubuntu-latest
-    timeout-minutes: 120
+    timeout-minutes: 120 # Reduced timeout as the script is more efficient
 
     permissions:
       contents: write
@@ -31,113 +31,19 @@ jobs:
         python -m pip install --upgrade pip
         pip install requests pandas numpy
 
-    # CORRECTION: Test API amélioré avec gestion d'erreurs
     - name: Test API Availability
       env:
         RAPIDAPI_KEY: ${{ secrets.RAPIDAPI_KEY }}
       run: |
-        echo "🔍 Test de l'API RapidAPI..."
-        
-        # Vérifier que la clé API existe
-        if [ -z "$RAPIDAPI_KEY" ]; then
-          echo "❌ RAPIDAPI_KEY manquante!"
-          exit 1
-        fi
-        
-        echo "🔑 Clé API: ${RAPIDAPI_KEY:0:10}... (${#RAPIDAPI_KEY} caractères)"
-        
-        # Test avec Python pour meilleur contrôle
-        python3 << 'EOF'
-import requests
-import os
-import sys
-
-headers = {
-    'X-RapidAPI-Key': os.environ.get('RAPIDAPI_KEY'),
-    'X-RapidAPI-Host': 'api-football-v1.p.rapidapi.com'
-}
-
-try:
-    print("📡 Test connexion API...")
-    response = requests.get(
-        'https://api-football-v1.p.rapidapi.com/v3/status',
-        headers=headers,
-        timeout=15
-    )
-    
-    print(f"📊 Status code: {response.status_code}")
-    
-    if response.status_code == 200:
-        data = response.json()
-        print("✅ API disponible!")
-        print(f"📈 Plan: {data.get('subscription', {}).get('plan', 'N/A')}")
-        
-        # Vérifier les quotas
-        remaining = data.get('subscription', {}).get('requests_remaining')
-        if remaining is not None:
-            print(f"🔢 Requêtes restantes: {remaining}")
-            if int(remaining) < 50:
-                print("⚠️ Attention: Peu de requêtes restantes!")
-        
-    elif response.status_code == 403:
-        print("❌ Erreur 403: Clé API invalide ou quota épuisé")
-        print(f"📝 Réponse: {response.text}")
-        sys.exit(1)
-    elif response.status_code == 404:
-        print("❌ Erreur 404: Endpoint non trouvé")
-        print("🔧 Vérification de l'URL et des headers...")
-        print(f"📝 Headers envoyés: {headers}")
-        sys.exit(1)
-    else:
-        print(f"❌ Erreur API: {response.status_code}")
-        print(f"📝 Réponse: {response.text[:300]}")
-        sys.exit(1)
-        
-except requests.exceptions.Timeout:
-    print("⏰ Timeout lors de la connexion à l'API")
-    sys.exit(1)
-except requests.exceptions.ConnectionError as e:
-    print(f"🔌 Erreur de connexion: {e}")
-    sys.exit(1)
-except Exception as e:
-    print(f"❌ Erreur inattendue: {e}")
-    sys.exit(1)
-EOF
-
-    # AJOUT: Vérification des fichiers nécessaires
-    - name: Check Required Files
-      run: |
-        echo "📂 Vérification des fichiers requis..."
-        
-        if [ ! -f "football_odds_updater.py" ]; then
-          echo "❌ Script football_odds_updater.py manquant!"
-          echo "📋 Fichiers Python disponibles:"
-          ls -la *.py || echo "Aucun fichier Python trouvé"
-          exit 1
-        fi
-        
-        echo "✅ Script football_odds_updater.py trouvé"
-        
-        # Vérifier la structure des dossiers
-        echo "📁 Structure des données:"
-        if [ -d "data" ]; then
-          echo "  ✅ Dossier data/ existe"
-          if [ -d "data/matches" ]; then
-            match_files=$(ls data/matches/*.csv 2>/dev/null | wc -l)
-            echo "  📊 Fichiers de matchs: $match_files"
-          else
-            echo "  ⚠️ Dossier data/matches/ manquant"
-          fi
-          
-          if [ -d "data/odds" ]; then
-            echo "  ✅ Dossier data/odds/ existe"
-          else
-            echo "  ℹ️ Dossier data/odds/ sera créé"
-          fi
+        response=$(curl -s -w "%{http_code}" -o /dev/null --request GET \
+          --url 'https://api-football-v1.p.rapidapi.com/v3/status' \
+          --header 'X-RapidAPI-Key: ${{ secrets.RAPIDAPI_KEY }}' \
+          --header 'X-RapidAPI-Host: api-football-v1.p.rapidapi.com')
+        if [ "$response" -eq 200 ]; then
+          echo "✅ API is available (HTTP 200)"
         else
-          echo "  ❌ Dossier data/ manquant - création nécessaire"
-          mkdir -p data/odds/raw_data
-          echo "  ✅ Structure créée"
+          echo "❌ API returned status $response. Aborting."
+          exit 1
         fi
 
     - name: Run Odds Updater Script
@@ -145,97 +51,26 @@ EOF
         RAPIDAPI_KEY: ${{ secrets.RAPIDAPI_KEY }}
       run: |
         echo "🚀 DÉBUT DE LA MISE À JOUR DES COTES: $(date)"
-        
-        # Créer les dossiers nécessaires
-        mkdir -p data/odds/raw_data
-        mkdir -p data/matches
-        
-        # Exécution avec gestion d'erreurs améliorée
-        if python3 football_odds_updater.py 2>&1 | tee odds_update.log; then
-          echo "✅ Script de mise à jour exécuté avec succès."
-        else
-          exit_code=$?
-          echo "❌ Le script de mise à jour a échoué avec le code: $exit_code"
-          echo ""
-          echo "=== ANALYSE DE L'ERREUR ==="
-          
-          if [ -f "odds_update.log" ]; then
-            echo "📋 Dernières lignes du log:"
-            tail -30 odds_update.log
-            echo ""
-            
-            echo "🔍 Erreurs détectées:"
-            grep -i "error\|exception\|traceback" odds_update.log || echo "Aucune erreur Python détectée"
-            echo ""
-            
-            echo "⚠️ Avertissements:"
-            grep -i "warning" odds_update.log || echo "Aucun avertissement"
-          else
-            echo "❌ Fichier de log non créé"
-          fi
-          
-          exit $exit_code
-        fi
-        
-        echo "🏁 FIN DE LA MISE À JOUR: $(date)"
 
-    # AJOUT: Analyse des résultats avant commit
-    - name: Analyze Update Results
-      run: |
-        echo "=== ANALYSE DES RÉSULTATS ==="
-        
-        # Vérifier les changements
-        echo "📊 Changements détectés:"
-        git status --porcelain || echo "Aucun changement"
-        echo ""
-        
-        # Analyser les fichiers de cotes
-        if [ -d "data/odds/raw_data" ]; then
-          echo "📈 Fichiers de cotes:"
-          csv_count=0
-          total_lines=0
-          
-          for file in data/odds/raw_data/*.csv; do
-            if [ -f "$file" ]; then
-              csv_count=$((csv_count + 1))
-              lines=$(wc -l < "$file" 2>/dev/null || echo "0")
-              size=$(du -h "$file" 2>/dev/null | cut -f1 || echo "?")
-              echo "  📋 $(basename "$file"): $((lines-1)) cotes, $size"
-              total_lines=$((total_lines + lines - 1))
-            fi
-          done
-          
-          echo ""
-          echo "📊 Résumé: $csv_count fichiers, $total_lines cotes totales"
-        else
-          echo "❌ Dossier data/odds/raw_data non trouvé"
+        if ! python3 football_odds_updater.py 2>&1 | tee odds_update.log; then
+          echo "❌ Le script de mise à jour a échoué."
+          echo "=== Dernières lignes du log ==="
+          tail -50 odds_update.log
+          exit 1
         fi
-        
-        # Analyser les logs
-        if [ -f "odds_update.log" ]; then
-          echo ""
-          echo "📋 Statistiques du log:"
-          echo "  🔢 Lignes totales: $(wc -l < odds_update.log)"
-          
-          api_calls=$(grep -c "Appel API" odds_update.log || echo "0")
-          echo "  📞 Appels API: $api_calls"
-          
-          errors=$(grep -c -i "erreur\|error" odds_update.log || echo "0")
-          echo "  ❌ Erreurs: $errors"
-          
-          if [ "$errors" -gt 0 ]; then
-            echo ""
-            echo "🔍 Dernières erreurs:"
-            grep -i "erreur\|error" odds_update.log | tail -5 || echo "Aucune erreur trouvée"
-          fi
-        fi
+
+        echo "✅ Script de mise à jour exécuté avec succès."
+        echo "🏁 FIN DE LA MISE À JOUR: $(date)"
 
     - name: Commit and Push Changes
       run: |
         git config user.name "GitHub Action"
         git config user.email "action@github.com"
 
-        # Vérifier s'il y a des changements
+        # Add all changes in the data directory
+        git add data/odds/
+        git add *.log
+
         if [ -z "$(git status --porcelain)" ]; then
           echo "ℹ️ Aucune nouvelle donnée à committer."
           exit 0
@@ -244,67 +79,21 @@ EOF
         echo "📊 Fichiers modifiés à committer:"
         git status --porcelain
 
-        # Ajouter les fichiers par catégorie avec vérification
-        files_added=0
-        
-        # Logs
-        if [ -f "odds_update.log" ]; then
-          git add odds_update.log && files_added=$((files_added + 1))
-          echo "✅ Log ajouté"
-        fi
-        
-        # Données odds avec contrôle de taille
-        if [ -d "data/odds" ]; then
-          large_files=0
-          for file in $(find data/odds -name "*.csv"); do
-            if [ -f "$file" ]; then
-              size=$(stat -c%s "$file" 2>/dev/null || stat -f%z "$file" 2>/dev/null || echo "0")
-              if [ "$size" -gt 50000000 ]; then  # 50MB max
-                large_files=$((large_files + 1))
-                echo "⚠️ Fichier volumineux ignoré: $(basename "$file") ($((size / 1024 / 1024))MB)"
-              else
-                git add "$file" && files_added=$((files_added + 1))
-                echo "✅ Fichier ajouté: $(basename "$file")"
-              fi
-            fi
-          done
-          
-          if [ "$large_files" -gt 0 ]; then
-            echo "📊 $large_files fichiers ignorés (trop volumineux)"
+        commit_msg="📊 Mise à jour des cotes - $(date '+%Y-%m-%d %H:%M')"
+        git commit -m "$commit_msg"
+
+        # Retry push
+        for attempt in 1 2 3; do
+          if git push; then
+            echo "✅ Push réussi (tentative $attempt)."
+            exit 0
           fi
-        fi
-        
-        echo "📈 Total fichiers ajoutés: $files_added"
+          echo "⚠️ Push échoué, nouvelle tentative dans 10s..."
+          sleep 10
+        done
 
-        # Créer le commit si des fichiers ont été ajoutés
-        if ! git diff --staged --quiet; then
-          commit_msg="📊 Mise à jour quotidienne des cotes - $(date '+%Y-%m-%d %H:%M')
-
-🔄 Mise à jour incrémentale (derniers 3 jours + 7 jours futurs)
-📈 Fichiers traités: $files_added
-🤖 Mise à jour automatique via GitHub Actions"
-
-          git commit -m "$commit_msg"
-
-          # Retry push avec backoff
-          for attempt in 1 2 3; do
-            if git push; then
-              echo "✅ Push réussi (tentative $attempt)."
-              break
-            else
-              if [ $attempt -lt 3 ]; then
-                wait_time=$((attempt * 10))
-                echo "⚠️ Push échoué, nouvelle tentative dans ${wait_time}s..."
-                sleep $wait_time
-              else
-                echo "❌ Push définitivement échoué après 3 tentatives."
-                exit 1
-              fi
-            fi
-          done
-        else
-          echo "ℹ️ Aucun changement à committer après vérification."
-        fi
+        echo "❌ Push définitivement échoué après 3 tentatives."
+        exit 1
 
     - name: Upload Artifacts
       if: always()
@@ -313,63 +102,5 @@ EOF
         name: odds-update-log-${{ github.run_number }}
         path: |
           *.log
-          football_odds_updater.py
         retention-days: 15
-        if-no-files-found: warn
-
-    # AJOUT: Rapport final détaillé
-    - name: Final Report
-      if: always()
-      run: |
-        echo "=== RAPPORT FINAL DE MISE À JOUR ==="
-        echo "🕒 Date: $(date)"
-        echo "🏃 Run ID: ${{ github.run_id }}"
-        echo "📊 Status: ${{ job.status }}"
-        echo ""
-        
-        # Statistiques des fichiers
-        if [ -d "data/odds" ]; then
-          echo "💾 Données odds:"
-          total_size=$(du -sh data/odds 2>/dev/null | cut -f1 || echo "N/A")
-          echo "  📁 Taille totale: $total_size"
-          
-          csv_files=$(find data/odds -name "*.csv" 2>/dev/null | wc -l)
-          echo "  📈 Fichiers CSV: $csv_files"
-        fi
-        
-        # Résumé du log
-        if [ -f "odds_update.log" ]; then
-          echo ""
-          echo "📋 Résumé de l'exécution:"
-          
-          # Extraire les statistiques finales du log
-          if grep -q "=== MISE À JOUR TERMINÉE ===" odds_update.log; then
-            echo "✅ Mise à jour terminée normalement"
-            
-            # Extraire les stats si disponibles
-            leagues_updated=$(grep "Ligues mises à jour:" odds_update.log | tail -1 | cut -d: -f2 | xargs || echo "N/A")
-            fixtures_processed=$(grep "Matchs traités:" odds_update.log | tail -1 | cut -d: -f2 | xargs || echo "N/A")
-            api_calls=$(grep "Appels API" odds_update.log | tail -1 | cut -d: -f2 | xargs || echo "N/A")
-            
-            echo "  🏆 Ligues mises à jour: $leagues_updated"
-            echo "  🏟️ Matchs traités: $fixtures_processed"
-            echo "  📞 Appels API: $api_calls"
-          else
-            echo "❌ Mise à jour interrompue"
-            
-            # Dernières lignes pour diagnostic
-            echo ""
-            echo "🔍 Dernières lignes du log:"
-            tail -10 odds_update.log || echo "Log non accessible"
-          fi
-        fi
-        
-        echo ""
-        echo "🎯 Artefacts sauvegardés: odds-update-log-${{ github.run_number }}"
-        echo ""
-        
-        if [ "${{ job.status }}" = "success" ]; then
-          echo "🎉 MISE À JOUR RÉUSSIE!"
-        else
-          echo "❌ MISE À JOUR ÉCHOUÉE - Consultez les logs"
-        fi
+        if-no-files-found: warn 
