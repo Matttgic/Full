@@ -63,7 +63,7 @@ jobs:
         RAPIDAPI_KEY: ${{ secrets.RAPIDAPI_KEY }}
       run: |
         echo "Test de connectivité API Football..."
-        cat > test_api.py << 'PYTHON_EOF'
+        python -c "
 import requests
 import os
 import json
@@ -88,10 +88,10 @@ try:
         account = data.get('account', {})
         subscription = data.get('subscription', {})
         
-        print(f'Compte: {account.get("firstname", "N/A")} {account.get("lastname", "N/A")}')
-        print(f'Plan: {subscription.get("plan", "N/A")}')
-        print(f'Requêtes/jour: {subscription.get("requests_limit_daily", "N/A")}')
-        print(f'Requêtes utilisées: {account.get("requests", {}).get("current", "N/A")}')
+        print(f'Compte: {account.get(\"firstname\", \"N/A\")} {account.get(\"lastname\", \"N/A\")}')
+        print(f'Plan: {subscription.get(\"plan\", \"N/A\")}')
+        print(f'Requêtes/jour: {subscription.get(\"requests_limit_daily\", \"N/A\")}')
+        print(f'Requêtes utilisées: {account.get(\"requests\", {}).get(\"current\", \"N/A\")}')
         
     else:
         print(f'Status code: {response.status_code}')
@@ -100,8 +100,7 @@ try:
 except Exception as e:
     print(f'Erreur API: {e}')
     exit(1)
-PYTHON_EOF
-        python test_api.py
+"
 
     - name: Configure collection parameters
       run: |
@@ -118,7 +117,7 @@ PYTHON_EOF
       run: |
         if [ ! -z "$LEAGUE_FILTER" ]; then
           echo "Application du filtrage par ligues: $LEAGUE_FILTER"
-          cat > prepare_filter.py << 'PYTHON_EOF'
+          python -c "
 import os
 
 try:
@@ -136,14 +135,14 @@ try:
         original_leagues = len(self.all_leagues)
         filtered_leagues = ''' + str(selected_leagues) + '''
         self.all_leagues = {k: v for k, v in self.all_leagues.items() if k in filtered_leagues}
-        logger.info(f"Filtrage activé: {len(self.all_leagues)}/{original_leagues} ligues")
+        logger.info(f\"Filtrage activé: {len(self.all_leagues)}/{original_leagues} ligues\")
         '''
         
         if '# Saisons à analyser' in content:
             content = content.replace('# Saisons à analyser', filter_code + '\n        # Saisons à analyser')
             print('Filtrage injecté avec succès')
         else:
-            print('Point d\'injection non trouvé')
+            print('Point d\\'injection non trouvé')
         
         with open('complete_football_odds_collector_filtered.py', 'w', encoding='utf-8') as f:
             f.write(content)
@@ -154,8 +153,7 @@ try:
         
 except Exception as e:
     print(f'Erreur: {e}')
-PYTHON_EOF
-          python prepare_filter.py
+"
         else
           echo "Pas de filtrage - utilisation du script original"
           cp complete_football_odds_collector.py complete_football_odds_collector_filtered.py
