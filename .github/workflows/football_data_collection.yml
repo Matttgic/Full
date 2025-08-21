@@ -1,5 +1,5 @@
 # .github/workflows/football_data_collection.yml
-name: Football Big 5 Data Collection
+name: Football Data Collection (All Leagues)
 
 on:
   workflow_dispatch:  # Permet de lancer manuellement le workflow
@@ -27,30 +27,30 @@ jobs:
         python -m pip install --upgrade pip
         pip install requests pandas
     
-    # Étape 4: Création du dossier data
+    # Étape 4: Création de la structure de dossiers
     - name: Create data directory
-      run: mkdir -p data
+      run: mkdir -p data/matches
     
-    # Étape 5: Exécution du script de collecte
-    - name: Run football data collection
+    # Étape 5: Exécution du script de collecte étendu
+    - name: Run extended football data collection
       env:
         RAPIDAPI_KEY: ${{ secrets.RAPIDAPI_KEY }}
       run: |
-        python football_data_collector.py
+        python football_data_collector_extended.py
     
     # Étape 6: Commit et push des nouveaux fichiers CSV
     - name: Commit and push changes
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
-        git add data/*.csv
-        git add football_data.log
+        git add data/matches/*.csv
+        git add football_data_extended.log
         
         # Vérifier s'il y a des changements à committer
         if git diff --staged --quiet; then
           echo "Aucun changement à committer"
         else
-          git commit -m "🔄 Mise à jour automatique des données Big 5 - $(date '+%Y-%m-%d')"
+          git commit -m "📊 Mise à jour des données de match (15 ligues) - $(date '+%Y-%m-%d')"
           git push
         fi
     
@@ -60,18 +60,18 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: football-data-logs
-        path: football_data.log
+        path: football_data_extended.log
     
     # Étape 8: Résumé des fichiers générés
     - name: Display summary
       run: |
         echo "=== RÉSUMÉ DE LA COLLECTE ==="
         echo "Date: $(date)"
-        echo "Fichiers générés:"
-        ls -la data/
+        echo "Fichiers générés dans data/matches/:"
+        ls -la data/matches/
         echo ""
         echo "Taille des fichiers:"
-        du -h data/*.csv 2>/dev/null || echo "Aucun fichier CSV trouvé"
+        du -h data/matches/*.csv 2>/dev/null || echo "Aucun fichier CSV trouvé"
         echo ""
         echo "Dernières lignes du log:"
-        tail -10 football_data.log 2>/dev/null || echo "Aucun log trouvé"
+        tail -10 football_data_extended.log 2>/dev/null || echo "Aucun log trouvé"

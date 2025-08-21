@@ -1,0 +1,106 @@
+name: Football Odds Update
+
+on:
+  schedule:
+    - cron: '0 2 * * *' # Run daily at 2 AM UTC
+  workflow_dispatch:
+
+jobs:
+  update-odds:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120 # Reduced timeout as the script is more efficient
+
+    permissions:
+      contents: write
+      actions: read
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        fetch-depth: 0
+
+    - name: Set up Python 3.11
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install requests pandas numpy
+
+    - name: Test API Availability
+      env:
+        RAPIDAPI_KEY: ${{ secrets.RAPIDAPI_KEY }}
+      run: |
+        response=$(curl -s -w "%{http_code}" -o /dev/null --request GET \
+          --url 'https://api-football-v1.p.rapidapi.com/v3/status' \
+          --header 'X-RapidAPI-Key: ${{ secrets.RAPIDAPI_KEY }}' \
+          --header 'X-RapidAPI-Host: api-football-v1.p.rapidapi.com')
+        if [ "$response" -eq 200 ]; then
+          echo "✅ API is available (HTTP 200)"
+        else
+          echo "❌ API returned status $response. Aborting."
+          exit 1
+        fi
+
+    - name: Run Odds Updater Script
+      env:
+        RAPIDAPI_KEY: ${{ secrets.RAPIDAPI_KEY }}
+      run: |
+        echo "🚀 DÉBUT DE LA MISE À JOUR DES COTES: $(date)"
+
+        if ! python3 football_odds_updater.py 2>&1 | tee odds_update.log; then
+          echo "❌ Le script de mise à jour a échoué."
+          echo "=== Dernières lignes du log ==="
+          tail -50 odds_update.log
+          exit 1
+        fi
+
+        echo "✅ Script de mise à jour exécuté avec succès."
+        echo "🏁 FIN DE LA MISE À JOUR: $(date)"
+
+    - name: Commit and Push Changes
+      run: |
+        git config user.name "GitHub Action"
+        git config user.email "action@github.com"
+
+        # Add all changes in the data directory
+        git add data/odds/
+        git add *.log
+
+        if [ -z "$(git status --porcelain)" ]; then
+          echo "ℹ️ Aucune nouvelle donnée à committer."
+          exit 0
+        fi
+
+        echo "📊 Fichiers modifiés à committer:"
+        git status --porcelain
+
+        commit_msg="📊 Mise à jour des cotes - $(date '+%Y-%m-%d %H:%M')"
+        git commit -m "$commit_msg"
+
+        # Retry push
+        for attempt in 1 2 3; do
+          if git push; then
+            echo "✅ Push réussi (tentative $attempt)."
+            exit 0
+          fi
+          echo "⚠️ Push échoué, nouvelle tentative dans 10s..."
+          sleep 10
+        done
+
+        echo "❌ Push définitivement échoué après 3 tentatives."
+        exit 1
+
+    - name: Upload Artifacts
+      if: always()
+      uses: actions/upload-artifact@v4
+      with:
+        name: odds-update-log-${{ github.run_number }}
+        path: |
+          *.log
+        retention-days: 15
+        if-no-files-found: warn
