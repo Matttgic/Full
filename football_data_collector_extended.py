@@ -11,24 +11,21 @@ logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(levelname)s - %(message)s',
     handlers=[
-        logging.FileHandler('football_data.log'),
+        logging.FileHandler('football_data_extended.log'),
         logging.StreamHandler()
     ]
 )
 logger = logging.getLogger(__name__)
 
-class FootballDataCollector:
+class FootballDataCollectorExtended:
     """
-    Collecteur de données football pour les nouvelles ligues
-    Récupère les statistiques des matchs et les sauvegarde en CSV
+    Collecteur de données football pour TOUTES les ligues (15 au total).
+    Récupère les statistiques des matchs et les sauvegarde dans data/matches/
     """
     
     def __init__(self, rapidapi_key: str):
         """
-        Initialise le collecteur avec la clé RapidAPI
-        
-        Args:
-            rapidapi_key (str): Clé d'API RapidAPI
+        Initialise le collecteur avec la clé RapidAPI.
         """
         self.api_key = rapidapi_key
         self.base_url = "https://api-football-v1.p.rapidapi.com/v3"
@@ -37,8 +34,15 @@ class FootballDataCollector:
             'x-rapidapi-key': self.api_key
         }
         
-        # Configuration des nouvelles ligues à collecter
-        self.new_leagues = {
+        # Configuration de TOUTES les ligues
+        self.all_leagues = {
+            # Big 5
+            'ENG1': {'id': 39, 'name': 'Premier League', 'country': 'England'},
+            'FRA1': {'id': 61, 'name': 'Ligue 1', 'country': 'France'},
+            'ITA1': {'id': 135, 'name': 'Serie A', 'country': 'Italy'},
+            'GER1': {'id': 78, 'name': 'Bundesliga', 'country': 'Germany'},
+            'SPA1': {'id': 140, 'name': 'La Liga', 'country': 'Spain'},
+            # Ligues étendues
             'NED1': {'id': 88, 'name': 'Eredivisie', 'country': 'Netherlands'},
             'POR1': {'id': 94, 'name': 'Primeira Liga', 'country': 'Portugal'},
             'BEL1': {'id': 144, 'name': 'Jupiler Pro League', 'country': 'Belgium'},
@@ -58,11 +62,10 @@ class FootballDataCollector:
         # Saisons à récupérer (2024 et 2025)
         self.seasons_to_collect = [2024, 2025]
         
-        # Création du dossier data s'il n'existe pas
-        self.data_folder = "data"
-        if not os.path.exists(self.data_folder):
-            os.makedirs(self.data_folder)
-            logger.info(f"Dossier '{self.data_folder}' créé")
+        # Création de la structure de dossiers
+        self.matches_folder = os.path.join("data", "matches")
+        os.makedirs(self.matches_folder, exist_ok=True)
+        logger.info(f"Dossier pour les matchs assuré d'exister: '{self.matches_folder}'")
     
     def make_api_request(self, endpoint: str, params: Dict) -> Optional[Dict]:
         """
@@ -314,15 +317,9 @@ class FootballDataCollector:
     
     def collect_league_data(self, league_code: str) -> pd.DataFrame:
         """
-        Collecte toutes les données d'une ligue pour les 365 derniers jours
-        
-        Args:
-            league_code (str): Code de la ligue (ex: 'NED1')
-            
-        Returns:
-            pd.DataFrame: DataFrame avec toutes les données de la ligue
+        Collecte toutes les données d'une ligue pour les 365 derniers jours.
         """
-        league_info = self.new_leagues[league_code]
+        league_info = self.all_leagues[league_code]
         league_id = league_info['id']
         
         logger.info(f"🏆 Début de collecte pour {league_info['name']} ({league_code})")
@@ -390,7 +387,7 @@ class FootballDataCollector:
             return
         
         filename = f"{league_code}.csv"
-        filepath = os.path.join(self.data_folder, filename)
+        filepath = os.path.join(self.matches_folder, filename)
         
         try:
             # Tri par date
@@ -414,16 +411,16 @@ class FootballDataCollector:
     
     def run_full_collection(self) -> None:
         """
-        Lance la collecte complète pour toutes les nouvelles ligues
+        Lance la collecte complète pour TOUTES les ligues.
         """
-        logger.info("🚀 === DÉBUT DE LA COLLECTE NOUVELLES LIGUES (365 DERNIERS JOURS) ===")
+        logger.info("🚀 === DÉBUT DE LA COLLECTE ÉTENDUE (365 DERNIERS JOURS) ===")
         logger.info(f"📅 Période de collecte: {self.start_date} à {self.end_date}")
         logger.info(f"🏆 Saisons analysées: {self.seasons_to_collect}")
         start_time = datetime.now()
         
         successful_collections = 0
         
-        for league_code in self.new_leagues.keys():
+        for league_code in self.all_leagues.keys():
             try:
                 logger.info(f"\n🏟️ --- Collecte de {league_code} ---")
                 
@@ -448,12 +445,12 @@ class FootballDataCollector:
         
         logger.info(f"\n🎉 === COLLECTE TERMINÉE ===")
         logger.info(f"⏱️ Durée totale: {duration}")
-        logger.info(f"✅ Ligues traitées avec succès: {successful_collections}/{len(self.new_leagues)}")
-        logger.info(f"📁 Fichiers générés dans le dossier '{self.data_folder}'")
+        logger.info(f"✅ Ligues traitées avec succès: {successful_collections}/{len(self.all_leagues)}")
+        logger.info(f"📁 Fichiers générés dans le dossier '{self.matches_folder}'")
         
         # Résumé des fichiers créés
-        if os.path.exists(self.data_folder):
-            csv_files = [f for f in os.listdir(self.data_folder) if f.endswith('.csv')]
+        if os.path.exists(self.matches_folder):
+            csv_files = [f for f in os.listdir(self.matches_folder) if f.endswith('.csv')]
             logger.info(f"📊 Fichiers CSV créés: {csv_files}")
 
 def main():
@@ -472,7 +469,7 @@ def main():
     logger.info("✅ Clé API récupérée depuis les variables d'environnement")
     
     # Création du collecteur
-    collector = FootballDataCollector(RAPIDAPI_KEY)
+    collector = FootballDataCollectorExtended(RAPIDAPI_KEY)
     
     # Lancement de la collecte
     collector.run_full_collection()
