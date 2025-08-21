@@ -1,627 +1,628 @@
-2025-08-21 16:13:16,367 - INFO - ✅ Clé API récupérée.
-2025-08-21 16:13:16,367 - INFO - 🚀 === DÉBUT DE LA COLLECTE DES COTES ===
-2025-08-21 16:13:16,367 - INFO - Fenêtre de temps: 2024-08-21 à 2025-08-21
-2025-08-21 16:13:16,367 - INFO - --- Collecte des cotes pour la ligue: SAU1 ---
-2025-08-21 16:13:16,376 - INFO - [SAU1] 327 matchs chargés, 306 dans la fenêtre de collecte.
-2025-08-21 16:13:16,377 - INFO - [SAU1] 0 matchs ont déjà des cotes.
-2025-08-21 16:13:16,377 - INFO - [SAU1] 306 nouveaux matchs à traiter.
-2025-08-21 16:13:16,378 - INFO - [SAU1] Traitement du match 1252419
-2025-08-21 16:13:16,378 - INFO - 🔍 Appel API pour les cotes du match 1252419
-2025-08-21 16:13:18,435 - INFO - [SAU1] Traitement du match 1252420
-2025-08-21 16:13:18,436 - INFO - 🔍 Appel API pour les cotes du match 1252420
-2025-08-21 16:13:20,505 - INFO - [SAU1] Traitement du match 1252421
-2025-08-21 16:13:20,506 - INFO - 🔍 Appel API pour les cotes du match 1252421
-2025-08-21 16:13:22,517 - INFO - [SAU1] Traitement du match 1252422
-2025-08-21 16:13:22,518 - INFO - 🔍 Appel API pour les cotes du match 1252422
-2025-08-21 16:13:24,653 - INFO - [SAU1] Traitement du match 1252423
-2025-08-21 16:13:24,654 - INFO - 🔍 Appel API pour les cotes du match 1252423
-2025-08-21 16:13:26,608 - INFO - [SAU1] Traitement du match 1252424
-2025-08-21 16:13:26,608 - INFO - 🔍 Appel API pour les cotes du match 1252424
-2025-08-21 16:13:28,620 - INFO - [SAU1] Traitement du match 1252425
-2025-08-21 16:13:28,621 - INFO - 🔍 Appel API pour les cotes du match 1252425
-2025-08-21 16:13:30,537 - INFO - [SAU1] Traitement du match 1252426
-2025-08-21 16:13:30,538 - INFO - 🔍 Appel API pour les cotes du match 1252426
-2025-08-21 16:13:32,504 - INFO - [SAU1] Traitement du match 1252427
-2025-08-21 16:13:32,505 - INFO - 🔍 Appel API pour les cotes du match 1252427
-2025-08-21 16:13:34,405 - INFO - [SAU1] Traitement du match 1252429
-2025-08-21 16:13:34,405 - INFO - 🔍 Appel API pour les cotes du match 1252429
-2025-08-21 16:13:36,309 - INFO - [SAU1] Traitement du match 1252430
-2025-08-21 16:13:36,310 - INFO - 🔍 Appel API pour les cotes du match 1252430
-2025-08-21 16:13:38,316 - INFO - [SAU1] Traitement du match 1252428
-2025-08-21 16:13:38,316 - INFO - 🔍 Appel API pour les cotes du match 1252428
-2025-08-21 16:13:40,234 - INFO - [SAU1] Traitement du match 1252431
-2025-08-21 16:13:40,234 - INFO - 🔍 Appel API pour les cotes du match 1252431
-2025-08-21 16:13:42,213 - INFO - [SAU1] Traitement du match 1252432
-2025-08-21 16:13:42,214 - INFO - 🔍 Appel API pour les cotes du match 1252432
-2025-08-21 16:13:44,283 - INFO - [SAU1] Traitement du match 1252433
-2025-08-21 16:13:44,283 - INFO - 🔍 Appel API pour les cotes du match 1252433
-2025-08-21 16:13:46,203 - INFO - [SAU1] Traitement du match 1252435
-2025-08-21 16:13:46,204 - INFO - 🔍 Appel API pour les cotes du match 1252435
-2025-08-21 16:13:48,117 - INFO - [SAU1] Traitement du match 1252436
-2025-08-21 16:13:48,117 - INFO - 🔍 Appel API pour les cotes du match 1252436
-2025-08-21 16:13:50,023 - INFO - [SAU1] Traitement du match 1252434
-2025-08-21 16:13:50,024 - INFO - 🔍 Appel API pour les cotes du match 1252434
-2025-08-21 16:13:51,953 - INFO - [SAU1] Traitement du match 1252437
-2025-08-21 16:13:51,954 - INFO - 🔍 Appel API pour les cotes du match 1252437
-2025-08-21 16:13:53,879 - INFO - [SAU1] Traitement du match 1252440
-2025-08-21 16:13:53,879 - INFO - 🔍 Appel API pour les cotes du match 1252440
-2025-08-21 16:13:55,877 - INFO - [SAU1] Traitement du match 1252438
-2025-08-21 16:13:55,877 - INFO - 🔍 Appel API pour les cotes du match 1252438
-2025-08-21 16:13:57,791 - INFO - [SAU1] Traitement du match 1252441
-2025-08-21 16:13:57,791 - INFO - 🔍 Appel API pour les cotes du match 1252441
-2025-08-21 16:13:59,710 - INFO - [SAU1] Traitement du match 1252444
-2025-08-21 16:13:59,710 - INFO - 🔍 Appel API pour les cotes du match 1252444
-2025-08-21 16:14:01,680 - INFO - [SAU1] Traitement du match 1252439
-2025-08-21 16:14:01,680 - INFO - 🔍 Appel API pour les cotes du match 1252439
-2025-08-21 16:14:03,681 - INFO - [SAU1] Traitement du match 1252442
-2025-08-21 16:14:03,682 - INFO - 🔍 Appel API pour les cotes du match 1252442
-2025-08-21 16:14:05,637 - INFO - [SAU1] Traitement du match 1252445
-2025-08-21 16:14:05,638 - INFO - 🔍 Appel API pour les cotes du match 1252445
-2025-08-21 16:14:07,759 - INFO - [SAU1] Traitement du match 1252443
-2025-08-21 16:14:07,759 - INFO - 🔍 Appel API pour les cotes du match 1252443
-2025-08-21 16:14:09,731 - INFO - [SAU1] Traitement du match 1252447
-2025-08-21 16:14:09,732 - INFO - 🔍 Appel API pour les cotes du match 1252447
-2025-08-21 16:14:11,663 - INFO - [SAU1] Traitement du match 1252449
-2025-08-21 16:14:11,663 - INFO - 🔍 Appel API pour les cotes du match 1252449
-2025-08-21 16:14:13,592 - INFO - [SAU1] Traitement du match 1252448
-2025-08-21 16:14:13,592 - INFO - 🔍 Appel API pour les cotes du match 1252448
-2025-08-21 16:14:15,534 - INFO - [SAU1] Traitement du match 1252451
-2025-08-21 16:14:15,535 - INFO - 🔍 Appel API pour les cotes du match 1252451
-2025-08-21 16:14:17,565 - INFO - [SAU1] Traitement du match 1252453
-2025-08-21 16:14:17,566 - INFO - 🔍 Appel API pour les cotes du match 1252453
-2025-08-21 16:14:19,484 - INFO - [SAU1] Traitement du match 1252450
-2025-08-21 16:14:19,484 - INFO - 🔍 Appel API pour les cotes du match 1252450
-2025-08-21 16:14:21,388 - INFO - [SAU1] Traitement du match 1252454
-2025-08-21 16:14:21,388 - INFO - 🔍 Appel API pour les cotes du match 1252454
-2025-08-21 16:14:23,339 - INFO - [SAU1] Traitement du match 1252446
-2025-08-21 16:14:23,340 - INFO - 🔍 Appel API pour les cotes du match 1252446
-2025-08-21 16:14:25,252 - INFO - [SAU1] Traitement du match 1252452
-2025-08-21 16:14:25,253 - INFO - 🔍 Appel API pour les cotes du match 1252452
-2025-08-21 16:14:27,173 - INFO - [SAU1] Traitement du match 1252462
-2025-08-21 16:14:27,173 - INFO - 🔍 Appel API pour les cotes du match 1252462
-2025-08-21 16:14:29,085 - INFO - [SAU1] Traitement du match 1252457
-2025-08-21 16:14:29,086 - INFO - 🔍 Appel API pour les cotes du match 1252457
-2025-08-21 16:14:31,036 - INFO - [SAU1] Traitement du match 1252456
-2025-08-21 16:14:31,037 - INFO - 🔍 Appel API pour les cotes du match 1252456
-2025-08-21 16:14:32,966 - INFO - [SAU1] Traitement du match 1252458
-2025-08-21 16:14:32,967 - INFO - 🔍 Appel API pour les cotes du match 1252458
-2025-08-21 16:14:35,058 - INFO - [SAU1] Traitement du match 1252455
-2025-08-21 16:14:35,058 - INFO - 🔍 Appel API pour les cotes du match 1252455
-2025-08-21 16:14:36,969 - INFO - [SAU1] Traitement du match 1252460
-2025-08-21 16:14:36,969 - INFO - 🔍 Appel API pour les cotes du match 1252460
-2025-08-21 16:14:38,902 - INFO - [SAU1] Traitement du match 1252463
-2025-08-21 16:14:38,903 - INFO - 🔍 Appel API pour les cotes du match 1252463
-2025-08-21 16:14:40,802 - INFO - [SAU1] Traitement du match 1252459
-2025-08-21 16:14:40,803 - INFO - 🔍 Appel API pour les cotes du match 1252459
-2025-08-21 16:14:42,731 - INFO - [SAU1] Traitement du match 1252461
-2025-08-21 16:14:42,732 - INFO - 🔍 Appel API pour les cotes du match 1252461
-2025-08-21 16:14:44,653 - INFO - [SAU1] Traitement du match 1252469
-2025-08-21 16:14:44,654 - INFO - 🔍 Appel API pour les cotes du match 1252469
-2025-08-21 16:14:46,568 - INFO - [SAU1] Traitement du match 1252466
-2025-08-21 16:14:46,568 - INFO - 🔍 Appel API pour les cotes du match 1252466
-2025-08-21 16:14:48,508 - INFO - [SAU1] Traitement du match 1252467
-2025-08-21 16:14:48,509 - INFO - 🔍 Appel API pour les cotes du match 1252467
-2025-08-21 16:14:50,425 - INFO - [SAU1] Traitement du match 1252464
-2025-08-21 16:14:50,425 - INFO - 🔍 Appel API pour les cotes du match 1252464
-2025-08-21 16:14:52,357 - INFO - [SAU1] Traitement du match 1252472
-2025-08-21 16:14:52,357 - INFO - 🔍 Appel API pour les cotes du match 1252472
-2025-08-21 16:14:54,269 - INFO - [SAU1] Traitement du match 1252465
-2025-08-21 16:14:54,270 - INFO - 🔍 Appel API pour les cotes du match 1252465
-2025-08-21 16:14:55,950 - INFO - [SAU1] Traitement du match 1252470
-2025-08-21 16:14:55,951 - INFO - 🔍 Appel API pour les cotes du match 1252470
-2025-08-21 16:14:57,881 - INFO - [SAU1] Traitement du match 1252471
-2025-08-21 16:14:57,882 - INFO - 🔍 Appel API pour les cotes du match 1252471
-2025-08-21 16:14:59,799 - INFO - [SAU1] Traitement du match 1252468
-2025-08-21 16:14:59,799 - INFO - 🔍 Appel API pour les cotes du match 1252468
-2025-08-21 16:15:01,767 - INFO - [SAU1] Traitement du match 1252475
-2025-08-21 16:15:01,767 - INFO - 🔍 Appel API pour les cotes du match 1252475
-2025-08-21 16:15:03,773 - INFO - [SAU1] Traitement du match 1252473
-2025-08-21 16:15:03,774 - INFO - 🔍 Appel API pour les cotes du match 1252473
-2025-08-21 16:15:12,534 - INFO - [SAU1] Traitement du match 1252474
-2025-08-21 16:15:12,535 - INFO - 🔍 Appel API pour les cotes du match 1252474
-2025-08-21 16:15:14,205 - INFO - [SAU1] Traitement du match 1252481
-2025-08-21 16:15:14,205 - INFO - 🔍 Appel API pour les cotes du match 1252481
-2025-08-21 16:15:16,121 - INFO - [SAU1] Traitement du match 1252477
-2025-08-21 16:15:16,121 - INFO - 🔍 Appel API pour les cotes du match 1252477
-2025-08-21 16:15:18,134 - INFO - [SAU1] Traitement du match 1252478
-2025-08-21 16:15:18,135 - INFO - 🔍 Appel API pour les cotes du match 1252478
-2025-08-21 16:15:19,814 - INFO - [SAU1] Traitement du match 1252479
-2025-08-21 16:15:19,815 - INFO - 🔍 Appel API pour les cotes du match 1252479
-2025-08-21 16:15:21,731 - INFO - [SAU1] Traitement du match 1252476
-2025-08-21 16:15:21,732 - INFO - 🔍 Appel API pour les cotes du match 1252476
-2025-08-21 16:15:23,857 - INFO - [SAU1] Traitement du match 1252480
-2025-08-21 16:15:23,857 - INFO - 🔍 Appel API pour les cotes du match 1252480
-2025-08-21 16:15:25,540 - INFO - [SAU1] Traitement du match 1252486
-2025-08-21 16:15:25,541 - INFO - 🔍 Appel API pour les cotes du match 1252486
-2025-08-21 16:15:27,450 - INFO - [SAU1] Traitement du match 1252484
-2025-08-21 16:15:27,450 - INFO - 🔍 Appel API pour les cotes du match 1252484
-2025-08-21 16:15:29,403 - INFO - [SAU1] Traitement du match 1252485
-2025-08-21 16:15:29,404 - INFO - 🔍 Appel API pour les cotes du match 1252485
-2025-08-21 16:15:31,347 - INFO - [SAU1] Traitement du match 1252489
-2025-08-21 16:15:31,347 - INFO - 🔍 Appel API pour les cotes du match 1252489
-2025-08-21 16:15:33,256 - INFO - [SAU1] Traitement du match 1252487
-2025-08-21 16:15:33,257 - INFO - 🔍 Appel API pour les cotes du match 1252487
-2025-08-21 16:15:35,165 - INFO - [SAU1] Traitement du match 1252490
-2025-08-21 16:15:35,166 - INFO - 🔍 Appel API pour les cotes du match 1252490
-2025-08-21 16:15:37,095 - INFO - [SAU1] Traitement du match 1252482
-2025-08-21 16:15:37,095 - INFO - 🔍 Appel API pour les cotes du match 1252482
-2025-08-21 16:15:39,033 - INFO - [SAU1] Traitement du match 1252488
-2025-08-21 16:15:39,033 - INFO - 🔍 Appel API pour les cotes du match 1252488
-2025-08-21 16:15:40,955 - INFO - [SAU1] Traitement du match 1252483
-2025-08-21 16:15:40,956 - INFO - 🔍 Appel API pour les cotes du match 1252483
-2025-08-21 16:15:42,639 - INFO - [SAU1] Traitement du match 1252497
-2025-08-21 16:15:42,640 - INFO - 🔍 Appel API pour les cotes du match 1252497
-2025-08-21 16:15:44,564 - INFO - [SAU1] Traitement du match 1252494
-2025-08-21 16:15:44,565 - INFO - 🔍 Appel API pour les cotes du match 1252494
-2025-08-21 16:15:46,250 - INFO - [SAU1] Traitement du match 1252493
-2025-08-21 16:15:46,251 - INFO - 🔍 Appel API pour les cotes du match 1252493
-2025-08-21 16:15:48,151 - INFO - [SAU1] Traitement du match 1252499
-2025-08-21 16:15:48,151 - INFO - 🔍 Appel API pour les cotes du match 1252499
-2025-08-21 16:15:49,822 - INFO - [SAU1] Traitement du match 1252495
-2025-08-21 16:15:49,823 - INFO - 🔍 Appel API pour les cotes du match 1252495
-2025-08-21 16:15:51,741 - INFO - [SAU1] Traitement du match 1252491
-2025-08-21 16:15:51,741 - INFO - 🔍 Appel API pour les cotes du match 1252491
-2025-08-21 16:15:53,708 - INFO - [SAU1] Traitement du match 1252496
-2025-08-21 16:15:53,708 - INFO - 🔍 Appel API pour les cotes du match 1252496
-2025-08-21 16:15:55,618 - INFO - [SAU1] Traitement du match 1252498
-2025-08-21 16:15:55,619 - INFO - 🔍 Appel API pour les cotes du match 1252498
-2025-08-21 16:15:57,583 - INFO - [SAU1] Traitement du match 1252492
-2025-08-21 16:15:57,583 - INFO - 🔍 Appel API pour les cotes du match 1252492
-2025-08-21 16:15:59,545 - INFO - [SAU1] Traitement du match 1252502
-2025-08-21 16:15:59,546 - INFO - 🔍 Appel API pour les cotes du match 1252502
-2025-08-21 16:16:01,475 - INFO - [SAU1] Traitement du match 1252500
-2025-08-21 16:16:01,476 - INFO - 🔍 Appel API pour les cotes du match 1252500
-2025-08-21 16:16:03,203 - INFO - [SAU1] Traitement du match 1252505
-2025-08-21 16:16:03,204 - INFO - 🔍 Appel API pour les cotes du match 1252505
-2025-08-21 16:16:05,227 - INFO - [SAU1] Traitement du match 1252504
-2025-08-21 16:16:05,228 - INFO - 🔍 Appel API pour les cotes du match 1252504
-2025-08-21 16:16:06,967 - INFO - [SAU1] Traitement du match 1252506
-2025-08-21 16:16:06,968 - INFO - 🔍 Appel API pour les cotes du match 1252506
-2025-08-21 16:16:08,891 - INFO - [SAU1] Traitement du match 1252508
-2025-08-21 16:16:08,892 - INFO - 🔍 Appel API pour les cotes du match 1252508
-2025-08-21 16:16:10,835 - INFO - [SAU1] Traitement du match 1252507
-2025-08-21 16:16:10,836 - INFO - 🔍 Appel API pour les cotes du match 1252507
-2025-08-21 16:16:12,741 - INFO - [SAU1] Traitement du match 1252503
-2025-08-21 16:16:12,742 - INFO - 🔍 Appel API pour les cotes du match 1252503
-2025-08-21 16:16:14,658 - INFO - [SAU1] Traitement du match 1252501
-2025-08-21 16:16:14,658 - INFO - 🔍 Appel API pour les cotes du match 1252501
-2025-08-21 16:16:16,567 - INFO - [SAU1] Traitement du match 1252509
-2025-08-21 16:16:16,568 - INFO - 🔍 Appel API pour les cotes du match 1252509
-2025-08-21 16:16:18,570 - INFO - [SAU1] Traitement du match 1252514
-2025-08-21 16:16:18,570 - INFO - 🔍 Appel API pour les cotes du match 1252514
-2025-08-21 16:16:20,261 - INFO - [SAU1] Traitement du match 1252510
-2025-08-21 16:16:20,261 - INFO - 🔍 Appel API pour les cotes du match 1252510
-2025-08-21 16:16:21,987 - INFO - [SAU1] Traitement du match 1252512
-2025-08-21 16:16:21,988 - INFO - 🔍 Appel API pour les cotes du match 1252512
-2025-08-21 16:16:23,916 - INFO - [SAU1] Traitement du match 1252513
-2025-08-21 16:16:23,916 - INFO - 🔍 Appel API pour les cotes du match 1252513
-2025-08-21 16:16:25,828 - INFO - [SAU1] Traitement du match 1252511
-2025-08-21 16:16:25,828 - INFO - 🔍 Appel API pour les cotes du match 1252511
-2025-08-21 16:16:27,747 - INFO - [SAU1] Traitement du match 1252517
-2025-08-21 16:16:27,748 - INFO - 🔍 Appel API pour les cotes du match 1252517
-2025-08-21 16:16:29,694 - INFO - [SAU1] Traitement du match 1252515
-2025-08-21 16:16:29,695 - INFO - 🔍 Appel API pour les cotes du match 1252515
-2025-08-21 16:16:31,448 - INFO - [SAU1] Traitement du match 1252516
-2025-08-21 16:16:31,448 - INFO - 🔍 Appel API pour les cotes du match 1252516
-2025-08-21 16:16:33,387 - INFO - [SAU1] Traitement du match 1252520
-2025-08-21 16:16:33,388 - INFO - 🔍 Appel API pour les cotes du match 1252520
-2025-08-21 16:16:35,296 - INFO - [SAU1] Traitement du match 1252525
-2025-08-21 16:16:35,296 - INFO - 🔍 Appel API pour les cotes du match 1252525
-2025-08-21 16:16:37,216 - INFO - [SAU1] Traitement du match 1252526
-2025-08-21 16:16:37,216 - INFO - 🔍 Appel API pour les cotes du match 1252526
-2025-08-21 16:16:39,136 - INFO - [SAU1] Traitement du match 1252518
-2025-08-21 16:16:39,137 - INFO - 🔍 Appel API pour les cotes du match 1252518
-2025-08-21 16:16:40,829 - INFO - [SAU1] Traitement du match 1252522
-2025-08-21 16:16:40,830 - INFO - 🔍 Appel API pour les cotes du match 1252522
-2025-08-21 16:16:42,749 - INFO - [SAU1] Traitement du match 1252521
-2025-08-21 16:16:42,749 - INFO - 🔍 Appel API pour les cotes du match 1252521
-2025-08-21 16:16:44,703 - INFO - [SAU1] Traitement du match 1252523
-2025-08-21 16:16:44,704 - INFO - 🔍 Appel API pour les cotes du match 1252523
-2025-08-21 16:16:46,601 - INFO - [SAU1] Traitement du match 1252519
-2025-08-21 16:16:46,601 - INFO - 🔍 Appel API pour les cotes du match 1252519
-2025-08-21 16:16:48,534 - INFO - [SAU1] Traitement du match 1252524
-2025-08-21 16:16:48,535 - INFO - 🔍 Appel API pour les cotes du match 1252524
-2025-08-21 16:16:50,465 - INFO - [SAU1] Traitement du match 1252535
-2025-08-21 16:16:50,466 - INFO - 🔍 Appel API pour les cotes du match 1252535
-2025-08-21 16:16:52,396 - INFO - [SAU1] Traitement du match 1252530
-2025-08-21 16:16:52,397 - INFO - 🔍 Appel API pour les cotes du match 1252530
-2025-08-21 16:16:54,315 - INFO - [SAU1] Traitement du match 1252528
-2025-08-21 16:16:54,316 - INFO - 🔍 Appel API pour les cotes du match 1252528
-2025-08-21 16:16:56,214 - INFO - [SAU1] Traitement du match 1252532
-2025-08-21 16:16:56,215 - INFO - 🔍 Appel API pour les cotes du match 1252532
-2025-08-21 16:16:58,113 - INFO - [SAU1] Traitement du match 1252527
-2025-08-21 16:16:58,114 - INFO - 🔍 Appel API pour les cotes du match 1252527
-2025-08-21 16:17:00,071 - INFO - [SAU1] Traitement du match 1252531
-2025-08-21 16:17:00,072 - INFO - 🔍 Appel API pour les cotes du match 1252531
-2025-08-21 16:17:02,002 - INFO - [SAU1] Traitement du match 1252534
-2025-08-21 16:17:02,002 - INFO - 🔍 Appel API pour les cotes du match 1252534
-2025-08-21 16:17:03,922 - INFO - [SAU1] Traitement du match 1252533
-2025-08-21 16:17:03,923 - INFO - 🔍 Appel API pour les cotes du match 1252533
-2025-08-21 16:17:05,868 - INFO - [SAU1] Traitement du match 1252529
-2025-08-21 16:17:05,869 - INFO - 🔍 Appel API pour les cotes du match 1252529
-2025-08-21 16:17:07,768 - INFO - [SAU1] Traitement du match 1252543
-2025-08-21 16:17:07,769 - INFO - 🔍 Appel API pour les cotes du match 1252543
-2025-08-21 16:17:09,729 - INFO - [SAU1] Traitement du match 1252536
-2025-08-21 16:17:09,730 - INFO - 🔍 Appel API pour les cotes du match 1252536
-2025-08-21 16:17:11,677 - INFO - [SAU1] Traitement du match 1252539
-2025-08-21 16:17:11,677 - INFO - 🔍 Appel API pour les cotes du match 1252539
-2025-08-21 16:17:13,371 - INFO - [SAU1] Traitement du match 1252537
-2025-08-21 16:17:13,371 - INFO - 🔍 Appel API pour les cotes du match 1252537
-2025-08-21 16:17:15,281 - INFO - [SAU1] Traitement du match 1252544
-2025-08-21 16:17:15,282 - INFO - 🔍 Appel API pour les cotes du match 1252544
-2025-08-21 16:17:17,028 - INFO - [SAU1] Traitement du match 1252540
-2025-08-21 16:17:17,029 - INFO - 🔍 Appel API pour les cotes du match 1252540
-2025-08-21 16:17:18,831 - INFO - [SAU1] Traitement du match 1252542
-2025-08-21 16:17:18,831 - INFO - 🔍 Appel API pour les cotes du match 1252542
-2025-08-21 16:17:20,747 - INFO - [SAU1] Traitement du match 1252538
-2025-08-21 16:17:20,748 - INFO - 🔍 Appel API pour les cotes du match 1252538
-2025-08-21 16:17:22,683 - INFO - [SAU1] Traitement du match 1252541
-2025-08-21 16:17:22,684 - INFO - 🔍 Appel API pour les cotes du match 1252541
-2025-08-21 16:17:24,356 - INFO - [SAU1] Traitement du match 1252550
-2025-08-21 16:17:24,357 - INFO - 🔍 Appel API pour les cotes du match 1252550
-2025-08-21 16:17:26,043 - INFO - [SAU1] Traitement du match 1252551
-2025-08-21 16:17:26,043 - INFO - 🔍 Appel API pour les cotes du match 1252551
-2025-08-21 16:17:27,907 - INFO - [SAU1] Traitement du match 1252545
-2025-08-21 16:17:27,908 - INFO - 🔍 Appel API pour les cotes du match 1252545
-2025-08-21 16:17:29,828 - INFO - [SAU1] Traitement du match 1252552
-2025-08-21 16:17:29,829 - INFO - 🔍 Appel API pour les cotes du match 1252552
-2025-08-21 16:17:31,756 - INFO - [SAU1] Traitement du match 1252546
-2025-08-21 16:17:31,757 - INFO - 🔍 Appel API pour les cotes du match 1252546
-2025-08-21 16:17:33,691 - INFO - [SAU1] Traitement du match 1252548
-2025-08-21 16:17:33,691 - INFO - 🔍 Appel API pour les cotes du match 1252548
-2025-08-21 16:17:35,420 - INFO - [SAU1] Traitement du match 1252553
-2025-08-21 16:17:35,421 - INFO - 🔍 Appel API pour les cotes du match 1252553
-2025-08-21 16:17:37,355 - INFO - [SAU1] Traitement du match 1252547
-2025-08-21 16:17:37,356 - INFO - 🔍 Appel API pour les cotes du match 1252547
-2025-08-21 16:17:39,268 - INFO - [SAU1] Traitement du match 1252549
-2025-08-21 16:17:39,269 - INFO - 🔍 Appel API pour les cotes du match 1252549
-2025-08-21 16:17:41,179 - INFO - [SAU1] Traitement du match 1252557
-2025-08-21 16:17:41,179 - INFO - 🔍 Appel API pour les cotes du match 1252557
-2025-08-21 16:17:43,105 - INFO - [SAU1] Traitement du match 1252554
-2025-08-21 16:17:43,105 - INFO - 🔍 Appel API pour les cotes du match 1252554
-2025-08-21 16:17:45,027 - INFO - [SAU1] Traitement du match 1252560
-2025-08-21 16:17:45,027 - INFO - 🔍 Appel API pour les cotes du match 1252560
-2025-08-21 16:17:46,947 - INFO - [SAU1] Traitement du match 1252555
-2025-08-21 16:17:46,947 - INFO - 🔍 Appel API pour les cotes du match 1252555
-2025-08-21 16:17:48,877 - INFO - [SAU1] Traitement du match 1252559
-2025-08-21 16:17:48,878 - INFO - 🔍 Appel API pour les cotes du match 1252559
-2025-08-21 16:17:50,821 - INFO - [SAU1] Traitement du match 1252561
-2025-08-21 16:17:50,822 - INFO - 🔍 Appel API pour les cotes du match 1252561
-2025-08-21 16:17:52,743 - INFO - [SAU1] Traitement du match 1252556
-2025-08-21 16:17:52,744 - INFO - 🔍 Appel API pour les cotes du match 1252556
-2025-08-21 16:17:54,429 - INFO - [SAU1] Traitement du match 1252562
-2025-08-21 16:17:54,430 - INFO - 🔍 Appel API pour les cotes du match 1252562
-2025-08-21 16:17:56,359 - INFO - [SAU1] Traitement du match 1252558
-2025-08-21 16:17:56,359 - INFO - 🔍 Appel API pour les cotes du match 1252558
-2025-08-21 16:17:58,282 - INFO - [SAU1] Traitement du match 1252565
-2025-08-21 16:17:58,282 - INFO - 🔍 Appel API pour les cotes du match 1252565
-2025-08-21 16:18:00,193 - INFO - [SAU1] Traitement du match 1252571
-2025-08-21 16:18:00,194 - INFO - 🔍 Appel API pour les cotes du match 1252571
-2025-08-21 16:18:02,118 - INFO - [SAU1] Traitement du match 1252569
-2025-08-21 16:18:02,118 - INFO - 🔍 Appel API pour les cotes du match 1252569
-2025-08-21 16:18:04,055 - INFO - [SAU1] Traitement du match 1252566
-2025-08-21 16:18:04,056 - INFO - 🔍 Appel API pour les cotes du match 1252566
-2025-08-21 16:18:05,995 - INFO - [SAU1] Traitement du match 1252570
-2025-08-21 16:18:05,996 - INFO - 🔍 Appel API pour les cotes du match 1252570
-2025-08-21 16:18:07,665 - INFO - [SAU1] Traitement du match 1252564
-2025-08-21 16:18:07,665 - INFO - 🔍 Appel API pour les cotes du match 1252564
-2025-08-21 16:18:09,429 - INFO - [SAU1] Traitement du match 1252567
-2025-08-21 16:18:09,429 - INFO - 🔍 Appel API pour les cotes du match 1252567
-2025-08-21 16:18:11,350 - INFO - [SAU1] Traitement du match 1252563
-2025-08-21 16:18:11,351 - INFO - 🔍 Appel API pour les cotes du match 1252563
-2025-08-21 16:18:13,285 - INFO - [SAU1] Traitement du match 1252568
-2025-08-21 16:18:13,286 - INFO - 🔍 Appel API pour les cotes du match 1252568
-2025-08-21 16:18:15,223 - INFO - [SAU1] Traitement du match 1252575
-2025-08-21 16:18:15,224 - INFO - 🔍 Appel API pour les cotes du match 1252575
-2025-08-21 16:18:17,231 - INFO - [SAU1] Traitement du match 1252580
-2025-08-21 16:18:17,231 - INFO - 🔍 Appel API pour les cotes du match 1252580
-2025-08-21 16:18:19,157 - INFO - [SAU1] Traitement du match 1252576
-2025-08-21 16:18:19,158 - INFO - 🔍 Appel API pour les cotes du match 1252576
-2025-08-21 16:18:21,165 - INFO - [SAU1] Traitement du match 1252578
-2025-08-21 16:18:21,165 - INFO - 🔍 Appel API pour les cotes du match 1252578
-2025-08-21 16:18:22,856 - INFO - [SAU1] Traitement du match 1252572
-2025-08-21 16:18:22,856 - INFO - 🔍 Appel API pour les cotes du match 1252572
-2025-08-21 16:18:24,783 - INFO - [SAU1] Traitement du match 1252573
-2025-08-21 16:18:24,783 - INFO - 🔍 Appel API pour les cotes du match 1252573
-2025-08-21 16:18:26,711 - INFO - [SAU1] Traitement du match 1252574
-2025-08-21 16:18:26,711 - INFO - 🔍 Appel API pour les cotes du match 1252574
-2025-08-21 16:18:28,391 - INFO - [SAU1] Traitement du match 1252579
-2025-08-21 16:18:28,391 - INFO - 🔍 Appel API pour les cotes du match 1252579
-2025-08-21 16:18:30,310 - INFO - [SAU1] Traitement du match 1252577
-2025-08-21 16:18:30,311 - INFO - 🔍 Appel API pour les cotes du match 1252577
-2025-08-21 16:18:31,980 - INFO - [SAU1] Traitement du match 1252582
-2025-08-21 16:18:31,980 - INFO - 🔍 Appel API pour les cotes du match 1252582
-2025-08-21 16:18:33,896 - INFO - [SAU1] Traitement du match 1252581
-2025-08-21 16:18:33,896 - INFO - 🔍 Appel API pour les cotes du match 1252581
-2025-08-21 16:18:35,873 - INFO - [SAU1] Traitement du match 1252588
-2025-08-21 16:18:35,873 - INFO - 🔍 Appel API pour les cotes du match 1252588
-2025-08-21 16:18:37,566 - INFO - [SAU1] Traitement du match 1252584
-2025-08-21 16:18:37,566 - INFO - 🔍 Appel API pour les cotes du match 1252584
-2025-08-21 16:18:39,488 - INFO - [SAU1] Traitement du match 1252587
-2025-08-21 16:18:39,489 - INFO - 🔍 Appel API pour les cotes du match 1252587
-2025-08-21 16:18:41,476 - INFO - [SAU1] Traitement du match 1252586
-2025-08-21 16:18:41,477 - INFO - 🔍 Appel API pour les cotes du match 1252586
-2025-08-21 16:18:43,423 - INFO - [SAU1] Traitement du match 1252585
-2025-08-21 16:18:43,424 - INFO - 🔍 Appel API pour les cotes du match 1252585
-2025-08-21 16:18:45,455 - INFO - [SAU1] Traitement du match 1252583
-2025-08-21 16:18:45,456 - INFO - 🔍 Appel API pour les cotes du match 1252583
-2025-08-21 16:18:47,462 - INFO - [SAU1] Traitement du match 1252589
-2025-08-21 16:18:47,463 - INFO - 🔍 Appel API pour les cotes du match 1252589
-2025-08-21 16:18:49,413 - INFO - [SAU1] Traitement du match 1252594
-2025-08-21 16:18:49,413 - INFO - 🔍 Appel API pour les cotes du match 1252594
-2025-08-21 16:18:51,330 - INFO - [SAU1] Traitement du match 1252592
-2025-08-21 16:18:51,330 - INFO - 🔍 Appel API pour les cotes du match 1252592
-2025-08-21 16:18:53,269 - INFO - [SAU1] Traitement du match 1252593
-2025-08-21 16:18:53,270 - INFO - 🔍 Appel API pour les cotes du match 1252593
-2025-08-21 16:18:54,980 - INFO - [SAU1] Traitement du match 1252598
-2025-08-21 16:18:54,980 - INFO - 🔍 Appel API pour les cotes du match 1252598
-2025-08-21 16:18:56,909 - INFO - [SAU1] Traitement du match 1252596
-2025-08-21 16:18:56,909 - INFO - 🔍 Appel API pour les cotes du match 1252596
-2025-08-21 16:18:58,946 - INFO - [SAU1] Traitement du match 1252595
-2025-08-21 16:18:58,947 - INFO - 🔍 Appel API pour les cotes du match 1252595
-2025-08-21 16:19:00,948 - INFO - [SAU1] Traitement du match 1252590
-2025-08-21 16:19:00,949 - INFO - 🔍 Appel API pour les cotes du match 1252590
-2025-08-21 16:19:02,868 - INFO - [SAU1] Traitement du match 1252591
-2025-08-21 16:19:02,868 - INFO - 🔍 Appel API pour les cotes du match 1252591
-2025-08-21 16:19:04,542 - INFO - [SAU1] Traitement du match 1252597
-2025-08-21 16:19:04,542 - INFO - 🔍 Appel API pour les cotes du match 1252597
-2025-08-21 16:19:06,475 - INFO - [SAU1] Traitement du match 1252606
-2025-08-21 16:19:06,475 - INFO - 🔍 Appel API pour les cotes du match 1252606
-2025-08-21 16:19:08,388 - INFO - [SAU1] Traitement du match 1252600
-2025-08-21 16:19:08,389 - INFO - 🔍 Appel API pour les cotes du match 1252600
-2025-08-21 16:19:10,195 - INFO - [SAU1] Traitement du match 1252601
-2025-08-21 16:19:10,196 - INFO - 🔍 Appel API pour les cotes du match 1252601
-2025-08-21 16:19:12,108 - INFO - [SAU1] Traitement du match 1252604
-2025-08-21 16:19:12,109 - INFO - 🔍 Appel API pour les cotes du match 1252604
-2025-08-21 16:19:14,110 - INFO - [SAU1] Traitement du match 1252607
-2025-08-21 16:19:14,111 - INFO - 🔍 Appel API pour les cotes du match 1252607
-2025-08-21 16:19:16,018 - INFO - [SAU1] Traitement du match 1252602
-2025-08-21 16:19:16,018 - INFO - 🔍 Appel API pour les cotes du match 1252602
-2025-08-21 16:19:17,932 - INFO - [SAU1] Traitement du match 1252603
-2025-08-21 16:19:17,933 - INFO - 🔍 Appel API pour les cotes du match 1252603
-2025-08-21 16:19:19,601 - INFO - [SAU1] Traitement du match 1252605
-2025-08-21 16:19:19,602 - INFO - 🔍 Appel API pour les cotes du match 1252605
-2025-08-21 16:19:21,623 - INFO - [SAU1] Traitement du match 1252599
-2025-08-21 16:19:21,624 - INFO - 🔍 Appel API pour les cotes du match 1252599
-2025-08-21 16:19:23,559 - INFO - [SAU1] Traitement du match 1252608
-2025-08-21 16:19:23,559 - INFO - 🔍 Appel API pour les cotes du match 1252608
-2025-08-21 16:19:25,467 - INFO - [SAU1] Traitement du match 1252615
-2025-08-21 16:19:25,467 - INFO - 🔍 Appel API pour les cotes du match 1252615
-2025-08-21 16:19:27,397 - INFO - [SAU1] Traitement du match 1252613
-2025-08-21 16:19:27,398 - INFO - 🔍 Appel API pour les cotes du match 1252613
-2025-08-21 16:19:29,361 - INFO - [SAU1] Traitement du match 1252609
-2025-08-21 16:19:29,362 - INFO - 🔍 Appel API pour les cotes du match 1252609
-2025-08-21 16:19:31,071 - INFO - [SAU1] Traitement du match 1252616
-2025-08-21 16:19:31,071 - INFO - 🔍 Appel API pour les cotes du match 1252616
-2025-08-21 16:19:33,005 - INFO - [SAU1] Traitement du match 1252610
-2025-08-21 16:19:33,005 - INFO - 🔍 Appel API pour les cotes du match 1252610
-2025-08-21 16:19:34,926 - INFO - [SAU1] Traitement du match 1252612
-2025-08-21 16:19:34,927 - INFO - 🔍 Appel API pour les cotes du match 1252612
-2025-08-21 16:19:36,989 - INFO - [SAU1] Traitement du match 1252611
-2025-08-21 16:19:36,989 - INFO - 🔍 Appel API pour les cotes du match 1252611
-2025-08-21 16:19:38,675 - INFO - [SAU1] Traitement du match 1252614
-2025-08-21 16:19:38,676 - INFO - 🔍 Appel API pour les cotes du match 1252614
-2025-08-21 16:19:40,646 - INFO - [SAU1] Traitement du match 1252619
-2025-08-21 16:19:40,647 - INFO - 🔍 Appel API pour les cotes du match 1252619
-2025-08-21 16:19:42,553 - INFO - [SAU1] Traitement du match 1252618
-2025-08-21 16:19:42,553 - INFO - 🔍 Appel API pour les cotes du match 1252618
-2025-08-21 16:19:44,465 - INFO - [SAU1] Traitement du match 1252624
-2025-08-21 16:19:44,466 - INFO - 🔍 Appel API pour les cotes du match 1252624
-2025-08-21 16:19:46,545 - INFO - [SAU1] Traitement du match 1252617
-2025-08-21 16:19:46,545 - INFO - 🔍 Appel API pour les cotes du match 1252617
-2025-08-21 16:19:48,479 - INFO - [SAU1] Traitement du match 1252620
-2025-08-21 16:19:48,480 - INFO - 🔍 Appel API pour les cotes du match 1252620
-2025-08-21 16:19:50,416 - INFO - [SAU1] Traitement du match 1252621
-2025-08-21 16:19:50,416 - INFO - 🔍 Appel API pour les cotes du match 1252621
-2025-08-21 16:19:52,323 - INFO - [SAU1] Traitement du match 1252625
-2025-08-21 16:19:52,324 - INFO - 🔍 Appel API pour les cotes du match 1252625
-2025-08-21 16:19:54,275 - INFO - [SAU1] Traitement du match 1252622
-2025-08-21 16:19:54,276 - INFO - 🔍 Appel API pour les cotes du match 1252622
-2025-08-21 16:19:56,216 - INFO - [SAU1] Traitement du match 1252623
-2025-08-21 16:19:56,217 - INFO - 🔍 Appel API pour les cotes du match 1252623
-2025-08-21 16:19:58,132 - INFO - [SAU1] Traitement du match 1252632
-2025-08-21 16:19:58,132 - INFO - 🔍 Appel API pour les cotes du match 1252632
-2025-08-21 16:20:00,054 - INFO - [SAU1] Traitement du match 1252634
-2025-08-21 16:20:00,055 - INFO - 🔍 Appel API pour les cotes du match 1252634
-2025-08-21 16:20:01,993 - INFO - [SAU1] Traitement du match 1252627
-2025-08-21 16:20:01,994 - INFO - 🔍 Appel API pour les cotes du match 1252627
-2025-08-21 16:20:03,780 - INFO - [SAU1] Traitement du match 1252631
-2025-08-21 16:20:03,780 - INFO - 🔍 Appel API pour les cotes du match 1252631
-2025-08-21 16:20:05,719 - INFO - [SAU1] Traitement du match 1252630
-2025-08-21 16:20:05,719 - INFO - 🔍 Appel API pour les cotes du match 1252630
-2025-08-21 16:20:07,642 - INFO - [SAU1] Traitement du match 1252629
-2025-08-21 16:20:07,643 - INFO - 🔍 Appel API pour les cotes du match 1252629
-2025-08-21 16:20:09,602 - INFO - [SAU1] Traitement du match 1252633
-2025-08-21 16:20:09,603 - INFO - 🔍 Appel API pour les cotes du match 1252633
-2025-08-21 16:20:11,535 - INFO - [SAU1] Traitement du match 1252628
-2025-08-21 16:20:11,536 - INFO - 🔍 Appel API pour les cotes du match 1252628
-2025-08-21 16:20:13,652 - INFO - [SAU1] Traitement du match 1252626
-2025-08-21 16:20:13,652 - INFO - 🔍 Appel API pour les cotes du match 1252626
-2025-08-21 16:20:15,573 - INFO - [SAU1] Traitement du match 1252639
-2025-08-21 16:20:15,573 - INFO - 🔍 Appel API pour les cotes du match 1252639
-2025-08-21 16:20:17,514 - INFO - [SAU1] Traitement du match 1252635
-2025-08-21 16:20:17,515 - INFO - 🔍 Appel API pour les cotes du match 1252635
-2025-08-21 16:20:19,423 - INFO - [SAU1] Traitement du match 1252637
-2025-08-21 16:20:19,424 - INFO - 🔍 Appel API pour les cotes du match 1252637
-2025-08-21 16:20:21,327 - INFO - [SAU1] Traitement du match 1252641
-2025-08-21 16:20:21,328 - INFO - 🔍 Appel API pour les cotes du match 1252641
-2025-08-21 16:20:23,336 - INFO - [SAU1] Traitement du match 1252638
-2025-08-21 16:20:23,337 - INFO - 🔍 Appel API pour les cotes du match 1252638
-2025-08-21 16:20:25,254 - INFO - [SAU1] Traitement du match 1252640
-2025-08-21 16:20:25,255 - INFO - 🔍 Appel API pour les cotes du match 1252640
-2025-08-21 16:20:27,182 - INFO - [SAU1] Traitement du match 1252643
-2025-08-21 16:20:27,183 - INFO - 🔍 Appel API pour les cotes du match 1252643
-2025-08-21 16:20:29,109 - INFO - [SAU1] Traitement du match 1252642
-2025-08-21 16:20:29,109 - INFO - 🔍 Appel API pour les cotes du match 1252642
-2025-08-21 16:20:31,045 - INFO - [SAU1] Traitement du match 1252636
-2025-08-21 16:20:31,045 - INFO - 🔍 Appel API pour les cotes du match 1252636
-2025-08-21 16:20:33,016 - INFO - [SAU1] Traitement du match 1252648
-2025-08-21 16:20:33,017 - INFO - 🔍 Appel API pour les cotes du match 1252648
-2025-08-21 16:20:34,933 - INFO - [SAU1] Traitement du match 1252644
-2025-08-21 16:20:34,933 - INFO - 🔍 Appel API pour les cotes du match 1252644
-2025-08-21 16:20:36,852 - INFO - [SAU1] Traitement du match 1252645
-2025-08-21 16:20:36,852 - INFO - 🔍 Appel API pour les cotes du match 1252645
-2025-08-21 16:20:38,773 - INFO - [SAU1] Traitement du match 1252647
-2025-08-21 16:20:38,773 - INFO - 🔍 Appel API pour les cotes du match 1252647
-2025-08-21 16:20:40,863 - INFO - [SAU1] Traitement du match 1252651
-2025-08-21 16:20:40,864 - INFO - 🔍 Appel API pour les cotes du match 1252651
-2025-08-21 16:20:42,779 - INFO - [SAU1] Traitement du match 1252649
-2025-08-21 16:20:42,780 - INFO - 🔍 Appel API pour les cotes du match 1252649
-2025-08-21 16:20:44,733 - INFO - [SAU1] Traitement du match 1252652
-2025-08-21 16:20:44,733 - INFO - 🔍 Appel API pour les cotes du match 1252652
-2025-08-21 16:20:46,648 - INFO - [SAU1] Traitement du match 1252650
-2025-08-21 16:20:46,649 - INFO - 🔍 Appel API pour les cotes du match 1252650
-2025-08-21 16:20:48,566 - INFO - [SAU1] Traitement du match 1252646
-2025-08-21 16:20:48,567 - INFO - 🔍 Appel API pour les cotes du match 1252646
-2025-08-21 16:20:50,471 - INFO - [SAU1] Traitement du match 1252653
-2025-08-21 16:20:50,472 - INFO - 🔍 Appel API pour les cotes du match 1252653
-2025-08-21 16:20:52,462 - INFO - [SAU1] Traitement du match 1252659
-2025-08-21 16:20:52,463 - INFO - 🔍 Appel API pour les cotes du match 1252659
-2025-08-21 16:20:54,395 - INFO - [SAU1] Traitement du match 1252655
-2025-08-21 16:20:54,396 - INFO - 🔍 Appel API pour les cotes du match 1252655
-2025-08-21 16:20:56,311 - INFO - [SAU1] Traitement du match 1252654
-2025-08-21 16:20:56,312 - INFO - 🔍 Appel API pour les cotes du match 1252654
-2025-08-21 16:20:57,987 - INFO - [SAU1] Traitement du match 1252660
-2025-08-21 16:20:57,988 - INFO - 🔍 Appel API pour les cotes du match 1252660
-2025-08-21 16:20:59,916 - INFO - [SAU1] Traitement du match 1252657
-2025-08-21 16:20:59,917 - INFO - 🔍 Appel API pour les cotes du match 1252657
-2025-08-21 16:21:01,836 - INFO - [SAU1] Traitement du match 1252656
-2025-08-21 16:21:01,837 - INFO - 🔍 Appel API pour les cotes du match 1252656
-2025-08-21 16:21:03,794 - INFO - [SAU1] Traitement du match 1252658
-2025-08-21 16:21:03,795 - INFO - 🔍 Appel API pour les cotes du match 1252658
-2025-08-21 16:21:05,693 - INFO - [SAU1] Traitement du match 1252661
-2025-08-21 16:21:05,693 - INFO - 🔍 Appel API pour les cotes du match 1252661
-2025-08-21 16:21:07,602 - INFO - [SAU1] Traitement du match 1252667
-2025-08-21 16:21:07,603 - INFO - 🔍 Appel API pour les cotes du match 1252667
-2025-08-21 16:21:09,547 - INFO - [SAU1] Traitement du match 1252670
-2025-08-21 16:21:09,547 - INFO - 🔍 Appel API pour les cotes du match 1252670
-2025-08-21 16:21:11,465 - INFO - [SAU1] Traitement du match 1252664
-2025-08-21 16:21:11,465 - INFO - 🔍 Appel API pour les cotes du match 1252664
-2025-08-21 16:21:13,392 - INFO - [SAU1] Traitement du match 1252662
-2025-08-21 16:21:13,392 - INFO - 🔍 Appel API pour les cotes du match 1252662
-2025-08-21 16:21:15,361 - INFO - [SAU1] Traitement du match 1252663
-2025-08-21 16:21:15,362 - INFO - 🔍 Appel API pour les cotes du match 1252663
-2025-08-21 16:21:17,294 - INFO - [SAU1] Traitement du match 1252668
-2025-08-21 16:21:17,295 - INFO - 🔍 Appel API pour les cotes du match 1252668
-2025-08-21 16:21:19,241 - INFO - [SAU1] Traitement du match 1252666
-2025-08-21 16:21:19,242 - INFO - 🔍 Appel API pour les cotes du match 1252666
-2025-08-21 16:21:21,164 - INFO - [SAU1] Traitement du match 1252669
-2025-08-21 16:21:21,164 - INFO - 🔍 Appel API pour les cotes du match 1252669
-2025-08-21 16:21:23,339 - INFO - [SAU1] Traitement du match 1252665
-2025-08-21 16:21:23,339 - INFO - 🔍 Appel API pour les cotes du match 1252665
-2025-08-21 16:21:25,308 - INFO - [SAU1] Traitement du match 1252671
-2025-08-21 16:21:25,308 - INFO - 🔍 Appel API pour les cotes du match 1252671
-2025-08-21 16:21:27,249 - INFO - [SAU1] Traitement du match 1252675
-2025-08-21 16:21:27,249 - INFO - 🔍 Appel API pour les cotes du match 1252675
-2025-08-21 16:21:29,162 - INFO - [SAU1] Traitement du match 1252673
-2025-08-21 16:21:29,162 - INFO - 🔍 Appel API pour les cotes du match 1252673
-2025-08-21 16:21:31,364 - INFO - [SAU1] Traitement du match 1252672
-2025-08-21 16:21:31,364 - INFO - 🔍 Appel API pour les cotes du match 1252672
-2025-08-21 16:21:33,286 - INFO - [SAU1] Traitement du match 1252674
-2025-08-21 16:21:33,287 - INFO - 🔍 Appel API pour les cotes du match 1252674
-2025-08-21 16:21:35,206 - INFO - [SAU1] Traitement du match 1252679
-2025-08-21 16:21:35,207 - INFO - 🔍 Appel API pour les cotes du match 1252679
-2025-08-21 16:21:37,158 - INFO - [SAU1] Traitement du match 1252677
-2025-08-21 16:21:37,159 - INFO - 🔍 Appel API pour les cotes du match 1252677
-2025-08-21 16:21:39,108 - INFO - [SAU1] Traitement du match 1252676
-2025-08-21 16:21:39,109 - INFO - 🔍 Appel API pour les cotes du match 1252676
-2025-08-21 16:21:41,053 - INFO - [SAU1] Traitement du match 1252678
-2025-08-21 16:21:41,054 - INFO - 🔍 Appel API pour les cotes du match 1252678
-2025-08-21 16:21:42,995 - INFO - [SAU1] Traitement du match 1252680
-2025-08-21 16:21:42,995 - INFO - 🔍 Appel API pour les cotes du match 1252680
-2025-08-21 16:21:44,928 - INFO - [SAU1] Traitement du match 1252683
-2025-08-21 16:21:44,928 - INFO - 🔍 Appel API pour les cotes du match 1252683
-2025-08-21 16:21:46,853 - INFO - [SAU1] Traitement du match 1252685
-2025-08-21 16:21:46,854 - INFO - 🔍 Appel API pour les cotes du match 1252685
-2025-08-21 16:21:48,787 - INFO - [SAU1] Traitement du match 1252682
-2025-08-21 16:21:48,788 - INFO - 🔍 Appel API pour les cotes du match 1252682
-2025-08-21 16:21:50,736 - INFO - [SAU1] Traitement du match 1252687
-2025-08-21 16:21:50,737 - INFO - 🔍 Appel API pour les cotes du match 1252687
-2025-08-21 16:21:52,683 - INFO - [SAU1] Traitement du match 1252688
-2025-08-21 16:21:52,684 - INFO - 🔍 Appel API pour les cotes du match 1252688
-2025-08-21 16:21:54,635 - INFO - [SAU1] Traitement du match 1252686
-2025-08-21 16:21:54,636 - INFO - 🔍 Appel API pour les cotes du match 1252686
-2025-08-21 16:21:56,614 - INFO - [SAU1] Traitement du match 1252681
-2025-08-21 16:21:56,615 - INFO - 🔍 Appel API pour les cotes du match 1252681
-2025-08-21 16:21:58,384 - INFO - [SAU1] Traitement du match 1252684
-2025-08-21 16:21:58,385 - INFO - 🔍 Appel API pour les cotes du match 1252684
-2025-08-21 16:22:00,364 - INFO - [SAU1] Traitement du match 1252690
-2025-08-21 16:22:00,365 - INFO - 🔍 Appel API pour les cotes du match 1252690
-2025-08-21 16:22:02,305 - INFO - [SAU1] Traitement du match 1252692
-2025-08-21 16:22:02,306 - INFO - 🔍 Appel API pour les cotes du match 1252692
-2025-08-21 16:22:04,276 - INFO - [SAU1] Traitement du match 1252689
-2025-08-21 16:22:04,277 - INFO - 🔍 Appel API pour les cotes du match 1252689
-2025-08-21 16:22:06,259 - INFO - [SAU1] Traitement du match 1252697
-2025-08-21 16:22:06,260 - INFO - 🔍 Appel API pour les cotes du match 1252697
-2025-08-21 16:22:08,309 - INFO - [SAU1] Traitement du match 1252694
-2025-08-21 16:22:08,309 - INFO - 🔍 Appel API pour les cotes du match 1252694
-2025-08-21 16:22:10,305 - INFO - [SAU1] Traitement du match 1252693
-2025-08-21 16:22:10,305 - INFO - 🔍 Appel API pour les cotes du match 1252693
-2025-08-21 16:22:12,299 - INFO - [SAU1] Traitement du match 1252691
-2025-08-21 16:22:12,300 - INFO - 🔍 Appel API pour les cotes du match 1252691
-2025-08-21 16:22:14,257 - INFO - [SAU1] Traitement du match 1252696
-2025-08-21 16:22:14,258 - INFO - 🔍 Appel API pour les cotes du match 1252696
-2025-08-21 16:22:16,221 - INFO - [SAU1] Traitement du match 1252695
-2025-08-21 16:22:16,222 - INFO - 🔍 Appel API pour les cotes du match 1252695
-2025-08-21 16:22:18,175 - INFO - [SAU1] Traitement du match 1252700
-2025-08-21 16:22:18,176 - INFO - 🔍 Appel API pour les cotes du match 1252700
-2025-08-21 16:22:20,330 - INFO - [SAU1] Traitement du match 1252706
-2025-08-21 16:22:20,330 - INFO - 🔍 Appel API pour les cotes du match 1252706
-2025-08-21 16:22:22,293 - INFO - [SAU1] Traitement du match 1252705
-2025-08-21 16:22:22,294 - INFO - 🔍 Appel API pour les cotes du match 1252705
-2025-08-21 16:22:24,263 - INFO - [SAU1] Traitement du match 1252702
-2025-08-21 16:22:24,263 - INFO - 🔍 Appel API pour les cotes du match 1252702
-2025-08-21 16:22:26,319 - INFO - [SAU1] Traitement du match 1252701
-2025-08-21 16:22:26,320 - INFO - 🔍 Appel API pour les cotes du match 1252701
-2025-08-21 16:22:28,343 - INFO - [SAU1] Traitement du match 1252699
-2025-08-21 16:22:28,344 - INFO - 🔍 Appel API pour les cotes du match 1252699
-2025-08-21 16:22:30,349 - INFO - [SAU1] Traitement du match 1252703
-2025-08-21 16:22:30,349 - INFO - 🔍 Appel API pour les cotes du match 1252703
-2025-08-21 16:22:32,374 - INFO - [SAU1] Traitement du match 1252704
-2025-08-21 16:22:32,374 - INFO - 🔍 Appel API pour les cotes du match 1252704
-2025-08-21 16:22:34,382 - INFO - [SAU1] Traitement du match 1252698
-2025-08-21 16:22:34,383 - INFO - 🔍 Appel API pour les cotes du match 1252698
-2025-08-21 16:22:36,435 - INFO - [SAU1] Traitement du match 1252710
-2025-08-21 16:22:36,435 - INFO - 🔍 Appel API pour les cotes du match 1252710
-2025-08-21 16:22:38,415 - INFO - [SAU1] Traitement du match 1252715
-2025-08-21 16:22:38,416 - INFO - 🔍 Appel API pour les cotes du match 1252715
-2025-08-21 16:22:40,401 - INFO - [SAU1] Traitement du match 1252711
-2025-08-21 16:22:40,402 - INFO - 🔍 Appel API pour les cotes du match 1252711
-2025-08-21 16:22:42,376 - INFO - [SAU1] Traitement du match 1252713
-2025-08-21 16:22:42,376 - INFO - 🔍 Appel API pour les cotes du match 1252713
-2025-08-21 16:22:44,443 - INFO - [SAU1] Traitement du match 1252709
-2025-08-21 16:22:44,444 - INFO - 🔍 Appel API pour les cotes du match 1252709
-2025-08-21 16:22:46,424 - INFO - [SAU1] Traitement du match 1252714
-2025-08-21 16:22:46,425 - INFO - 🔍 Appel API pour les cotes du match 1252714
-2025-08-21 16:22:48,402 - INFO - [SAU1] Traitement du match 1252708
-2025-08-21 16:22:48,403 - INFO - 🔍 Appel API pour les cotes du match 1252708
-2025-08-21 16:22:50,146 - INFO - [SAU1] Traitement du match 1252712
-2025-08-21 16:22:50,146 - INFO - 🔍 Appel API pour les cotes du match 1252712
-2025-08-21 16:22:52,282 - INFO - [SAU1] Traitement du match 1252707
-2025-08-21 16:22:52,283 - INFO - 🔍 Appel API pour les cotes du match 1252707
-2025-08-21 16:22:54,297 - INFO - [SAU1] Traitement du match 1252719
-2025-08-21 16:22:54,297 - INFO - 🔍 Appel API pour les cotes du match 1252719
-2025-08-21 16:22:56,037 - INFO - [SAU1] Traitement du match 1252717
-2025-08-21 16:22:56,038 - INFO - 🔍 Appel API pour les cotes du match 1252717
-2025-08-21 16:22:58,011 - INFO - [SAU1] Traitement du match 1252716
-2025-08-21 16:22:58,011 - INFO - 🔍 Appel API pour les cotes du match 1252716
-2025-08-21 16:22:59,970 - INFO - [SAU1] Traitement du match 1252718
-2025-08-21 16:22:59,971 - INFO - 🔍 Appel API pour les cotes du match 1252718
-2025-08-21 16:23:01,940 - INFO - [SAU1] Traitement du match 1252724
-2025-08-21 16:23:01,940 - INFO - 🔍 Appel API pour les cotes du match 1252724
-2025-08-21 16:23:03,922 - INFO - [SAU1] Traitement du match 1252721
-2025-08-21 16:23:03,922 - INFO - 🔍 Appel API pour les cotes du match 1252721
-2025-08-21 16:23:05,934 - INFO - [SAU1] Traitement du match 1252723
-2025-08-21 16:23:05,935 - INFO - 🔍 Appel API pour les cotes du match 1252723
-2025-08-21 16:23:07,914 - INFO - [SAU1] Traitement du match 1252722
-2025-08-21 16:23:07,914 - INFO - 🔍 Appel API pour les cotes du match 1252722
-2025-08-21 16:23:09,875 - INFO - [SAU1] Traitement du match 1252720
-2025-08-21 16:23:09,875 - INFO - 🔍 Appel API pour les cotes du match 1252720
-2025-08-21 16:23:11,864 - INFO - [SAU1] Aucune nouvelle cote à ajouter.
-2025-08-21 16:23:11,865 - INFO - 
+2025-08-21 18:38:57,514 - INFO - ✅ Clé API récupérée.
+2025-08-21 18:38:57,514 - INFO - 🚀 === DÉBUT DE LA COLLECTE DES COTES ===
+2025-08-21 18:38:57,514 - INFO - Fenêtre de temps: 2024-08-21 à 2025-08-21
+2025-08-21 18:38:57,514 - INFO - --- Collecte des cotes pour la ligue: SAU1 ---
+2025-08-21 18:38:57,524 - INFO - [SAU1] 327 matchs chargés, 306 dans la fenêtre de collecte.
+2025-08-21 18:38:57,524 - INFO - [SAU1] 0 matchs ont déjà des cotes.
+2025-08-21 18:38:57,524 - INFO - [SAU1] 306 nouveaux matchs à traiter.
+2025-08-21 18:38:57,525 - INFO - [SAU1] Traitement du match 1252419
+2025-08-21 18:38:57,525 - INFO - 🔍 Appel API pour les cotes du match 1252419
+2025-08-21 18:38:59,598 - INFO - [SAU1] Traitement du match 1252420
+2025-08-21 18:38:59,598 - INFO - 🔍 Appel API pour les cotes du match 1252420
+2025-08-21 18:39:01,475 - INFO - [SAU1] Traitement du match 1252421
+2025-08-21 18:39:01,476 - INFO - 🔍 Appel API pour les cotes du match 1252421
+2025-08-21 18:39:03,890 - INFO - [SAU1] Traitement du match 1252422
+2025-08-21 18:39:03,890 - INFO - 🔍 Appel API pour les cotes du match 1252422
+2025-08-21 18:39:05,801 - INFO - [SAU1] Traitement du match 1252423
+2025-08-21 18:39:05,802 - INFO - 🔍 Appel API pour les cotes du match 1252423
+2025-08-21 18:39:08,202 - INFO - [SAU1] Traitement du match 1252424
+2025-08-21 18:39:08,203 - INFO - 🔍 Appel API pour les cotes du match 1252424
+2025-08-21 18:39:10,541 - INFO - [SAU1] Traitement du match 1252425
+2025-08-21 18:39:10,541 - INFO - 🔍 Appel API pour les cotes du match 1252425
+2025-08-21 18:39:12,961 - INFO - [SAU1] Traitement du match 1252426
+2025-08-21 18:39:12,962 - INFO - 🔍 Appel API pour les cotes du match 1252426
+2025-08-21 18:39:14,860 - INFO - [SAU1] Traitement du match 1252427
+2025-08-21 18:39:14,861 - INFO - 🔍 Appel API pour les cotes du match 1252427
+2025-08-21 18:39:17,218 - INFO - [SAU1] Traitement du match 1252429
+2025-08-21 18:39:17,219 - INFO - 🔍 Appel API pour les cotes du match 1252429
+2025-08-21 18:39:19,150 - INFO - [SAU1] Traitement du match 1252430
+2025-08-21 18:39:19,151 - INFO - 🔍 Appel API pour les cotes du match 1252430
+2025-08-21 18:39:21,620 - INFO - [SAU1] Traitement du match 1252428
+2025-08-21 18:39:21,621 - INFO - 🔍 Appel API pour les cotes du match 1252428
+2025-08-21 18:39:23,983 - INFO - [SAU1] Traitement du match 1252431
+2025-08-21 18:39:23,984 - INFO - 🔍 Appel API pour les cotes du match 1252431
+2025-08-21 18:39:25,941 - INFO - [SAU1] Traitement du match 1252432
+2025-08-21 18:39:25,941 - INFO - 🔍 Appel API pour les cotes du match 1252432
+2025-08-21 18:39:27,814 - INFO - [SAU1] Traitement du match 1252433
+2025-08-21 18:39:27,815 - INFO - 🔍 Appel API pour les cotes du match 1252433
+2025-08-21 18:39:29,745 - INFO - [SAU1] Traitement du match 1252435
+2025-08-21 18:39:29,746 - INFO - 🔍 Appel API pour les cotes du match 1252435
+2025-08-21 18:39:31,619 - INFO - [SAU1] Traitement du match 1252436
+2025-08-21 18:39:31,619 - INFO - 🔍 Appel API pour les cotes du match 1252436
+2025-08-21 18:39:33,529 - INFO - [SAU1] Traitement du match 1252434
+2025-08-21 18:39:33,530 - INFO - 🔍 Appel API pour les cotes du match 1252434
+2025-08-21 18:39:35,464 - INFO - [SAU1] Traitement du match 1252437
+2025-08-21 18:39:35,465 - INFO - 🔍 Appel API pour les cotes du match 1252437
+2025-08-21 18:39:37,384 - INFO - [SAU1] Traitement du match 1252440
+2025-08-21 18:39:37,384 - INFO - 🔍 Appel API pour les cotes du match 1252440
+2025-08-21 18:39:39,311 - INFO - [SAU1] Traitement du match 1252438
+2025-08-21 18:39:39,311 - INFO - 🔍 Appel API pour les cotes du match 1252438
+2025-08-21 18:39:41,220 - INFO - [SAU1] Traitement du match 1252441
+2025-08-21 18:39:41,221 - INFO - 🔍 Appel API pour les cotes du match 1252441
+2025-08-21 18:39:43,283 - INFO - [SAU1] Traitement du match 1252444
+2025-08-21 18:39:43,283 - INFO - 🔍 Appel API pour les cotes du match 1252444
+2025-08-21 18:39:45,177 - INFO - [SAU1] Traitement du match 1252439
+2025-08-21 18:39:45,178 - INFO - 🔍 Appel API pour les cotes du match 1252439
+2025-08-21 18:39:47,247 - INFO - [SAU1] Traitement du match 1252442
+2025-08-21 18:39:47,248 - INFO - 🔍 Appel API pour les cotes du match 1252442
+2025-08-21 18:39:49,185 - INFO - [SAU1] Traitement du match 1252445
+2025-08-21 18:39:49,185 - INFO - 🔍 Appel API pour les cotes du match 1252445
+2025-08-21 18:39:51,117 - INFO - [SAU1] Traitement du match 1252443
+2025-08-21 18:39:51,118 - INFO - 🔍 Appel API pour les cotes du match 1252443
+2025-08-21 18:39:53,001 - INFO - [SAU1] Traitement du match 1252447
+2025-08-21 18:39:53,002 - INFO - 🔍 Appel API pour les cotes du match 1252447
+2025-08-21 18:39:54,913 - INFO - [SAU1] Traitement du match 1252449
+2025-08-21 18:39:54,914 - INFO - 🔍 Appel API pour les cotes du match 1252449
+2025-08-21 18:39:56,820 - INFO - [SAU1] Traitement du match 1252448
+2025-08-21 18:39:56,821 - INFO - 🔍 Appel API pour les cotes du match 1252448
+2025-08-21 18:39:58,773 - INFO - [SAU1] Traitement du match 1252451
+2025-08-21 18:39:58,774 - INFO - 🔍 Appel API pour les cotes du match 1252451
+2025-08-21 18:40:00,676 - INFO - [SAU1] Traitement du match 1252453
+2025-08-21 18:40:00,676 - INFO - 🔍 Appel API pour les cotes du match 1252453
+2025-08-21 18:40:02,602 - INFO - [SAU1] Traitement du match 1252450
+2025-08-21 18:40:02,603 - INFO - 🔍 Appel API pour les cotes du match 1252450
+2025-08-21 18:40:04,532 - INFO - [SAU1] Traitement du match 1252454
+2025-08-21 18:40:04,532 - INFO - 🔍 Appel API pour les cotes du match 1252454
+2025-08-21 18:40:06,516 - INFO - [SAU1] Traitement du match 1252446
+2025-08-21 18:40:06,517 - INFO - 🔍 Appel API pour les cotes du match 1252446
+2025-08-21 18:40:08,491 - INFO - [SAU1] Traitement du match 1252452
+2025-08-21 18:40:08,491 - INFO - 🔍 Appel API pour les cotes du match 1252452
+2025-08-21 18:40:10,417 - INFO - [SAU1] Traitement du match 1252462
+2025-08-21 18:40:10,418 - INFO - 🔍 Appel API pour les cotes du match 1252462
+2025-08-21 18:40:12,336 - INFO - [SAU1] Traitement du match 1252457
+2025-08-21 18:40:12,337 - INFO - 🔍 Appel API pour les cotes du match 1252457
+2025-08-21 18:40:14,249 - INFO - [SAU1] Traitement du match 1252456
+2025-08-21 18:40:14,250 - INFO - 🔍 Appel API pour les cotes du match 1252456
+2025-08-21 18:40:16,168 - INFO - [SAU1] Traitement du match 1252458
+2025-08-21 18:40:16,169 - INFO - 🔍 Appel API pour les cotes du match 1252458
+2025-08-21 18:40:18,071 - INFO - [SAU1] Traitement du match 1252455
+2025-08-21 18:40:18,072 - INFO - 🔍 Appel API pour les cotes du match 1252455
+2025-08-21 18:40:20,055 - INFO - [SAU1] Traitement du match 1252460
+2025-08-21 18:40:20,056 - INFO - 🔍 Appel API pour les cotes du match 1252460
+2025-08-21 18:40:22,002 - INFO - [SAU1] Traitement du match 1252463
+2025-08-21 18:40:22,002 - INFO - 🔍 Appel API pour les cotes du match 1252463
+2025-08-21 18:40:23,895 - INFO - [SAU1] Traitement du match 1252459
+2025-08-21 18:40:23,896 - INFO - 🔍 Appel API pour les cotes du match 1252459
+2025-08-21 18:40:25,853 - INFO - [SAU1] Traitement du match 1252461
+2025-08-21 18:40:25,854 - INFO - 🔍 Appel API pour les cotes du match 1252461
+2025-08-21 18:40:27,823 - INFO - [SAU1] Traitement du match 1252469
+2025-08-21 18:40:27,824 - INFO - 🔍 Appel API pour les cotes du match 1252469
+2025-08-21 18:40:29,732 - INFO - [SAU1] Traitement du match 1252466
+2025-08-21 18:40:29,732 - INFO - 🔍 Appel API pour les cotes du match 1252466
+2025-08-21 18:40:31,644 - INFO - [SAU1] Traitement du match 1252467
+2025-08-21 18:40:31,644 - INFO - 🔍 Appel API pour les cotes du match 1252467
+2025-08-21 18:40:33,621 - INFO - [SAU1] Traitement du match 1252464
+2025-08-21 18:40:33,622 - INFO - 🔍 Appel API pour les cotes du match 1252464
+2025-08-21 18:40:35,535 - INFO - [SAU1] Traitement du match 1252472
+2025-08-21 18:40:35,535 - INFO - 🔍 Appel API pour les cotes du match 1252472
+2025-08-21 18:40:37,466 - INFO - [SAU1] Traitement du match 1252465
+2025-08-21 18:40:37,466 - INFO - 🔍 Appel API pour les cotes du match 1252465
+2025-08-21 18:40:39,356 - INFO - [SAU1] Traitement du match 1252470
+2025-08-21 18:40:39,357 - INFO - 🔍 Appel API pour les cotes du match 1252470
+2025-08-21 18:40:41,294 - INFO - [SAU1] Traitement du match 1252471
+2025-08-21 18:40:41,294 - INFO - 🔍 Appel API pour les cotes du match 1252471
+2025-08-21 18:40:43,202 - INFO - [SAU1] Traitement du match 1252468
+2025-08-21 18:40:43,202 - INFO - 🔍 Appel API pour les cotes du match 1252468
+2025-08-21 18:40:45,119 - INFO - [SAU1] Traitement du match 1252475
+2025-08-21 18:40:45,120 - INFO - 🔍 Appel API pour les cotes du match 1252475
+2025-08-21 18:40:47,009 - INFO - [SAU1] Traitement du match 1252473
+2025-08-21 18:40:47,010 - INFO - 🔍 Appel API pour les cotes du match 1252473
+2025-08-21 18:40:48,939 - INFO - [SAU1] Traitement du match 1252474
+2025-08-21 18:40:48,940 - INFO - 🔍 Appel API pour les cotes du match 1252474
+2025-08-21 18:40:50,856 - INFO - [SAU1] Traitement du match 1252481
+2025-08-21 18:40:50,856 - INFO - 🔍 Appel API pour les cotes du match 1252481
+2025-08-21 18:40:52,736 - INFO - [SAU1] Traitement du match 1252477
+2025-08-21 18:40:52,737 - INFO - 🔍 Appel API pour les cotes du match 1252477
+2025-08-21 18:40:54,641 - INFO - [SAU1] Traitement du match 1252478
+2025-08-21 18:40:54,641 - INFO - 🔍 Appel API pour les cotes du match 1252478
+2025-08-21 18:40:56,573 - INFO - [SAU1] Traitement du match 1252479
+2025-08-21 18:40:56,573 - INFO - 🔍 Appel API pour les cotes du match 1252479
+2025-08-21 18:40:58,476 - INFO - [SAU1] Traitement du match 1252476
+2025-08-21 18:40:58,477 - INFO - 🔍 Appel API pour les cotes du match 1252476
+2025-08-21 18:41:00,361 - INFO - [SAU1] Traitement du match 1252480
+2025-08-21 18:41:00,362 - INFO - 🔍 Appel API pour les cotes du match 1252480
+2025-08-21 18:41:02,268 - INFO - [SAU1] Traitement du match 1252486
+2025-08-21 18:41:02,269 - INFO - 🔍 Appel API pour les cotes du match 1252486
+2025-08-21 18:41:04,235 - INFO - [SAU1] Traitement du match 1252484
+2025-08-21 18:41:04,236 - INFO - 🔍 Appel API pour les cotes du match 1252484
+2025-08-21 18:41:06,162 - INFO - [SAU1] Traitement du match 1252485
+2025-08-21 18:41:06,162 - INFO - 🔍 Appel API pour les cotes du match 1252485
+2025-08-21 18:41:08,067 - INFO - [SAU1] Traitement du match 1252489
+2025-08-21 18:41:08,068 - INFO - 🔍 Appel API pour les cotes du match 1252489
+2025-08-21 18:41:09,977 - INFO - [SAU1] Traitement du match 1252487
+2025-08-21 18:41:09,978 - INFO - 🔍 Appel API pour les cotes du match 1252487
+2025-08-21 18:41:11,896 - INFO - [SAU1] Traitement du match 1252490
+2025-08-21 18:41:11,897 - INFO - 🔍 Appel API pour les cotes du match 1252490
+2025-08-21 18:41:13,805 - INFO - [SAU1] Traitement du match 1252482
+2025-08-21 18:41:13,805 - INFO - 🔍 Appel API pour les cotes du match 1252482
+2025-08-21 18:41:15,723 - INFO - [SAU1] Traitement du match 1252488
+2025-08-21 18:41:15,723 - INFO - 🔍 Appel API pour les cotes du match 1252488
+2025-08-21 18:41:17,656 - INFO - [SAU1] Traitement du match 1252483
+2025-08-21 18:41:17,656 - INFO - 🔍 Appel API pour les cotes du match 1252483
+2025-08-21 18:41:19,581 - INFO - [SAU1] Traitement du match 1252497
+2025-08-21 18:41:19,582 - INFO - 🔍 Appel API pour les cotes du match 1252497
+2025-08-21 18:41:21,480 - INFO - [SAU1] Traitement du match 1252494
+2025-08-21 18:41:21,481 - INFO - 🔍 Appel API pour les cotes du match 1252494
+2025-08-21 18:41:23,410 - INFO - [SAU1] Traitement du match 1252493
+2025-08-21 18:41:23,410 - INFO - 🔍 Appel API pour les cotes du match 1252493
+2025-08-21 18:41:25,280 - INFO - [SAU1] Traitement du match 1252499
+2025-08-21 18:41:25,281 - INFO - 🔍 Appel API pour les cotes du match 1252499
+2025-08-21 18:41:27,198 - INFO - [SAU1] Traitement du match 1252495
+2025-08-21 18:41:27,199 - INFO - 🔍 Appel API pour les cotes du match 1252495
+2025-08-21 18:41:29,146 - INFO - [SAU1] Traitement du match 1252491
+2025-08-21 18:41:29,146 - INFO - 🔍 Appel API pour les cotes du match 1252491
+2025-08-21 18:41:31,046 - INFO - [SAU1] Traitement du match 1252496
+2025-08-21 18:41:31,047 - INFO - 🔍 Appel API pour les cotes du match 1252496
+2025-08-21 18:41:32,953 - INFO - [SAU1] Traitement du match 1252498
+2025-08-21 18:41:32,954 - INFO - 🔍 Appel API pour les cotes du match 1252498
+2025-08-21 18:41:34,854 - INFO - [SAU1] Traitement du match 1252492
+2025-08-21 18:41:34,854 - INFO - 🔍 Appel API pour les cotes du match 1252492
+2025-08-21 18:41:36,749 - INFO - [SAU1] Traitement du match 1252502
+2025-08-21 18:41:36,750 - INFO - 🔍 Appel API pour les cotes du match 1252502
+2025-08-21 18:41:38,626 - INFO - [SAU1] Traitement du match 1252500
+2025-08-21 18:41:38,627 - INFO - 🔍 Appel API pour les cotes du match 1252500
+2025-08-21 18:41:40,534 - INFO - [SAU1] Traitement du match 1252505
+2025-08-21 18:41:40,535 - INFO - 🔍 Appel API pour les cotes du match 1252505
+2025-08-21 18:41:42,451 - INFO - [SAU1] Traitement du match 1252504
+2025-08-21 18:41:42,451 - INFO - 🔍 Appel API pour les cotes du match 1252504
+2025-08-21 18:41:44,405 - INFO - [SAU1] Traitement du match 1252506
+2025-08-21 18:41:44,406 - INFO - 🔍 Appel API pour les cotes du match 1252506
+2025-08-21 18:41:46,312 - INFO - [SAU1] Traitement du match 1252508
+2025-08-21 18:41:46,312 - INFO - 🔍 Appel API pour les cotes du match 1252508
+2025-08-21 18:41:48,231 - INFO - [SAU1] Traitement du match 1252507
+2025-08-21 18:41:48,232 - INFO - 🔍 Appel API pour les cotes du match 1252507
+2025-08-21 18:41:50,154 - INFO - [SAU1] Traitement du match 1252503
+2025-08-21 18:41:50,155 - INFO - 🔍 Appel API pour les cotes du match 1252503
+2025-08-21 18:41:52,062 - INFO - [SAU1] Traitement du match 1252501
+2025-08-21 18:41:52,063 - INFO - 🔍 Appel API pour les cotes du match 1252501
+2025-08-21 18:41:54,002 - INFO - [SAU1] Traitement du match 1252509
+2025-08-21 18:41:54,003 - INFO - 🔍 Appel API pour les cotes du match 1252509
+2025-08-21 18:41:55,943 - INFO - [SAU1] Traitement du match 1252514
+2025-08-21 18:41:55,944 - INFO - 🔍 Appel API pour les cotes du match 1252514
+2025-08-21 18:41:57,815 - INFO - [SAU1] Traitement du match 1252510
+2025-08-21 18:41:57,816 - INFO - 🔍 Appel API pour les cotes du match 1252510
+2025-08-21 18:41:59,730 - INFO - [SAU1] Traitement du match 1252512
+2025-08-21 18:41:59,731 - INFO - 🔍 Appel API pour les cotes du match 1252512
+2025-08-21 18:42:01,676 - INFO - [SAU1] Traitement du match 1252513
+2025-08-21 18:42:01,677 - INFO - 🔍 Appel API pour les cotes du match 1252513
+2025-08-21 18:42:03,572 - INFO - [SAU1] Traitement du match 1252511
+2025-08-21 18:42:03,572 - INFO - 🔍 Appel API pour les cotes du match 1252511
+2025-08-21 18:42:05,518 - INFO - [SAU1] Traitement du match 1252517
+2025-08-21 18:42:05,518 - INFO - 🔍 Appel API pour les cotes du match 1252517
+2025-08-21 18:42:07,391 - INFO - [SAU1] Traitement du match 1252515
+2025-08-21 18:42:07,391 - INFO - 🔍 Appel API pour les cotes du match 1252515
+2025-08-21 18:42:09,299 - INFO - [SAU1] Traitement du match 1252516
+2025-08-21 18:42:09,299 - INFO - 🔍 Appel API pour les cotes du match 1252516
+2025-08-21 18:42:11,183 - INFO - [SAU1] Traitement du match 1252520
+2025-08-21 18:42:11,183 - INFO - 🔍 Appel API pour les cotes du match 1252520
+2025-08-21 18:42:13,096 - INFO - [SAU1] Traitement du match 1252525
+2025-08-21 18:42:13,097 - INFO - 🔍 Appel API pour les cotes du match 1252525
+2025-08-21 18:42:15,009 - INFO - [SAU1] Traitement du match 1252526
+2025-08-21 18:42:15,010 - INFO - 🔍 Appel API pour les cotes du match 1252526
+2025-08-21 18:42:16,907 - INFO - [SAU1] Traitement du match 1252518
+2025-08-21 18:42:16,907 - INFO - 🔍 Appel API pour les cotes du match 1252518
+2025-08-21 18:42:18,789 - INFO - [SAU1] Traitement du match 1252522
+2025-08-21 18:42:18,790 - INFO - 🔍 Appel API pour les cotes du match 1252522
+2025-08-21 18:42:20,692 - INFO - [SAU1] Traitement du match 1252521
+2025-08-21 18:42:20,692 - INFO - 🔍 Appel API pour les cotes du match 1252521
+2025-08-21 18:42:22,594 - INFO - [SAU1] Traitement du match 1252523
+2025-08-21 18:42:22,595 - INFO - 🔍 Appel API pour les cotes du match 1252523
+2025-08-21 18:42:24,463 - INFO - [SAU1] Traitement du match 1252519
+2025-08-21 18:42:24,464 - INFO - 🔍 Appel API pour les cotes du match 1252519
+2025-08-21 18:42:26,364 - INFO - [SAU1] Traitement du match 1252524
+2025-08-21 18:42:26,365 - INFO - 🔍 Appel API pour les cotes du match 1252524
+2025-08-21 18:42:28,285 - INFO - [SAU1] Traitement du match 1252535
+2025-08-21 18:42:28,286 - INFO - 🔍 Appel API pour les cotes du match 1252535
+2025-08-21 18:42:30,166 - INFO - [SAU1] Traitement du match 1252530
+2025-08-21 18:42:30,167 - INFO - 🔍 Appel API pour les cotes du match 1252530
+2025-08-21 18:42:32,040 - INFO - [SAU1] Traitement du match 1252528
+2025-08-21 18:42:32,040 - INFO - 🔍 Appel API pour les cotes du match 1252528
+2025-08-21 18:42:33,937 - INFO - [SAU1] Traitement du match 1252532
+2025-08-21 18:42:33,938 - INFO - 🔍 Appel API pour les cotes du match 1252532
+2025-08-21 18:42:35,808 - INFO - [SAU1] Traitement du match 1252527
+2025-08-21 18:42:35,809 - INFO - 🔍 Appel API pour les cotes du match 1252527
+2025-08-21 18:42:37,705 - INFO - [SAU1] Traitement du match 1252531
+2025-08-21 18:42:37,705 - INFO - 🔍 Appel API pour les cotes du match 1252531
+2025-08-21 18:42:39,589 - INFO - [SAU1] Traitement du match 1252534
+2025-08-21 18:42:39,590 - INFO - 🔍 Appel API pour les cotes du match 1252534
+2025-08-21 18:42:41,457 - INFO - [SAU1] Traitement du match 1252533
+2025-08-21 18:42:41,458 - INFO - 🔍 Appel API pour les cotes du match 1252533
+2025-08-21 18:42:43,339 - INFO - [SAU1] Traitement du match 1252529
+2025-08-21 18:42:43,340 - INFO - 🔍 Appel API pour les cotes du match 1252529
+2025-08-21 18:42:45,254 - INFO - [SAU1] Traitement du match 1252543
+2025-08-21 18:42:45,254 - INFO - 🔍 Appel API pour les cotes du match 1252543
+2025-08-21 18:42:47,131 - INFO - [SAU1] Traitement du match 1252536
+2025-08-21 18:42:47,132 - INFO - 🔍 Appel API pour les cotes du match 1252536
+2025-08-21 18:42:49,136 - INFO - [SAU1] Traitement du match 1252539
+2025-08-21 18:42:49,136 - INFO - 🔍 Appel API pour les cotes du match 1252539
+2025-08-21 18:42:51,065 - INFO - [SAU1] Traitement du match 1252537
+2025-08-21 18:42:51,066 - INFO - 🔍 Appel API pour les cotes du match 1252537
+2025-08-21 18:42:53,004 - INFO - [SAU1] Traitement du match 1252544
+2025-08-21 18:42:53,004 - INFO - 🔍 Appel API pour les cotes du match 1252544
+2025-08-21 18:42:54,886 - INFO - [SAU1] Traitement du match 1252540
+2025-08-21 18:42:54,886 - INFO - 🔍 Appel API pour les cotes du match 1252540
+2025-08-21 18:42:56,809 - INFO - [SAU1] Traitement du match 1252542
+2025-08-21 18:42:56,809 - INFO - 🔍 Appel API pour les cotes du match 1252542
+2025-08-21 18:42:58,731 - INFO - [SAU1] Traitement du match 1252538
+2025-08-21 18:42:58,731 - INFO - 🔍 Appel API pour les cotes du match 1252538
+2025-08-21 18:43:00,619 - INFO - [SAU1] Traitement du match 1252541
+2025-08-21 18:43:00,619 - INFO - 🔍 Appel API pour les cotes du match 1252541
+2025-08-21 18:43:02,590 - INFO - [SAU1] Traitement du match 1252550
+2025-08-21 18:43:02,590 - INFO - 🔍 Appel API pour les cotes du match 1252550
+2025-08-21 18:43:04,467 - INFO - [SAU1] Traitement du match 1252551
+2025-08-21 18:43:04,467 - INFO - 🔍 Appel API pour les cotes du match 1252551
+2025-08-21 18:43:06,392 - INFO - [SAU1] Traitement du match 1252545
+2025-08-21 18:43:06,393 - INFO - 🔍 Appel API pour les cotes du match 1252545
+2025-08-21 18:43:08,315 - INFO - [SAU1] Traitement du match 1252552
+2025-08-21 18:43:08,315 - INFO - 🔍 Appel API pour les cotes du match 1252552
+2025-08-21 18:43:10,222 - INFO - [SAU1] Traitement du match 1252546
+2025-08-21 18:43:10,222 - INFO - 🔍 Appel API pour les cotes du match 1252546
+2025-08-21 18:43:12,148 - INFO - [SAU1] Traitement du match 1252548
+2025-08-21 18:43:12,149 - INFO - 🔍 Appel API pour les cotes du match 1252548
+2025-08-21 18:43:14,121 - INFO - [SAU1] Traitement du match 1252553
+2025-08-21 18:43:14,122 - INFO - 🔍 Appel API pour les cotes du match 1252553
+2025-08-21 18:43:16,003 - INFO - [SAU1] Traitement du match 1252547
+2025-08-21 18:43:16,004 - INFO - 🔍 Appel API pour les cotes du match 1252547
+2025-08-21 18:43:17,917 - INFO - [SAU1] Traitement du match 1252549
+2025-08-21 18:43:17,918 - INFO - 🔍 Appel API pour les cotes du match 1252549
+2025-08-21 18:43:19,850 - INFO - [SAU1] Traitement du match 1252557
+2025-08-21 18:43:19,850 - INFO - 🔍 Appel API pour les cotes du match 1252557
+2025-08-21 18:43:21,817 - INFO - [SAU1] Traitement du match 1252554
+2025-08-21 18:43:21,818 - INFO - 🔍 Appel API pour les cotes du match 1252554
+2025-08-21 18:43:23,720 - INFO - [SAU1] Traitement du match 1252560
+2025-08-21 18:43:23,720 - INFO - 🔍 Appel API pour les cotes du match 1252560
+2025-08-21 18:43:25,620 - INFO - [SAU1] Traitement du match 1252555
+2025-08-21 18:43:25,621 - INFO - 🔍 Appel API pour les cotes du match 1252555
+2025-08-21 18:43:27,556 - INFO - [SAU1] Traitement du match 1252559
+2025-08-21 18:43:27,557 - INFO - 🔍 Appel API pour les cotes du match 1252559
+2025-08-21 18:43:29,424 - INFO - [SAU1] Traitement du match 1252561
+2025-08-21 18:43:29,425 - INFO - 🔍 Appel API pour les cotes du match 1252561
+2025-08-21 18:43:31,297 - INFO - [SAU1] Traitement du match 1252556
+2025-08-21 18:43:31,298 - INFO - 🔍 Appel API pour les cotes du match 1252556
+2025-08-21 18:43:33,170 - INFO - [SAU1] Traitement du match 1252562
+2025-08-21 18:43:33,171 - INFO - 🔍 Appel API pour les cotes du match 1252562
+2025-08-21 18:43:35,074 - INFO - [SAU1] Traitement du match 1252558
+2025-08-21 18:43:35,075 - INFO - 🔍 Appel API pour les cotes du match 1252558
+2025-08-21 18:43:36,967 - INFO - [SAU1] Traitement du match 1252565
+2025-08-21 18:43:36,968 - INFO - 🔍 Appel API pour les cotes du match 1252565
+2025-08-21 18:43:38,848 - INFO - [SAU1] Traitement du match 1252571
+2025-08-21 18:43:38,849 - INFO - 🔍 Appel API pour les cotes du match 1252571
+2025-08-21 18:43:40,732 - INFO - [SAU1] Traitement du match 1252569
+2025-08-21 18:43:40,732 - INFO - 🔍 Appel API pour les cotes du match 1252569
+2025-08-21 18:43:42,641 - INFO - [SAU1] Traitement du match 1252566
+2025-08-21 18:43:42,642 - INFO - 🔍 Appel API pour les cotes du match 1252566
+2025-08-21 18:43:44,528 - INFO - [SAU1] Traitement du match 1252570
+2025-08-21 18:43:44,528 - INFO - 🔍 Appel API pour les cotes du match 1252570
+2025-08-21 18:43:46,414 - INFO - [SAU1] Traitement du match 1252564
+2025-08-21 18:43:46,414 - INFO - 🔍 Appel API pour les cotes du match 1252564
+2025-08-21 18:43:48,284 - INFO - [SAU1] Traitement du match 1252567
+2025-08-21 18:43:48,284 - INFO - 🔍 Appel API pour les cotes du match 1252567
+2025-08-21 18:43:50,227 - INFO - [SAU1] Traitement du match 1252563
+2025-08-21 18:43:50,227 - INFO - 🔍 Appel API pour les cotes du match 1252563
+2025-08-21 18:43:52,109 - INFO - [SAU1] Traitement du match 1252568
+2025-08-21 18:43:52,109 - INFO - 🔍 Appel API pour les cotes du match 1252568
+2025-08-21 18:43:54,044 - INFO - [SAU1] Traitement du match 1252575
+2025-08-21 18:43:54,045 - INFO - 🔍 Appel API pour les cotes du match 1252575
+2025-08-21 18:43:55,970 - INFO - [SAU1] Traitement du match 1252580
+2025-08-21 18:43:55,971 - INFO - 🔍 Appel API pour les cotes du match 1252580
+2025-08-21 18:43:57,936 - INFO - [SAU1] Traitement du match 1252576
+2025-08-21 18:43:57,936 - INFO - 🔍 Appel API pour les cotes du match 1252576
+2025-08-21 18:43:59,833 - INFO - [SAU1] Traitement du match 1252578
+2025-08-21 18:43:59,834 - INFO - 🔍 Appel API pour les cotes du match 1252578
+2025-08-21 18:44:01,763 - INFO - [SAU1] Traitement du match 1252572
+2025-08-21 18:44:01,763 - INFO - 🔍 Appel API pour les cotes du match 1252572
+2025-08-21 18:44:03,705 - INFO - [SAU1] Traitement du match 1252573
+2025-08-21 18:44:03,705 - INFO - 🔍 Appel API pour les cotes du match 1252573
+2025-08-21 18:44:05,627 - INFO - [SAU1] Traitement du match 1252574
+2025-08-21 18:44:05,628 - INFO - 🔍 Appel API pour les cotes du match 1252574
+2025-08-21 18:44:07,536 - INFO - [SAU1] Traitement du match 1252579
+2025-08-21 18:44:07,537 - INFO - 🔍 Appel API pour les cotes du match 1252579
+2025-08-21 18:44:09,460 - INFO - [SAU1] Traitement du match 1252577
+2025-08-21 18:44:09,460 - INFO - 🔍 Appel API pour les cotes du match 1252577
+2025-08-21 18:44:11,385 - INFO - [SAU1] Traitement du match 1252582
+2025-08-21 18:44:11,386 - INFO - 🔍 Appel API pour les cotes du match 1252582
+2025-08-21 18:44:13,307 - INFO - [SAU1] Traitement du match 1252581
+2025-08-21 18:44:13,307 - INFO - 🔍 Appel API pour les cotes du match 1252581
+2025-08-21 18:44:15,219 - INFO - [SAU1] Traitement du match 1252588
+2025-08-21 18:44:15,220 - INFO - 🔍 Appel API pour les cotes du match 1252588
+2025-08-21 18:44:17,139 - INFO - [SAU1] Traitement du match 1252584
+2025-08-21 18:44:17,140 - INFO - 🔍 Appel API pour les cotes du match 1252584
+2025-08-21 18:44:19,058 - INFO - [SAU1] Traitement du match 1252587
+2025-08-21 18:44:19,059 - INFO - 🔍 Appel API pour les cotes du match 1252587
+2025-08-21 18:44:20,945 - INFO - [SAU1] Traitement du match 1252586
+2025-08-21 18:44:20,946 - INFO - 🔍 Appel API pour les cotes du match 1252586
+2025-08-21 18:44:22,879 - INFO - [SAU1] Traitement du match 1252585
+2025-08-21 18:44:22,879 - INFO - 🔍 Appel API pour les cotes du match 1252585
+2025-08-21 18:44:24,838 - INFO - [SAU1] Traitement du match 1252583
+2025-08-21 18:44:24,838 - INFO - 🔍 Appel API pour les cotes du match 1252583
+2025-08-21 18:44:26,737 - INFO - [SAU1] Traitement du match 1252589
+2025-08-21 18:44:26,738 - INFO - 🔍 Appel API pour les cotes du match 1252589
+2025-08-21 18:44:28,649 - INFO - [SAU1] Traitement du match 1252594
+2025-08-21 18:44:28,650 - INFO - 🔍 Appel API pour les cotes du match 1252594
+2025-08-21 18:44:30,571 - INFO - [SAU1] Traitement du match 1252592
+2025-08-21 18:44:30,571 - INFO - 🔍 Appel API pour les cotes du match 1252592
+2025-08-21 18:44:32,493 - INFO - [SAU1] Traitement du match 1252593
+2025-08-21 18:44:32,493 - INFO - 🔍 Appel API pour les cotes du match 1252593
+2025-08-21 18:44:34,400 - INFO - [SAU1] Traitement du match 1252598
+2025-08-21 18:44:34,400 - INFO - 🔍 Appel API pour les cotes du match 1252598
+2025-08-21 18:44:36,296 - INFO - [SAU1] Traitement du match 1252596
+2025-08-21 18:44:36,297 - INFO - 🔍 Appel API pour les cotes du match 1252596
+2025-08-21 18:44:38,234 - INFO - [SAU1] Traitement du match 1252595
+2025-08-21 18:44:38,234 - INFO - 🔍 Appel API pour les cotes du match 1252595
+2025-08-21 18:44:40,107 - INFO - [SAU1] Traitement du match 1252590
+2025-08-21 18:44:40,108 - INFO - 🔍 Appel API pour les cotes du match 1252590
+2025-08-21 18:44:42,056 - INFO - [SAU1] Traitement du match 1252591
+2025-08-21 18:44:42,056 - INFO - 🔍 Appel API pour les cotes du match 1252591
+2025-08-21 18:44:43,962 - INFO - [SAU1] Traitement du match 1252597
+2025-08-21 18:44:43,963 - INFO - 🔍 Appel API pour les cotes du match 1252597
+2025-08-21 18:44:45,849 - INFO - [SAU1] Traitement du match 1252606
+2025-08-21 18:44:45,850 - INFO - 🔍 Appel API pour les cotes du match 1252606
+2025-08-21 18:44:47,745 - INFO - [SAU1] Traitement du match 1252600
+2025-08-21 18:44:47,745 - INFO - 🔍 Appel API pour les cotes du match 1252600
+2025-08-21 18:44:49,679 - INFO - [SAU1] Traitement du match 1252601
+2025-08-21 18:44:49,680 - INFO - 🔍 Appel API pour les cotes du match 1252601
+2025-08-21 18:44:51,567 - INFO - [SAU1] Traitement du match 1252604
+2025-08-21 18:44:51,568 - INFO - 🔍 Appel API pour les cotes du match 1252604
+2025-08-21 18:44:53,468 - INFO - [SAU1] Traitement du match 1252607
+2025-08-21 18:44:53,468 - INFO - 🔍 Appel API pour les cotes du match 1252607
+2025-08-21 18:44:55,348 - INFO - [SAU1] Traitement du match 1252602
+2025-08-21 18:44:55,348 - INFO - 🔍 Appel API pour les cotes du match 1252602
+2025-08-21 18:44:57,638 - INFO - [SAU1] Traitement du match 1252603
+2025-08-21 18:44:57,639 - INFO - 🔍 Appel API pour les cotes du match 1252603
+2025-08-21 18:44:59,519 - INFO - [SAU1] Traitement du match 1252605
+2025-08-21 18:44:59,519 - INFO - 🔍 Appel API pour les cotes du match 1252605
+2025-08-21 18:45:01,423 - INFO - [SAU1] Traitement du match 1252599
+2025-08-21 18:45:01,424 - INFO - 🔍 Appel API pour les cotes du match 1252599
+2025-08-21 18:45:03,342 - INFO - [SAU1] Traitement du match 1252608
+2025-08-21 18:45:03,342 - INFO - 🔍 Appel API pour les cotes du match 1252608
+2025-08-21 18:45:05,307 - INFO - [SAU1] Traitement du match 1252615
+2025-08-21 18:45:05,308 - INFO - 🔍 Appel API pour les cotes du match 1252615
+2025-08-21 18:45:07,192 - INFO - [SAU1] Traitement du match 1252613
+2025-08-21 18:45:07,192 - INFO - 🔍 Appel API pour les cotes du match 1252613
+2025-08-21 18:45:09,141 - INFO - [SAU1] Traitement du match 1252609
+2025-08-21 18:45:09,141 - INFO - 🔍 Appel API pour les cotes du match 1252609
+2025-08-21 18:45:11,019 - INFO - [SAU1] Traitement du match 1252616
+2025-08-21 18:45:11,020 - INFO - 🔍 Appel API pour les cotes du match 1252616
+2025-08-21 18:45:12,933 - INFO - [SAU1] Traitement du match 1252610
+2025-08-21 18:45:12,933 - INFO - 🔍 Appel API pour les cotes du match 1252610
+2025-08-21 18:45:14,817 - INFO - [SAU1] Traitement du match 1252612
+2025-08-21 18:45:14,817 - INFO - 🔍 Appel API pour les cotes du match 1252612
+2025-08-21 18:45:16,735 - INFO - [SAU1] Traitement du match 1252611
+2025-08-21 18:45:16,735 - INFO - 🔍 Appel API pour les cotes du match 1252611
+2025-08-21 18:45:18,651 - INFO - [SAU1] Traitement du match 1252614
+2025-08-21 18:45:18,652 - INFO - 🔍 Appel API pour les cotes du match 1252614
+2025-08-21 18:45:20,567 - INFO - [SAU1] Traitement du match 1252619
+2025-08-21 18:45:20,568 - INFO - 🔍 Appel API pour les cotes du match 1252619
+2025-08-21 18:45:22,439 - INFO - [SAU1] Traitement du match 1252618
+2025-08-21 18:45:22,440 - INFO - 🔍 Appel API pour les cotes du match 1252618
+2025-08-21 18:45:24,329 - INFO - [SAU1] Traitement du match 1252624
+2025-08-21 18:45:24,330 - INFO - 🔍 Appel API pour les cotes du match 1252624
+2025-08-21 18:45:26,227 - INFO - [SAU1] Traitement du match 1252617
+2025-08-21 18:45:26,227 - INFO - 🔍 Appel API pour les cotes du match 1252617
+2025-08-21 18:45:28,129 - INFO - [SAU1] Traitement du match 1252620
+2025-08-21 18:45:28,129 - INFO - 🔍 Appel API pour les cotes du match 1252620
+2025-08-21 18:45:30,039 - INFO - [SAU1] Traitement du match 1252621
+2025-08-21 18:45:30,040 - INFO - 🔍 Appel API pour les cotes du match 1252621
+2025-08-21 18:45:31,935 - INFO - [SAU1] Traitement du match 1252625
+2025-08-21 18:45:31,935 - INFO - 🔍 Appel API pour les cotes du match 1252625
+2025-08-21 18:45:33,882 - INFO - [SAU1] Traitement du match 1252622
+2025-08-21 18:45:33,882 - INFO - 🔍 Appel API pour les cotes du match 1252622
+2025-08-21 18:45:35,767 - INFO - [SAU1] Traitement du match 1252623
+2025-08-21 18:45:35,767 - INFO - 🔍 Appel API pour les cotes du match 1252623
+2025-08-21 18:45:37,680 - INFO - [SAU1] Traitement du match 1252632
+2025-08-21 18:45:37,681 - INFO - 🔍 Appel API pour les cotes du match 1252632
+2025-08-21 18:45:39,558 - INFO - [SAU1] Traitement du match 1252634
+2025-08-21 18:45:39,558 - INFO - 🔍 Appel API pour les cotes du match 1252634
+2025-08-21 18:45:41,459 - INFO - [SAU1] Traitement du match 1252627
+2025-08-21 18:45:41,459 - INFO - 🔍 Appel API pour les cotes du match 1252627
+2025-08-21 18:45:43,351 - INFO - [SAU1] Traitement du match 1252631
+2025-08-21 18:45:43,351 - INFO - 🔍 Appel API pour les cotes du match 1252631
+2025-08-21 18:45:45,214 - INFO - [SAU1] Traitement du match 1252630
+2025-08-21 18:45:45,214 - INFO - 🔍 Appel API pour les cotes du match 1252630
+2025-08-21 18:45:47,150 - INFO - [SAU1] Traitement du match 1252629
+2025-08-21 18:45:47,150 - INFO - 🔍 Appel API pour les cotes du match 1252629
+2025-08-21 18:45:49,058 - INFO - [SAU1] Traitement du match 1252633
+2025-08-21 18:45:49,059 - INFO - 🔍 Appel API pour les cotes du match 1252633
+2025-08-21 18:45:50,952 - INFO - [SAU1] Traitement du match 1252628
+2025-08-21 18:45:50,952 - INFO - 🔍 Appel API pour les cotes du match 1252628
+2025-08-21 18:45:52,873 - INFO - [SAU1] Traitement du match 1252626
+2025-08-21 18:45:52,874 - INFO - 🔍 Appel API pour les cotes du match 1252626
+2025-08-21 18:45:54,814 - INFO - [SAU1] Traitement du match 1252639
+2025-08-21 18:45:54,814 - INFO - 🔍 Appel API pour les cotes du match 1252639
+2025-08-21 18:45:56,734 - INFO - [SAU1] Traitement du match 1252635
+2025-08-21 18:45:56,734 - INFO - 🔍 Appel API pour les cotes du match 1252635
+2025-08-21 18:45:58,639 - INFO - [SAU1] Traitement du match 1252637
+2025-08-21 18:45:58,639 - INFO - 🔍 Appel API pour les cotes du match 1252637
+2025-08-21 18:46:00,542 - INFO - [SAU1] Traitement du match 1252641
+2025-08-21 18:46:00,543 - INFO - 🔍 Appel API pour les cotes du match 1252641
+2025-08-21 18:46:02,507 - INFO - [SAU1] Traitement du match 1252638
+2025-08-21 18:46:02,507 - INFO - 🔍 Appel API pour les cotes du match 1252638
+2025-08-21 18:46:04,420 - INFO - [SAU1] Traitement du match 1252640
+2025-08-21 18:46:04,421 - INFO - 🔍 Appel API pour les cotes du match 1252640
+2025-08-21 18:46:06,311 - INFO - [SAU1] Traitement du match 1252643
+2025-08-21 18:46:06,311 - INFO - 🔍 Appel API pour les cotes du match 1252643
+2025-08-21 18:46:08,245 - INFO - [SAU1] Traitement du match 1252642
+2025-08-21 18:46:08,246 - INFO - 🔍 Appel API pour les cotes du match 1252642
+2025-08-21 18:46:10,154 - INFO - [SAU1] Traitement du match 1252636
+2025-08-21 18:46:10,154 - INFO - 🔍 Appel API pour les cotes du match 1252636
+2025-08-21 18:46:12,075 - INFO - [SAU1] Traitement du match 1252648
+2025-08-21 18:46:12,075 - INFO - 🔍 Appel API pour les cotes du match 1252648
+2025-08-21 18:46:13,973 - INFO - [SAU1] Traitement du match 1252644
+2025-08-21 18:46:13,973 - INFO - 🔍 Appel API pour les cotes du match 1252644
+2025-08-21 18:46:15,898 - INFO - [SAU1] Traitement du match 1252645
+2025-08-21 18:46:15,898 - INFO - 🔍 Appel API pour les cotes du match 1252645
+2025-08-21 18:46:17,815 - INFO - [SAU1] Traitement du match 1252647
+2025-08-21 18:46:17,815 - INFO - 🔍 Appel API pour les cotes du match 1252647
+2025-08-21 18:46:19,689 - INFO - [SAU1] Traitement du match 1252651
+2025-08-21 18:46:19,690 - INFO - 🔍 Appel API pour les cotes du match 1252651
+2025-08-21 18:46:21,599 - INFO - [SAU1] Traitement du match 1252649
+2025-08-21 18:46:21,600 - INFO - 🔍 Appel API pour les cotes du match 1252649
+2025-08-21 18:46:23,538 - INFO - [SAU1] Traitement du match 1252652
+2025-08-21 18:46:23,539 - INFO - 🔍 Appel API pour les cotes du match 1252652
+2025-08-21 18:46:25,435 - INFO - [SAU1] Traitement du match 1252650
+2025-08-21 18:46:25,436 - INFO - 🔍 Appel API pour les cotes du match 1252650
+2025-08-21 18:46:27,412 - INFO - [SAU1] Traitement du match 1252646
+2025-08-21 18:46:27,412 - INFO - 🔍 Appel API pour les cotes du match 1252646
+2025-08-21 18:46:29,335 - INFO - [SAU1] Traitement du match 1252653
+2025-08-21 18:46:29,335 - INFO - 🔍 Appel API pour les cotes du match 1252653
+2025-08-21 18:46:31,250 - INFO - [SAU1] Traitement du match 1252659
+2025-08-21 18:46:31,250 - INFO - 🔍 Appel API pour les cotes du match 1252659
+2025-08-21 18:46:33,123 - INFO - [SAU1] Traitement du match 1252655
+2025-08-21 18:46:33,123 - INFO - 🔍 Appel API pour les cotes du match 1252655
+2025-08-21 18:46:35,065 - INFO - [SAU1] Traitement du match 1252654
+2025-08-21 18:46:35,066 - INFO - 🔍 Appel API pour les cotes du match 1252654
+2025-08-21 18:46:36,940 - INFO - [SAU1] Traitement du match 1252660
+2025-08-21 18:46:36,941 - INFO - 🔍 Appel API pour les cotes du match 1252660
+2025-08-21 18:46:38,864 - INFO - [SAU1] Traitement du match 1252657
+2025-08-21 18:46:38,864 - INFO - 🔍 Appel API pour les cotes du match 1252657
+2025-08-21 18:46:40,789 - INFO - [SAU1] Traitement du match 1252656
+2025-08-21 18:46:40,789 - INFO - 🔍 Appel API pour les cotes du match 1252656
+2025-08-21 18:46:42,697 - INFO - [SAU1] Traitement du match 1252658
+2025-08-21 18:46:42,697 - INFO - 🔍 Appel API pour les cotes du match 1252658
+2025-08-21 18:46:44,575 - INFO - [SAU1] Traitement du match 1252661
+2025-08-21 18:46:44,575 - INFO - 🔍 Appel API pour les cotes du match 1252661
+2025-08-21 18:46:46,466 - INFO - [SAU1] Traitement du match 1252667
+2025-08-21 18:46:46,466 - INFO - 🔍 Appel API pour les cotes du match 1252667
+2025-08-21 18:46:48,370 - INFO - [SAU1] Traitement du match 1252670
+2025-08-21 18:46:48,371 - INFO - 🔍 Appel API pour les cotes du match 1252670
+2025-08-21 18:46:50,268 - INFO - [SAU1] Traitement du match 1252664
+2025-08-21 18:46:50,268 - INFO - 🔍 Appel API pour les cotes du match 1252664
+2025-08-21 18:46:52,232 - INFO - [SAU1] Traitement du match 1252662
+2025-08-21 18:46:52,233 - INFO - 🔍 Appel API pour les cotes du match 1252662
+2025-08-21 18:46:54,158 - INFO - [SAU1] Traitement du match 1252663
+2025-08-21 18:46:54,159 - INFO - 🔍 Appel API pour les cotes du match 1252663
+2025-08-21 18:46:56,060 - INFO - [SAU1] Traitement du match 1252668
+2025-08-21 18:46:56,060 - INFO - 🔍 Appel API pour les cotes du match 1252668
+2025-08-21 18:46:57,975 - INFO - [SAU1] Traitement du match 1252666
+2025-08-21 18:46:57,976 - INFO - 🔍 Appel API pour les cotes du match 1252666
+2025-08-21 18:46:59,889 - INFO - [SAU1] Traitement du match 1252669
+2025-08-21 18:46:59,890 - INFO - 🔍 Appel API pour les cotes du match 1252669
+2025-08-21 18:47:01,825 - INFO - [SAU1] Traitement du match 1252665
+2025-08-21 18:47:01,825 - INFO - 🔍 Appel API pour les cotes du match 1252665
+2025-08-21 18:47:03,740 - INFO - [SAU1] Traitement du match 1252671
+2025-08-21 18:47:03,741 - INFO - 🔍 Appel API pour les cotes du match 1252671
+2025-08-21 18:47:05,682 - INFO - [SAU1] Traitement du match 1252675
+2025-08-21 18:47:05,683 - INFO - 🔍 Appel API pour les cotes du match 1252675
+2025-08-21 18:47:07,593 - INFO - [SAU1] Traitement du match 1252673
+2025-08-21 18:47:07,593 - INFO - 🔍 Appel API pour les cotes du match 1252673
+2025-08-21 18:47:09,504 - INFO - [SAU1] Traitement du match 1252672
+2025-08-21 18:47:09,505 - INFO - 🔍 Appel API pour les cotes du match 1252672
+2025-08-21 18:47:11,419 - INFO - [SAU1] Traitement du match 1252674
+2025-08-21 18:47:11,420 - INFO - 🔍 Appel API pour les cotes du match 1252674
+2025-08-21 18:47:13,333 - INFO - [SAU1] Traitement du match 1252679
+2025-08-21 18:47:13,334 - INFO - 🔍 Appel API pour les cotes du match 1252679
+2025-08-21 18:47:15,250 - INFO - [SAU1] Traitement du match 1252677
+2025-08-21 18:47:15,251 - INFO - 🔍 Appel API pour les cotes du match 1252677
+2025-08-21 18:47:17,157 - INFO - [SAU1] Traitement du match 1252676
+2025-08-21 18:47:17,157 - INFO - 🔍 Appel API pour les cotes du match 1252676
+2025-08-21 18:47:19,072 - INFO - [SAU1] Traitement du match 1252678
+2025-08-21 18:47:19,072 - INFO - 🔍 Appel API pour les cotes du match 1252678
+2025-08-21 18:47:20,987 - INFO - [SAU1] Traitement du match 1252680
+2025-08-21 18:47:20,988 - INFO - 🔍 Appel API pour les cotes du match 1252680
+2025-08-21 18:47:22,899 - INFO - [SAU1] Traitement du match 1252683
+2025-08-21 18:47:22,899 - INFO - 🔍 Appel API pour les cotes du match 1252683
+2025-08-21 18:47:24,830 - INFO - [SAU1] Traitement du match 1252685
+2025-08-21 18:47:24,831 - INFO - 🔍 Appel API pour les cotes du match 1252685
+2025-08-21 18:47:26,735 - INFO - [SAU1] Traitement du match 1252682
+2025-08-21 18:47:26,736 - INFO - 🔍 Appel API pour les cotes du match 1252682
+2025-08-21 18:47:28,659 - INFO - [SAU1] Traitement du match 1252687
+2025-08-21 18:47:28,660 - INFO - 🔍 Appel API pour les cotes du match 1252687
+2025-08-21 18:47:30,498 - INFO - [SAU1] Traitement du match 1252688
+2025-08-21 18:47:30,498 - INFO - 🔍 Appel API pour les cotes du match 1252688
+2025-08-21 18:47:32,343 - INFO - [SAU1] Traitement du match 1252686
+2025-08-21 18:47:32,344 - INFO - 🔍 Appel API pour les cotes du match 1252686
+2025-08-21 18:47:34,184 - INFO - [SAU1] Traitement du match 1252681
+2025-08-21 18:47:34,184 - INFO - 🔍 Appel API pour les cotes du match 1252681
+2025-08-21 18:47:36,049 - INFO - [SAU1] Traitement du match 1252684
+2025-08-21 18:47:36,049 - INFO - 🔍 Appel API pour les cotes du match 1252684
+2025-08-21 18:47:37,882 - INFO - [SAU1] Traitement du match 1252690
+2025-08-21 18:47:37,883 - INFO - 🔍 Appel API pour les cotes du match 1252690
+2025-08-21 18:47:39,768 - INFO - [SAU1] Traitement du match 1252692
+2025-08-21 18:47:39,769 - INFO - 🔍 Appel API pour les cotes du match 1252692
+2025-08-21 18:47:41,616 - INFO - [SAU1] Traitement du match 1252689
+2025-08-21 18:47:41,616 - INFO - 🔍 Appel API pour les cotes du match 1252689
+2025-08-21 18:47:43,454 - INFO - [SAU1] Traitement du match 1252697
+2025-08-21 18:47:43,455 - INFO - 🔍 Appel API pour les cotes du match 1252697
+2025-08-21 18:47:45,297 - INFO - [SAU1] Traitement du match 1252694
+2025-08-21 18:47:45,298 - INFO - 🔍 Appel API pour les cotes du match 1252694
+2025-08-21 18:47:47,134 - INFO - [SAU1] Traitement du match 1252693
+2025-08-21 18:47:47,135 - INFO - 🔍 Appel API pour les cotes du match 1252693
+2025-08-21 18:47:48,988 - INFO - [SAU1] Traitement du match 1252691
+2025-08-21 18:47:48,988 - INFO - 🔍 Appel API pour les cotes du match 1252691
+2025-08-21 18:47:50,830 - INFO - [SAU1] Traitement du match 1252696
+2025-08-21 18:47:50,830 - INFO - 🔍 Appel API pour les cotes du match 1252696
+2025-08-21 18:47:52,673 - INFO - [SAU1] Traitement du match 1252695
+2025-08-21 18:47:52,674 - INFO - 🔍 Appel API pour les cotes du match 1252695
+2025-08-21 18:47:54,523 - INFO - [SAU1] Traitement du match 1252700
+2025-08-21 18:47:54,524 - INFO - 🔍 Appel API pour les cotes du match 1252700
+2025-08-21 18:47:56,374 - INFO - [SAU1] Traitement du match 1252706
+2025-08-21 18:47:56,375 - INFO - 🔍 Appel API pour les cotes du match 1252706
+2025-08-21 18:47:58,217 - INFO - [SAU1] Traitement du match 1252705
+2025-08-21 18:47:58,218 - INFO - 🔍 Appel API pour les cotes du match 1252705
+2025-08-21 18:48:00,071 - INFO - [SAU1] Traitement du match 1252702
+2025-08-21 18:48:00,071 - INFO - 🔍 Appel API pour les cotes du match 1252702
+2025-08-21 18:48:01,955 - INFO - [SAU1] Traitement du match 1252701
+2025-08-21 18:48:01,956 - INFO - 🔍 Appel API pour les cotes du match 1252701
+2025-08-21 18:48:04,384 - INFO - [SAU1] Traitement du match 1252699
+2025-08-21 18:48:04,385 - INFO - 🔍 Appel API pour les cotes du match 1252699
+2025-08-21 18:48:06,762 - INFO - [SAU1] Traitement du match 1252703
+2025-08-21 18:48:06,762 - INFO - 🔍 Appel API pour les cotes du match 1252703
+2025-08-21 18:48:08,640 - INFO - [SAU1] Traitement du match 1252704
+2025-08-21 18:48:08,641 - INFO - 🔍 Appel API pour les cotes du match 1252704
+2025-08-21 18:48:10,956 - INFO - [SAU1] Traitement du match 1252698
+2025-08-21 18:48:10,956 - INFO - 🔍 Appel API pour les cotes du match 1252698
+2025-08-21 18:48:13,343 - INFO - [SAU1] Traitement du match 1252710
+2025-08-21 18:48:13,343 - INFO - 🔍 Appel API pour les cotes du match 1252710
+2025-08-21 18:48:15,692 - INFO - [SAU1] Traitement du match 1252715
+2025-08-21 18:48:15,693 - INFO - 🔍 Appel API pour les cotes du match 1252715
+2025-08-21 18:48:18,062 - INFO - [SAU1] Traitement du match 1252711
+2025-08-21 18:48:18,063 - INFO - 🔍 Appel API pour les cotes du match 1252711
+2025-08-21 18:48:20,434 - INFO - [SAU1] Traitement du match 1252713
+2025-08-21 18:48:20,435 - INFO - 🔍 Appel API pour les cotes du match 1252713
+2025-08-21 18:48:22,832 - INFO - [SAU1] Traitement du match 1252709
+2025-08-21 18:48:22,832 - INFO - 🔍 Appel API pour les cotes du match 1252709
+2025-08-21 18:48:25,273 - INFO - [SAU1] Traitement du match 1252714
+2025-08-21 18:48:25,274 - INFO - 🔍 Appel API pour les cotes du match 1252714
+2025-08-21 18:48:27,121 - INFO - [SAU1] Traitement du match 1252708
+2025-08-21 18:48:27,121 - INFO - 🔍 Appel API pour les cotes du match 1252708
+2025-08-21 18:48:29,528 - INFO - [SAU1] Traitement du match 1252712
+2025-08-21 18:48:29,528 - INFO - 🔍 Appel API pour les cotes du match 1252712
+2025-08-21 18:48:31,463 - INFO - [SAU1] Traitement du match 1252707
+2025-08-21 18:48:31,463 - INFO - 🔍 Appel API pour les cotes du match 1252707
+2025-08-21 18:48:33,820 - INFO - [SAU1] Traitement du match 1252719
+2025-08-21 18:48:33,821 - INFO - 🔍 Appel API pour les cotes du match 1252719
+2025-08-21 18:48:36,258 - INFO - [SAU1] Traitement du match 1252717
+2025-08-21 18:48:36,258 - INFO - 🔍 Appel API pour les cotes du match 1252717
+2025-08-21 18:48:38,646 - INFO - [SAU1] Traitement du match 1252716
+2025-08-21 18:48:38,646 - INFO - 🔍 Appel API pour les cotes du match 1252716
+2025-08-21 18:48:41,031 - INFO - [SAU1] Traitement du match 1252718
+2025-08-21 18:48:41,031 - INFO - 🔍 Appel API pour les cotes du match 1252718
+2025-08-21 18:48:43,390 - INFO - [SAU1] Traitement du match 1252724
+2025-08-21 18:48:43,390 - INFO - 🔍 Appel API pour les cotes du match 1252724
+2025-08-21 18:48:45,771 - INFO - [SAU1] Traitement du match 1252721
+2025-08-21 18:48:45,771 - INFO - 🔍 Appel API pour les cotes du match 1252721
+2025-08-21 18:48:48,150 - INFO - [SAU1] Traitement du match 1252723
+2025-08-21 18:48:48,150 - INFO - 🔍 Appel API pour les cotes du match 1252723
+2025-08-21 18:48:50,590 - INFO - [SAU1] Traitement du match 1252722
+2025-08-21 18:48:50,590 - INFO - 🔍 Appel API pour les cotes du match 1252722
+2025-08-21 18:48:53,013 - INFO - [SAU1] Traitement du match 1252720
+2025-08-21 18:48:53,014 - INFO - 🔍 Appel API pour les cotes du match 1252720
+2025-08-21 18:48:55,436 - INFO - [SAU1] Aucune nouvelle cote à ajouter.
+2025-08-21 18:48:55,438 - INFO - 💾 Fichier de cotes pour SAU1 est à jour. 0 entrées au total.
+2025-08-21 18:48:55,438 - INFO - 
 🎉 === COLLECTE TERMINÉE ===
-2025-08-21 16:23:11,865 - INFO - ⏱️ Durée totale: 0:09:55.497798
-2025-08-21 16:23:11,865 - INFO - 📊 Ligues traitées: 0/1
-2025-08-21 16:23:11,865 - INFO - 🏟️ Matchs traités: 306
-2025-08-21 16:23:11,865 - INFO - 📞 Appels API (cotes): 306
-2025-08-21 16:23:11,865 - INFO - 📈 Nouvelles collections de cotes: 0
+2025-08-21 18:48:55,439 - INFO - ⏱️ Durée totale: 0:09:57.924436
+2025-08-21 18:48:55,439 - INFO - 📊 Ligues traitées: 1/1
+2025-08-21 18:48:55,439 - INFO - 🏟️ Matchs traités: 306
+2025-08-21 18:48:55,439 - INFO - 📞 Appels API (cotes): 306
+2025-08-21 18:48:55,439 - INFO - 📈 Nouvelles collections de cotes: 0
