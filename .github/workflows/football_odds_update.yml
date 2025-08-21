@@ -36,7 +36,7 @@ jobs:
         RAPIDAPI_KEY: ${{ secrets.RAPIDAPI_KEY }}
       run: |
         response=$(curl -s -w "%{http_code}" -o /dev/null --request GET \
-          --url 'https://api-football-v1.p.rapidapi.com/v3/status' \
+          --url 'https://api-football-v1.p.rapidapi.com/v3/timezone' \
           --header 'X-RapidAPI-Key: ${{ secrets.RAPIDAPI_KEY }}' \
           --header 'X-RapidAPI-Host: api-football-v1.p.rapidapi.com')
         if [ "$response" -eq 200 ]; then
