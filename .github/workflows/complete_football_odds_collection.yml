@@ -508,4 +508,4 @@ EOF
         echo "   Les cotes historiques ont été récupérées et organisées"
         echo "   dans le dossier data/odds/ selon la structure définie."
         echo ""
-        echo "🚀 Prochaine étape: Analyser les données dans data/odds/" 
+        echo "🚀 Prochaine étape: Analyser les données dans data/odds/"
