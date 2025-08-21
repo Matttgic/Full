@@ -1,0 +1,947 @@
+2025-08-21 16:13:18,865 - INFO - ✅ Clé API récupérée.
+2025-08-21 16:13:18,865 - INFO - 🚀 === DÉBUT DE LA COLLECTE DES COTES ===
+2025-08-21 16:13:18,865 - INFO - Fenêtre de temps: 2024-08-21 à 2025-08-21
+2025-08-21 16:13:18,865 - INFO - --- Collecte des cotes pour la ligue: SPA2 ---
+2025-08-21 16:13:18,875 - INFO - [SPA2] 513 matchs chargés, 468 dans la fenêtre de collecte.
+2025-08-21 16:13:18,930 - INFO - [SPA2] 13 matchs ont déjà des cotes.
+2025-08-21 16:13:18,931 - INFO - [SPA2] 466 nouveaux matchs à traiter.
+2025-08-21 16:13:18,932 - INFO - [SPA2] Traitement du match 1217519
+2025-08-21 16:13:18,933 - INFO - 🔍 Appel API pour les cotes du match 1217519
+2025-08-21 16:13:20,867 - INFO - [SPA2] Traitement du match 1217518
+2025-08-21 16:13:20,867 - INFO - 🔍 Appel API pour les cotes du match 1217518
+2025-08-21 16:13:22,876 - INFO - [SPA2] Traitement du match 1217520
+2025-08-21 16:13:22,877 - INFO - 🔍 Appel API pour les cotes du match 1217520
+2025-08-21 16:13:24,811 - INFO - [SPA2] Traitement du match 1217513
+2025-08-21 16:13:24,811 - INFO - 🔍 Appel API pour les cotes du match 1217513
+2025-08-21 16:13:26,859 - INFO - [SPA2] Traitement du match 1217517
+2025-08-21 16:13:26,860 - INFO - 🔍 Appel API pour les cotes du match 1217517
+2025-08-21 16:13:28,837 - INFO - [SPA2] Traitement du match 1217515
+2025-08-21 16:13:28,837 - INFO - 🔍 Appel API pour les cotes du match 1217515
+2025-08-21 16:13:30,749 - INFO - [SPA2] Traitement du match 1217514
+2025-08-21 16:13:30,750 - INFO - 🔍 Appel API pour les cotes du match 1217514
+2025-08-21 16:13:32,720 - INFO - [SPA2] Traitement du match 1217510
+2025-08-21 16:13:32,721 - INFO - 🔍 Appel API pour les cotes du match 1217510
+2025-08-21 16:13:34,969 - INFO - [SPA2] Traitement du match 1217512
+2025-08-21 16:13:34,970 - INFO - 🔍 Appel API pour les cotes du match 1217512
+2025-08-21 16:13:36,864 - INFO - [SPA2] Traitement du match 1217516
+2025-08-21 16:13:36,864 - INFO - 🔍 Appel API pour les cotes du match 1217516
+2025-08-21 16:13:38,836 - INFO - [SPA2] Traitement du match 1217511
+2025-08-21 16:13:38,837 - INFO - 🔍 Appel API pour les cotes du match 1217511
+2025-08-21 16:13:40,757 - INFO - [SPA2] Traitement du match 1217526
+2025-08-21 16:13:40,758 - INFO - 🔍 Appel API pour les cotes du match 1217526
+2025-08-21 16:13:42,863 - INFO - [SPA2] Traitement du match 1217528
+2025-08-21 16:13:42,864 - INFO - 🔍 Appel API pour les cotes du match 1217528
+2025-08-21 16:13:44,797 - INFO - [SPA2] Traitement du match 1217521
+2025-08-21 16:13:44,797 - INFO - 🔍 Appel API pour les cotes du match 1217521
+2025-08-21 16:13:46,694 - INFO - [SPA2] Traitement du match 1217523
+2025-08-21 16:13:46,695 - INFO - 🔍 Appel API pour les cotes du match 1217523
+2025-08-21 16:13:48,607 - INFO - [SPA2] Traitement du match 1217529
+2025-08-21 16:13:48,608 - INFO - 🔍 Appel API pour les cotes du match 1217529
+2025-08-21 16:13:51,772 - INFO - [SPA2] Traitement du match 1217524
+2025-08-21 16:13:51,773 - INFO - 🔍 Appel API pour les cotes du match 1217524
+2025-08-21 16:13:53,712 - INFO - [SPA2] Traitement du match 1217522
+2025-08-21 16:13:53,712 - INFO - 🔍 Appel API pour les cotes du match 1217522
+2025-08-21 16:13:55,732 - INFO - [SPA2] Traitement du match 1217527
+2025-08-21 16:13:55,733 - INFO - 🔍 Appel API pour les cotes du match 1217527
+2025-08-21 16:13:57,669 - INFO - [SPA2] Traitement du match 1217530
+2025-08-21 16:13:57,670 - INFO - 🔍 Appel API pour les cotes du match 1217530
+2025-08-21 16:13:59,608 - INFO - [SPA2] Traitement du match 1217525
+2025-08-21 16:13:59,608 - INFO - 🔍 Appel API pour les cotes du match 1217525
+2025-08-21 16:14:01,522 - INFO - [SPA2] Traitement du match 1217531
+2025-08-21 16:14:01,523 - INFO - 🔍 Appel API pour les cotes du match 1217531
+2025-08-21 16:14:03,681 - INFO - [SPA2] Traitement du match 1217542
+2025-08-21 16:14:03,681 - INFO - 🔍 Appel API pour les cotes du match 1217542
+2025-08-21 16:14:05,675 - INFO - [SPA2] Traitement du match 1217537
+2025-08-21 16:14:05,676 - INFO - 🔍 Appel API pour les cotes du match 1217537
+2025-08-21 16:14:07,591 - INFO - [SPA2] Traitement du match 1217534
+2025-08-21 16:14:07,591 - INFO - 🔍 Appel API pour les cotes du match 1217534
+2025-08-21 16:14:09,604 - INFO - [SPA2] Traitement du match 1217541
+2025-08-21 16:14:09,604 - INFO - 🔍 Appel API pour les cotes du match 1217541
+2025-08-21 16:14:11,553 - INFO - [SPA2] Traitement du match 1217539
+2025-08-21 16:14:11,553 - INFO - 🔍 Appel API pour les cotes du match 1217539
+2025-08-21 16:14:13,470 - INFO - [SPA2] Traitement du match 1217540
+2025-08-21 16:14:13,471 - INFO - 🔍 Appel API pour les cotes du match 1217540
+2025-08-21 16:14:15,369 - INFO - [SPA2] Traitement du match 1217536
+2025-08-21 16:14:15,370 - INFO - 🔍 Appel API pour les cotes du match 1217536
+2025-08-21 16:14:17,303 - INFO - [SPA2] Traitement du match 1217535
+2025-08-21 16:14:17,304 - INFO - 🔍 Appel API pour les cotes du match 1217535
+2025-08-21 16:14:19,251 - INFO - [SPA2] Traitement du match 1217533
+2025-08-21 16:14:19,251 - INFO - 🔍 Appel API pour les cotes du match 1217533
+2025-08-21 16:14:21,253 - INFO - [SPA2] Traitement du match 1217532
+2025-08-21 16:14:21,254 - INFO - 🔍 Appel API pour les cotes du match 1217532
+2025-08-21 16:14:23,176 - INFO - [SPA2] Traitement du match 1217538
+2025-08-21 16:14:23,176 - INFO - 🔍 Appel API pour les cotes du match 1217538
+2025-08-21 16:14:25,102 - INFO - [SPA2] Traitement du match 1217546
+2025-08-21 16:14:25,103 - INFO - 🔍 Appel API pour les cotes du match 1217546
+2025-08-21 16:14:27,044 - INFO - [SPA2] Traitement du match 1217553
+2025-08-21 16:14:27,045 - INFO - 🔍 Appel API pour les cotes du match 1217553
+2025-08-21 16:14:28,982 - INFO - [SPA2] Traitement du match 1217549
+2025-08-21 16:14:28,983 - INFO - 🔍 Appel API pour les cotes du match 1217549
+2025-08-21 16:14:30,939 - INFO - [SPA2] Traitement du match 1217547
+2025-08-21 16:14:30,939 - INFO - 🔍 Appel API pour les cotes du match 1217547
+2025-08-21 16:14:32,855 - INFO - [SPA2] Traitement du match 1217552
+2025-08-21 16:14:32,856 - INFO - 🔍 Appel API pour les cotes du match 1217552
+2025-08-21 16:14:34,771 - INFO - [SPA2] Traitement du match 1217545
+2025-08-21 16:14:34,772 - INFO - 🔍 Appel API pour les cotes du match 1217545
+2025-08-21 16:14:36,693 - INFO - [SPA2] Traitement du match 1217548
+2025-08-21 16:14:36,694 - INFO - 🔍 Appel API pour les cotes du match 1217548
+2025-08-21 16:14:38,628 - INFO - [SPA2] Traitement du match 1217544
+2025-08-21 16:14:38,628 - INFO - 🔍 Appel API pour les cotes du match 1217544
+2025-08-21 16:14:40,556 - INFO - [SPA2] Traitement du match 1217551
+2025-08-21 16:14:40,557 - INFO - 🔍 Appel API pour les cotes du match 1217551
+2025-08-21 16:14:42,492 - INFO - [SPA2] Traitement du match 1217550
+2025-08-21 16:14:42,492 - INFO - 🔍 Appel API pour les cotes du match 1217550
+2025-08-21 16:14:44,419 - INFO - [SPA2] Traitement du match 1217543
+2025-08-21 16:14:44,419 - INFO - 🔍 Appel API pour les cotes du match 1217543
+2025-08-21 16:14:46,116 - INFO - [SPA2] Traitement du match 1217558
+2025-08-21 16:14:46,116 - INFO - 🔍 Appel API pour les cotes du match 1217558
+2025-08-21 16:14:48,035 - INFO - [SPA2] Traitement du match 1217563
+2025-08-21 16:14:48,035 - INFO - 🔍 Appel API pour les cotes du match 1217563
+2025-08-21 16:14:49,941 - INFO - [SPA2] Traitement du match 1217557
+2025-08-21 16:14:49,941 - INFO - 🔍 Appel API pour les cotes du match 1217557
+2025-08-21 16:14:51,989 - INFO - [SPA2] Traitement du match 1217559
+2025-08-21 16:14:51,989 - INFO - 🔍 Appel API pour les cotes du match 1217559
+2025-08-21 16:14:53,886 - INFO - [SPA2] Traitement du match 1217560
+2025-08-21 16:14:53,887 - INFO - 🔍 Appel API pour les cotes du match 1217560
+2025-08-21 16:14:55,789 - INFO - [SPA2] Traitement du match 1217564
+2025-08-21 16:14:55,789 - INFO - 🔍 Appel API pour les cotes du match 1217564
+2025-08-21 16:14:57,464 - INFO - [SPA2] Traitement du match 1217555
+2025-08-21 16:14:57,465 - INFO - 🔍 Appel API pour les cotes du match 1217555
+2025-08-21 16:14:59,315 - INFO - [SPA2] Traitement du match 1217561
+2025-08-21 16:14:59,315 - INFO - 🔍 Appel API pour les cotes du match 1217561
+2025-08-21 16:15:01,224 - INFO - [SPA2] Traitement du match 1217556
+2025-08-21 16:15:01,225 - INFO - 🔍 Appel API pour les cotes du match 1217556
+2025-08-21 16:15:03,167 - INFO - [SPA2] Traitement du match 1217554
+2025-08-21 16:15:03,167 - INFO - 🔍 Appel API pour les cotes du match 1217554
+2025-08-21 16:15:05,143 - INFO - [SPA2] Traitement du match 1217562
+2025-08-21 16:15:05,143 - INFO - 🔍 Appel API pour les cotes du match 1217562
+2025-08-21 16:15:13,900 - INFO - [SPA2] Traitement du match 1217565
+2025-08-21 16:15:13,900 - INFO - 🔍 Appel API pour les cotes du match 1217565
+2025-08-21 16:15:15,833 - INFO - [SPA2] Traitement du match 1217574
+2025-08-21 16:15:15,834 - INFO - 🔍 Appel API pour les cotes du match 1217574
+2025-08-21 16:15:17,771 - INFO - [SPA2] Traitement du match 1217570
+2025-08-21 16:15:17,772 - INFO - 🔍 Appel API pour les cotes du match 1217570
+2025-08-21 16:15:19,702 - INFO - [SPA2] Traitement du match 1217575
+2025-08-21 16:15:19,702 - INFO - 🔍 Appel API pour les cotes du match 1217575
+2025-08-21 16:15:21,645 - INFO - [SPA2] Traitement du match 1217567
+2025-08-21 16:15:21,645 - INFO - 🔍 Appel API pour les cotes du match 1217567
+2025-08-21 16:15:23,570 - INFO - [SPA2] Traitement du match 1217569
+2025-08-21 16:15:23,570 - INFO - 🔍 Appel API pour les cotes du match 1217569
+2025-08-21 16:15:25,483 - INFO - [SPA2] Traitement du match 1217573
+2025-08-21 16:15:25,484 - INFO - 🔍 Appel API pour les cotes du match 1217573
+2025-08-21 16:15:27,396 - INFO - [SPA2] Traitement du match 1217566
+2025-08-21 16:15:27,397 - INFO - 🔍 Appel API pour les cotes du match 1217566
+2025-08-21 16:15:29,316 - INFO - [SPA2] Traitement du match 1217568
+2025-08-21 16:15:29,316 - INFO - 🔍 Appel API pour les cotes du match 1217568
+2025-08-21 16:15:31,278 - INFO - [SPA2] Traitement du match 1217571
+2025-08-21 16:15:31,279 - INFO - 🔍 Appel API pour les cotes du match 1217571
+2025-08-21 16:15:32,965 - INFO - [SPA2] Traitement du match 1217572
+2025-08-21 16:15:32,966 - INFO - 🔍 Appel API pour les cotes du match 1217572
+2025-08-21 16:15:34,858 - INFO - [SPA2] Traitement du match 1217581
+2025-08-21 16:15:34,859 - INFO - 🔍 Appel API pour les cotes du match 1217581
+2025-08-21 16:15:36,532 - INFO - [SPA2] Traitement du match 1217584
+2025-08-21 16:15:36,533 - INFO - 🔍 Appel API pour les cotes du match 1217584
+2025-08-21 16:15:38,474 - INFO - [SPA2] Traitement du match 1217579
+2025-08-21 16:15:38,475 - INFO - 🔍 Appel API pour les cotes du match 1217579
+2025-08-21 16:15:40,186 - INFO - [SPA2] Traitement du match 1217585
+2025-08-21 16:15:40,186 - INFO - 🔍 Appel API pour les cotes du match 1217585
+2025-08-21 16:15:42,133 - INFO - [SPA2] Traitement du match 1217577
+2025-08-21 16:15:42,133 - INFO - 🔍 Appel API pour les cotes du match 1217577
+2025-08-21 16:15:43,855 - INFO - [SPA2] Traitement du match 1217586
+2025-08-21 16:15:43,856 - INFO - 🔍 Appel API pour les cotes du match 1217586
+2025-08-21 16:15:45,575 - INFO - [SPA2] Traitement du match 1217582
+2025-08-21 16:15:45,575 - INFO - 🔍 Appel API pour les cotes du match 1217582
+2025-08-21 16:15:47,529 - INFO - [SPA2] Traitement du match 1217576
+2025-08-21 16:15:47,529 - INFO - 🔍 Appel API pour les cotes du match 1217576
+2025-08-21 16:15:49,501 - INFO - [SPA2] Traitement du match 1217583
+2025-08-21 16:15:49,501 - INFO - 🔍 Appel API pour les cotes du match 1217583
+2025-08-21 16:15:51,235 - INFO - [SPA2] Traitement du match 1217578
+2025-08-21 16:15:51,236 - INFO - 🔍 Appel API pour les cotes du match 1217578
+2025-08-21 16:15:53,311 - INFO - [SPA2] Traitement du match 1217580
+2025-08-21 16:15:53,312 - INFO - 🔍 Appel API pour les cotes du match 1217580
+2025-08-21 16:15:55,241 - INFO - [SPA2] Traitement du match 1217591
+2025-08-21 16:15:55,241 - INFO - 🔍 Appel API pour les cotes du match 1217591
+2025-08-21 16:15:57,151 - INFO - [SPA2] Traitement du match 1217588
+2025-08-21 16:15:57,151 - INFO - 🔍 Appel API pour les cotes du match 1217588
+2025-08-21 16:15:59,078 - INFO - [SPA2] Traitement du match 1217590
+2025-08-21 16:15:59,078 - INFO - 🔍 Appel API pour les cotes du match 1217590
+2025-08-21 16:16:00,762 - INFO - [SPA2] Traitement du match 1217589
+2025-08-21 16:16:00,762 - INFO - 🔍 Appel API pour les cotes du match 1217589
+2025-08-21 16:16:02,663 - INFO - [SPA2] Traitement du match 1217592
+2025-08-21 16:16:02,664 - INFO - 🔍 Appel API pour les cotes du match 1217592
+2025-08-21 16:16:04,619 - INFO - [SPA2] Traitement du match 1217593
+2025-08-21 16:16:04,619 - INFO - 🔍 Appel API pour les cotes du match 1217593
+2025-08-21 16:16:06,578 - INFO - [SPA2] Traitement du match 1217597
+2025-08-21 16:16:06,579 - INFO - 🔍 Appel API pour les cotes du match 1217597
+2025-08-21 16:16:08,548 - INFO - [SPA2] Traitement du match 1217595
+2025-08-21 16:16:08,548 - INFO - 🔍 Appel API pour les cotes du match 1217595
+2025-08-21 16:16:10,474 - INFO - [SPA2] Traitement du match 1217587
+2025-08-21 16:16:10,475 - INFO - 🔍 Appel API pour les cotes du match 1217587
+2025-08-21 16:16:12,160 - INFO - [SPA2] Traitement du match 1217596
+2025-08-21 16:16:12,160 - INFO - 🔍 Appel API pour les cotes du match 1217596
+2025-08-21 16:16:13,884 - INFO - [SPA2] Traitement du match 1217594
+2025-08-21 16:16:13,885 - INFO - 🔍 Appel API pour les cotes du match 1217594
+2025-08-21 16:16:15,789 - INFO - [SPA2] Traitement du match 1217607
+2025-08-21 16:16:15,789 - INFO - 🔍 Appel API pour les cotes du match 1217607
+2025-08-21 16:16:17,701 - INFO - [SPA2] Traitement du match 1217601
+2025-08-21 16:16:17,702 - INFO - 🔍 Appel API pour les cotes du match 1217601
+2025-08-21 16:16:19,623 - INFO - [SPA2] Traitement du match 1217608
+2025-08-21 16:16:19,624 - INFO - 🔍 Appel API pour les cotes du match 1217608
+2025-08-21 16:16:21,528 - INFO - [SPA2] Traitement du match 1217600
+2025-08-21 16:16:21,528 - INFO - 🔍 Appel API pour les cotes du match 1217600
+2025-08-21 16:16:23,510 - INFO - [SPA2] Traitement du match 1217605
+2025-08-21 16:16:23,511 - INFO - 🔍 Appel API pour les cotes du match 1217605
+2025-08-21 16:16:25,412 - INFO - [SPA2] Traitement du match 1217604
+2025-08-21 16:16:25,413 - INFO - 🔍 Appel API pour les cotes du match 1217604
+2025-08-21 16:16:27,360 - INFO - [SPA2] Traitement du match 1217602
+2025-08-21 16:16:27,360 - INFO - 🔍 Appel API pour les cotes du match 1217602
+2025-08-21 16:16:29,657 - INFO - [SPA2] Traitement du match 1217606
+2025-08-21 16:16:29,658 - INFO - 🔍 Appel API pour les cotes du match 1217606
+2025-08-21 16:16:31,609 - INFO - [SPA2] Traitement du match 1217599
+2025-08-21 16:16:31,610 - INFO - 🔍 Appel API pour les cotes du match 1217599
+2025-08-21 16:16:33,325 - INFO - [SPA2] Traitement du match 1217603
+2025-08-21 16:16:33,325 - INFO - 🔍 Appel API pour les cotes du match 1217603
+2025-08-21 16:16:35,310 - INFO - [SPA2] Traitement du match 1217598
+2025-08-21 16:16:35,310 - INFO - 🔍 Appel API pour les cotes du match 1217598
+2025-08-21 16:16:37,239 - INFO - [SPA2] Traitement du match 1217619
+2025-08-21 16:16:37,240 - INFO - 🔍 Appel API pour les cotes du match 1217619
+2025-08-21 16:16:39,157 - INFO - [SPA2] Traitement du match 1217611
+2025-08-21 16:16:39,158 - INFO - 🔍 Appel API pour les cotes du match 1217611
+2025-08-21 16:16:41,115 - INFO - [SPA2] Traitement du match 1217610
+2025-08-21 16:16:41,115 - INFO - 🔍 Appel API pour les cotes du match 1217610
+2025-08-21 16:16:43,191 - INFO - [SPA2] Traitement du match 1217614
+2025-08-21 16:16:43,191 - INFO - 🔍 Appel API pour les cotes du match 1217614
+2025-08-21 16:16:45,116 - INFO - [SPA2] Traitement du match 1217612
+2025-08-21 16:16:45,117 - INFO - 🔍 Appel API pour les cotes du match 1217612
+2025-08-21 16:16:47,032 - INFO - [SPA2] Traitement du match 1217615
+2025-08-21 16:16:47,032 - INFO - 🔍 Appel API pour les cotes du match 1217615
+2025-08-21 16:16:48,711 - INFO - [SPA2] Traitement du match 1217617
+2025-08-21 16:16:48,711 - INFO - 🔍 Appel API pour les cotes du match 1217617
+2025-08-21 16:16:50,613 - INFO - [SPA2] Traitement du match 1217618
+2025-08-21 16:16:50,613 - INFO - 🔍 Appel API pour les cotes du match 1217618
+2025-08-21 16:16:52,549 - INFO - [SPA2] Traitement du match 1217609
+2025-08-21 16:16:52,549 - INFO - 🔍 Appel API pour les cotes du match 1217609
+2025-08-21 16:16:54,485 - INFO - [SPA2] Traitement du match 1217613
+2025-08-21 16:16:54,486 - INFO - 🔍 Appel API pour les cotes du match 1217613
+2025-08-21 16:16:56,396 - INFO - [SPA2] Traitement du match 1217616
+2025-08-21 16:16:56,397 - INFO - 🔍 Appel API pour les cotes du match 1217616
+2025-08-21 16:16:58,301 - INFO - [SPA2] Traitement du match 1217629
+2025-08-21 16:16:58,301 - INFO - 🔍 Appel API pour les cotes du match 1217629
+2025-08-21 16:17:00,232 - INFO - [SPA2] Traitement du match 1217622
+2025-08-21 16:17:00,232 - INFO - 🔍 Appel API pour les cotes du match 1217622
+2025-08-21 16:17:02,155 - INFO - [SPA2] Traitement du match 1217628
+2025-08-21 16:17:02,156 - INFO - 🔍 Appel API pour les cotes du match 1217628
+2025-08-21 16:17:04,069 - INFO - [SPA2] Traitement du match 1217621
+2025-08-21 16:17:04,069 - INFO - 🔍 Appel API pour les cotes du match 1217621
+2025-08-21 16:17:05,980 - INFO - [SPA2] Traitement du match 1217626
+2025-08-21 16:17:05,981 - INFO - 🔍 Appel API pour les cotes du match 1217626
+2025-08-21 16:17:07,911 - INFO - [SPA2] Traitement du match 1217620
+2025-08-21 16:17:07,912 - INFO - 🔍 Appel API pour les cotes du match 1217620
+2025-08-21 16:17:09,813 - INFO - [SPA2] Traitement du match 1217625
+2025-08-21 16:17:09,813 - INFO - 🔍 Appel API pour les cotes du match 1217625
+2025-08-21 16:17:11,500 - INFO - [SPA2] Traitement du match 1217623
+2025-08-21 16:17:11,501 - INFO - 🔍 Appel API pour les cotes du match 1217623
+2025-08-21 16:17:13,450 - INFO - [SPA2] Traitement du match 1217630
+2025-08-21 16:17:13,450 - INFO - 🔍 Appel API pour les cotes du match 1217630
+2025-08-21 16:17:15,357 - INFO - [SPA2] Traitement du match 1217627
+2025-08-21 16:17:15,357 - INFO - 🔍 Appel API pour les cotes du match 1217627
+2025-08-21 16:17:17,313 - INFO - [SPA2] Traitement du match 1217624
+2025-08-21 16:17:17,314 - INFO - 🔍 Appel API pour les cotes du match 1217624
+2025-08-21 16:17:19,271 - INFO - [SPA2] Traitement du match 1217632
+2025-08-21 16:17:19,271 - INFO - 🔍 Appel API pour les cotes du match 1217632
+2025-08-21 16:17:21,165 - INFO - [SPA2] Traitement du match 1217640
+2025-08-21 16:17:21,166 - INFO - 🔍 Appel API pour les cotes du match 1217640
+2025-08-21 16:17:23,081 - INFO - [SPA2] Traitement du match 1217634
+2025-08-21 16:17:23,082 - INFO - 🔍 Appel API pour les cotes du match 1217634
+2025-08-21 16:17:25,097 - INFO - [SPA2] Traitement du match 1217637
+2025-08-21 16:17:25,098 - INFO - 🔍 Appel API pour les cotes du match 1217637
+2025-08-21 16:17:27,031 - INFO - [SPA2] Traitement du match 1217639
+2025-08-21 16:17:27,031 - INFO - 🔍 Appel API pour les cotes du match 1217639
+2025-08-21 16:17:28,708 - INFO - [SPA2] Traitement du match 1217641
+2025-08-21 16:17:28,709 - INFO - 🔍 Appel API pour les cotes du match 1217641
+2025-08-21 16:17:30,655 - INFO - [SPA2] Traitement du match 1217638
+2025-08-21 16:17:30,656 - INFO - 🔍 Appel API pour les cotes du match 1217638
+2025-08-21 16:17:32,331 - INFO - [SPA2] Traitement du match 1217647
+2025-08-21 16:17:32,331 - INFO - 🔍 Appel API pour les cotes du match 1217647
+2025-08-21 16:17:34,013 - INFO - [SPA2] Traitement du match 1217646
+2025-08-21 16:17:34,013 - INFO - 🔍 Appel API pour les cotes du match 1217646
+2025-08-21 16:17:35,927 - INFO - [SPA2] Traitement du match 1217649
+2025-08-21 16:17:35,927 - INFO - 🔍 Appel API pour les cotes du match 1217649
+2025-08-21 16:17:37,827 - INFO - [SPA2] Traitement du match 1217648
+2025-08-21 16:17:37,827 - INFO - 🔍 Appel API pour les cotes du match 1217648
+2025-08-21 16:17:39,754 - INFO - [SPA2] Traitement du match 1217651
+2025-08-21 16:17:39,755 - INFO - 🔍 Appel API pour les cotes du match 1217651
+2025-08-21 16:17:41,687 - INFO - [SPA2] Traitement du match 1217650
+2025-08-21 16:17:41,688 - INFO - 🔍 Appel API pour les cotes du match 1217650
+2025-08-21 16:17:43,595 - INFO - [SPA2] Traitement du match 1217645
+2025-08-21 16:17:43,596 - INFO - 🔍 Appel API pour les cotes du match 1217645
+2025-08-21 16:17:45,496 - INFO - [SPA2] Traitement du match 1217643
+2025-08-21 16:17:45,497 - INFO - 🔍 Appel API pour les cotes du match 1217643
+2025-08-21 16:17:47,433 - INFO - [SPA2] Traitement du match 1217642
+2025-08-21 16:17:47,434 - INFO - 🔍 Appel API pour les cotes du match 1217642
+2025-08-21 16:17:49,327 - INFO - [SPA2] Traitement du match 1217644
+2025-08-21 16:17:49,328 - INFO - 🔍 Appel API pour les cotes du match 1217644
+2025-08-21 16:17:51,251 - INFO - [SPA2] Traitement du match 1217657
+2025-08-21 16:17:51,252 - INFO - 🔍 Appel API pour les cotes du match 1217657
+2025-08-21 16:17:53,184 - INFO - [SPA2] Traitement du match 1217659
+2025-08-21 16:17:53,185 - INFO - 🔍 Appel API pour les cotes du match 1217659
+2025-08-21 16:17:55,127 - INFO - [SPA2] Traitement du match 1217656
+2025-08-21 16:17:55,127 - INFO - 🔍 Appel API pour les cotes du match 1217656
+2025-08-21 16:17:56,788 - INFO - [SPA2] Traitement du match 1217662
+2025-08-21 16:17:56,789 - INFO - 🔍 Appel API pour les cotes du match 1217662
+2025-08-21 16:17:58,709 - INFO - [SPA2] Traitement du match 1217661
+2025-08-21 16:17:58,710 - INFO - 🔍 Appel API pour les cotes du match 1217661
+2025-08-21 16:18:00,709 - INFO - [SPA2] Traitement du match 1217660
+2025-08-21 16:18:00,710 - INFO - 🔍 Appel API pour les cotes du match 1217660
+2025-08-21 16:18:02,735 - INFO - [SPA2] Traitement du match 1217658
+2025-08-21 16:18:02,736 - INFO - 🔍 Appel API pour les cotes du match 1217658
+2025-08-21 16:18:04,678 - INFO - [SPA2] Traitement du match 1217654
+2025-08-21 16:18:04,678 - INFO - 🔍 Appel API pour les cotes du match 1217654
+2025-08-21 16:18:06,579 - INFO - [SPA2] Traitement du match 1217653
+2025-08-21 16:18:06,579 - INFO - 🔍 Appel API pour les cotes du match 1217653
+2025-08-21 16:18:08,267 - INFO - [SPA2] Traitement du match 1217655
+2025-08-21 16:18:08,268 - INFO - 🔍 Appel API pour les cotes du match 1217655
+2025-08-21 16:18:10,207 - INFO - [SPA2] Traitement du match 1217663
+2025-08-21 16:18:10,207 - INFO - 🔍 Appel API pour les cotes du match 1217663
+2025-08-21 16:18:12,054 - INFO - [SPA2] Traitement du match 1217635
+2025-08-21 16:18:12,055 - INFO - 🔍 Appel API pour les cotes du match 1217635
+2025-08-21 16:18:13,721 - INFO - [SPA2] Traitement du match 1217669
+2025-08-21 16:18:13,722 - INFO - 🔍 Appel API pour les cotes du match 1217669
+2025-08-21 16:18:15,647 - INFO - [SPA2] Traitement du match 1217671
+2025-08-21 16:18:15,648 - INFO - 🔍 Appel API pour les cotes du match 1217671
+2025-08-21 16:18:17,567 - INFO - [SPA2] Traitement du match 1217672
+2025-08-21 16:18:17,567 - INFO - 🔍 Appel API pour les cotes du match 1217672
+2025-08-21 16:18:19,492 - INFO - [SPA2] Traitement du match 1217665
+2025-08-21 16:18:19,492 - INFO - 🔍 Appel API pour les cotes du match 1217665
+2025-08-21 16:18:21,171 - INFO - [SPA2] Traitement du match 1217666
+2025-08-21 16:18:21,172 - INFO - 🔍 Appel API pour les cotes du match 1217666
+2025-08-21 16:18:23,079 - INFO - [SPA2] Traitement du match 1217670
+2025-08-21 16:18:23,080 - INFO - 🔍 Appel API pour les cotes du match 1217670
+2025-08-21 16:18:24,996 - INFO - [SPA2] Traitement du match 1217674
+2025-08-21 16:18:24,996 - INFO - 🔍 Appel API pour les cotes du match 1217674
+2025-08-21 16:18:26,709 - INFO - [SPA2] Traitement du match 1217667
+2025-08-21 16:18:26,710 - INFO - 🔍 Appel API pour les cotes du match 1217667
+2025-08-21 16:18:28,686 - INFO - [SPA2] Traitement du match 1217664
+2025-08-21 16:18:28,686 - INFO - 🔍 Appel API pour les cotes du match 1217664
+2025-08-21 16:18:30,656 - INFO - [SPA2] Traitement du match 1217673
+2025-08-21 16:18:30,657 - INFO - 🔍 Appel API pour les cotes du match 1217673
+2025-08-21 16:18:32,579 - INFO - [SPA2] Traitement du match 1217668
+2025-08-21 16:18:32,579 - INFO - 🔍 Appel API pour les cotes du match 1217668
+2025-08-21 16:18:34,486 - INFO - [SPA2] Traitement du match 1217631
+2025-08-21 16:18:34,486 - INFO - 🔍 Appel API pour les cotes du match 1217631
+2025-08-21 16:18:36,466 - INFO - [SPA2] Traitement du match 1217636
+2025-08-21 16:18:36,466 - INFO - 🔍 Appel API pour les cotes du match 1217636
+2025-08-21 16:18:38,421 - INFO - [SPA2] Traitement du match 1217633
+2025-08-21 16:18:38,422 - INFO - 🔍 Appel API pour les cotes du match 1217633
+2025-08-21 16:18:40,378 - INFO - [SPA2] Traitement du match 1217684
+2025-08-21 16:18:40,378 - INFO - 🔍 Appel API pour les cotes du match 1217684
+2025-08-21 16:18:42,372 - INFO - [SPA2] Traitement du match 1217675
+2025-08-21 16:18:42,372 - INFO - 🔍 Appel API pour les cotes du match 1217675
+2025-08-21 16:18:44,427 - INFO - [SPA2] Traitement du match 1217679
+2025-08-21 16:18:44,428 - INFO - 🔍 Appel API pour les cotes du match 1217679
+2025-08-21 16:18:46,431 - INFO - [SPA2] Traitement du match 1217685
+2025-08-21 16:18:46,431 - INFO - 🔍 Appel API pour les cotes du match 1217685
+2025-08-21 16:18:48,368 - INFO - [SPA2] Traitement du match 1217676
+2025-08-21 16:18:48,369 - INFO - 🔍 Appel API pour les cotes du match 1217676
+2025-08-21 16:18:50,303 - INFO - [SPA2] Traitement du match 1217683
+2025-08-21 16:18:50,303 - INFO - 🔍 Appel API pour les cotes du match 1217683
+2025-08-21 16:18:52,255 - INFO - [SPA2] Traitement du match 1217678
+2025-08-21 16:18:52,256 - INFO - 🔍 Appel API pour les cotes du match 1217678
+2025-08-21 16:18:54,183 - INFO - [SPA2] Traitement du match 1217682
+2025-08-21 16:18:54,184 - INFO - 🔍 Appel API pour les cotes du match 1217682
+2025-08-21 16:18:56,131 - INFO - [SPA2] Traitement du match 1217677
+2025-08-21 16:18:56,132 - INFO - 🔍 Appel API pour les cotes du match 1217677
+2025-08-21 16:18:57,863 - INFO - [SPA2] Traitement du match 1217680
+2025-08-21 16:18:57,864 - INFO - 🔍 Appel API pour les cotes du match 1217680
+2025-08-21 16:18:59,777 - INFO - [SPA2] Traitement du match 1217681
+2025-08-21 16:18:59,777 - INFO - 🔍 Appel API pour les cotes du match 1217681
+2025-08-21 16:19:01,715 - INFO - [SPA2] Traitement du match 1217696
+2025-08-21 16:19:01,716 - INFO - 🔍 Appel API pour les cotes du match 1217696
+2025-08-21 16:19:03,656 - INFO - [SPA2] Traitement du match 1217694
+2025-08-21 16:19:03,657 - INFO - 🔍 Appel API pour les cotes du match 1217694
+2025-08-21 16:19:05,614 - INFO - [SPA2] Traitement du match 1217692
+2025-08-21 16:19:05,615 - INFO - 🔍 Appel API pour les cotes du match 1217692
+2025-08-21 16:19:07,312 - INFO - [SPA2] Traitement du match 1217690
+2025-08-21 16:19:07,313 - INFO - 🔍 Appel API pour les cotes du match 1217690
+2025-08-21 16:19:09,037 - INFO - [SPA2] Traitement du match 1217695
+2025-08-21 16:19:09,037 - INFO - 🔍 Appel API pour les cotes du match 1217695
+2025-08-21 16:19:11,169 - INFO - [SPA2] Traitement du match 1217689
+2025-08-21 16:19:11,170 - INFO - 🔍 Appel API pour les cotes du match 1217689
+2025-08-21 16:19:12,851 - INFO - [SPA2] Traitement du match 1217686
+2025-08-21 16:19:12,852 - INFO - 🔍 Appel API pour les cotes du match 1217686
+2025-08-21 16:19:14,526 - INFO - [SPA2] Traitement du match 1217691
+2025-08-21 16:19:14,527 - INFO - 🔍 Appel API pour les cotes du match 1217691
+2025-08-21 16:19:16,480 - INFO - [SPA2] Traitement du match 1217693
+2025-08-21 16:19:16,481 - INFO - 🔍 Appel API pour les cotes du match 1217693
+2025-08-21 16:19:18,390 - INFO - [SPA2] Traitement du match 1217687
+2025-08-21 16:19:18,390 - INFO - 🔍 Appel API pour les cotes du match 1217687
+2025-08-21 16:19:20,323 - INFO - [SPA2] Traitement du match 1217688
+2025-08-21 16:19:20,324 - INFO - 🔍 Appel API pour les cotes du match 1217688
+2025-08-21 16:19:22,067 - INFO - [SPA2] Traitement du match 1217697
+2025-08-21 16:19:22,068 - INFO - 🔍 Appel API pour les cotes du match 1217697
+2025-08-21 16:19:23,994 - INFO - [SPA2] Traitement du match 1217699
+2025-08-21 16:19:23,995 - INFO - 🔍 Appel API pour les cotes du match 1217699
+2025-08-21 16:19:25,673 - INFO - [SPA2] Traitement du match 1217702
+2025-08-21 16:19:25,673 - INFO - 🔍 Appel API pour les cotes du match 1217702
+2025-08-21 16:19:27,447 - INFO - [SPA2] Traitement du match 1217700
+2025-08-21 16:19:27,447 - INFO - 🔍 Appel API pour les cotes du match 1217700
+2025-08-21 16:19:29,370 - INFO - [SPA2] Traitement du match 1217704
+2025-08-21 16:19:29,371 - INFO - 🔍 Appel API pour les cotes du match 1217704
+2025-08-21 16:19:31,287 - INFO - [SPA2] Traitement du match 1217706
+2025-08-21 16:19:31,287 - INFO - 🔍 Appel API pour les cotes du match 1217706
+2025-08-21 16:19:33,234 - INFO - [SPA2] Traitement du match 1217701
+2025-08-21 16:19:33,235 - INFO - 🔍 Appel API pour les cotes du match 1217701
+2025-08-21 16:19:35,153 - INFO - [SPA2] Traitement du match 1217705
+2025-08-21 16:19:35,154 - INFO - 🔍 Appel API pour les cotes du match 1217705
+2025-08-21 16:19:37,070 - INFO - [SPA2] Traitement du match 1217698
+2025-08-21 16:19:37,070 - INFO - 🔍 Appel API pour les cotes du match 1217698
+2025-08-21 16:19:38,978 - INFO - [SPA2] Traitement du match 1217707
+2025-08-21 16:19:38,979 - INFO - 🔍 Appel API pour les cotes du match 1217707
+2025-08-21 16:19:40,915 - INFO - [SPA2] Traitement du match 1217708
+2025-08-21 16:19:40,915 - INFO - 🔍 Appel API pour les cotes du match 1217708
+2025-08-21 16:19:42,845 - INFO - [SPA2] Traitement du match 1217715
+2025-08-21 16:19:42,846 - INFO - 🔍 Appel API pour les cotes du match 1217715
+2025-08-21 16:19:44,788 - INFO - [SPA2] Traitement du match 1217709
+2025-08-21 16:19:44,789 - INFO - 🔍 Appel API pour les cotes du match 1217709
+2025-08-21 16:19:46,766 - INFO - [SPA2] Traitement du match 1217718
+2025-08-21 16:19:46,766 - INFO - 🔍 Appel API pour les cotes du match 1217718
+2025-08-21 16:19:48,693 - INFO - [SPA2] Traitement du match 1217713
+2025-08-21 16:19:48,693 - INFO - 🔍 Appel API pour les cotes du match 1217713
+2025-08-21 16:19:50,395 - INFO - [SPA2] Traitement du match 1217717
+2025-08-21 16:19:50,395 - INFO - 🔍 Appel API pour les cotes du match 1217717
+2025-08-21 16:19:52,462 - INFO - [SPA2] Traitement du match 1217712
+2025-08-21 16:19:52,463 - INFO - 🔍 Appel API pour les cotes du match 1217712
+2025-08-21 16:19:54,363 - INFO - [SPA2] Traitement du match 1217710
+2025-08-21 16:19:54,363 - INFO - 🔍 Appel API pour les cotes du match 1217710
+2025-08-21 16:19:56,278 - INFO - [SPA2] Traitement du match 1217714
+2025-08-21 16:19:56,278 - INFO - 🔍 Appel API pour les cotes du match 1217714
+2025-08-21 16:19:58,176 - INFO - [SPA2] Traitement du match 1217716
+2025-08-21 16:19:58,177 - INFO - 🔍 Appel API pour les cotes du match 1217716
+2025-08-21 16:20:00,126 - INFO - [SPA2] Traitement du match 1217711
+2025-08-21 16:20:00,126 - INFO - 🔍 Appel API pour les cotes du match 1217711
+2025-08-21 16:20:02,103 - INFO - [SPA2] Traitement du match 1217724
+2025-08-21 16:20:02,103 - INFO - 🔍 Appel API pour les cotes du match 1217724
+2025-08-21 16:20:04,043 - INFO - [SPA2] Traitement du match 1217723
+2025-08-21 16:20:04,043 - INFO - 🔍 Appel API pour les cotes du match 1217723
+2025-08-21 16:20:05,709 - INFO - [SPA2] Traitement du match 1217725
+2025-08-21 16:20:05,710 - INFO - 🔍 Appel API pour les cotes du match 1217725
+2025-08-21 16:20:07,635 - INFO - [SPA2] Traitement du match 1217727
+2025-08-21 16:20:07,635 - INFO - 🔍 Appel API pour les cotes du match 1217727
+2025-08-21 16:20:09,560 - INFO - [SPA2] Traitement du match 1217729
+2025-08-21 16:20:09,560 - INFO - 🔍 Appel API pour les cotes du match 1217729
+2025-08-21 16:20:11,458 - INFO - [SPA2] Traitement du match 1217720
+2025-08-21 16:20:11,458 - INFO - 🔍 Appel API pour les cotes du match 1217720
+2025-08-21 16:20:13,389 - INFO - [SPA2] Traitement du match 1217721
+2025-08-21 16:20:13,389 - INFO - 🔍 Appel API pour les cotes du match 1217721
+2025-08-21 16:20:15,306 - INFO - [SPA2] Traitement du match 1217719
+2025-08-21 16:20:15,307 - INFO - 🔍 Appel API pour les cotes du match 1217719
+2025-08-21 16:20:17,283 - INFO - [SPA2] Traitement du match 1217726
+2025-08-21 16:20:17,283 - INFO - 🔍 Appel API pour les cotes du match 1217726
+2025-08-21 16:20:19,177 - INFO - [SPA2] Traitement du match 1217728
+2025-08-21 16:20:19,178 - INFO - 🔍 Appel API pour les cotes du match 1217728
+2025-08-21 16:20:21,082 - INFO - [SPA2] Traitement du match 1217722
+2025-08-21 16:20:21,083 - INFO - 🔍 Appel API pour les cotes du match 1217722
+2025-08-21 16:20:23,179 - INFO - [SPA2] Traitement du match 1217652
+2025-08-21 16:20:23,180 - INFO - 🔍 Appel API pour les cotes du match 1217652
+2025-08-21 16:20:25,158 - INFO - [SPA2] Traitement du match 1217736
+2025-08-21 16:20:25,158 - INFO - 🔍 Appel API pour les cotes du match 1217736
+2025-08-21 16:20:27,460 - INFO - [SPA2] Traitement du match 1217734
+2025-08-21 16:20:27,461 - INFO - 🔍 Appel API pour les cotes du match 1217734
+2025-08-21 16:20:29,388 - INFO - [SPA2] Traitement du match 1217739
+2025-08-21 16:20:29,388 - INFO - 🔍 Appel API pour les cotes du match 1217739
+2025-08-21 16:20:31,340 - INFO - [SPA2] Traitement du match 1217733
+2025-08-21 16:20:31,341 - INFO - 🔍 Appel API pour les cotes du match 1217733
+2025-08-21 16:20:33,275 - INFO - [SPA2] Traitement du match 1217730
+2025-08-21 16:20:33,275 - INFO - 🔍 Appel API pour les cotes du match 1217730
+2025-08-21 16:20:35,235 - INFO - [SPA2] Traitement du match 1217738
+2025-08-21 16:20:35,235 - INFO - 🔍 Appel API pour les cotes du match 1217738
+2025-08-21 16:20:36,927 - INFO - [SPA2] Traitement du match 1217737
+2025-08-21 16:20:36,928 - INFO - 🔍 Appel API pour les cotes du match 1217737
+2025-08-21 16:20:38,866 - INFO - [SPA2] Traitement du match 1217735
+2025-08-21 16:20:38,866 - INFO - 🔍 Appel API pour les cotes du match 1217735
+2025-08-21 16:20:40,833 - INFO - [SPA2] Traitement du match 1217732
+2025-08-21 16:20:40,833 - INFO - 🔍 Appel API pour les cotes du match 1217732
+2025-08-21 16:20:42,774 - INFO - [SPA2] Traitement du match 1217731
+2025-08-21 16:20:42,774 - INFO - 🔍 Appel API pour les cotes du match 1217731
+2025-08-21 16:20:44,683 - INFO - [SPA2] Traitement du match 1217740
+2025-08-21 16:20:44,684 - INFO - 🔍 Appel API pour les cotes du match 1217740
+2025-08-21 16:20:46,627 - INFO - [SPA2] Traitement du match 1217743
+2025-08-21 16:20:46,627 - INFO - 🔍 Appel API pour les cotes du match 1217743
+2025-08-21 16:20:48,577 - INFO - [SPA2] Traitement du match 1217746
+2025-08-21 16:20:48,578 - INFO - 🔍 Appel API pour les cotes du match 1217746
+2025-08-21 16:20:50,493 - INFO - [SPA2] Traitement du match 1217745
+2025-08-21 16:20:50,494 - INFO - 🔍 Appel API pour les cotes du match 1217745
+2025-08-21 16:20:52,386 - INFO - [SPA2] Traitement du match 1217747
+2025-08-21 16:20:52,387 - INFO - 🔍 Appel API pour les cotes du match 1217747
+2025-08-21 16:20:54,320 - INFO - [SPA2] Traitement du match 1217749
+2025-08-21 16:20:54,321 - INFO - 🔍 Appel API pour les cotes du match 1217749
+2025-08-21 16:20:56,240 - INFO - [SPA2] Traitement du match 1217748
+2025-08-21 16:20:56,240 - INFO - 🔍 Appel API pour les cotes du match 1217748
+2025-08-21 16:20:58,184 - INFO - [SPA2] Traitement du match 1217742
+2025-08-21 16:20:58,185 - INFO - 🔍 Appel API pour les cotes du match 1217742
+2025-08-21 16:21:00,109 - INFO - [SPA2] Traitement du match 1217751
+2025-08-21 16:21:00,109 - INFO - 🔍 Appel API pour les cotes du match 1217751
+2025-08-21 16:21:02,006 - INFO - [SPA2] Traitement du match 1217741
+2025-08-21 16:21:02,006 - INFO - 🔍 Appel API pour les cotes du match 1217741
+2025-08-21 16:21:03,692 - INFO - [SPA2] Traitement du match 1217744
+2025-08-21 16:21:03,692 - INFO - 🔍 Appel API pour les cotes du match 1217744
+2025-08-21 16:21:05,619 - INFO - [SPA2] Traitement du match 1217750
+2025-08-21 16:21:05,620 - INFO - 🔍 Appel API pour les cotes du match 1217750
+2025-08-21 16:21:07,521 - INFO - [SPA2] Traitement du match 1217761
+2025-08-21 16:21:07,521 - INFO - 🔍 Appel API pour les cotes du match 1217761
+2025-08-21 16:21:09,634 - INFO - [SPA2] Traitement du match 1217754
+2025-08-21 16:21:09,634 - INFO - 🔍 Appel API pour les cotes du match 1217754
+2025-08-21 16:21:11,579 - INFO - [SPA2] Traitement du match 1217755
+2025-08-21 16:21:11,580 - INFO - 🔍 Appel API pour les cotes du match 1217755
+2025-08-21 16:21:13,344 - INFO - [SPA2] Traitement du match 1217759
+2025-08-21 16:21:13,345 - INFO - 🔍 Appel API pour les cotes du match 1217759
+2025-08-21 16:21:15,283 - INFO - [SPA2] Traitement du match 1217762
+2025-08-21 16:21:15,284 - INFO - 🔍 Appel API pour les cotes du match 1217762
+2025-08-21 16:21:17,241 - INFO - [SPA2] Traitement du match 1217757
+2025-08-21 16:21:17,241 - INFO - 🔍 Appel API pour les cotes du match 1217757
+2025-08-21 16:21:19,168 - INFO - [SPA2] Traitement du match 1217756
+2025-08-21 16:21:19,168 - INFO - 🔍 Appel API pour les cotes du match 1217756
+2025-08-21 16:21:21,091 - INFO - [SPA2] Traitement du match 1217760
+2025-08-21 16:21:21,091 - INFO - 🔍 Appel API pour les cotes du match 1217760
+2025-08-21 16:21:23,008 - INFO - [SPA2] Traitement du match 1217752
+2025-08-21 16:21:23,009 - INFO - 🔍 Appel API pour les cotes du match 1217752
+2025-08-21 16:21:24,950 - INFO - [SPA2] Traitement du match 1217753
+2025-08-21 16:21:24,951 - INFO - 🔍 Appel API pour les cotes du match 1217753
+2025-08-21 16:21:26,868 - INFO - [SPA2] Traitement du match 1217703
+2025-08-21 16:21:26,869 - INFO - 🔍 Appel API pour les cotes du match 1217703
+2025-08-21 16:21:28,930 - INFO - [SPA2] Traitement du match 1217766
+2025-08-21 16:21:28,930 - INFO - 🔍 Appel API pour les cotes du match 1217766
+2025-08-21 16:21:30,850 - INFO - [SPA2] Traitement du match 1217768
+2025-08-21 16:21:30,851 - INFO - 🔍 Appel API pour les cotes du match 1217768
+2025-08-21 16:21:32,777 - INFO - [SPA2] Traitement du match 1217771
+2025-08-21 16:21:32,777 - INFO - 🔍 Appel API pour les cotes du match 1217771
+2025-08-21 16:21:34,469 - INFO - [SPA2] Traitement du match 1217763
+2025-08-21 16:21:34,470 - INFO - 🔍 Appel API pour les cotes du match 1217763
+2025-08-21 16:21:36,380 - INFO - [SPA2] Traitement du match 1217773
+2025-08-21 16:21:36,381 - INFO - 🔍 Appel API pour les cotes du match 1217773
+2025-08-21 16:21:38,326 - INFO - [SPA2] Traitement du match 1217765
+2025-08-21 16:21:38,326 - INFO - 🔍 Appel API pour les cotes du match 1217765
+2025-08-21 16:21:40,240 - INFO - [SPA2] Traitement du match 1217770
+2025-08-21 16:21:40,240 - INFO - 🔍 Appel API pour les cotes du match 1217770
+2025-08-21 16:21:42,153 - INFO - [SPA2] Traitement du match 1217769
+2025-08-21 16:21:42,153 - INFO - 🔍 Appel API pour les cotes du match 1217769
+2025-08-21 16:21:44,127 - INFO - [SPA2] Traitement du match 1217764
+2025-08-21 16:21:44,128 - INFO - 🔍 Appel API pour les cotes du match 1217764
+2025-08-21 16:21:46,070 - INFO - [SPA2] Traitement du match 1217767
+2025-08-21 16:21:46,071 - INFO - 🔍 Appel API pour les cotes du match 1217767
+2025-08-21 16:21:48,000 - INFO - [SPA2] Traitement du match 1217772
+2025-08-21 16:21:48,001 - INFO - 🔍 Appel API pour les cotes du match 1217772
+2025-08-21 16:21:49,924 - INFO - [SPA2] Traitement du match 1217774
+2025-08-21 16:21:49,925 - INFO - 🔍 Appel API pour les cotes du match 1217774
+2025-08-21 16:21:51,843 - INFO - [SPA2] Traitement du match 1217784
+2025-08-21 16:21:51,843 - INFO - 🔍 Appel API pour les cotes du match 1217784
+2025-08-21 16:21:53,918 - INFO - [SPA2] Traitement du match 1217782
+2025-08-21 16:21:53,918 - INFO - 🔍 Appel API pour les cotes du match 1217782
+2025-08-21 16:21:55,839 - INFO - [SPA2] Traitement du match 1217781
+2025-08-21 16:21:55,839 - INFO - 🔍 Appel API pour les cotes du match 1217781
+2025-08-21 16:21:57,812 - INFO - [SPA2] Traitement du match 1217779
+2025-08-21 16:21:57,812 - INFO - 🔍 Appel API pour les cotes du match 1217779
+2025-08-21 16:21:59,727 - INFO - [SPA2] Traitement du match 1217780
+2025-08-21 16:21:59,727 - INFO - 🔍 Appel API pour les cotes du match 1217780
+2025-08-21 16:22:01,762 - INFO - [SPA2] Traitement du match 1217776
+2025-08-21 16:22:01,762 - INFO - 🔍 Appel API pour les cotes du match 1217776
+2025-08-21 16:22:03,730 - INFO - [SPA2] Traitement du match 1217778
+2025-08-21 16:22:03,730 - INFO - 🔍 Appel API pour les cotes du match 1217778
+2025-08-21 16:22:05,655 - INFO - [SPA2] Traitement du match 1217777
+2025-08-21 16:22:05,655 - INFO - 🔍 Appel API pour les cotes du match 1217777
+2025-08-21 16:22:07,437 - INFO - [SPA2] Traitement du match 1217775
+2025-08-21 16:22:07,437 - INFO - 🔍 Appel API pour les cotes du match 1217775
+2025-08-21 16:22:09,351 - INFO - [SPA2] Traitement du match 1217783
+2025-08-21 16:22:09,351 - INFO - 🔍 Appel API pour les cotes du match 1217783
+2025-08-21 16:22:11,503 - INFO - [SPA2] Traitement du match 1217794
+2025-08-21 16:22:11,503 - INFO - 🔍 Appel API pour les cotes du match 1217794
+2025-08-21 16:22:13,190 - INFO - [SPA2] Traitement du match 1217792
+2025-08-21 16:22:13,190 - INFO - 🔍 Appel API pour les cotes du match 1217792
+2025-08-21 16:22:15,130 - INFO - [SPA2] Traitement du match 1217787
+2025-08-21 16:22:15,131 - INFO - 🔍 Appel API pour les cotes du match 1217787
+2025-08-21 16:22:17,154 - INFO - [SPA2] Traitement du match 1217786
+2025-08-21 16:22:17,155 - INFO - 🔍 Appel API pour les cotes du match 1217786
+2025-08-21 16:22:19,099 - INFO - [SPA2] Traitement du match 1217791
+2025-08-21 16:22:19,099 - INFO - 🔍 Appel API pour les cotes du match 1217791
+2025-08-21 16:22:21,137 - INFO - [SPA2] Traitement du match 1217793
+2025-08-21 16:22:21,137 - INFO - 🔍 Appel API pour les cotes du match 1217793
+2025-08-21 16:22:23,091 - INFO - [SPA2] Traitement du match 1217795
+2025-08-21 16:22:23,091 - INFO - 🔍 Appel API pour les cotes du match 1217795
+2025-08-21 16:22:25,021 - INFO - [SPA2] Traitement du match 1217790
+2025-08-21 16:22:25,021 - INFO - 🔍 Appel API pour les cotes du match 1217790
+2025-08-21 16:22:26,990 - INFO - [SPA2] Traitement du match 1217788
+2025-08-21 16:22:26,991 - INFO - 🔍 Appel API pour les cotes du match 1217788
+2025-08-21 16:22:28,926 - INFO - [SPA2] Traitement du match 1217789
+2025-08-21 16:22:28,927 - INFO - 🔍 Appel API pour les cotes du match 1217789
+2025-08-21 16:22:30,887 - INFO - [SPA2] Traitement du match 1217785
+2025-08-21 16:22:30,888 - INFO - 🔍 Appel API pour les cotes du match 1217785
+2025-08-21 16:22:32,798 - INFO - [SPA2] Traitement du match 1217803
+2025-08-21 16:22:32,799 - INFO - 🔍 Appel API pour les cotes du match 1217803
+2025-08-21 16:22:34,783 - INFO - [SPA2] Traitement du match 1217804
+2025-08-21 16:22:34,784 - INFO - 🔍 Appel API pour les cotes du match 1217804
+2025-08-21 16:22:36,708 - INFO - [SPA2] Traitement du match 1217801
+2025-08-21 16:22:36,708 - INFO - 🔍 Appel API pour les cotes du match 1217801
+2025-08-21 16:22:38,390 - INFO - [SPA2] Traitement du match 1217806
+2025-08-21 16:22:38,391 - INFO - 🔍 Appel API pour les cotes du match 1217806
+2025-08-21 16:22:40,316 - INFO - [SPA2] Traitement du match 1217800
+2025-08-21 16:22:40,317 - INFO - 🔍 Appel API pour les cotes du match 1217800
+2025-08-21 16:22:42,248 - INFO - [SPA2] Traitement du match 1217797
+2025-08-21 16:22:42,248 - INFO - 🔍 Appel API pour les cotes du match 1217797
+2025-08-21 16:22:43,928 - INFO - [SPA2] Traitement du match 1217796
+2025-08-21 16:22:43,929 - INFO - 🔍 Appel API pour les cotes du match 1217796
+2025-08-21 16:22:45,844 - INFO - [SPA2] Traitement du match 1217802
+2025-08-21 16:22:45,845 - INFO - 🔍 Appel API pour les cotes du match 1217802
+2025-08-21 16:22:47,768 - INFO - [SPA2] Traitement du match 1217798
+2025-08-21 16:22:47,769 - INFO - 🔍 Appel API pour les cotes du match 1217798
+2025-08-21 16:22:49,699 - INFO - [SPA2] Traitement du match 1217799
+2025-08-21 16:22:49,700 - INFO - 🔍 Appel API pour les cotes du match 1217799
+2025-08-21 16:22:51,672 - INFO - [SPA2] Traitement du match 1217805
+2025-08-21 16:22:51,673 - INFO - 🔍 Appel API pour les cotes du match 1217805
+2025-08-21 16:22:53,590 - INFO - [SPA2] Traitement du match 1217809
+2025-08-21 16:22:53,591 - INFO - 🔍 Appel API pour les cotes du match 1217809
+2025-08-21 16:22:55,265 - INFO - [SPA2] Traitement du match 1217816
+2025-08-21 16:22:55,265 - INFO - 🔍 Appel API pour les cotes du match 1217816
+2025-08-21 16:22:57,224 - INFO - [SPA2] Traitement du match 1217813
+2025-08-21 16:22:57,225 - INFO - 🔍 Appel API pour les cotes du match 1217813
+2025-08-21 16:22:59,142 - INFO - [SPA2] Traitement du match 1217817
+2025-08-21 16:22:59,142 - INFO - 🔍 Appel API pour les cotes du match 1217817
+2025-08-21 16:23:01,116 - INFO - [SPA2] Traitement du match 1217808
+2025-08-21 16:23:01,116 - INFO - 🔍 Appel API pour les cotes du match 1217808
+2025-08-21 16:23:03,003 - INFO - [SPA2] Traitement du match 1217810
+2025-08-21 16:23:03,004 - INFO - 🔍 Appel API pour les cotes du match 1217810
+2025-08-21 16:23:04,925 - INFO - [SPA2] Traitement du match 1217815
+2025-08-21 16:23:04,925 - INFO - 🔍 Appel API pour les cotes du match 1217815
+2025-08-21 16:23:06,859 - INFO - [SPA2] Traitement du match 1217811
+2025-08-21 16:23:06,860 - INFO - 🔍 Appel API pour les cotes du match 1217811
+2025-08-21 16:23:08,801 - INFO - [SPA2] Traitement du match 1217807
+2025-08-21 16:23:08,801 - INFO - 🔍 Appel API pour les cotes du match 1217807
+2025-08-21 16:23:10,790 - INFO - [SPA2] Traitement du match 1217814
+2025-08-21 16:23:10,790 - INFO - 🔍 Appel API pour les cotes du match 1217814
+2025-08-21 16:23:12,703 - INFO - [SPA2] Traitement du match 1217812
+2025-08-21 16:23:12,704 - INFO - 🔍 Appel API pour les cotes du match 1217812
+2025-08-21 16:23:14,647 - INFO - [SPA2] Traitement du match 1217758
+2025-08-21 16:23:14,647 - INFO - 🔍 Appel API pour les cotes du match 1217758
+2025-08-21 16:23:16,588 - INFO - [SPA2] Traitement du match 1217820
+2025-08-21 16:23:16,588 - INFO - 🔍 Appel API pour les cotes du match 1217820
+2025-08-21 16:23:18,504 - INFO - [SPA2] Traitement du match 1217824
+2025-08-21 16:23:18,505 - INFO - 🔍 Appel API pour les cotes du match 1217824
+2025-08-21 16:23:20,480 - INFO - [SPA2] Traitement du match 1217818
+2025-08-21 16:23:20,481 - INFO - 🔍 Appel API pour les cotes du match 1217818
+2025-08-21 16:23:22,395 - INFO - [SPA2] Traitement du match 1217828
+2025-08-21 16:23:22,396 - INFO - 🔍 Appel API pour les cotes du match 1217828
+2025-08-21 16:23:24,349 - INFO - [SPA2] Traitement du match 1217823
+2025-08-21 16:23:24,350 - INFO - 🔍 Appel API pour les cotes du match 1217823
+2025-08-21 16:23:26,294 - INFO - [SPA2] Traitement du match 1217825
+2025-08-21 16:23:26,294 - INFO - 🔍 Appel API pour les cotes du match 1217825
+2025-08-21 16:23:28,206 - INFO - [SPA2] Traitement du match 1217821
+2025-08-21 16:23:28,207 - INFO - 🔍 Appel API pour les cotes du match 1217821
+2025-08-21 16:23:29,951 - INFO - [SPA2] Traitement du match 1217826
+2025-08-21 16:23:29,952 - INFO - 🔍 Appel API pour les cotes du match 1217826
+2025-08-21 16:23:31,874 - INFO - [SPA2] Traitement du match 1217822
+2025-08-21 16:23:31,874 - INFO - 🔍 Appel API pour les cotes du match 1217822
+2025-08-21 16:23:33,773 - INFO - [SPA2] Traitement du match 1217827
+2025-08-21 16:23:33,774 - INFO - 🔍 Appel API pour les cotes du match 1217827
+2025-08-21 16:23:35,708 - INFO - [SPA2] Traitement du match 1217819
+2025-08-21 16:23:35,709 - INFO - 🔍 Appel API pour les cotes du match 1217819
+2025-08-21 16:23:37,645 - INFO - [SPA2] Traitement du match 1217839
+2025-08-21 16:23:37,646 - INFO - 🔍 Appel API pour les cotes du match 1217839
+2025-08-21 16:23:39,613 - INFO - [SPA2] Traitement du match 1217838
+2025-08-21 16:23:39,613 - INFO - 🔍 Appel API pour les cotes du match 1217838
+2025-08-21 16:23:41,522 - INFO - [SPA2] Traitement du match 1217829
+2025-08-21 16:23:41,523 - INFO - 🔍 Appel API pour les cotes du match 1217829
+2025-08-21 16:23:43,410 - INFO - [SPA2] Traitement du match 1217837
+2025-08-21 16:23:43,411 - INFO - 🔍 Appel API pour les cotes du match 1217837
+2025-08-21 16:23:45,351 - INFO - [SPA2] Traitement du match 1217830
+2025-08-21 16:23:45,352 - INFO - 🔍 Appel API pour les cotes du match 1217830
+2025-08-21 16:23:47,344 - INFO - [SPA2] Traitement du match 1217833
+2025-08-21 16:23:47,344 - INFO - 🔍 Appel API pour les cotes du match 1217833
+2025-08-21 16:23:49,295 - INFO - [SPA2] Traitement du match 1217831
+2025-08-21 16:23:49,296 - INFO - 🔍 Appel API pour les cotes du match 1217831
+2025-08-21 16:23:51,239 - INFO - [SPA2] Traitement du match 1217836
+2025-08-21 16:23:51,239 - INFO - 🔍 Appel API pour les cotes du match 1217836
+2025-08-21 16:23:53,150 - INFO - [SPA2] Traitement du match 1217834
+2025-08-21 16:23:53,151 - INFO - 🔍 Appel API pour les cotes du match 1217834
+2025-08-21 16:23:55,143 - INFO - [SPA2] Traitement du match 1217835
+2025-08-21 16:23:55,143 - INFO - 🔍 Appel API pour les cotes du match 1217835
+2025-08-21 16:23:57,087 - INFO - [SPA2] Traitement du match 1217832
+2025-08-21 16:23:57,088 - INFO - 🔍 Appel API pour les cotes du match 1217832
+2025-08-21 16:23:59,004 - INFO - [SPA2] Traitement du match 1217845
+2025-08-21 16:23:59,005 - INFO - 🔍 Appel API pour les cotes du match 1217845
+2025-08-21 16:24:00,907 - INFO - [SPA2] Traitement du match 1217842
+2025-08-21 16:24:00,907 - INFO - 🔍 Appel API pour les cotes du match 1217842
+2025-08-21 16:24:02,904 - INFO - [SPA2] Traitement du match 1217843
+2025-08-21 16:24:02,904 - INFO - 🔍 Appel API pour les cotes du match 1217843
+2025-08-21 16:24:04,803 - INFO - [SPA2] Traitement du match 1217841
+2025-08-21 16:24:04,803 - INFO - 🔍 Appel API pour les cotes du match 1217841
+2025-08-21 16:24:06,544 - INFO - [SPA2] Traitement du match 1217850
+2025-08-21 16:24:06,544 - INFO - 🔍 Appel API pour les cotes du match 1217850
+2025-08-21 16:24:08,364 - INFO - [SPA2] Traitement du match 1217846
+2025-08-21 16:24:08,365 - INFO - 🔍 Appel API pour les cotes du match 1217846
+2025-08-21 16:24:10,299 - INFO - [SPA2] Traitement du match 1217847
+2025-08-21 16:24:10,300 - INFO - 🔍 Appel API pour les cotes du match 1217847
+2025-08-21 16:24:12,248 - INFO - [SPA2] Traitement du match 1217844
+2025-08-21 16:24:12,248 - INFO - 🔍 Appel API pour les cotes du match 1217844
+2025-08-21 16:24:14,175 - INFO - [SPA2] Traitement du match 1217848
+2025-08-21 16:24:14,176 - INFO - 🔍 Appel API pour les cotes du match 1217848
+2025-08-21 16:24:16,108 - INFO - [SPA2] Traitement du match 1217840
+2025-08-21 16:24:16,108 - INFO - 🔍 Appel API pour les cotes du match 1217840
+2025-08-21 16:24:18,080 - INFO - [SPA2] Traitement du match 1217849
+2025-08-21 16:24:18,081 - INFO - 🔍 Appel API pour les cotes du match 1217849
+2025-08-21 16:24:20,017 - INFO - [SPA2] Traitement du match 1217860
+2025-08-21 16:24:20,017 - INFO - 🔍 Appel API pour les cotes du match 1217860
+2025-08-21 16:24:22,043 - INFO - [SPA2] Traitement du match 1217852
+2025-08-21 16:24:22,043 - INFO - 🔍 Appel API pour les cotes du match 1217852
+2025-08-21 16:24:24,064 - INFO - [SPA2] Traitement du match 1217858
+2025-08-21 16:24:24,065 - INFO - 🔍 Appel API pour les cotes du match 1217858
+2025-08-21 16:24:25,990 - INFO - [SPA2] Traitement du match 1217859
+2025-08-21 16:24:25,991 - INFO - 🔍 Appel API pour les cotes du match 1217859
+2025-08-21 16:24:27,910 - INFO - [SPA2] Traitement du match 1217857
+2025-08-21 16:24:27,911 - INFO - 🔍 Appel API pour les cotes du match 1217857
+2025-08-21 16:24:29,862 - INFO - [SPA2] Traitement du match 1217854
+2025-08-21 16:24:29,863 - INFO - 🔍 Appel API pour les cotes du match 1217854
+2025-08-21 16:24:31,929 - INFO - [SPA2] Traitement du match 1217861
+2025-08-21 16:24:31,930 - INFO - 🔍 Appel API pour les cotes du match 1217861
+2025-08-21 16:24:33,906 - INFO - [SPA2] Traitement du match 1217855
+2025-08-21 16:24:33,907 - INFO - 🔍 Appel API pour les cotes du match 1217855
+2025-08-21 16:24:35,850 - INFO - [SPA2] Traitement du match 1217851
+2025-08-21 16:24:35,850 - INFO - 🔍 Appel API pour les cotes du match 1217851
+2025-08-21 16:24:37,777 - INFO - [SPA2] Traitement du match 1217856
+2025-08-21 16:24:37,778 - INFO - 🔍 Appel API pour les cotes du match 1217856
+2025-08-21 16:24:39,758 - INFO - [SPA2] Traitement du match 1217853
+2025-08-21 16:24:39,759 - INFO - 🔍 Appel API pour les cotes du match 1217853
+2025-08-21 16:24:41,677 - INFO - [SPA2] Traitement du match 1217868
+2025-08-21 16:24:41,677 - INFO - 🔍 Appel API pour les cotes du match 1217868
+2025-08-21 16:24:43,648 - INFO - [SPA2] Traitement du match 1217864
+2025-08-21 16:24:43,648 - INFO - 🔍 Appel API pour les cotes du match 1217864
+2025-08-21 16:24:45,661 - INFO - [SPA2] Traitement du match 1217869
+2025-08-21 16:24:45,661 - INFO - 🔍 Appel API pour les cotes du match 1217869
+2025-08-21 16:24:47,652 - INFO - [SPA2] Traitement du match 1217863
+2025-08-21 16:24:47,652 - INFO - 🔍 Appel API pour les cotes du match 1217863
+2025-08-21 16:24:49,568 - INFO - [SPA2] Traitement du match 1217867
+2025-08-21 16:24:49,569 - INFO - 🔍 Appel API pour les cotes du match 1217867
+2025-08-21 16:24:51,472 - INFO - [SPA2] Traitement du match 1217870
+2025-08-21 16:24:51,473 - INFO - 🔍 Appel API pour les cotes du match 1217870
+2025-08-21 16:24:53,383 - INFO - [SPA2] Traitement du match 1217862
+2025-08-21 16:24:53,384 - INFO - 🔍 Appel API pour les cotes du match 1217862
+2025-08-21 16:24:55,299 - INFO - [SPA2] Traitement du match 1217871
+2025-08-21 16:24:55,299 - INFO - 🔍 Appel API pour les cotes du match 1217871
+2025-08-21 16:24:58,364 - INFO - [SPA2] Traitement du match 1217872
+2025-08-21 16:24:58,365 - INFO - 🔍 Appel API pour les cotes du match 1217872
+2025-08-21 16:25:00,448 - INFO - [SPA2] Traitement du match 1217866
+2025-08-21 16:25:00,449 - INFO - 🔍 Appel API pour les cotes du match 1217866
+2025-08-21 16:25:02,388 - INFO - [SPA2] Traitement du match 1217865
+2025-08-21 16:25:02,389 - INFO - 🔍 Appel API pour les cotes du match 1217865
+2025-08-21 16:25:05,058 - INFO - [SPA2] Traitement du match 1217876
+2025-08-21 16:25:05,058 - INFO - 🔍 Appel API pour les cotes du match 1217876
+2025-08-21 16:25:06,970 - INFO - [SPA2] Traitement du match 1217883
+2025-08-21 16:25:06,971 - INFO - 🔍 Appel API pour les cotes du match 1217883
+2025-08-21 16:25:08,980 - INFO - [SPA2] Traitement du match 1217875
+2025-08-21 16:25:08,980 - INFO - 🔍 Appel API pour les cotes du match 1217875
+2025-08-21 16:25:10,899 - INFO - [SPA2] Traitement du match 1217882
+2025-08-21 16:25:10,899 - INFO - 🔍 Appel API pour les cotes du match 1217882
+2025-08-21 16:25:12,822 - INFO - [SPA2] Traitement du match 1217879
+2025-08-21 16:25:12,822 - INFO - 🔍 Appel API pour les cotes du match 1217879
+2025-08-21 16:25:31,026 - INFO - [SPA2] Traitement du match 1217874
+2025-08-21 16:25:31,026 - INFO - 🔍 Appel API pour les cotes du match 1217874
+2025-08-21 16:25:33,283 - INFO - [SPA2] Traitement du match 1217877
+2025-08-21 16:25:33,283 - INFO - 🔍 Appel API pour les cotes du match 1217877
+2025-08-21 16:25:35,192 - INFO - [SPA2] Traitement du match 1217881
+2025-08-21 16:25:35,193 - INFO - 🔍 Appel API pour les cotes du match 1217881
+2025-08-21 16:25:50,280 - INFO - [SPA2] Traitement du match 1217873
+2025-08-21 16:25:50,280 - INFO - 🔍 Appel API pour les cotes du match 1217873
+2025-08-21 16:25:52,210 - INFO - [SPA2] Traitement du match 1217880
+2025-08-21 16:25:52,210 - INFO - 🔍 Appel API pour les cotes du match 1217880
+2025-08-21 16:25:54,151 - INFO - [SPA2] Traitement du match 1217878
+2025-08-21 16:25:54,152 - INFO - 🔍 Appel API pour les cotes du match 1217878
+2025-08-21 16:25:56,084 - INFO - [SPA2] Traitement du match 1217892
+2025-08-21 16:25:56,085 - INFO - 🔍 Appel API pour les cotes du match 1217892
+2025-08-21 16:25:58,010 - INFO - [SPA2] Traitement du match 1217894
+2025-08-21 16:25:58,010 - INFO - 🔍 Appel API pour les cotes du match 1217894
+2025-08-21 16:26:00,008 - INFO - [SPA2] Traitement du match 1217884
+2025-08-21 16:26:00,009 - INFO - 🔍 Appel API pour les cotes du match 1217884
+2025-08-21 16:26:01,919 - INFO - [SPA2] Traitement du match 1217889
+2025-08-21 16:26:01,919 - INFO - 🔍 Appel API pour les cotes du match 1217889
+2025-08-21 16:26:03,846 - INFO - [SPA2] Traitement du match 1217890
+2025-08-21 16:26:03,847 - INFO - 🔍 Appel API pour les cotes du match 1217890
+2025-08-21 16:26:05,818 - INFO - [SPA2] Traitement du match 1217893
+2025-08-21 16:26:05,818 - INFO - 🔍 Appel API pour les cotes du match 1217893
+2025-08-21 16:26:07,731 - INFO - [SPA2] Traitement du match 1217885
+2025-08-21 16:26:07,732 - INFO - 🔍 Appel API pour les cotes du match 1217885
+2025-08-21 16:26:09,710 - INFO - [SPA2] Traitement du match 1217886
+2025-08-21 16:26:09,711 - INFO - 🔍 Appel API pour les cotes du match 1217886
+2025-08-21 16:26:11,644 - INFO - [SPA2] Traitement du match 1217887
+2025-08-21 16:26:11,644 - INFO - 🔍 Appel API pour les cotes du match 1217887
+2025-08-21 16:26:13,606 - INFO - [SPA2] Traitement du match 1217891
+2025-08-21 16:26:13,606 - INFO - 🔍 Appel API pour les cotes du match 1217891
+2025-08-21 16:26:15,524 - INFO - [SPA2] Traitement du match 1217888
+2025-08-21 16:26:15,524 - INFO - 🔍 Appel API pour les cotes du match 1217888
+2025-08-21 16:26:17,546 - INFO - [SPA2] Traitement du match 1217897
+2025-08-21 16:26:17,546 - INFO - 🔍 Appel API pour les cotes du match 1217897
+2025-08-21 16:26:19,465 - INFO - [SPA2] Traitement du match 1217895
+2025-08-21 16:26:19,465 - INFO - 🔍 Appel API pour les cotes du match 1217895
+2025-08-21 16:26:21,481 - INFO - [SPA2] Traitement du match 1217905
+2025-08-21 16:26:21,481 - INFO - 🔍 Appel API pour les cotes du match 1217905
+2025-08-21 16:26:23,397 - INFO - [SPA2] Traitement du match 1217900
+2025-08-21 16:26:23,398 - INFO - 🔍 Appel API pour les cotes du match 1217900
+2025-08-21 16:26:25,547 - INFO - [SPA2] Traitement du match 1217898
+2025-08-21 16:26:25,547 - INFO - 🔍 Appel API pour les cotes du match 1217898
+2025-08-21 16:26:27,486 - INFO - [SPA2] Traitement du match 1217903
+2025-08-21 16:26:27,487 - INFO - 🔍 Appel API pour les cotes du match 1217903
+2025-08-21 16:26:29,406 - INFO - [SPA2] Traitement du match 1217904
+2025-08-21 16:26:29,407 - INFO - 🔍 Appel API pour les cotes du match 1217904
+2025-08-21 16:26:31,333 - INFO - [SPA2] Traitement du match 1217902
+2025-08-21 16:26:31,334 - INFO - 🔍 Appel API pour les cotes du match 1217902
+2025-08-21 16:26:33,474 - INFO - [SPA2] Traitement du match 1217899
+2025-08-21 16:26:33,475 - INFO - 🔍 Appel API pour les cotes du match 1217899
+2025-08-21 16:26:35,366 - INFO - [SPA2] Traitement du match 1217901
+2025-08-21 16:26:35,366 - INFO - 🔍 Appel API pour les cotes du match 1217901
+2025-08-21 16:26:37,392 - INFO - [SPA2] Traitement du match 1217896
+2025-08-21 16:26:37,392 - INFO - 🔍 Appel API pour les cotes du match 1217896
+2025-08-21 16:26:39,301 - INFO - [SPA2] Traitement du match 1217915
+2025-08-21 16:26:39,302 - INFO - 🔍 Appel API pour les cotes du match 1217915
+2025-08-21 16:26:41,214 - INFO - [SPA2] Traitement du match 1217907
+2025-08-21 16:26:41,215 - INFO - 🔍 Appel API pour les cotes du match 1217907
+2025-08-21 16:26:43,296 - INFO - [SPA2] Traitement du match 1217910
+2025-08-21 16:26:43,297 - INFO - 🔍 Appel API pour les cotes du match 1217910
+2025-08-21 16:26:45,223 - INFO - [SPA2] Traitement du match 1217916
+2025-08-21 16:26:45,224 - INFO - 🔍 Appel API pour les cotes du match 1217916
+2025-08-21 16:26:47,185 - INFO - [SPA2] Traitement du match 1217912
+2025-08-21 16:26:47,186 - INFO - 🔍 Appel API pour les cotes du match 1217912
+2025-08-21 16:26:49,159 - INFO - [SPA2] Traitement du match 1217914
+2025-08-21 16:26:49,160 - INFO - 🔍 Appel API pour les cotes du match 1217914
+2025-08-21 16:26:51,102 - INFO - [SPA2] Traitement du match 1217908
+2025-08-21 16:26:51,103 - INFO - 🔍 Appel API pour les cotes du match 1217908
+2025-08-21 16:26:53,040 - INFO - [SPA2] Traitement du match 1217913
+2025-08-21 16:26:53,041 - INFO - 🔍 Appel API pour les cotes du match 1217913
+2025-08-21 16:26:54,956 - INFO - [SPA2] Traitement du match 1217911
+2025-08-21 16:26:54,957 - INFO - 🔍 Appel API pour les cotes du match 1217911
+2025-08-21 16:26:56,979 - INFO - [SPA2] Traitement du match 1217906
+2025-08-21 16:26:56,979 - INFO - 🔍 Appel API pour les cotes du match 1217906
+2025-08-21 16:26:58,949 - INFO - [SPA2] Traitement du match 1217909
+2025-08-21 16:26:58,950 - INFO - 🔍 Appel API pour les cotes du match 1217909
+2025-08-21 16:27:00,931 - INFO - [SPA2] Traitement du match 1217921
+2025-08-21 16:27:00,932 - INFO - 🔍 Appel API pour les cotes du match 1217921
+2025-08-21 16:27:02,861 - INFO - [SPA2] Traitement du match 1217922
+2025-08-21 16:27:02,861 - INFO - 🔍 Appel API pour les cotes du match 1217922
+2025-08-21 16:27:04,894 - INFO - [SPA2] Traitement du match 1217919
+2025-08-21 16:27:04,894 - INFO - 🔍 Appel API pour les cotes du match 1217919
+2025-08-21 16:27:06,799 - INFO - [SPA2] Traitement du match 1217918
+2025-08-21 16:27:06,799 - INFO - 🔍 Appel API pour les cotes du match 1217918
+2025-08-21 16:27:08,732 - INFO - [SPA2] Traitement du match 1217924
+2025-08-21 16:27:08,733 - INFO - 🔍 Appel API pour les cotes du match 1217924
+2025-08-21 16:27:10,876 - INFO - [SPA2] Traitement du match 1217923
+2025-08-21 16:27:10,876 - INFO - 🔍 Appel API pour les cotes du match 1217923
+2025-08-21 16:27:12,793 - INFO - [SPA2] Traitement du match 1217926
+2025-08-21 16:27:12,794 - INFO - 🔍 Appel API pour les cotes du match 1217926
+2025-08-21 16:27:14,732 - INFO - [SPA2] Traitement du match 1217920
+2025-08-21 16:27:14,733 - INFO - 🔍 Appel API pour les cotes du match 1217920
+2025-08-21 16:27:16,653 - INFO - [SPA2] Traitement du match 1217917
+2025-08-21 16:27:16,653 - INFO - 🔍 Appel API pour les cotes du match 1217917
+2025-08-21 16:27:18,677 - INFO - [SPA2] Traitement du match 1217927
+2025-08-21 16:27:18,678 - INFO - 🔍 Appel API pour les cotes du match 1217927
+2025-08-21 16:27:20,601 - INFO - [SPA2] Traitement du match 1217925
+2025-08-21 16:27:20,602 - INFO - 🔍 Appel API pour les cotes du match 1217925
+2025-08-21 16:27:22,503 - INFO - [SPA2] Traitement du match 1217935
+2025-08-21 16:27:22,504 - INFO - 🔍 Appel API pour les cotes du match 1217935
+2025-08-21 16:27:24,439 - INFO - [SPA2] Traitement du match 1217929
+2025-08-21 16:27:24,439 - INFO - 🔍 Appel API pour les cotes du match 1217929
+2025-08-21 16:27:26,402 - INFO - [SPA2] Traitement du match 1217938
+2025-08-21 16:27:26,402 - INFO - 🔍 Appel API pour les cotes du match 1217938
+2025-08-21 16:27:28,328 - INFO - [SPA2] Traitement du match 1217933
+2025-08-21 16:27:28,328 - INFO - 🔍 Appel API pour les cotes du match 1217933
+2025-08-21 16:27:30,297 - INFO - [SPA2] Traitement du match 1217936
+2025-08-21 16:27:30,298 - INFO - 🔍 Appel API pour les cotes du match 1217936
+2025-08-21 16:27:32,229 - INFO - [SPA2] Traitement du match 1217932
+2025-08-21 16:27:32,230 - INFO - 🔍 Appel API pour les cotes du match 1217932
+2025-08-21 16:27:34,158 - INFO - [SPA2] Traitement du match 1217937
+2025-08-21 16:27:34,159 - INFO - 🔍 Appel API pour les cotes du match 1217937
+2025-08-21 16:27:36,077 - INFO - [SPA2] Traitement du match 1217934
+2025-08-21 16:27:36,078 - INFO - 🔍 Appel API pour les cotes du match 1217934
+2025-08-21 16:27:37,989 - INFO - [SPA2] Traitement du match 1217930
+2025-08-21 16:27:37,990 - INFO - 🔍 Appel API pour les cotes du match 1217930
+2025-08-21 16:27:39,966 - INFO - [SPA2] Traitement du match 1217928
+2025-08-21 16:27:39,966 - INFO - 🔍 Appel API pour les cotes du match 1217928
+2025-08-21 16:27:41,889 - INFO - [SPA2] Traitement du match 1217931
+2025-08-21 16:27:41,890 - INFO - 🔍 Appel API pour les cotes du match 1217931
+2025-08-21 16:27:43,795 - INFO - [SPA2] Traitement du match 1217939
+2025-08-21 16:27:43,795 - INFO - 🔍 Appel API pour les cotes du match 1217939
+2025-08-21 16:27:45,744 - INFO - [SPA2] Traitement du match 1217948
+2025-08-21 16:27:45,744 - INFO - 🔍 Appel API pour les cotes du match 1217948
+2025-08-21 16:27:47,683 - INFO - [SPA2] Traitement du match 1217942
+2025-08-21 16:27:47,684 - INFO - 🔍 Appel API pour les cotes du match 1217942
+2025-08-21 16:27:49,614 - INFO - [SPA2] Traitement du match 1217943
+2025-08-21 16:27:49,615 - INFO - 🔍 Appel API pour les cotes du match 1217943
+2025-08-21 16:27:51,543 - INFO - [SPA2] Traitement du match 1217940
+2025-08-21 16:27:51,544 - INFO - 🔍 Appel API pour les cotes du match 1217940
+2025-08-21 16:27:53,696 - INFO - [SPA2] Traitement du match 1217944
+2025-08-21 16:27:53,697 - INFO - 🔍 Appel API pour les cotes du match 1217944
+2025-08-21 16:27:55,370 - INFO - [SPA2] Traitement du match 1217947
+2025-08-21 16:27:55,371 - INFO - 🔍 Appel API pour les cotes du match 1217947
+2025-08-21 16:27:57,296 - INFO - [SPA2] Traitement du match 1217945
+2025-08-21 16:27:57,297 - INFO - 🔍 Appel API pour les cotes du match 1217945
+2025-08-21 16:27:59,260 - INFO - [SPA2] Traitement du match 1217941
+2025-08-21 16:27:59,261 - INFO - 🔍 Appel API pour les cotes du match 1217941
+2025-08-21 16:28:01,194 - INFO - [SPA2] Traitement du match 1217949
+2025-08-21 16:28:01,195 - INFO - 🔍 Appel API pour les cotes du match 1217949
+2025-08-21 16:28:03,118 - INFO - [SPA2] Traitement du match 1217946
+2025-08-21 16:28:03,119 - INFO - 🔍 Appel API pour les cotes du match 1217946
+2025-08-21 16:28:05,061 - INFO - [SPA2] Traitement du match 1217952
+2025-08-21 16:28:05,062 - INFO - 🔍 Appel API pour les cotes du match 1217952
+2025-08-21 16:28:06,986 - INFO - [SPA2] Traitement du match 1217956
+2025-08-21 16:28:06,987 - INFO - 🔍 Appel API pour les cotes du match 1217956
+2025-08-21 16:28:08,735 - INFO - [SPA2] Traitement du match 1217954
+2025-08-21 16:28:08,735 - INFO - 🔍 Appel API pour les cotes du match 1217954
+2025-08-21 16:28:10,655 - INFO - [SPA2] Traitement du match 1217959
+2025-08-21 16:28:10,655 - INFO - 🔍 Appel API pour les cotes du match 1217959
+2025-08-21 16:28:12,597 - INFO - [SPA2] Traitement du match 1217951
+2025-08-21 16:28:12,598 - INFO - 🔍 Appel API pour les cotes du match 1217951
+2025-08-21 16:28:14,551 - INFO - [SPA2] Traitement du match 1217950
+2025-08-21 16:28:14,552 - INFO - 🔍 Appel API pour les cotes du match 1217950
+2025-08-21 16:28:16,484 - INFO - [SPA2] Traitement du match 1217960
+2025-08-21 16:28:16,484 - INFO - 🔍 Appel API pour les cotes du match 1217960
+2025-08-21 16:28:18,401 - INFO - [SPA2] Traitement du match 1217955
+2025-08-21 16:28:18,402 - INFO - 🔍 Appel API pour les cotes du match 1217955
+2025-08-21 16:28:20,373 - INFO - [SPA2] Traitement du match 1217957
+2025-08-21 16:28:20,373 - INFO - 🔍 Appel API pour les cotes du match 1217957
+2025-08-21 16:28:22,302 - INFO - [SPA2] Traitement du match 1217958
+2025-08-21 16:28:22,302 - INFO - 🔍 Appel API pour les cotes du match 1217958
+2025-08-21 16:28:24,240 - INFO - [SPA2] Traitement du match 1217953
+2025-08-21 16:28:24,241 - INFO - 🔍 Appel API pour les cotes du match 1217953
+2025-08-21 16:28:26,156 - INFO - [SPA2] Traitement du match 1377428
+2025-08-21 16:28:26,156 - INFO - 🔍 Appel API pour les cotes du match 1377428
+2025-08-21 16:28:28,002 - INFO - [SPA2] Traitement du match 1377430
+2025-08-21 16:28:28,003 - INFO - 🔍 Appel API pour les cotes du match 1377430
+2025-08-21 16:28:29,978 - INFO - [SPA2] Traitement du match 1377429
+2025-08-21 16:28:29,978 - INFO - 🔍 Appel API pour les cotes du match 1377429
+2025-08-21 16:28:31,897 - INFO - [SPA2] Traitement du match 1377431
+2025-08-21 16:28:31,898 - INFO - 🔍 Appel API pour les cotes du match 1377431
+2025-08-21 16:28:33,833 - INFO - [SPA2] Traitement du match 1378301
+2025-08-21 16:28:33,833 - INFO - 🔍 Appel API pour les cotes du match 1378301
+2025-08-21 16:28:35,756 - INFO - [SPA2] Traitement du match 1378902
+2025-08-21 16:28:35,757 - INFO - 🔍 Appel API pour les cotes du match 1378902
+2025-08-21 16:28:37,698 - INFO - [SPA2] Traitement du match 1396944
+2025-08-21 16:28:37,699 - INFO - 🔍 Appel API pour les cotes du match 1396944
+2025-08-21 16:28:39,722 - INFO - [SPA2] Traitement du match 1391254
+2025-08-21 16:28:39,722 - INFO - 🔍 Appel API pour les cotes du match 1391254
+2025-08-21 16:28:41,532 - INFO - [SPA2] Traitement du match 1391253
+2025-08-21 16:28:41,532 - INFO - 🔍 Appel API pour les cotes du match 1391253
+2025-08-21 16:28:43,490 - INFO - [SPA2] Traitement du match 1391256
+2025-08-21 16:28:43,490 - INFO - 🔍 Appel API pour les cotes du match 1391256
+2025-08-21 16:28:45,396 - INFO - [SPA2] Traitement du match 1391259
+2025-08-21 16:28:45,396 - INFO - 🔍 Appel API pour les cotes du match 1391259
+2025-08-21 16:28:47,368 - INFO - [SPA2] Traitement du match 1391258
+2025-08-21 16:28:47,368 - INFO - 🔍 Appel API pour les cotes du match 1391258
+2025-08-21 16:28:49,339 - INFO - [SPA2] Traitement du match 1396943
+2025-08-21 16:28:49,339 - INFO - 🔍 Appel API pour les cotes du match 1396943
+2025-08-21 16:28:51,310 - INFO - [SPA2] Traitement du match 1391257
+2025-08-21 16:28:51,310 - INFO - 🔍 Appel API pour les cotes du match 1391257
+2025-08-21 16:28:53,286 - INFO - [SPA2] Traitement du match 1391255
+2025-08-21 16:28:53,286 - INFO - 🔍 Appel API pour les cotes du match 1391255
+2025-08-21 16:28:55,497 - INFO - 💾 Fichier de cotes pour SPA2 mis à jour: 41144 nouvelles entrées ajoutées, 89121 total.
+2025-08-21 16:28:55,506 - INFO - 
+🎉 === COLLECTE TERMINÉE ===
+2025-08-21 16:28:55,506 - INFO - ⏱️ Durée totale: 0:15:36.640932
+2025-08-21 16:28:55,506 - INFO - 📊 Ligues traitées: 1/1
+2025-08-21 16:28:55,506 - INFO - 🏟️ Matchs traités: 466
+2025-08-21 16:28:55,506 - INFO - 📞 Appels API (cotes): 466
+2025-08-21 16:28:55,506 - INFO - 📈 Nouvelles collections de cotes: 9
