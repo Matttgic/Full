@@ -1,12 +1,12 @@
-name: Football Odds Collection
+name: Football Odds Maintenance
 
 on:
   schedule:
-    - cron: '0 2 * * *' # Run daily at 2 AM UTC
+    - cron: '0 2 * * 1' # Run weekly on Monday at 2 AM UTC
   workflow_dispatch:
 
 jobs:
-  collect-odds:
+  maintain-odds:
     runs-on: ubuntu-latest
     timeout-minutes: 60
     strategy:
@@ -15,7 +15,7 @@ jobs:
         league: ['ENG1', 'FRA1', 'ITA1', 'GER1', 'SPA1', 'NED1', 'POR1', 'BEL1', 'ENG2', 'FRA2', 'ITA2', 'GER2', 'SPA2', 'TUR1', 'SAU1']
 
     permissions:
-      contents: read # Only needs to read for checkout
+      contents: read
       actions: read
 
     steps:
@@ -36,7 +36,6 @@ jobs:
       env:
         RAPIDAPI_KEY: ${{ secrets.RAPIDAPI_KEY }}
       run: |
-        # This check is quick and ensures the API is responsive before starting a job
         response=$(curl -s -w "%{http_code}" -o /dev/null --request GET \
           --url 'https://api-football-v1.p.rapidapi.com/v3/timezone' \
           --header 'X-RapidAPI-Key: ${{ secrets.RAPIDAPI_KEY }}' \
@@ -48,23 +47,22 @@ jobs:
           exit 1
         fi
 
-    - name: Run Odds Collector Script for ${{ matrix.league }}
+    - name: Run Odds Maintenance Script for ${{ matrix.league }}
       env:
         RAPIDAPI_KEY: ${{ secrets.RAPIDAPI_KEY }}
       run: |
         LEAGUE_CODE=${{ matrix.league }}
-        LOG_FILE="odds_collection_$LEAGUE_CODE.log"
-        echo "🚀 DÉBUT DE LA COLLECTE POUR: $LEAGUE_CODE"
+        # The Python script now handles its own log file naming based on the league
+        echo "🚀 DÉBUT DE LA MAINTENANCE POUR: $LEAGUE_CODE"
 
-        if ! python3 football_odds_collector.py --league "$LEAGUE_CODE" 2>&1 | tee "$LOG_FILE"; then
-          echo "❌ Le script de collecte a échoué pour $LEAGUE_CODE."
-          echo "=== Dernières lignes du log ==="
-          tail -50 "$LOG_FILE"
+        if ! python3 football_odds_collector.py --league "$LEAGUE_CODE"; then
+          echo "❌ Le script de maintenance a échoué pour $LEAGUE_CODE."
+          # We tail the log file created by the script
+          tail -50 "football_odds_maintenance_$LEAGUE_CODE.log"
           exit 1
         fi
 
-        echo "✅ Script de collecte exécuté avec succès pour $LEAGUE_CODE."
-        echo "🏁 FIN DE LA COLLECTE: $(date)"
+        echo "✅ Script de maintenance exécuté avec succès pour $LEAGUE_CODE."
 
     - name: Upload League Data
       if: always()
@@ -73,13 +71,13 @@ jobs:
         name: odds-data-${{ matrix.league }}
         path: |
           data/odds/raw_data/${{ matrix.league }}_complete_odds.csv
-          odds_collection_${{ matrix.league }}.log
+          football_odds_maintenance_${{ matrix.league }}.log
         retention-days: 1
         if-no-files-found: error
 
   commit-changes:
     runs-on: ubuntu-latest
-    needs: collect-odds
+    needs: maintain-odds
     if: success()
 
     permissions:
@@ -100,9 +98,9 @@ jobs:
     - name: Organize downloaded files
       run: |
         echo "Organizing downloaded files..."
-        # Déplacer les fichiers de données de cotes
+        # Move odds data files
         find artifacts/odds-data-*/ -name "*_complete_odds.csv" -exec mv {} data/odds/raw_data/ \;
-        # Déplacer les fichiers de log
+        # Move log files
         find artifacts/odds-data-*/ -name "*.log" -exec mv {} . \;
         echo "Files organized."
         ls -R
@@ -123,7 +121,7 @@ jobs:
         echo "📊 Fichiers modifiés à committer:"
         git status --porcelain
 
-        commit_msg="📊 Collecte des cotes - $(date '+%Y-%m-%d %H:%M')"
+        commit_msg="Chore: Weekly odds data maintenance - $(date '+%Y-%m-%d %H:%M')"
         git commit -m "$commit_msg"
 
         for attempt in 1 2 3; do
