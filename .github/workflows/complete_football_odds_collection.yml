@@ -129,7 +129,7 @@ jobs:
           echo '        """' >> prepare_filter.py
           echo '' >> prepare_filter.py
           echo '        if "# Saisons à analyser" in content:' >> prepare_filter.py
-          echo '            content = content.replace("# Saisons à analyser", filter_code + "\\n        # Saisons à analyser")' >> prepare_filter.py
+          echo '            content = content.replace("# Saisons à analyser", filter_code + "\n        # Saisons à analyser")' >> prepare_filter.py
           echo '            print("Filtrage injecté avec succès")' >> prepare_filter.py
           echo '        else:' >> prepare_filter.py
           echo '            print("Point d injection non trouvé")' >> prepare_filter.py
