@@ -11,21 +11,21 @@ logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(levelname)s - %(message)s',
     handlers=[
-        logging.FileHandler('football_odds_update.log'),
+        logging.FileHandler('football_odds_collection.log'),
         logging.StreamHandler()
     ]
 )
 logger = logging.getLogger(__name__)
 
-class FootballOddsUpdater:
+class FootballOddsCollector:
     """
-    Met à jour les cotes de football de manière incrémentale et efficace.
-    Cible les matchs récents et à venir pour maintenir les données à jour.
+    Collecte les cotes de football pour les matchs des 365 derniers jours.
+    Cible les matchs pour lesquels les cotes n'ont pas encore été collectées.
     """
 
     def __init__(self, rapidapi_key: str):
         """
-        Initialise l'updater avec la clé RapidAPI.
+        Initialise le collecteur avec la clé RapidAPI.
         """
         self.api_key = rapidapi_key
         self.base_url = "https://api-football-v1.p.rapidapi.com/v3"
@@ -34,15 +34,12 @@ class FootballOddsUpdater:
             'x-rapidapi-key': self.api_key
         }
 
-        # Fusion des deux listes de ligues pour une couverture complète
         self.all_leagues = {
-            # Big 5
             'ENG1': {'id': 39, 'name': 'Premier League', 'country': 'England'},
             'FRA1': {'id': 61, 'name': 'Ligue 1', 'country': 'France'},
             'ITA1': {'id': 135, 'name': 'Serie A', 'country': 'Italy'},
             'GER1': {'id': 78, 'name': 'Bundesliga', 'country': 'Germany'},
             'SPA1': {'id': 140, 'name': 'La Liga', 'country': 'Spain'},
-            # Ligues étendues
             'NED1': {'id': 88, 'name': 'Eredivisie', 'country': 'Netherlands'},
             'POR1': {'id': 94, 'name': 'Primeira Liga', 'country': 'Portugal'},
             'BEL1': {'id': 144, 'name': 'Jupiler Pro League', 'country': 'Belgium'},
@@ -55,22 +52,20 @@ class FootballOddsUpdater:
             'SAU1': {'id': 307, 'name': 'Saudi Pro League', 'country': 'Saudi Arabia'}
         }
 
-        # Fenêtre de temps pour la mise à jour : 3 jours passés, 7 jours futurs
-        self.end_date = (datetime.now() + timedelta(days=7)).date()
-        self.start_date = (datetime.now() - timedelta(days=3)).date()
+        # Fenêtre de temps pour la collecte : 365 jours passés
+        self.end_date = datetime.now().date()
+        self.start_date = (datetime.now() - timedelta(days=365)).date()
 
-        # Chemins des données
         self.matches_folder = os.path.join("data", "matches")
         self.odds_folder = os.path.join("data", "odds", "raw_data")
         os.makedirs(self.odds_folder, exist_ok=True)
 
-        # Statistiques
         self.stats = {
             'total_requests': 0,
             'fixtures_processed': 0,
             'odds_requests': 0,
             'new_odds_collections': 0,
-            'leagues_updated': set()
+            'leagues_processed': set()
         }
 
     def make_api_request(self, endpoint: str, params: Dict) -> Optional[Dict]:
@@ -79,7 +74,7 @@ class FootballOddsUpdater:
         """
         url = f"{self.base_url}/{endpoint}"
         max_retries = 3
-        wait_time = 5  # secondes
+        wait_time = 5
 
         self.stats['total_requests'] += 1
         for attempt in range(max_retries):
@@ -139,9 +134,9 @@ class FootballOddsUpdater:
             self.stats['new_odds_collections'] += 1
         return processed_odds
 
-    def get_fixtures_to_update(self, league_code: str) -> pd.DataFrame:
+    def get_fixtures_to_collect(self, league_code: str) -> pd.DataFrame:
         """
-        Charge les matchs d'une ligue et les filtre pour la fenêtre de mise à jour.
+        Charge les matchs d'une ligue et les filtre pour la fenêtre de collecte.
         """
         match_file = os.path.join(self.matches_folder, f"{league_code}.csv")
         if not os.path.exists(match_file):
@@ -151,22 +146,21 @@ class FootballOddsUpdater:
         df = pd.read_csv(match_file, parse_dates=['date'])
         df['date_only'] = df['date'].dt.date
 
-        # Filtrer les matchs dans la fenêtre de temps
         fixtures_in_window = df[
             (df['date_only'] >= self.start_date) &
             (df['date_only'] <= self.end_date)
         ].copy()
 
-        logger.info(f"[{league_code}] {len(df)} matchs chargés, {len(fixtures_in_window)} dans la fenêtre de mise à jour.")
+        logger.info(f"[{league_code}] {len(df)} matchs chargés, {len(fixtures_in_window)} dans la fenêtre de collecte.")
         return fixtures_in_window
 
-    def update_league_odds(self, league_code: str):
+    def collect_league_odds(self, league_code: str):
         """
-        Met à jour les cotes pour une seule ligue.
+        Collecte les cotes pour une seule ligue.
         """
-        logger.info(f"--- Mise à jour des cotes pour la ligue: {league_code} ---")
+        logger.info(f"--- Collecte des cotes pour la ligue: {league_code} ---")
 
-        fixtures_to_check = self.get_fixtures_to_update(league_code)
+        fixtures_to_check = self.get_fixtures_to_collect(league_code)
         if fixtures_to_check.empty:
             return
 
@@ -177,61 +171,57 @@ class FootballOddsUpdater:
         logger.info(f"[{league_code}] {len(processed_fixtures)} matchs ont déjà des cotes.")
 
         new_odds_data = []
-        for _, fixture in fixtures_to_check.iterrows():
+        fixtures_to_process = fixtures_to_check[~fixtures_to_check['fixture_id'].isin(processed_fixtures)]
+
+        logger.info(f"[{league_code}] {len(fixtures_to_process)} nouveaux matchs à traiter.")
+
+        for _, fixture in fixtures_to_process.iterrows():
             fixture_id = fixture['fixture_id']
-            status = fixture['status_short']
             self.stats['fixtures_processed'] += 1
 
-            # Condition pour la mise à jour :
-            # 1. Le match n'est pas terminé (pour mettre à jour les cotes pré-match)
-            # 2. Le match est terminé mais n'a pas encore été traité
-            if status != 'FT' or fixture_id not in processed_fixtures:
-                logger.info(f"[{league_code}] Traitement du match {fixture_id} (Status: {status})")
-                odds_data = self.get_fixture_odds(fixture_id)
-                if odds_data:
-                    processed_odds = self.process_odds_data(fixture_id, odds_data)
-                    new_odds_data.extend(processed_odds)
-                time.sleep(1.5) # Respecter les limites de l'API
-            else:
-                logger.debug(f"[{league_code}] Match {fixture_id} ignoré (déjà traité et terminé).")
+            logger.info(f"[{league_code}] Traitement du match {fixture_id}")
+            odds_data = self.get_fixture_odds(fixture_id)
+            if odds_data:
+                processed_odds = self.process_odds_data(fixture_id, odds_data)
+                new_odds_data.extend(processed_odds)
+
+            time.sleep(1.5)
 
         if not new_odds_data:
             logger.info(f"[{league_code}] Aucune nouvelle cote à ajouter.")
             return
 
-        # Sauvegarder les nouvelles données
         new_odds_df = pd.DataFrame(new_odds_data)
         combined_df = pd.concat([existing_odds_df, new_odds_df]).reset_index(drop=True)
 
-        # Dédoublonner en gardant les cotes les plus récentes
         combined_df = combined_df.sort_values('collected_at', ascending=False)
         key_cols = ['fixture_id', 'bookmaker_id', 'bet_type_id', 'bet_value']
         combined_df.drop_duplicates(subset=key_cols, keep='first', inplace=True)
 
         combined_df.to_csv(odds_file_path, index=False, encoding='utf-8')
         logger.info(f"💾 Fichier de cotes pour {league_code} mis à jour: {len(new_odds_df)} nouvelles entrées ajoutées, {len(combined_df)} total.")
-        self.stats['leagues_updated'].add(league_code)
+        self.stats['leagues_processed'].add(league_code)
 
-    def run_update(self):
+    def run_collection(self):
         """
-        Lance le processus de mise à jour pour toutes les ligues.
+        Lance le processus de collecte pour toutes les ligues.
         """
-        logger.info("🚀 === DÉBUT DE LA MISE À JOUR DES COTES ===")
+        logger.info("🚀 === DÉBUT DE LA COLLECTE DES COTES ===")
         logger.info(f"Fenêtre de temps: {self.start_date} à {self.end_date}")
         start_time = datetime.now()
 
         for league_code in self.all_leagues.keys():
             try:
-                self.update_league_odds(league_code)
+                self.collect_league_odds(league_code)
                 logger.info(f"⏱️ Pause de 5 secondes avant la prochaine ligue...")
                 time.sleep(5)
             except Exception as e:
                 logger.error(f"❌ Erreur majeure lors du traitement de {league_code}: {e}", exc_info=True)
 
         duration = datetime.now() - start_time
-        logger.info(f"\n🎉 === MISE À JOUR TERMINÉE ===")
+        logger.info(f"\n🎉 === COLLECTE TERMINÉE ===")
         logger.info(f"⏱️ Durée totale: {duration}")
-        logger.info(f"📊 Ligues mises à jour: {len(self.stats['leagues_updated'])}/{len(self.all_leagues)}")
+        logger.info(f"📊 Ligues traitées: {len(self.stats['leagues_processed'])}/{len(self.all_leagues)}")
         logger.info(f"🏟️ Matchs traités: {self.stats['fixtures_processed']}")
         logger.info(f"📞 Appels API (cotes): {self.stats['odds_requests']}")
         logger.info(f"📈 Nouvelles collections de cotes: {self.stats['new_odds_collections']}")
@@ -246,8 +236,8 @@ def main():
         return
 
     logger.info("✅ Clé API récupérée.")
-    updater = FootballOddsUpdater(RAPIDAPI_KEY)
-    updater.run_update()
+    collector = FootballOddsCollector(RAPIDAPI_KEY)
+    collector.run_collection()
 
 if __name__ == "__main__":
     main()

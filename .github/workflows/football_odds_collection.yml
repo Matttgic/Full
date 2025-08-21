@@ -1,4 +1,4 @@
-name: Football Odds Update
+name: Football Odds Collection
 
 on:
   schedule:
@@ -6,9 +6,9 @@ on:
   workflow_dispatch:
 
 jobs:
-  update-odds:
+  collect-odds:
     runs-on: ubuntu-latest
-    timeout-minutes: 120 # Reduced timeout as the script is more efficient
+    timeout-minutes: 180
 
     permissions:
       contents: write
@@ -46,28 +46,27 @@ jobs:
           exit 1
         fi
 
-    - name: Run Odds Updater Script
+    - name: Run Odds Collector Script
       env:
         RAPIDAPI_KEY: ${{ secrets.RAPIDAPI_KEY }}
       run: |
-        echo "🚀 DÉBUT DE LA MISE À JOUR DES COTES: $(date)"
+        echo "🚀 DÉBUT DE LA COLLECTE DES COTES: $(date)"
 
-        if ! python3 football_odds_updater.py 2>&1 | tee odds_update.log; then
-          echo "❌ Le script de mise à jour a échoué."
+        if ! python3 football_odds_collector.py 2>&1 | tee odds_collection.log; then
+          echo "❌ Le script de collecte a échoué."
           echo "=== Dernières lignes du log ==="
-          tail -50 odds_update.log
+          tail -50 odds_collection.log
           exit 1
         fi
 
-        echo "✅ Script de mise à jour exécuté avec succès."
-        echo "🏁 FIN DE LA MISE À JOUR: $(date)"
+        echo "✅ Script de collecte exécuté avec succès."
+        echo "🏁 FIN DE LA COLLECTE: $(date)"
 
     - name: Commit and Push Changes
       run: |
         git config user.name "GitHub Action"
         git config user.email "action@github.com"
 
-        # Add all changes in the data directory
         git add data/odds/
         git add *.log
 
@@ -79,10 +78,9 @@ jobs:
         echo "📊 Fichiers modifiés à committer:"
         git status --porcelain
 
-        commit_msg="📊 Mise à jour des cotes - $(date '+%Y-%m-%d %H:%M')"
+        commit_msg="📊 Collecte des cotes - $(date '+%Y-%m-%d %H:%M')"
         git commit -m "$commit_msg"
 
-        # Retry push
         for attempt in 1 2 3; do
           if git push; then
             echo "✅ Push réussi (tentative $attempt)."
@@ -99,8 +97,8 @@ jobs:
       if: always()
       uses: actions/upload-artifact@v4
       with:
-        name: odds-update-log-${{ github.run_number }}
+        name: odds-collection-log-${{ github.run_number }}
         path: |
           *.log
         retention-days: 15
-        if-no-files-found: warn 
+        if-no-files-found: warn
