@@ -157,51 +157,56 @@ class FootballOddsCollector:
 
     def collect_league_odds(self, league_code: str):
         """
-        Collecte les cotes pour une seule ligue.
+        Collecte les cotes pour une seule ligue et garantit la création d'un fichier.
         """
         logger.info(f"--- Collecte des cotes pour la ligue: {league_code} ---")
+        odds_file_path = os.path.join(self.odds_folder, f"{league_code}_complete_odds.csv")
+
+        cols = ['fixture_id', 'fixture_date', 'bookmaker_id', 'bookmaker_name', 'bet_type_id', 'bet_type_name', 'bet_value', 'odd', 'collected_at']
+        existing_odds_df = pd.read_csv(odds_file_path) if os.path.exists(odds_file_path) else pd.DataFrame(columns=cols)
 
         fixtures_to_check = self.get_fixtures_to_collect(league_code)
-        if fixtures_to_check.empty:
-            return
-
-        odds_file_path = os.path.join(self.odds_folder, f"{league_code}_complete_odds.csv")
-        existing_odds_df = pd.read_csv(odds_file_path) if os.path.exists(odds_file_path) else pd.DataFrame(columns=['fixture_id'])
-        processed_fixtures = set(existing_odds_df['fixture_id'].unique())
-
-        logger.info(f"[{league_code}] {len(processed_fixtures)} matchs ont déjà des cotes.")
 
         new_odds_data = []
-        fixtures_to_process = fixtures_to_check[~fixtures_to_check['fixture_id'].isin(processed_fixtures)]
+        if not fixtures_to_check.empty:
+            processed_fixtures = set(existing_odds_df['fixture_id'].unique())
+            logger.info(f"[{league_code}] {len(processed_fixtures)} matchs ont déjà des cotes.")
 
-        logger.info(f"[{league_code}] {len(fixtures_to_process)} nouveaux matchs à traiter.")
+            fixtures_to_process = fixtures_to_check[~fixtures_to_check['fixture_id'].isin(processed_fixtures)]
+            logger.info(f"[{league_code}] {len(fixtures_to_process)} nouveaux matchs à traiter.")
 
-        for _, fixture in fixtures_to_process.iterrows():
-            fixture_id = fixture['fixture_id']
-            self.stats['fixtures_processed'] += 1
+            for _, fixture in fixtures_to_process.iterrows():
+                fixture_id = fixture['fixture_id']
+                self.stats['fixtures_processed'] += 1
 
-            logger.info(f"[{league_code}] Traitement du match {fixture_id}")
-            odds_data = self.get_fixture_odds(fixture_id)
-            if odds_data:
-                processed_odds = self.process_odds_data(fixture_id, odds_data)
-                new_odds_data.extend(processed_odds)
+                logger.info(f"[{league_code}] Traitement du match {fixture_id}")
+                odds_data = self.get_fixture_odds(fixture_id)
+                if odds_data:
+                    processed_odds = self.process_odds_data(fixture_id, odds_data)
+                    new_odds_data.extend(processed_odds)
 
-            time.sleep(1.5)
+                time.sleep(1.5)
 
         if not new_odds_data:
             logger.info(f"[{league_code}] Aucune nouvelle cote à ajouter.")
-            return
 
         new_odds_df = pd.DataFrame(new_odds_data)
         combined_df = pd.concat([existing_odds_df, new_odds_df]).reset_index(drop=True)
 
-        combined_df = combined_df.sort_values('collected_at', ascending=False)
-        key_cols = ['fixture_id', 'bookmaker_id', 'bet_type_id', 'bet_value']
-        combined_df.drop_duplicates(subset=key_cols, keep='first', inplace=True)
+        if not combined_df.empty:
+            combined_df = combined_df.sort_values('collected_at', ascending=False)
+            key_cols = ['fixture_id', 'bookmaker_id', 'bet_type_id', 'bet_value']
+            combined_df.drop_duplicates(subset=key_cols, keep='first', inplace=True)
 
         combined_df.to_csv(odds_file_path, index=False, encoding='utf-8')
-        logger.info(f"💾 Fichier de cotes pour {league_code} mis à jour: {len(new_odds_df)} nouvelles entrées ajoutées, {len(combined_df)} total.")
+
+        if new_odds_data:
+            logger.info(f"💾 Fichier de cotes pour {league_code} mis à jour: {len(new_odds_df)} nouvelles entrées ajoutées, {len(combined_df)} total.")
+        else:
+            logger.info(f"💾 Fichier de cotes pour {league_code} est à jour. {len(combined_df)} entrées au total.")
+
         self.stats['leagues_processed'].add(league_code)
+
 
     def run_collection(self, league_to_process: Optional[str] = None):
         """
