@@ -4,6 +4,7 @@ import os
 import time
 from datetime import datetime, timedelta
 import logging
+import argparse
 from typing import Dict, List, Optional, Set
 
 # Configuration du logging
@@ -202,26 +203,34 @@ class FootballOddsCollector:
         logger.info(f"💾 Fichier de cotes pour {league_code} mis à jour: {len(new_odds_df)} nouvelles entrées ajoutées, {len(combined_df)} total.")
         self.stats['leagues_processed'].add(league_code)
 
-    def run_collection(self):
+    def run_collection(self, league_to_process: Optional[str] = None):
         """
-        Lance le processus de collecte pour toutes les ligues.
+        Lance le processus de collecte. Si une ligue est spécifiée, ne traite que celle-ci.
+        Sinon, traite toutes les ligues.
         """
         logger.info("🚀 === DÉBUT DE LA COLLECTE DES COTES ===")
         logger.info(f"Fenêtre de temps: {self.start_date} à {self.end_date}")
         start_time = datetime.now()
 
-        for league_code in self.all_leagues.keys():
+        leagues_to_run = [league_to_process] if league_to_process else list(self.all_leagues.keys())
+
+        if league_to_process and league_to_process not in self.all_leagues:
+            logger.error(f"❌ Code de ligue inconnu: {league_to_process}")
+            return
+
+        for league_code in leagues_to_run:
             try:
                 self.collect_league_odds(league_code)
-                logger.info(f"⏱️ Pause de 5 secondes avant la prochaine ligue...")
-                time.sleep(5)
+                if len(leagues_to_run) > 1:
+                    logger.info(f"⏱️ Pause de 5 secondes avant la prochaine ligue...")
+                    time.sleep(5)
             except Exception as e:
                 logger.error(f"❌ Erreur majeure lors du traitement de {league_code}: {e}", exc_info=True)
 
         duration = datetime.now() - start_time
         logger.info(f"\n🎉 === COLLECTE TERMINÉE ===")
         logger.info(f"⏱️ Durée totale: {duration}")
-        logger.info(f"📊 Ligues traitées: {len(self.stats['leagues_processed'])}/{len(self.all_leagues)}")
+        logger.info(f"📊 Ligues traitées: {len(self.stats['leagues_processed'])}/{len(leagues_to_run)}")
         logger.info(f"🏟️ Matchs traités: {self.stats['fixtures_processed']}")
         logger.info(f"📞 Appels API (cotes): {self.stats['odds_requests']}")
         logger.info(f"📈 Nouvelles collections de cotes: {self.stats['new_odds_collections']}")
@@ -230,6 +239,10 @@ def main():
     """
     Point d'entrée du script.
     """
+    parser = argparse.ArgumentParser(description="Collecteur de cotes de football.")
+    parser.add_argument("--league", type=str, help="Code de la ligue à traiter (ex: ENG1). Si non spécifié, toutes les ligues sont traitées.")
+    args = parser.parse_args()
+
     RAPIDAPI_KEY = os.environ.get('RAPIDAPI_KEY')
     if not RAPIDAPI_KEY:
         logger.error("⚠️ Clé RAPIDAPI_KEY non trouvée. Assurez-vous que le secret est configuré.")
@@ -237,7 +250,7 @@ def main():
 
     logger.info("✅ Clé API récupérée.")
     collector = FootballOddsCollector(RAPIDAPI_KEY)
-    collector.run_collection()
+    collector.run_collection(league_to_process=args.league)
 
 if __name__ == "__main__":
     main()
