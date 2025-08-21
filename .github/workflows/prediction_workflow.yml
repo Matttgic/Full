@@ -2,7 +2,7 @@ name: Football Match Prediction
 
 on:
   schedule:
-    - cron: '0 11,14,17,20 * * *' # Run at 11, 14, 17, and 20 UTC
+    - cron: '0 9,12,15,18 * * *' # Corresponds to 11h, 14h, 17h, 20h in Paris (CEST/UTC+2)
   workflow_dispatch:
 
 jobs:
