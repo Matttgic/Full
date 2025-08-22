@@ -22,38 +22,37 @@ jobs:
         env:
           RAPIDAPI_KEY: ${{ secrets.RAPIDAPI_KEY }}
         run: |
+          python -c '
           import requests
           import os
           import json
           from datetime import datetime
 
-          # League IDs we are interested in
           LEAGUE_IDS = [39, 61, 135, 78, 140, 88, 94, 144, 40, 62, 136, 79, 141, 203, 307]
-
-          today_str = datetime.utcnow().strftime('%Y-%m-%d')
+          today_str = datetime.utcnow().strftime("%Y-%m-%d")
 
           url = "https://api-football-v1.p.rapidapi.com/v3/fixtures"
           params = {"date": today_str}
           headers = {
-              'x-rapidapi-host': "api-football-v1.p.rapidapi.com",
-              'x-rapidapi-key': os.environ['RAPIDAPI_KEY']
+              "x-rapidapi-host": "api-football-v1.p.rapidapi.com",
+              "x-rapidapi-key": os.environ["RAPIDAPI_KEY"]
           }
 
           response = requests.get(url, headers=headers, params=params)
           response.raise_for_status()
-          data = response.json()['response']
+          data = response.json()["response"]
 
           fixture_ids = [
-              item['fixture']['id']
+              item["fixture"]["id"]
               for item in data
-              if item['league']['id'] in LEAGUE_IDS and item['fixture']['status']['short'] == 'NS'
+              if item["league"]["id"] in LEAGUE_IDS and item["fixture"]["status"]["short"] == "NS"
           ]
 
           print(f"Found {len(fixture_ids)} fixtures for today: {fixture_ids}")
 
-          # Set the output for the next job
-          with open(os.environ['GITHUB_OUTPUT'], 'a') as hf:
-              print(f'fixtures={json.dumps(fixture_ids)}', file=hf)
+          with open(os.environ["GITHUB_OUTPUT"], "a") as hf:
+              print(f"fixtures={json.dumps(fixture_ids)}", file=hf)
+          '
 
   run_analysis:
     needs: get_daily_fixtures
