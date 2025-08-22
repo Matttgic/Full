@@ -31,11 +31,25 @@ def create_feature_matrix(df: pd.DataFrame) -> pd.DataFrame:
     if df.empty:
         return pd.DataFrame()
 
+    # Filter for key bet types to create a stable feature set
+    df = df[df['bet_type_name'].isin(config.KEY_BET_TYPES)].copy()
+    if df.empty:
+        logging.warning("No data left after filtering for key bet types.")
+        return pd.DataFrame()
+
     df['bet_identifier'] = df['bet_type_name'] + '_' + df['bet_value'].astype(str)
 
     bookmaker_counts = df.groupby(['fixture_id', 'bet_identifier'])['bookmaker_id'].nunique().reset_index()
     reliable_bets = bookmaker_counts[bookmaker_counts['bookmaker_id'] >= config.MIN_BOOKMAKERS_THRESHOLD]
+
+    if reliable_bets.empty:
+        logging.warning("No reliable bets found after MIN_BOOKMAKERS_THRESHOLD filter.")
+        return pd.DataFrame()
+
     reliable_df = pd.merge(df, reliable_bets[['fixture_id', 'bet_identifier']], on=['fixture_id', 'bet_identifier'])
+
+    if reliable_df.empty:
+        return pd.DataFrame()
 
     mean_odds = reliable_df.groupby(['fixture_id', 'bet_identifier'])['odd'].mean().reset_index()
 
