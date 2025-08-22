@@ -122,19 +122,19 @@ def get_api_odds_for_fixture(fixture_id: int) -> pd.DataFrame:
     return create_feature_matrix(pd.DataFrame(processed_odds)) if processed_odds else pd.DataFrame()
 
 def find_similar_matches(target_vector: pd.Series, historical_matrix: pd.DataFrame):
-    """Finds similar matches and returns the full distance series."""
+    """Finds similar matches and returns a dictionary with distances and common bets."""
     common_bets = target_vector.index.intersection(historical_matrix.columns)
     logging.info(f"Found {len(common_bets)} common bet types for comparison.")
 
-    if len(common_bets) < 5: # Add a sanity check
+    if len(common_bets) < 5:
         logging.warning("Too few common bet types to make a reliable comparison.")
-        return pd.Series(dtype=float), common_bets.tolist()
+        return {"distances": pd.Series(dtype=float), "common_bets": common_bets.tolist()}
 
     historical_aligned = historical_matrix[common_bets]
     target_aligned = target_vector[common_bets]
 
     distance = np.abs(historical_aligned - target_aligned).mean(axis=1)
-    return distance.sort_values(), common_bets.tolist()
+    return {"distances": distance.sort_values(), "common_bets": common_bets.tolist()}
 
 def analyze_fixture(fixture_id: int):
     """Main analysis workflow for a single fixture with enhanced diagnostics."""
@@ -154,7 +154,9 @@ def analyze_fixture(fixture_id: int):
         target_vector = target_odds_vector.iloc[0]
         historical_matrix = historical_df.drop(columns=['result', 'home_team_name', 'away_team_name'], errors='ignore')
 
-        all_distances, common_bets = find_similar_matches(target_vector, historical_matrix)
+        similarity_results = find_similar_matches(target_vector, historical_matrix)
+        all_distances = similarity_results["distances"]
+        common_bets = similarity_results["common_bets"]
 
         report['diagnostics'] = {
             'common_bets_count': len(common_bets),
