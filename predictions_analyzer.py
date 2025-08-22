@@ -9,6 +9,7 @@ import numpy as np
 import os
 import glob
 from datetime import datetime, date, timedelta
+from typing import Dict
 import logging
 import argparse
 
