@@ -118,6 +118,7 @@ jobs:
       - name: Aggregate Predictions
         id: aggregate
         run: |
+          python -c '
           import pandas as pd
           import os
           import glob
@@ -127,53 +128,48 @@ jobs:
 
           if not prediction_files:
               print("No new predictions to process.")
-              # Set output to false to skip commit step
-              with open(os.environ['GITHUB_OUTPUT'], 'a') as hf:
-                  print(f'has_changes=false', file=hf)
+              with open(os.environ["GITHUB_OUTPUT"], "a") as hf:
+                  print(f"has_changes=false", file=hf)
               exit()
 
           all_predictions = []
           for f in prediction_files:
-              with open(f, 'r') as file:
+              with open(f, "r") as file:
                   data = json.load(file)
-                  if data['status'] == 'success' and data['probabilities']:
-                      # Flatten the data for the CSV
+                  if data.get("status") == "success" and data.get("probabilities"):
                       row = {
-                          'fixture_id': data['fixture_id'],
-                          'prediction_timestamp': data['prediction_timestamp'],
-                          'similar_matches_count': data['similar_matches_count'],
-                          'avg_similarity_score': data['avg_similarity_score'],
+                          "fixture_id": data["fixture_id"],
+                          "prediction_timestamp": data["prediction_timestamp"],
+                          "similar_matches_count": data["similar_matches_count"],
+                          "avg_similarity_score": data["avg_similarity_score"],
                       }
-                      # Add probabilities as columns
-                      for outcome, prob in data['probabilities'].items():
-                          row[f'prob_{outcome}'] = prob
+                      for outcome, prob in data["probabilities"].items():
+                          row[f"prob_{outcome}"] = prob
                       all_predictions.append(row)
 
           if not all_predictions:
               print("All predictions failed or found no similar matches.")
-              with open(os.environ['GITHUB_OUTPUT'], 'a') as hf:
-                  print(f'has_changes=false', file=hf)
+              with open(os.environ["GITHUB_OUTPUT"], "a") as hf:
+                  print(f"has_changes=false", file=hf)
               exit()
 
-          # Create the daily predictions DataFrame
           daily_df = pd.DataFrame(all_predictions)
-          daily_df.to_csv('predictions_du_jour.csv', index=False)
+          daily_df.to_csv("predictions_du_jour.csv", index=False)
           print("Daily predictions file created.")
 
-          # Create or update the history file
-          history_path = 'historique_predictions.csv'
+          history_path = "historique_predictions.csv"
           history_df = pd.read_csv(history_path) if os.path.exists(history_path) else pd.DataFrame()
 
           combined_history = pd.concat([history_df, daily_df], ignore_index=True)
-          # Update existing entries with the latest prediction
-          combined_history.drop_duplicates(subset=['fixture_id'], keep='last', inplace=True)
-          combined_history.sort_values(by='prediction_timestamp', ascending=False, inplace=True)
+          combined_history.drop_duplicates(subset=["fixture_id"], keep="last", inplace=True)
+          combined_history.sort_values(by="prediction_timestamp", ascending=False, inplace=True)
 
           combined_history.to_csv(history_path, index=False)
           print("Prediction history file updated.")
 
-          with open(os.environ['GITHUB_OUTPUT'], 'a') as hf:
-              print(f'has_changes=true', file=hf)
+          with open(os.environ["GITHUB_OUTPUT"], "a") as hf:
+              print(f"has_changes=true", file=hf)
+          '
 
       - name: Commit and Push Changes
         if: steps.aggregate.outputs.has_changes == 'true'
