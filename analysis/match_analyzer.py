@@ -32,6 +32,11 @@ def create_feature_matrix(df: pd.DataFrame) -> pd.DataFrame:
     if df.empty:
         return pd.DataFrame()
 
+    # Ensure the 'odd' column is numeric, coercing errors
+    df['odd'] = pd.to_numeric(df['odd'], errors='coerce')
+    df.dropna(subset=['odd'], inplace=True)
+
+    # Filter for key bet types to create a stable feature set
     df = df[df['bet_type_name'].isin(config.KEY_BET_TYPES)].copy()
     if df.empty:
         logging.warning("No data left after filtering for key bet types.")
