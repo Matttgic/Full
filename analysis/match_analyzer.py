@@ -25,13 +25,13 @@ def load_all_csvs(directory_path: str) -> pd.DataFrame:
 def create_feature_matrix(df: pd.DataFrame) -> pd.DataFrame:
     """
     Creates a feature matrix from raw odds data.
+    - Filters for key bet types.
     - Calculates the mean odds for each bet type per fixture.
     - Pivots the table to have one row per fixture and columns for each bet.
     """
     if df.empty:
         return pd.DataFrame()
 
-    # Filter for key bet types to create a stable feature set
     df = df[df['bet_type_name'].isin(config.KEY_BET_TYPES)].copy()
     if df.empty:
         logging.warning("No data left after filtering for key bet types.")
@@ -59,7 +59,7 @@ def create_feature_matrix(df: pd.DataFrame) -> pd.DataFrame:
     return feature_matrix
 
 def get_match_results(df: pd.DataFrame) -> pd.DataFrame:
-    """Extracts final match results (who won)."""
+    """Extracts final match results."""
     if df.empty:
         return pd.DataFrame()
 
@@ -76,7 +76,7 @@ def get_match_results(df: pd.DataFrame) -> pd.DataFrame:
     return results_df[['fixture_id', 'home_team_name', 'away_team_name', 'result']].drop_duplicates()
 
 def preprocess_and_save_data():
-    """Orchestrates the data loading and preprocessing, saving the result."""
+    """Orchestrates the data loading and preprocessing."""
     logging.info("Starting data preprocessing...")
     all_odds_df = load_all_csvs(config.ODDS_DATA_DIR)
     all_matches_df = load_all_csvs(config.MATCH_DATA_DIR)
@@ -98,117 +98,93 @@ def preprocess_and_save_data():
         logging.error(f"Failed to save data to Parquet file: {e}")
 
 def get_api_odds_for_fixture(fixture_id: int) -> pd.DataFrame:
-    """Fetches and processes odds for a single target fixture from the API."""
+    """Fetches and processes odds for a single target fixture."""
     logging.info(f"Fetching odds for target fixture: {fixture_id}")
     api_key = os.environ.get('RAPIDAPI_KEY', config.RAPIDAPI_KEY)
     if not api_key:
-        raise ValueError("RapidAPI key not found in config or environment variables.")
+        raise ValueError("RapidAPI key not found.")
 
-    url = "https://api-football-v1.p.rapidapi.com/v3/odds"
-    params = {'fixture': str(fixture_id)}
-    headers = {
-        'x-rapidapi-host': 'api-football-v1.p.rapidapi.com',
-        'x-rapidapi-key': api_key
-    }
-    response = requests.get(url, headers=headers, params=params)
+    response = requests.get(
+        "https://api-football-v1.p.rapidapi.com/v3/odds",
+        params={'fixture': str(fixture_id)},
+        headers={'x-rapidapi-host': "api-football-v1.p.rapidapi.com", 'x-rapidapi-key': api_key}
+    )
     response.raise_for_status()
     data = response.json()['response']
 
-    processed_odds = []
-    for odds_entry in data:
-        for bookmaker in odds_entry.get('bookmakers', []):
-            for bet in bookmaker.get('bets', []):
-                for value in bet.get('values', []):
-                    processed_odds.append({
-                        'fixture_id': fixture_id,
-                        'bet_type_name': bet['name'],
-                        'bet_value': value['value'],
-                        'odd': value['odd'],
-                        'bookmaker_id': bookmaker['id']
-                    })
+    processed_odds = [{'fixture_id': fixture_id, 'bet_type_name': bet['name'], 'bet_value': value['value'], 'odd': value['odd'], 'bookmaker_id': bookmaker['id']} for odds_entry in data for bookmaker in odds_entry.get('bookmakers', []) for bet in bookmaker.get('bets', []) for value in bet.get('values', [])]
 
-    if not processed_odds:
-        return pd.DataFrame()
+    return create_feature_matrix(pd.DataFrame(processed_odds)) if processed_odds else pd.DataFrame()
 
-    odds_df = pd.DataFrame(processed_odds)
-    return create_feature_matrix(odds_df)
-
-def find_similar_matches(target_vector: pd.Series, historical_matrix: pd.DataFrame, threshold: float):
-    """Finds similar matches based on odds distance."""
+def find_similar_matches(target_vector: pd.Series, historical_matrix: pd.DataFrame):
+    """Finds similar matches and returns the full distance series."""
     common_bets = target_vector.index.intersection(historical_matrix.columns)
+    logging.info(f"Found {len(common_bets)} common bet types for comparison.")
 
-    if len(common_bets) == 0:
-        logging.warning("No common bet types found between target and historical data.")
-        return pd.Series(dtype=float)
+    if len(common_bets) < 5: # Add a sanity check
+        logging.warning("Too few common bet types to make a reliable comparison.")
+        return pd.Series(dtype=float), common_bets.tolist()
 
     historical_aligned = historical_matrix[common_bets]
     target_aligned = target_vector[common_bets]
 
-    diff = np.abs(historical_aligned - target_aligned)
-    distance = diff.mean(axis=1)
-
-    return distance[distance < threshold].sort_values()
+    distance = np.abs(historical_aligned - target_aligned).mean(axis=1)
+    return distance.sort_values(), common_bets.tolist()
 
 def analyze_fixture(fixture_id: int):
-    """Main analysis workflow for a single fixture."""
+    """Main analysis workflow for a single fixture with enhanced diagnostics."""
     logging.info(f"--- Starting Analysis for Fixture ID: {fixture_id} ---")
-
-    # Define output directory and ensure it exists
-    output_dir = 'analysis/predictions'
+    output_dir, output_path = 'analysis/predictions', os.path.join('analysis/predictions', f"prediction_{fixture_id}.json")
     os.makedirs(output_dir, exist_ok=True)
-    output_path = os.path.join(output_dir, f"prediction_{fixture_id}.json")
 
-    report = {
-        'fixture_id': fixture_id,
-        'prediction_timestamp': datetime.now().isoformat(),
-        'status': 'failed',
-        'error_message': '',
-        'similar_matches_count': 0,
-        'avg_similarity_score': None,
-        'probabilities': {}
-    }
+    report = {'fixture_id': fixture_id, 'prediction_timestamp': datetime.now().isoformat(), 'status': 'failed', 'diagnostics': {}}
 
     try:
         historical_df = pd.read_parquet(config.PROCESSED_DATA_PATH)
         target_odds_vector = get_api_odds_for_fixture(fixture_id)
 
         if target_odds_vector.empty:
-            raise ValueError(f"Could not retrieve or process odds for fixture {fixture_id}.")
+            raise ValueError("Could not retrieve or process odds for the target fixture.")
 
         target_vector = target_odds_vector.iloc[0]
         historical_matrix = historical_df.drop(columns=['result', 'home_team_name', 'away_team_name'], errors='ignore')
 
-        similar_matches = find_similar_matches(target_vector, historical_matrix, config.SIMILARITY_THRESHOLD)
+        all_distances, common_bets = find_similar_matches(target_vector, historical_matrix)
+
+        report['diagnostics'] = {
+            'common_bets_count': len(common_bets),
+            'distance_stats': all_distances.describe().to_dict() if not all_distances.empty else None
+        }
+
+        if all_distances.empty:
+            raise ValueError("Could not calculate distances, likely due to no common bets.")
+
+        similar_matches = all_distances[all_distances < config.SIMILARITY_THRESHOLD]
 
         if similar_matches.empty:
             report.update({'status': 'success', 'error_message': 'No historically similar matches found.'})
         else:
             results_of_similar = historical_df.loc[similar_matches.index]['result']
-            result_stats = results_of_similar.value_counts(normalize=True).to_dict()
-
             report.update({
                 'status': 'success',
                 'similar_matches_count': len(similar_matches),
                 'avg_similarity_score': similar_matches.mean(),
-                'probabilities': {k: v * 100 for k, v in result_stats.items()}
+                'probabilities': {k: v * 100 for k, v in results_of_similar.value_counts(normalize=True).to_dict()}
             })
 
     except Exception as e:
         logging.error(f"Analysis for fixture {fixture_id} failed: {e}")
         report['error_message'] = str(e)
 
-    # Save the report to a JSON file
     with open(output_path, 'w') as f:
         json.dump(report, f, indent=4)
-
     logging.info(f"Analysis report for fixture {fixture_id} saved to {output_path}")
 
 def main():
-    """Main entry point to run preprocessing or analysis."""
+    """Main entry point for preprocessing or analysis."""
     parser = argparse.ArgumentParser(description="Football Match Odds Analyzer.")
-    parser.add_argument('--preprocess', action='store_true', help="Run the data preprocessing and save the feature matrix.")
+    parser.add_argument('--preprocess', action='store_true', help="Run data preprocessing.")
     parser.add_argument('--analyze', type=int, metavar='FIXTURE_ID', help="Analyze a specific fixture ID.")
-
     args = parser.parse_args()
 
     if args.preprocess:
