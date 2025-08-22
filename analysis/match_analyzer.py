@@ -180,6 +180,11 @@ def analyze_fixture(fixture_id: int):
         json.dump(report, f, indent=4)
     logging.info(f"Analysis report for fixture {fixture_id} saved to {output_path}")
 
+    # Also print the full report to stdout for debugging in workflow logs
+    print("\n--- JSON DIAGNOSTIC REPORT ---")
+    print(json.dumps(report, indent=4))
+    print("--------------------------\n")
+
 def main():
     """Main entry point for preprocessing or analysis."""
     parser = argparse.ArgumentParser(description="Football Match Odds Analyzer.")
