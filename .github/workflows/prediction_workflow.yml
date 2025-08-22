@@ -16,7 +16,7 @@ jobs:
         with:
           python-version: '3.11'
       - name: Install dependencies
-        run: pip install pandas pyarrow fastparquet
+        run: pip install pandas pyarrow fastparquet requests
       - name: Preprocess historical data
         run: python3 analyzer.py --preprocess
       - name: Upload processed data artifact
