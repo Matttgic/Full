@@ -7,7 +7,7 @@ import argparse
 import requests
 import json
 from datetime import datetime
-from . import config
+import config
 
 # Configure logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -127,7 +127,7 @@ def find_similar_matches(target_vector: pd.Series, historical_matrix: pd.DataFra
     logging.info(f"Found {len(common_bets)} common bet types for comparison.")
 
     if len(common_bets) < 5:
-        logging.warning("Too few common bet types to make a reliable comparison.")
+        logging.warning("Too few common bet types for a reliable comparison.")
         return {"distances": pd.Series(dtype=float), "common_bets": common_bets.tolist()}
 
     historical_aligned = historical_matrix[common_bets]
@@ -139,8 +139,9 @@ def find_similar_matches(target_vector: pd.Series, historical_matrix: pd.DataFra
 def analyze_fixture(fixture_id: int):
     """Main analysis workflow for a single fixture with enhanced diagnostics."""
     logging.info(f"--- Starting Analysis for Fixture ID: {fixture_id} ---")
-    output_dir, output_path = 'analysis/predictions', os.path.join('analysis/predictions', f"prediction_{fixture_id}.json")
+    output_dir = 'predictions'
     os.makedirs(output_dir, exist_ok=True)
+    output_path = os.path.join(output_dir, f"prediction_{fixture_id}.json")
 
     report = {'fixture_id': fixture_id, 'prediction_timestamp': datetime.now().isoformat(), 'status': 'failed', 'diagnostics': {}}
 
@@ -187,7 +188,6 @@ def analyze_fixture(fixture_id: int):
         json.dump(report, f, indent=4)
     logging.info(f"Analysis report for fixture {fixture_id} saved to {output_path}")
 
-    # Also print the full report to stdout for debugging in workflow logs
     print("\n--- JSON DIAGNOSTIC REPORT ---")
     print(json.dumps(report, indent=4))
     print("--------------------------\n")
