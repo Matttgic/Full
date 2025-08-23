@@ -254,6 +254,38 @@ class PredictionsAnalyzer:
         
         logger.info("\n✅ === ANALYSE TERMINÉE ===")
 
+    def enrich_with_results(self, predictions_df: pd.DataFrame) -> pd.DataFrame:
+        """
+        Enrichit les prédictions avec les résultats réels des matchs.
+        """
+        logger.info("Enrichissement des prédictions avec les résultats des matchs...")
+
+        # 1. Charger tous les fichiers de résultats de matchs
+        matches_path = 'data/matches'
+        all_matches_files = glob.glob(os.path.join(matches_path, "*.csv"))
+
+        if not all_matches_files:
+            logger.error("Aucun fichier de résultat de match trouvé.")
+            return predictions_df
+
+        matches_df = pd.concat((pd.read_csv(f) for f in all_matches_files), ignore_index=True)
+
+        # 2. Sélectionner les colonnes pertinentes et supprimer les doublons
+        results_df = matches_df[['fixture_id', 'home_goals_fulltime', 'away_goals_fulltime']].copy()
+        results_df.dropna(subset=['home_goals_fulltime', 'away_goals_fulltime'], inplace=True)
+        results_df.drop_duplicates(subset=['fixture_id'], keep='first', inplace=True)
+
+        # 3. Fusionner les prédictions avec les résultats
+        enriched_df = pd.merge(predictions_df, results_df, on='fixture_id', how='left')
+
+        # 4. Sauvegarder le fichier enrichi
+        output_file = os.path.join(self.predictions_dir, 'historical_elo_predictions_with_results.csv')
+        enriched_df.to_csv(output_file, index=False)
+
+        logger.info(f"Prédictions enrichies sauvegardées dans {output_file}")
+
+        return enriched_df
+
 def main():
     """Point d'entrée principal"""
     parser = argparse.ArgumentParser(description="Analyseur de prédictions de football")
