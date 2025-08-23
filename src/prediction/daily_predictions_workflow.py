@@ -265,7 +265,7 @@ class DailyPredictionsWorkflow:
                         'total_historical_matches': len(historical_odds),
                         'avg_distance': round(avg_distance, 4),
                         'target_odd': target_odd,
-                        'confidence_score': min(100, (len(similar_matches) / 50) * 100)  # Score sur 100
+                        'similarity_reference_count': len(similar_matches)
                     }
         
         return similarity_results
@@ -278,7 +278,7 @@ class DailyPredictionsWorkflow:
         daily_filepath = os.path.join(self.predictions_dir, daily_filename)
         historical_filepath = os.path.join(self.predictions_dir, "historical_predictions.csv")
         
-        all_predictions = []
+        all_long_format_predictions = []
         
         for fixture_data in fixtures_data:
             fixture_id = fixture_data.get('fixture', {}).get('id')
@@ -303,7 +303,6 @@ class DailyPredictionsWorkflow:
             # Calculer les similarités
             similarities = self.calculate_similarity_for_all_bets(target_odds)
             
-            # Préparer les données de base
             base_data = {
                 'date': self.today.strftime('%Y-%m-%d'),
                 'match_time': fixture_info.get('date', ''),
@@ -315,33 +314,35 @@ class DailyPredictionsWorkflow:
                 'away_team': teams_info.get('away', {}).get('name', ''),
                 'venue': fixture_info.get('venue', {}).get('name', ''),
                 'status': fixture_info.get('status', {}).get('long', ''),
-                'total_bet_types_analyzed': len(similarities),
                 'analysis_timestamp': datetime.now().isoformat()
             }
             
-            # Ajouter les données de similarité pour chaque type de pari
-            prediction_row = base_data.copy()
-            
-            for bet_identifier, sim_data in similarities.items():
-                # Nettoyer le nom pour les colonnes CSV
-                clean_bet_name = bet_identifier.replace(' ', '_').replace('/', '_').replace('-', '_')
-                
-                prediction_row.update({
-                    f"{clean_bet_name}_target_odd": sim_data['target_odd'],
-                    f"{clean_bet_name}_similarity_pct": sim_data['similarity_percentage'],
-                    f"{clean_bet_name}_similar_matches": sim_data['similar_matches_count'],
-                    f"{clean_bet_name}_confidence": sim_data['confidence_score']
-                })
-            
-            all_predictions.append(prediction_row)
+            if not similarities:
+                row = base_data.copy()
+                row['bet_type'] = "NO_BETS"
+                all_long_format_predictions.append(row)
+            else:
+                for bet_identifier, sim_data in similarities.items():
+                    bet_type, bet_value = bet_identifier.split('_', 1)
+                    row = base_data.copy()
+                    row.update({
+                        'bet_type': bet_type,
+                        'bet_value': bet_value,
+                        'target_odd': sim_data['target_odd'],
+                        'similarity_pct': sim_data['similarity_percentage'],
+                        'similar_matches_count': sim_data['similar_matches_count'],
+                        'similarity_reference_count': sim_data['similarity_reference_count']
+                    })
+                    all_long_format_predictions.append(row)
+
             time.sleep(1)  # Pause entre les appels API
         
-        if not all_predictions:
+        if not all_long_format_predictions:
             logger.warning("Aucune prédiction générée")
             return "", ""
         
         # Créer DataFrame
-        predictions_df = pd.DataFrame(all_predictions)
+        predictions_df = pd.DataFrame(all_long_format_predictions)
         
         # Sauvegarder CSV quotidien
         predictions_df.to_csv(daily_filepath, index=False, encoding='utf-8')

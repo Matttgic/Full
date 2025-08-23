@@ -49,7 +49,7 @@ jobs:
       env:
         RAPIDAPI_KEY: ${{ secrets.RAPIDAPI_KEY }}
       run: |
-        python football_data_updater.py
+        python src/data_processing/football_data_updater.py
     
     # Étape 7: Vérification des changements après mise à jour
     - name: Check changes after update

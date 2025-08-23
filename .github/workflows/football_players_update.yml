@@ -102,7 +102,7 @@ jobs:
         RAPIDAPI_KEY: ${{ secrets.RAPIDAPI_KEY }}
       run: |
         echo "🚀 Début de la mise à jour des données joueurs..."
-        python football_players_updater.py
+        python src/data_processing/football_players_updater.py
     
     # Étape 8: Vérification des changements après mise à jour
     - name: Check changes after update

@@ -36,7 +36,7 @@ jobs:
       env:
         RAPIDAPI_KEY: ${{ secrets.RAPIDAPI_KEY }}
       run: |
-        python football_data_collector_extended.py
+        python src/data_processing/football_data_collector_extended.py
     
     # Étape 6: Commit et push des nouveaux fichiers CSV
     - name: Commit and push changes
