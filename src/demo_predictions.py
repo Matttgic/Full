@@ -96,6 +96,21 @@ class DemoPredictionsWorkflow:
         df['odd'] = pd.to_numeric(df['odd'], errors='coerce')
         df.dropna(subset=['odd'], inplace=True)
         
+        # === FILTRAGE DES TYPES DE PARIS ===
+        # On ne garde que les types de paris demandés pour l'analyse
+        allowed_bet_types = [
+            'Match Winner',       # Pour 1X2
+            'Both Teams Score',   # Pour BTTS
+            'Goals Over/Under'    # Pour Over/Under
+        ]
+        df = df[df['bet_type_name'].isin(allowed_bet_types)]
+
+        if df.empty:
+            logger.warning("Aucun des types de paris autorisés n'a été trouvé dans les données historiques.")
+            return pd.DataFrame()
+
+        logger.info(f"Paris filtrés. Gardés: {df['bet_type_name'].nunique()} types de paris principaux.")
+
         df['bet_identifier'] = df['bet_type_name'].astype(str) + '_' + df['bet_value'].astype(str)
         
         # Filtrer les paris fiables
