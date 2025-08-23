@@ -33,7 +33,7 @@ def test_analyzer():
     logger.info("📊 === TEST DE L'ANALYSEUR ===")
     
     try:
-        from predictions_analyzer import PredictionsAnalyzer
+        from analysis.predictions_analyzer import PredictionsAnalyzer
         import pandas as pd
         
         analyzer = PredictionsAnalyzer()
