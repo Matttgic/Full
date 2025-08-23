@@ -7,11 +7,12 @@ import logging
 from typing import Dict, List, Optional
 
 # Configuration du logging pour la mise à jour
+os.makedirs('logs', exist_ok=True)
 logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(levelname)s - %(message)s',
     handlers=[
-        logging.FileHandler('football_data_update.log'),
+        logging.FileHandler('logs/football_data_update.log'),
         logging.StreamHandler()
     ]
 )

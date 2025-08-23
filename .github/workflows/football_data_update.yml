@@ -66,7 +66,7 @@ jobs:
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         git add data/*.csv
-        git add football_data_update.log
+        git add logs/football_data_update.log
         
         # Vérifier s'il y a des changements à committer
         if git diff --staged --quiet; then
@@ -84,7 +84,7 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: football-update-logs
-        path: football_data_update.log
+        path: logs/football_data_update.log
     
     # Étape 10: Résumé final
     - name: Display update summary
@@ -100,6 +100,6 @@ jobs:
         du -h data/*.csv 2>/dev/null || echo "Aucun fichier CSV trouvé"
         echo ""
         echo "Dernières lignes du log:"
-        tail -15 football_data_update.log 2>/dev/null || echo "Aucun log trouvé"
+        tail -15 logs/football_data_update.log 2>/dev/null || echo "Aucun log trouvé"
         echo ""
         echo "Période de données maintenue: $(date -d '365 days ago' '+%Y-%m-%d') à $(date '+%Y-%m-%d')"
