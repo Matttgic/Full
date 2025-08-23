@@ -276,6 +276,30 @@ Le script `src/analysis/elo_calculator.py` peut être exécuté pour recalculer 
 python3 src/analysis/elo_calculator.py
 ```
 
+### Prédictions Basées sur l'Elo
+Un workflow quotidien génère des prédictions basées uniquement sur le classement Elo des équipes.
+
+**Fichiers Générés:**
+- `data/predictions/daily_elo_predictions_YYYY-MM-DD.csv`: Contient les prédictions Elo pour les matchs du jour.
+- `data/predictions/historical_elo_predictions.csv`: Archive toutes les prédictions Elo générées.
+
+**Format du CSV:**
+| Colonne | Description |
+|---|---|
+| `fixture_id` | ID unique du match |
+| `date` | Date de la prédiction |
+| `league_name` | Nom de la ligue |
+| `home_team` | Équipe à domicile |
+| `away_team` | Équipe à l'extérieur |
+| `home_team_elo` | Classement Elo de l'équipe à domicile |
+| `away_team_elo` | Classement Elo de l'équipe à l'extérieur |
+| `home_win_probability` | Probabilité de victoire de l'équipe à domicile |
+| `away_win_probability` | Probabilité de victoire de l'équipe à l'extérieur |
+| `draw_probability` | Probabilité de match nul |
+| `home_win_odds` | Cote implicite pour la victoire à domicile |
+| `away_win_odds` | Cote implicite pour la victoire à l'extérieur |
+| `draw_odds` | Cote implicite pour le match nul |
+
 ## 📞 Support
 
 Pour toute question ou problème :
