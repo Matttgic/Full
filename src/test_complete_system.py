@@ -63,6 +63,54 @@ def test_analyzer():
         logger.error(f"❌ Erreur analyseur: {e}")
         return False
 
+def test_enrich_predictions():
+    """Test de l'enrichissement des prédictions avec les résultats"""
+    logger.info("📈 === TEST ENRICHISSEMENT DES PRÉDICTIONS ===")
+
+    try:
+        from analysis.predictions_analyzer import PredictionsAnalyzer
+        import pandas as pd
+
+        analyzer = PredictionsAnalyzer()
+        # Utiliser le vrai fichier historique ELO pour ce test
+        analyzer.historical_file = 'data/predictions/historical_elo_predictions.csv'
+
+        predictions_df = analyzer.load_historical_data()
+        if predictions_df.empty:
+            logger.error("❌ Fichier de prédictions ELO historique non trouvé ou vide.")
+            return False
+
+        enriched_df = analyzer.enrich_with_results(predictions_df)
+
+        # Vérifier que le fichier de sortie existe
+        output_file = 'data/predictions/historical_elo_predictions_with_results.csv'
+        if not os.path.exists(output_file):
+            logger.error(f"❌ Fichier de sortie non créé: {output_file}")
+            return False
+
+        # Vérifier le contenu du fichier
+        df = pd.read_csv(output_file)
+        result_cols = ['home_goals_fulltime', 'away_goals_fulltime']
+
+        for col in result_cols:
+            if col not in df.columns:
+                logger.error(f"❌ Colonne de résultat manquante dans le fichier de sortie: {col}")
+                return False
+
+        # Vérifier que certains résultats ont été fusionnés
+        if df['home_goals_fulltime'].isnull().all():
+            logger.warning("⚠️ Aucun résultat de match n'a pu être fusionné.")
+            # Ceci n'est pas une erreur bloquante si les données de matchs sont incomplètes
+        else:
+            logger.info("✅ Au moins un résultat de match a été fusionné avec succès.")
+
+        logger.info("✅ Fichier enrichi créé et validé.")
+        return True
+
+    except Exception as e:
+        logger.error(f"❌ Erreur enrichissement: {e}")
+        return False
+
 def test_data_integrity():
     """Test de l'intégrité des données"""
     logger.info("🔍 === TEST INTÉGRITÉ DES DONNÉES ===")
@@ -255,6 +303,7 @@ def main():
         ("Workflow démonstration", test_demo_workflow),
         ("Format CSV", test_csv_format),
         ("Analyseur", test_analyzer),
+        ("Enrichissement des prédictions", test_enrich_predictions),
     ]
     
     passed = 0
