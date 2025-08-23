@@ -44,7 +44,7 @@ jobs:
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         git add data/matches/*.csv
-        git add football_data_extended.log
+        git add logs/football_data_extended.log
         
         # Vérifier s'il y a des changements à committer
         if git diff --staged --quiet; then
@@ -60,7 +60,7 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: football-data-logs
-        path: football_data_extended.log
+        path: logs/football_data_extended.log
     
     # Étape 8: Résumé des fichiers générés
     - name: Display summary
@@ -74,4 +74,4 @@ jobs:
         du -h data/matches/*.csv 2>/dev/null || echo "Aucun fichier CSV trouvé"
         echo ""
         echo "Dernières lignes du log:"
-        tail -10 football_data_extended.log 2>/dev/null || echo "Aucun log trouvé"
+        tail -10 logs/football_data_extended.log 2>/dev/null || echo "Aucun log trouvé"

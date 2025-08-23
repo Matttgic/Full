@@ -58,7 +58,7 @@ jobs:
         if ! python3 src/data_processing/football_odds_collector.py --league "$LEAGUE_CODE"; then
           echo "❌ Le script de maintenance a échoué pour $LEAGUE_CODE."
           # We tail the log file created by the script
-          tail -50 "football_odds_maintenance_$LEAGUE_CODE.log"
+          tail -50 "logs/football_odds_maintenance_$LEAGUE_CODE.log"
           exit 1
         fi
 
@@ -71,7 +71,7 @@ jobs:
         name: odds-data-${{ matrix.league }}
         path: |
           data/odds/raw_data/${{ matrix.league }}_complete_odds.csv
-          football_odds_maintenance_${{ matrix.league }}.log
+          logs/football_odds_maintenance_${{ matrix.league }}.log
         retention-days: 1
         if-no-files-found: error
 
@@ -101,7 +101,7 @@ jobs:
         # Move odds data files
         find artifacts/odds-data-*/ -name "*_complete_odds.csv" -exec mv {} data/odds/raw_data/ \;
         # Move log files
-        find artifacts/odds-data-*/ -name "*.log" -exec mv {} . \;
+        find artifacts/odds-data-*/ -name "*.log" -exec mv {} logs/ \;
         echo "Files organized."
         ls -R
 
@@ -111,7 +111,7 @@ jobs:
         git config user.email "action@github.com"
 
         git add data/odds/raw_data/
-        git add *.log
+        git add logs/*.log
 
         if [ -z "$(git status --porcelain)" ]; then
           echo "ℹ️ Aucune nouvelle donnée à committer."

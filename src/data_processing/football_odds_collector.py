@@ -11,7 +11,9 @@ logger = logging.getLogger(__name__)
 
 def setup_logging(league_code: Optional[str] = None):
     """Configure le logging pour écrire dans un fichier spécifique à la ligue."""
-    log_file = f"football_odds_maintenance_{league_code}.log" if league_code else "football_odds_maintenance.log"
+    os.makedirs('logs', exist_ok=True)
+    log_file_name = f"football_odds_maintenance_{league_code}.log" if league_code else "football_odds_maintenance.log"
+    log_file = os.path.join('logs', log_file_name)
     logging.basicConfig(
         level=logging.INFO,
         format='%(asctime)s - %(levelname)s - %(message)s',

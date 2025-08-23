@@ -10,11 +10,12 @@ from typing import Dict, List, Optional, Tuple
 import time
 
 # Configuration du logging
+os.makedirs('logs', exist_ok=True)
 logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(levelname)s - %(message)s',
     handlers=[
-        logging.FileHandler('daily_predictions.log'),
+        logging.FileHandler('logs/daily_predictions.log'),
         logging.StreamHandler()
     ]
 )

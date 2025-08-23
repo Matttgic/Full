@@ -8,11 +8,12 @@ from typing import Dict, List, Optional
 import json
 
 # Configuration du logging
+os.makedirs('logs', exist_ok=True)
 logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(levelname)s - %(message)s',
     handlers=[
-        logging.FileHandler('football_players.log'),
+        logging.FileHandler('logs/football_players.log'),
         logging.StreamHandler()
     ]
 )

@@ -91,7 +91,7 @@ jobs:
         # Ajouter tous les nouveaux fichiers
         git add data/matches/*.csv
         git add data/players/
-        git add football_players.log
+        git add logs/football_players.log
         
         # Vérifier s'il y a des changements à committer
         if git diff --staged --quiet; then
@@ -108,7 +108,7 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: football-players-logs
-        path: football_players.log
+        path: logs/football_players.log
     
     # Étape 10: Résumé final
     - name: Display collection summary
@@ -127,6 +127,6 @@ jobs:
         du -h data/players/ 2>/dev/null || echo "Calcul impossible"
         echo ""
         echo "Dernières lignes du log:"
-        tail -20 football_players.log 2>/dev/null || echo "Aucun log trouvé"
+        tail -20 logs/football_players.log 2>/dev/null || echo "Aucun log trouvé"
         echo ""
         echo "✅ Collecte terminée - Données disponibles pour analyse !"

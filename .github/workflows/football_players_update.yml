@@ -139,7 +139,7 @@ jobs:
         
         # Ajouter tous les nouveaux fichiers et modifications
         git add data/players/
-        git add football_players_update.log
+        git add logs/football_players_update.log
         
         # Vérifier s'il y a des changements à committer
         if git diff --staged --quiet; then
@@ -158,8 +158,8 @@ jobs:
       with:
         name: football-players-update-logs
         path: |
-          football_players_update.log
-          football_players.log
+          logs/football_players_update.log
+          logs/football_players.log
     
     # Étape 11: Résumé final de la mise à jour
     - name: Display update summary
@@ -209,7 +209,7 @@ jobs:
         
         echo ""
         echo "📋 Dernières lignes du log de mise à jour:"
-        tail -20 football_players_update.log 2>/dev/null || echo "Aucun log trouvé"
+        tail -20 logs/football_players_update.log 2>/dev/null || echo "Aucun log trouvé"
         
         echo ""
         echo "✅ Mise à jour hebdomadaire terminée - Prochaine exécution: mercredi prochain à 8h00 UTC"
