@@ -1,0 +1,135 @@
+import pandas as pd
+import numpy as np
+import os
+import glob
+import logging
+from typing import Dict
+
+# Configuration du logging
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+logger = logging.getLogger(__name__)
+
+class EloCalculator:
+    """
+    Calcule le classement Elo pour les équipes de football.
+    """
+
+    def __init__(self, k_factor: int = 40, initial_elo: int = 1500):
+        """
+        Initialise le calculateur Elo.
+
+        :param k_factor: Le facteur K, qui détermine l'impact du résultat d'un match.
+        :param initial_elo: Le score Elo de départ pour toute nouvelle équipe.
+        """
+        self.k_factor = k_factor
+        self.initial_elo = initial_elo
+        self.elo_ratings = {}  # Stocke les scores Elo actuels: {league: {team_name: elo}}
+
+    def get_elo(self, league: str, team: str) -> int:
+        """Récupère le score Elo d'une équipe, ou l'initialise si elle est nouvelle."""
+        if league not in self.elo_ratings:
+            self.elo_ratings[league] = {}
+        return self.elo_ratings[league].get(team, self.initial_elo)
+
+    def update_elo(self, league: str, home_team: str, away_team: str, home_goals: int, away_goals: int):
+        """Met à jour les scores Elo de deux équipes après un match."""
+        home_elo = self.get_elo(league, home_team)
+        away_elo = self.get_elo(league, away_team)
+
+        # Calcul de l'espérance de victoire
+        expected_home = 1 / (1 + 10**((away_elo - home_elo) / 400))
+        expected_away = 1 - expected_home
+
+        # Détermination du résultat du match (1 pour victoire, 0.5 pour nul, 0 pour défaite)
+        if home_goals > away_goals:
+            score_home = 1.0
+        elif home_goals < away_goals:
+            score_home = 0.0
+        else:
+            score_home = 0.5
+
+        score_away = 1 - score_home
+
+        # Mise à jour des scores Elo
+        new_home_elo = home_elo + self.k_factor * (score_home - expected_home)
+        new_away_elo = away_elo + self.k_factor * (score_away - expected_away)
+
+        self.elo_ratings[league][home_team] = new_home_elo
+        self.elo_ratings[league][away_team] = new_away_elo
+
+    def process_league_matches(self, matches_df: pd.DataFrame, league_name: str):
+        """Traite tous les matchs d'une ligue dans l'ordre chronologique."""
+        if matches_df.empty:
+            return
+
+        # S'assurer que les dates sont au bon format et trier
+        matches_df['date'] = pd.to_datetime(matches_df['date'])
+        matches_df.sort_values('date', inplace=True)
+
+        logger.info(f"🏆 Traitement de {len(matches_df)} matchs pour la ligue: {league_name}")
+
+        for _, row in matches_df.iterrows():
+            self.update_elo(
+                league_name,
+                row['home_team_name'],
+                row['away_team_name'],
+                row['home_goals'],
+                row['away_goals']
+            )
+
+    def save_ratings_to_csv(self, output_path: str):
+        """Sauvegarde les classements Elo dans un fichier CSV."""
+        all_ratings = []
+        for league, teams in self.elo_ratings.items():
+            for team, elo in teams.items():
+                all_ratings.append({
+                    'league': league,
+                    'team_name': team,
+                    'elo_rating': round(elo)
+                })
+
+        if not all_ratings:
+            logger.warning("Aucun classement Elo à sauvegarder.")
+            return
+
+        ratings_df = pd.DataFrame(all_ratings)
+        ratings_df.sort_values(['league', 'elo_rating'], ascending=[True, False], inplace=True)
+
+        os.makedirs(os.path.dirname(output_path), exist_ok=True)
+        ratings_df.to_csv(output_path, index=False)
+        logger.info(f"💾 Classements Elo sauvegardés dans: {output_path}")
+
+def main():
+    """Point d'entrée principal pour le calcul du classement Elo."""
+    logger.info("🚀 === DÉBUT DU CALCUL DU CLASSEMENT ELO ===")
+
+    match_data_dir = 'data/matches'
+    output_file = 'data/elo_ratings.csv'
+
+    all_match_files = glob.glob(os.path.join(match_data_dir, "*.csv"))
+    if not all_match_files:
+        logger.error(f"Aucun fichier de match trouvé dans: {match_data_dir}")
+        return
+
+    calculator = EloCalculator()
+
+    for file_path in all_match_files:
+        league_code = os.path.basename(file_path).replace('.csv', '')
+        try:
+            matches_df = pd.read_csv(file_path)
+            # Extraire le nom de la ligue à partir du premier match (si disponible)
+            if not matches_df.empty and 'league_name' in matches_df.columns:
+                league_name = matches_df['league_name'].iloc[0]
+            else:
+                league_name = league_code # Fallback sur le code de la ligue
+
+            calculator.process_league_matches(matches_df, league_name)
+        except Exception as e:
+            logger.error(f"Erreur lors du traitement du fichier {file_path}: {e}")
+
+    calculator.save_ratings_to_csv(output_file)
+
+    logger.info("✅ === CALCUL DU CLASSEMENT ELO TERMINÉ ===")
+
+if __name__ == "__main__":
+    main()

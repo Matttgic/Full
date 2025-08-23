@@ -63,7 +63,7 @@ jobs:
       env:
         RAPIDAPI_KEY: ${{ secrets.RAPIDAPI_KEY }}
       run: |
-        python football_players_collector.py
+        python src/data_processing/football_players_collector.py
     
     # Étape 7: Vérification des données collectées
     - name: Check collected player data

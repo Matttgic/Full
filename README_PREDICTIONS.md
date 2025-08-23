@@ -16,19 +16,28 @@ Ce système génère automatiquement des prédictions quotidiennes pour les matc
 ## 📁 Structure des Fichiers
 
 ```
-/app/
-├── daily_predictions_workflow.py    # Script principal de prédictions
-├── scheduler_predictions.py         # Scheduler automatique
-├── predictions_analyzer.py          # Analyseur de résultats
-├── setup_predictions_system.py      # Configuration système
-├── quick_start.py                   # Démarrage rapide
-├── requirements.txt                 # Dépendances Python
-└── data/
-    ├── predictions/                 # Fichiers de prédictions
-    │   ├── daily_YYYY-MM-DD.csv     # CSV quotidiens
-    │   └── historical_predictions.csv # Historique complet
-    ├── odds/raw_data/               # Données de cotes (existant)
-    └── matches/                     # Données de matchs (existant)
+/
+├── src/
+│   ├── data_processing/
+│   │   ├── football_data_collector_extended.py
+│   │   └── ...
+│   ├── prediction/
+│   │   ├── daily_predictions_workflow.py
+│   │   └── ...
+│   └── analysis/
+│       ├── predictions_analyzer.py
+│       ├── elo_calculator.py
+│       └── ...
+├── data/
+│   ├── predictions/
+│   │   ├── daily_YYYY-MM-DD.csv
+│   │   └── historical_predictions.csv
+│   ├── elo_ratings.csv
+│   └── ...
+├── .github/workflows/
+│   ├── prediction_workflow.yml
+│   └── ...
+└── README_PREDICTIONS.md
 ```
 
 ## 🚀 Installation & Configuration
@@ -48,7 +57,7 @@ export RAPIDAPI_KEY='your_rapidapi_key_here'
 ### 3. Setup automatique
 
 ```bash
-python3 setup_predictions_system.py
+python3 src/setup_predictions_system.py
 ```
 
 ## 🎮 Utilisation
@@ -57,19 +66,19 @@ python3 setup_predictions_system.py
 
 ```bash
 # Test du système
-python3 quick_start.py --test
+python3 src/quick_start.py --test
 
 # Exécution unique
-python3 quick_start.py --run
+python3 src/quick_start.py --run
 
 # Démarrer le scheduler
-python3 quick_start.py --schedule
+python3 src/quick_start.py --schedule
 
 # Analyser les résultats
-python3 quick_start.py --analyze
+python3 src/quick_start.py --analyze
 
 # Vérifier le statut
-python3 quick_start.py --status
+python3 src/quick_start.py --status
 ```
 
 ### Utilisation Détaillée
@@ -78,14 +87,14 @@ python3 quick_start.py --status
 
 ```bash
 # Exécution manuelle du workflow
-python3 daily_predictions_workflow.py
+python3 src/prediction/daily_predictions_workflow.py
 ```
 
 #### 2. Scheduler Automatique
 
 ```bash
 # Démarrer le scheduler (reste en cours d'exécution)
-python3 scheduler_predictions.py
+python3 src/prediction/scheduler_predictions.py
 ```
 
 **Horaires configurés :**
@@ -100,66 +109,49 @@ python3 scheduler_predictions.py
 
 ```bash
 # Analyse complète
-python3 predictions_analyzer.py
+PYTHONPATH=src python3 src/analysis/predictions_analyzer.py
 
 # Rapport pour une date spécifique
-python3 predictions_analyzer.py --date 2025-01-15
+PYTHONPATH=src python3 src/analysis/predictions_analyzer.py --date 2025-01-15
 
 # Export filtré par ligues
-python3 predictions_analyzer.py --export --league "Premier League" "La Liga"
+PYTHONPATH=src python3 src/analysis/predictions_analyzer.py --export --league "Premier League" "La Liga"
 ```
 
-## 📊 Format des Données CSV
+## 📊 Format des Données de Prédiction
 
-### CSV Quotidien (`daily_YYYY-MM-DD.csv`)
+Les prédictions sont maintenant stockées dans un format "long", où chaque ligne représente une analyse pour un type de pari spécifique.
 
 | Colonne | Description |
-|---------|-------------|
-| `date` | Date des matchs |
-| `match_time` | Heure du match |
+|---|---|
+| `date` | Date de l'analyse |
+| `match_time` | Date et heure du match |
 | `fixture_id` | ID unique du match |
-| `league_code` | Code de la ligue (ENG1, FRA1, etc.) |
-| `league_name` | Nom complet de la ligue |
-| `home_team` | Équipe domicile |
-| `away_team` | Équipe extérieure |
-| `{bet_type}_target_odd` | Cote actuelle pour ce type de pari |
-| `{bet_type}_similarity_pct` | % de similarité basé sur l'historique |
-| `{bet_type}_similar_matches` | Nombre de matchs similaires trouvés |
-| `{bet_type}_confidence` | Score de confiance (0-100) |
+| `league_name` | Nom de la ligue |
+| `home_team` | Équipe à domicile |
+| `away_team` | Équipe à l'extérieur |
+| `bet_type` | Type de pari (ex: `Correct Score`) |
+| `bet_value` | Valeur du pari (ex: `2-1`) |
+| `target_odd` | Cote moyenne pour ce pari au moment de l'analyse |
+| `similarity_pct` | Pourcentage de matchs historiques avec une cote similaire |
+| `similar_matches_count` | Nombre total de matchs similaires trouvés |
+| `similarity_reference_count` | Nombre de matchs dans l'historique utilisés pour la comparaison |
 
-### Types de Paris Analysés
+## 📈 Métriques d'Analyse
 
-- **Match Winner** : Victoire équipe domicile/extérieure/match nul
-- **Over/Under** : Plus/moins de buts (toutes les valeurs)
-- **Both Teams to Score** : Les deux équipes marquent
-- **Double Chance** : Combinaisons de résultats
-- **Correct Score** : Score exact
-- **Half Time/Full Time** : Résultat mi-temps/fin de match
-- **Total Goals** : Nombre total de buts
-- **Corners** : Nombre de corners
-- **Cards** : Nombre de cartons
-- **Et bien d'autres...**
+### `similarity_pct` (Pourcentage de Similarité)
+Cette métrique indique la proportion de matchs dans notre base de données historique qui avaient une cote similaire pour un pari donné. Un pourcentage élevé signifie que la cote actuelle n'est pas rare.
 
-## 📈 Métriques de Confiance
-
-### Pourcentage de Similarité
-- **0-25%** : Faible similarité (peu de matchs historiques similaires)
-- **25-50%** : Similarité modérée
-- **50-75%** : Bonne similarité
-- **75-100%** : Très haute similarité
-
-### Score de Confiance
-- Calculé selon le nombre de matchs similaires trouvés
-- Plus il y a de données historiques, plus le score est élevé
-- Score maximum de 100 atteint avec 50+ matchs similaires
+### `similarity_reference_count` (Nombre de Références Similaires)
+C'est le nombre brut de matchs historiques qui ont été considérés comme "similaires". Cette métrique donne une indication du volume de données qui soutient le `similarity_pct`. **Attention :** un grand nombre de références ne garantit pas la probabilité du résultat, mais indique plutôt la fréquence d'une cote similaire.
 
 ## 🔧 Configuration Avancée
 
-### Paramètres dans `daily_predictions_workflow.py`
+### Paramètres dans `src/prediction/daily_predictions_workflow.py`
 
 ```python
-SIMILARITY_THRESHOLD = 0.15        # Seuil de similarité des cotes
-MIN_BOOKMAKERS_THRESHOLD = 2       # Minimum de bookmakers requis
+self.SIMILARITY_THRESHOLD = 0.15        # Seuil de similarité des cotes
+self.MIN_BOOKMAKERS_THRESHOLD = 2       # Minimum de bookmakers requis
 ```
 
 ### Ligues Supportées
@@ -211,8 +203,8 @@ export RAPIDAPI_KEY='your_key_here'
 ### Erreur "Données historiques manquantes"
 ```bash
 # Lancez d'abord les collecteurs existants
-python3 football_data_updater.py
-python3 football_odds_collector.py
+python3 src/data_processing/football_data_updater.py
+python3 src/data_processing/football_odds_collector.py
 ```
 
 ### Erreur "Aucun match trouvé"
@@ -226,21 +218,21 @@ python3 football_odds_collector.py
 
 ```bash
 # Trouver les prédictions avec >80% de confiance
-python3 predictions_analyzer.py | grep "HAUTE CONFIANCE"
+PYTHONPATH=src python3 src/analysis/predictions_analyzer.py | grep "HAUTE CONFIANCE"
 ```
 
 ### Analyses par Ligue
 
 ```bash
 # Statistiques par ligue
-python3 predictions_analyzer.py | grep "ANALYSE PAR LIGUE"
+PYTHONPATH=src python3 src/analysis/predictions_analyzer.py | grep "ANALYSE PAR LIGUE"
 ```
 
 ### Export de Données
 
 ```bash
 # Exporter les données de janvier 2025
-python3 predictions_analyzer.py --export --date-from 2025-01-01 --date-to 2025-01-31
+PYTHONPATH=src python3 src/analysis/predictions_analyzer.py --export --date-from 2025-01-01 --date-to 2025-01-31
 ```
 
 ## 📝 Logs
@@ -264,6 +256,25 @@ Ce système s'intègre parfaitement avec votre infrastructure existante :
 - API REST pour accès programmatique
 - Modèles d'apprentissage automatique avancés
 - Intégration avec bases de données externes
+
+## 🏅 Système de Classement Elo
+
+En plus de l'analyse de similarité des cotes, ce projet inclut maintenant un système de classement Elo pour évaluer la force relative des équipes.
+
+### Fonctionnement
+- Chaque équipe de chaque ligue se voit attribuer un score Elo initial.
+- Après chaque match, les scores Elo des deux équipes sont ajustés en fonction du résultat du match et de la différence de leur score Elo avant le match.
+- Le calcul est effectué de manière chronologique sur tous les matchs des 365 derniers jours.
+
+### Fichier de Données
+Les classements Elo sont stockés dans `data/elo_ratings.csv` et mis à jour régulièrement.
+
+### Utilisation
+Le script `src/analysis/elo_calculator.py` peut être exécuté pour recalculer les scores Elo à partir des données de matchs existantes.
+
+```bash
+python3 src/analysis/elo_calculator.py
+```
 
 ## 📞 Support
 

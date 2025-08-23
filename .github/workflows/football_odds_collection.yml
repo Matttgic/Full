@@ -55,7 +55,7 @@ jobs:
         # The Python script now handles its own log file naming based on the league
         echo "🚀 DÉBUT DE LA MAINTENANCE POUR: $LEAGUE_CODE"
 
-        if ! python3 football_odds_collector.py --league "$LEAGUE_CODE"; then
+        if ! python3 src/data_processing/football_odds_collector.py --league "$LEAGUE_CODE"; then
           echo "❌ Le script de maintenance a échoué pour $LEAGUE_CODE."
           # We tail the log file created by the script
           tail -50 "football_odds_maintenance_$LEAGUE_CODE.log"

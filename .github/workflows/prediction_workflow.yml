@@ -18,7 +18,7 @@ jobs:
       - name: Install dependencies
         run: pip install pandas pyarrow fastparquet requests
       - name: Preprocess historical data
-        run: python3 analyzer.py --preprocess
+        run: PYTHONPATH=src python3 src/analysis/analyzer.py --preprocess
       - name: Upload processed data artifact
         uses: actions/upload-artifact@v4
         with:
@@ -84,7 +84,7 @@ jobs:
       - name: Run Analysis for Fixture ${{ matrix.fixture }}
         env:
           RAPIDAPI_KEY: ${{ secrets.RAPIDAPI_KEY }}
-        run: python3 analyzer.py --analyze ${{ matrix.fixture }}
+        run: PYTHONPATH=src python3 src/analysis/analyzer.py --analyze ${{ matrix.fixture }}
       - name: Upload Prediction Artifact
         uses: actions/upload-artifact@v4
         with:
