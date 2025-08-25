@@ -24,6 +24,13 @@ def generate_site():
     """
     print("🚀 Démarrage de la génération du site web complet...")
 
+    # DEBUG: Afficher l'état du système de fichiers
+    print("--- Contenu du répertoire de travail ---")
+    os.system('pwd')
+    print("\n--- Contenu détaillé du répertoire data/ ---")
+    os.system('ls -laR data/')
+    print("-----------------------------------------")
+
     # Configuration des chemins
     templates_dir = 'src/site_generator/templates'
     static_dir = 'src/site_generator/static'
