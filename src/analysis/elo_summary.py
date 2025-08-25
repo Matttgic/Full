@@ -140,6 +140,12 @@ def analyze_elo_predictions():
     logger.info("📈 Bilan Statistique par Différence d'Elo 📈")
     print(summary_display.to_string(index=False, float_format="%.2f"))
 
+    # Sauvegarde du bilan dans un fichier CSV
+    output_path = 'data/analysis/elo_summary.csv'
+    os.makedirs(os.path.dirname(output_path), exist_ok=True)
+    summary.to_csv(output_path, index=False)
+    logger.info(f"💾 Bilan sauvegardé dans: {output_path}")
+
     logger.info("✅ Analyse terminée.")
 
 def main():

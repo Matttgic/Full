@@ -52,12 +52,27 @@ class EloPredictionWorkflow:
         }
 
         self.elo_ratings_path = 'data/elo_ratings.csv'
+        self.summary_path = 'data/analysis/elo_summary.csv'
         self.predictions_dir = 'data/predictions'
         os.makedirs(self.predictions_dir, exist_ok=True)
 
         self.today = date.today()
 
         self.elo_ratings = self.load_elo_ratings()
+        self.elo_summary = self.load_elo_summary()
+
+    def load_elo_summary(self) -> pd.DataFrame:
+        """Charge le fichier de synthèse de l'analyse Elo."""
+        if not os.path.exists(self.summary_path):
+            logger.warning(f"Fichier de synthèse non trouvé: {self.summary_path}. Les stats historiques ne seront pas ajoutées.")
+            return pd.DataFrame()
+        try:
+            df = pd.read_csv(self.summary_path)
+            logger.info("Synthèse de l'analyse Elo chargée.")
+            return df
+        except Exception as e:
+            logger.error(f"Erreur lors du chargement du fichier de synthèse: {e}")
+            return pd.DataFrame()
 
     def load_elo_ratings(self) -> pd.DataFrame:
         """Charge le fichier de classement Elo."""
@@ -151,7 +166,7 @@ class EloPredictionWorkflow:
 
             prob_home, prob_away, prob_draw = self.calculate_elo_probabilities(home_elo, away_elo)
 
-            predictions.append({
+            prediction_data = {
                 'fixture_id': fixture_id,
                 'date': self.today.strftime('%Y-%m-%d'),
                 'league_name': league_name,
@@ -159,14 +174,36 @@ class EloPredictionWorkflow:
                 'away_team': away_team_name,
                 'home_team_elo': home_elo,
                 'away_team_elo': away_elo,
-                'elo_difference': elo_difference, # Ajout de la différence d'Elo
+                'elo_difference': elo_difference,
                 'home_win_probability': round(prob_home, 4),
                 'away_win_probability': round(prob_away, 4),
                 'draw_probability': round(prob_draw, 4),
                 'home_win_odds': round(1 / prob_home, 2) if prob_home > 0 else None,
                 'away_win_odds': round(1 / prob_away, 2) if prob_away > 0 else None,
                 'draw_odds': round(1 / prob_draw, 2) if prob_draw > 0 else None,
-            })
+            }
+
+            # Enrichir avec les stats historiques si disponibles
+            if not self.elo_summary.empty:
+                # Déterminer la tranche Elo
+                elo_bins = list(range(-500, 501, 100))
+                elo_labels = [f"{i} à {i+99}" for i in elo_bins[:-1]]
+                elo_bin = pd.cut([elo_difference], bins=elo_bins, labels=elo_labels, right=False)[0]
+
+                # Récupérer les stats pour cette tranche
+                summary_stats = self.elo_summary[self.elo_summary['elo_bin'] == elo_bin]
+
+                if not summary_stats.empty:
+                    stats = summary_stats.iloc[0]
+                    prediction_data.update({
+                        'hist_home_win_pct': stats.get('home_win_pct'),
+                        'hist_draw_pct': stats.get('draw_pct'),
+                        'hist_away_win_pct': stats.get('away_win_pct'),
+                        'hist_avg_goals': stats.get('avg_total_goals'),
+                        'hist_btts_pct': stats.get('btts_pct')
+                    })
+
+            predictions.append(prediction_data)
 
         if not predictions:
             logger.info("Aucune prédiction n'a pu être générée.")

@@ -1,4 +1,2 @@
-fixture_id,date,league_name,home_team,away_team,home_team_elo,away_team_elo,elo_difference,home_win_probability,away_win_probability,draw_probability,home_win_odds,away_win_odds,draw_odds
-1,2025-08-25,Test League,Paris Saint Germain,Lyon,1678,1568,110,0.3857,0.2048,0.4095,2.59,4.88,2.44
-2,2025-08-25,Test League,Arsenal,Manchester City,1624,1618,6,0.2565,0.2478,0.4956,3.9,4.04,2.02
-3,2025-08-25,Test League,Anderlecht,Club Brugge KV,1449,1563,-114,0.2029,0.3912,0.4059,4.93,2.56,2.46
+fixture_id,date,league_name,home_team,away_team,home_team_elo,away_team_elo,elo_difference,home_win_probability,away_win_probability,draw_probability,home_win_odds,away_win_odds,draw_odds,hist_home_win_pct,hist_draw_pct,hist_away_win_pct,hist_avg_goals,hist_btts_pct
+1,2025-08-25,Test League,Paris Saint Germain,Lyon,1678,1568,110,0.3857,0.2048,0.4095,2.59,4.88,2.44,50.0,25.0,25.0,2.5,50.0
