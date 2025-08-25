@@ -9,27 +9,38 @@ from typing import Dict
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
 
+# Ajout d'un dictionnaire pour l'Elo initial par ligue
+LEAGUE_INITIAL_ELO = {
+    "FRA1": 1500, "ENG1": 1500, "SPA1": 1500, "ITA1": 1500, "GER1": 1500, "POR1": 1450, "NED1": 1450, "BEL1": 1400, "TUR1": 1400, "SAU1": 1300,
+    "FRA2": 1350, "ENG2": 1350, "SPA2": 1350, "ITA2": 1350, "GER2": 1350,
+}
+
 class EloCalculator:
     """
     Calcule le classement Elo pour les équipes de football.
     """
 
-    def __init__(self, k_factor: int = 40, initial_elo: int = 1500):
+    def __init__(self, k_factor: int = 40, initial_elo: int = 1500, league_initial_elos: Dict[str, int] = None):
         """
         Initialise le calculateur Elo.
 
         :param k_factor: Le facteur K, qui détermine l'impact du résultat d'un match.
-        :param initial_elo: Le score Elo de départ pour toute nouvelle équipe.
+        :param initial_elo: Le score Elo de départ par défaut pour toute nouvelle équipe.
+        :param league_initial_elos: Un dictionnaire mappant les ligues à leur Elo de départ.
         """
         self.k_factor = k_factor
         self.initial_elo = initial_elo
+        self.league_initial_elos = league_initial_elos or {}
         self.elo_ratings = {}  # Stocke les scores Elo actuels: {league: {team_name: elo}}
 
     def get_elo(self, league: str, team: str) -> int:
         """Récupère le score Elo d'une équipe, ou l'initialise si elle est nouvelle."""
         if league not in self.elo_ratings:
             self.elo_ratings[league] = {}
-        return self.elo_ratings[league].get(team, self.initial_elo)
+
+        # Utilise l'Elo spécifique à la ligue, ou la valeur par défaut
+        initial_elo_for_league = self.league_initial_elos.get(league, self.initial_elo)
+        return self.elo_ratings[league].get(team, initial_elo_for_league)
 
     def update_elo(self, league: str, home_team: str, away_team: str, home_goals: int, away_goals: int):
         """Met à jour les scores Elo de deux équipes après un match."""
@@ -111,19 +122,15 @@ def main():
         logger.error(f"Aucun fichier de match trouvé dans: {match_data_dir}")
         return
 
-    calculator = EloCalculator()
+    # Utilisation du dictionnaire LEAGUE_INITIAL_ELO pour le calcul
+    calculator = EloCalculator(league_initial_elos=LEAGUE_INITIAL_ELO)
 
     for file_path in all_match_files:
         league_code = os.path.basename(file_path).replace('.csv', '')
         try:
             matches_df = pd.read_csv(file_path)
-            # Extraire le nom de la ligue à partir du premier match (si disponible)
-            if not matches_df.empty and 'league_name' in matches_df.columns:
-                league_name = matches_df['league_name'].iloc[0]
-            else:
-                league_name = league_code # Fallback sur le code de la ligue
-
-            calculator.process_league_matches(matches_df, league_name)
+            # Utiliser le code de la ligue pour la cohérence
+            calculator.process_league_matches(matches_df, league_code)
         except Exception as e:
             logger.error(f"Erreur lors du traitement du fichier {file_path}: {e}")
 
