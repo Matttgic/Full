@@ -56,11 +56,7 @@ class FootballDataCollectorExtended:
             'SAU1': {'id': 307, 'name': 'Saudi Pro League', 'country': 'Saudi Arabia'}
         }
         
-        # Période de collecte : 365 derniers jours
-        self.end_date = datetime.now().date()
-        self.start_date = self.end_date - timedelta(days=365)
-        
-        # Saisons à récupérer (2024 et 2025)
+        # Saisons à récupérer (2024 et 2025) - Pas de limite de 365 jours
         self.seasons_to_collect = [2024, 2025]
         
         # Création de la structure de dossiers
@@ -118,8 +114,7 @@ class FootballDataCollectorExtended:
         Returns:
             List[Dict]: Liste des matchs filtrés
         """
-        logger.info(f"Récupération des matchs pour la ligue {league_id}")
-        logger.info(f"Période cible: {self.start_date} à {self.end_date} (365 derniers jours)")
+        logger.info(f"Récupération des matchs pour la ligue {league_id} pour les saisons: {self.seasons_to_collect}")
         
         all_fixtures = []
         
@@ -144,39 +139,9 @@ class FootballDataCollectorExtended:
             # Pause entre les saisons pour respecter les limites d'API
             time.sleep(1)
         
-        logger.info(f"📊 Total avant filtrage: {len(all_fixtures)} matchs")
+        logger.info(f"📊 Total des matchs collectés pour la ligue {league_id}: {len(all_fixtures)} matchs")
         
-        # Filtrage par date pour garder les 365 derniers jours
-        filtered_fixtures = []
-        dates_found = []
-        
-        for fixture in all_fixtures:
-            fixture_date_str = fixture.get('fixture', {}).get('date', '')
-            
-            if fixture_date_str:
-                try:
-                    # Parse de la date ISO format (ex: "2024-08-17T15:00:00+00:00")
-                    fixture_date = datetime.fromisoformat(fixture_date_str.replace('Z', '+00:00')).date()
-                    dates_found.append(fixture_date)
-                    
-                    # Vérification si le match est dans notre période de 365 jours
-                    if self.start_date <= fixture_date <= self.end_date:
-                        filtered_fixtures.append(fixture)
-                        
-                except (ValueError, AttributeError) as e:
-                    logger.debug(f"Erreur parsing date '{fixture_date_str}': {e}")
-                    # Si on ne peut pas parser la date, on garde le match par sécurité
-                    filtered_fixtures.append(fixture)
-        
-        # Statistiques sur les dates
-        if dates_found:
-            min_date = min(dates_found)
-            max_date = max(dates_found)
-            logger.info(f"📅 Période des données récupérées: {min_date} à {max_date}")
-        
-        logger.info(f"✅ Total après filtrage (365 derniers jours): {len(filtered_fixtures)} matchs")
-        
-        return filtered_fixtures
+        return all_fixtures
     
     def get_fixture_statistics(self, fixture_id: int) -> Optional[Dict]:
         """
