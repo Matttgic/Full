@@ -26,10 +26,10 @@
                     <td>{{ row.date }}</td>
                     <td>{{ row.home_team }} vs {{ row.away_team }}</td>
                     <td>{{ row.league_name }}</td>
-                    <td>{{ row.elo_difference }}</td>
-                    <td>{{ "%.2f"|format(row.home_win_probability * 100) }}%</td>
-                    <td>{{ "%.2f"|format(row.draw_probability * 100) }}%</td>
-                    <td>{{ "%.2f"|format(row.away_win_probability * 100) }}%</td>
+                    <td>{% if row.elo_difference is number %}{{ row.elo_difference }}{% else %}N/A{% endif %}</td>
+                    <td>{% if row.home_win_probability is number %}{{ "%.2f"|format(row.home_win_probability * 100) }}%{% else %}N/A{% endif %}</td>
+                    <td>{% if row.draw_probability is number %}{{ "%.2f"|format(row.draw_probability * 100) }}%{% else %}N/A{% endif %}</td>
+                    <td>{% if row.away_win_probability is number %}{{ "%.2f"|format(row.away_win_probability * 100) }}%{% else %}N/A{% endif %}</td>
                 </tr>
                 {% endfor %}
             </tbody>
