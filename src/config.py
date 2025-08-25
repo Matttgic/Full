@@ -28,3 +28,7 @@ SIMILARITY_THRESHOLD = 0.10
 
 # The minimum number of bookmakers that must have odds on a market for it to be included.
 MIN_BOOKMAKERS_THRESHOLD = 3
+
+# The minimum number of similar historical matches required to make a prediction.
+# This prevents making high-confidence predictions from a small sample size.
+MIN_SIMILAR_MATCHES_THRESHOLD = 10

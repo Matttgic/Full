@@ -1,3 +1,23 @@
+"""
+Ce script fournit un bilan statistique de la performance du modèle Elo.
+
+Rôle :
+- Charge les prédictions Elo historiques et les résultats réels des matchs.
+- Fusionne ces deux sources de données.
+- Regroupe les matchs par tranches de différence d'Elo (par exemple, de 0 à 99,
+  de 100 à 199, etc.).
+- Pour chaque tranche, calcule des statistiques clés :
+    - Le pourcentage de victoires à domicile, de nuls et de victoires à l'extérieur.
+    - La moyenne de buts par match.
+    - Le pourcentage de matchs où les deux équipes ont marqué (BTTS).
+- Affiche un tableau de synthèse clair dans la console.
+
+Ce script est un outil puissant pour évaluer la pertinence du modèle Elo et
+identifier des tendances statistiques.
+
+Pour l'exécuter :
+python3 src/analysis/elo_summary.py
+"""
 import pandas as pd
 import numpy as np
 import os

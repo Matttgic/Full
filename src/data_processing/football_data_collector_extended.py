@@ -1,3 +1,18 @@
+"""
+Ce script est le collecteur principal de données de matchs de football.
+
+Rôle :
+- Se connecte à l'API de football pour récupérer les données des matchs.
+- Itère sur une liste prédéfinie de 15 ligues majeures.
+- Pour chaque ligue, collecte les données de tous les matchs pour les saisons spécifiées
+  (par exemple, 2024 et 2025).
+- Pour les matchs terminés, récupère également les statistiques détaillées
+  (tirs, possession, etc.).
+- Sauvegarde les données de chaque ligue dans un fichier CSV séparé dans `data/matches/`.
+
+Note importante : La limite de collecte aux 365 derniers jours a été retirée
+pour permettre une analyse historique complète.
+"""
 import requests
 import pandas as pd
 import os

@@ -1,3 +1,19 @@
+"""
+Ce script génère des prédictions quotidiennes en se basant sur la similarité
+des cotes par rapport à un historique de matchs.
+
+Rôle :
+- Récupère les matchs du jour pour les ligues configurées.
+- Pour chaque match, récupère les cotes actuelles pour différents types de paris.
+- Compare ces cotes à une base de données historique de matchs (`data/odds/`).
+- Calcule un "pourcentage de similarité" qui indique la fréquence à laquelle
+  des cotes similaires ont été observées dans le passé.
+- Applique des seuils de robustesse pour éviter les prédictions basées sur
+  des données insuffisantes (ex: `MIN_SIMILAR_MATCHES_THRESHOLD`).
+- Sauvegarde les résultats dans des fichiers CSV quotidien et historique.
+
+Ce workflow offre une approche de prédiction alternative, complémentaire au modèle Elo.
+"""
 import pandas as pd
 import numpy as np
 import os
@@ -8,6 +24,7 @@ import logging
 from datetime import datetime, date, timedelta
 from typing import Dict, List, Optional, Tuple
 import time
+from src.config import MIN_SIMILAR_MATCHES_THRESHOLD, SIMILARITY_THRESHOLD, MIN_BOOKMAKERS_THRESHOLD
 
 # Configuration du logging
 os.makedirs('logs', exist_ok=True)
@@ -57,9 +74,10 @@ class DailyPredictionsWorkflow:
             'SAU1': {'id': 307, 'name': 'Saudi Pro League', 'country': 'Saudi Arabia'}
         }
         
-        # Configuration des seuils
-        self.SIMILARITY_THRESHOLD = 0.15  # Seuil de similarité
-        self.MIN_BOOKMAKERS_THRESHOLD = 2  # Minimum bookmakers pour validité
+        # Configuration des seuils depuis le fichier config.py
+        self.SIMILARITY_THRESHOLD = SIMILARITY_THRESHOLD
+        self.MIN_BOOKMAKERS_THRESHOLD = MIN_BOOKMAKERS_THRESHOLD
+        self.MIN_SIMILAR_MATCHES_THRESHOLD = MIN_SIMILAR_MATCHES_THRESHOLD
         
         # Dossiers
         self.odds_data_dir = 'data/odds/raw_data'
@@ -246,7 +264,8 @@ class DailyPredictionsWorkflow:
                 # Récupérer les cotes historiques pour ce type de pari
                 historical_odds = self.historical_feature_matrix[bet_identifier].dropna()
                 
-                if len(historical_odds) < 10:  # Minimum de données pour être fiable
+                if len(historical_odds) < self.MIN_SIMILAR_MATCHES_THRESHOLD:
+                    logger.debug(f"Pas assez de données pour {bet_identifier}: {len(historical_odds)} matchs < {self.MIN_SIMILAR_MATCHES_THRESHOLD}")
                     continue
                 
                 # Calculer les distances (différences absolues)
@@ -255,7 +274,8 @@ class DailyPredictionsWorkflow:
                 # Trouver les matchs similaires
                 similar_matches = distances[distances <= self.SIMILARITY_THRESHOLD]
                 
-                if len(similar_matches) > 0:
+                # Appliquer le seuil de matchs similaires
+                if len(similar_matches) >= self.MIN_SIMILAR_MATCHES_THRESHOLD:
                     # Calculer le pourcentage de similarité
                     similarity_percentage = (len(similar_matches) / len(historical_odds)) * 100
                     avg_distance = similar_matches.mean()
