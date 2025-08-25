@@ -34,11 +34,11 @@
                     <td>{{ "%.2f"|format(pred.home_win_probability * 100) }}%</td>
                     <td>{{ "%.2f"|format(pred.draw_probability * 100) }}%</td>
                     <td>{{ "%.2f"|format(pred.away_win_probability * 100) }}%</td>
-                    <td>{{ "%.2f"|format(pred.hist_home_win_pct) }}%</td>
-                    <td>{{ "%.2f"|format(pred.hist_draw_pct) }}%</td>
-                    <td>{{ "%.2f"|format(pred.hist_away_win_pct) }}%</td>
-                    <td>{{ "%.2f"|format(pred.hist_avg_goals) }}</td>
-                    <td>{{ "%.2f"|format(pred.hist_btts_pct) }}%</td>
+                    <td>{% if 'hist_home_win_pct' in pred and pred.hist_home_win_pct != '' %}{{ "%.2f"|format(pred.hist_home_win_pct) }}%{% else %}N/A{% endif %}</td>
+                    <td>{% if 'hist_draw_pct' in pred and pred.hist_draw_pct != '' %}{{ "%.2f"|format(pred.hist_draw_pct) }}%{% else %}N/A{% endif %}</td>
+                    <td>{% if 'hist_away_win_pct' in pred and pred.hist_away_win_pct != '' %}{{ "%.2f"|format(pred.hist_away_win_pct) }}%{% else %}N/A{% endif %}</td>
+                    <td>{% if 'hist_avg_goals' in pred and pred.hist_avg_goals != '' %}{{ "%.2f"|format(pred.hist_avg_goals) }}{% else %}N/A{% endif %}</td>
+                    <td>{% if 'hist_btts_pct' in pred and pred.hist_btts_pct != '' %}{{ "%.2f"|format(pred.hist_btts_pct) }}%{% else %}N/A{% endif %}</td>
                 </tr>
                 {% endfor %}
             </tbody>
