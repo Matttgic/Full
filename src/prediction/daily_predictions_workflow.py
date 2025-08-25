@@ -24,7 +24,12 @@ import logging
 from datetime import datetime, date, timedelta
 from typing import Dict, List, Optional, Tuple
 import time
-from src.config import MIN_SIMILAR_MATCHES_THRESHOLD, SIMILARITY_THRESHOLD, MIN_BOOKMAKERS_THRESHOLD
+from src.config import (
+    MIN_SIMILAR_MATCHES_THRESHOLD,
+    SIMILARITY_THRESHOLD,
+    MIN_BOOKMAKERS_THRESHOLD,
+    ALL_LEAGUES
+)
 
 # Configuration du logging
 os.makedirs('logs', exist_ok=True)
@@ -55,24 +60,8 @@ class DailyPredictionsWorkflow:
             'x-rapidapi-key': self.api_key
         }
         
-        # Configuration des ligues (même que les autres scripts)
-        self.all_leagues = {
-            'ENG1': {'id': 39, 'name': 'Premier League', 'country': 'England'},
-            'FRA1': {'id': 61, 'name': 'Ligue 1', 'country': 'France'},
-            'ITA1': {'id': 135, 'name': 'Serie A', 'country': 'Italy'},
-            'GER1': {'id': 78, 'name': 'Bundesliga', 'country': 'Germany'},
-            'SPA1': {'id': 140, 'name': 'La Liga', 'country': 'Spain'},
-            'NED1': {'id': 88, 'name': 'Eredivisie', 'country': 'Netherlands'},
-            'POR1': {'id': 94, 'name': 'Primeira Liga', 'country': 'Portugal'},
-            'BEL1': {'id': 144, 'name': 'Jupiler Pro League', 'country': 'Belgium'},
-            'ENG2': {'id': 40, 'name': 'Championship', 'country': 'England'},
-            'FRA2': {'id': 62, 'name': 'Ligue 2', 'country': 'France'},
-            'ITA2': {'id': 136, 'name': 'Serie B', 'country': 'Italy'},
-            'GER2': {'id': 79, 'name': '2. Bundesliga', 'country': 'Germany'},
-            'SPA2': {'id': 141, 'name': 'Segunda División', 'country': 'Spain'},
-            'TUR1': {'id': 203, 'name': 'Süper Lig', 'country': 'Turkey'},
-            'SAU1': {'id': 307, 'name': 'Saudi Pro League', 'country': 'Saudi Arabia'}
-        }
+        # Utilisation de la configuration centralisée
+        self.all_leagues = ALL_LEAGUES
         
         # Configuration des seuils depuis le fichier config.py
         self.SIMILARITY_THRESHOLD = SIMILARITY_THRESHOLD

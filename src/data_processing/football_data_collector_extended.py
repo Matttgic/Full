@@ -20,6 +20,7 @@ import time
 from datetime import datetime, date, timedelta
 import logging
 from typing import Dict, List, Optional
+from src.config import ALL_LEAGUES, SEASONS_TO_COLLECT
 
 # Configuration du logging pour debug
 os.makedirs('logs', exist_ok=True)
@@ -50,29 +51,9 @@ class FootballDataCollectorExtended:
             'x-rapidapi-key': self.api_key
         }
         
-        # Configuration de TOUTES les ligues
-        self.all_leagues = {
-            # Big 5
-            'ENG1': {'id': 39, 'name': 'Premier League', 'country': 'England'},
-            'FRA1': {'id': 61, 'name': 'Ligue 1', 'country': 'France'},
-            'ITA1': {'id': 135, 'name': 'Serie A', 'country': 'Italy'},
-            'GER1': {'id': 78, 'name': 'Bundesliga', 'country': 'Germany'},
-            'SPA1': {'id': 140, 'name': 'La Liga', 'country': 'Spain'},
-            # Ligues étendues
-            'NED1': {'id': 88, 'name': 'Eredivisie', 'country': 'Netherlands'},
-            'POR1': {'id': 94, 'name': 'Primeira Liga', 'country': 'Portugal'},
-            'BEL1': {'id': 144, 'name': 'Jupiler Pro League', 'country': 'Belgium'},
-            'ENG2': {'id': 40, 'name': 'Championship', 'country': 'England'},
-            'FRA2': {'id': 62, 'name': 'Ligue 2', 'country': 'France'},
-            'ITA2': {'id': 136, 'name': 'Serie B', 'country': 'Italy'},
-            'GER2': {'id': 79, 'name': '2. Bundesliga', 'country': 'Germany'},
-            'SPA2': {'id': 141, 'name': 'Segunda División', 'country': 'Spain'},
-            'TUR1': {'id': 203, 'name': 'Süper Lig', 'country': 'Turkey'},
-            'SAU1': {'id': 307, 'name': 'Saudi Pro League', 'country': 'Saudi Arabia'}
-        }
-        
-        # Saisons à récupérer (2024 et 2025) - Pas de limite de 365 jours
-        self.seasons_to_collect = [2024, 2025]
+        # Utilisation de la configuration centralisée
+        self.all_leagues = ALL_LEAGUES
+        self.seasons_to_collect = SEASONS_TO_COLLECT
         
         # Création de la structure de dossiers
         self.matches_folder = os.path.join("data", "matches")

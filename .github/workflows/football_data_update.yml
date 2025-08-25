@@ -1,10 +1,10 @@
 # .github/workflows/football_data_update.yml
-name: Football Data Update (Fenêtre glissante 365 jours)
+name: Football Data Update (Daily)
 
-# Déclenchement tous les mardis à 7h00 UTC
+# Déclenchement tous les jours à 7h00 UTC
 on:
   schedule:
-    - cron: '0 7 * * 2'  # Tous les mardis à 7h00 UTC
+    - cron: '0 7 * * *'  # Tous les jours à 7h00 UTC
   workflow_dispatch:  # Permet de lancer manuellement le workflow
 
 jobs:
