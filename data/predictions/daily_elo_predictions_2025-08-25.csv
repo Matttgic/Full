@@ -1,0 +1,12 @@
+fixture_id,date,league_name,home_team,away_team,home_team_elo,away_team_elo,home_win_probability,away_win_probability,draw_probability,home_win_odds,away_win_odds,draw_odds
+1394451,2025-08-25,Süper Lig,Eyüpspor,Alanyaspor,1463,1510,0.232,0.3041,0.464,4.31,3.29,2.16
+1377873,2025-08-25,Serie A,Udinese,Verona,1425,1433,0.2471,0.2587,0.4942,4.05,3.86,2.02
+1390829,2025-08-25,La Liga,Athletic Club,Rayo Vallecano,1612,1546,0.3277,0.2241,0.4482,3.05,4.46,2.23
+1391267,2025-08-25,Segunda División,Albacete,Racing Santander,1522,1534,0.2456,0.2632,0.4912,4.07,3.8,2.04
+1419597,2025-08-25,Serie B,Sampdoria,Modena,1509,1468,0.2968,0.2344,0.4688,3.37,4.27,2.13
+1377868,2025-08-25,Serie A,Inter,Torino,1636,1469,0.4657,0.1781,0.3562,2.15,5.62,2.81
+1389145,2025-08-25,Ligue 2,PAU,Reims,1489,1379,0.3857,0.2048,0.4095,2.59,4.88,2.44
+1378987,2025-08-25,Premier League,Newcastle,Liverpool,1563,1634,0.222,0.3341,0.444,4.5,2.99,2.25
+1396259,2025-08-25,Primeira Liga,Estrela,Alverca,1393,1473,0.2181,0.3457,0.4362,4.58,2.89,2.29
+1390837,2025-08-25,La Liga,Sevilla,Getafe,1414,1451,0.236,0.292,0.472,4.24,3.42,2.12
+1391260,2025-08-25,Segunda División,Cordoba,Las Palmas,1480,1347,0.4175,0.1942,0.3883,2.4,5.15,2.58
