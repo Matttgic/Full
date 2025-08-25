@@ -1,0 +1,126 @@
+# .github/workflows/main_pipeline.yml
+name: Main Football Prediction Pipeline
+
+on:
+  schedule:
+    - cron: '0 8 * * *'  # Tous les jours à 8h00 UTC (après la mise à jour des données)
+  workflow_dispatch:
+
+jobs:
+  run-tests:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run tests
+        run: pytest
+
+  run-elo-calculator:
+    needs: run-tests
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run Elo Calculator
+        run: python src/analysis/elo_calculator.py
+
+      - name: Upload data artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: data-after-elo
+          path: data/
+
+  run-elo-summary:
+    needs: run-elo-calculator
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Download data artifacts
+        uses: actions/download-artifact@v4
+        with:
+          name: data-after-elo
+          path: data/
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run Elo Summary
+        run: python src/analysis/elo_summary.py
+
+      - name: Upload data artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: data-after-summary
+          path: data/
+
+  run-prediction-workflows:
+    needs: run-elo-summary
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Download data artifacts
+        uses: actions/download-artifact@v4
+        with:
+          name: data-after-summary
+          path: data/
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run Elo Prediction Workflow
+        env:
+          RAPIDAPI_KEY: ${{ secrets.RAPIDAPI_KEY }}
+        run: python -m src.prediction.elo_prediction_workflow
+
+      - name: Run Daily Prediction Workflow
+        env:
+          RAPIDAPI_KEY: ${{ secrets.RAPIDAPI_KEY }}
+        run: python -m src.prediction.daily_predictions_workflow
+
+      - name: Commit and push predictions
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add data/predictions/*.csv
+          if git diff --staged --quiet; then
+            echo "Aucun changement dans les prédictions."
+          else
+            git commit -m "🔮 Mise à jour des prédictions quotidiennes - $(date '+%Y-%m-%d')"
+            git push
+          fi
