@@ -1,3 +1,16 @@
+"""
+Ce script est responsable du calcul des classements Elo pour les équipes de football.
+
+Rôle :
+- Parcourt tous les fichiers de matchs disponibles dans `data/matches/`.
+- Calcule et met à jour le score Elo de chaque équipe après chaque match.
+- Gère un système d'Elo initial différencié par ligue pour une meilleure précision
+  (par exemple, une équipe de Ligue 1 commence avec un Elo plus élevé qu'une équipe de Ligue 2).
+- Sauvegarde les classements Elo finaux dans `data/elo_ratings.csv`.
+
+Pour exécuter ce script :
+python3 src/analysis/elo_calculator.py
+"""
 import pandas as pd
 import numpy as np
 import os

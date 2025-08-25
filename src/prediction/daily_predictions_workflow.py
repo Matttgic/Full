@@ -1,3 +1,19 @@
+"""
+Ce script génère des prédictions quotidiennes en se basant sur la similarité
+des cotes par rapport à un historique de matchs.
+
+Rôle :
+- Récupère les matchs du jour pour les ligues configurées.
+- Pour chaque match, récupère les cotes actuelles pour différents types de paris.
+- Compare ces cotes à une base de données historique de matchs (`data/odds/`).
+- Calcule un "pourcentage de similarité" qui indique la fréquence à laquelle
+  des cotes similaires ont été observées dans le passé.
+- Applique des seuils de robustesse pour éviter les prédictions basées sur
+  des données insuffisantes (ex: `MIN_SIMILAR_MATCHES_THRESHOLD`).
+- Sauvegarde les résultats dans des fichiers CSV quotidien et historique.
+
+Ce workflow offre une approche de prédiction alternative, complémentaire au modèle Elo.
+"""
 import pandas as pd
 import numpy as np
 import os

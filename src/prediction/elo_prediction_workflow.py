@@ -1,3 +1,20 @@
+"""
+Ce script génère des prédictions quotidiennes pour les matchs de football
+en se basant sur les classements Elo des équipes.
+
+Rôle :
+- Récupère les matchs prévus pour le jour même via l'API de football.
+- Charge les classements Elo actuels depuis `data/elo_ratings.csv`.
+- Pour chaque match, calcule les probabilités de victoire, de nul et de défaite
+  en se basant sur la différence d'Elo entre les deux équipes.
+- Inclut la différence d'Elo brute comme information supplémentaire.
+- Sauvegarde les prédictions dans un fichier CSV quotidien (`daily_elo_predictions_YYYY-MM-DD.csv`)
+  et les ajoute à un historique complet (`historical_elo_predictions.csv`).
+
+Dépendances :
+- `data/elo_ratings.csv` doit exister et être à jour.
+- Une clé `RAPIDAPI_KEY` valide doit être configurée comme variable d'environnement.
+"""
 import pandas as pd
 import numpy as np
 import os
