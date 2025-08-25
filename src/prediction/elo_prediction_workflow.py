@@ -129,6 +129,9 @@ class EloPredictionWorkflow:
             home_elo = home_team_elo[0]
             away_elo = away_team_elo[0]
 
+            # Calcul de la différence d'Elo
+            elo_difference = home_elo - away_elo
+
             prob_home, prob_away, prob_draw = self.calculate_elo_probabilities(home_elo, away_elo)
 
             predictions.append({
@@ -139,6 +142,7 @@ class EloPredictionWorkflow:
                 'away_team': away_team_name,
                 'home_team_elo': home_elo,
                 'away_team_elo': away_elo,
+                'elo_difference': elo_difference, # Ajout de la différence d'Elo
                 'home_win_probability': round(prob_home, 4),
                 'away_win_probability': round(prob_away, 4),
                 'draw_probability': round(prob_draw, 4),
