@@ -3,80 +3,84 @@ from jinja2 import Environment, FileSystemLoader
 import os
 from datetime import datetime
 
+def load_csv_to_dict(path, file_type=""):
+    """Charge un fichier CSV et le retourne comme une liste de dictionnaires."""
+    if not os.path.exists(path):
+        print(f"ℹ️ Fichier non trouvé pour {file_type}: {path}")
+        return []
+    try:
+        df = pd.read_csv(path)
+        df.fillna('', inplace=True)
+        print(f"✅ {len(df)} lignes chargées depuis {path}")
+        return df.to_dict(orient='records')
+    except Exception as e:
+        print(f"⚠️ Erreur lors du chargement de {path}: {e}")
+        return []
+
 def generate_site():
     """
-    Génère le site web statique des prédictions de football.
+    Génère le site web statique complet avec toutes les prédictions et historiques.
     """
-    print("🚀 Démarrage de la génération du site...")
+    print("🚀 Démarrage de la génération du site web complet...")
 
     # Configuration des chemins
     templates_dir = 'src/site_generator/templates'
     static_dir = 'src/site_generator/static'
     output_dir = 'docs'
 
-    # Créer le dossier de sortie s'il n'existe pas
     os.makedirs(output_dir, exist_ok=True)
     os.makedirs(os.path.join(output_dir, 'static'), exist_ok=True)
 
     # Initialiser Jinja2
-    env = Environment(loader=FileSystemLoader(templates_dir))
+    env = Environment(loader=FileSystemLoader(templates_dir), autoescape=True)
 
-    # --- Données pour la page d'accueil (Prédictions du jour) ---
+    # --- Chargement de toutes les données ---
     today_str = datetime.utcnow().strftime('%Y-%m-%d')
-    predictions_path = f'data/predictions/daily_elo_predictions_{today_str}.csv'
-    predictions_data = []
-    if os.path.exists(predictions_path):
-        try:
-            df_preds = pd.read_csv(predictions_path)
-            # Remplacer les NaN par une chaîne vide pour l'affichage
-            df_preds.fillna('', inplace=True)
-            predictions_data = df_preds.to_dict(orient='records')
-            print(f"✅ {len(predictions_data)} prédictions du jour chargées.")
-        except Exception as e:
-            print(f"⚠️ Erreur lors du chargement des prédictions du jour: {e}")
-    else:
-        print(f"ℹ️ Aucun fichier de prédictions trouvé pour aujourd'hui: {predictions_path}")
 
-    # --- Données pour la page de bilan ---
+    # Prédictions du jour
+    elo_preds_path = f'data/predictions/daily_elo_predictions_{today_str}.csv'
+    odds_preds_path = f'data/predictions/daily_{today_str}.csv'
+    elo_predictions_data = load_csv_to_dict(elo_preds_path, "Prédictions Elo du jour")
+    odds_predictions_data = load_csv_to_dict(odds_preds_path, "Prédictions Cotes du jour")
+
+    # Bilan et Historiques
     summary_path = 'data/analysis/elo_summary.csv'
-    summary_data = []
-    if os.path.exists(summary_path):
-        try:
-            df_summary = pd.read_csv(summary_path)
-            summary_data = df_summary.to_dict(orient='records')
-            print(f"✅ Bilan statistique chargé: {len(summary_data)} lignes.")
-        except Exception as e:
-            print(f"⚠️ Erreur lors du chargement du bilan: {e}")
-    else:
-        print(f"ℹ️ Aucun fichier de bilan trouvé: {summary_path}")
+    elo_history_path = 'data/predictions/historical_elo_predictions.csv'
+    odds_history_path = 'data/predictions/historical_predictions.csv'
+    summary_data = load_csv_to_dict(summary_path, "Bilan Elo")
+    elo_history_data = load_csv_to_dict(elo_history_path, "Historique Elo")
+    odds_history_data = load_csv_to_dict(odds_history_path, "Historique Cotes")
 
     # Paramètres communs pour les modèles
     template_params = {
-        "generation_date": datetime.utcnow().strftime('%Y-%m-%d %H:%M:%S UTC')
+        "generation_date": datetime.utcnow().strftime('%Y-%m-%d %H:%M:%S UTC'),
+        "today_date": today_str
     }
 
-    # Générer index.html
-    template_index = env.get_template('index.html')
-    index_params = {**template_params, "predictions": predictions_data, "date": today_str}
-    with open(os.path.join(output_dir, 'index.html'), 'w', encoding='utf-8') as f:
-        f.write(template_index.render(index_params))
-    print("✅ Page 'index.html' générée.")
+    # --- Génération des pages ---
+    pages_to_render = {
+        "index.html": {"predictions": elo_predictions_data, "date": today_str},
+        "odds_predictions.html": {"predictions": odds_predictions_data, "date": today_str},
+        "elo_summary.html": {"summary": summary_data},
+        "elo_history.html": {"history": elo_history_data},
+        "odds_history.html": {"history": odds_history_data}
+    }
 
-    # Générer summary.html
-    template_summary = env.get_template('summary.html')
-    summary_params = {**template_params, "summary": summary_data}
-    with open(os.path.join(output_dir, 'summary.html'), 'w', encoding='utf-8') as f:
-        f.write(template_summary.render(summary_params))
-    print("✅ Page 'summary.html' générée.")
+    for template_name, data in pages_to_render.items():
+        template = env.get_template(template_name)
+        params = {**template_params, **data}
+        with open(os.path.join(output_dir, template_name), 'w', encoding='utf-8') as f:
+            f.write(template.render(params))
+        print(f"✅ Page '{template_name}' générée.")
 
     # Copier les fichiers statiques (CSS)
+    import shutil
+    static_output_dir = os.path.join(output_dir, 'static')
     static_files = os.listdir(static_dir)
     for file_name in static_files:
         full_file_name = os.path.join(static_dir, file_name)
         if os.path.isfile(full_file_name):
-            # Utiliser shutil pour une copie plus robuste
-            import shutil
-            shutil.copy(full_file_name, os.path.join(output_dir, 'static', file_name))
+            shutil.copy(full_file_name, static_output_dir)
     print(f"✅ {len(static_files)} fichier(s) statique(s) copié(s).")
 
     print("🎉 Site généré avec succès !")

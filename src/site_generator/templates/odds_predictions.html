@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+
+{% block title %}Prédictions du Jour (Similarité des Cotes){% endblock %}
+
+{% block content %}
+    <h2>Prédictions par Similarité des Cotes du {{ date }}</h2>
+    <p>
+        Ces prédictions sont basées sur la recherche de matchs historiques avec des cotes similaires.
+        Un pourcentage de similarité élevé indique que des cotes semblables ont souvent été observées dans le passé.
+    </p>
+    {% if predictions %}
+        <table>
+            <thead>
+                <tr>
+                    <th>Match</th>
+                    <th>Compétition</th>
+                    <th>Type de Pari</th>
+                    <th>Pari</th>
+                    <th>Cote Actuelle</th>
+                    <th>% Similarité Hist.</th>
+                    <th>Nb Matchs Similaires</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for pred in predictions %}
+                <tr>
+                    <td>{{ pred.home_team }} vs {{ pred.away_team }}</td>
+                    <td>{{ pred.league_name }}</td>
+                    <td>{{ pred.bet_type }}</td>
+                    <td>{{ pred.bet_value }}</td>
+                    <td>{{ pred.target_odd }}</td>
+                    <td>{{ "%.2f"|format(pred.similarity_pct) }}%</td>
+                    <td>{{ pred.similar_matches_count }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    {% else %}
+        <p>Aucune prédiction par similarité de cotes disponible pour aujourd'hui.</p>
+    {% endif %}
+{% endblock %}

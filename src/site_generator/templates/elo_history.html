@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+
+{% block title %}Historique des Prédictions (Elo){% endblock %}
+
+{% block content %}
+    <h2>Historique des Prédictions basées sur l'Elo</h2>
+    <p>
+        Voici l'ensemble des prédictions passées générées par le modèle Elo.
+    </p>
+    {% if history %}
+        <table>
+            <thead>
+                <tr>
+                    <th>Date</th>
+                    <th>Match</th>
+                    <th>Compétition</th>
+                    <th>Diff. Elo</th>
+                    <th>Prob. Domicile</th>
+                    <th>Prob. Nul</th>
+                    <th>Prob. Extérieur</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for row in history %}
+                <tr>
+                    <td>{{ row.date }}</td>
+                    <td>{{ row.home_team }} vs {{ row.away_team }}</td>
+                    <td>{{ row.league_name }}</td>
+                    <td>{{ row.elo_difference }}</td>
+                    <td>{{ "%.2f"|format(row.home_win_probability * 100) }}%</td>
+                    <td>{{ "%.2f"|format(row.draw_probability * 100) }}%</td>
+                    <td>{{ "%.2f"|format(row.away_win_probability * 100) }}%</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    {% else %}
+        <p>Aucun historique de prédictions Elo disponible.</p>
+    {% endif %}
+{% endblock %}
