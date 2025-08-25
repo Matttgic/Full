@@ -27,11 +27,11 @@
                 <tr>
                     <td>{{ row['elo_bin'] }}</td>
                     <td>{{ row.total_matches }}</td>
-                    <td>{{ "%.2f"|format(row.home_win_pct) }}%</td>
-                    <td>{{ "%.2f"|format(row.draw_pct) }}%</td>
-                    <td>{{ "%.2f"|format(row.away_win_pct) }}%</td>
-                    <td>{{ "%.2f"|format(row.avg_total_goals) }}</td>
-                    <td>{{ "%.2f"|format(row.btts_pct) }}%</td>
+                    <td>{% if row.home_win_pct is number %}{{ "%.2f"|format(row.home_win_pct) }}%{% else %}N/A{% endif %}</td>
+                    <td>{% if row.draw_pct is number %}{{ "%.2f"|format(row.draw_pct) }}%{% else %}N/A{% endif %}</td>
+                    <td>{% if row.away_win_pct is number %}{{ "%.2f"|format(row.away_win_pct) }}%{% else %}N/A{% endif %}</td>
+                    <td>{% if row.avg_total_goals is number %}{{ "%.2f"|format(row.avg_total_goals) }}{% else %}N/A{% endif %}</td>
+                    <td>{% if row.btts_pct is number %}{{ "%.2f"|format(row.btts_pct) }}%{% else %}N/A{% endif %}</td>
                 </tr>
                 {% endfor %}
             </tbody>

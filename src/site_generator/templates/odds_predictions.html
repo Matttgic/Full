@@ -28,8 +28,8 @@
                     <td>{{ pred.league_name }}</td>
                     <td>{{ pred.bet_type }}</td>
                     <td>{{ pred.bet_value }}</td>
-                    <td>{{ pred.target_odd }}</td>
-                    <td>{{ "%.2f"|format(pred.similarity_pct) }}%</td>
+                    <td>{% if pred.target_odd is number %}{{ "%.2f"|format(pred.target_odd) }}{% else %}{{ pred.target_odd }}{% endif %}</td>
+                    <td>{% if pred.similarity_pct is number %}{{ "%.2f"|format(pred.similarity_pct) }}%{% else %}N/A{% endif %}</td>
                     <td>{{ pred.similar_matches_count }}</td>
                 </tr>
                 {% endfor %}

@@ -10,7 +10,8 @@ def load_csv_to_dict(path, file_type=""):
         return []
     try:
         df = pd.read_csv(path)
-        df.fillna('', inplace=True)
+        # Remplacer les NaN par None pour une meilleure gestion par Jinja2
+        df = df.replace({np.nan: None})
         print(f"✅ {len(df)} lignes chargées depuis {path}")
         return df.to_dict(orient='records')
     except Exception as e:
