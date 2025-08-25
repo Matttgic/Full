@@ -6,6 +6,11 @@ on:
     - cron: '0 8 * * *'  # Tous les jours à 8h00 UTC (après la mise à jour des données)
   workflow_dispatch:
 
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
 jobs:
   run-tests:
     runs-on: ubuntu-latest
@@ -124,3 +129,49 @@ jobs:
             git commit -m "🔮 Mise à jour des prédictions quotidiennes - $(date '+%Y-%m-%d')"
             git push
           fi
+
+      - name: Upload final data for site generation
+        uses: actions/upload-artifact@v4
+        with:
+          name: final-data
+          path: data/
+
+  build-site:
+    needs: run-prediction-workflows
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Download final data
+        uses: actions/download-artifact@v4
+        with:
+          name: final-data
+          path: data/
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Generate static site
+        run: python src/site_generator/generator.py
+
+      - name: Upload site artifact
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: docs/
+
+  deploy-site:
+    needs: build-site
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

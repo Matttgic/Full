@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+
+{% block title %}Bilan du Modèle Elo{% endblock %}
+
+{% block content %}
+    <h2>Bilan Statistique par Différence d'Elo</h2>
+    <p>
+        Ce tableau montre la performance historique du modèle Elo. Chaque ligne représente
+        une tranche de différence d'Elo entre l'équipe à domicile et l'équipe à l'extérieur.
+        Les statistiques indiquent les résultats réels des matchs pour chaque tranche.
+    </p>
+    {% if summary %}
+        <table>
+            <thead>
+                <tr>
+                    <th>Différence Elo (Domicile - Extérieur)</th>
+                    <th>Nb Matchs</th>
+                    <th>% Victoire Domicile</th>
+                    <th>% Nul</th>
+                    <th>% Victoire Extérieur</th>
+                    <th>Moy. Buts Total</th>
+                    <th>% BTTS</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for row in summary %}
+                <tr>
+                    <td>{{ row['elo_bin'] }}</td>
+                    <td>{{ row.total_matches }}</td>
+                    <td>{{ "%.2f"|format(row.home_win_pct) }}%</td>
+                    <td>{{ "%.2f"|format(row.draw_pct) }}%</td>
+                    <td>{{ "%.2f"|format(row.away_win_pct) }}%</td>
+                    <td>{{ "%.2f"|format(row.avg_total_goals) }}</td>
+                    <td>{{ "%.2f"|format(row.btts_pct) }}%</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    {% else %}
+        <p>Aucun bilan statistique disponible. Les données sont insuffisantes.</p>
+    {% endif %}
+{% endblock %}

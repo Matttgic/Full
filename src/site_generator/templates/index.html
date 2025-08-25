@@ -1,0 +1,49 @@
+{% extends "base.html" %}
+
+{% block title %}Prédictions du Jour{% endblock %}
+
+{% block content %}
+    <h2>Prédictions Elo du {{ date }}</h2>
+    {% if predictions %}
+        <table>
+            <thead>
+                <tr>
+                    <th>Match</th>
+                    <th>Compétition</th>
+                    <th>Elo Domicile</th>
+                    <th>Elo Extérieur</th>
+                    <th>Diff. Elo</th>
+                    <th>Prob. Victoire Domicile</th>
+                    <th>Prob. Nul</th>
+                    <th>Prob. Victoire Extérieur</th>
+                    <th>% Victoire Domicile (Hist.)</th>
+                    <th>% Nul (Hist.)</th>
+                    <th>% Victoire Extérieur (Hist.)</th>
+                    <th>Moy. Buts (Hist.)</th>
+                    <th>% BTTS (Hist.)</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for pred in predictions %}
+                <tr>
+                    <td>{{ pred.home_team }} vs {{ pred.away_team }}</td>
+                    <td>{{ pred.league_name }}</td>
+                    <td>{{ pred.home_team_elo }}</td>
+                    <td>{{ pred.away_team_elo }}</td>
+                    <td>{{ pred.elo_difference }}</td>
+                    <td>{{ "%.2f"|format(pred.home_win_probability * 100) }}%</td>
+                    <td>{{ "%.2f"|format(pred.draw_probability * 100) }}%</td>
+                    <td>{{ "%.2f"|format(pred.away_win_probability * 100) }}%</td>
+                    <td>{{ "%.2f"|format(pred.hist_home_win_pct) }}%</td>
+                    <td>{{ "%.2f"|format(pred.hist_draw_pct) }}%</td>
+                    <td>{{ "%.2f"|format(pred.hist_away_win_pct) }}%</td>
+                    <td>{{ "%.2f"|format(pred.hist_avg_goals) }}</td>
+                    <td>{{ "%.2f"|format(pred.hist_btts_pct) }}%</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    {% else %}
+        <p>Aucune prédiction disponible pour aujourd'hui.</p>
+    {% endif %}
+{% endblock %}
