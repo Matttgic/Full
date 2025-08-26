@@ -28,7 +28,8 @@ from src.config import (
     MIN_SIMILAR_MATCHES_THRESHOLD,
     SIMILARITY_THRESHOLD,
     MIN_BOOKMAKERS_THRESHOLD,
-    ALL_LEAGUES
+    ALL_LEAGUES,
+    MIN_SIMILARITY_PCT_THRESHOLD
 )
 
 # Configuration du logging
@@ -67,6 +68,7 @@ class DailyPredictionsWorkflow:
         self.SIMILARITY_THRESHOLD = SIMILARITY_THRESHOLD
         self.MIN_BOOKMAKERS_THRESHOLD = MIN_BOOKMAKERS_THRESHOLD
         self.MIN_SIMILAR_MATCHES_THRESHOLD = MIN_SIMILAR_MATCHES_THRESHOLD
+        self.MIN_SIMILARITY_PCT_THRESHOLD = MIN_SIMILARITY_PCT_THRESHOLD
         
         # Dossiers
         self.odds_data_dir = 'data/odds/raw_data'
@@ -267,16 +269,19 @@ class DailyPredictionsWorkflow:
                 if len(similar_matches) >= self.MIN_SIMILAR_MATCHES_THRESHOLD:
                     # Calculer le pourcentage de similarité
                     similarity_percentage = (len(similar_matches) / len(historical_odds)) * 100
-                    avg_distance = similar_matches.mean()
                     
-                    similarity_results[bet_identifier] = {
-                        'similarity_percentage': round(similarity_percentage, 2),
-                        'similar_matches_count': len(similar_matches),
-                        'total_historical_matches': len(historical_odds),
-                        'avg_distance': round(avg_distance, 4),
-                        'target_odd': target_odd,
-                        'similarity_reference_count': len(similar_matches)
-                    }
+                    # Appliquer le nouveau seuil de pourcentage de similarité
+                    if similarity_percentage >= self.MIN_SIMILARITY_PCT_THRESHOLD:
+                        avg_distance = similar_matches.mean()
+
+                        similarity_results[bet_identifier] = {
+                            'similarity_percentage': round(similarity_percentage, 2),
+                            'similar_matches_count': len(similar_matches),
+                            'total_historical_matches': len(historical_odds),
+                            'avg_distance': round(avg_distance, 4),
+                            'target_odd': target_odd,
+                            'similarity_reference_count': len(similar_matches)
+                        }
         
         return similarity_results
 

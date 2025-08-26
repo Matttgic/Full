@@ -2,7 +2,12 @@ import pytest
 import pandas as pd
 import numpy as np
 from src.prediction.daily_predictions_workflow import DailyPredictionsWorkflow
-from src.config import SIMILARITY_THRESHOLD, MIN_BOOKMAKERS_THRESHOLD, MIN_SIMILAR_MATCHES_THRESHOLD
+from src.config import (
+    SIMILARITY_THRESHOLD,
+    MIN_BOOKMAKERS_THRESHOLD,
+    MIN_SIMILAR_MATCHES_THRESHOLD,
+    MIN_SIMILARITY_PCT_THRESHOLD
+)
 
 @pytest.fixture
 def predictions_workflow(mocker):
@@ -14,50 +19,60 @@ def predictions_workflow(mocker):
     workflow = DailyPredictionsWorkflow(rapidapi_key='dummy_key_for_testing')
     return workflow
 
-def test_calculate_similarity_with_thresholds(predictions_workflow):
+def test_calculate_similarity_with_all_thresholds(predictions_workflow):
     """
-    Teste que le `MIN_SIMILAR_MATCHES_THRESHOLD` est correctement appliqué.
+    Teste que les deux seuils (`MIN_SIMILAR_MATCHES_THRESHOLD` et
+    `MIN_SIMILARITY_PCT_THRESHOLD`) sont correctement appliqués.
     """
     # 1. Préparation des données de test
 
-    # Données pour la matrice historique factice
-    # On s'assure que les cotes pour 'Match Winner_Home' sont dans la plage de similarité
-    data_winner = [1.50, 1.52, 1.48, 1.55, 1.45, 1.58, 1.60, 1.49, 1.51, 1.53, 1.56]  # 11 matchs
-    # Données pour 'Correct Score_1-0' qui n'atteindront pas le seuil
-    data_score = [8.0, 8.2, 7.8, 8.1, 7.9]  # 5 matchs
+    # Cas 1: Doit passer tous les filtres
+    # 12 matchs similaires sur 15 au total -> 80% de similarité
+    data_pass = [1.50] * 12 + [2.0] * 3
+
+    # Cas 2: Doit échouer car pas assez de matchs similaires au total
+    data_fail_count = [1.80] * 8 # Moins de 10
+
+    # Cas 3: Doit échouer car le % de similarité est trop bas
+    # 12 matchs similaires sur 20 au total -> 60% de similarité
+    data_fail_pct = [2.20] * 12 + [3.0] * 8
 
     # Assurer que les listes ont la même longueur pour le DataFrame
-    max_len = max(len(data_winner), len(data_score))
-    data_winner.extend([np.nan] * (max_len - len(data_winner)))
-    data_score.extend([np.nan] * (max_len - len(data_score)))
+    max_len = max(len(data_pass), len(data_fail_count), len(data_fail_pct))
+    data_pass.extend([np.nan] * (max_len - len(data_pass)))
+    data_fail_count.extend([np.nan] * (max_len - len(data_fail_count)))
+    data_fail_pct.extend([np.nan] * (max_len - len(data_fail_pct)))
 
     historical_data = {
-        'Match Winner_Home': data_winner,
-        'Correct Score_1-0': data_score
+        'Pass_Bet': data_pass,
+        'Fail_Count_Bet': data_fail_count,
+        'Fail_Pct_Bet': data_fail_pct
     }
     historical_matrix = pd.DataFrame(historical_data)
     predictions_workflow.historical_feature_matrix = historical_matrix
 
-    # Cotes cibles pour un nouveau match
+    # Cotes cibles
     target_odds = {
-        'Match Winner_Home': 1.52,
-        'Correct Score_1-0': 8.05
+        'Pass_Bet': 1.52,
+        'Fail_Count_Bet': 1.81,
+        'Fail_Pct_Bet': 2.22
     }
 
     # Utiliser les seuils de la configuration
-    predictions_workflow.SIMILARITY_THRESHOLD = SIMILARITY_THRESHOLD
-    predictions_workflow.MIN_SIMILAR_MATCHES_THRESHOLD = MIN_SIMILAR_MATCHES_THRESHOLD # Devrait être 10
+    predictions_workflow.SIMILARITY_THRESHOLD = 0.1 # Pour un test prédictible
+    predictions_workflow.MIN_SIMILAR_MATCHES_THRESHOLD = 10
+    predictions_workflow.MIN_SIMILARITY_PCT_THRESHOLD = 70
 
-    # 2. Exécution de la méthode à tester
+    # 2. Exécution
     similarity_results = predictions_workflow.calculate_similarity_for_all_bets(target_odds)
 
-    # 3. Vérification des résultats
+    # 3. Vérification
 
-    # Le pari 'Match Winner_Home' doit être présent car il a 11 matchs similaires
-    # (1.52 +/- 0.15 -> [1.37, 1.67]), ce qui est > 10.
-    assert 'Match Winner_Home' in similarity_results
-    assert similarity_results['Match Winner_Home']['similar_matches_count'] == 11
+    # Le pari 'Pass_Bet' doit être présent
+    assert 'Pass_Bet' in similarity_results
+    assert similarity_results['Pass_Bet']['similar_matches_count'] == 12
+    assert similarity_results['Pass_Bet']['similarity_percentage'] == 80.0
 
-    # Le pari 'Correct Score_1-0' ne doit pas être présent car il n'a que 5 matchs similaires,
-    # ce qui est < 10.
-    assert 'Correct Score_1-0' not in similarity_results
+    # Les autres paris doivent avoir été filtrés
+    assert 'Fail_Count_Bet' not in similarity_results
+    assert 'Fail_Pct_Bet' not in similarity_results
