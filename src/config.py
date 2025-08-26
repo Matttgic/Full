@@ -33,6 +33,9 @@ MIN_BOOKMAKERS_THRESHOLD = 3
 # This prevents making high-confidence predictions from a small sample size.
 MIN_SIMILAR_MATCHES_THRESHOLD = 10
 
+# The minimum similarity percentage required to consider a prediction valid.
+MIN_SIMILARITY_PCT_THRESHOLD = 70
+
 # --- Data Collection Parameters ---
 
 # Seasons to collect data for
