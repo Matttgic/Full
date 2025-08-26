@@ -55,7 +55,7 @@ jobs:
           name: data-after-elo
           path: data/
 
-  run-elo-summary:
+  update-results:
     needs: run-elo-calculator
     runs-on: ubuntu-latest
     steps:
@@ -66,6 +66,36 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: data-after-elo
+          path: data/
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run Results Updater
+        run: python src/data_processing/results_updater.py
+
+      - name: Upload data with results
+        uses: actions/upload-artifact@v4
+        with:
+          name: data-with-results
+          path: data/
+
+  run-elo-summary:
+    needs: update-results
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Download data artifacts
+        uses: actions/download-artifact@v4
+        with:
+          name: data-with-results
           path: data/
 
       - name: Set up Python
