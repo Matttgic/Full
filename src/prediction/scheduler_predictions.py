@@ -44,6 +44,26 @@ def run_daily_predictions():
     except Exception as e:
         logger.error(f"❌ Exception lors du lancement: {e}")
 
+def run_results_updater():
+    """Met à jour les prédictions avec les résultats réels"""
+    logger.info("🔄 Lancement de la mise à jour des résultats...")
+
+    try:
+        result = subprocess.run(
+            ["python3", "/app/results_updater.py"],
+            capture_output=True,
+            text=True,
+            cwd="/app"
+        )
+
+        if result.returncode == 0:
+            logger.info("✅ Mise à jour des résultats terminée")
+        else:
+            logger.warning(f"⚠️ Avertissement mise à jour résultats: {result.stderr[:200]}")
+
+    except Exception as e:
+        logger.error(f"❌ Exception lors de la mise à jour des résultats: {e}")
+
 def run_data_collection():
     """Lance la collecte de données (optionnel - sync avec les autres workflows)"""
     logger.info("🔄 Lancement de la collecte de données...")
@@ -77,7 +97,10 @@ def run_data_collection():
             logger.info("✅ Collecte des cotes terminée")
         else:
             logger.warning(f"⚠️ Avertissement collecte cotes: {result2.stderr[:200]}")
-            
+
+        # Mettre à jour les résultats des matchs
+        run_results_updater()
+
     except Exception as e:
         logger.error(f"❌ Exception lors de la collecte: {e}")
 
@@ -107,10 +130,10 @@ def main():
     schedule.every().day.at("21:00").do(run_daily_predictions)
     
     logger.info("📅 Scheduler configuré:")
-    logger.info("   - 06:00: Collecte données")
+    logger.info("   - 06:00: Collecte données + mise à jour résultats")
     logger.info("   - 06:30: Prédictions matinales")
     logger.info("   - 12:00: Prédictions midi")
-    logger.info("   - 18:00: Collecte données")
+    logger.info("   - 18:00: Collecte données + mise à jour résultats")
     logger.info("   - 18:30: Prédictions soirée")
     logger.info("   - 21:00: Prédictions finales")
     
