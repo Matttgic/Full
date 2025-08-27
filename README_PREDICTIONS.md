@@ -6,10 +6,10 @@ Ce système génère automatiquement des prédictions quotidiennes pour les matc
 
 ## 🎯 Fonctionnalités
 
-- **Prédictions quotidiennes** : Génère un CSV quotidien avec tous les matchs du jour
+- **Prédictions quotidiennes** : Génère un fichier `daily_predictions.csv` (et `daily_elo_predictions.csv` pour l'ELO) avec tous les matchs du jour
 - **Analyse complète** : Calcule les % de similarité pour TOUS les types de paris
 - **Base de données robuste** : Utilise les données combinées de 15 ligues
-- **Historique complet** : Maintient un CSV historique pour analyses avancées
+- **Historique complet** : Accumule les données dans `historical_predictions.csv` et `historical_elo_predictions.csv`
 - **Scheduling automatique** : Exécution automatisée à heures définies
 - **Analyses avancées** : Outils d'analyse et de visualisation des résultats
 
@@ -30,8 +30,10 @@ Ce système génère automatiquement des prédictions quotidiennes pour les matc
 │       └── ...
 ├── data/
 │   ├── predictions/
-│   │   ├── daily_YYYY-MM-DD.csv
-│   │   └── historical_predictions.csv
+│   │   ├── daily_predictions.csv
+│   │   ├── daily_elo_predictions.csv
+│   │   ├── historical_predictions.csv
+│   │   └── historical_elo_predictions.csv
 │   ├── elo_ratings.csv
 │   └── ...
 ├── .github/workflows/
@@ -285,7 +287,7 @@ python3 src/analysis/elo_calculator.py
 Un workflow quotidien génère des prédictions basées uniquement sur le classement Elo des équipes.
 
 **Fichiers Générés:**
-- `data/predictions/daily_elo_predictions_YYYY-MM-DD.csv`: Contient les prédictions Elo pour les matchs du jour.
+- `data/predictions/daily_elo_predictions.csv`: Contient les prédictions Elo pour les matchs du jour.
 - `data/predictions/historical_elo_predictions.csv`: Archive toutes les prédictions Elo générées.
 
 **Format du CSV:**

@@ -36,8 +36,10 @@ Voici une description des fichiers et dossiers importants du projet :
 │   ├── odds/
 │   │   └── raw_data/       # Contient les données brutes des cotes pour tous les types de paris
 │   └── predictions/        # Contient les fichiers de prédictions générés
-│       ├── daily_elo_predictions_YYYY-MM-DD.csv   # Prédictions quotidiennes
-│       └── historical_elo_predictions_with_results.csv # Fichier enrichi avec les résultats
+│       ├── daily_predictions.csv          # Prédictions quotidiennes par similarité
+│       ├── daily_elo_predictions.csv      # Prédictions quotidiennes basées sur l'ELO
+│       ├── historical_predictions.csv     # Historique cumulatif des prédictions
+│       └── historical_elo_predictions.csv # Historique cumulatif des prédictions ELO
 ├── src/                    # Contient tout le code source du projet
 │   ├── analysis/           # Scripts pour l'analyse des données et des prédictions
 │   │   └── predictions_analyzer.py # Contient la logique pour enrichir les données
