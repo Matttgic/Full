@@ -30,7 +30,7 @@ Ce système génère automatiquement des prédictions quotidiennes pour les matc
 │       └── ...
 ├── data/
 │   ├── predictions/
-│   │   ├── daily_YYYY-MM-DD.csv
+│   │   ├── daily_predictions.csv
 │   │   └── historical_predictions.csv
 │   ├── elo_ratings.csv
 │   └── ...

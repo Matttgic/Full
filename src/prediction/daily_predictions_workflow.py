@@ -289,9 +289,16 @@ class DailyPredictionsWorkflow:
         """
         Crée les fichiers CSV quotidien et historique
         """
-        daily_filename = f"daily_{self.today.strftime('%Y-%m-%d')}.csv"
-        daily_filepath = os.path.join(self.predictions_dir, daily_filename)
+        daily_filepath = os.path.join(self.predictions_dir, "daily_predictions.csv")
         historical_filepath = os.path.join(self.predictions_dir, "historical_predictions.csv")
+
+        # Supprimer les anciens fichiers quotidiens
+        for old_file in glob.glob(os.path.join(self.predictions_dir, "daily_*.csv")):
+            try:
+                os.remove(old_file)
+                logger.info(f"🧹 Ancien fichier supprimé: {old_file}")
+            except OSError as e:
+                logger.warning(f"Impossible de supprimer {old_file}: {e}")
         
         all_long_format_predictions = []
         

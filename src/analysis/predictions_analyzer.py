@@ -156,11 +156,11 @@ class PredictionsAnalyzer:
         return pd.DataFrame(high_confidence_matches)
     
     def generate_daily_report(self, target_date: str = None) -> str:
-        """Génère un rapport pour une date donnée"""
+        """Génère un rapport basé sur le fichier quotidien actuel"""
         if target_date is None:
             target_date = date.today().strftime('%Y-%m-%d')
-        
-        daily_file = os.path.join(self.predictions_dir, f"daily_{target_date}.csv")
+
+        daily_file = os.path.join(self.predictions_dir, "daily_predictions.csv")
         
         if not os.path.exists(daily_file):
             logger.error(f"Fichier quotidien non trouvé: {daily_file}")
