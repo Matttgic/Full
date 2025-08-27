@@ -230,8 +230,71 @@ class PredictionsAnalyzer:
         # Exporter
         filtered_df.to_csv(output_file, index=False)
         logger.info(f"💾 Données filtrées exportées: {output_file} ({len(filtered_df)} lignes)")
-        
+
         return output_file
+
+    def compute_bet_success_rates(self, df: pd.DataFrame) -> pd.DataFrame:
+        """Calcule les taux de réussite des paris."""
+        required_cols = {
+            'bet_type', 'bet_value', 'home_goals_fulltime', 'away_goals_fulltime'
+        }
+        if not required_cols.issubset(df.columns):
+            logger.warning("Colonnes manquantes pour le calcul des taux de réussite")
+            return pd.DataFrame()
+
+        working_df = df.dropna(subset=['home_goals_fulltime', 'away_goals_fulltime']).copy()
+
+        def _is_success(row):
+            bet_type = row['bet_type']
+            value = row['bet_value']
+            hg = row['home_goals_fulltime']
+            ag = row['away_goals_fulltime']
+            total = hg + ag
+
+            if bet_type == 'Match Winner':
+                if value == 'Home':
+                    return hg > ag
+                if value == 'Away':
+                    return ag > hg
+                if value == 'Draw':
+                    return hg == ag
+            elif bet_type == 'Goals Over/Under' and isinstance(value, str):
+                parts = value.split()
+                if len(parts) == 2:
+                    direction, threshold = parts
+                    try:
+                        threshold = float(threshold)
+                    except ValueError:
+                        return np.nan
+                    if direction == 'Over':
+                        return total > threshold
+                    if direction == 'Under':
+                        return total < threshold
+            elif bet_type == 'Both Teams Score':
+                if value == 'Yes':
+                    return hg > 0 and ag > 0
+                if value == 'No':
+                    return hg == 0 or ag == 0
+
+            return np.nan
+
+        working_df['bet_success'] = working_df.apply(_is_success, axis=1)
+        working_df = working_df.dropna(subset=['bet_success'])
+
+        if working_df.empty:
+            logger.warning("Aucun pari exploitable pour le calcul des succès")
+            return pd.DataFrame()
+
+        summary = working_df.groupby(['bet_type', 'bet_value']).agg(
+            total_bets=('bet_success', 'count'),
+            successes=('bet_success', 'sum')
+        ).reset_index()
+        summary['success_rate'] = (summary['successes'] / summary['total_bets'] * 100).round(2)
+
+        logger.info("\n🎯 TAUX DE RÉUSSITE DES PARIS:")
+        logger.info(summary.to_string(index=False))
+
+        return summary
     
     def run_complete_analysis(self):
         """Lance une analyse complète"""
@@ -247,7 +310,12 @@ class PredictionsAnalyzer:
         self.analyze_by_date(df)
         self.analyze_similarity_distribution(df)
         self.find_high_confidence_predictions(df, min_confidence=75.0)
-        
+
+        # Enrichir avec les résultats et calculer les taux de réussite
+        enriched_df = self.enrich_with_results(df)
+        if not enriched_df.empty:
+            self.compute_bet_success_rates(enriched_df)
+
         # Rapport du jour
         today = date.today().strftime('%Y-%m-%d')
         self.generate_daily_report(today)
