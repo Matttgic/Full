@@ -53,3 +53,65 @@ def test_export_filtered_data(tmp_path):
     saved = pd.read_csv(output)
     assert saved["league_name"].unique().tolist() == ["B"]
 
+
+def test_compute_bet_success_rates_match_winner():
+    analyzer = PredictionsAnalyzer()
+    df = pd.DataFrame({
+        "bet_type": ["Match Winner", "Match Winner", "Match Winner", "Match Winner"],
+        "bet_value": ["Home", "Home", "Away", "Draw"],
+        "home_goals_fulltime": [2, 0, 0, 1],
+        "away_goals_fulltime": [1, 1, 2, 1],
+    })
+
+    summary = analyzer.compute_bet_success_rates(df)
+    home_row = summary[(summary["bet_type"] == "Match Winner") & (summary["bet_value"] == "Home")].iloc[0]
+    assert home_row["total_bets"] == 2
+    assert home_row["successes"] == 1
+    assert home_row["success_rate"] == 0.5
+
+
+def test_compute_bet_success_rates_btts():
+    analyzer = PredictionsAnalyzer()
+    df = pd.DataFrame({
+        "bet_type": ["Both Teams Score", "Both Teams Score", "Both Teams Score", "Both Teams Score"],
+        "bet_value": ["Yes", "Yes", "No", "No"],
+        "home_goals_fulltime": [1, 0, 2, 2],
+        "away_goals_fulltime": [1, 1, 0, 2],
+    })
+
+    summary = analyzer.compute_bet_success_rates(df)
+    yes_row = summary[(summary["bet_type"] == "Both Teams Score") & (summary["bet_value"] == "Yes")].iloc[0]
+    assert yes_row["total_bets"] == 2
+    assert yes_row["successes"] == 1
+    assert yes_row["success_rate"] == 0.5
+
+
+def test_compute_bet_success_rates_over_under():
+    analyzer = PredictionsAnalyzer()
+    df = pd.DataFrame({
+        "bet_type": [
+            "Goals Over/Under",
+            "Goals Over/Under",
+            "Goals Over/Under",
+            "Goals Over/Under",
+        ],
+        "bet_value": [
+            "Over 2.5",
+            "Over 2.5",
+            "Under 3.5",
+            "Under 1.5",
+        ],
+        "home_goals_fulltime": [2, 1, 1, 2],
+        "away_goals_fulltime": [1, 1, 1, 0],
+    })
+
+    summary = analyzer.compute_bet_success_rates(df)
+    over_row = summary[(summary["bet_type"] == "Goals Over/Under") & (summary["bet_value"] == "Over 2.5")].iloc[0]
+    assert over_row["total_bets"] == 2
+    assert over_row["successes"] == 1
+    assert over_row["success_rate"] == 0.5
+    under_row = summary[(summary["bet_type"] == "Goals Over/Under") & (summary["bet_value"] == "Under 3.5")].iloc[0]
+    assert under_row["total_bets"] == 1
+    assert under_row["successes"] == 1
+    assert under_row["success_rate"] == 1.0
+

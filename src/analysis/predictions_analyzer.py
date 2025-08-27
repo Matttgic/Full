@@ -247,7 +247,12 @@ class PredictionsAnalyzer:
         self.analyze_by_date(df)
         self.analyze_similarity_distribution(df)
         self.find_high_confidence_predictions(df, min_confidence=75.0)
-        
+
+        # Calcul des taux de réussite des paris
+        enriched_df = self.enrich_with_results(df)
+        if not enriched_df.empty:
+            self.compute_bet_success_rates(enriched_df)
+
         # Rapport du jour
         today = date.today().strftime('%Y-%m-%d')
         self.generate_daily_report(today)
@@ -285,6 +290,74 @@ class PredictionsAnalyzer:
         logger.info(f"Prédictions enrichies sauvegardées dans {output_file}")
 
         return enriched_df
+
+    def compute_bet_success_rates(self, df: pd.DataFrame) -> pd.DataFrame:
+        """Calcule le taux de réussite des différents paris."""
+        if df.empty:
+            return pd.DataFrame()
+
+        required_cols = {
+            'bet_type', 'bet_value', 'home_goals_fulltime', 'away_goals_fulltime'
+        }
+        if not required_cols.issubset(df.columns):
+            logger.error("Colonnes nécessaires manquantes pour calculer les taux de réussite")
+            return pd.DataFrame()
+
+        def is_success(row):
+            bt = row['bet_type']
+            val = str(row['bet_value'])
+            hg = row['home_goals_fulltime']
+            ag = row['away_goals_fulltime']
+            total = hg + ag
+
+            if pd.isna(hg) or pd.isna(ag):
+                return np.nan
+
+            if bt == 'Match Winner':
+                if hg > ag and val.lower() == 'home':
+                    return 1
+                if hg < ag and val.lower() == 'away':
+                    return 1
+                if hg == ag and val.lower() == 'draw':
+                    return 1
+                return 0
+
+            if bt == 'Both Teams Score':
+                both_score = hg > 0 and ag > 0
+                if both_score and val.lower() in {'yes', 'y', '1', 'true'}:
+                    return 1
+                if not both_score and val.lower() in {'no', 'n', '0', 'false'}:
+                    return 1
+                return 0
+
+            if bt == 'Goals Over/Under':
+                try:
+                    direction, threshold = val.split()
+                    threshold = float(threshold)
+                except ValueError:
+                    return np.nan
+                if direction.lower() == 'over':
+                    return 1 if total > threshold else 0
+                if direction.lower() == 'under':
+                    return 1 if total < threshold else 0
+                return np.nan
+
+            return np.nan
+
+        temp_df = df.copy()
+        temp_df['bet_success'] = temp_df.apply(is_success, axis=1)
+        temp_df.dropna(subset=['bet_success'], inplace=True)
+
+        summary = temp_df.groupby(['bet_type', 'bet_value']).agg(
+            total_bets=('bet_success', 'count'),
+            successes=('bet_success', 'sum')
+        )
+        summary['success_rate'] = (summary['successes'] / summary['total_bets']).round(2)
+        summary = summary.reset_index()
+
+        logger.info("\n📈 TAUX DE RÉUSSITE DES PARIS:")
+        logger.info(summary.to_string(index=False))
+        return summary
 
 def main():
     """Point d'entrée principal"""
