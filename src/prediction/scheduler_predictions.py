@@ -11,6 +11,19 @@ import subprocess
 import os
 from datetime import datetime
 
+# Déterminer la racine du dépôt
+ROOT_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
+
+# Chemins des scripts utilisés par le scheduler
+DAILY_PREDICTIONS_SCRIPT = os.path.join(
+    ROOT_DIR, "src", "prediction", "daily_predictions_workflow.py"
+)
+DATA_UPDATER_SCRIPT = os.path.join(
+    ROOT_DIR, "src", "data_processing", "football_data_updater.py"
+)
+ODDS_COLLECTOR_SCRIPT = os.path.join(
+    ROOT_DIR, "src", "data_processing", "football_odds_collector.py"
+)
 # Configuration du logging
 logging.basicConfig(
     level=logging.INFO,
@@ -29,10 +42,10 @@ def run_daily_predictions():
     try:
         # Exécuter le script de prédictions
         result = subprocess.run(
-            ["python3", "/app/daily_predictions_workflow.py"],
+            ["python3", DAILY_PREDICTIONS_SCRIPT],
             capture_output=True,
             text=True,
-            cwd="/app"
+            cwd=ROOT_DIR
         )
         
         if result.returncode == 0:
@@ -51,10 +64,10 @@ def run_data_collection():
     try:
         # Lancer la mise à jour des données de matchs
         result1 = subprocess.run(
-            ["python3", "/app/football_data_updater.py"],
+            ["python3", DATA_UPDATER_SCRIPT],
             capture_output=True,
             text=True,
-            cwd="/app"
+            cwd=ROOT_DIR
         )
         
         if result1.returncode == 0:
@@ -67,10 +80,10 @@ def run_data_collection():
         
         # Lancer la collecte des cotes
         result2 = subprocess.run(
-            ["python3", "/app/football_odds_collector.py"],
+            ["python3", ODDS_COLLECTOR_SCRIPT],
             capture_output=True,
             text=True,
-            cwd="/app"
+            cwd=ROOT_DIR
         )
         
         if result2.returncode == 0:
