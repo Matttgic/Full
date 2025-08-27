@@ -49,6 +49,16 @@ Voici une description des fichiers et dossiers importants du projet :
 └── requirements.txt        # Liste des dépendances Python nécessaires
 ```
 
+## 🔐 Configuration de l'API
+
+Avant de lancer les scripts, copiez le fichier `.env.template` en `.env` et renseignez votre clé RapidAPI :
+
+```bash
+cp .env.template .env
+# Puis éditez .env et remplacez <votre-clé> par votre clé RapidAPI
+source .env
+```
+
 ## 🚀 Comment Utiliser
 
 - **Pour tester le système :** Le moyen le plus simple de vérifier que tout fonctionne est de lancer le script de test complet.

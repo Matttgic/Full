@@ -50,8 +50,12 @@ pip install -r requirements.txt
 
 ### 2. Configuration de la clé API
 
+Copiez le modèle `.env.template` en `.env` puis ajoutez votre clé :
+
 ```bash
-export RAPIDAPI_KEY='your_rapidapi_key_here'
+cp .env.template .env
+# Éditez .env et remplacez <votre-clé> par votre clé RapidAPI
+source .env
 ```
 
 ### 3. Setup automatique
@@ -196,8 +200,9 @@ sudo systemctl status football-predictions
 
 ### Erreur "Clé API manquante"
 ```bash
-export RAPIDAPI_KEY='your_key_here'
-# Ou ajoutez-la à votre .bashrc/.zshrc
+cp .env.template .env  # si le fichier n'existe pas
+# Ajoutez votre clé dans .env puis chargez-le
+source .env
 ```
 
 ### Erreur "Données historiques manquantes"
