@@ -233,12 +233,28 @@ class DailyPredictionsWorkflow:
         df = pd.DataFrame(processed_odds)
         df['odd'] = pd.to_numeric(df['odd'], errors='coerce')
         df.dropna(subset=['odd'], inplace=True)
-        
+
         df['bet_identifier'] = df['bet_type_name'].astype(str) + '_' + df['bet_value'].astype(str)
-        
-        # Calculer cotes moyennes
-        mean_odds = df.groupby('bet_identifier')['odd'].mean()
-        
+        # Compter le nombre de bookmakers distincts par pari
+        bookmaker_counts = (
+            df.groupby('bet_identifier')['bookmaker_id']
+            .nunique()
+            .reset_index(name='bookmaker_count')
+        )
+
+        # Conserver uniquement les paris suffisamment représentés
+        valid_bets = bookmaker_counts[
+            bookmaker_counts['bookmaker_count'] >= self.MIN_BOOKMAKERS_THRESHOLD
+        ]['bet_identifier']
+
+        if valid_bets.empty:
+            return {}
+
+        filtered_df = df[df['bet_identifier'].isin(valid_bets)]
+
+        # Calculer cotes moyennes sur le sous-ensemble fiable
+        mean_odds = filtered_df.groupby('bet_identifier')['odd'].mean()
+
         return mean_odds.to_dict()
 
     def calculate_similarity_for_all_bets(self, target_odds: Dict) -> Dict:

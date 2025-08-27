@@ -20,6 +20,24 @@ def predictions_workflow(mocker):
     workflow = DailyPredictionsWorkflow(rapidapi_key='dummy_key_for_testing')
     return workflow
 
+def test_process_fixture_odds_filters_bookmakers(predictions_workflow):
+    """Vérifie que les paris avec trop peu de bookmakers sont exclus."""
+    odds_data = [{
+        'bookmakers': [
+            {'id': 1, 'bets': [{'name': 'Match Winner', 'values': [{'value': 'Home', 'odd': '1.5'}]}]},
+            {'id': 2, 'bets': [{'name': 'Match Winner', 'values': [{'value': 'Home', 'odd': '1.6'}]}]},
+            {'id': 3, 'bets': [{'name': 'Match Winner', 'values': [{'value': 'Home', 'odd': '1.7'}]}]},
+            {'id': 4, 'bets': [{'name': 'Over/Under', 'values': [{'value': 'Over 2.5', 'odd': '2.0'}]}]},
+            {'id': 5, 'bets': [{'name': 'Over/Under', 'values': [{'value': 'Over 2.5', 'odd': '2.1'}]}]},
+        ]
+    }]
+
+    result = predictions_workflow.process_fixture_odds(1, odds_data)
+
+    assert 'Match Winner_Home' in result
+    assert result['Match Winner_Home'] == pytest.approx((1.5 + 1.6 + 1.7) / 3)
+    assert 'Over/Under_Over 2.5' not in result
+
 def test_calculate_similarity_with_all_thresholds(predictions_workflow):
     """
     Teste que les deux seuils (`MIN_SIMILAR_MATCHES_THRESHOLD` et
