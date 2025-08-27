@@ -370,10 +370,19 @@ class DailyPredictionsWorkflow:
             combined_df = pd.concat([historical_df, predictions_df], ignore_index=True)
         else:
             combined_df = predictions_df
-        
-        # Sauvegarder l'historique
+
+        # Dédupliquer en conservant la dernière analyse
+        combined_df.sort_values('analysis_timestamp', inplace=True)
+        combined_df = combined_df.drop_duplicates(
+            subset=['fixture_id', 'bet_type', 'bet_value'],
+            keep='last'
+        )
+
+        # Sauvegarder l'historique dédupliqué
         combined_df.to_csv(historical_filepath, index=False, encoding='utf-8')
-        logger.info(f"📚 CSV historique mis à jour: {historical_filepath} ({len(combined_df)} entrées totales)")
+        logger.info(
+            f"📚 CSV historique mis à jour: {historical_filepath} ({len(combined_df)} entrées totales)"
+        )
         
         return daily_filepath, historical_filepath
 
