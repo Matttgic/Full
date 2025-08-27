@@ -139,14 +139,16 @@ def show_status():
         status_icon = "✅" if status else "❌"
         logger.info(f"{status_icon} {name}")
     
-    # Fichiers récents
+    # Fichiers de prédictions
     predictions_dir = 'data/predictions'
     if os.path.exists(predictions_dir):
-        files = [f for f in os.listdir(predictions_dir) if f.startswith('daily_')]
-        if files:
-            latest_file = max(files)
-            logger.info(f"📁 Dernier fichier: {latest_file}")
-        else:
+        expected_files = ['daily_predictions.csv', 'daily_elo_predictions.csv']
+        found = False
+        for filename in expected_files:
+            if os.path.exists(os.path.join(predictions_dir, filename)):
+                logger.info(f"📁 Fichier présent: {filename}")
+                found = True
+        if not found:
             logger.info("📁 Aucun fichier de prédictions trouvé")
     
     # Données historiques
