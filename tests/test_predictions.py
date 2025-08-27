@@ -1,6 +1,7 @@
 import pytest
 import pandas as pd
 import numpy as np
+import requests
 from src.prediction.daily_predictions_workflow import DailyPredictionsWorkflow
 from src.config import (
     SIMILARITY_THRESHOLD,
@@ -76,3 +77,44 @@ def test_calculate_similarity_with_all_thresholds(predictions_workflow):
     # Les autres paris doivent avoir été filtrés
     assert 'Fail_Count_Bet' not in similarity_results
     assert 'Fail_Pct_Bet' not in similarity_results
+
+
+def test_make_api_request_success(predictions_workflow, mocker):
+    """Vérifie qu'une réponse API valide est renvoyée correctement."""
+    mock_response = mocker.Mock()
+    mock_response.status_code = 200
+    mock_response.json.return_value = {"response": "ok"}
+    mocker.patch("requests.get", return_value=mock_response)
+
+    data = predictions_workflow.make_api_request("fixtures", {"a": 1})
+
+    assert data == {"response": "ok"}
+
+
+def test_make_api_request_failure(predictions_workflow, mocker):
+    """Vérifie que la fonction renvoie None après des erreurs répétées."""
+    mock_get = mocker.patch(
+        "requests.get", side_effect=requests.exceptions.RequestException("boom")
+    )
+    mocker.patch("src.prediction.daily_predictions_workflow.time.sleep", return_value=None)
+
+    data = predictions_workflow.make_api_request("fixtures", {"a": 1})
+
+    assert data is None
+    assert mock_get.call_count == 3
+
+
+def test_get_fixture_odds_calls_api(predictions_workflow, mocker):
+    """Vérifie que get_fixture_odds utilise make_api_request."""
+    mocker.patch.object(
+        predictions_workflow,
+        "make_api_request",
+        return_value={"response": ["sample"]},
+    )
+
+    result = predictions_workflow.get_fixture_odds(123)
+
+    predictions_workflow.make_api_request.assert_called_once_with(
+        "odds", {"fixture": 123}
+    )
+    assert result == ["sample"]
