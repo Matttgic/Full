@@ -6,6 +6,8 @@ __pycache__/
 
 # Log files
 *.log
+# Track the players update log
+!logs/football_players_update.log
 
 # Data artifacts
 *.parquet
