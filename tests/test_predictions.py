@@ -74,6 +74,10 @@ def test_calculate_similarity_with_all_thresholds(predictions_workflow):
     assert similarity_results['Pass_Bet']['similar_matches_count'] == 12
     assert similarity_results['Pass_Bet']['similarity_percentage'] == 80.0
     assert similarity_results['Pass_Bet']['similarity_reference_count'] == 15
+    assert (
+        similarity_results['Pass_Bet']['similarity_reference_count']
+        == similarity_results['Pass_Bet']['total_historical_matches']
+    )
 
     # Les autres paris doivent avoir été filtrés
     assert 'Fail_Count_Bet' not in similarity_results

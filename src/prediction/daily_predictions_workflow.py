@@ -261,14 +261,15 @@ class DailyPredictionsWorkflow:
                 
                 # Calculer les distances (différences absolues)
                 distances = np.abs(historical_odds - target_odd)
-                
+
                 # Trouver les matchs similaires
                 similar_matches = distances[distances <= self.SIMILARITY_THRESHOLD]
-                
+
                 # Appliquer le seuil de matchs similaires
+                total_historical_matches = len(historical_odds)
                 if len(similar_matches) >= self.MIN_SIMILAR_MATCHES_THRESHOLD:
                     # Calculer le pourcentage de similarité
-                    similarity_percentage = (len(similar_matches) / len(historical_odds)) * 100
+                    similarity_percentage = (len(similar_matches) / total_historical_matches) * 100
                     
                     # Appliquer le nouveau seuil de pourcentage de similarité
                     if similarity_percentage >= self.MIN_SIMILARITY_PCT_THRESHOLD:
@@ -277,10 +278,10 @@ class DailyPredictionsWorkflow:
                         similarity_results[bet_identifier] = {
                             'similarity_percentage': round(similarity_percentage, 2),
                             'similar_matches_count': len(similar_matches),
-                            'total_historical_matches': len(historical_odds),
+                            'total_historical_matches': total_historical_matches,
                             'avg_distance': round(avg_distance, 4),
                             'target_odd': target_odd,
-                            'similarity_reference_count': len(historical_odds)
+                            'similarity_reference_count': total_historical_matches
                         }
         
         return similarity_results
