@@ -1,0 +1,5 @@
+fixture_id,date,league_name,home_team,away_team,home_team_elo,away_team_elo,elo_difference,home_win_probability,away_win_probability,draw_probability,home_win_odds,away_win_odds,draw_odds
+1436259,2025-08-27,League Cup,Oxford United,Brighton,1295,1565,-270,0.1293,0.612,0.2587,7.73,1.63,3.87
+1436265,2025-08-27,League Cup,Fulham,Bristol City,1504,1370,134,0.4189,0.1937,0.3874,2.39,5.16,2.58
+1390871,2025-08-27,La Liga,Celta Vigo,Real Betis,1503,1554,-51,0.2303,0.309,0.4607,4.34,3.24,2.17
+1435556,2025-08-27,UEFA Champions League,Benfica,Fenerbahce,1627,1541,86,0.3535,0.2155,0.431,2.83,4.64,2.32
