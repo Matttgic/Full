@@ -280,7 +280,7 @@ class DailyPredictionsWorkflow:
                             'total_historical_matches': len(historical_odds),
                             'avg_distance': round(avg_distance, 4),
                             'target_odd': target_odd,
-                            'similarity_reference_count': len(similar_matches)
+                            'similarity_reference_count': len(historical_odds)
                         }
         
         return similarity_results

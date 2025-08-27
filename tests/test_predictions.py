@@ -73,6 +73,7 @@ def test_calculate_similarity_with_all_thresholds(predictions_workflow):
     assert 'Pass_Bet' in similarity_results
     assert similarity_results['Pass_Bet']['similar_matches_count'] == 12
     assert similarity_results['Pass_Bet']['similarity_percentage'] == 80.0
+    assert similarity_results['Pass_Bet']['similarity_reference_count'] == 15
 
     # Les autres paris doivent avoir été filtrés
     assert 'Fail_Count_Bet' not in similarity_results
@@ -118,3 +119,49 @@ def test_get_fixture_odds_calls_api(predictions_workflow, mocker):
         "odds", {"fixture": 123}
     )
     assert result == ["sample"]
+
+
+def test_create_daily_predictions_csv_exports_counts(predictions_workflow, mocker, tmp_path):
+    """Vérifie que le CSV quotidien contient les compteurs de similarité."""
+    predictions_workflow.predictions_dir = str(tmp_path)
+
+    fixtures_data = [{
+        'fixture': {
+            'id': 1,
+            'date': '2024-01-01T00:00:00+00:00',
+            'venue': {'name': 'Test Venue'},
+            'status': {'long': 'NS'}
+        },
+        'teams': {
+            'home': {'name': 'Home'},
+            'away': {'name': 'Away'}
+        },
+        'league': {'name': 'League'},
+        'league_code': 'LC',
+        'country': 'Country'
+    }]
+
+    mocker.patch.object(predictions_workflow, 'get_fixture_odds', return_value=[{}])
+    mocker.patch.object(predictions_workflow, 'process_fixture_odds', return_value={'Bet_X_value': 1.5})
+    mocker.patch.object(
+        predictions_workflow,
+        'calculate_similarity_for_all_bets',
+        return_value={
+            'Bet_X_value': {
+                'similarity_percentage': 80.0,
+                'similar_matches_count': 12,
+                'total_historical_matches': 15,
+                'avg_distance': 0.1,
+                'target_odd': 1.5,
+                'similarity_reference_count': 15
+            }
+        }
+    )
+
+    daily_file, _ = predictions_workflow.create_daily_predictions_csv(fixtures_data)
+    df = pd.read_csv(daily_file)
+
+    assert 'similar_matches_count' in df.columns
+    assert 'similarity_reference_count' in df.columns
+    assert df.loc[0, 'similar_matches_count'] == 12
+    assert df.loc[0, 'similarity_reference_count'] == 15
