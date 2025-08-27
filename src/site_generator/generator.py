@@ -47,8 +47,8 @@ def generate_site():
     today_str = datetime.utcnow().strftime('%Y-%m-%d')
 
     # Prédictions du jour
-    elo_preds_path = f'data/predictions/daily_elo_predictions_{today_str}.csv'
-    odds_preds_path = f'data/predictions/daily_{today_str}.csv'
+    elo_preds_path = 'data/predictions/daily_elo_predictions.csv'
+    odds_preds_path = 'data/predictions/daily_predictions.csv'
     elo_predictions_data = load_csv_to_dict(elo_preds_path, "Prédictions Elo du jour")
     odds_predictions_data = load_csv_to_dict(odds_preds_path, "Prédictions Cotes du jour")
 
