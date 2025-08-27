@@ -143,7 +143,7 @@ def test_csv_format():
     try:
         import pandas as pd
         
-        demo_file = 'data/predictions/demo_daily_2025-08-22.csv'
+        demo_file = 'data/predictions/demo_daily.csv'
         if os.path.exists(demo_file):
             df = pd.read_csv(demo_file)
             
@@ -246,7 +246,7 @@ def generate_sample_report():
     try:
         import pandas as pd
         
-        demo_file = 'data/predictions/demo_daily_2025-08-22.csv'
+        demo_file = 'data/predictions/demo_daily.csv'
         if os.path.exists(demo_file):
             df = pd.read_csv(demo_file)
             
