@@ -54,6 +54,10 @@ class FootballDataCollectorExtended:
         # Utilisation de la configuration centralisée
         self.all_leagues = ALL_LEAGUES
         self.seasons_to_collect = SEASONS_TO_COLLECT
+
+        # Période de collecte (365 derniers jours)
+        self.end_date = date.today()
+        self.start_date = self.end_date - timedelta(days=365)
         
         # Création de la structure de dossiers
         self.matches_folder = os.path.join("data", "matches")
@@ -376,7 +380,7 @@ class FootballDataCollectorExtended:
         Lance la collecte complète pour TOUTES les ligues.
         """
         logger.info("🚀 === DÉBUT DE LA COLLECTE ÉTENDUE (365 DERNIERS JOURS) ===")
-        logger.info(f"📅 Période de collecte: {self.start_date} à {self.end_date}")
+        logger.info(f"📅 Période de collecte des matchs: du {self.start_date} au {self.end_date}")
         logger.info(f"🏆 Saisons analysées: {self.seasons_to_collect}")
         start_time = datetime.now()
         
