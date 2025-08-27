@@ -8,7 +8,7 @@ Rôle :
 - Pour chaque match, calcule les probabilités de victoire, de nul et de défaite
   en se basant sur la différence d'Elo entre les deux équipes.
 - Inclut la différence d'Elo brute comme information supplémentaire.
-- Sauvegarde les prédictions dans un fichier CSV quotidien (`daily_elo_predictions_YYYY-MM-DD.csv`)
+- Sauvegarde les prédictions dans un fichier CSV quotidien (`daily_elo_predictions.csv`)
   et les ajoute à un historique complet (`historical_elo_predictions.csv`).
 
 Dépendances :
@@ -18,6 +18,7 @@ Dépendances :
 import pandas as pd
 import numpy as np
 import os
+import glob
 import requests
 import logging
 from datetime import datetime, date
@@ -60,6 +61,16 @@ class EloPredictionWorkflow:
 
         self.elo_ratings = self.load_elo_ratings()
         self.elo_summary = self.load_elo_summary()
+
+    def cleanup_old_daily_files(self) -> None:
+        """Supprime les anciens fichiers de prédictions quotidiennes."""
+        pattern = os.path.join(self.predictions_dir, "daily_elo_predictions*.csv")
+        for filepath in glob.glob(pattern):
+            try:
+                os.remove(filepath)
+                logger.info(f"Fichier résiduel supprimé: {filepath}")
+            except OSError as e:
+                logger.error(f"Erreur lors de la suppression de {filepath}: {e}")
 
     def load_elo_summary(self) -> pd.DataFrame:
         """Charge le fichier de synthèse de l'analyse Elo."""
@@ -211,7 +222,8 @@ class EloPredictionWorkflow:
 
         # Sauvegarde des prédictions
         daily_df = pd.DataFrame(predictions)
-        daily_filename = f"daily_elo_predictions_{self.today.strftime('%Y-%m-%d')}.csv"
+        self.cleanup_old_daily_files()
+        daily_filename = "daily_elo_predictions.csv"
         daily_filepath = os.path.join(self.predictions_dir, daily_filename)
         daily_df.to_csv(daily_filepath, index=False)
         logger.info(f"Prédictions Elo du jour sauvegardées dans: {daily_filepath}")
