@@ -127,3 +127,7 @@ fixture_id,date,league_name,home_team,away_team,home_team_elo,away_team_elo,home
 1436276,2025-08-26,League Cup,Swansea,Plymouth,1357,1309,0.3053,0.2316,0.4631,3.28,4.32,2.16,48.0,,,,,
 1436801,2025-08-26,League Cup,Burnley,Derby,1481,1295,0.493,0.169,0.338,2.03,5.92,2.96,186.0,,,,,
 1436272,2025-08-26,League Cup,Sheffield Wednesday,Leeds,1278,1529,0.1381,0.5857,0.2762,7.24,1.71,3.62,-251.0,,,,,
+1436259,2025-08-27,League Cup,Oxford United,Brighton,1295,1565,0.1293,0.612,0.2587,7.73,1.63,3.87,-270.0,,,,,
+1436265,2025-08-27,League Cup,Fulham,Bristol City,1504,1370,0.4189,0.1937,0.3874,2.39,5.16,2.58,134.0,,,,,
+1390871,2025-08-27,La Liga,Celta Vigo,Real Betis,1503,1554,0.2303,0.309,0.4607,4.34,3.24,2.17,-51.0,,,,,
+1435556,2025-08-27,UEFA Champions League,Benfica,Fenerbahce,1627,1541,0.3535,0.2155,0.431,2.83,4.64,2.32,86.0,,,,,
