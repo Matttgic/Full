@@ -29,7 +29,8 @@ from src.config import (
     SIMILARITY_THRESHOLD,
     MIN_BOOKMAKERS_THRESHOLD,
     ALL_LEAGUES,
-    MIN_SIMILARITY_PCT_THRESHOLD
+    MIN_SIMILARITY_PCT_THRESHOLD,
+    SEASONS_TO_COLLECT
 )
 
 # Configuration du logging
@@ -177,7 +178,7 @@ class DailyPredictionsWorkflow:
             logger.info(f"🏆 Récupération {league_code} - {league_info['name']}")
             
             # Essayer différentes saisons
-            for season in [2024, 2025]:
+            for season in SEASONS_TO_COLLECT:
                 params = {
                     'league': league_info['id'],
                     'season': season,
