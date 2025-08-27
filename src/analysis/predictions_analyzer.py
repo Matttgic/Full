@@ -159,15 +159,18 @@ class PredictionsAnalyzer:
         """Génère un rapport pour une date donnée"""
         if target_date is None:
             target_date = date.today().strftime('%Y-%m-%d')
-        
-        daily_file = os.path.join(self.predictions_dir, f"daily_{target_date}.csv")
-        
-        if not os.path.exists(daily_file):
-            logger.error(f"Fichier quotidien non trouvé: {daily_file}")
-            return ""
-        
+        # Utiliser les données historiques et filtrer par date
         try:
-            df = pd.read_csv(daily_file)
+            df = self.load_historical_data()
+            if df.empty:
+                return ""
+
+            df['date'] = df['date'].astype(str)
+            df = df[df['date'] == target_date]
+
+            if df.empty:
+                logger.error(f"Aucune donnée trouvée pour la date: {target_date}")
+                return ""
             
             report = f"""
 ═══════════════════════════════════════

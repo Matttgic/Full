@@ -53,3 +53,24 @@ def test_export_filtered_data(tmp_path):
     saved = pd.read_csv(output)
     assert saved["league_name"].unique().tolist() == ["B"]
 
+
+def test_generate_daily_report_from_historical(tmp_path):
+    """Vérifie que le rapport quotidien utilise les données historiques filtrées."""
+    predictions_dir = tmp_path / "data/predictions"
+    predictions_dir.mkdir(parents=True)
+    file_path = predictions_dir / "historical_predictions.csv"
+    pd.DataFrame({
+        "date": ["2025-03-01", "2025-03-01"],
+        "league_name": ["L1", "L2"],
+        "total_bet_types_analyzed": [2, 3],
+        "match_time": ["10:00", "12:00"],
+    }).to_csv(file_path, index=False)
+
+    analyzer = PredictionsAnalyzer()
+    analyzer.predictions_dir = str(predictions_dir)
+    analyzer.historical_file = str(file_path)
+
+    report = analyzer.generate_daily_report("2025-03-01")
+    assert "RAPPORT QUOTIDIEN - 2025-03-01" in report
+    assert "Nombre de matchs analysés: 2" in report
+
