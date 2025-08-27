@@ -54,7 +54,7 @@ class PredictionsAnalyzer:
         analysis = analysis.sort_values('matches_analyzed', ascending=False)
         
         logger.info("\n📊 ANALYSE PAR LIGUE:")
-        print(analysis.to_string())
+        logger.info(analysis.to_string())
         return analysis
     
     def analyze_by_date(self, df: pd.DataFrame) -> pd.DataFrame:
@@ -72,7 +72,7 @@ class PredictionsAnalyzer:
         analysis = analysis.sort_values('date', ascending=False)
         
         logger.info("\n📅 ANALYSE PAR DATE:")
-        print(analysis.tail(10).to_string())  # Derniers 10 jours
+        logger.info(analysis.tail(10).to_string())  # Derniers 10 jours
         return analysis
     
     def analyze_similarity_distribution(self, df: pd.DataFrame) -> Dict:
@@ -105,7 +105,7 @@ class PredictionsAnalyzer:
         
         logger.info("\n🎯 DISTRIBUTION DES SIMILARITÉS (top 10 types de paris):")
         for bet_type, stat in stats.items():
-            print(f"{bet_type[:30]:30} | Moy: {stat['mean']:5.1f}% | Med: {stat['median']:5.1f}% | Min-Max: {stat['min']:5.1f}%-{stat['max']:5.1f}% | Count: {stat['count']}")
+            logger.info(f"{bet_type[:30]:30} | Moy: {stat['mean']:5.1f}% | Med: {stat['median']:5.1f}% | Min-Max: {stat['min']:5.1f}%-{stat['max']:5.1f}% | Count: {stat['count']}")
         
         return stats
     
@@ -149,9 +149,9 @@ class PredictionsAnalyzer:
         
         logger.info(f"\n🔥 PRÉDICTIONS HAUTE CONFIANCE (≥{min_confidence}%):")
         for match in high_confidence_matches[:5]:  # Top 5
-            print(f"\n{match['date']} | {match['league']} | {match['match']}")
+            logger.info(f"\n{match['date']} | {match['league']} | {match['match']}")
             for bet in match['high_confidence_bets'][:3]:  # Top 3 paris par match
-                print(f"  • {bet['bet_type'][:40]:40} | Conf: {bet['confidence']:5.1f}% | Sim: {bet['similarity_pct']:5.1f}% | Cote: {bet['target_odd']}")
+                logger.info(f"  • {bet['bet_type'][:40]:40} | Conf: {bet['confidence']:5.1f}% | Sim: {bet['similarity_pct']:5.1f}% | Cote: {bet['target_odd']}")
         
         return pd.DataFrame(high_confidence_matches)
     
