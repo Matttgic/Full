@@ -70,3 +70,9 @@ source .env
   python3 src/demo_predictions.py
   ```
 - **Les prédictions réelles** sont générées automatiquement par le workflow `.github/workflows/elo_prediction.yml`. Les résultats apparaissent dans le dossier `data/predictions`.
+
+
+## 📄 Licence
+
+Ce projet est distribué sous la licence MIT. Consultez le fichier [LICENSE](LICENSE) pour plus d'informations.
+
