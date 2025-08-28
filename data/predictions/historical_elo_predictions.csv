@@ -131,3 +131,6 @@ fixture_id,date,league_name,home_team,away_team,home_team_elo,away_team_elo,home
 1436265,2025-08-27,League Cup,Fulham,Bristol City,1504,1370,0.4189,0.1937,0.3874,2.39,5.16,2.58,134.0,,,,,
 1390871,2025-08-27,La Liga,Celta Vigo,Real Betis,1503,1554,0.2303,0.309,0.4607,4.34,3.24,2.17,-51.0,,,,,
 1435556,2025-08-27,UEFA Champions League,Benfica,Fenerbahce,1627,1541,0.3535,0.2155,0.431,2.83,4.64,2.32,86.0,,,,,
+1435913,2025-08-28,Pro League,Damac,Al-Hazm,1224,1300,0.2198,0.3405,0.4397,4.55,2.94,2.27,-76.0,,,,,
+1435914,2025-08-28,Pro League,Al-Ettifaq,Al Kholood,1340,1266,0.3379,0.2207,0.4414,2.96,4.53,2.27,74.0,,,,,
+1435915,2025-08-28,Pro League,Al-Ahli Jeddah,NEOM,1403,1299,0.3776,0.2075,0.415,2.65,4.82,2.41,104.0,,,,,
